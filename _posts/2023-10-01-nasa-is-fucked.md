@@ -42,11 +42,11 @@ This is the Cost-Plus process: Your company gives an estimated price for a contr
 
 No one dies if SLS is delayed 5 years. So, the contractors can delay and get more money. Incentives are not aligned.
 
-
+### ‎
 
 The other explanation is politics. 
 
-First, I will focus on the Senate Launch System (SLS) and Artemis Program. 
+The Senate Launch System (SLS) and Artemis Program is the prime example of NASA's inefficiencies. 
 
 It was born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick post's have a lot of good info on this.</a>
 
@@ -70,7 +70,15 @@ My predictions for Artemis are the following:
 2. This replacement(s) will be derived from the reusable landers.
 3. The later Artemis missions will become more and more commercialized.
 
-
-
 Artemis is far from the only example of NASA's deep inefficencies.
 https://news.ycombinator.com/item?id=26274117
+
+### ‎
+
+The system that created the Senate Launch System isn't completely an accident. An important feature of how NASA is organized is development centres placed around the US.
+
+Because NASA has centres in multiple congressional districts, it has multiple Senators and Representatives that will fight for funding.
+
+This keep's NASA's funding high and stable. But it also means that NASA is a jobs program.
+
+I thought NASA was meant to explore space and do science. Not be a jobs program.
