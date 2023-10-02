@@ -53,7 +53,7 @@ Crypto is excellent for regulatory arbitrage and fighting authoritarianism. Take
 
 ###### Solar ftw, retail cost explains BC Hydro graph below.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image5.png){: height="350" .align-center}
+![Image description]({{site.url}}/assets/images/2023-09-22/image5.png){: height="350" align-self=center}
 
 ###### BC Hydro is increasing energy prices. We will put them out of business with solar. Only evil people increase the price of energy.
 

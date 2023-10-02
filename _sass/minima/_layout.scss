@@ -291,11 +291,11 @@
   h5 {
     @include relative-font-size(1.125);
   }
+}
 
-  .align-center {
-    text-align: center;
-    align-self: center;
-  }
+.align-center {
+  text-align: center;
+  align-self: center;
 }
 
 .social-media-list {
