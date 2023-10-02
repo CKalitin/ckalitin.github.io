@@ -38,9 +38,7 @@ The Constellation Program's plan to land on the moon involved two launches that 
 Launch 1: An Ares 5 launches a lander and a TLI stage.
 Launch 2: An Ares 1 launches an Orion capsule into orbit which docks to the prior launch's payload.
 
-When Constellation was rightly cancelled by the Obama Administration in favour of Commerical Space (lots of info about this in Lori Garver's book) the Senators complained about all the government-funded jobs that would disappear from their districts with the end of the Shuttle hardware. So, the Senators came up with the Senate Launch System (SLS). 
-
- --- Expand on how NASA shouldn't be a jobs program and how it came about
+When Constellation was rightly cancelled by the Obama Administration in favour of Commerical Space (lots of info about this in Lori Garver's book) the Senators complained about all the government-funded jobs that would disappear from their districts with the end of the Shuttle hardware. So, the Senators came up with the Senate Launch System (SLS).
 
 The SLS is an underoptimized rocket for its task: Landing on the Moon. A single-launch lunar landing is absolutely possible with it's 95-Ton LEO Capacity. However, the mass of Orion and its low-deltaV service module prevent this. Under the Constellation Program, the Altair lander would conduct the Lunar Orbit insertion burn. The Orion CSM is not supposed to get into Lunar Orbit on its own.
 
