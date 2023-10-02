@@ -290,6 +290,7 @@
 
   h5 {
     @include relative-font-size(1.125);
+    @include color(rgb(255, 0, 0));
   }
 }
 
