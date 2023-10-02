@@ -107,7 +107,7 @@ It is very important to understand the goal of NASA: Science and Exploration. Ot
 
 ‎
 
-Now that we have set the goal, we can use it as a framework to analyze NASA's current programs.
+Now that we have set the goal, we can use it as a framework to analyze NASA's current programs and predict its future.
 
 Show me a single example where a government agency has been more efficient than private companies. I can't think of a single one off the top of my head.
 
