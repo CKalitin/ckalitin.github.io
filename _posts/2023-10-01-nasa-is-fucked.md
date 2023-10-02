@@ -31,7 +31,7 @@ The other explanation is politics.
 
 The Senate Launch System (SLS) and Artemis Program are prime examples of NASA's inefficiencies. 
 
-They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick posts have a lot of good info on this.</a>
+They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick's posts have a lot of good info on this.</a>
 
 The Constellation Program's plan to land on the moon involved two launches that docked in Low Earth Orbit.
 Launch 1: An Ares 5 launches a lander and a TLI stage.
@@ -41,7 +41,7 @@ When Constellation was rightly cancelled by the Obama Administration in favour o
 
  --- Expand on how NASA shouldn't be a jobs program and how it came about
 
-The SLS is an underoptimized rocket for its task: Landing on the Moon. A single-launch lunar landing is absolutely possible with it's 95 Ton LEO Capacity. However, the mass of Orion and its low-deltaV service module prevent this. Under the Constellation Program, the Altair lander would conduct the Lunar Orbit insertion burn. The Orion CSM is not supposed to get into Lunar Orbit on its own.
+The SLS is an underoptimized rocket for its task: Landing on the Moon. A single-launch lunar landing is absolutely possible with it's 95-Ton LEO Capacity. However, the mass of Orion and its low-deltaV service module prevent this. Under the Constellation Program, the Altair lander would conduct the Lunar Orbit insertion burn. The Orion CSM is not supposed to get into Lunar Orbit on its own.
 
 The Constellation Architecture is not inherently flawed. But it takes NASA in the wrong direction, as I will explain later.
 In contrast, the Artemis Architecture takes a couple of parts of Constellation and a few parts of Commerical Space and joins them together in an underoptimized Lunar Program.
@@ -63,9 +63,9 @@ There are many examples of NASA impeding progress in space. Lori Garver's book E
 
 Who was against the commercialization of NASA? Who stands to lose if NASA becomes more efficient? The contractors and senators.
 
-These are the people who spoke out against the COTS, CRS, and Commercial Crew contracts. It is debatable whether they truly believed the commercial companies would fail or if they were just trying to keep their funding. The true answer obviously lies somewhere in the middle. However, with the last decade of progress in commerical space, it is clear that the commercial companies were the right choice.
+These are the people who spoke out against the COTS, CRS, and Commercial Crew contracts. It is debatable whether they truly believed the commercial companies would fail or if they were just trying to keep their funding. The true answer obviously lies somewhere in the middle. However, with the last decade of progress in commercial space, it is clear that the commercial companies were the right choice.
 
-It is a testament to the senators and contractors power that they could overcome a derective from the President of the United States. President Obama was in favour of the Commercialization of NASA.
+It is a testament to the senators and contractors power that they could overcome a directive from the President of the United States. President Obama was in favour of the Commercialization of NASA.
 
 With the recent OIG report on the cost overruns of the Mars Sample Return program (MSR), I saw a <a href="https://news.ycombinator.com/item?id=26274117">post</a> from a former JPL employee that is very relevant to this discussion.
 
@@ -91,7 +91,7 @@ Vivek Ramaswamy has spoken at length about how to fix this. When constructing th
 
 The system that created NASA's inefficiencies wasn't completely an accident. NASA's distributed nature was planned from the beginning.
 
-Because NASA has centres in multiple congressional districts it has multiple Senators and Representatives that will fight for funding. This keeps NASA's funding high and stable. But it also means that NASA is a jobs program.
+Because NASA has centers in multiple congressional districts it has multiple Senators and Representatives that will fight for funding. This keeps NASA's funding high and stable. But it also means that NASA is a jobs program.
 
 I thought NASA was meant to explore space and do science. Not be a jobs program.
 
@@ -127,11 +127,11 @@ Is it too far of a stretch to assume that private companies will be able to buil
 
 Commercialization is inevitable either way. We might as well embrace it early.
 
-The early voyages to North America were government funded. How many are today? None. The early voyages to the Moon were government funded. How many will be entirely government funded in the future? None.
+The early voyages to North America were government-funded. How many are today? None. The early voyages to the Moon were government-funded. How many will be entirely government-funded in the future? None.
 
 I hope NASA never builds a moon base. They are bad at building big orange rockets, so it's not a stretch to assume a NASA moon base would be far over budget and behind schedule as well.
 
-Commerical Space Stations are already in development and will fly in the next few years. They don't have a proven track record yet, but I am confident they will be successful in being cheaper and more efficient than the ISS.
+Commercial Space Stations are already in development and will fly in the next few years. They don't have a proven track record yet, but I am confident they will be successful in being cheaper and more efficient than the ISS.
 
 If Space Stations are commercialized, why not Moon Bases? The technical challenges are not insurmountable for private companies.
 
@@ -139,9 +139,9 @@ If Space Stations are commercialized, why not Moon Bases? The technical challeng
 
 Even with the commercialization of space, NASA still has a role to play in development programs. SpaceX would not be where it is today without NASA funding and collaborating with NASA on development. This is especially true for Crew Dragon.
 
-In the next 10-20 years NASA will still need to be involved in private development programs. They will provide funding and expertise. This will allow for privatly development programs that can be cheaper and more efficient than NASA could do on its own.
+In the next 10-20 years NASA will still need to be involved in private development programs. They will provide funding and expertise. This will allow for privately development programs that can be cheaper and more efficient than NASA could do on its own.
 
-NASA is a stepping stone for commerialization.
+NASA is a stepping stone for commercialization.
 
 The primary challenge in the future of completely commercializing space is the source of funding. How will companies make money if not from NASA? In-space manufacturing and mining offer a solution, but we will have to wait 10-50 years to see this play out.
 
@@ -149,7 +149,7 @@ The primary challenge in the future of completely commercializing space is the s
 
 What will NASA's role be in the commercialized future of space?
 
-NASA will use technology and space craft developed by private companies to conduct science and exploration.
+NASA will use technology and spacecraft developed by private companies to conduct science and exploration.
 
 This is already happening with the CLPS program. NASA is paying private companies to develop landers that can land on the Moon. NASA provides the experiments. The private companies provide the landers.
 
