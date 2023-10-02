@@ -27,10 +27,10 @@ Sections:
 
 In reseraching NASA I have come to the obivous conclusion that it is a horribly beauricratic and political organizaiton. I haven't seen anyone ardently dispute this point. As I am writing this post I see the Moon rising over the horizon. NASA has failed. We haven't colonized it yet.
 
-"NASA hasn't made any good rockets since the 60's" - Geohot on a stream. [Citation needed] Please help find the source
+"NASA hasn't made any good rockets since the 60's" - Geohot on a stream. [Citation needed, Please help find the source i've looked for an hour]
 
 How do a few kilograms of mars rocks cost $10B?
-How tf does the SLS cost $20B before its first flight?
+How tf does the SLS cost >$40B before its first flight?
 
 There's two core explanations: 
 1. Cost-Plus contracting
@@ -42,7 +42,7 @@ This is the Cost-Plus process: Your company gives an estimated price for a contr
 
 No one dies if SLS is delayed 5 years. So, the contractors can delay and get more money. Incentives are not aligned.
 
-### ‎
+##### ‎
 
 The other explanation is politics. 
 
@@ -73,7 +73,7 @@ My predictions for Artemis are the following:
 Artemis is far from the only example of NASA's deep inefficencies.
 https://news.ycombinator.com/item?id=26274117
 
-### ‎
+##### ‎
 
 The system that created the Senate Launch System isn't completely an accident. An important feature of how NASA is organized is development centres placed around the US.
 
