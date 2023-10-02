@@ -26,7 +26,8 @@ Sections:
 ## How'd This Happen?
 
 In reseraching NASA I have come to the obivous conclusion that it is a horribly beauricratic and political organizaiton. I haven't seen anyone ardently dispute this point.
-"NASA hasn't made any good rockets since the 60's" - Geohot on a stream. [Citation needed]
+As I am writing this post I see the Moon rising over the horizon. NASA has failed. We haven't colonized it yet.
+"NASA hasn't made any good rockets since the 60's" - Geohot on a stream. [Citation needed] Please help find the source
 
 How do a few kilograms of mars rocks cost $10B?
 How tf does the SLS cost $20B before its first flight?
@@ -39,10 +40,11 @@ Cost-Plus contracting gained a lot of popularity during the Second World War. Th
 
 No one dies if SLS is delayed 5 years. So Boeing can just keep asking for more money. And they do. And they get it. And they're still not done.
 
+
 The other explanation is politics. 
 
-First, I will focus on the Senate Launch System (SLS). 
-It was born out of the constellation program. Ozan Belick post's have a lot of good info on this. [Citation needed]
+First, I will focus on the Senate Launch System (SLS) and Artemis Program. 
+It was born out of the constellation program. Ozan Belick post's have a lot of good info on this. https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html
 
 The Constellation Program's plan to land on the moon involved two launches that docked in Low Earth Orbit.
 1. An Ares 1 launches an Orion capsule into orbit
@@ -62,4 +64,6 @@ My prediction for Artemis is the following:
 2. These replacement(s) will be derived from the reusable landers.
 3. The later Artemis missions will become more and more commercialized.
 
-Expanding on the political natuer of NASA
+
+Artemis is far from the only example of NASA's deep inefficencies.
+https://news.ycombinator.com/item?id=26274117
