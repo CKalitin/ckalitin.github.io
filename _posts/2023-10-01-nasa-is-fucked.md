@@ -97,11 +97,6 @@ I thought NASA was meant to explore space and do science. Not be a jobs program.
 
 ## How to Fix NASA
 
-1. What's the goal?
-2. Become a customer, not a provider "One customer of many"
-3. Commercialize Space (inevitable either way)
-4. Build platforms for science (CLPS)
-
 What is the goal of NASA?
 
 If you ask most people I hope they would say to do science and explore space. 
@@ -151,7 +146,7 @@ What will NASA's role be in the commercialized future of space?
 
 NASA will use technology and spacecraft developed by private companies to conduct science and exploration.
 
-This is already happening with the CLPS program. NASA is paying private companies to develop landers that can land on the Moon. NASA provides the experiments. The private companies provide the landers.
+This is already happening with the CLPS program. NASA is paying private companies to develop Moon landers. NASA provides the experiments. The private companies provide the landers.
 
 This is the first era of commercializing space. NASA provides funding, technical expertise, and the payload.
 In the next era, private space companies provide End-to-End solutions for missions.
