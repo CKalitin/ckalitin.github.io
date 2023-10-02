@@ -6,23 +6,6 @@ title: "NASA's fucked - Here's my vision"
 
 Hopefully writing these blog posts makes me smarter and doesn't purely put my partly correct ideas on the internet.
 
-Todo:
-1. Constellation becoming SLS (fucked)
-2. Cost plus
-3. Origin of cost-plus (ww2, cost-plus was fine in Apollo era)
-4. How did no one see this? Laziness? Worden & Musk?
-5. Shut down the education department - Aside on Ramaswamy and budgeting
-
-How to fix it:
-1. One customer of many
-2. Commercialize Space (inevitable either way)
-3. What's the goal? I thought it was science, not a jobs program
-4. Build platforms for science (CLPS)
-
-Sections:
-1. How'd this happen? (origin of cost plus and how it evolved)
-2. How fix? (Make the goal science)
-
 ## How'd This Happen?
 
 In researching NASA I have come to the obvious conclusion that it is a horribly bureaucratic and political organizaiton. I haven't seen anyone ardently dispute this point. As I am writing this post I see the Moon rising over the horizon. NASA has failed. We haven't colonized it yet.
@@ -115,17 +98,66 @@ I thought NASA was meant to explore space and do science. Not be a jobs program.
 ## How to Fix NASA
 
 1. What's the goal?
-2. Become a customer, not a provider
-3. Commercialize Space
-4. Build platforms for science
+2. Become a customer, not a provider "One customer of many"
+3. Commercialize Space (inevitable either way)
+4. Build platforms for science (CLPS)
 
 What is the goal of NASA?
 
 If you ask most people I hope they would say to do science and explore space. 
 
-There is a rhetoric that being a jobs program for people who work on out-of-date technology is a good thing. I disagree. Keeping people employed is good for those people and the economy, but not the science of exploring space.
+There is a rhetoric that being a jobs program for people who work on out-of-date technology is a good thing. I disagree. Keeping people employed is good for those people and the economy, but not for science or exploring space.
 
-It is very important to understand the goal of NASA: science and exploration. Otherwise, you get sucked into thinking NASA should be a jobs program.
+It is very important to understand the goal of NASA: Science and Exploration. Otherwise, you get sucked into thinking NASA should be a jobs program.
 
 ‎
 
+Now that we have set the goal, we can use it as a framework to analyze NASA's current programs.
+
+Show me a single example where a government agency has been more efficient than private companies. I can't think of a single one off the top of my head.
+
+NASA should be a customer, not a provider.
+"One customer among many" - Jim Bridenstine, former NASA Administrator
+
+Private companies have proven their ability to get to space cheaper and more efficiently than NASA. This is why for most payloads, NASA uses commercial launch providers. Private companies can also get people to space cheaper and safer than NASA could. This isn't purely SpaceX's doing, but they have been the most successful at it.
+
+Is it too far of a stretch to assume that private companies will be able to build and operate space stations, rovers, bases, Moon landers, etc. better than NASA could?
+
+‎
+
+Commercialization is inevitable either way. We might as well embrace it early.
+
+The early voyages to North America were government funded. How many are today? None. The early voyages to the Moon were government funded. How many will be entirely government funded in the future? None.
+
+I hope NASA never builds a moon base. They are bad at building big orange rockets, so it's not a stretch to assume a NASA moon base would be far over budget and behind schedule as well.
+
+Commerical Space Stations are already in development and will fly in the next few years. They don't have a proven track record yet, but I am confident they will be successful in being cheaper and more efficient than the ISS.
+
+If Space Stations are commercialized, why not Moon Bases? The technical challenges are not insurmountable for private companies.
+
+‎
+
+Even with the commercialization of space, NASA still has a role to play in development programs. SpaceX would not be where it is today without NASA funding and collaborating with NASA on development. This is especially true for Crew Dragon.
+
+In the next 10-20 years NASA will still need to be involved in private development programs. They will provide funding and expertise. This will allow for privatly development programs that can be cheaper and more efficient than NASA could do on its own.
+
+NASA is a stepping stone for commerialization.
+
+The primary challenge in the future of completely commercializing space is the source of funding. How will companies make money if not from NASA? In-space manufacturing and mining offer a solution, but we will have to wait 10-50 years to see this play out.
+
+‎
+
+What will NASA's role be in the commercialized future of space?
+
+NASA will use technology and space craft developed by private companies to conduct science and exploration.
+
+This is already happening with the CLPS program. NASA is paying private companies to develop landers that can land on the Moon. NASA provides the experiments. The private companies provide the landers.
+
+This is the first era of commercializing space. NASA provides funding, technical expertise, and the payload.
+In the next era, private space companies provide End-to-End solutions for missions.
+
+The payloads of NASA missions will be commercialized. Currently, NASA is very much involved in the development of its own satellites and Mars landers. In the future, NASA will provide the mission requirements and private companies build the satellites and landers.
+
+‎
+
+Commercialization has been the trend in all industries. It is inevitable that this will happen in space. It is only a matter of time.
