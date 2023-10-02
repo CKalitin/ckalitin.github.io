@@ -46,9 +46,9 @@ No one dies if SLS is delayed 5 years. So, the contractors can delay and get mor
 
 The other explanation is politics. 
 
-The Senate Launch System (SLS) and Artemis Program is the prime example of NASA's inefficiencies. 
+The Senate Launch System (SLS) and Artemis Program are prime examples of NASA's inefficiencies. 
 
-It was born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick post's have a lot of good info on this.</a>
+They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick post's have a lot of good info on this.</a>
 
 The Constellation Program's plan to land on the moon involved two launches that docked in Low Earth Orbit.
 Launch 1: An Ares 5 launches a lander and a TLI stage.
@@ -58,7 +58,7 @@ When Constellation was rightly cancelled by the Obama Administration in favour o
 
  --- Expand on how NASA shouldn't be a jobs program and how it came about
 
-The SLS is an underoptimized rocket for it's task: Landing on the Moon. A single launch lunar landing is absolutely possible with it's 95 Ton LEO Capacity. However, the mass of Orion and its low-deltaV service module prevent this. Under the Constellation Program, the Altair lander would do the Lunar Orbit insertion burn. The Orion CSM is not supposed to get into Lunar Orbit on its own.
+The SLS is an underoptimized rocket for it's task: Landing on the Moon. A single launch lunar landing is absolutely possible with it's 95 Ton LEO Capacity. However, the mass of Orion and its low-deltaV service module prevent this. Under the Constellation Program, the Altair lander would conduct the Lunar Orbit insertion burn. The Orion CSM is not supposed to get into Lunar Orbit on its own.
 
 The Constellation Architecture is not inherently flawed. But it takes NASA in the wrong direction, as I will explain later.
 In contrast, the Artemis Architecture takes a couple parts of Constellation and a few parts of Commerical Space and joins them together in an underoptimized Lunar Program.
@@ -72,6 +72,8 @@ My predictions for Artemis are the following:
 
 Artemis is far from the only example of NASA's deep inefficencies.
 https://news.ycombinator.com/item?id=26274117
+
+Nasa is impeding progress, Commercial, JPL, etc.
 
 ---------------------------------------------
 
