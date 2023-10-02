@@ -42,7 +42,7 @@ This is the Cost-Plus process: Your company gives an estimated price for a contr
 
 No one dies if SLS is delayed 5 years. So, the contractors can delay and get more money. Incentives are not aligned.
 
-##### ‎
+‎
 
 The other explanation is politics. 
 
@@ -73,7 +73,6 @@ My predictions for Artemis are the following:
 Artemis is far from the only example of NASA's deep inefficencies.
 https://news.ycombinator.com/item?id=26274117
 
-##### ‎
 ---------------------------------------------
 
 The system that created the Senate Launch System isn't completely an accident. An important feature of how NASA is organized is development centres placed around the US.
