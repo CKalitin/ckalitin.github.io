@@ -2,7 +2,8 @@
 layout: post
 title: "Applying the Law of Accelerating Returns"
 categories: Technology
-author: Christopher Kalitin
+author:
+ - Christopher Kalitin
 ---
 
 I’ve read a few of George Hotz’s blog posts. So I’m starting a blog.
