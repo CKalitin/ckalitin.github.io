@@ -58,7 +58,7 @@ Which companies are poised to be the winners in these industries?
 1. Tesla - Leader in EVs, Autonomous Driving, Solar Energy Generation, and Energy Storage
 2. SpaceX - Leader in Space Launch and Space Applications
 3. Rocket Lab - Second Place in Space Launch and Space Applications Hardware
-5. NVIDIA - Leader in AI Hardware and Software, although hopefully not for long
+5. NVIDIA - Leader in AI Training Hardware and Software, although hopefully not for long
 
 ‎
 
