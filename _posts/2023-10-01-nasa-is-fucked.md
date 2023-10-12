@@ -151,6 +151,8 @@ NASA will use technology and spacecraft developed by private companies to conduc
 
 This is already happening with the CLPS program. NASA is paying private companies to develop Moon landers. NASA provides the experiments. The private companies provide the landers.
 
+The Commericalization of space is already occuring as private companies are creating an economy in space. NASA should embrace this and use it to its advantage.
+
 This is the first era of commercializing space. NASA provides funding, technical expertise, and the payload.
 In the next era, private space companies provide End-to-End solutions for missions.
 

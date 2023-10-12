@@ -75,7 +75,7 @@ One million is only 3 10x's away from one billion. This will take 3 decades from
 ‎
 
 you - pronoun  
-Used to refer to the person or <i>people</i> that the speaker is addressing.
+Used to refer to the person or <b><i>people</i></b> that the speaker is addressing.
 
 Kurzweil began the chapter 'The Singularity as Economic Imperative' in The Singularity is Near the same way I began this post. “You will get 80 Trillion dollars just by reading this section and understanding what it says”
 
