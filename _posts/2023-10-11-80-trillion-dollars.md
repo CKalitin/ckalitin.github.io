@@ -36,7 +36,7 @@ I am making many predictions now so that in 10 years I will understand if I was 
 
 These are my predictions for the future:
 1. EV adoption will follow an S-curve and will be greater than 90% of new car sales by 2030.
-2. More than 50% of total kilometers driven will be autonomous by 2033.
+2. More than 50% of total kilometres driven will be autonomous by 2033.
 3. The growth of renewable energy will follow an S-curve.
 4. In 2050, solar will be the largest source of energy on Earth. Barring any fusion breakthroughs.
 5. Space Applications (eg. Starlink) will grow exponentially long into the future.
