@@ -10,8 +10,8 @@ It's true that an author will do just about anything to keep your attention, but
 
 You must apply the Law of Accelerating Returns to your investment philosophy.
 
-If you bought Tesla stock 10 years ago and held you'd be up 21x\n
-If you bought Apple stock 10 years ago and held you'd be up 9x\n
+If you bought Tesla stock 10 years ago and held you'd be up 21x</br>
+If you bought Apple stock 10 years ago and held you'd be up 9x  
 If you bought Amazon stock 10 years ago and held you'd be up 7x
 
 With this data is it obvious that predicting the next companies to 10x is the best investment strategy.
