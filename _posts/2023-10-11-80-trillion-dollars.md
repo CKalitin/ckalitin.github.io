@@ -5,7 +5,9 @@ categories: Investing
 author:
  - Christopher Kalitin
 ---
-
+<head>
+    <meta property="og:image" content="{{site.url}}/assets/images/2023-09-22/image8.png">
+</head>
 It's true that an author will do just about anything to keep your attention, but I am serious about the title of this post.
 
 You must apply the Law of Accelerating Returns to your investment philosophy.
