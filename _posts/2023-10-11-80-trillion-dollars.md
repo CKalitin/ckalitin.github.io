@@ -1,17 +1,10 @@
 ---
 layout: post
-title: "You Will Get 80 Trillion Dollars if you Read This Closely"
+title: "You Will Get 80 Trillion Dollars If You Read This Closely"
 categories: Investing
 author:
  - Christopher Kalitin
 ---
-
-1. Law of accelerating returns is the only rational investment philosophy.
-2. Examples - Stock charts & Segment charts
-3. Fuck short-term (You're predicting the market, not companies - Also, it takes too much effort)
-4. The Pie is not fixed - Economic growth
-5. Examples of highest valued companies over time (East India is inflation adjusted?)
-6. I will be a billionaire (1M is only 3 10x's away from 1B)
 
 It's true that an author will do just about anything to keep your attention, but I am serious about the title of this post.
 
@@ -83,4 +76,4 @@ Used to refer to the person or <i>people</i> that the speaker is addressing.
 
 Kurzweil began the chapter 'The Singularity as Economic Imperative' in The Singularity is Near the same way I began this post. “You will get 80 Trillion dollars just by reading this section and understanding what it says”
 
-You collectively will all get 80+ trillion dollars. Although, depending on how far you look, this number could be orders of magnitude higher.
+You collectively will all get 80+ trillion dollars if you understand this post. Although, depending on how far you look, this number could be orders of magnitude higher.
