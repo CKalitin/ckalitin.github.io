@@ -5,6 +5,9 @@ categories: Space
 author:
  - Christopher Kalitin
 ---
+<head>
+    <meta property="og:image" content="{{site.url}}/assets/images/covers/nasa-is-fucked.jpg">
+</head>
 
 Hopefully writing these blog posts makes me smarter and doesn't purely put my partly correct ideas on the internet.
 

@@ -5,6 +5,9 @@ categories: Technology
 author:
  - Christopher Kalitin
 ---
+<head>
+    <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
+</head>
 
 I’ve read a few of George Hotz’s blog posts. So I’m starting a blog.
 This is a first, late-night, attempt at a blog post.
