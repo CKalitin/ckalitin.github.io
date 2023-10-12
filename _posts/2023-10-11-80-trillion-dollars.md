@@ -7,7 +7,7 @@ author:
 ---
 <head>
     <meta property="og:title" content="You Will Get 80 Trillion Dollars If You Read This Closely">
-    <meta property="og:image" content="{{site.url}}/assets/images/covers/80-trillion-dollars.png">
+    <meta property="og:image" content="{{site.url}}/assets/images/covers/80-trillion-dollars.jpg">
 </head>
 
 It's true that an author will do just about anything to keep your attention, but I am serious about the title of this post.
