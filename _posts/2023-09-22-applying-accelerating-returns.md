@@ -7,7 +7,7 @@ author:
 ---
 <head>
     <meta property="og:title" content="Applying the Law of Accelerating Returns">
-    <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
+    <meta property="og:image" content="https://ckalitin.github.io/assets/images/2023-09-22/image1.png">
 </head>
 
 I’ve read a few of George Hotz’s blog posts. So I’m starting a blog.
