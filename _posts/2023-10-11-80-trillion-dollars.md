@@ -46,6 +46,32 @@ A note on fusion: If there is a fusion breakthrough that allows <1 cent per kWh 
 
 ‎
 
+With the predictions I made above, I can now make predictions about the future of industries and companies.
+
+1. There will be a paradigm shift in the automotive industry away from personal ownership of ICE vehicles over to Autonomous Robotaxi EVs.
+2. The energy industry will be dominated by solar and wind.
+3. Space Applications will grow exponentailly.
+4. The use cases of AI will grow exponentially.
+
+Which companies are poised to be the winners in these industries?
+
+1. Tesla - Leader in EVs, Autonomous Driving, and in Solar Energy Generation and Storage
+2. SpaceX - Leader in Space Launch and Space Applications
+3. Rocket Lab - Second Place in Space Launch and Space Applications Hardware
+5. NVIDIA - Leader in AI Hardware and Software, although hopefully not for long
+
+‎
+
+Investing in 1st place is a safer strategy, but investing in 2nd place can be more profitable.
+
+Rocket Lab is starting from a much lower base than SpaceX. $2B vs $150B market caps. This Rocket Lab's valuation may grow more than SpaceX's. Also, Rocket Lab is public.
+
+Comma AI is worth ~$100M, Tesla is worth ~$800B. Comma will hopefully never "sell out to the bankers" so good luck investing in them.
+
+This is the largest difference between predicting industries and investing in companies. When predicting industries and companies you are extrapolating progress out into the future. When investing in companies there is the added variable of share price.
+
+‎
+
 Short-term investing is for idiots, obviously.
 
 Short-term investing is predicting the stock market.  
