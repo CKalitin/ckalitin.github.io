@@ -10,15 +10,15 @@ It's true that an author will do just about anything to keep your attention, but
 
 You must apply the Law of Accelerating Returns to your investment philosophy.
 
-If you bought Tesla stock 10 years ago and held you'd be up 21x</br>
+If you bought Tesla stock 10 years ago and held you'd be up 21x  
 If you bought Apple stock 10 years ago and held you'd be up 9x  
 If you bought Amazon stock 10 years ago and held you'd be up 7x
 
 With this data is it obvious that predicting the next companies to 10x is the best investment strategy.
 10% per year in the S&P 500 is fine, 2.6x over 10 years. However, a 25% CAGR with companies that 10x every decade will make you a billionaire. 10x per decade is my target.
 
-Now the question has been reframed. 
-It is no longer: "How do I invest." This is obviously a question for dumb people.
+Now the question has been reframed.   
+It is no longer: "How do I invest." This is obviously a question for dumb people.  
 Now the question is: "Which segments will undergo exponential growth over the next 10+ years and which companies will be the winners in those segments."
 
 It is important to start with segments, not companies. Companies are individual entities so they are difficult to predict individually. Entire segments are much larger and thus easier to predict.
@@ -45,7 +45,7 @@ A note on fusion: If there is a fusion breakthrough that allows <1 cent per kWh 
 
 Short-term investing is for idiots, obviously.
 
-Short-term investing is predicting the stock market.
+Short-term investing is predicting the stock market.  
 Long-term investing is predicting the company and the segment.
 
 It is possible to successfully invest short term. But it is much more difficult and less interesting. Do you really want to worry about what the FED will do to interest rates next month? I'd rather model the future of humanity.
@@ -54,11 +54,11 @@ It is possible to successfully invest short term. But it is much more difficult 
 
 The economic pie is not fixed. The economy is growing exponentially.
 
-In 1980, the company will the highest profit was Exxon Mobil with a profit of 4.2 billion dollars.
-In 2000, it was General Motors with a profit of 6 billion dollars.
+In 1980, the company will the highest profit was Exxon Mobil with a profit of 4.2 billion dollars.  
+In 2000, it was General Motors with a profit of 6 billion dollars.  
 In 2022, it was Saudi Aramco at 300 billion dollars. Apple in second place with $122B.
 
-In 2000, Microsoft was the most valuable company at ~400 billion dollars.
+In 2000, Microsoft was the most valuable company at ~400 billion dollars.  
 Now, Apple is worth 2.8 Trillion dollars.
 
 This is why you will get 80 Trillion dollars. Extrapolate these exponential trends into the future.
@@ -71,7 +71,7 @@ One million is only 3 10x's away from one billion. This will take 3 decades from
 
 ‎
 
-you - pronoun
+you - pronoun  
 Used to refer to the person or <i>people</i> that the speaker is addressing.
 
 Kurzweil began the chapter 'The Singularity as Economic Imperative' in The Singularity is Near the same way I began this post. “You will get 80 Trillion dollars just by reading this section and understanding what it says”
