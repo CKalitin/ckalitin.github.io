@@ -22,15 +22,15 @@ With this data is it obvious that predicting the next companies to 10x is the be
 
 Now the question has been reframed.   
 It is no longer: "How do I invest." This is obviously a question for dumb people.  
-Now the question is: "Which segments will undergo exponential growth over the next 10+ years and which companies will be the winners in those segments."
+Now the question is: "Which industries will undergo exponential growth over the next 10+ years and which companies will be the winners in those industries."
 
-It is important to start with segments, not companies. Companies are individual entities so they are difficult to predict individually. Entire segments are much larger and thus easier to predict.
+It is important to start with industries, not companies. Companies are individual entities so they are difficult to predict individually. Entire industries are much larger and thus easier to predict.
 
 The Law of Accelerating Returns and S-curves can be applied to any segment as a method of understanding if that segment will undergo exponential growth.
 
 You must be careful to not over-apply the Law of Accelerating Returns. My first model of global energy production had wind generating 2.7 exa watt-hours in 2100. This is obviously unreasonable. There are limits to growth. These limits must be understood when modelling anything into the future. For mostly finite markets, eg. EVs, S-curves can help in the short term. For infinite markets, eg. energy, you simply must acquire a fundamental understanding of the technology.
 
-The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to segments, these models require much more thought and effort. I do not have much wisdom to share on this topic right now. This is much more difficult than predicting segments, there is a reason Kurzweil predicted segments and not companies. In the future, I will write a post about how I created these models.
+The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to industries, these models require much more thought and effort. I do not have much wisdom to share on this topic right now. This is much more difficult than predicting industries, there is a reason Kurzweil predicted industries and not companies. In the future, I will write a post about how I created these models.
 
 I am making many predictions now so that in 10 years I will understand if I was correct or not. This is the purpose of this blog.
 
