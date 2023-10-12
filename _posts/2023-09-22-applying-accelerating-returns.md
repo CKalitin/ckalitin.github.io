@@ -97,7 +97,7 @@ This is the extent of my predictions on the future of AI. At the moment, I do no
 
 If this is too abstract for you, read The Final Question by Issac Asimov. 
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image8.png){: height="350" .align-center}
+![Image description]({{site.url}}/assets/images/2023-09-22/image8.png){: height="450" .align-center}
 
 ###### Epoch 6 is the important one for meeting God.
 
