@@ -6,6 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
+    <meta property="og:title" content="NASA's fucked - Here's my vision">
     <meta property="og:image" content="{{site.url}}/assets/images/covers/nasa-is-fucked.jpg">
 </head>
 

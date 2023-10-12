@@ -6,6 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
+    <meta property="og:title" content="You Will Get 80 Trillion Dollars If You Read This Closely">
     <meta property="og:image" content="{{site.url}}/assets/images/covers/80-trillion-dollars.png">
 </head>
 

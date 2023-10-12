@@ -6,6 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
+    <meta property="og:title" content="Applying the Law of Accelerating Returns">
     <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
 </head>
 
