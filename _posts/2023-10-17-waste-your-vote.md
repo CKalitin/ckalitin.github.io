@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.png">
 </head>
 
-So far I've been posting blog posts summarizing existing thoughts. Hopefully, in the future, I will run out of these topics and get to new topics. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
+So far I've been posting blog posts summarizing existing thoughts. Hopefully, in the future, I will run out of these topics and get to new fields. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
 
 Xavier, please critique this post sentence by sentence and tell me EXACTLY where I am wrong and consider the knock-on effects of certain points.
 
@@ -21,7 +21,7 @@ I will use <a href="https://www.elections.ca/Scripts/vis/PastResults?L=e&ED=5901
 
 In the past 3 elections in the Burnaby-New West riding the NDP has won with ~45% of the vote. This data only goes back 3 elections and there have been no real differences aside from independent candidates and minor parties joining and leaving the elections over the years.
 
-I will bet $1000000 that the winner of the next election will be the NDP candidate. There is almost nothing I can do to change this outcome. If anyone would like to take my bet, email me: Christopher.Kalitin@gmail.com
+I will bet $1000000 that the winner of the next election will be the NDP candidate. There is almost nothing I or any of you reading this can do to change this outcome. If anyone would like to take my bet, email me: Christopher.Kalitin@gmail.com
 
 There are countless ridings just like this one. If you are not in a swing riding your vote doesn't matter. The same goes for states as well.
 
@@ -49,9 +49,9 @@ I've covered people who have valid reasons to vote. Now, for the majority of you
 
 DON'T VOTE!
 
-By voting you are supporting representative democracy. Fuck representative democracy. It's horribly underoptimized. If we decrease voter turnout enough something must happen to overthrow representative democracy and replace it with something better!
+By voting you are supporting representative democracy. Fuck representative democracy. It's horribly underoptimized. If we decrease voter turnout enough, something must happen to overthrow representative democracy and replace it with something better!
 
-Centralizing power appears to have often been a bad thing throughout history. representative democracy centralizes power with politicians. Better than aristocracies, but still not ideal. "Capitalism is the worst economic system, except for all the others."
+Centralizing power appears to have often been a bad thing throughout history. Representative democracy centralizes power with politicians. Better than aristocracies, but still not ideal. "Capitalism is the worst economic system, except for all the others."
 
 I've come to a conclusion given these two insights: (i) your vote doesn't matter and (ii) supporting representative democracy is bad. My conclusion is you shouldn't vote, or at the very least you should waste your vote.
 
