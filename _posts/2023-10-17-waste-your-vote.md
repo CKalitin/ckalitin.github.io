@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.png">
 </head>
 
 So far I've been posting blog posts summarizing existing thoughts. Hopefully, in the future, I will run out of these topics and get to new topics. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
