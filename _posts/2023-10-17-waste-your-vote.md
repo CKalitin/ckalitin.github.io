@@ -9,14 +9,17 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/nasa-is-fucked.jpg">
 </head>
 
-So far I've been posting blog posts summarizing existing thoughts. Hopefully in the future I will runout of these topics and get to new topics. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.  
+So far I've been posting blog posts summarizing existing thoughts. Hopefully in the future I will runout of these topics and get to new topics. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
+
 Xaiver, please critique this post sentance by sentance and tell me EXACTLY where I am wrong and consider the knock-on effects of certain points.
+
+‎
 
 If it is not already clear to you: your vote does not matter.
 
 I will use <a href="https://www.elections.ca/Scripts/vis/PastResults?L=e&ED=59019&EV=99&EV_TYPE=6&QID=-1&PAGEID=28">data from my riding</a> in the previous Canadian general elections.
 
-In the past 3 elections - from 2015 - the NDP has won with ~45% of the vote. This data only goes back 3 elections and there have been no real differences aside from independent candidates and minor parties joining and leaving the elections over the years.
+In the past 3 elections in the Burnaby-New West riding the NDP has won with ~45% of the vote. This data only goes back 3 elections and there have been no real differences aside from independent candidates and minor parties joining and leaving the elections over the years.
 
 I will bet $1000000 that the winner of the next election will be the NDP candidate. There is almost nothing I can do to change this outcome. If anyone would like to take my bet, email me: Christopher.Kalitin@gmail.com
 
@@ -52,8 +55,7 @@ Centralizing power appears to be have often been a bad thing throughout history.
 
 I've come to a conclusion given these two insights: (i) your vote doesn't matter and (ii) supporting representitive democracy is bad. My conclusion is you shouldn't vote, or at the very least you should waste your vote.
 
-For voters in Canada there is an obvious option: Vote for the Green Party!
-
+For voters in Canada there is an obvious option: Vote for the Green Party!  
 The Green Party will never win! They get under 5% of the vote! Might as well vote for them for fun! I support the turtles!  
 Or even better: Vote for Quebec to succeed! Give it back to France!
 
