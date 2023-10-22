@@ -30,7 +30,7 @@ Fundamentally the trouble is teenage Bo Burnham does not feel it is fair that he
 
 This is the juxtaposition in modern society between the artist and the labourer. This isn't a particularly perfect framework, but some people think it's useful. Both the artist and labourer are fundamental to society. Both are absolutely necessary in different ways, as with men and women.
 
-![Image description]({{site.url}}/assets/images/2023-10-21/image1.png){: height="140" .align-center}
+![Image description]({{site.url}}/assets/images/2023-10-21/image1.png){: height="140" .align-center}  
 <a href="https://www.politicalcompass.org/test/en">Political Compass Test</a>
 
 The lyrics are fundamentally on the side of the business person and manufacturer. In other words, teenage Bo Burnham is obviously conservative. This appears to be attributable to a teenager not knowing who he truly is. This is what leads to the 'I'm depressed but it's funny' nature of Inside and millenials joking about themselves not being fully developed adults.
