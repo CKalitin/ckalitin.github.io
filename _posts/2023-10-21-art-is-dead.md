@@ -8,7 +8,7 @@ author:
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/covers/art-is-dead.jpg">
 </head>
-
+ 
 Bo Burnham wrote <a href="https://www.youtube.com/watch?v=z8WunrI7yh0&list=RDsASBhmBb59I&index=15">Art Is Dead</a> in 2010, well before 'Netflix-special' Bo Burnham existed.
 
 The entire narrative of the song is incorrect.
