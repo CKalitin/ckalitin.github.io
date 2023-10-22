@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Art Is Dead?"
-categories: Government
+categories: Miscellaneous
 author:
  - Christopher Kalitin
 ---
