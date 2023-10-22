@@ -53,11 +53,11 @@ He'll be rewarded
 These lyrics are an interesting take on how comedians come to be. Seems mostly accurate, I'll save the blog post on how we develop our personalities for the future.
 
 <i>
-Art is dead
-So people think you're funny
-How do you get those people's money?
-Said art is dead
-We're rolling in dough
+Art is dead  
+So people think you're funny  
+How do you get those people's money?  
+Said art is dead  
+We're rolling in dough  
 While Carlin rolls in his grave
 </i>
 
