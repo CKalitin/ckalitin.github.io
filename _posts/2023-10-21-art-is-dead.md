@@ -42,9 +42,9 @@ I can explain it pretty easily
 Have you ever been to a birthday party for children?  
 And one of the children  
 Won't stop screaming  
-Cause he's just a little attention attractor
+Cause he's just a little attention attractor</i>
 
-When he grows up  
+<i>When he grows up  
 To be a comic or actor  
 He'll be rewarded  
 ...
