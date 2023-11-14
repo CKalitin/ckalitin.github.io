@@ -66,8 +66,6 @@ Crypto is excellent for regulatory arbitrage and fighting authoritarianism. Take
 
 ###### Anything above the line should be disrupted. Housing too. Buy Tesla stock, not real estate.
 
-Now, AI.
-
 The question of how exactly AI will impact our lives in 50 years is a very difficult one. The growth of AI is too fast to predict its impacts long into the future. Luckily I don’t need to know the exact use cases of AI in 50 years to work on it today.
 
 The exponential growth of AI should strike fear into everyone’s hearts. ChatGPT did this for a while, then it became normal.
