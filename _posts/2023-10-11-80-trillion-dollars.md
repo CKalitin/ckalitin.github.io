@@ -28,9 +28,10 @@ It is important to start with industries, not companies. Companies are individua
 
 The Law of Accelerating Returns and S-curves can be applied to any segment as a method of understanding if that segment will undergo exponential growth.
 
-You must be careful to not over-apply the Law of Accelerating Returns. My first model of global energy production had wind generating 2.7 exa watt-hours in 2100. This is obviously unreasonable. There are limits to growth. These limits must be understood when modelling anything into the future. For mostly finite markets, eg. EVs, S-curves can help in the short term. For infinite markets, eg. energy, you simply must acquire a fundamental understanding of the technology.
+You must be careful to not over-apply the Law of Accelerating Returns. My first model of global energy production had wind generating 2.7 exa watt-hours in 2100. This is obviously unreasonable. There are limits to growth. These limits must be understood when modelling anything into the future. For mostly finite markets, eg. EVs, S-curves can help in the short term. For infinite markets, eg. energy, you simply must acquire a fundamental understanding of the technology.  
+Basically, just don't be stupid. Could replace this paragraph with that. Don't be stupid!
 
-The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to industries, these models require much more thought and effort. I do not have much wisdom to share on this topic right now. This is much more difficult than predicting industries, there is a reason Kurzweil predicted industries and not companies. In the future, I will write a post about how I created these models.
+The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to industries, these models require much more thought and effort. I do not have much wisdom to share on this topic right now. This is much more difficult than predicting industries, there is a reason Kurzweil predicted industries and not companies. 
 
 I am making many predictions now so that in 10 years I will understand if I was correct or not. This is the purpose of this blog.
 
@@ -62,13 +63,13 @@ Which companies are poised to be the winners in these industries?
 
 ‎
 
-Investing in 1st place is a safer strategy, but investing in 2nd place can be more profitable.
+You don't need to invest in the industry leader. If you want to be safe, go ahead and buy to S&P 500 too.
 
-Rocket Lab is starting from a much lower base than SpaceX. $2B vs $150B market caps. This means Rocket Lab's valuation may grow more than SpaceX's. Also, Rocket Lab is public.
+To illustrate this point, Rocket Lab is starting from a much lower base than SpaceX. $2B vs $150B market caps. Easier to compound at a lower base. I'd bet that Rocket Lab's launch business will compound more than SpaceX's in the next 10 years. 4x vs. 7x in 2031 in my Models.
 
 Comma AI is worth ~$100M, Tesla is worth ~$800B. Comma will hopefully never "sell out to the bankers" so good luck investing in them.
 
-This is the largest difference between predicting industries and investing in companies. When predicting industries and companies you are extrapolating progress out into the future. When investing in companies there is the added variable of share price.
+Ease of investment is also a concern. Rocket Lab and Tesla are public.
 
 ‎
 
@@ -79,9 +80,11 @@ Long-term investing is predicting the company and the segment.
 
 It is possible to successfully invest short term. But it is much more difficult and less interesting. Do you really want to worry about what the FED will do to interest rates next month? I'd rather model the future of humanity.
 
+To further illustrate this, consider the CAGR/time ratio. What is the point of day trading 10hr/day when you can get similar returns in the S&P 500 for 1s/day.
+
 ‎
 
-The economic pie is not fixed. The economy is growing exponentially.
+The economy is growing exponentially, this is what allows for seemingly impossible predictions. Tesla will 30x by 2031.
 
 In 1980, the company will the highest profit was Exxon Mobil with a profit of 4.2 billion dollars.  
 In 2000, it was General Motors with a profit of 6 billion dollars.  
