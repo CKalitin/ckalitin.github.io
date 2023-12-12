@@ -36,7 +36,7 @@ The only method I've found for predicting which companies will be the winners in
 I am making many predictions now so that in 10 years I will understand if I was correct or not. This is the purpose of this blog.
 
 These are my predictions for the future:
-1. EV adoption will follow an S-curve and will be greater than 90% of new car sales by 2030.
+1. EV adoption will follow an S-curve and will be greater than 80% of new car sales by 2030.
 2. More than 50% of total kilometres driven will be autonomous by 2033.
 3. The growth of renewable energy will follow an S-curve.
 4. In 2050, solar will be the largest source of energy on Earth. Barring any fusion breakthroughs.

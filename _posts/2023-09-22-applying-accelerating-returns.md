@@ -32,7 +32,7 @@ It is a damn shame the chart of energy consumption hasn’t grown faster. Let’
 
 A note on climate change: I don’t care if some Pacific island nations get flooded. The Kardashev scale is more important. Also, I will personally kill every endangered species within 100km of Starbase if it means Starship launches 1 month sooner.
 
-Climate Change will not kill us. The rapidly advancing paradigms of clean energy will take over the world and save us from climate change for a simple reason: they’re cheaper. Installing new solar is cheaper than coal. EVs are cheaper than ICE. My prediction for EV new car market share is 50% in 2026 and 90% in 2030. S-curves are easy to project into the future.
+Climate Change will not kill us. The rapidly advancing paradigms of clean energy will take over the world and save us from climate change for a simple reason: they’re cheaper. Installing new solar is cheaper than coal. EVs are cheaper than ICE. My prediction for EV new car market share is ~50% in 2026 and 90% in 2030. S-curves are easy to project into the future.
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image2.png){: height="350" .align-center}
 
