@@ -9,9 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.png">
 </head>
 
-So far I've been posting blog posts summarizing existing thoughts. Hopefully, in the future, I will run out of these topics and get to new fields. Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
-
-Xavier, please critique this post sentence by sentence and tell me EXACTLY where I am wrong and consider the knock-on effects of certain points.
+Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
 
 ‎
 

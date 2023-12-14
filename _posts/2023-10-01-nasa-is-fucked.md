@@ -9,8 +9,6 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/nasa-is-fucked.jpg">
 </head>
 
-Hopefully writing these blog posts makes me smarter and doesn't purely put my partly correct ideas on the internet.
-
 ## How'd This Happen?
 
 In researching NASA I have come to the obvious conclusion that it is a horribly bureaucratic and political organizaiton. I haven't seen anyone ardently dispute this point. As I am writing this post I see the Moon rising over the horizon. NASA has failed. We haven't colonized it yet.
