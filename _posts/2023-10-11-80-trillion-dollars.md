@@ -28,12 +28,9 @@ It is important to start with industries, not companies. Companies are individua
 
 The Law of Accelerating Returns and S-curves can be applied to any segment as a method of understanding if that segment will undergo exponential growth.
 
-You must be careful to not over-apply the Law of Accelerating Returns. My first model of global energy production had wind generating 2.7 exa watt-hours in 2100. This is obviously unreasonable. There are limits to growth. These limits must be understood when modelling anything into the future. For mostly finite markets, eg. EVs, S-curves can help in the short term. For infinite markets, eg. energy, you simply must acquire a fundamental understanding of the technology.  
-Basically, just don't be stupid. Could replace this paragraph with that. Don't be stupid!
+The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to industries, these models require much more thought and effort. It is much more difficult to predict the future of a company than the future of an industry, there is a reason Kurzweil predicted industries and not companies. 
 
-The only method I've found for predicting which companies will be the winners in a segment is to extrapolate the future progress of current companies. I have made models of Tesla, SpaceX, RocketLab, and NVIDIA. As opposed to industries, these models require much more thought and effort. I do not have much wisdom to share on this topic right now. This is much more difficult than predicting industries, there is a reason Kurzweil predicted industries and not companies. 
-
-I am making many predictions now so that in 10 years I will understand if I was correct or not. This is the purpose of this blog.
+I am making many predictions now so that in 10 years I will understand if I was correct or not. That is the purpose of this post.
 
 These are my predictions for the future:
 1. EV adoption will follow an S-curve and will be greater than 80% of new car sales by 2030.
@@ -43,13 +40,13 @@ These are my predictions for the future:
 5. Space Applications (eg. Starlink) will grow exponentially long into the future.
 6. AI Robot's takeover of labour will follow an S-curve. This will be the largest economic paradigm shift in human history.
 
-A note on fusion: If there is a fusion breakthrough that allows <1 cent per kWh energy generation, its adoption will still follow an S-Curve. Fusion may be a segment to invest in when the S-curve is clearer. Currently, the S-curve of other renewable energy is much clearer and thus can be invested in.
+A note on fusion: If there is a fusion breakthrough that allows for cheaper energy generation than future solar, its adoption will follow an S-Curve. Currently the S-curves of renewable energy are much clearer than that of fusion, as fusion is an R&D project. In the future, it may make sense to invest more in fusion but currently it is high risk and difficult to invest in.
 
 ‎
 
 With the predictions I made above, I can now make predictions about the future of industries and companies.
 
-1. There will be a paradigm shift in the automotive industry away from personal ownership of ICE vehicles over to Autonomous Robotaxi EVs.
+1. There will be a paradigm shift in the automotive industry away from personal ownership of ICE vehicles to Autonomous Robotaxi EVs.
 2. The energy industry will be dominated by solar and wind.
 3. Space Applications will grow exponentially.
 4. The use cases of AI will grow exponentially.
@@ -65,7 +62,7 @@ Which companies are poised to be the winners in these industries?
 
 You don't need to invest in the industry leader. If you want to be safe, go ahead and buy to S&P 500 too.
 
-To illustrate this point, Rocket Lab is starting from a much lower base than SpaceX. $2B vs $150B market caps. Easier to compound at a lower base. I'd bet that Rocket Lab's launch business will compound more than SpaceX's in the next 10 years. 4x vs. 7x in 2031 in my Models.
+To illustrate this point, Rocket Lab is starting from a much lower base than SpaceX. $2B vs $150B market caps. Easier to compound at a lower base. I'd bet that Rocket Lab's launch business will compound more than SpaceX's in the next 10 years. 4x vs. 7x by 2031 in my Models.
 
 Comma AI is worth ~$100M, Tesla is worth ~$800B. Comma will hopefully never "sell out to the bankers" so good luck investing in them.
 
@@ -84,7 +81,7 @@ To further illustrate this, consider the CAGR/time ratio. What is the point of d
 
 ‎
 
-The economy is growing exponentially, this is what allows for seemingly impossible predictions. Tesla will 30x by 2031.
+The economy is growing exponentially, this is what allows for seemingly impossible predictions.
 
 In 1980, the company will the highest profit was Exxon Mobil with a profit of 4.2 billion dollars.  
 In 2000, it was General Motors with a profit of 6 billion dollars.  
