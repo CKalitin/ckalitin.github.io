@@ -39,7 +39,7 @@ First, posterity. You can prove your previous thoughts through your voting histo
 
 Second, practice. If you take voting seriously you may get better at it. Sadly the vast majority of people don't do rigorous research before voting - this goes for every side of the political spectrum, liberals who talk about "research" while not changing their thoughts are not free of blame. I will never again speak of the left and right is such an unacademic way. Tim Urban speaks in a very academic way about such problems in his book. Read it.
 
-I see the second reason as less valid than the first. I have only seen one person ever talk about voting the way people should discuss it. That is Tim Urban. Read his book!
+I see the second reason as less valid than the first. I have only seen one person ever talk about voting the way people should discuss it, Tim Urban. Read his book!
 
 ‎
 
