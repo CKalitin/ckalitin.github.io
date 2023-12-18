@@ -6,8 +6,8 @@ author:
  - Christopher Kalitin
 ---
 
-![Image description]({{site.url}}/assets/images/2023-09-22/Chris-bet.png){: width="350" .align-left}
-![Image description]({{site.url}}/assets/images/2023-09-22/His-bet.png){: width="350" .align-left}
+![Image description]({{site.url}}/assets/images/2023-12-17/Chris-bet.png){: width="350" .align-left}
+![Image description]({{site.url}}/assets/images/2023-12-17/His-bet.png){: width="350" .align-left}
 
 About one year ago on November 20 2022, I had a very unproductive and slightly useless conversation with a friend.  We debated (argued) about the future of Twitter. With my obviously immensely high-rung and intelligent thinking I came to the conclusion that Twitter would have more features, revenue, and users than at the time. He believed there would be "some kind of massive fuck up that prompts him \[E\] to (dishonourably) leave while acting like it wasn't his fault."
 
