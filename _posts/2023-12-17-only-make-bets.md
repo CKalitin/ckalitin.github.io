@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Twitter One Year Later - A tale of stupid betting"
+title: "Only Make Bets You Can Win"
 categories: Miscellaneous
 author:
  - Christopher Kalitin
