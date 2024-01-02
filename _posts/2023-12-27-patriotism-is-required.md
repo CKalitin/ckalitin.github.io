@@ -6,14 +6,6 @@ author:
  - Christopher Kalitin
 ---
 
-### Patriotism is a requirement Notes
-1. Move where you want to live and support your people
-2. Framework for living
-2. Immigrants can destroy or empower you
-3. My thoughts on immigration policy (extends to university)
-4. Land of Opportunity
-5. How do you fix these government problems? Mars
-
 I intend to become a citizen of the Land of Opportunity and do everything in my power to improve the nation. Albeit, until I find a place that aligns more closely with my ideals.
 
 This is patriotism, being a net positive to your nation. I can't imagine living a net-zero or net-negative life, what's the point? Work to improve your life and the lives of your neighbors and family members. This is a fundamentally useful and positive life and everyone should strive for it. 
@@ -52,7 +44,7 @@ Maybe the solution is political. Javier Milel gives me some hope, but I doubt th
 
 There was a time in history when a new nation caused the transformation of the world to democracy. Maybe we need Mars to do the same.
 
-What happens if the US loses its fundamental beliefs (based on Christianity). <a href="https://x.com/elonmusk/status/1740963374522069145?s=20">Zuby and E</a> believe if the West loses Christianity it is screwed. Maybe they have a point. A group of people without common fundamental beliefs is not very useful to the future.
+What happens if the US loses its fundamental beliefs (based on Christianity). <a href="https://x.com/elonmusk/status/1740963374522069145?s=20">Zuby and E</a> believe if the West loses Christianity it is screwed. Maybe they have a point. A group of people without common fundamental beliefs is not very useful to the future. Acclerate!
 
 ‎
 
