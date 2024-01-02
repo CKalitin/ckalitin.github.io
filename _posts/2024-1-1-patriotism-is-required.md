@@ -48,7 +48,7 @@ What happens if the US loses its fundamental beliefs (based on Christianity). <a
 
 ‎
 
-This has already been a ramble and I've been watching George Hotz streams from hours.  
+This has already been a ramble and I've been watching George Hotz streams from hours while being sick and groggy.  
 So, I'd like to use the end of this post to give a message my future self:
 
 <b>DON'T BE A SELLOUT!</b>
