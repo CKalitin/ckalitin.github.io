@@ -56,12 +56,19 @@ The cost of EV specific components other than batteries, such as electric motors
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
 
-When taking into account all the declining costs of the underlying components, we are on track for immensely cheap EVs that out perform ICE vehicles in almost every metric. 
+When taking into account all the declining costs of the underlying components, we are on track for immensely cheap EVs that out perform ICE vehicles in almost every metric. Internal combustion engines are a mature technology, we cannot hope for much more improvement.
 
 The primary consideration when purchasing a vehicle is cost. When EVs are cheaper than all alternatives, what will happen to the alternatives?
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
+Decreases in the cost to purchase are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements will contribute as well.
+
+It's no secret EVs have <a href="https://www.caranddriver.com/shopping-advice/a32494027/ev-vs-gas-cheaper-to-own/">lower operating costs</a> than ICE vehicles. Electricity costs vs. gas and less maintenance lead to overall lower operating costs. Depreciation is also a factor that can cause the total cost of ownership to increase, but this is a short term problem. As EVs gain market share due to the other factors EV-specific depreciation will cease being an issue.
+
+The EV architecture is also inherently safer than ICE vehicles for several reasons. The battery pack moves the center of mass lower which lowers the probability of roll-over, the lack of an engine leads to a larger crumple zone, and the lack of a gas tank leads to a <a href="https://www.kbb.com/car-news/study-electric-vehicles-involved-in-fewest-car-fires/">lower probability of fire</a>.
+
+Finally, there are peripheral improvements that effect EVs more than ICE cars. The direct to consumer model leads to a better customer experience and a streamlined purchasing process. This is far more common in the EV space due to the higher risk tolerance and ability to innovate of EV companies. The lack of a dealership also allows for a more direct relationship between the manufacturer and the consumer. This allows for better customer service and a better overall experience. The ease of charging at home is a majority improvement for the majority of consumers along with the smoother and quieter ride.
 
 ### Autonomous Revolution
 
