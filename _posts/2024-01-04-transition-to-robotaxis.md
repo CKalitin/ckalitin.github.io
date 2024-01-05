@@ -32,7 +32,7 @@ The final transition from privately-owned vehicles to robotaxis will occur due t
 "S-curves are like gravity" - Tony Seba.  
 These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are economics problems, and economic predictions can be immensely accurate.
 
-### EV Revolution
+## EV Revolution
 
 1. S-curves
 2. Extrapolating S-curves
@@ -41,7 +41,9 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 6. Heavy vehicles (buses, trucks, etc.)
 
-Currently, the EV revolution is occuring at fervent pace. This is due to mainly economic reasons in the segments of personally owned vehicles and commercial/heavy vehicles.
+#### The EV S-Curve
+
+Currently, the EV revolution is occuring at fervent pace. This is due to mainly economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Historic.png){: height="350" .align-center}
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
@@ -49,11 +51,11 @@ Currently, the EV revolution is occuring at fervent pace. This is due to mainly 
 It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
 
 Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
-This is an economics problem so it can be solved with an economic toolkit. Personal arguments do not apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can't support major automakers on 1%.
+This is an economics problem so it can be solved with an economic toolkit. Personal arguments do not apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can not support major automakers on 1%.
 
-Ark Invest published <a href="https://ark-invest.com/articles/analyst-research/ev-growth-outperforming-the-traditional-s-curve-dynamics/">this article</a> featuring an S-Curve with market share and percentage growth meeting at the 50% mark. This is an oversimplification or simply incorrect. Growth peaks at 5%-10% <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">(see here)</a>.
++ expain extrapolating S-curves briefly
 
-‎
+#### Decline in EV Manufacturing Costs
 
 Almost all the major internal components of EVs are declining in cost. 
 
@@ -61,15 +63,18 @@ This is most obvious in battery costs. Batteries have been on a declining cost c
 
 The cost of EV specific components other than batteries, such as electric motors, will also decrease in cost primarily due to economies of scale. This shows that reaching scale manufacturing of EVs is a key component to success. Speeding up transition plans from ICE to EV is the best strategy.
 
-![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
-
-<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>.
 
 When taking into account all the declining costs of the underlying components, we are on track for immensely cheap EVs that out perform ICE vehicles in almost every metric. Internal combustion engines are a mature technology; we cannot hope for much more improvement.
 
 The primary consideration when purchasing a vehicle is cost. When EVs are cheaper than all alternatives, what will happen to the alternatives?
 
+![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
+
+<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>.
+
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
+
+#### Further Improvements in EVs
 
 Decreases in purchase price are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
@@ -81,7 +86,7 @@ Finally, there are peripheral improvements that effect EVs more than ICE cars. T
 
 + Charging time and Battery lifetime
 
-‎
+#### Hybrids & Hydrogen Won't Succeed
 
 Many products that make sense from an environmental perspective do not work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
 
@@ -94,6 +99,8 @@ The added range and speed of refilling of a Hydrogen vehicle is not enough to of
 Hybrids will not be able to compete with EVs in the long term due to the static costs of the ICE powertrain, the lower maintenance cost of EVs, and decline in purchase price of EVs. Hybrids and EVs may be equal in carbon footprint, but vehicles are not purchases because of how many turtles are saved, vehcile are purchased mainly based on price.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="350" .align-center}
+
+#### Heavy Vehciles
 
 Heavy Vehicles
 
