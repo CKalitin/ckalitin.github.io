@@ -32,7 +32,7 @@ The final transition from privately-owned vehicles to robotaxis will occur due t
 "S-curves are like gravity" - Tony Seba.  
 These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are economics problems, and economic predictions can be immensely accurate.
 
-## <b>EV Revolution</b>
+## EV Revolution
 
 1. S-curves
 2. Extrapolating S-curves
@@ -43,7 +43,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 
 #### <b>The EV S-Curve</b>
 
-Currently, the EV revolution is occuring at fervent pace. This is due to mainly economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
+Currently, the EV revolution is occuring at fervent pace. This is mainly due to economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Historic.png){: height="350" .align-center}
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
@@ -74,7 +74,7 @@ The primary consideration when purchasing a vehicle is cost. When EVs are cheape
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
-#### <b>Further Improvements in EVs</b>
+#### <b>Further Improvements over ICE</b>
 
 Decreases in purchase price are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
@@ -104,8 +104,8 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 Heavy Vehicles
 
-### <b>Autonomous Revolution</b>
+### Autonomous Revolution
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
-### <b>Ride Hailing Revolution</b>
+### Ride Hailing Revolution
