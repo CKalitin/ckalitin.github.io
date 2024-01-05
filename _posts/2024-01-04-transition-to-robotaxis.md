@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Transition to Robotaxis"
+title: "The Transition to EV Robotaxis"
 categories: Technology
 author:
  - Christopher Kalitin
