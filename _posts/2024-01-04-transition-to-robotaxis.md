@@ -27,7 +27,7 @@ There are three components to this transition: ICE to EV, Manual to Autonomous, 
 The transition to EVs is occuring due to simply explained economic reasons. The transition to autonomy will occur maining due to leasure and safety reasons from the consumer's perspective. The final transition from privately owned vehicles to robotaxis will occur due to the improved ease of use of Robotaxis.
 
 "S-curves are like gravity" - Tony Seba.  
-These transitions can be seen to be as likely as the sun rising tomorrow. Almost every society-level problem is an economics problem, and economic predictions can be immensely accurate.
+These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problem is an economics problem, and economic predictions can be immensely accurate.
 
 ### EV Revolution
 
@@ -35,6 +35,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Almost
 2. Extrapolating S-curves
 3. Fundamental Technologies and their explonential decline in cost
 4. EVs are cheaper to own and operate than ICE vehicles
+5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 
 Currently, the EV revolution is occuring at fervent pace. This is occuring in the segment of personally owned vehicles and in the commercial vehicle segment (Heavy vehicles, commerically owned vehicles, etc.)
 
@@ -51,11 +52,16 @@ Almost all the major internal components of EVs are declining in cost.
 
 This is most obvious in the cost of the battery. Batteries have been on a declining cost curve for almost all time. This is due to advancements in materials science, battery chemistry, and economies of scale. 
 
-Furthermore, EV specific components that are not on as clear cost declines as batteries will experience economies of scale (eg. electric motors). This shows that reaching scale manufacturing of EVs is a key component to success. Speeding up transition plans from ICE to EV is the best strategy.
+The cost of EV specific components other than batteries, such as electric motors, will also decrease in cost primarily due to economies of scale. This shows that reaching scale manufacturing of EVs is a key component to success. Speeding up transition plans from ICE to EV is the best strategy. <a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
 
-<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Battery costs and demand</a>
+When taking into account all the declining costs of the underlying components, we are on track for immensely cheap EVs that out perform ICE vehicles in almost every metric. 
+
+The primary consideration when purchasing a vehicle is cost. When EVs are cheaper than all alternatives, what will happen to the alternatives?
+
+![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
+
 
 ### Autonomous Revolution
 
