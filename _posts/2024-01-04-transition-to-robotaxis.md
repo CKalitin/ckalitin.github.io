@@ -14,6 +14,7 @@ author:
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)
 4. Kurzweil quote about applying paradigms
+5. All our problems will be solved through due to economic reasons
 
 1. EV revolution (S-curves, declining costs, Cross over point, Graphs, companies, etc.)
 2. Autonomous revolution (Predicting pace of AI, adoption in new vehicles (OEMs), retrofitting, potential first mover advantage, etc.)
@@ -30,7 +31,7 @@ The transition to autonomy will occur mainly due to leasure and safety reasons f
 The final transition from privately-owned vehicles to robotaxis will occur due to the improved ease of use of Robotaxis.
 
 "S-curves are like gravity" - Tony Seba.  
-These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are an economics problem, and economic predictions can be immensely accurate.
+These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are economics problems, and economic predictions can be immensely accurate.
 
 ### EV Revolution
 
@@ -77,11 +78,25 @@ It's no secret EVs have <a href="https://www.caranddriver.com/shopping-advice/a3
 
 The EV architecture is also inherently safer than ICE vehicles for several reasons. The battery pack moves the center of mass lower which lowers the probability of roll-over, the lack of an engine leads to a larger crumple zone, and the lack of combustion <a href="https://www.kbb.com/car-news/study-electric-vehicles-involved-in-fewest-car-fires/">lower probability of fire</a>.
 
-Finally, there are peripheral improvements that effect EVs more than ICE cars. The direct to consumer model leads to a better customer experience and a streamlined purchasing process. This is far more common in the EV space due to the higher risk tolerance and ability to innovate of EV companies. The lack of a dealership also allows for a more direct relationship between the manufacturer and the consumer. This allows for better customer service and a better overall experience. The ease of charging at home is a majority improvement for the majority of consumers along with the smoother and quieter ride.
+Finally, there are peripheral improvements that effect EVs more than ICE cars. The direct to consumer model leads to a better customer experience and a streamlined purchasing process. This is far more common in the EV space due to the higher risk tolerance and ability to innovate of EV companies. The lack of a dealership also allows for a more direct relationship between the manufacturer and the consumer. This allows for better customer service and a better overall experience. The ease of charging and at home is an improvement for the majority of consumers along with the smoother and quieter ride.
+
++ Charging time and Battery lifetime
 
 ‎
 
-Many products that make sense from an environmental perspective to do work economically. This can be seen with hybrid and hydrogen vehicles. 
+Many products that make sense from an environmental perspective to do work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
+
+Hybrids and Hydrogen cars do not fully benefit from the declining costs of EV technology as these designs are forced to contend with legacy and/or high-cost technology.
+
+Again, this is mainly an economics problem and an engineering or consumer mindset may lead to incorrect conclusions.
+
+The added range and speed of refilling of a Hydrogen vehicle is not enough to offset the cost of the Hydrogen infrastructure. The appeal of Hydrogen cars is relative to the future - mainly economic - appeal of EVs.
+
+Hybrids will not be able to compete with EVs in the long term due to the static costs of the ICE powertrain, the lower maintenance cost of EVs, and decline in purchase price of EVs. Hybrids and EVs may be equal in carbon footprint, but vehicles are not purchases because of how many turtles are saved, vehcile are purchased mainly based on price.
+
+![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="350" .align-center}
+
+Heavy Vehicles
 
 ### Autonomous Revolution
 
