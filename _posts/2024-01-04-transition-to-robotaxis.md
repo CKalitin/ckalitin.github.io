@@ -25,7 +25,6 @@ The automotive market is currenting undergoing a transition from privately-owned
 
 There are three components to this transition: ICE to EV, Manual to Autonomous, and Privately-owned vehicles to Robotaxis.
 
- - - - EDIT? - - - 
 The transition to EVs is easily explained from an economic perspective.  
 The transition to autonomy will occur mainly due to leasure and safety reasons from the consumer's perspective.  
 The final transition from privately-owned vehicles to robotaxis will occur due to the improved ease of use of Robotaxis.
