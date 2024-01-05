@@ -41,7 +41,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 6. Heavy vehicles (buses, trucks, etc.)
 
-#### <b>The EV S-Curve</b>
+#### The EV S-Curve
 
 Currently, the EV revolution is occuring at fervent pace. This is mainly due to economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
@@ -68,13 +68,13 @@ When taking into account all the declining costs of the underlying components, w
 
 The primary consideration when purchasing a vehicle is cost. When EVs are cheaper than all alternatives, what will happen to the alternatives?
 
-![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="400" .align-center}
 
 <a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
-#### <b>Further Improvements over ICE</b>
+#### Further Improvements over ICE
 
 Decreases in purchase price are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
@@ -98,7 +98,7 @@ The added range and speed of refilling of a Hydrogen vehicle is not enough to of
 
 Hybrids will not be able to compete with EVs in the long term due to the static costs of the ICE powertrain, the lower maintenance cost of EVs, and decline in purchase price of EVs. Hybrids and EVs may be equal in carbon footprint, but vehicles are not purchases because of how many turtles are saved, vehcile are purchased mainly based on price.
 
-![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="350" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="450" .align-center}
 
 #### <b>Heavy Vehciles</b>
 
