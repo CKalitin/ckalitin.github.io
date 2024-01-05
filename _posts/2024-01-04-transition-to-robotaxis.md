@@ -41,7 +41,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 6. Heavy vehicles (buses, trucks, etc.)
 
-#### The EV S-Curve
+#### <b>The EV S-Curve</b>
 
 Currently, the EV revolution is occuring at fervent pace. This is mainly due to economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
@@ -74,7 +74,7 @@ The primary consideration when purchasing a vehicle is cost. When EVs are cheape
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
-#### Further Improvements over ICE
+#### <b>Further Improvements over ICE</b>
 
 Decreases in purchase price are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
@@ -104,7 +104,7 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 Heavy Vehicles
 
-### Autonomous Revolution
+### <b>Autonomous Revolution</b>
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
