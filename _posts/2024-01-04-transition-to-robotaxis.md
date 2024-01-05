@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
 </head>
 
-# Transition from Privately Owned ICE vehicles to Autonomous Robotaxis
+# Transition from Privately-Owned ICE vehicles to Autonomous Robotaxis
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)
@@ -20,14 +20,17 @@ author:
 
 
 
-The automotive market is currenting undergoing a transition from privately owned internal combustion engine (ICE) vehicles to autonomous EV robotaxis. 
+The automotive market is currenting undergoing a transition from privately-owned internal combustion engine (ICE) vehicles to autonomous EV robotaxis. 
 
-There are three components to this transition: ICE to EV, Manual to Autonomous, and Privately owned vehicles to Robotaxis.
+There are three components to this transition: ICE to EV, Manual to Autonomous, and Privately-owned vehicles to Robotaxis.
 
-The transition to EVs is occuring due to simply explained economic reasons. The transition to autonomy will occur maining due to leasure and safety reasons from the consumer's perspective. The final transition from privately owned vehicles to robotaxis will occur due to the improved ease of use of Robotaxis.
+ - - - EDIT? - - - 
+The transition to EVs is easily explained from an economic perspective.  
+The transition to autonomy will occur mainly due to leasure and safety reasons from the consumer's perspective.  
+The final transition from privately-owned vehicles to robotaxis will occur due to the improved ease of use of Robotaxis.
 
 "S-curves are like gravity" - Tony Seba.  
-These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problem is an economics problem, and economic predictions can be immensely accurate.
+These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are an economics problem, and economic predictions can be immensely accurate.
 
 ### EV Revolution
 
@@ -38,15 +41,15 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 6. Heavy vehicles (buses, trucks, etc.)
 
-Currently, the EV revolution is occuring at fervent pace. This is occuring in the segment of personally owned vehicles and in the commercial vehicle segment (Heavy vehicles, commerically owned vehicles, etc.)
+Currently, the EV revolution is occuring at fervent pace. This is due to mainly economic reasons in the segments of personally owned vehicles and commercial/heavy vehicles.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Historic.png){: height="350" .align-center}
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
 
-It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is the be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The slow in growth serves to help you identify when the technology will reach its peak market share, which in almost all cases is >99%.
+It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
 
 Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
-This is an economics problem so it can be solved with an economic toolkit. Personal arguments don't apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can't support major automakers on 1%.
+This is an economics problem so it can be solved with an economic toolkit. Personal arguments do not apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can't support major automakers on 1%.
 
 Ark Invest published <a href="https://ark-invest.com/articles/analyst-research/ev-growth-outperforming-the-traditional-s-curve-dynamics/">this article</a> featuring an S-Curve with market share and percentage growth meeting at the 50% mark. This is an oversimplification or simply incorrect. Growth peaks at 5%-10% <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">(see here)</a>.
 
@@ -54,11 +57,12 @@ Ark Invest published <a href="https://ark-invest.com/articles/analyst-research/e
 
 Almost all the major internal components of EVs are declining in cost. 
 
-This is most obvious in the cost of the battery. Batteries have been on a declining cost curve for almost all time. This is due to advancements in materials science, battery chemistry, and economies of scale. 
+This is most obvious in battery costs. Batteries have been on a declining cost curve for almost all time. This is due to advancements in materials science, battery chemistry, and economies of scale. 
 
-The cost of EV specific components other than batteries, such as electric motors, will also decrease in cost primarily due to economies of scale. This shows that reaching scale manufacturing of EVs is a key component to success. Speeding up transition plans from ICE to EV is the best strategy. <a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>
+The cost of EV specific components other than batteries, such as electric motors, will also decrease in cost primarily due to economies of scale. This shows that reaching scale manufacturing of EVs is a key component to success. Speeding up transition plans from ICE to EV is the best strategy.
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="350" .align-center}
+<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>
 
 When taking into account all the declining costs of the underlying components, we are on track for immensely cheap EVs that out perform ICE vehicles in almost every metric. Internal combustion engines are a mature technology, we cannot hope for much more improvement.
 
@@ -66,7 +70,7 @@ The primary consideration when purchasing a vehicle is cost. When EVs are cheape
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
-Decreases in the cost to purchase are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements will contribute as well.
+Decreases in the cost to purchase are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
 It's no secret EVs have <a href="https://www.caranddriver.com/shopping-advice/a32494027/ev-vs-gas-cheaper-to-own/">lower operating costs</a> than ICE vehicles. Electricity costs vs. gas and less maintenance lead to overall lower operating costs. Depreciation is also a factor that can cause the total cost of ownership to increase, but this is a short term problem. As EVs gain market share due to the other factors EV-specific depreciation will cease being an issue.
 
@@ -76,7 +80,7 @@ Finally, there are peripheral improvements that effect EVs more than ICE cars. T
 
 ‎
 
-
+Many products that make sense from an environmental perspective to do work economically. This can be seen with hybrid and hydrogen vehicles. 
 
 ### Autonomous Revolution
 
