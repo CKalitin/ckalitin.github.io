@@ -83,7 +83,7 @@ Finally, there are peripheral improvements that effect EVs more than ICE cars. T
 
 ‎
 
-Many products that make sense from an environmental perspective to do work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
+Many products that make sense from an environmental perspective do not work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
 
 Hybrids and Hydrogen cars do not fully benefit from the declining costs of EV technology as these designs are forced to contend with legacy and/or high-cost technology.
 
