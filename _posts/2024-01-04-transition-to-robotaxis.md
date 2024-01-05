@@ -36,6 +36,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 3. Fundamental Technologies and their explonential decline in cost
 4. EVs are cheaper to own and operate than ICE vehicles
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
+6. Heavy vehicles (buses, trucks, etc.)
 
 Currently, the EV revolution is occuring at fervent pace. This is occuring in the segment of personally owned vehicles and in the commercial vehicle segment (Heavy vehicles, commerically owned vehicles, etc.)
 
@@ -43,6 +44,9 @@ Currently, the EV revolution is occuring at fervent pace. This is occuring in th
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
 
 It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is the be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The slow in growth serves to help you identify when the technology will reach its peak market share, which in almost all cases is >99%.
+
+Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
+This is an economics problem so it can be solved with an economic toolkit. Personal arguments don't apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can't support major automakers on 1%.
 
 Ark Invest published <a href="https://ark-invest.com/articles/analyst-research/ev-growth-outperforming-the-traditional-s-curve-dynamics/">this article</a> featuring an S-Curve with market share and percentage growth meeting at the 50% mark. This is an oversimplification or simply incorrect. Growth peaks at 5%-10% <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">(see here)</a>.
 
@@ -69,6 +73,10 @@ It's no secret EVs have <a href="https://www.caranddriver.com/shopping-advice/a3
 The EV architecture is also inherently safer than ICE vehicles for several reasons. The battery pack moves the center of mass lower which lowers the probability of roll-over, the lack of an engine leads to a larger crumple zone, and the lack of a gas tank leads to a <a href="https://www.kbb.com/car-news/study-electric-vehicles-involved-in-fewest-car-fires/">lower probability of fire</a>.
 
 Finally, there are peripheral improvements that effect EVs more than ICE cars. The direct to consumer model leads to a better customer experience and a streamlined purchasing process. This is far more common in the EV space due to the higher risk tolerance and ability to innovate of EV companies. The lack of a dealership also allows for a more direct relationship between the manufacturer and the consumer. This allows for better customer service and a better overall experience. The ease of charging at home is a majority improvement for the majority of consumers along with the smoother and quieter ride.
+
+‎
+
+
 
 ### Autonomous Revolution
 
