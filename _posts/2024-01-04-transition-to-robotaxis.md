@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
 </head>
 
-# Transition from Privately-Owned ICE vehicles to Autonomous Robotaxis
+# <b>Transition from Privately-Owned ICE vehicles to Autonomous Robotaxis</b>
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)
@@ -32,7 +32,7 @@ The final transition from privately-owned vehicles to robotaxis will occur due t
 "S-curves are like gravity" - Tony Seba.  
 These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are economics problems, and economic predictions can be immensely accurate.
 
-## EV Revolution
+## <b>EV Revolution</b>
 
 1. S-curves
 2. Extrapolating S-curves
@@ -41,7 +41,7 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
 6. Heavy vehicles (buses, trucks, etc.)
 
-#### The EV S-Curve
+#### <b>The EV S-Curve</b>
 
 Currently, the EV revolution is occuring at fervent pace. This is due to mainly economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
@@ -55,7 +55,7 @@ This is an economics problem so it can be solved with an economic toolkit. Perso
 
 + expain extrapolating S-curves briefly
 
-#### Decline in EV Manufacturing Costs
+#### <b>Decline in EV Manufacturing Costs</b>
 
 Almost all the major internal components of EVs are declining in cost. 
 
@@ -74,7 +74,7 @@ The primary consideration when purchasing a vehicle is cost. When EVs are cheape
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
-#### Further Improvements in EVs
+#### <b>Further Improvements in EVs</b>
 
 Decreases in purchase price are not the sole reason EVs will succeed. Operating costs, safety, and other peripheral improvements contribute as well.
 
@@ -86,7 +86,7 @@ Finally, there are peripheral improvements that effect EVs more than ICE cars. T
 
 + Charging time and Battery lifetime
 
-#### Hybrids & Hydrogen Won't Succeed
+#### <b>Hybrids & Hydrogen Won't Succeed</b>
 
 Many products that make sense from an environmental perspective do not work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
 
@@ -100,12 +100,12 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="350" .align-center}
 
-#### Heavy Vehciles
+#### <b>Heavy Vehciles</b>
 
 Heavy Vehicles
 
-### Autonomous Revolution
+### <b>Autonomous Revolution</b>
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
-### Ride Hailing Revolution
+### <b>Ride Hailing Revolution</b>
