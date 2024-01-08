@@ -29,7 +29,7 @@ The final transition from privately-owned vehicles to robotaxis will occur due t
 "S-curves are like gravity" - Tony Seba.  
 These transitions can be seen to be as likely as the sun rising tomorrow. Many society-level problems are economics problems, and economic predictions can be immensely accurate.
 
-## EV Revolution
+## <b>EV Revolution</b>
 
 1. S-curves
 2. Extrapolating S-curves
@@ -105,4 +105,4 @@ Heavy Vehicles
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
-### Ride Hailing Revolution
+### <b>Ride Hailing Revolution</b>

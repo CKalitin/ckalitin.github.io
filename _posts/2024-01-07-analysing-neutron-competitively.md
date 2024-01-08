@@ -47,4 +47,4 @@ Constellations are the next paradigm in the commerical communication satellite m
 
 ### Neutron's Competitive Position in Constellations
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: height="450" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: height="700"}
