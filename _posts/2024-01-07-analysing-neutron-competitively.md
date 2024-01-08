@@ -59,6 +59,8 @@ Neutron will have to charge ~$40M per launch to be competitive on constellations
 
 SpaceX's original Iridium deal was $492M for 8 launches which is $61.5M per launch. If Neutron carried out this contract, it would have to launch ~13 times for $38.7M per launch. Worse yet, Neutron is volume limited here as the 10 Iridium satellites are only 6.6t. With reusability, $40M per launch is possible, but at significantly lower margins than the Falcon 9 and potentially other medium launch vehicles in the future.
 
+Neutron's improved partially-reusable design over Falcon 9 shows some promise for lower costs, but design is not the hard part. SpaceX produces 100 F9 second stages per year and F9 marginal cost is <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$15M</a>. It is <a href="https://x.com/BellikOzan/status/1741535515759857816?s=20">unlikely that Neutron's second stage will be cheaper</a> and with the increased competition I am doubtful that Neutron will exceed 50 launches per year before the paradigm of fully-reusable rockets arrives. Economies of scale will be difficult to achieve with Neutron and as a hopeful future RKLB investor I don't see lower costs than F9 as likely.
+
 ### <b>Conclusion</b>
 
 In my <a href="https://youtu.be/kKo5IDTiWIU?si=ia7J-ZC1VPU2lDkC">recent video</a> on updates to my RKLB valuation model, the primary piece of intelligent criticism I received was about my comments about Neutron. I've spent the last 2 days and 12 hours in total researching and creating a model of the commercial satellite launch market to improve my understanding.
