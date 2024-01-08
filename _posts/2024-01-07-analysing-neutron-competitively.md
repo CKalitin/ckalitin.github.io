@@ -21,7 +21,7 @@ Model this analysis is based on: <a href="https://docs.google.com/spreadsheets/d
 
 ### Legacy Commerical Communication Satellite Market
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="500" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="600" .align-center}
 
 The legacy commercial communication satellite market is dominated by GEO satellites. From 2018 to the end of 2023, 39 commercial GEO satellites have been launched and 9 commercial satellites to LEO.
 
@@ -51,13 +51,13 @@ To illustrate this point, Planet Labs currently has around 200 operational satel
 
 <a href="{{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png">Click here for expanded version of chart</a> <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">or source</a>
 
-Cost per satellite is fundamentally what is being optimized when launching constellations, with responsiveness in second place. Payload mass and/or volume are the primary determining factors for the number of satellites that can be launched. This is clear with Starlink as SpaceX was constrained by volume with v1 and now is constrained by mass on v2 mini. 
+Cost per satellite is fundamentally what is being optimized when launching constellations, with responsiveness in second place. Payload mass and volume are the primary determining factors for the number of satellites that can be launched. This is clear with Starlink as SpaceX was constrained by volume with v1 and now is constrained by mass on v2 mini. 
 
-Above you can see the cost per satellite for current and under-development medium-lift rockets for a few major constellations. Neutron is outcompeted by the Falcon 9, Terran R, and New Glenn on all constellations at my price-per-launch estimates. If you'd like to use your own estimates, copy the spreadsheet and make your own adjustments.
+Above you can see the cost per satellite for current and under-development medium-lift/heavy-lift rockets for a few major constellations. Neutron is outcompeted by the Falcon 9, Terran R, and New Glenn on all constellations at my price-per-launch estimates. If you'd like to use your own estimates, copy the spreadsheet and make your own adjustments.
 
-Neutron will have to charge ~$40M per launch to be competitive on constellations. This is not a consideration for other larger LEO/GTO satellites as they are not mass-limited. Falcon 9 launches many ~5t satellites which is far below the 18.4t max payload.
+Neutron will have to charge ~$40M per launch to be competitive on constellations. This is not a consideration for other larger LEO/GTO satellites as they are not mass-limited. You can see this when Falcon 9 launches ~5t LEO satellites which is far below the 18.4t max payload.
 
-SpaceX's original Iridium deal was $492M for 8 launches which is $61.5M per launch. Neutron would have to launch ~13 times for $38.7M per launch. With reusability this is possible, but at significantly lower margins than the Falcon 9 and potentially other medium launch vehicles.
+SpaceX's original Iridium deal was $492M for 8 launches which is $61.5M per launch. If Neutron carried out this contract, it would have to launch ~13 times for $38.7M per launch. Worse yet, Neutron is volume limited here as the 10 Iridium satellites are only 6.6t. With reusability, $40M per launch is possible, but at significantly lower margins than the Falcon 9 and potentially other medium launch vehicles in the future.
 
 ### Conclusion
 
