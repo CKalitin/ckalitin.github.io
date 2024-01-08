@@ -45,6 +45,8 @@ Currently, the EV revolution is occuring at fervent pace. This is mainly due to 
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Historic.png){: height="350" .align-center}
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
 
++ Add source
+
 It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
 
 Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
