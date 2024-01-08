@@ -59,7 +59,7 @@ To illustrate this point, Planet Labs currently has around 200 operational satel
 
 <a href="{{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png">Click here for expanded version of chart</a> <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">or source</a>
 
-Cost per satellite is fundamentally what is being optimized when launching constellations along with responsiveness. Payload mass and/or volume are the primary determining factors for the number of satellites that can be launched. This is clear with Starlink as SpaceX was constrained by volume with v1 and now is constrained by mass on v2 mini. 
+Cost per satellite is fundamentally what is being optimized when launching constellations, with responsiveness in second place. Payload mass and/or volume are the primary determining factors for the number of satellites that can be launched. This is clear with Starlink as SpaceX was constrained by volume with v1 and now is constrained by mass on v2 mini. 
 
 Above you can see the cost per satellite for current and under-development medium-lift rockets for a few major constellations. Neutron is outcompeted by the Falcon 9, Terran R, and New Glenn on all constellations at my price-per-launch estimates. If you'd like to use your own estimates, copy the spreadsheet and make your own adjustments.
 
