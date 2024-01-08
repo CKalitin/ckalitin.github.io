@@ -5,9 +5,6 @@ categories: Technology
 author:
  - Christopher Kalitin
 ---
-<head>
-    <meta property="og:image" content="{{site.url}}/assets/images/image1.png">
-</head>
 
 # <b>Transition from Privately-Owned ICE vehicles to Autonomous Robotaxis</b>
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
