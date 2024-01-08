@@ -49,8 +49,14 @@ Constellations are the next paradigm in the commerical communication satellite m
 
 Constellations do not require high energy orbits, they require high mass-to-orbit over multiple launches.
 
-There are not stringent minimum mass requirements for constellations like for GEO satellites. 
+There are not stringent minimum mass requirements for constellations like for GEO satellites. Total mass to orbit is the primary metric, and this can be achieved by any rocket by increasing the total number of launches. So, cost per launch is what should be optimized for.
+
+
 
 ### Neutron's Competitive Position in Constellations
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: width="700" .align-center}
+
+
+
+### Engineering Arguments for Neutron
