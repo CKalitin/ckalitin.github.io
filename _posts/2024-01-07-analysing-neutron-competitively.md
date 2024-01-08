@@ -47,7 +47,7 @@ To illustrate this point, Planet Labs currently has around 200 operational satel
 
 ### <b>Neutron's Competitive Position in Constellations</b>
 
-[{{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: width="700" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: width="700" .align-center}
 
 <a href="{{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png">Click here for expanded version of chart</a> <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">or source</a>
 
