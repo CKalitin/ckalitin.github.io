@@ -69,12 +69,12 @@ SpaceX's original Iridium deal was $492M for 8 launches which is $61.5M per laun
 
 ### Conclusion
 
-In my <a href="https://youtu.be/kKo5IDTiWIU?si=ia7J-ZC1VPU2lDkC">recent video</a> on updates to my RKLB valuation model, the primary intelligent criticism I received was on my comments about Neutron. I've spent the last 2 days at 12 hours total researching and creating a model of the commercial satellite launch market to improve my understanding.
+In my <a href="https://youtu.be/kKo5IDTiWIU?si=ia7J-ZC1VPU2lDkC">recent video</a> on updates to my RKLB valuation model, the primary piece of intelligent criticism I received was about my comments about Neutron. I've spent the last 2 days and 12 hours in total researching and creating a model of the commercial satellite launch market to improve my understanding.
 
-"Constellations are what you want to be aiming for to launch. I'm not sure Neutron is optimized to launch constellations."  
+<i>"Constellations are what you want to be aiming for to launch. I'm not sure Neutron is optimized to launch constellations."</i>
 I completely misunderstood the cost per launch component. My fundamental criticism of Neutron is that because of its lower size compared to other medium/heavy lift partially-reusable rockets, it will have to charge much less per launch to be competitive.
 
-"[For Neutron to efficiently launch constellations] it will have to land at sea with low payload volume with low payload mass. This is not the best architecture I'd say something like relativities Terran R I'd be more bullish on."  
+<i>"[For Neutron to efficiently launch constellations] it will have to land at sea with low payload volume with low payload mass. This is not the best architecture I'd say something like relativities Terran R I'd be more bullish on."</i>
 I completely stand by this statement. New Glenn appears to be the best rocket to launch mega-constellations from a design perspective. RTLS + High payload mass + Large fairing volume makes an ideal 2050 rocket. Neutron is suboptimal on all three of these metrics.
 
 Execution is fundamentally what you should be concerned with in rocket development programs. In the video, I missed this point entirely as I was focused on being pessimistic about Rocket Lab to combat my inherent optimism as can be seen in my valuation estimates.
