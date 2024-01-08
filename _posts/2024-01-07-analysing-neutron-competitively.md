@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/2024-01-07/neutron-deploy.jpg">
 </head>
 
-![Image description]({{site.url}}/assets/images/2024-01-07/neutron-deploy.jpg){: height="400" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/neutron-deploy.jpg){: width="600" .align-center}
 
 Neutron is Rocket Lab's next-generation medium-lift rocket. In many ways, it looks and functions like Falcon 9 version 2 as it is designed from the ground up for reusability. This is most obvious with the booster. The fairings are built into the structure of the booster, the landing legs are built into strakes, and the Archimedes engine is designed to operate below max performance to optimize for reusability.
 
@@ -21,7 +21,7 @@ Model this analysis is based on: <a href="https://docs.google.com/spreadsheets/d
 
 ### Legacy Commerical Communication Satellite Market
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: height="300" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="500" .align-center}
 
 The legacy commercial communication satellite market is dominated by GEO satellites. From 2018 to the end of 2023, 39 commercial GEO satellites have been launched and 9 commercial satellites to LEO.
 
@@ -33,7 +33,7 @@ Neutron will not take market share here and I don't believe Rocket Lab should pu
 
 ### Constellations - The Next Paradigm
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Type-Pie.png){: height="300" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Type-Pie.png){: width="500" .align-center}
 
 Constellations are the next paradigm in the commercial communication satellite market and what Rocket Lab claims Neutron is optimized for. 
 
