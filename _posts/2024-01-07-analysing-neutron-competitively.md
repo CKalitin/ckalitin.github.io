@@ -37,14 +37,16 @@ Neutron can only launch ~50% of these satellites and most of these require expen
 
 Ariane 5 peaked at 7 launches per year. This shows the relativly small size of this market. This is more of an indictment of the Vulcan than Neutron, as Vulcan is optimized for high energy orbits which are a small portion of the future commerical market.
 
-Neutron will not take market share here, and Rocket Lab shouldn't try to as this is a minor market.
+Neutron will not take market share here. Rocket Lab should not put much effort into this as it is now a minor market compared to Constellations.
 
 ### Constellations - The Next Paradigm
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Type-Pie.png){: height="350" .align-center}
 
-Constellations are the next paradigm in the commerical communication satellite market and what Neutron is optimized for. 
+Constellations are the next paradigm in the commerical communication satellite market and what Rocket Lab claims Neutron is optimized for. 
+
+Constellations do not require high energy orbits, they require high mass-to-orbit and high payload volume.
 
 ### Neutron's Competitive Position in Constellations
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: height="700"}
+![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: width="700" .align-center}
