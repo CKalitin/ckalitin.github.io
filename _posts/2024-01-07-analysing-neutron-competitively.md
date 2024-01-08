@@ -19,7 +19,7 @@ However, Neutron is not a perfectly optimized rocket and in many ways Falcon 9 i
 
 Model this analysis is based on: <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
 
-### Legacy Commerical Communication Satellite Market
+### <b>Legacy Commerical Communication Satellite Market</b>
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="600" .align-center}
 
@@ -31,7 +31,7 @@ Ariane 5 peaked at 7 launches per year. This shows the relatively small size of 
 
 Neutron will not take market share here and I don't believe Rocket Lab should put much effort into this as it is now a minor market compared to Constellations.
 
-### Constellations - The Next Paradigm
+### <b>Constellations - The Next Paradigm</b>
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Type-Pie.png){: width="500" .align-center}
 
@@ -45,7 +45,7 @@ Small Sat constellations are a minority of the market. Small sats can be launche
 
 To illustrate this point, Planet Labs currently has around 200 operational satellites in orbit and Dove satellites weigh around 5kg. 200*5=1000kg. The entire constellation is only a couple of tons, if specific orbits weren't required, this could be done on a single Falcon 9.
 
-### Neutron's Competitive Position in Constellations
+### <b>Neutron's Competitive Position in Constellations</b>
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Constellation-Rockets.png){: width="700" .align-center}
 
@@ -59,7 +59,7 @@ Neutron will have to charge ~$40M per launch to be competitive on constellations
 
 SpaceX's original Iridium deal was $492M for 8 launches which is $61.5M per launch. If Neutron carried out this contract, it would have to launch ~13 times for $38.7M per launch. Worse yet, Neutron is volume limited here as the 10 Iridium satellites are only 6.6t. With reusability, $40M per launch is possible, but at significantly lower margins than the Falcon 9 and potentially other medium launch vehicles in the future.
 
-### Conclusion
+### <b>Conclusion</b>
 
 In my <a href="https://youtu.be/kKo5IDTiWIU?si=ia7J-ZC1VPU2lDkC">recent video</a> on updates to my RKLB valuation model, the primary piece of intelligent criticism I received was about my comments about Neutron. I've spent the last 2 days and 12 hours in total researching and creating a model of the commercial satellite launch market to improve my understanding.
 
