@@ -71,6 +71,6 @@ I completely misunderstood the cost per launch component. My fundamental critici
 <i>"[For Neutron to efficiently launch constellations] it will have to land at sea with low payload volume with low payload mass. This is not the best architecture I'd say, something like relativity's Terran R I'd be more bullish on."</i>  
 I completely stand by this statement. New Glenn appears to be the best partially-reusable rocket to launch mega-constellations from a design perspective. RTLS + High payload mass + Large fairing volume makes an ideal 2050 rocket. Neutron is suboptimal on all three of these metrics.
 
-Execution is fundamentally what you should be concerned with in rocket development programs. In the video I missed this point entirely as I was focused on being pessimistic about Rocket Lab to combat my inherent optimism as can be seen in my valuation estimates.
+Execution is fundamentally what you should be concerned with in rocket development programs. This can be seen in the chart above as the Falcon 9 is suboptimal and yet launches the vast majority of satellites - world class execution is far more important than anything else. In the video I missed this point entirely as I was focused on being pessimistic about Rocket Lab to combat my inherent optimism as can be seen in my valuation estimates.
 
 Rocket Lab has a proven track record and I believe they will be able to execute on the Neutron program while bringing in billions in profits over its lifetime. However, Neutron remains a suboptimal rocket.
