@@ -85,7 +85,7 @@ Finally, there are peripheral improvements that effect EVs more than ICE cars. T
 
 + Charging time and Battery lifetime
 
-#### <b>Hybrids & Hydrogen Won't Succeed</b>
+#### <b>Hybrids & Hydrogen Won't Succeed Against EVs</b>
 
 Many products that make sense from an environmental perspective do not work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
 
@@ -101,7 +101,31 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 #### <b>Heavy Vehciles</b>
 
-Heavy Vehicles
+The same reasons that decrease operating costs for personal vehicles have vastly greater effects on Heavy Vehicles. Because of the increased usage of heavy vehicles and the operators lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
+
+Cost of ICE Semi-Trucks:
+Driver:                                   $100,000k / Year
+Maintenance:                              $10k / Year
+Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> / 10 km/g * $3.5/gallon:  $70k / Year
+Max Payload:                              65,000 lb
+Yearly Cost:                              $180k
+<b>Yearly Cost / Max Payload:                $2.77</b>
+
+Cost of Electric Semi-Trucks:
+Driver:                                   $100,000 / Year
+Maintenance:                              $5k / Year
+Fuel: 200,000km * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a>: $35k / Year
+Max Payload:                              55,000 lb
+Yearly Cost:                              $140k
+<b>Yearly Cost / Max Payload:                $2.55</b>
+
+$0.22 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
+
+1. Trucks
+2. Operating Costs
+3. Cost per kg per km (82,000lb is not a limitation)
+4. Extrapolate (Firetrucks)
+5. Contingent on low electricity costs (Solar section)
 
 ### <b>Autonomous Revolution</b>
 
