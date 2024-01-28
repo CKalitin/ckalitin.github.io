@@ -47,7 +47,7 @@ Currently, the EV revolution is occuring at fervent pace. This is mainly due to 
 
 + Add source
 
-It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
+It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1C5jyyiQzR7RzHMudp3FHdy8RgAwvOLAcO3zKGu-KGOo/edit#gid=254411023?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
 
 Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
 This is an economics problem so it can be solved with an economic toolkit. Personal arguments do not apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can not support major automakers on 1%.
@@ -69,7 +69,7 @@ The primary consideration when purchasing a vehicle is cost. When EVs are cheape
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ev-battery-cost.jpg){: height="400" .align-center}
 
-<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image</a>.
+<a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image.</a>
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large){: height="350" .align-center}
 
@@ -99,7 +99,7 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 ![Image description]({{site.url}}/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp){: height="450" .align-center}
 
-#### <b>Heavy Vehciles</b>
+#### <b>Heavy Vehicles</b>
 
 1. Trucks
 2. Operating Costs
@@ -107,7 +107,7 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 4. Extrapolate (Firetrucks)
 5. Contingent on low electricity costs (Solar section)
 
-The sources of decreasing cost in personal vehicles have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
+The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
 
 | <b>Cost of ICE Semi-Trucks</b> | |
 | - | - |
@@ -116,7 +116,7 @@ The sources of decreasing cost in personal vehicles have vastly greater effects 
 | Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> / 10km/gal * $3.5/gal | $70k / Year|
 | Other | $5k / Year |
 | Max Payload | 65,000 lb |
-| Annual Total | $5k / Year |
+| Annual Total | $185k / Year |
 | <b>Annual Cost / Max Payload</b> | <b>$2.85</b> |
 
 | <b>Cost of EV Semi-Trucks</b> | |
@@ -129,7 +129,7 @@ The sources of decreasing cost in personal vehicles have vastly greater effects 
 | Annual Total | $145k / Year |
 | <b>Annual Cost / Max Payload</b> | <b>$2.64</b> |
 
-$0.22 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
+$0.21 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
 
 ### <b>Autonomous Revolution</b>
 
