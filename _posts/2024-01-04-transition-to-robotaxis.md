@@ -107,8 +107,15 @@ The same reasons that decrease operating costs for personal vehicles have vastly
 | - | - |
 | Driver | $100k / Year|
 | Maintenance | $10k / Year|
-| Fuel: 200,000km / 10km/gal * $3.5/gal | $100k / Year|
-| Other: | $5k / Year|
+| Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> / 10km/gal * $3.5/gal | $100k / Year|
+| Other: | $5k / Year |
+
+| | |
+| - | - |
+| Driver | $100k / Year|
+| Maintenance | $5k / Year|
+| Fuel: 200,000km * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a> * $3.5/gal | $100k / Year|
+| Other: | $5k / Year |
 
 
 
