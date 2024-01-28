@@ -111,33 +111,17 @@ The same reasons that decrease operating costs for personal vehicles have vastly
 | Other | $5k / Year |
 | Max Payload | 65,000 lb |
 | Annual Total | $5k / Year |
+| Annual Cost / Max Payload | $2.85 |
 
 | <b>Cost of EV Semi-Trucks</b> | |
 | - | - |
 | Driver | $100k / Year|
 | Maintenance | $5k / Year|
-| Fuel: 200,000km * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a> | $35k / Year|
+| Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a> | $35k / Year|
 | Other | $5k / Year |
 | Max Payload | 55,000 lb |
 | Annual Total | $145k / Year |
-
-
-
-Cost of ICE Semi-Trucks:  
-Driver:                                   $100k / Year  
-Maintenance:                              $10k / Year  
-Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> / 10 km/g * $3.5/gallon:  $70k / Year  
-Max Payload:                              65,000 lb  
-Yearly Cost:                              $180k  
-<b>Yearly Cost / Max Payload:                $2.77</b>
-
-Cost of Electric Semi-Trucks:  
-Driver:                                   $100,000 / Year  
-Maintenance:                              $5k / Year  
-Fuel: 200,000km * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a>: $35k / Year  
-Max Payload:                              55,000 lb  
-Yearly Cost:                              $140k  
-<b>Yearly Cost / Max Payload:                $2.55</b>
+| Annual Cost / Max Payload | $2.64 |
 
 $0.22 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
 
