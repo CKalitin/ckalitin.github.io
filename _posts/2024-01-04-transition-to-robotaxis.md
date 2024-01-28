@@ -101,7 +101,13 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 #### <b>Heavy Vehciles</b>
 
-The same reasons that decrease operating costs for personal vehicles have vastly greater effects on Heavy Vehicles. Because of the increased usage of heavy vehicles and the operators lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
+1. Trucks
+2. Operating Costs
+3. Cost per kg per km (82,000lb is not a limitation)
+4. Extrapolate (Firetrucks)
+5. Contingent on low electricity costs (Solar section)
+
+The sources of decreasing cost in personal vehicles have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
 
 | <b>Cost of ICE Semi-Trucks</b> | |
 | - | - |
@@ -124,12 +130,6 @@ The same reasons that decrease operating costs for personal vehicles have vastly
 | Annual Cost / Max Payload | $2.64 |
 
 $0.22 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
-
-1. Trucks
-2. Operating Costs
-3. Cost per kg per km (82,000lb is not a limitation)
-4. Extrapolate (Firetrucks)
-5. Contingent on low electricity costs (Solar section)
 
 ### <b>Autonomous Revolution</b>
 
