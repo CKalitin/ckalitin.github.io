@@ -117,7 +117,7 @@ The sources of decreasing cost in personal vehicles have vastly greater effects 
 | Other | $5k / Year |
 | Max Payload | 65,000 lb |
 | Annual Total | $5k / Year |
-| Annual Cost / Max Payload | $2.85 |
+| <b>Annual Cost / Max Payload</b> | <b>$2.85</b> |
 
 | <b>Cost of EV Semi-Trucks</b> | |
 | - | - |
@@ -127,7 +127,7 @@ The sources of decreasing cost in personal vehicles have vastly greater effects 
 | Other | $5k / Year |
 | Max Payload | 55,000 lb |
 | Annual Total | $145k / Year |
-| Annual Cost / Max Payload | $2.64 |
+| <b>Annual Cost / Max Payload</b> | <b>$2.64</b> |
 
 $0.22 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
 
