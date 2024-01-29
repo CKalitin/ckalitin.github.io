@@ -6,7 +6,6 @@ author:
  - Christopher Kalitin
 ---
 
-# <b>Transition from Privately-Owned ICE vehicles to Autonomous Robotaxis</b>
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)
@@ -18,7 +17,7 @@ author:
 
 
 
-The automotive market is currenting undergoing a transition from privately-owned internal combustion engine (ICE) vehicles to autonomous EV robotaxis. 
+The automotive market is currently undergoing a transition from privately-owned internal combustion engine (ICE) vehicles to autonomous EV robotaxis. 
 
 There are three components to this transition: ICE to EV, Manual to Autonomous, and Privately-owned vehicles to Robotaxis.
 
@@ -122,11 +121,11 @@ Not only the cost to produce electric semis is decreasing, but also fuel costs. 
 
 For niche applications, electric semis are not yet ready to compete with ICE semis. In <a href="https://www.energysage.com/local-data/electricity-cost/ca/san-diego-county/san-diego/#:~:text=Electric%20rates%20in%20San%20Diego%2C%20CA,-The%20easiest%20way&text=The%20average%20residential%20electricity%20rate,rate%20of%2019%20%C2%A2%2FkWh.">some metro areas</a> electricity prices are absurdly high. When electricity prices are 3x the national average, electric semis are not economical. For example, if a semi's job is to offload containers from a port in a metro area, it is not ideal to use an EV semi in a poorly managed city with high electricity prices. Also, if a semi must travel >500 miles without stopping for 30 minutes to charge or if it is carrying an <a href="https://www.youtube.com/watch?v=dgX7N2-dC9A">areodynamically inefficient payload</a>, EV semis are not yet competitive with ICE.
 
-The range of EV semis is not a major concern. Truck drivers drive <a href="https://www.ziprecruiter.com/e/How-Many-Miles-Is-a-Truck-Driver-Allowed-to-Drive-in-one-Day#:~:text=If%20a%20truck%20driver%20adheres,%2C%20traffic%2C%20and%20weather%20conditions.">605-650 miles per day</a> on average. This may require 2-3 stops to charge. If an <a href="https://www.youtube.com/watch?v=yz7TyZ8wNYg">efficient route</a> is used, this may only delay the delivery by ~1 hour. Regardless, Semi drivers legally must stop to rest and in this time the truck can be charged. Significant capital investment is required to construct the chargers, but this is a <a href="https://time.com/6287589/tesla-ev-charging-business-model/">profitable business model</a>, so it is only a matter of time.
+The range of EV semis is not a major concern. Truck drivers drive <a href="https://www.ziprecruiter.com/e/How-Many-Miles-Is-a-Truck-Driver-Allowed-to-Drive-in-one-Day#:~:text=If%20a%20truck%20driver%20adheres,%2C%20traffic%2C%20and%20weather%20conditions.">605-650 miles per day</a> on average. This may require 2-3 stops to charge. If an <a href="https://www.youtube.com/watch?v=yz7TyZ8wNYg">efficient route</a> is used, this may only delay the delivery by ~1 hour. Regardless, truck drivers legally must stop to rest and in this time the truck can be charged. Significant capital investment is required to construct the chargers, but this is a <a href="https://time.com/6287589/tesla-ev-charging-business-model/">profitable business model</a>, so it is only a matter of time before the chargers are constructed.
 
 Semi-trucks are not the only heavy vehicles that will transition to EVs as vehicles that often travel short trips are ripe for transition to EVs. <a href="https://vancouver.ca/news-calendar/first-electric-fire-engine-in-canada-dec-2023.aspx">Firetrucks</a> often only serve their local area, no more than 10km in diameter. Furthermore, Buses can charge in <a href="https://www.forbes.com/sites/bradtempleton/2022/12/08/teslas-new-semi-truck-will-be-great-if-you-get-your-electricity-wisely/?sh=26e6b8042b5a">5-10 minutes</a> depending on route length and battery size, short enough to charge while waiting for passengers at a home station.
 
-#### Other Concerns with EVs
+#### <b>Other Concerns with EVs</b>
 
 + Grid
 + Charging time and Battery lifetime
