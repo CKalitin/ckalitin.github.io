@@ -31,13 +31,6 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 
 ## <b>EV Revolution</b>
 
-1. S-curves
-2. Extrapolating S-curves
-3. Fundamental Technologies and their explonential decline in cost
-4. EVs are cheaper to own and operate than ICE vehicles
-5. Hydrogen (energy efficiency, cost declines?, unnecessary, etc.)
-6. Heavy vehicles (buses, trucks, etc.)
-
 #### <b>The EV S-Curve</b>
 
 Currently, the EV revolution is occuring at fervent pace. This is mainly due to economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
@@ -79,8 +72,6 @@ The EV architecture is also inherently safer than ICE vehicles for several reaso
 
 Finally, there are peripheral improvements that effect EVs more than ICE cars. The direct to consumer model leads to a better customer experience and a streamlined purchasing process. This is far more common in the EV space due to the higher risk tolerance and ability to innovate of EV companies. The lack of a dealership also allows for a more direct relationship between the manufacturer and the consumer. This allows for better customer service and a better overall experience. The ease of charging and at home is an improvement for the majority of consumers along with the smoother and quieter ride.
 
-+ Charging time and Battery lifetime
-
 #### <b>Hybrids & Hydrogen Won't Succeed Against EVs</b>
 
 Many products that make sense from an environmental perspective do not work economically when compared to electric vehicles. This can be seen with hybrid and hydrogen vehicles.
@@ -97,7 +88,7 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 #### <b>Heavy Vehicles</b>
 
-The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment. Comparing ICE and EV semi-trucks can illustrate this.
+The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment. Comparing ICE and EV semi-trucks illustrates this.
 
 | <b>Cost of ICE Semi-Trucks</b> | |
 | - | - |
@@ -121,7 +112,7 @@ The sources of decreasing cost in personally-owned EVs have vastly greater effec
 
 As you can see above, EV semi-trucks are currently ~7% cheaper than ICE semis when operating at maximum payload. An EV Semi saves the operator $40k (22%) per year while only decreasing payload by 10,000lb (15%). A 7% cost reduction may appear very marginal, but for large companies like <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian">Amazon</a> and <a href="https://electrek.co/2023/08/04/pepsico-explains-uses-tesla-semi-electric-trucks-glimpse-future-of-trucking/">Pepsi</a> this can save hundreds of millions of dollars per year, enough to warrant <a href="https://www.businessandleadership.com/investment/item/jeff-bezos-amazon-rivian-startup/">significant up-front investment</a> in Amazon's case.
 
-Electric semi-trucks must not exceed <a href="https://afdc.energy.gov/laws/11682">82,000lb</a> in the US. This maximum is 2,000lb more than ICE as an incentive to EV semi-manufacturers. The Tesla Semi is ~10,000lb heavier than an equivalent ICE semi and even with this drawback it is more economical than an equivalent ICE semi. When a semi is not operating at maximum load the cost improvements of EVs are even more pronounced. So, semis that often transport light loads (volume-constrained) can save more than 7% if they use EV instead of ICE.
+Electric semi-trucks must not exceed <a href="https://afdc.energy.gov/laws/11682">82,000lb</a> in the US. This maximum is 2,000lb more than ICE as an incentive to EV semi-manufacturers. The Tesla Semi is ~10,000lb heavier than an equivalent ICE semi and even with this drawback, operating costs are lower than that of an equivalent ICE semi. When a semi-truck is not operating at maximum load the cost improvements of EVs are even more pronounced. So, semis that often transport light loads (volume-constrained) can save more than 7% if they use EV instead of ICE.
 
 The average cost of a semi-truck is <a href="https://www.durabakcompany.com/blogs/durabak/how-much-does-a-semi-truck-cost">~$150,000</a>. The Tesla Semi costs $150,000 for the 300-mile model and $180,000 for the 500-mile model. This is already near cost parody with ICE Semis, but EV semi-manufacturers are not done yet. Because of the decreasing costs of batteries outlined in earlier sections, EV Semis will soon be cheaper than ICE equivalents. 
 
@@ -129,11 +120,16 @@ To illustrate the potential future cost declines in EV semis, the Tesla Semi's b
 
 Not only the cost to produce electric semis is decreasing, but also fuel costs. The average price of electricity in the US is $0.16/kWh. Current solar installations can produce electricity for <a href="https://www.solar.com/learn/solar-panel-cost/">6-8 cents</a> per kWh. As sustainable energy generation sources further decrease in cost and increase in production, electricity prices will fall.
 
-For niche applications, electric semis are not yet ready to compete with ICE semis. For example, in <a href="https://www.energysage.com/local-data/electricity-cost/ca/san-diego-county/san-diego/#:~:text=Electric%20rates%20in%20San%20Diego%2C%20CA,-The%20easiest%20way&text=The%20average%20residential%20electricity%20rate,rate%20of%2019%20%C2%A2%2FkWh.">some metro areas</a> electricity prices are absurdly high. When electricity prices are 3x the national average, electric semis are not economical. So, if a semi's job is to offload containers from a port in a metro area, it is not ideal to use an EV semi in a poorly managed city with high electricity prices. Also, if a semi must travel >500 miles without stopping for 30 minutes to charge or it is carrying an <a href="https://www.youtube.com/watch?v=dgX7N2-dC9A">areodynamically inefficient payload</a>, EV semis are not yet competitive with ICE.
+For niche applications, electric semis are not yet ready to compete with ICE semis. In <a href="https://www.energysage.com/local-data/electricity-cost/ca/san-diego-county/san-diego/#:~:text=Electric%20rates%20in%20San%20Diego%2C%20CA,-The%20easiest%20way&text=The%20average%20residential%20electricity%20rate,rate%20of%2019%20%C2%A2%2FkWh.">some metro areas</a> electricity prices are absurdly high. When electricity prices are 3x the national average, electric semis are not economical. For example, if a semi's job is to offload containers from a port in a metro area, it is not ideal to use an EV semi in a poorly managed city with high electricity prices. Also, if a semi must travel >500 miles without stopping for 30 minutes to charge or if it is carrying an <a href="https://www.youtube.com/watch?v=dgX7N2-dC9A">areodynamically inefficient payload</a>, EV semis are not yet competitive with ICE.
 
-The range of EV semis is not a major concern. Truck drivers drive <a href="https://www.ziprecruiter.com/e/How-Many-Miles-Is-a-Truck-Driver-Allowed-to-Drive-in-one-Day#:~:text=If%20a%20truck%20driver%20adheres,%2C%20traffic%2C%20and%20weather%20conditions.">605-650 miles per day</a> on average. This may require 2-3 stops to charge. If an <a href="https://www.youtube.com/watch?v=yz7TyZ8wNYg">efficient route</a> is used, this may only delay the delivery by ~1 hour.
+The range of EV semis is not a major concern. Truck drivers drive <a href="https://www.ziprecruiter.com/e/How-Many-Miles-Is-a-Truck-Driver-Allowed-to-Drive-in-one-Day#:~:text=If%20a%20truck%20driver%20adheres,%2C%20traffic%2C%20and%20weather%20conditions.">605-650 miles per day</a> on average. This may require 2-3 stops to charge. If an <a href="https://www.youtube.com/watch?v=yz7TyZ8wNYg">efficient route</a> is used, this may only delay the delivery by ~1 hour. Regardless, Semi drivers legally must stop to rest and in this time the truck can be charged. Significant capital investment is required to construct the chargers, but this is a <a href="https://time.com/6287589/tesla-ev-charging-business-model/">profitable business model</a>, so it is only a matter of time.
 
 Semi-trucks are not the only heavy vehicles that will transition to EVs as vehicles that often travel short trips are ripe for transition to EVs. <a href="https://vancouver.ca/news-calendar/first-electric-fire-engine-in-canada-dec-2023.aspx">Firetrucks</a> often only serve their local area, no more than 10km in diameter. Furthermore, Buses can charge in <a href="https://www.forbes.com/sites/bradtempleton/2022/12/08/teslas-new-semi-truck-will-be-great-if-you-get-your-electricity-wisely/?sh=26e6b8042b5a">5-10 minutes</a> depending on route length and battery size, short enough to charge while waiting for passengers at a home station.
+
+#### Other Concerns with EVs
+
++ Grid
++ Charging time and Battery lifetime
 
 ### <b>Autonomous Revolution</b>
 
