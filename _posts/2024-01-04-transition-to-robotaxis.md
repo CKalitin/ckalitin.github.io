@@ -97,23 +97,6 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 
 #### <b>Heavy Vehicles</b>
 
-1. Trucks
-2. Operating Costs
-3. Cost per kg per km (82,000lb is not a limitation)
-4. Extrapolate (Firetrucks)
-5. Contingent on low electricity costs (Solar section)
-
-1. Cost to produce (~20% high than ICE)
-2. Electricity Cost
-
-1. Summary
-2. Cost to operate vs. ICE
-3. Payload is not a concern
-4. Electricity costs (port example)
-5. Currently only slight advantage compared to ICE (decreasing battery costs solve this)
-
-1. Summary: Cost vs. Ice, max payload, battery cost declines, electricity cost declines
-
 The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment. Comparing ICE and EV semi-trucks can illustrate this.
 
 | <b>Cost of ICE Semi-Trucks</b> | |
@@ -132,7 +115,7 @@ The sources of decreasing cost in personally-owned EVs have vastly greater effec
 | Maintenance | $5k / Year|
 | Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a> | $35k / Year|
 | Other | $5k / Year |
-| <a href="https://www.torquenews.com/14335/tesla-semi-broken-down-details#:~:text=The%20total%20weight%20of%20the%20Tesla%20Semi%20seems%20to%20be,it%20around%2030%2C000%20total%20miles.&text=The%20Tesla%20Semi%20has%20a%20total%20cargo%20weight%20of%20about,between%2040%2C000%20to%2054%2C000%20lbs.">Max Payload</a> | 55,000 lb |
+| Max Payload | <a href="https://www.torquenews.com/14335/tesla-semi-broken-down-details#:~:text=The%20total%20weight%20of%20the%20Tesla%20Semi%20seems%20to%20be,it%20around%2030%2C000%20total%20miles.&text=The%20Tesla%20Semi%20has%20a%20total%20cargo%20weight%20of%20about,between%2040%2C000%20to%2054%2C000%20lbs.">55,000 lb</a> |
 | Annual Total | $145k / Year |
 | <b>Annual Cost / Max Payload</b> | <b>$2.64</b> |
 
@@ -149,6 +132,14 @@ Electric semi-trucks must not exceed <a href="https://afdc.energy.gov/laws/11682
 The average cost of a semi-truck is <a href="https://www.durabakcompany.com/blogs/durabak/how-much-does-a-semi-truck-cost">~$150,000</a>. The Tesla Semi costs $150,000 for the 300 mile model and $180,000 for 500 miles of range. This is already near cost parody with ICE Semis, but EV Semi manufacturers are not done yet. Because of the decreasing costs of batteries outlined in earlier sections, EV Semi's will soon be cheaper than ICE equivalents. 
 
 To illustate the potential future cost declines in EV semis, the Tesla Semi's battery is <a href="https://en.wikipedia.org/wiki/Tesla_Semi">~900kWh</a>. At current EV battery pack costs (not cell costs): 900kWh * <a href="https://about.bnef.com/blog/lithium-ion-battery-pack-prices-hit-record-low-of-139-kwh/#:~:text=For%20battery%20electric%20vehicle%20(BEV,of%20the%20total%20pack%20price.">$128/kWh</a> = $115,200. Presumably, Tesla is already below this cost with the 4680 cells. If battery costs decline 80% is the next 10 years <a href="https://tonyseba.com/wp-content/uploads/2020/11/RethinkingEnergy2020-2030-LRR.pdf">(page 8)</a>, the cost to produce an electric semi may fall by more than 2x.
+
+Not only the cost to produce electric semi's is decreasing, but also fuel costs. The average price of electricity in the US is $0.16/kWh. Current solar installations can produce electricity for <a href="https://www.solar.com/learn/solar-panel-cost/">6-8 cents</a> per kWh. As sustainable energy generation sources further decrease in cost and increase in production, electricity prices will fall.
+
+For niche applications, electric semi's are not yet ready to compete with ICE semis. For exmaple, in <a href="https://www.energysage.com/local-data/electricity-cost/ca/san-diego-county/san-diego/#:~:text=Electric%20rates%20in%20San%20Diego%2C%20CA,-The%20easiest%20way&text=The%20average%20residential%20electricity%20rate,rate%20of%2019%20%C2%A2%2FkWh.">some metro areas</a> electricity prices are absurdly high. When electricity prices are 3x the national average, electric semi's are not economical. So, if a semi's job is to offload containers from a port in a metro area, it is not ideal to use an EV semi in a poorly managed city with high electricity prices. Also, if a semi must travel >500 miles without stopping for 30 minutes to charge or it is carrying an <a href="https://www.youtube.com/watch?v=dgX7N2-dC9A">areodynamically inefficient payload</a>, EV semis are not yet competitive with ICE.
+
+The range of EV semi's is not a major concern. Truck drivers drive <a href="https://www.ziprecruiter.com/e/How-Many-Miles-Is-a-Truck-Driver-Allowed-to-Drive-in-one-Day#:~:text=If%20a%20truck%20driver%20adheres,%2C%20traffic%2C%20and%20weather%20conditions.">605-650 miles per day</a> on average. This may require 2-3 stops to charge. If an <a href="https://www.youtube.com/watch?v=yz7TyZ8wNYg">efficient route</a> is used, this may only delay the delivery by ~1 hour.
+
+Semi trucks are not the only heavy vehicles that will transition to EVs as vehicles that often travel short trips are ripe for transition to EV. <a href="https://vancouver.ca/news-calendar/first-electric-fire-engine-in-canada-dec-2023.aspx">Firetrucks</a> often only serve their local area, no more than 10km in diameter. Furthermore, Buses can charge in <a href="https://www.forbes.com/sites/bradtempleton/2022/12/08/teslas-new-semi-truck-will-be-great-if-you-get-your-electricity-wisely/?sh=26e6b8042b5a">5-10 minutes</a> depending on route length and battery size, short enough to charge while waiting for passangers at a home station.
 
 ### <b>Autonomous Revolution</b>
 
