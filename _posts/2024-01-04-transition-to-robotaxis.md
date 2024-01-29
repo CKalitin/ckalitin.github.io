@@ -45,14 +45,10 @@ Currently, the EV revolution is occuring at fervent pace. This is mainly due to 
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Historic.png){: height="350" .align-center}
 ![Image description]({{site.url}}/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png){: height="350" .align-center}
 
-+ Add source
-
-It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1C5jyyiQzR7RzHMudp3FHdy8RgAwvOLAcO3zKGu-KGOo/edit#gid=254411023?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%.
+It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1C5jyyiQzR7RzHMudp3FHdy8RgAwvOLAcO3zKGu-KGOo/edit#gid=254411023?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%. 
 
 Above is my prediction for EV market share until 2040, the 50% mark is in 2027 and 90% in 2030.  
 This is an economics problem so it can be solved with an economic toolkit. Personal arguments do not apply here, your uncle from Alabama will bregrudingly buy an EV when he realizes how much he'll save, or he'll be in the 1% of people who don't. You can not support major automakers on 1%.
-
-+ expain extrapolating S-curves briefly
 
 #### <b>Decline in EV Manufacturing Costs</b>
 
@@ -107,7 +103,18 @@ Hybrids will not be able to compete with EVs in the long term due to the static 
 4. Extrapolate (Firetrucks)
 5. Contingent on low electricity costs (Solar section)
 
-The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment.
+1. Cost to produce (~20% high than ICE)
+2. Electricity Cost
+
+1. Summary
+2. Cost to operate vs. ICE
+3. Payload is not a concern
+4. Electricity costs (port example)
+5. Currently only slight advantage compared to ICE (decreasing battery costs solve this)
+
+1. Summary: Cost vs. Ice, max payload, battery cost declines, electricity cost declines
+
+The sources of decreasing cost in personally-owned EVs have vastly greater effects on heavy vehicles. Because of the increased usage of heavy vehicles and the operator's lack of consumer preferences, it is very easy to predict the success of EVs in this segment. Comparing ICE and EV semi-trucks can illustrate this.
 
 | <b>Cost of ICE Semi-Trucks</b> | |
 | - | - |
@@ -125,11 +132,23 @@ The sources of decreasing cost in personally-owned EVs have vastly greater effec
 | Maintenance | $5k / Year|
 | Fuel: <a href="https://dieseltech.ca/how-much-does-it-cost-to-run-a-semi-truck-in-bc/#:~:text=Another%20study%20from%20the%20Trucker's,20%2C5000%20gallons%20of%20fuel.">200,000km</a> * <a href="https://www.electrive.com/2023/08/15/pepsico-cites-consumption-of-1-1-kwh-km-for-tesla-semi/">1.1 kWh/km</a> * <a href="https://www.energybot.com/electricity-rates/">$0.16/kWh</a> | $35k / Year|
 | Other | $5k / Year |
-| Max Payload | 55,000 lb |
+| <a href="https://www.torquenews.com/14335/tesla-semi-broken-down-details#:~:text=The%20total%20weight%20of%20the%20Tesla%20Semi%20seems%20to%20be,it%20around%2030%2C000%20total%20miles.&text=The%20Tesla%20Semi%20has%20a%20total%20cargo%20weight%20of%20about,between%2040%2C000%20to%2054%2C000%20lbs.">Max Payload</a> | 55,000 lb |
 | Annual Total | $145k / Year |
 | <b>Annual Cost / Max Payload</b> | <b>$2.64</b> |
 
-$0.21 Savings per year per lb of payload. This is an 8% improvement for the heaviest loads.
+1. Cost summary - purchase price included.
+2. Payload
+3. Declining battery costs
+4. Declining Electricity Costs
+5. Other vehicles (Buses, Firetrucks)
+
+As you can see above, EV semi-trucks are currently ~7% cheaper than ICE semis when operating at maximum payload. An EV Semi saves the operator $40k (22%) per year while only decreasing payload by 10,000lb (15%). A 7% cost reduction may appear very marginal, but for large companies like <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian">Amazon</a> and <a href="https://electrek.co/2023/08/04/pepsico-explains-uses-tesla-semi-electric-trucks-glimpse-future-of-trucking/">Pepsi</a> this can save hundreds of millions of dollars per year, enough to warrant <a href="https://www.businessandleadership.com/investment/item/jeff-bezos-amazon-rivian-startup/">significant up-front investment</a> in Amazon's case.
+
+Electric semi-trucks must not exceed <a href="https://afdc.energy.gov/laws/11682">82,000lb</a> in the US. This maximum is 2,000lb more than ICE as an incentive to EV semi manufacturers. The Tesla Semi is ~10,000lb heavier than an equivalent ICE semi and even with this draw back it is more economical than an equivalent ICE semi. When a semi is not operating at maximum load the cost improvements of EVs are even more pronounced. So, semi's that transport with light loads (volume constrained) EV semis are save more than 7%.
+
+The average cost of a semi-truck is <a href="https://www.durabakcompany.com/blogs/durabak/how-much-does-a-semi-truck-cost">~$150,000</a>. The Tesla Semi costs $150,000 for the 300 mile model and $180,000 for 500 miles of range. This is already near cost parody with ICE Semis, but EV Semi manufacturers are not done yet. Because of the decreasing costs of batteries outlined in earlier sections, EV Semi's will soon be cheaper than ICE equivalents. 
+
+To illustate the potential future cost declines in EV semis, the Tesla Semi's battery is <a href="https://en.wikipedia.org/wiki/Tesla_Semi">~900kWh</a>. At current EV battery pack costs (not cell costs): 900kWh * <a href="https://about.bnef.com/blog/lithium-ion-battery-pack-prices-hit-record-low-of-139-kwh/#:~:text=For%20battery%20electric%20vehicle%20(BEV,of%20the%20total%20pack%20price.">$128/kWh</a> = $115,200. Presumably, Tesla is already below this cost with the 4680 cells. If battery costs decline 80% is the next 10 years <a href="https://tonyseba.com/wp-content/uploads/2020/11/RethinkingEnergy2020-2030-LRR.pdf">(page 8)</a>, the cost to produce an electric semi may fall by more than 2x.
 
 ### <b>Autonomous Revolution</b>
 
