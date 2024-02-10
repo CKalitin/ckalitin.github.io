@@ -37,11 +37,11 @@ Cost:
 
 In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to concretely answer: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
-### Rideshareable Satellites
+#### Rideshareable Satellites
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
 
 
-### Kick Stageable Satellites
+#### Kick Stageable Satellites
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png){: width="600" .align-center}
 
 
