@@ -43,9 +43,9 @@ First, we must understand the categories of small satellites.
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
 + Planet Labs launches example
 
-In the past 5 years (2018-2023), 55 dedicated small sat launches have occured exlucing Chinese rockets. By my criteria, 11 of these missions could have been completed through launching on a commercial rideshare mission. However, five of these appear to perfer a dedicated launch and the remaining six are more well suited for a rideshare mission on a medium launch vehicle.
+In the past 5 years (2018-2023), 55 dedicated small sat launches have occured exluding Chinese rockets. By my criteria, 11 of these missions could have been completed through launching on a commercial rideshare mission. However, five of these appear to perfer a dedicated launch and the remaining six are more well suited for a rideshare mission on a medium launch vehicle.
 
-These missions are (Rocket, Payload):  
+These missions are (Rocket, Payload):
 1. Electron - Dove/Lemurs
 2. Electron - CICERO 10/Lemurs
 3. Electron - ALE-2
@@ -69,7 +69,7 @@ The reason for launching on a dedicated launch instead of a rideshare mission is
 
 Only five of the previous 55 small sat launches could have been completed on a rideshare mission using a kick stage. A Kick Stage is a small stage on top of the rocket that can change the orbit of the payload so it is delivered to the specific orbit that is required.
 
-Missions (Rocket, Payload):  
+Missions (Rocket, Payload):
 1. Electron - Palisade
 1. Electron - GMS-T
 1. Electron - GAzella
@@ -85,6 +85,7 @@ All the launches mentioned above have inclinations that are within several degre
 + Include satellite types
 
 ### <b>Military and Government Satellites</b>
+![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Operator-Types.png){: width="600" .align-center}
 
 The Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/#:~:text=ESA%20and%20the%20European%20Commission%20already%20have%20plans%20for%20as,planned%20to%20launch%20in%20October.">bregrudingly</a>. 
 
