@@ -43,7 +43,7 @@ First, we must understand the categories of small satellites.
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
 + Planet Labs launches example
 
-In the past 5 years (2018-2023), 31 dedicated small sat launches have occured. By my criteria, 10 of these missions could have been completed through launching on a rideshare mission.
+In the past 5 years (2018-2023), 31 dedicated commercial small sat launches have occured. By my criteria, 10 of these missions could have been completed through launching on a rideshare mission. However, only 5 of these are well suited to a rideshare mission and the remaining five appear to perfer a dedicated launch.
 
 These missions are (Rocket, Payload):
 1. Electron - Dove/Lemurs
@@ -57,6 +57,11 @@ These missions are (Rocket, Payload):
 9. Electron - E-Space Demo
 10. Alpha   - Small Sat Rideshare
 
+The rideshare missions and Planet Labs launches (1, 2, 4, 8, 10) are well suited for a rideshare mission on a medium launch vehicle (MLV). The rideshare missions are mainly risky flights of unproven launch vehicles (Astra Rocket 3 flight 6, Firefly Alpha flight 2). The reason these payloads flew on a small launch vehicle (SLV) is likely due to the lower cost of flying on a risky rocket. The Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching on their own rockets, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/#:~:text=ESA%20and%20the%20European%20Commission%20already%20have%20plans%20for%20as,planned%20to%20launch%20in%20October.">bregrudingly</a>. The two launches with Planet Labs satellites are also well suited to a rideshare missions because an exact orbit is not required. Planet Labs has been launching payloads on rideshare missions since the first flight of Anteres.
+
+The remaining five missions require a commonly-used Sun Synchronous Orbit (SSO). This is a ~500km orbit at an inclination of 98 degrees that allows a satellite to pass over locations on Earth at regular intervals. For example, an imaging satellite can use this orbit to pass over Vancouver at 3:00 PM every day to take images during rush hour. Every SpaceX Transporter rideshare mission has gone to this orbit.
+
+The reason for launching on a dedicated launch instead of a rideshare mission is likely to be schedule requirements. Rideshare missions only launch a couple of times per year and are scheduled by the launch provider. A company does not have the same control over the launch date or exact orbit as on a dedicated launch. This is often cited as the primary reason for companies choosing a dedicated SLV launch over a rideshare mission. However, these five missions account for only 16% of the commercial small sat launches in the last 5 years.
 
 ### Kick Stageable Satellites
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png){: width="600" .align-center}
