@@ -35,13 +35,30 @@ Cost:
 * Recovery could bring down Electron costs by ~1-2 million, bridging the gap
 * Either way, the only advantage of dedicated small sat launch for a mission that could take a Mira is schedule
 
-In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to concretely answer: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
+In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
-#### Rideshareable Satellites
+First, we must understand the categories of small satellites. 
+
+### Rideshareable Satellites
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
++ Planet Labs launches example
+
+In the past 5 years (2018-2023), 31 dedicated small sat launches have occured. By my criteria, 10 of these missions could have been completed through launching on a rideshare mission.
+
+These missions are (Rocket, Payload):
+1. Electron - Dove/Lemurs
+2. Electron - CICERO 10/Lemurs
+3. Electron - ALE-2
+4. Vega     - Small Sat Rideshare
+5. Electron - Dragracer/BRO/SpaceBEE
+6. Electron - Strix-Alpha
+7. Electron - Strix-Beta
+8. Rocket 3 - Small Sat Rideshare
+9. Electron - E-Space Demo
+10. Alpha   - Small Sat Rideshare
 
 
-#### Kick Stageable Satellites
+### Kick Stageable Satellites
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png){: width="600" .align-center}
 
 
