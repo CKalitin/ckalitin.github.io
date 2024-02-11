@@ -45,7 +45,7 @@ First, we must understand the categories of small satellites.
 
 In the past 5 years (2018-2023), 55 dedicated small sat launches have occured exlucing Chinese rockets. By my criteria, 11 of these missions could have been completed through launching on a commercial rideshare mission. However, five of these appear to perfer a dedicated launch and the remaining six are more well suited for a rideshare mission on a medium launch vehicle.
 
-These missions are (Rocket, Payload):
+These missions are (Rocket, Payload):  
 1. Electron - Dove/Lemurs
 2. Electron - CICERO 10/Lemurs
 3. Electron - ALE-2
@@ -69,14 +69,14 @@ The reason for launching on a dedicated launch instead of a rideshare mission is
 
 Only five of the previous 55 small sat launches could have been completed on a rideshare mission using a kick stage. A Kick Stage is a small stage on top of the rocket that can change the orbit of the payload so it is delivered to the specific orbit that is required.
 
-Missions (Rocket, Payload):
+Missions (Rocket, Payload):  
 1. Electron - Palisade
 1. Electron - GMS-T
 1. Electron - GAzella
 1. Electron - MATS
 1. Electron - Rideshare
 
-Each of these five launches have satellites that require unique orbits around the Earth and cannot use the default SSO orbit that many rideshare missions arrive at. The highest orbit is that of Paliside, 1,200km at an 88 degree inclination as of February 9 2024. The lowest orbit is MATS at 590km and a 98 degree inclination.
+Each of these five launches have satellites that require unique orbits around the Earth and cannot use the default SSO orbit that many rideshare missions arrive at. The highest orbit is that of Paliside, 1,200km at an 88 degree inclination as of February 9 2024. The lowest orbit is MATS at 590km and a 98 degree inclination, this launch was also Rocket Lab's second attempt at catching a booster.
 
 All the launches mentioned above have inclinations that are within several degrees of the 98 degrees that is common for rideshare missions. Inclination changes require immense amounts of fuel to complete, so more than a couple degrees of inclination change is not reasonable to be completed with a kick stage.
 
