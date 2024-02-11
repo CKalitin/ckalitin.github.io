@@ -6,25 +6,6 @@ author:
  - Christopher Kalitin
 ---
 
-Takeaways:
-1. Existing Rideshareable missions are early electron launches, tech demos to unique orbots (except ALE-2), and rideshare (Astra, Vega)
-2. Only 3 missions (Palisade com sat demo, GMS-T com sat, baby come back rideshare with NASA, demo, and spire weather sats) were over 1000km, still addressable by Mira
-3. The remiaining Kickstagable satellite are in slightly unique SSO orbits for imaging/SAR (750km GAzella, 350km CE-SAT IIB w/ Doves)
-4. Firefly quick response military launch is not addressable by rideshare
-5. The mission to low inclinations are Synthetic Aperture Radar, Imaging, Observation these are difficult to address due to the unique orbital planes with constellations (tropics, Blackstar Global, Capella)
-
-Categories:
-1. Rideshareable
-3. SSO Kick stage
-4. Low inclination constellation (Unique orbital plane required)
-5. Military
-
-Other:
-* Planet Labs has had 4 flights, the first 2 electrons, and two electrons in 2020 for super doves one of which failed, super doves have also been launched on PSLV
-* The imaging launches are all Blacksky & PlanetLabs
-* Kick Stages are a high-level technology that decreases costs slightly
-* Include an estimate of cost
-
 In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
 Access the source data at the link below.  
