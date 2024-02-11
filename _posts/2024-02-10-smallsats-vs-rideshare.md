@@ -86,7 +86,14 @@ All 16 of the launches that required a unique plane in the last 6 years were lau
 ### <b>Military and Government Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Operator-Types.png){: width="600" .align-center}
 
+
+
 In progress
+
+7 lanuches on korean/japaense/isreali/indian rockets. This market is not addressable commercially.
+3 launches on outdated vehicles (Minotaur & Pegasus) these were all military.
+1 Vega launch
+12 launches from commercial providers. (Rocket Lab, Virgin Orbit, Astra, Firefly)
 
 The Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">bregrudingly</a>. 
 
