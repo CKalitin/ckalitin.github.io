@@ -25,19 +25,10 @@ Other:
 * Kick Stages are a high-level technology that decreases costs slightly
 * Include an estimate of cost
 
-Cost:
-* Mira is 250kg wet mass + 300kg payload with 500m/s
-* Transporter missions are ~$5,500 / kg, $3M launch cost
-* Assume $1-2M cost when at scale
-* This is slightly lower than an electron (~7M) and easier to bring down in the future
-* SpaceX's cross launch margins are >50%, Rocket Lab is ~20%
-* More room for cost declines on an MLV, could get 2x cheaper in the short term
-* Recovery could bring down Electron costs by ~1-2 million, bridging the gap
-* Either way, the only advantage of dedicated small sat launch for a mission that could take a Mira is schedule
-
 In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
-Access the source data at the link below. Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
+Access the source data at the link below.  
+Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
 
 ### <b>Rideshareable Satellites</b>
@@ -89,12 +80,13 @@ Only ~10% of small sat launches can be addressed by a kick stage. For all the ne
 
 Sixteen small sat launches of the last 55 are in a category that is not addressable by rideshare or kick stages. These are satellites that require a unique orbital plane to take their place in a constellation. To properly cover the world with a satellite constellation the satellites must be placed into precise orbital planes so that there are no locations on the surface that lack coverage. For exmaple, Starlink Shell 1 consists of 72 orbital planes with 22 satellites in each. Satellites cannot be moved between orbital planes due to a similar reason as inclination changes, it requires immense amount of fuel.
 
-The requirement for a unique orbital plane and the immense difficultly of addressing this market with a kick stage makes it the perfect market for small launch vehicles.  
-Furthermore, all of these launches carried satellites that conduct Earth observation:
-1. 7 Blacksky (Imaging)
-2. 3 Capella (Syntheric Aperture Radar)
-3. 2 Tropics (Weather Observation)
-4. 4 others (mostly Synthetic Aperture Radar)
+The requirement for a unique orbital plane and the immense difficultly of addressing this market with a kick stage makes it the perfect market for small launch vehicles.
+
+All of these launches carried satellites that conduct Earth observation:
+1. 7x Blacksky (Imaging)
+2. 3x Capella (Syntheric Aperture Radar)
+3. 2x Tropics (Weather Observation)
+4. 4x others (mostly Synthetic Aperture Radar)
 
 These Earth observation constellation satellites all require launching to a specific orbit on a small launch vehicle, but not all constellations do. The prime example is Planet Labs. Their constellation is used for Earth Imaging but they have flown many times more on rideshare missions than small sat launches. Planet Labs solved the dedicated launch problem through sheer scale of their constellation. They currently operate 150 satellites and have launched 462 in total. Because of the size of this constellation, number of launches required, and eased requirements on orbital planes, Planet Labs is able to forego the need for dedicated launch.
 
@@ -108,15 +100,26 @@ Rocket Lab is currently targetting 22 launches in 2024 and the majority of these
 7. 5x Blacksky
 8. 2x Non-Earth Observation
 
-Of the 24 currently planned Electron launches 22 of them are for constellation satellites that require unique orbital planes. These are launches that can only be done of a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
+All 16 of the launches that required a unique plane in the last 6 years were launched by Electron. Furthermore, of the 24 currently planned Electron launches 22 of them are for constellation satellites that require unique orbital planes. These are launches that can only be done of a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
 
 ### <b>Military and Government Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Operator-Types.png){: width="600" .align-center}
+
+In progress
 
 The Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">bregrudingly</a>. 
 
 ### <b>Cost Estimates</b>
 
+Cost:
+* Mira is 250kg wet mass + 300kg payload with 500m/s
+* Transporter missions are ~$5,500 / kg, $3M launch cost
+* Assume $1-2M cost when at scale
+* This is slightly lower than an electron (~7M) and easier to bring down in the future
+* SpaceX's cross launch margins are >50%, Rocket Lab is ~20%
+* More room for cost declines on an MLV, could get 2x cheaper in the short term
+* Recovery could bring down Electron costs by ~1-2 million, bridging the gap
+* Either way, the only advantage of dedicated small sat launch for a mission that could take a Mira is schedule
 
 ### <b>Summary</b>
 
