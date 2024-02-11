@@ -90,17 +90,21 @@ The Government and Military are not rational consumers. In the commercial world 
 
 23 of the previous 55 small sat launches were paid for by National Space Agencies or Militaries.   
 11 of these launches used a government developed launch vehicle (Rocket, Customer):
-1. SS-520 ‎ ‎ ‎- Japan
-2. Vega ‎ ‎ ‎ ‎- Europe
+1. SS-520 - Japan
+2. Vega - Europe
 3. Minotaur IV - USSF
-4. Vega ‎ ‎ ‎ ‎- Europe
-5. Pegasus ‎ ‎ - USSF
-6. Minotaur I ‎- USSF
-7. Epsilon ‎‎‎- Japan
-8. SSLV ‎‎‎‎‎‎‎- India
-9. Shavit 2 ‎‎‎- Isreal
-10. Nuri ‎‎‎‎‎‎‎- South Koreo
-11. GYUB-TV2 ‎‎‎‎- South Korea
+4. Vega - Europe
+5. Pegasus - USSF
+6. Minotaur I - USSF
+7. Epsilon - Japan
+8. SSLV - India
+9. Shavit 2 - Isreal
+10. Nuri - South Koreo
+11. GYUB-TV2 - South Korea
+
+Many countries are interested in developing their own launch capability and do so with a government-led program. This often leads to achieving the goal of developing a rocket, but not often an <a href="https://en.wikipedia.org/wiki/Space_Launch_System">economical one</a>. Because the goals of these programs are more aimed toward increasing the technological sophistication of a country and not solely to create a cheaper and reliable rocket, these programs often struggle against privately developed rockets and <a href="https://europeanspaceflight.substack.com/p/arianegroup-wants-210m-per-year-more">require government subsidy to stay afloat</a>. 
+
+This is all to say the above 11 launches do not compete in the same arena as the rest of the commercial small satellite launches. For exmaple, the Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets due to the <a href="https://eufundingoverview.be/funding/the-european-space-agency-esa#:~:text=ESA%20operates%20on%20the%20basis,equivalent%20to%20each%20country's%20contribution.">geographical return policy</a>, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">begrudingly</a>. With the commercialization of space flight this paradigm that has been present since the V2 will go away in favour of <a href="https://en.wikipedia.org/wiki/Falcon_9">cheaper and more reliable</a> commercial rockets.
 
 + National Launch Vehicles (7 & 3 & 1)
 + Commercial launches (12 + 1 pegasus)
@@ -112,7 +116,7 @@ In progress
 1 Vega launch
 12 launches from commercial providers. (Rocket Lab, Virgin Orbit, Astra, Firefly)
 
-The Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">bregrudingly</a>. 
+
 
 ### <b>Cost Estimates</b>
 
