@@ -43,7 +43,7 @@ First, we must understand the categories of small satellites.
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
 + Planet Labs launches example
 
-In the past 5 years (2018-2023), 55 dedicated small sat launches have occured exluding Chinese rockets. By my criteria, 11 of these missions could have been completed through launching on a commercial rideshare mission. However, five of these appear to perfer a dedicated launch and the remaining six are more well suited for a rideshare mission on a medium launch vehicle.
+In the past 5 years (2018-2023), 55 dedicated small sat launches have occured excluding Chinese rockets. By my criteria, 11 of these missions could have been completed through launching on a commercial rideshare mission. However, five of these appear to perfer a dedicated launch and the remaining six are more well suited for a rideshare mission on a medium launch vehicle.
 
 These missions are (Rocket, Payload):
 1. Electron - Dove/Lemurs
@@ -60,14 +60,14 @@ These missions are (Rocket, Payload):
 
 The rideshare and Planet Labs Lemur launches are well suited for a rideshare mission on a medium launch vehicle (MLV). The rideshare missions are all risky flights on unproven launch vehicles (Astra Rocket 3, Firefly Alpha, Virgin Orbit LauncherOne). The reason these payloads flew on a small launch vehicle (SLV) is likely due to the lower cost of flying on a risky rocket. For example, many low-cost Government / Military rideshare payloads flew on Virgin Orbit's LauncherOne. The two launches with Planet Labs satellites are also well suited to a rideshare missions because an exact orbit is not required. Planet Labs has been launching payloads on rideshare missions since the first flight of Antares.
 
-The remaining five missions better suited for dedicated launch all require a commonly-used Sun Synchronous Orbit (SSO). This is a ~500km orbit at an inclination of 98 degrees that allows a satellite to pass over locations on Earth at regular intervals. For example, an imaging satellite can use this orbit to pass over Vancouver at 3:00 PM every day to take images during rush hour. This is the orbit every SpaceX Transporter rideshare mission has gone to, but there are more considerations than the end destination.
+The remaining five missions better suited for dedicated launch all require a commonly-used Sun Synchronous Orbit (SSO). This is a ~500km orbit at an inclination of 98 degrees that allows a satellite to pass over locations on Earth at regular intervals. This is the orbit every SpaceX Transporter rideshare mission has gone to, but there are more considerations than the end destination.
 
-The reason for launching on a dedicated launch instead of a rideshare mission is likely to be schedule requirements. Rideshare missions only launch a couple of times per year and are scheduled by the launch provider. Small sat operaters have much more control over launch date and orbital parameters when flying on a dedicated launch vehicle. This is often cited as the primary reason for companies choosing a dedicated launch over a rideshare mission. However, these five missions account for only 9% of the small sat launches in the last 5 years.
+The reason for launching on a dedicated small rocket instead of a rideshare mission is likely schedule requirements. Rideshare missions only launch a couple of times per year and are scheduled by the launch provider. Small sat operaters have much more control over launch date and orbital parameters when flying on a dedicated launch vehicle. This is often cited as the primary reason for companies choosing a dedicated launch over a rideshare mission. However, these five commercial schedule-constrained missions account for only 9% of the small sat launches in the last 5 years.
 
 ### <b>Kick Stageable Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png){: width="600" .align-center}
 
-Only five of the previous 55 small sat launches could have been completed on a rideshare mission using a kick stage. A Kick Stage is a small stage on top of the rocket that can change the orbit of the payload so it is delivered to the specific orbit that is required.
+Only five of the previous 55 small sat launches are suitable to launching on a rideshare mission and using a kick stage. A Kick Stage is a small stage on top of the rocket that can change the orbit of the payload so it is delivered to the specific orbit that is required.
 
 Missions (Rocket, Payload):
 1. Electron - Palisade
@@ -76,9 +76,12 @@ Missions (Rocket, Payload):
 1. Electron - MATS
 1. Electron - Rideshare
 
-Each of these five launches have satellites that require unique orbits around the Earth and cannot use the default SSO orbit that many rideshare missions arrive at. The highest orbit is that of Paliside, 1,200km at an 88 degree inclination as of February 9 2024. The lowest orbit is MATS at 590km and a 98 degree inclination, this launch was also Rocket Lab's second attempt at catching a booster.
+Each of these five launches have satellites that require unique orbits around the Earth and cannot use the default SSO orbit that many rideshare missions arrive at. The highest orbit is that of Paliside at 1,200km and an 88 degree inclination as of February 9 2024. The lowest orbit is MATS at 590km and a 98 degree inclination, this launch was also Rocket Lab's second attempt at catching a booster.
 
-All the launches mentioned above have inclinations that are within several degrees of the 98 degrees that is common for rideshare missions. Inclination changes require immense amounts of fuel to complete, so more than a couple degrees of inclination change is not reasonable to be completed with a kick stage.
+All the launches mentioned above have inclinations that are within several degrees of the 98 degrees that is common for rideshare missions. Major inclination changes require immense amounts of fuel to complete, so more than a couple degrees of inclination change is not reasonable to be completed with a kick stage.
+
++ Kick stage gets the payload to the target orbital altitude, something that previously was reserved for small launch vehicles or complex satellites that have propulsion built in.
++ Kick stages are very useful for GEO+ satellites, Helios
 
 ### <b>Dedicated Launch Required Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Types.png){: width="600" .align-center}
