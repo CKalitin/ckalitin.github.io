@@ -81,12 +81,29 @@ Rocket Lab is currently targetting 22 launches in 2024 and the majority of these
 7. 5x Blacksky
 8. 2x Non-Earth Observation
 
-All 16 of the launches that required a unique plane in the last 6 years were launched by Electron. Furthermore, of the 24 currently planned Electron launches 22 of them are for constellation satellites that require unique orbital planes. These are launches that can only be done of a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
+All 16 of the launches that required a unique plane in the last 6 years were launched by Electron. Furthermore, 22 of the 24 currently planned Electron launches are for constellation satellites that require unique orbital planes. These are launches that can only be done of a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
 
 ### <b>Military and Government Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Operator-Types.png){: width="600" .align-center}
 
+The Government and Military are not rational consumers. In the commercial world everything makes sense because economics drives it all, this is not true of the government.
 
+23 of the previous 55 small sat launches were paid for by National Space Agencies or Militaries.   
+11 of these launches used a government developed launch vehicle (Rocket, Customer):
+1. SS-520 ‎ ‎ ‎- Japan
+2. Vega ‎ ‎ ‎ ‎- Europe
+3. Minotaur IV - USSF
+4. Vega ‎ ‎ ‎ ‎- Europe
+5. Pegasus ‎ ‎ - USSF
+6. Minotaur I ‎- USSF
+7. Epsilon ‎‎‎- Japan
+8. SSLV ‎‎‎‎‎‎‎- India
+9. Shavit 2 ‎‎‎- Isreal
+10. Nuri ‎‎‎‎‎‎‎- South Koreo
+11. GYUB-TV2 ‎‎‎‎- South Korea
+
++ National Launch Vehicles (7 & 3 & 1)
++ Commercial launches (12 + 1 pegasus)
 
 In progress
 
