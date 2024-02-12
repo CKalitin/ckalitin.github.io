@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Analysing Competition in Dedicated Small Sat Launch from Rideshare + Kick Stages"
+title: "Analysing the Dedicated Small Sat Launch Market"
 categories: Technology
 author:
  - Christopher Kalitin
