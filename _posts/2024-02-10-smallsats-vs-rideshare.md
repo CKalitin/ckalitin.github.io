@@ -83,7 +83,7 @@ Rocket Lab is currently targetting 22 launches in 2024 and the majority of these
 
 All 16 of the launches that required a unique plane in the last 6 years were launched by Electron. Furthermore, 22 of the 24 currently planned Electron launches are for constellation satellites that require unique orbital planes. These are launches that can only be done of a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
 
-### <b>Military and Government Satellites</b>
+### <b>Government and Military Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Operator-Types.png){: width="600" .align-center}
 
 The Government and Military are not rational consumers. In the commercial world everything makes sense because economics drives it all, this is not true of the government.
@@ -106,17 +106,27 @@ Many countries are interested in developing their own launch capability and do s
 
 This is all to say the above 11 launches do not compete in the same arena as the rest of the commercial small satellite launches. For exmaple, the Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets due to the <a href="https://eufundingoverview.be/funding/the-european-space-agency-esa#:~:text=ESA%20operates%20on%20the%20basis,equivalent%20to%20each%20country's%20contribution.">geographical return policy</a>, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">begrudingly</a>. With the commercialization of space flight this paradigm that has been present since the V2 will go away in favour of <a href="https://en.wikipedia.org/wiki/Falcon_9">cheaper and more reliable</a> commercial rockets.
 
-+ National Launch Vehicles (7 & 3 & 1)
-+ Commercial launches (12 + 1 pegasus)
+‎ 
 
-In progress
+The remainign 12 Goverment/Military launches were all done for US customers through purchasing a launch on a commercial provider's rocket. This method opens competition among launch providers to provide the best service. 
 
-7 lanuches on korean/japaense/isreali/indian rockets. This market is not addressable commercially.
-3 launches on outdated vehicles (Minotaur & Pegasus) these were all military.
-1 Vega launch
-12 launches from commercial providers. (Rocket Lab, Virgin Orbit, Astra, Firefly)
+Launches (Rocket, Customer):
+1. Electron - USSF
+2. Electron - USSF
+3. Electron - USSF
+4. Electron - USSF
+5. LauncherOne - USSF
+6. Electron - USSF
+7. Rocket 3 - USSF
+8. Electron - NASA Capstone
+9. LauncherOne - USSF
+10. Electron - USSF
+11. Electron - USSF
+12. Alpha - Lockheed Martin
 
+The US Military almost exclusively launches its satellites on dedicated launches. This is to maintain national security by having tight control over who has access to the satellite. The requirement for dedicated launch means these satellites cannot be launched on rideshare missions and will continue to be a large part of the small satellite launch market even when ridesharing & kick stages offer significant cost savings.
 
+The NASA Capstone mission is not beholden to the same anti-espionage requirements. The reason it had a dedicated launch was Electron's ability to provide the Photon satellite bus / kcik stage to reach a trajectory that passes the Moon. Even though a kick stage was used, this mission is not addressable by a rideshare mission because launching to the Moon requires the satellite to be in the same orbital plane as the moon and no rideshare missions have ever gone to this orbit.
 
 ### <b>Cost Estimates</b>
 
