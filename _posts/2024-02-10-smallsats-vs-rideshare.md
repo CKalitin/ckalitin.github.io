@@ -88,7 +88,7 @@ All 16 of the launches that required a unique plane in the last 6 years were lau
 
 The Government and Military are not rational consumers. In the commercial world everything makes sense because economics drives it all, this is not true of the government.
 
-23 of the previous 55 small sat launches were paid for by National Space Agencies or Militaries.   
+24 of the previous 55 small sat launches were paid for by National Space Agencies or Militaries.   
 11 of these launches used a government developed launch vehicle (Rocket, Customer):
 1. SS-520 - Japan
 2. Vega - Europe
@@ -106,11 +106,10 @@ Many countries are interested in developing their own launch capability and do s
 
 This is all to say the above 11 launches do not compete in the same arena as the rest of the commercial small satellite launches. For exmaple, the Vega rideshare mission is part of an ESA program to launch small satellites. The ESA perfers launching payloads on their own rockets due to the <a href="https://eufundingoverview.be/funding/the-european-space-agency-esa#:~:text=ESA%20operates%20on%20the%20basis,equivalent%20to%20each%20country's%20contribution.">geographical return policy</a>, and appear to only launch on non-european rockets <a href="https://spacenews.com/europe-considers-launching-copernicus-satellite-on-falcon-9/">begrudingly</a>. With the commercialization of space flight this paradigm that has been present since the V2 will go away in favour of <a href="https://en.wikipedia.org/wiki/Falcon_9">cheaper and more reliable</a> commercial rockets.
 
-‎ 
-
-The remainign 12 Goverment/Military launches were all done for US customers through purchasing a launch on a commercial provider's rocket. This method opens competition among launch providers to provide the best service. 
+The remaining 13 Goverment/Military launches were all done for US customers through purchasing a launch on a commercial provider's rocket. This method opens competition among launch providers to provide the best service. 
 
 Launches (Rocket, Customer):
+1. Electron - NASA
 1. Electron - USSF
 2. Electron - USSF
 3. Electron - USSF
@@ -130,15 +129,19 @@ The NASA Capstone mission is not beholden to the same anti-espionage requirement
 
 ### <b>Cost Estimates</b>
 
-Cost:
-* Mira is 250kg wet mass + 300kg payload with 500m/s
-* Transporter missions are ~$5,500 / kg, $3M launch cost
-* Assume $1-2M cost when at scale
-* This is slightly lower than an electron (~7M) and easier to bring down in the future
-* SpaceX's cross launch margins are >50%, Rocket Lab is ~20%
-* More room for cost declines on an MLV, could get 2x cheaper in the short term
-* Recovery could bring down Electron costs by ~1-2 million, bridging the gap
-* Either way, the only advantage of dedicated small sat launch for a mission that could take a Mira is schedule
+Determining the price of a dedicated small satellite launch is straightforward as we can use the cost of an Electron launch which is ~$7M.
+
+SpaceX currently charges ~$5,500 / kg for a satellite on a transporter mission. The average mass of the payloads launched on Electron is 116kg. Multiplying these two numbers gives $638,000 as the cost of launching of a rideshare mission. This is 11x cheaper than a dedicated launch.
+
+Determining the price of using a kick stage on a rideshare mission is more difficult because there are no publically available prices for this service. We can estimate the price by using Impulse Space's Mira kick stage. Mira weighs 250kg and can carry up to 300kg of payload while having 500m/s of delta-v. Using the average electron payload mass, the total mass of the kick stage and satellite is 366kg. This costs ~$2M+ to launch on a SpaceX Transporter mission, I will assume $2.5M because this is one of the larger payloads on a Transporter mission and there may be extra considerations around payload volume. 
+
+The cost of manufacturing the kick stage itself is unknown, but we can use Rocket Lab's Photon as an analogue. The Electron and Photon for NASA's captstone mission cost <a href="https://www.space.com/rocket-lab-launches-first-photon-satellite.html">$10M in total</a>. We already know the cost of an Electron launch is ~$7m, so Rocket Lab appears to have charged an extra $3M for Photon.
+
+This gives a total of $5.5M for a rideshare + kickstage launch vs. $7M for a dedicated launch. 
+
+Furthermore, there is more room for cost declines in using rideshare + kick stages compared to dedicated launches. SpaceX's margins on Falcon 9 are >50% as launch costs are <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~20M</a> and they make <a href="https://payloadspace.com/estimating-spacexs-2023-revenue/">~$45M</a> from Transporter missions. Rocket Lab's margins are <a href="https://twitter.com/daveginvesting/status/1702681576050426034">~22%</a>. There is room for improvement in Rocket Lab's margins as they reuse boosters and increase scale, however, they are currently <a herf="https://www.theverge.com/2022/5/2/23032354/rocket-lab-helicopter-catch-electron-reuse">planning to reuse ~50%</a> of boosters and only increase scale ~2x. 
+
+This shows that the gap in cost between rideshare + kick stages mission and dedicated launches will stay at around $1M - $2M for the forseeable future. The incentive for a payload to use a dedicated launch when a rideshare mission is possible appears to only be schedule considerations.
 
 ### <b>Summary</b>
 
