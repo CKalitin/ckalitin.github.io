@@ -8,6 +8,8 @@ author:
 
 In the last 5 years Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurances. This has posed a problem many have stugguled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
++ More opening
+
 Access the source data at the link below.  
 Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
@@ -59,7 +61,7 @@ Only ~10% of small sat launches can be addressed by a kick stage. For all the ne
 ### <b>Dedicated Launch Required Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Types.png){: width="600" .align-center}
 
-Sixteen small sat launches of the last 55 are in a category that is not addressable by rideshare or kick stages. These are satellites that require a unique orbital plane to take their place in a constellation. To properly cover the world with a satellite constellation the satellites must be placed into precise orbital planes so that there are no locations on the surface that lack coverage. For exmaple, Starlink Shell 1 consists of 72 orbital planes with 22 satellites in each. Satellites cannot be moved between orbital planes due to a similar reason as inclination changes, it requires immense amount of fuel.
+Sixteen small sat launches of the last 55 are in a category that is not addressable by rideshare or kick stages. These are satellites that require a unique <a href="https://en.wikipedia.org/wiki/Orbital_plane">orbital plane</a> to take their place in a constellation. To properly cover the world with a satellite constellation the satellites must be placed into precise orbital planes so that there are no locations on the surface that lack coverage. For exmaple, Starlink Shell 1 consists of 72 orbital planes with 22 satellites in each. Satellites cannot be moved between orbital planes due to a similar reason as inclination changes, it requires immense amount of fuel.
 
 The requirement for a unique orbital plane and the immense difficultly of addressing this market with a kick stage makes it the perfect market for small launch vehicles.
 
@@ -129,19 +131,30 @@ The NASA Capstone mission is not beholden to the same anti-espionage requirement
 
 ### <b>Cost Estimates</b>
 
-Determining the price of a dedicated small satellite launch is straightforward as we can use the cost of an Electron launch which is ~$7M.
+Determining the price of a dedicated small satellite launch is straightforward as we can use the cost of an Electron launch, ~$7M.
 
-SpaceX currently charges ~$5,500 / kg for a satellite on a transporter mission. The average mass of the payloads launched on Electron is 116kg. Multiplying these two numbers gives $638,000 as the cost of launching of a rideshare mission. This is 11x cheaper than a dedicated launch.
+The cost of a rideshare mission can be derived from what SpaceX charges for Transporter missions. They currently charges ~$5,500 / kg for a satellite on a transporter mission. The average mass of the payloads launched on Electron is 116kg. Multiplying these two numbers gives $638,000 as the cost of launching on a rideshare mission. This is 11x cheaper than a dedicated launch.
 
-Determining the price of using a kick stage on a rideshare mission is more difficult because there are no publically available prices for this service. We can estimate the price by using Impulse Space's Mira kick stage. Mira weighs 250kg and can carry up to 300kg of payload while having 500m/s of delta-v. Using the average electron payload mass, the total mass of the kick stage and satellite is 366kg. This costs ~$2M+ to launch on a SpaceX Transporter mission, I will assume $2.5M because this is one of the larger payloads on a Transporter mission and there may be extra considerations around payload volume. 
+Determining the price of using a kick stage on a rideshare mission is more difficult because there are no publically available prices for this service. We can estimate the price of launch by using Impulse Space's Mira kick stage. Mira weighs 250kg and can carry up to 300kg of payload while having 500m/s of delta-v. Using the average electron payload mass, the total mass of the kick stage and satellite is 366kg. This costs $2M to launch on a SpaceX Transporter mission, I will assume $2.5M because this is one of the larger payloads on a Transporter mission and there may be extra considerations around payload volume. 
 
 The cost of manufacturing the kick stage itself is unknown, but we can use Rocket Lab's Photon as an analogue. The Electron and Photon for NASA's captstone mission cost <a href="https://www.space.com/rocket-lab-launches-first-photon-satellite.html">$10M in total</a>. We already know the cost of an Electron launch is ~$7m, so Rocket Lab appears to have charged an extra $3M for Photon.
 
 This gives a total of $5.5M for a rideshare + kickstage launch vs. $7M for a dedicated launch. 
 
-Furthermore, there is more room for cost declines in using rideshare + kick stages compared to dedicated launches. SpaceX's margins on Falcon 9 are >50% as launch costs are <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~20M</a> and they make <a href="https://payloadspace.com/estimating-spacexs-2023-revenue/">~$45M</a> from Transporter missions. Rocket Lab's margins are <a href="https://twitter.com/daveginvesting/status/1702681576050426034">~22%</a>. There is room for improvement in Rocket Lab's margins as they reuse boosters and increase scale, however, they are currently <a herf="https://www.theverge.com/2022/5/2/23032354/rocket-lab-helicopter-catch-electron-reuse">planning to reuse ~50%</a> of boosters and only increase scale ~2x. 
+Furthermore, there is more room for cost declines in using rideshare + kick stages compared to dedicated launches. SpaceX's margins on Falcon 9 are >50% as launch costs are <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$20M</a> and they make <a href="https://payloadspace.com/estimating-spacexs-2023-revenue/">~$45M</a> from Transporter missions. Rocket Lab's margins are <a href="https://twitter.com/daveginvesting/status/1702681576050426034">~22%</a> on Electron. There is room for improvement in Rocket Lab's margins as they reuse boosters and increase scale, however, they are currently <a herf="https://www.theverge.com/2022/5/2/23032354/rocket-lab-helicopter-catch-electron-reuse">planning to reuse only ~50%</a> of boosters and only increase scale ~2x. 
 
 This shows that the gap in cost between rideshare + kick stages mission and dedicated launches will stay at around $1M - $2M for the forseeable future. The incentive for a payload to use a dedicated launch when a rideshare mission is possible appears to only be schedule considerations.
 
 ### <b>Summary</b>
 
+Around 20% of the existing dedicated small satellite launch market will go away with increased cadence of rideshare missions and kick stages becoming a viable option. The market for dedicated launch has already been distilled through SpaceX transporter missions, with an increase in cadence and kick stages further distillation will occur. If rideshare missions and kick stages were ubiquitous in the past, I estimate ~50% of the small satellite launched in the previous 6 years that had the choice between rideshare/kick stage vs. dedicated launch would have flown on rideshare missions. 
+
+The 30% of satellites that require unique orbital planes will remain part of the dedicated launch market forever. It is too difficult to significantly change the orbital plane of a satellite even with a large kick stage, so, this market is only addressable by dedicated launch. This can already be shown through Rocket Labs launch manifest. >90% of their planned launches for 2024 and 2025 fall into this category.
+
+Military launches make up another 30% of the dedicated small satellite launch market. National security requirements preclude these launches from occuring on rideshare missions so this segment will not be threatened.
+
+Government funded launch vehicles make up the remaining 20%. These programs exist because of political incentives so it is difficult to determine if they will continue into the future or not. However, with the push for commercialization in space flight it is possible this market will slowly evaporate as privately-finded alternatives arise in their respective countries. This segment is not addressable by commercial providers, so it is not of major interest.
+
+The dedicated small satellite launch market has already faced tremendous competition from rideshare missions. Since its inception, SpaceX's Transporter program has launch about 785 satellites. Electron has launch about 180 satellites. Rideshare missions already have 80% of the total small satellite launch market. Dedicated launch is a somewhat niche service for unique satellite constellations and government customers.
+
+Around 30% of the market for dedicated small satellite launch addressable by commercial providers will disappear with better alternatives arising. However, this does not translate into a fall in the quantitative demand. Rocket Lab's launch cadence is planned to increase from 9 to 20 this year. This 200% growth in a single year will offset the decline from rideshare missions. The rise of small satellite constellations and economicly productive uses of space will drive substantial growth in the dedicated small satellite launch market even taking into account the decline from rideshare missions kick stages.
