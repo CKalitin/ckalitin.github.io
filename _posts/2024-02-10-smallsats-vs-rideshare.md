@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Small Sat Rockets vs. Rideshare + Kick Stages"
+title: "Analysing Competition in Dedicated Small Sat Launch from Rideshare + Kick Stages"
 categories: Technology
 author:
  - Christopher Kalitin
