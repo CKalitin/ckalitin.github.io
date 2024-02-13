@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png">
 </head>
 
-In the last 5 years, Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurrences. This has posed a problem many have struggled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
+In the last 6 years, Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurrences. This has posed a problem many have struggled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
 Access the source data at the link below or in <a href="{{site.url}}/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png">image form</a>.  
 Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
