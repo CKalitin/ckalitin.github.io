@@ -13,7 +13,7 @@ author:
 
 Firefly's Alpha and Rocket Lab's Electron are both in a similar mass class of launch vehicles capable of catering to the small satellite launch market, but because of the differences in capability and price they are not in direct competition for most payloads.
 
-<b>### Firefly Alpha Planned Launches</b>
+### <b>Firefly Alpha Planned Launches</b>
 
 Firefly's Alpha rocket is capable of delivering 1,030 kg to LEO while Rocket Lab's Electron does 300 kg to LEO. Due to Alpha's larger size it is more expensive than Electron and rockets of this class are mainly used to launch payloads too massive for smaller launch vehicles. This can be seen in Alpha's planned launches (<a href="https://en.wikipedia.org/wiki/Firefly_Alpha#cite_note-39">from wikipedia</a>).
 
@@ -33,7 +33,7 @@ Third, Satlantis is a young company so they may have not been able to get on Ele
 
 Finally, the NRO responsive space mission is part of a contract between the NRO and Firefly. The goal of this contract is to provide the capability to launch a payload for the NRO at a moment's notice. In 2023 Firefly demonstrated this capability when they launches the Vitcus Nox satellite within 27 hours of the launch order. Another requirement for this contract appears to be that it must take place in the US as it is a military payload that must launch on short notice. Rocket Lab only has one Electron launch pad in the US, so staying ready for a launch at all times may interfere with commercial payloads.
 
-<b>### Competition betweem Alpha and Electron</b>
+### <b>Competition betweem Alpha and Electron</b>
 
 With the context of Firefly's planned launches we can consider the opportunities for competition between Firefly and Rocket Lab for these launches. 
 
@@ -45,6 +45,8 @@ With increased cadence and a smaller backlog for Electron, Rocket Lab may have g
 
 Schedule and payload requirements may have limited Rocket Lab's ability to compete for the NRO responsive space contract. Rocket Lab's first launch from the US was in early 2023 and the contract was awarded in August 2023. As mentioned above, Rocket Lab can get more use out of the pad when launching commercial payloads than keeping it primed for the NRO. So, for this contract to be a net gain to Rocket Lab they may have needed another launch pad in Virginia. Space is limited on Wallops Island and Rocket Lab had limited time. If another similar contract arises in the future it will be very interesting to follow and observe if Rocket Lab is in a better position to compete for it.
 
+Overall, the only planned Alpha payload that reasonably could have flown on Electron is Satlantis' satellite. This shows the different niches both rockets are optimized to compete for.
+
 Firefly does not have a vehicle well-suited to compete for payloads currently launching on Electron. A Firefly Alpha costs $15M while Electron costs ~$7M. With the 200% difference in cost satellite operators are highly incentivized to launch on Electon. Furthermroe, the average mass of payloads launched on Electron is ~116kg. The primary reason for a satellite to launch on Alpha is likely schedule considerations and Firefly may have gotten the Satlantis launch because of this. This schedule constraint will likely elivate in the future as cadence increases.
 
-Overall, the larger size and cost of Firefly's Alpha rocket makes it well-suited for different payloads than Electron. This niche of payloads will likely increase in number as the commercialization of space continues and this will offset potential competition from Rocket Lab.
+In conclusion, the larger size and cost of Firefly's Alpha rocket makes it well-suited for different payloads than Electron. This niche of payloads will likely increase in number as the commercialization of space continues and this growth will offset potential competition from smaller and cheaper rockets.
