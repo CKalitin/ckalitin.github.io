@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparing Demand for Firefly's Alpha and Electron"
+title: "Comparing Demand for Firefly's Alpha vs. Electron"
 categories: Technology
 author:
  - Christopher Kalitin
