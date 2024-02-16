@@ -35,7 +35,7 @@ Third, Satlantis is a young company so they may have not been able to get on Ele
 
 Finally, the NRO responsive space mission is part of a contract between the NRO and Firefly. The goal of this contract is to provide the capability to launch a payload for the NRO at a moment's notice. In 2023 Firefly demonstrated this capability when they launches the Vitcus Nox satellite within 27 hours of the launch order. Another requirement for this contract appears to be that it must take place in the US as it is a military payload that must launch on short notice. Rocket Lab only has one Electron launch pad in the US, so staying ready for a launch at all times may interfere with commercial payloads.
 
-### <b>Competition betweem Alpha and Electron</b>
+### <b>Competition between Alpha and Electron</b>
 
 With the context of Firefly's planned launches we can consider the opportunities for competition between Firefly and Rocket Lab for these launches. 
 
