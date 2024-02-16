@@ -13,6 +13,8 @@ author:
 
 Firefly's Alpha and Rocket Lab's Electron are both in a similar mass class of launch vehicles capable of catering to the small satellite launch market, but because of the differences in capability and price they are not in direct competition for most payloads.
 
+Yesterday I was interviewed by Dave G about the small satellite launch market and we discussed Firefly's Alpha briefly. I felt the need to write this blog post to effectively convey my thoughts and show the information that made me come to my conclusions.
+
 ### <b>Firefly Alpha Planned Launches</b>
 
 Firefly's Alpha rocket is capable of delivering 1,030 kg to LEO while Rocket Lab's Electron does 300 kg to LEO. Due to Alpha's larger size it is more expensive than Electron and the primary feature of rockets in this class is launching payloads too massive for smaller rockets. This can be seen in Alpha's planned launches (<a href="https://en.wikipedia.org/wiki/Firefly_Alpha#cite_note-39">from wikipedia</a>).
