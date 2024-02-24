@@ -11,6 +11,14 @@ author:
 
 ![Image description]({{site.url}}/assets/images/stoke-nova-perfect/hop.jpg){: width="600" .align-center}
 
+This is a demand analysis.
+
+At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post.
+
+Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 4.4 tons (ex. Dragon). Furthermore, full reusability allows Nova to launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule and refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
+
+### <b>Notes</b>
+
 1. Dedicated Small Sat Launch
 2. NSSL
 3. Constellations
@@ -36,14 +44,6 @@ Structure V2:
 4. Implications for existing rockets (No one is as smart as me) + Starship competition (economics)
 5. Conclusion (work into above section?)
 
-This is a demand analysis.
-
-At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post.
-
-Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 4.4 tons (ex. Dragon). Furthermore, full reusability allows Nova to launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule and refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
-
-### <b>Full Reusability Makes Constellations Addressable</b>
-
 1. Current competition is partially reusable, (downrange vs. RTLS, ie. size)
 2. Constellations can be launched on any size of rocket (Neutron Vs. New Glenn)
 3. Nova is 4x smaller than F9, so will have to launch 4x+ cheaper, possible through full reusability
@@ -63,13 +63,23 @@ Excluding Starlink, the market for commercial launches is shared in equal thirds
 
 The primary considerations behind launching constellations are responsiveness and cost per launch per satellite. Constellations can be launched on rockets of almost any size because they are made up of a large number of relatively small satellites. To illustrate this, a 20 ton class mediun-lift launch vehicle is not required to launch constellations because 5 ton class rocket can be competitive if cost is 4x less and cadence is 4x more than the 20 ton class vehicle. Furthermore, the requirement for an increased number of launches potentially gives advantages in responsiveness.
 
-Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7 according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch which would cost $15M for the customer or a <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$4M marginal launch cost</a>. As we've seen with Falcon 9, reusability has dramatically decreased launch costs to the point where the majority of the cost of a rocket is no longer in the first stage. Second stage reusability will drive down costs even further and a small launch on the scale of Stoke's Nova is well suited to achieving a high launch cadence which will accelerate the process of decreasing costs.
+Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7 according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch which would cost $15M for the customer or <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2362">~$4M marginal launch cost</a>. As we've seen with Falcon 9, reusability has dramatically decreased launch costs to the point where the majority of the cost of a rocket is no longer in the first stage. Second stage reusability will drive down costs even further and a small launch on the scale of Stoke's Nova is well suited to achieving a high launch cadence which will accelerate the process of decreasing costs.
 
-### <b>Well Suited to Launching Other Payloads</b>
+### <b>Nova is Well Suited for Launching Other Payloads</b>
 
 + Other payloads (GEO, rideshare, existing LEO satellites, Capsule, Moon/Mars lander, NSSL)
 
-Launching constellations has very different considerations from the legacy satellite market. The legacy market consists of large GEO communications satellites and some (mainly government) satellites in low Earth orbit. This market consists of around two dozen launches per year and mass to LEO is a major consideration, especially for GEO satellites. Launching constellations, you do not have the same requirements for minimum mass to orbit. The factors to aim for in launching constellations are flight-rate and cost per launch per satellite. The a low cost per launch per satellite can be achieved almost at any scale.
+Launching legacy geostationary communications satellites has very different considerations from launch constellations. These launches require immense mass to GTO capability and perfer high-energy optimized architectures like Ariane 5 or Vulcan. However, ~60% of the commercial GEO satellites launched in the last 6 years were under 5 tons. Because <a href="https://youtu.be/fcLuugmHV90?si=8EKMazIYyfUyPrm2">refilling in orbit is planned for Nova</a>, it will essentailly be able to put its entire LEO capacity directly in a geostationary orbit and potentially return the second stage (Assuming 6000m/s+ delta v in the upper stage similar to Starship). Because the vehicle is fully reusable this may cost less than a dedicated Falcon 9 launch.
+
+Average Falcon 9 customer LEO mass: 3.7t
+Only 5 missions >5t, 4 NROL missions, only 1 has known has NROL-85 13t, ANASIS 2 between 5-6t.
+Some transporter missions may be >5t
+
+The average mass of Falcon 9 customer LEO launches excluding Dragon is 3.7 tons. Between 2018 and 2023 inclusive 32 of these launches occured and only 4 of them were over 5 tons. This means Nova could have launched 28 of the previous 32 Falcon 9 customer launches assuming there were not further considerations such as payload volume. Because Falcon 9 is oversized for the majority of LEO customer payloads, Nova is well positioned to compete for this market.
+
+Small satellite rideshare missions are well suited for Nova given their low mass requirements and flexibility. SpaceX Transporter missions are often below 5 tons, another example of Falcon 9 being oversized for customer paylaods. The limiting factor in Nova being able to launch these missions may be <a href="https://i0.wp.com/spacenews.com/wp-content/uploads/2023/06/transporter8-stack.jpg?resize=661%2C1024&ssl=1">payload volume</a>. It is possible Nova's fairing is not large enough to fit the number of satellites Falcon 9 can. Regardless, this is solved by launching fewer satellites at once. Rideshare missions are flexible enough that they can launch on nearly any vehicle, and the potential for extremely low cost with Nova makes it well suited for these launches.
+
+All 4 of the Falcon 9 customer launches that exceeded Nova's 5 ton capacity were for the US Military. There were two NROL launches and two SDA launches. Because of the classified nature of these payloads their exact mass is unknown, so some of them may be within Nova's 5 ton payload capacity. Even so, to launch these payloads Nova would have to be certified by the US Military to launch classified payloads under NSSL Lane 2 which is unlikely due to the <a href="https://en.wikipedia.org/wiki/National_Security_Space_Launch#2018_to_2020s">high-energy orbit capability requirements</a>. 
 
 ### <b>Small Size if a Feature</b>
 
