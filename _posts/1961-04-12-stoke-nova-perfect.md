@@ -38,7 +38,9 @@ Structure V2:
 
 Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 4.4 tons (ex. Dragon). Furthermore, full reusability allows Nova to launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule and refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
 
+At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful orbital launches from 2018-2023 inclusive and will convey all insights in this blog post.
+
+
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
-At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where a medium-lift partially reusable launch vehicle is the most successful rocket in history, it is difficult to see how such a comparitevly small rocket will compete. 
 
