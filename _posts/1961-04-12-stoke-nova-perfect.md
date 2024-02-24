@@ -79,7 +79,7 @@ All 4 of the Falcon 9 customer launches that exceeded Nova's 5 ton capacity were
 
 Nova may be able to achieve all but one of the <a href="https://en.wikipedia.org/wiki/National_Security_Space_Launch#2018_to_2020s">NSSL Phase 2 target orbits</a> if the vehicle was stretched to a seven ton LEO capacity. These orbits are mainly high-energy and require 4-7 tonsof payload capacity. For example, GEO 2 required 6.6t direct to GEO, and MEO Direct 1 requires 5.3 tons direct to an 18200km orbit of Earth. The only required orbit Nova can't complete is Polar 2 which requires 12 tons to a 830 km polar orbit of Earth. This shows how in-space refilling is a feature that opens up a lot of capability and how Nova could compete for NSSL Lane 1 payloads.
 
-### <b>Future Capability built upon Fully Reusability</b>
+### <b>Future Capability built upon Fully Reusability and Refilling</b>
 
 Nova's upper stage is a fully reusable orbital reentry vehicle capable of propulsive landing. Previous vehicles capable of orbital reentry have all carried <a href="https://en.wikipedia.org/wiki/SpaceX_Dragon_2">crew</a> or <a href="https://www.space.com/varda-in-space-manufacturing-capsule-reentry-photos">cargo</a> and orbital vehicles capable of propulsive landing have all been Moon/Mars landers.
 
