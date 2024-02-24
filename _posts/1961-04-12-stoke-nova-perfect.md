@@ -65,7 +65,7 @@ The primary considerations behind launching constellations are responsiveness an
 
 Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7 according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch which would cost $15M for the customer or <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2362">~$4M marginal launch cost</a>. As we've seen with Falcon 9, reusability has dramatically decreased launch costs to the point where the majority of the cost of a rocket is no longer in the first stage. Second stage reusability will drive down costs even further and a small launch on the scale of Stoke's Nova is well suited to achieving a high launch cadence which will accelerate the process of decreasing costs.
 
-### <b>Nova is Well Suited for Launching Other Payloads</b>
+### <b>Nova can Launch Most Payloads</b>
 
 + Other payloads (GEO, rideshare, existing LEO satellites, NSSL, Capsule, Moon/Mars lander)
 
@@ -78,6 +78,16 @@ Small satellite rideshare missions are well suited for Nova given their low mass
 All 4 of the Falcon 9 customer launches that exceeded Nova's 5 ton capacity were for the US Military. There were two NROL launches and two SDA launches. Because of the classified nature of these payloads their exact mass is unknown, so some of them may be within Nova's 5 ton payload capacity. Even so, to launch these payloads Nova would have to be certified by the US Military to launch classified payloads under NSSL Lane 2 which is unlikely given competition from larger and more established rockets. 
 
 Nova may be able to achieve all but one of the <a href="https://en.wikipedia.org/wiki/National_Security_Space_Launch#2018_to_2020s">NSSL Phase 2 target orbits</a> if the vehicle was stretched to a seven ton LEO capacity. These orbits are mainly high-energy and require 4-7 tonsof payload capacity. For example, GEO 2 required 6.6t direct to GEO, and MEO Direct 1 requires 5.3 tons direct to an 18200km orbit of Earth. The only required orbit Nova can't complete is Polar 2 which requires 12 tons to a 830 km polar orbit of Earth. This shows how in-space refilling is a feature that opens up a lot of capability and how Nova could compete for NSSL Lane 1 payloads.
+
+### <b>Future Capability built upon Fully Reusability</b>
+
+Nova's upper stage is a fully reusable orbital reentry vehicle capable of propulsive landing. Previous vehicles capable of orbital reentry have all carried <a href="https://en.wikipedia.org/wiki/SpaceX_Dragon_2">crew</a> or <a href="https://www.space.com/varda-in-space-manufacturing-capsule-reentry-photos">cargo</a> and orbital vehicles capable of propulsive landing have all been Moon/Mars landers.
+
+In Stoke Space's <a href="https://youtu.be/fcLuugmHV90?si=C0-daIiAsqi6o4d0">promotional video</a> 4 months ago they teased in-orbit refilling and Moon landings. As mentioned above, in-orbit refilling allows them to increase payload capacity beyond low-earth orbit. This capability allows them to get enough delta-v in low Earth orbit to achieve a lunar landing. A lunar landing from LEO required ~5,700 m/s of delta-v. If Nova's upper stage has similar delta-v as Starship (6000m/s), this is possible with a full 5 ton payload. Even if delta-v is lower than 6000m/s or significant extra mass is required to achieve a lunar landing, payload to the lunar surface will be greater than a ton. The largest robotic lunar lander I am aware of is Astrobotic's Griffin which is capable of 625kg to the lunar surface. A Nova-based lunar lander could deliver more payload to the Lunar surface for a lower overall cost.
+
+Lower cost and higher reliability is made possible through testing landing system on Earth dozens or hundreds of times before attempting a Lunar landing. Engines and maneuvering will be tested many times before a lunar landing. This (list failures)
+
+Nova is an undersized rocket for launching crew. For example, Soyuz is one of the small crew capsules currently flying is weighs 7 tons. This is beyond Nova's 5 ton LEO capacity and makes it very difficult to create a crew capsule even if it is integrated into an existing spacecraft with maneuvering capabilities. In his <a href="https://www.youtube.com/live/P_S350j1HQA?si=DqnatYXVLB-qmTNn&t=4182">interview</a> with NASASpaceflight Andy Lapsa - Stoke Space CEO and cofounder - was asked about crew rating Nova and said this: "I actually expect that we'll see a bimodal distribution in those optimal size of the vehicles. One of them is designed for satellites and one of them is propbably bigger designed for humans with life systems."
 
 ### <b>Small Size if a Feature</b>
 
