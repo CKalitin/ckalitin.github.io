@@ -46,7 +46,14 @@ Stoke's Nova rocket is perfectly sized to compete for existing satellite launche
 2. Constellations can be launched on any size of rocket (Neutron Vs. New Glenn)
 3. Nova is 4x smaller than F9, so will have to launch 4x+ cheaper, possible through full reusability
 
-+ Why hasn't this been done before:
+Structure V3:
+1. Launching Constellations (launching more, but cheaper)
+2. Small size is a feature (flight rate decreases cost, lower upfront development cost)
+3. Competing against partially-reusable launch vehicles
+4. Competing against fully-reusable launch vehicles
+5. Stoke is a well suited organizations (SpaceX example, Rocket Lab might not have been able to do this)
+
++ Why hasn't this been done before / Well suited organization:
 
 Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium-lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket. This is an unproven market and it has never been done before and is a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now Starship & Mars.
 
@@ -56,15 +63,15 @@ Launching constellations has very different considerations from the legacy satel
 
 Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7t according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch. With would be $60M to the customer, or a <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$4M marginal launch cost</a>. With full reusability this is achieveable. From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9.
 
-+ High flight rate is a feature
++ High flight rate is a feature / Small size is a feature:
 
 Nova needing to launch 4x as much as Falcon 9 to put the same mass into orbit is a feature. Flight rate appears to be the determining factor behind falling launch costs apart from vehicle architecture. Launching 4x as much as your competitors with a smaller fully-reusable vehicle allows for an accelerated process of lowering costs. Contrast this with Neutron, which will likely launch less than Falcon 9 with a second stage of <a href="https://x.com/BellikOzan/status/1741535515759857816?s=20">similar complexity</a>. It will be much harder for Rocket Lab to compete with Falcon 9 than Stoke.
 
-+ Competeing against partially-reusable launch vehicles
++ Competeing against partially-reusable launch vehicles:
 
 Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 4.4t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, its GEO capacity will be the same as LEO capacity, 5 tons. Finally, both rockets will compete for launching constellations and as mentioned above, Nova is positioned to cost less than Neutron long-term.
 
-+ Competeing against fully-reusable launch vehicles
++ Competeing against larger fully-reusable launch vehicles:
 
 Because of the larger sizes of New Glenn and Terran R, they may be in less competition with Nova than Neutron. These rockets are much larger which allows them to launch the heaviest GEO satellites and pursue difficult markets like <a href="https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)">HLS</a>. Furthermore, these vehicles have upgrade paths to full reusability.
 
