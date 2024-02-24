@@ -63,7 +63,7 @@ Excluding Starlink, the market for commercial launches is shared in equal thirds
 
 The primary considerations behind launching constellations are responsiveness and cost per launch per satellite. Constellations can be launched on rockets of almost any size because they are made up of a large number of relatively small satellites. To illustrate this, a 20 ton class mediun-lift launch vehicle is not required to launch constellations because 5 ton class rocket can be competitive if cost is 4x less and cadence is 4x more than the 20 ton class vehicle. Furthermore, the requirement for an increased number of launches potentially gives advantages in responsiveness.
 
-Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7t according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch. With would be $15M to the customer, or a <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$4M marginal launch cost</a>. With full reusability this is achieveable. From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9.
+Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7 according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch which would cost $15M for the customer or a <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2360">~$4M marginal launch cost</a>. As we've seen with Falcon 9, reusability has dramatically decreased launch costs to the point where the majority of the cost of a rocket is no longer in the first stage. Second stage reusability will drive down costs even further and a small launch on the scale of Stoke's Nova is well suited to achieving a high launch cadence which will accelerate the process of decreasing costs.
 
 ### <b>Well Suited to Launching Other Payloads</b>
 
@@ -80,6 +80,8 @@ Nova needing to launch 4x as much as Falcon 9 to put the same mass into orbit is
 ### <b>Competing Against Partially-Reusable Launch Vehicles</b>
 
 Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 4.4t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, its GEO capacity will be the same as LEO capacity, 5 tons. Finally, both rockets will compete for launching constellations and as mentioned above, Nova is positioned to cost less than Neutron long-term.
+
+From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9.
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
