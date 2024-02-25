@@ -81,6 +81,8 @@ Heavy-lift rockets such as New Glenn and Terran R are much harder to compete aga
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
++ Let's consider what the launch market will look like when fully and rapidly reusable launch vehicles are the norm.
+
 Stoke's Nova is clearly an excellent architecture to compete against partially-reusable launch vehicles, but it is far less clear Stoke's position against larger fully and rapidly reusable launch vehicles. 
 
 In the next 10-20 years we will enter the paradigm of fully and rapidly reusable launch vehicles. It will not be just Starship and Nova, but every new rocket will be fully and rapidly reusable. When every major rocket is fully and rapidly reusable, Nova will not have all the benefits it will enjoy over the next ten years against partially reusable launch vehicles.
