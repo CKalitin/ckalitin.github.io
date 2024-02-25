@@ -71,23 +71,27 @@ Launching constellations would provide an excellent opportunity for Stoke as the
 
 SpaceX iterated on Falcon 9's design for years and refined it through the process of launching Starlink satellites on life-leading boosters. Thus far, Stoke has embraced iteration and hardware-rich development through the development of Nova's upperstage/engine and the first stage engines. Through launching constellations on many more individual launches than competitors, Stoke will be able to push hardware to its limits and refine the vehicle through rapid iteration.
 
-### <b>Competing Against Partially-Reusable Medium Launch Vehicles</b>
+### <b>Competing Against Partially-Reusable Launch Vehicles</b>
 
 Vehicles like Nova are the perfect competition against partially-reusable medium launch vehicles. For example, Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 3.7t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, it has comperable GTO capacity to Neutron. Finally, both rockets will compete for launching constellations and Nova may cost less than Neutron because of full reusability. 
 
 Almost every payload that can be launched on Neutron can be launched on Nova. The major exception is LEO satellites that are >5 tons. This is a relatively small market as it is mostly US Military payloads. NSSL Lane 2 payloads are mainly reserved for medium-lift launch vehicles. It is unlikely that Stoke or Neutron will be competitive against SpaceX and ULA here without more change in NSSL policy.
 
-Heavy-lift rockets such as New Glenn and Terran R are much harder to compete against with a vehicle on the scale of Nova. Larger rockets can pursue unique missions and are better suited for heavy GEO satellite and massive constellations. For example, Nova could not compete for HLS as a vehicle on the scale of New Glenn or larger is required. Furthermore, for extremely large constellations such as Starlink or Kuiper, a larger rocket is better suited due to the sheer amount of satellites needed. Nova will need to launch almost every day to compete with these rockets on Starlink-sized constellations.
+Heavy-lift rockets such as New Glenn and Terran R are much harder to compete against with a vehicle on the scale of Nova. Larger rockets can pursue unique missions and are better suited for heavy GEO satellite and massive constellations. For example, Nova could not compete for <a href="https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)">HLS</a> as a vehicle on the scale of New Glenn or larger is required. Furthermore, for extremely large constellations such as Starlink or Kuiper, a larger rocket is better suited due to the sheer amount of satellites needed. Nova will need to launch almost every day to compete with these rockets on Starlink-sized constellations.
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
-Because of the larger sizes of New Glenn and Terran R, they may be in less competition with Nova than Neutron. These rockets are much larger which allows them to launch the heaviest GEO satellites and pursue difficult markets like <a href="https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)">HLS</a>. Furthermore, these vehicles have upgrade paths to full reusability.
-
 Stoke's Nova is clearly an excellent architecture to compete against partially-reusable launch vehicles, but it is far less clear Stoke's position against larger fully and rapidly reusable launch vehicles. 
-1. Small sat launcher
-2. Starship's too big
-3. It might serve smaller constellations (eg. Iridium, OneWeb, Intelsat)
-4. Legacy Market
+
+In the next 10-20 years we will enter the paradigm of fully and rapidly reusable launch vehicles. It will not be just Starship and Nova, but every new rocket will be fully and rapidly reusable. When every major rocket is fully and rapidly reusable, Nova will not have all the benefits it will enjoy over the next ten years against partially reusable launch vehicles.
+
+Large constellations will be launched on large rockets. SpaceX has already spent billions to develop Starship and launch Starlink on it. The sheer number of launches required to put the same mass into orbit compared to Starship makes it unlikely that Nova will be able to compete.
+
+Nova may become the best small sat launcher. Its small size and full reusability will allow it to launch small satellites at a lower cost than any other vehicle, including Electron. This already may become a concern in the next 5-10 years for expendable or partially reusable small sat launchers. 
+
+Small constellations from the scales of BlackSky or Planet Labs to Iridium or Globalstar may be launched on a Nova sized vehicle. These constellations require satellites to be launched into unique orbital planes relative to each other which means each launch may carry too little satellite to be economical on a larger fully reusable rocket. Small fully reusable rockets will be economical enough to launch dedicated small satellites and small satellite constellations.
+
+In a world of fully and rapidly reusable rockets, Nova may be similar to Electron today. It will have a niche of payloads that are well suited for its size and cost. This includes small satellites, small constellations, and <5t satellites like those that currently launch on Falcon 9.
 
 ### <b>Not Many Organizations Can Pursue Full Reusability</b>
 
