@@ -71,7 +71,7 @@ Launching constellations would provide an excellent opportunity for Stoke as the
 
 SpaceX iterated on Falcon 9's design for years and refined it through the process of launching Starlink satellites on life-leading boosters. Thus far, Stoke has embraced iteration and hardware-rich development through the development of Nova's upperstage/engine and the first stage engines. Through launching constellations on many more individual launches than competitors, Stoke will be able to push hardware to its limits and refine the vehicle through rapid iteration.
 
-### <b>Competing Against Partially-Reusable Launch Vehicles</b>
+### <b>Competing Against Partially-Reusable Medium Launch Vehicles</b>
 
 Vehicles like Nova are the perfect competition against partially-reusable medium launch vehicles. For example, Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 3.7t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, it has comperable GTO capacity to Neutron. Finally, both rockets will compete for launching constellations and Nova may cost less than Neutron because of full reusability. 
 
