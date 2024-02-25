@@ -19,41 +19,13 @@ Stoke's Nova rocket is perfectly sized to compete for existing satellite launche
 
 ### <b>Notes</b>
 
-1. Dedicated Small Sat Launch
-2. NSSL
-3. Constellations
-4. High flight rate = lower costs
-5. Commercial Payloads
-6. Capsule (Crew / Cargo, mostly cargo)
-7. Predictions
-8. Stoke might die brutally (Astra)
-
-Structure:
-1. Opening (stoke can address almost all current market segments and full reusability matters, a rocket like Nova)
-2. Existing LEO Satellites (4.4t)
-3. Constellations (Fully Reusability)
-4. GEO Communication Satellites (compete against F9+Helios)
-4. Capsule (Cargo, slim chance of crew)
-5. Moon Lander
-6. NSSL capability (demonstrate power of refilling in orbit)
-
-Structure V2:
-1. Opening
-2. Fully reusability allows addressing almost all markets (Constellations, Small Sats, GEO)
-3. Future addressable markets on Nova platform (Capsule, Moon, NSSL)
-4. Implications for existing rockets (No one is as smart as me) + Starship competition (economics)
-5. Conclusion (work into above section?)
-
-1. Current competition is partially reusable, (downrange vs. RTLS, ie. size)
-2. Constellations can be launched on any size of rocket (Neutron Vs. New Glenn)
-3. Nova is 4x smaller than F9, so will have to launch 4x+ cheaper, possible through full reusability
-
 Structure V3:
 1. Launching Constellations (launching more, but cheaper)
 2. Small size is a feature (flight rate decreases cost, lower upfront development cost, full reusability required to achieve low cost eg. Firefly)
-3. Competing against partially-reusable launch vehicles
+3. Competing against partially-reusable launch vehicles (point out downrange vs. RTLS ie. size)
 4. Competing against fully-reusable launch vehicles
 5. Stoke is a well suited organizations (SpaceX example, Rocket Lab might not have been able to do this)
+6. Conclusion (Predictions for future of launch market, Stoke might die brutally like Astra)
 
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
@@ -67,8 +39,6 @@ Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.co
 
 ### <b>Nova can Launch Most Payloads</b>
 
-+ Other payloads (GEO, rideshare, existing LEO satellites, NSSL, Capsule, Moon/Mars lander)
-
 Launching legacy geostationary communications satellites has very different considerations from launch constellations. These launches require immense mass to GTO capability and perfer high-energy optimized architectures like Ariane 5 or Vulcan. However, ~60% of the commercial GEO satellites launched in the last 6 years were under 5 tons. Because <a href="https://youtu.be/fcLuugmHV90?si=8EKMazIYyfUyPrm2">refilling in orbit is planned for Nova</a>, it will essentailly be able to put its entire LEO capacity directly in a geostationary orbit and potentially return the second stage (Assuming 6000m/s+ delta v in the upper stage similar to Starship). Because the vehicle is fully reusable this may cost less than a dedicated Falcon 9 launch.
 
 The average mass of Falcon 9 customer LEO launches excluding Dragon is 3.7 tons. Between 2018 and 2023 inclusive 32 of these launches occured and only 4 of them were over 5 tons. This means Nova could have launched 28 of the previous 32 Falcon 9 customer launches assuming there were not further considerations such as payload volume. Because Falcon 9 is oversized for the majority of LEO customer payloads, Nova is well positioned to compete for this market.
@@ -79,15 +49,15 @@ All 4 of the Falcon 9 customer launches that exceeded Nova's 5 ton capacity were
 
 Nova may be able to achieve all but one of the <a href="https://en.wikipedia.org/wiki/National_Security_Space_Launch#2018_to_2020s">NSSL Phase 2 target orbits</a> if the vehicle was stretched to a seven ton LEO capacity. These orbits are mainly high-energy and require 4-7 tonsof payload capacity. For example, GEO 2 required 6.6t direct to GEO, and MEO Direct 1 requires 5.3 tons direct to an 18200km orbit of Earth. The only required orbit Nova can't complete is Polar 2 which requires 12 tons to a 830 km polar orbit of Earth. This shows how in-space refilling is a feature that opens up a lot of capability and how Nova could compete for NSSL Lane 1 payloads.
 
-### <b>Future Capability built upon Fully Reusability and Refilling</b>
+### <b>Crew / Cargo Capsule and Lunar Landing</b>
 
 Nova's upper stage is a fully reusable orbital reentry vehicle capable of propulsive landing. Previous vehicles capable of orbital reentry have all carried <a href="https://en.wikipedia.org/wiki/SpaceX_Dragon_2">crew</a> or <a href="https://www.space.com/varda-in-space-manufacturing-capsule-reentry-photos">cargo</a> and orbital vehicles capable of propulsive landing have all been Moon/Mars landers.
 
 In Stoke Space's <a href="https://youtu.be/fcLuugmHV90?si=C0-daIiAsqi6o4d0">promotional video</a> 4 months ago they teased in-orbit refilling and Moon landings. As mentioned above, in-orbit refilling allows them to increase payload capacity beyond low-earth orbit. This also allows them to get enough delta-v in low Earth orbit to achieve a lunar landing. A lunar landing from LEO requires ~5,700 m/s of delta-v. If Nova's upper stage has similar delta-v as Starship (6000m/s), this is possible with a full 5 ton payload. Even if delta-v is lower than 6000m/s or significant extra mass is required to achieve a lunar landing, payload to the lunar surface will be greater than a ton. Currently, the largest planned robotic lunar lander is Astrobotic's Griffin which is capable of 625kg to the lunar surface. A Nova-based lunar lander could deliver more payload to the Lunar surface for a lower overall cost.
 
-Lower cost and higher reliability are made possible through testing landing system on Earth dozens or hundreds of times before attempting a Lunar landing. Engines and maneuvering systems will be tested many times before a lunar landing. This makes a failure when attempting to land far less likely. For example, failures like Peregrine, Luna 25, or Beresheet would not have occured on a sufficiently tested vehicle. This is not to say a lunar landing with Nova isn't a significant technological challenge, but to show how a vehicle tested on Earth or in Earth orbit hundreds of times has a far higher chance of success.
+Lunar landings of lower cost and higher reliability are made possible through testing the landing system on Earth dozens or hundreds of times before attempting a Lunar landing. Engines and maneuvering systems will be tested many times before a lunar landing and this makes a failure when attempting to land far less likely. For example, failures like Peregrine, Luna 25, or Beresheet would not have occured on a sufficiently tested vehicle. This is not to say a lunar landing with Nova isn't a significant technological challenge, but to show how a vehicle tested on Earth or in Earth orbit hundreds of times has a far higher chance of success and can be cheaper.
 
-Nova is an undersized rocket for launching crew. For example, Soyuz is one of the small crew capsules currently flying is weighs 7 tons. This is beyond Nova's 5 ton LEO capacity and makes it very difficult to create a crew capsule even if it is integrated into an existing spacecraft with maneuvering capabilities. In his <a href="https://www.youtube.com/live/P_S350j1HQA?si=DqnatYXVLB-qmTNn&t=4182">interview</a> with NASASpaceflight Andy Lapsa - Stoke Space CEO and cofounder - was asked about crew rating Nova and said this: "I actually expect that we'll see a bimodal distribution in the optimal size of the vehicles. One of them is designed for satellites and one of them is propbably bigger designed for humans with life \[support\] systems."
+Nova is an undersized rocket for launching crew. For example, Soyuz is one of the small crew capsules currently flying is weighs 7 tons. This is beyond Nova's 5 ton LEO capacity and makes it very difficult to create a crew capsule even if it is integrated into an existing spacecraft with maneuvering capabilities. A Cargo capsule is more reasonable, but it is unlikely there will be sufficient demand for Stoke Space to pursue this. In his <a href="https://www.youtube.com/live/P_S350j1HQA?si=DqnatYXVLB-qmTNn&t=4182">interview</a> with NASASpaceflight, Andy Lapsa - Stoke Space CEO and cofounder - was asked about crew rating Nova and said this: "I actually expect that we'll see a bimodal distribution in the optimal size of the vehicles. One of them is designed for satellites and one of them is propbably bigger designed for humans with life \[support\] systems."
 
 ### <b>Small Size if a Feature</b>
 
