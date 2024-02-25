@@ -61,18 +61,13 @@ Nova is an undersized rocket for launching crew. For example, Soyuz is one of th
 
 ### <b>Small Size if a Feature</b>
 
-+ High flight rate is a feature / Small size is a feature:
+The fully reusable architecture allows for a high flight rate which can bring down the cost per launch and allow for rapid iteration. 
 
-- High flight rate allows iterations + Stoke is a hardware rich company rapidly iterating
-- Low risk payloads (constellations) allows riskier flights
+Flight rate is one of the primary factors behind falling launch costs apart from vehicle architecture. Launching multiple times as much as your competitors with a smaller fully-reusable vehicle allows for an accelerated process of lowering costs. Contrast this with Neutron, which will likely launch less than Falcon 9 with a second stage of <a href="https://x.com/BellikOzan/status/1741535515759857816?s=20">similar complexity</a>. It will be much harder for Rocket Lab to compete with Falcon 9 than for Stoke.
 
-Nova needing to launch 4x as much as Falcon 9 to put the same mass into orbit is a feature. Flight rate appears to be the determining factor behind falling launch costs apart from vehicle architecture. Launching 4x as much as your competitors with a smaller fully-reusable vehicle allows for an accelerated process of lowering costs. Contrast this with Neutron, which will likely launch less than Falcon 9 with a second stage of <a href="https://x.com/BellikOzan/status/1741535515759857816?s=20">similar complexity</a>. It will be much harder for Rocket Lab to compete with Falcon 9 than Stoke.
+Constellation launches are going to be the primary factor behind increasing launch cadence as they were for Falcon 9. Constellation satellites are payloads that can accept more risk than other more expensive one-off payloads. This means they can be launched on riskier life-leading boosters and upper stages. For years the life-leading Falcon 9 boosters only launched Starlink satellites, and  after all this testing and iteration SpaceX's customer became comfortable with launching on these boosters. SpaceX's current life-leading booster, B1060, recently launched the IM-1 lunar landing mission on its 18th flight. 
 
-- High flight rate allows for more iteration
-- High flight rate can be achieved through launching constellations
-- Launching constellations allows you to push hardware to its limits
-
-High flight rate also allows for rapid iteration and especially when launching satellites on riskier life-leading boosters/upper stages. Stoke is clearly pursuing a strategy of hardware-rich development which aligns with rapid iteration. 
+SpaceX iterated on Falcon 9's design for years and refined it through the process of launching Starlink satellites on life-leading boosters. Thus far, Stoke has embraced iteration and hardware-rich development through the development of Nova's upperstage/engine and the first stage engines. Through launching constellations on many more individual launches than competitors, Stoke will be able to push hardware to its limits and refine the vehicle through rapid iteration.
 
 ### <b>Competing Against Partially-Reusable Launch Vehicles</b>
 
@@ -95,3 +90,4 @@ Stoke's Nova is clearly an excellent architecture to compete against partially-r
 Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium-lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket. This is an unproven market and it has never been done before and is a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now Starship & Mars.
 
 ### <b>Conclusion & Predictions</b>
+
