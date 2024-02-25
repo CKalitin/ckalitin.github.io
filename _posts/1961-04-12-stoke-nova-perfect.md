@@ -81,6 +81,8 @@ Stoke's Nova is clearly an excellent architecture to compete against partially-r
 3. It might serve smaller constellations (eg. Iridium, OneWeb, Intelsat)
 4. Legacy Market
 
-+ Why hasn't this been done before / Well suited organization:
+### <b>Not Many Organizations Can Do Full Reusability</b>
 
 Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium-lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket. This is an unproven market and it has never been done before and is a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now Starship & Mars.
+
+### <b>Conclusion & Predictions</b>
