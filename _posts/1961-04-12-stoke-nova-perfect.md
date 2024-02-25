@@ -63,13 +63,22 @@ Nova is an undersized rocket for launching crew. For example, Soyuz is one of th
 
 + High flight rate is a feature / Small size is a feature:
 
+- High flight rate allows iterations + Stoke is a hardware rich company rapidly iterating
+- Low risk payloads (constellations) allows riskier flights
+
 Nova needing to launch 4x as much as Falcon 9 to put the same mass into orbit is a feature. Flight rate appears to be the determining factor behind falling launch costs apart from vehicle architecture. Launching 4x as much as your competitors with a smaller fully-reusable vehicle allows for an accelerated process of lowering costs. Contrast this with Neutron, which will likely launch less than Falcon 9 with a second stage of <a href="https://x.com/BellikOzan/status/1741535515759857816?s=20">similar complexity</a>. It will be much harder for Rocket Lab to compete with Falcon 9 than Stoke.
+
+- High flight rate allows for more iteration
+- High flight rate can be achieved through launching constellations
+- Launching constellations allows you to push hardware to its limits
+
+High flight rate also allows for rapid iteration and especially when launching satellites on riskier life-leading boosters/upper stages. Stoke is clearly pursuing a strategy of hardware-rich development which aligns with rapid iteration. 
 
 ### <b>Competing Against Partially-Reusable Launch Vehicles</b>
 
 Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 4.4t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, its GEO capacity will be the same as LEO capacity, 5 tons. Finally, both rockets will compete for launching constellations and as mentioned above, Nova is positioned to cost less than Neutron long-term.
 
-From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9.
+From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9. 
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
@@ -81,7 +90,7 @@ Stoke's Nova is clearly an excellent architecture to compete against partially-r
 3. It might serve smaller constellations (eg. Iridium, OneWeb, Intelsat)
 4. Legacy Market
 
-### <b>Not Many Organizations Can Do Full Reusability</b>
+### <b>Not Many Organizations Can Pursue Full Reusability</b>
 
 Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium-lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket. This is an unproven market and it has never been done before and is a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now Starship & Mars.
 
