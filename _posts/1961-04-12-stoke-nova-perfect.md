@@ -39,6 +39,8 @@ Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.co
 
 ### <b>Nova can Launch Most Payloads</b>
 
++ Small sats
+
 Launching legacy geostationary communications satellites has very different considerations from launching constellations. These launches require immense mass to GTO capability and perfer high-energy optimized architectures like Ariane 5 or Vulcan. However, ~60% of the commercial GEO satellites launched in the last 6 years were under 5 tons. Because <a href="https://youtu.be/fcLuugmHV90?si=8EKMazIYyfUyPrm2">refilling in orbit is planned for Nova</a>, it will essentailly be able to put its entire LEO capacity directly in a geostationary orbit and potentially return the second stage (Assuming 6000m/s+ delta v in the upper stage similar to Starship). Because the vehicle is fully reusable this may cost less than a dedicated Falcon 9 launch.
 
 The average mass of Falcon 9 customer LEO launches excluding Dragon is 3.7 tons. Between 2018 and 2023 inclusive, 32 of these launches occured and only 4 of them were over 5 tons. This means Nova could have launched 28 of the previous 32 Falcon 9 customer launches assuming there were no further considerations such as payload volume. Because Falcon 9 is oversized for the majority of LEO customer payloads, Nova is well positioned to compete for this market.
@@ -71,9 +73,11 @@ SpaceX iterated on Falcon 9's design for years and refined it through the proces
 
 ### <b>Competing Against Partially-Reusable Launch Vehicles</b>
 
-Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 4.4t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, its GEO capacity will be the same as LEO capacity, 5 tons. Finally, both rockets will compete for launching constellations and as mentioned above, Nova is positioned to cost less than Neutron long-term.
+Vehicles like Nova are the perfect competition against partially-reusable medium launch vehicles. For example, Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 3.7t (exluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumored to be around 3-5 tons. Because Nova is planned to be refilled in orbit, it has comperable GTO capacity to Neutron. Finally, both rockets will compete for launching constellations and Nova may cost less than Neutron because of full reusability. 
 
-From my perspective, it even appears more achievable than Neutron achieving lower marginal launch costs than Falcon 9. 
+Almost every payload that can be launched on Neutron can be launched on Nova. The major exception is LEO satellites that are >5 tons. This is a relatively small market as it is mostly US Military payloads. NSSL Lane 2 payloads are mainly reserved for medium-lift launch vehicles. It is unlikely that Stoke or Neutron will be competitive against SpaceX and ULA here without more change in NSSL policy.
+
+Heavy-lift rockets such as New Glenn and Terran R are much harder to compete against with a vehicle on the scale of Nova. Larger rockets can pursue unique missions and are better suited for heavy GEO satellite and massive constellations. For example, Nova could not compete for HLS as a vehicle on the scale of New Glenn or larger is required. Furthermore, for extremely large constellations such as Starlink or Kuiper, a larger rocket is better suited due to the sheer amount of satellites needed. Nova will need to launch almost every day to compete with these rockets on Starlink-sized constellations.
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
