@@ -17,6 +17,8 @@ Stoke's Nova rocket is perfectly sized to compete for existing satellite launche
 
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
+![Image description]({{site.url}}/assets/images/stoke-nova-perfect/Western-Commercial-Launches-By-Type.png){: width="600" .align-center}
+
 Through following current trends in the launch market it is clear that launching constellations is the market that almost all new rockets should be optimized for. 67% of commercial launches in the last 6 years were for constellations. 80% of these launches were Starlink while the remaining is comprised mainly of Iridium and OneWeb. With numerous upcoming constellations - mainly Kuiper - it is clear this market will experience much more rapid growth than other payload types.
 
 Excluding Starlink, the market for commercial launches is shared in equal thirds between Constellations, GEO Communications Satellites, and Small Satellite launches. Legacy GEO Communications satellites are a fairly static market and have been for ~20 years at around 10 launches per year. Small satellites are experiencing exponential growth, but the TAM for rideshare missions is relatively low. This leaves constellations as the massive market that is exponentially growing.
@@ -26,6 +28,8 @@ The primary considerations behind launching constellations are responsiveness an
 Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.com/space/2023/09/stoke-space-hops-its-upper-stage-leaping-toward-a-fully-reusable-rocket/">7 according to Eric Berger</a>). At this scale, to be competitive with Falcon 9 it must be 4x cheaper per launch which would cost $15M for the customer or <a href="https://youtu.be/DxREm3s1scA?si=ejdsalwfZkgcCpZG&t=2362">~$4M marginal launch cost</a>. As we've seen with Falcon 9, reusability has dramatically decreased launch costs to the point where the majority of the cost of a rocket is no longer in the first stage. Second-stage reusability will drive down costs even further and a small launch on the scale of Stoke's Nova is well suited to achieving a high launch cadence which will accelerate the process of decreasing costs.
 
 ### <b>Nova can Launch Most Payloads</b>
+
+![Image description]({{site.url}}/assets/images/stoke-nova-perfect/Western-Launches-By-Orbit-By-Mass.png){: width="600" .align-center}
 
 Launching legacy geostationary communications satellites has very different considerations from launching constellations. These launches require immense mass to GTO capability and prefer high-energy optimized architectures like Ariane 5 or Vulcan. However, ~60% of the commercial GEO satellites launched in the last 6 years were under 5 tons. Because <a href="https://youtu.be/fcLuugmHV90?si=8EKMazIYyfUyPrm2">refilling in orbit is planned for Nova</a>, it will essentially be able to put its entire LEO capacity directly in a geostationary orbit and potentially return the second stage (Assuming 6000m/s+ delta-v in the upper stage similar to Starship). Because the vehicle is fully reusable this may cost less than a dedicated Falcon 9 launch.
 
@@ -60,6 +64,8 @@ Launching constellations would provide an excellent opportunity for Stoke as the
 SpaceX iterated on Falcon 9's design for years and refined it through the process of launching Starlink satellites on life-leading boosters. Thus far, Stoke has embraced iteration and hardware-rich development through the development of Nova's upper stage/engine and the first stage engines. Through launching constellations on many more individual launches than competitors, Stoke will be able to push hardware to its limits and refine the vehicle through rapid iteration.
 
 ### <b>Competing Against Partially-Reusable Launch Vehicles</b>
+
+![Image description]({{site.url}}/assets/images/stoke-nova-perfect/Falcon-9-Customer-Launches.png){: width="600" .align-center}
 
 Vehicles like Nova are the perfect competition against partially reusable medium launch vehicles. For example, Nova's scale makes it very well suited to competing with Neutron. First, the average mass of customer payloads on Falcon 9 is 3.7t (excluding Dragon). This is addressable both by Nova and Neutron. Second, the next largest market for Falcon 9 is GEO communications satellites. Neutron GTO capacity is rumoured to be around 3-5 tons. Because Nova is planned to be refilled in orbit, it has a comparable GTO capacity to Neutron. Finally, both rockets will compete for launching constellations and Nova may cost less than Neutron because of full reusability. 
 
