@@ -13,7 +13,7 @@ author:
 
 At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post. This dataset shows the demand for a vehicle like Nova.
 
-Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 4.4 tons (ex. Dragon). Furthermore, full reusability allows Nova to launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule and refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
+Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 3.7 tons (ex. Dragon). Full reusability will allow it to compete against Electon and launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule, refilling in orbit to address high energy orbits, and potentially Moon/Mars landings.
 
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
@@ -83,21 +83,15 @@ In a world of fully and rapidly reusable rockets, Nova may be similar to Electro
 
 Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium/heavy lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket because it is an unproven market and has never been done before. This makes it a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. 
 
-It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now with Starship & Mars. When existing stakeholders are not willing to take the risk, a more conservative approach must be taken that is less likely to succeed against a sufficiently capable competitor. We've seen this in the past with the SLS and other legacy rocket development programs.
+It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now with Starship & Mars. When existing stakeholders are not willing to take the risk, a more conservative approach must be taken that is less likely to succeed against a sufficiently capable competitor. We've seen this in the past with the SLS and other legacy launch companies like ULA.
 
 A clear vision and path are required to pursue a fully and rapidly reusable rocket - along with immense amounts of capital. SpaceX achieved this under Elon Musk with his own fortune, NASA contracts, and venture capital. Stoke will follow a similar path, but with more funding from venture capital now that SpaceX has opened that door.
 
 ### <b>Conclusion & Predictions</b>
 
-+ Stoke will take market share in the next 5-10 years
-+ After this we will start to enter the paradigm of fully and rapidly reusable rockets
-+ To be well into the paradigm of fully and rapidly reusable rockets, we will need to have payloads well suited to it. Mass & Volume limits lifted, K2
-+ Stoke's market over the next decade will be very different than the decade after that
-+ Stoke might die, however, a vehicle like Nova will be successful in the long term
-
 A fully and rapidly reusable launch vehicle on the scale of Stoke's Nova is perfectly sized to compete against existing and under-development partially-reusable launch vehicles. It is well suited to launch constellations, LEO satellites, small GEO satellites, and small satellites. If fully reusability is achieved with Nova, it will take signifigant market share over the next 5-10 years. 
 
-Over the next decade, we will start to enter the paradigm of fully and rapidly reusable rockets. These rockets will be able to launch any payload at a lower cost than any other vehicle and lift the current mass and volume limitations. The lower cost will allow for new markets and for a new paradigm of satellite design. K2 Space is already preparing for this by developing satellites that are very massive and have a large volume. This increases launch cost but decreases the cost to build the satellite. There will come a point in the next 10-20 years when this becomes more economical than the current paradigm of satellite design.
+Over the next decade we will start to enter the paradigm of fully and rapidly reusable rockets. These rockets will be able to launch all payloads at a lower cost than all existing vehicles and eliviate the current mass and volume limitations. The lower cost will allow for new markets to emerge and for a new paradigm of satellite design. K2 Space is already preparing for this by developing satellites that are very heavy and have a large volume. This increases launch cost but decreases the cost to build the satellite. There will come a point in the next 10-20 years when this becomes more economical than the current paradigm of satellite design.
 
 Nova's market this decade will be very different than the next decade. Before we firmly enter the paradigm of fully and rapidly reusable rockets and have payloads well suited to it, Nova will be able to compete against partially reusable rockets. After we enter this new paradigm, Nova will go the way of Electron and become more of a niche vehicle.
 
