@@ -81,21 +81,15 @@ Heavy-lift rockets such as New Glenn and Terran R are much harder to compete aga
 
 ### <b>Competing Against Fully-Reusable Launch Vehicles</b>
 
-+ Let's consider what the launch market will look like when fully and rapidly reusable launch vehicles are the norm.
+Stoke's Nova is clearly an excellent architecture to compete against partially-reusable launch vehicles, but it is far less clear Stoke's position against larger fully and rapidly reusable launch vehicles. In the next 10-20 years we will enter the paradigm of fully and rapidly reusable launch vehicles. It will not be just Starship and Nova, but every new rocket will be fully and rapidly reusable. When every major rocket is fully and rapidly reusable, Nova will not have all the benefits it will enjoy against partially reusable launch vehicles over the next ten years.
 
-Stoke's Nova is clearly an excellent architecture to compete against partially-reusable launch vehicles, but it is far less clear Stoke's position against larger fully and rapidly reusable launch vehicles. 
+Large constellations will most likely be launched on large rockets. The sheer number of launches required to put the same mass into orbit compared to a heavy lift reusable rocket makes it unlikely that a Nova sized vehicle will be able to compete. For example, Nova would have to be 30x cheaper than Starship to be competitive. When rockets enter an airline-like model cost per kilogram will become a more important factor and the larger scale of Starship will become more of a competitive advantage.
 
-In the next 10-20 years we will enter the paradigm of fully and rapidly reusable launch vehicles. It will not be just Starship and Nova, but every new rocket will be fully and rapidly reusable. When every major rocket is fully and rapidly reusable, Nova will not have all the benefits it will enjoy over the next ten years against partially reusable launch vehicles.
+While large constellations will not be addressable by Nova, smaller constellations will be. All constellations require satellites to be launched into unique orbital planes. This can not be done on a single launch because of the immense fuel requirements for changing your orbital plane. This means each launch may not carry enough satellites to an orbital plane to be economical on a large fully reusable rocket. For example, each Iridium launch carried 10 satellites on each launch which weighed ~6.6t. This scale of constellation - or smaller like Planet Labs - is well suited for a Nova sized vehicle.
 
-Large constellations will be launched on large rockets. SpaceX has already spent billions to develop Starship and launch Starlink on it. The sheer number of launches required to put the same mass into orbit compared to Starship makes it unlikely that Nova will be able to compete.
+Aside from constellations, Nova may become the best small sat launch. Its small size and full reusability will allow it to launch small satellites at a lower cost than any other vehicle, including Electron. Furthermore, it may not be economical to develop a smaller fully reusable small sat launcher due to the upfront development costs. Also, a rocket designed for only small satellites will also not be able to launch constellations or 1-5 ton satellites, which the majority of Falcon 9 LEO customer payloads. Even if a smaller rocket is >50% cheaper per launch, it will take a very high number of flights to amortize the development cost. In 5-10 years Nova may launch more small satellites than Electron.
 
-Nova may become the best small sat launcher. Its small size and full reusability will allow it to launch small satellites at a lower cost than any other vehicle, including Electron. This already may become a concern in the next 5-10 years for expendable or partially reusable small sat launchers. 
-
-Small constellations from the scales of BlackSky or Planet Labs to Iridium or Globalstar may be launched on a Nova sized vehicle. These constellations require satellites to be launched into unique orbital planes relative to each other which means each launch may carry too little satellite to be economical on a larger fully reusable rocket. Small fully reusable rockets will be economical enough to launch dedicated small satellites and small satellite constellations.
-
-In a world of fully and rapidly reusable rockets, Nova may be similar to Electron today. It will have a niche of payloads that are well suited for its size and cost. This includes small satellites, small constellations, and <5t satellites like those that currently launch on Falcon 9.
-
-I can't wait until the 2030s when we will debate launching GEO satellites on a Nova refilled in orbit vs. Starship with an Impulse kick stage.
+In a world of fully and rapidly reusable rockets, Nova may be similar to Electron today. It will have a niche of payloads that are well suited for its size and cost. This includes small satellites, small constellations, and <5t satellites like those currently launching on Falcon 9.
 
 ### <b>Not Many Organizations Can Pursue Full Reusability</b>
 
