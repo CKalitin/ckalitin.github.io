@@ -11,21 +11,9 @@ author:
 
 ![Image description]({{site.url}}/assets/images/stoke-nova-perfect/hop.jpg){: width="600" .align-center}
 
-This is a demand analysis.
-
-At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post.
+At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the currently most successful rocket (and throughout history) is a 20 ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparativly small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post. This dataset shows the demand for a vehicle like Nova.
 
 Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 4.4 tons (ex. Dragon). Furthermore, full reusability allows Nova to launch constellations even with its 5t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule and refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
-
-### <b>Notes</b>
-
-Structure V3:
-1. Launching Constellations (launching more, but cheaper)
-2. Small size is a feature (flight rate decreases cost, lower upfront development cost, full reusability required to achieve low cost eg. Firefly)
-3. Competing against partially-reusable launch vehicles (point out downrange vs. RTLS ie. size)
-4. Competing against fully-reusable launch vehicles
-5. Stoke is a well suited organizations (SpaceX example, Rocket Lab might not have been able to do this)
-6. Conclusion (Predictions for future of launch market, Stoke might die brutally like Astra)
 
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
@@ -39,13 +27,13 @@ Stoke's Nova is designed to launch about 5 tons (<a href="https://arstechnica.co
 
 ### <b>Nova can Launch Most Payloads</b>
 
-+ Small sats
-
 Launching legacy geostationary communications satellites has very different considerations from launching constellations. These launches require immense mass to GTO capability and perfer high-energy optimized architectures like Ariane 5 or Vulcan. However, ~60% of the commercial GEO satellites launched in the last 6 years were under 5 tons. Because <a href="https://youtu.be/fcLuugmHV90?si=8EKMazIYyfUyPrm2">refilling in orbit is planned for Nova</a>, it will essentailly be able to put its entire LEO capacity directly in a geostationary orbit and potentially return the second stage (Assuming 6000m/s+ delta v in the upper stage similar to Starship). Because the vehicle is fully reusable this may cost less than a dedicated Falcon 9 launch.
 
 The average mass of Falcon 9 customer LEO launches excluding Dragon is 3.7 tons. Between 2018 and 2023 inclusive, 32 of these launches occured and only 4 of them were over 5 tons. This means Nova could have launched 28 of the previous 32 Falcon 9 customer launches assuming there were no further considerations such as payload volume. Because Falcon 9 is oversized for the majority of LEO customer payloads, Nova is well positioned to compete for this market.
 
 Small satellite rideshare missions are well suited for Nova given their low mass requirements and flexibility. For example, SpaceX Transporter missions are often below 5 tons, another example of Falcon 9 being oversized for customer paylaods. The limiting factor in Nova being able to launch these missions may be <a href="https://i0.wp.com/spacenews.com/wp-content/uploads/2023/06/transporter8-stack.jpg?resize=661%2C1024&ssl=1">payload volume</a>. It is possible Nova's fairing is not large enough to fit the number of satellites Falcon 9 can. Regardless, this is solved by launching fewer satellites at once. Rideshare missions are flexible enough that they can launch on nearly any vehicle and the potential for extremely low cost with Nova makes it well suited for these launches.
+
+Small satellite rideshare missions are not the only small sat missions addressable by Nova. Because full reusability allows it to achieve very low costs, it will be economical for small satellites to launch on a dedicated Nova. Stoke will have to decrease costs below where Electron is today - $7M - and increase cadence. If second stage reuse is achieved the first goal is possible and because Nova has many more market segments available than Electron, a higher cadence can be achieved.
 
 All 4 of the Falcon 9 LEO customer launches that exceeded Nova's 5 ton capacity were for the US Military. There were two NROL launches and two SDA launches. Because of the classified nature of these payloads their exact mass is unknown, so some of them may be within Nova's 5 ton payload capacity. Even so, to launch these payloads Nova would have to be certified by the US Military to launch classified payloads under NSSL Lane 2 which is unlikely given competition from larger and more established rockets. 
 
@@ -93,7 +81,24 @@ In a world of fully and rapidly reusable rockets, Nova may be similar to Electro
 
 ### <b>Not Many Organizations Can Pursue Full Reusability</b>
 
-Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium-lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket. This is an unproven market and it has never been done before and is a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now Starship & Mars.
+Current and upcoming rockets that are aiming to launch constellations are all partially reusable medium/heavy lift launch vehicles (excluding Starship, I'll cover that later). A partially-reusable rocket is the most reasonable thing for a slightly risk-averse company to do. For companies like Rocket Lab or ULA, it is very difficult to pursue a fully and rapidly reusable rocket because it is an unproven market and has never been done before. This makes it a very hard sell to investors. This is especially true when you consider the development cost of such a program: ~$250M for Neutron vs. ~$5B for Starship. 
+
+It takes a level of audacity to push for such a program that will create its own market. SpaceX has done this again and again with Falcon 9, Starlink, and now with Starship & Mars. When existing stakeholders are not willing to take the risk, a more conservative approach must be taken that is less likely to succeed against a sufficiently capable competitor. We've seen this in the past with the SLS and other legacy rocket development programs.
+
+A clear vision and path are required to pursue a fully and rapidly reusable rocket - along with immense amounts of capital. SpaceX achieved this under Elon Musk with his own fortune, NASA contracts, and venture capital. Stoke will follow a similar path, but with more funding from venture capital now that SpaceX has opened that door.
 
 ### <b>Conclusion & Predictions</b>
 
++ Stoke will take market share in the next 5-10 years
++ After this we will start to enter the paradigm of fully and rapidly reusable rockets
++ To be well into the paradigm of fully and rapidly reusable rockets, we will need to have payloads well suited to it. Mass & Volume limits lifted, K2
++ Stoke's market over the next decade will be very different than the decade after that
++ Stoke might die, however, a vehicle like Nova will be successful in the long term
+
+A fully and rapidly reusable launch vehicle on the scale of Stoke's Nova is perfectly sized to compete against existing and under-development partially-reusable launch vehicles. It is well suited to launch constellations, LEO satellites, small GEO satellites, and small satellites. If fully reusability is achieved with Nova, it will take signifigant market share over the next 5-10 years. 
+
+Over the next decade, we will start to enter the paradigm of fully and rapidly reusable rockets. These rockets will be able to launch any payload at a lower cost than any other vehicle and lift the current mass and volume limitations. The lower cost will allow for new markets and for a new paradigm of satellite design. K2 Space is already preparing for this by developing satellites that are very massive and have a large volume. This increases launch cost but decreases the cost to build the satellite. There will come a point in the next 10-20 years when this becomes more economical than the current paradigm of satellite design.
+
+Nova's market this decade will be very different than the next decade. Before we firmly enter the paradigm of fully and rapidly reusable rockets and have payloads well suited to it, Nova will be able to compete against partially reusable rockets. After we enter this new paradigm, Nova will go the way of Electron and become more of a niche vehicle.
+
+It is possible that Stoke will die brutally like Astra before it achieves low cost and high cadence with Nova. This would be immensely unfortunate because Nova is the coolest rocket ever developed, tied with Starship. However, a vehicle like Nova will be developed in the future to adequately serve the <5t satellite market segment.
