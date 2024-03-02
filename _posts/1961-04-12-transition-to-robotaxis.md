@@ -140,4 +140,35 @@ The grid will be able to support a fully electric vehicle fleet. If every new ca
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
+#### <b>The Value of Autonomous Driving</b>
+
+Being driven is a better experience to driving in the vast majority of cases. Some teenagers enjoy driving to their job at a grocery store, but this is a niche. 
+
+* Cost per hour of your time ($200/Month FSD over 20hrs/month = $10/hour)
+* Cost per KM comparison to public transit ($0.1 - $0.3/km)
+* Better experience, chauffer
+
+#### <b>How Self Driving Will Be Achieved </b>
+
+* The Bitter Lesson
+* AI Neural Net problem, just look at the line
+* Data
+* First mover advantage? Cost of system
+
+#### <b>How Much Will It Cost?</b>
+
+* Cost of hardware
+* Amortize dev cost
+* Amortize car cost
+
 ### <b>Ride Hailing Revolution</b>
+
+* Rough cost estimate: $0.1/km
+* Potentially cheaper than public transit, especially for subsized public transit
+* Higher efficiency than personal car and taxis
+* Fleet advantage through economies of scale, but not too important
+* Vehicle Market will shink (minimum number at worst rush hour)
+* Not everyone will run their car as a robotaxi, market saturation. In the future, this will be a relatively low margin market per km due to competition.
+
+
+
