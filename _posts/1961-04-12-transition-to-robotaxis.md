@@ -142,7 +142,15 @@ The autonomus part of this revolution is currently occuring at a slower pace tha
 
 #### <b>The Value of Autonomous Driving</b>
 
-Being driven is a better experience to driving in the vast majority of cases. Some teenagers enjoy driving to their job at a grocery store, but this is a niche. 
+I've found two methods for analysing the value of autonomous driving, cost per hours and cost per kilometer. The cost per hour method is more useful for selling self driving software to consumers, while the cost per kilometer method is more useful for analysing ride hailing.
+
+First, cost per hour. FSD Beta currently costs $200/Month. Assuming you commute 20 hours per month (1 hour per work day), this is $10 / hour. There are two components to how enticing saving one hour of driving is to a consumer: the value of the regained time and the value of alliviating the stress of driving. A low-income teenager's time is not very valuable and they may like driving, so the value of FSD is low. A corporate middleman's time is more valuable and they may feel souless after commuting for a decade, making self driving car software very valuable.
+
+Your car becoming driving itself is a much better experience than driving yourself. How much better it is depends on the time since you got your license. The most high-end experience of transportation is a luxury car with a chauffer. Self driving software allows for the chauffer element to reach every consumer.
+
+The TAM of self driving software can be expressed on an exponential graph. A linear decrease in price leads to an exponential increase in potential customers. This can be seen in many industries ranging from the begining of the industrial revolution to today. For example mobile internet, phones, colour TVs, radios, sewing machines, etc.
+
+The ability to linearly decrease cost while exponentailly increasing customers allows for a higher overall profit while each subscription costs less. Creating software to drive a car is mainly an R&D project and if you are selling it directly to customers there are also profitable device sales. This means as total number of customers increases, R&D cost is amortized over more customers, leading to a lower cost per customer. This is the process through which the cost of self driving car software will come down in the future.
 
 * Cost per hour of your time ($200/Month FSD over 20hrs/month = $10/hour)
 * Cost per KM comparison to public transit ($0.1 - $0.3/km)
@@ -160,6 +168,10 @@ Being driven is a better experience to driving in the vast majority of cases. So
 * Cost of hardware
 * Amortize dev cost
 * Amortize car cost
+
+#### <b>First Mover Advantage</b>
+
+In the short term, in the few years after a company creates self driving car software they will have a significant advantage over the competition. This first mover advantage stems from the exponential nature of AI development and difficulty of driving. Self driving is an AI problem, so it will advance exponentially. If one company has a head start, their exponential will be significant ahead of the competition. However, the first mover advantage will not last forever because the advantage of one system over another will level out as the systems approach perfect driving. For example, if one system is 99.99999% safe and the other only 99.9999%, the difference is negligible. Aside from deceptive marketing "You're 10x more likely to die in a competitor's car!", there will be no sigficant differences between the two systems.
 
 ### <b>Ride Hailing Revolution</b>
 
