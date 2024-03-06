@@ -136,7 +136,7 @@ Modern battery packs last <a href="https://www.forbes.com/sites/jamesmorris/2022
 
 The grid will be able to support a fully electric vehicle fleet. If every new car sold in the US became electric tomorrow, the grid would have to grow by ~1% per year. 15,800,000 cars * 12,000 km/year * 4km/kWh = 48 billion kWh / year. The US electrical grid generated 4,231 billion kWh in 2022, growing it 48 billion kWh per year is not insurmountable. Furthermore, the lower costs of sustainable electricity generation will allow for more rapid expansion. 
 
-### <b>Autonomous Revolution</b>
+## <b>Autonomous Revolution</b>
 
 The autonomus part of this revolution is currently occuring at a slower pace than the transition to EVs. At any given moment there are <10,000 autonomous vehicles (AVs) driving on roads, even at the most quite hour of night there are many orders of magnitude more EVs driving. This is due to the fact that the AV S-curve is 5-10 years behind the EV revolution. S-curve growth peaks at around  <a href="https://docs.google.com/spreadsheets/d/1XSFc0gy2LnJKCwSEu2trwpLwnUNQqv1Y0znnX72tie8/edit?usp=sharing">5% - 10% market share</a>. AVs are not yet at a point for clear exponential growth while EVs are.
 
@@ -173,7 +173,7 @@ The ability to linearly decrease cost while exponentailly increasing customers a
 
 In the short term, in the few years after a company creates self driving car software they will have a significant advantage over the competition. This first mover advantage stems from the exponential nature of AI development and difficulty of driving. Self driving is an AI problem, so it will advance exponentially. If one company has a head start, their exponential will be significant ahead of the competition. However, the first mover advantage will not last forever because the advantage of one system over another will level out as the systems approach perfect driving. For example, if one system is 99.99999% safe and the other only 99.9999%, the difference is negligible. Aside from deceptive marketing "You're 10x more likely to die in a competitor's car!", there will be no sigficant differences between the two systems.
 
-### <b>Ride Hailing Revolution</b>
+## <b>Ride Hailing Revolution</b>
 
 * Rough cost estimate: $0.1/km
 * Potentially cheaper than public transit, especially for subsized public transit
