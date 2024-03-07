@@ -144,7 +144,7 @@ The autonomus part of this revolution is currently occuring at a slower pace tha
 
 I've found two methods for analysing the value of autonomous driving, cost per hours and cost per kilometer. The cost per hour method is more useful for selling self driving software to consumers, while the cost per kilometer method is more useful for analysing ride hailing.
 
-First, cost per hour. FSD Beta currently costs $200/Month. Assuming you commute 20 hours per month (1 hour per work day), this is $10 / hour. There are two components to how enticing saving one hour of driving is to a consumer: the value of the regained time and the value of alliviating the stress of driving. A low-income teenager's time is not very valuable and they may like driving, so the value of FSD is low. A corporate middleman's time is more valuable and they may feel souless after commuting for a decade, making self driving car software very valuable.
+First, cost per hour. FSD Beta currently costs $200/Month. Assuming you commute 20 hours per month (1 hour per work day), this is $10 / hour. There are two components to how enticing saving one hour of driving is to a consumer: the value of the regained time and the value of alleviating the stress of driving. A low-income teenager's time is not very valuable and they may like driving, so the value of FSD is low. A corporate middleman's time is more valuable and they may feel souless after commuting for a decade, making self driving car software very valuable.
 
 Your car becoming driving itself is a much better experience than driving yourself. How much better it is depends on the time since you got your license. The most high-end experience of transportation is a luxury car with a chauffer. Self driving software allows for the chauffer element to reach every consumer.
 
@@ -152,11 +152,15 @@ The TAM of self driving software can be expressed on an exponential graph. A lin
 
 The ability to linearly decrease cost while exponentailly increasing customers allows for a higher overall profit while each subscription costs less. Creating software to drive a car is mainly an R&D project and if you are selling it directly to customers there are also profitable device sales. This means as total number of customers increases, R&D cost is amortized over more customers, leading to a lower cost per customer. This is the process through which the cost of self driving car software will come down in the future.
 
-* Cost per hour of your time ($200/Month FSD over 20hrs/month = $10/hour)
-* Cost per KM comparison to public transit ($0.1 - $0.3/km)
-* Better experience, chauffer
-
 #### <b>How Self Driving Will Be Achieved </b>
+
+Creating software that drives a car is an AI problem. It benefits from <a href="https://en.wikipedia.org/wiki/ImageNet">general advances</a> in <a href="https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)">AI</a> and the exponential progress of AI. This means you must think about self driving cars the way you think about AI, exponentially advancing. Would you have laughed at GPT 2 the same way people did when FSD thought the <a href="https://driving.ca/auto-news/news/watch-did-this-teslas-sensors-just-mistake-the-moon-for-a-traffic-light">sun was a red light</a>?
+
+Everyone hoping to understand AI must read <a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">The Bitter Lesson</a>. Over the last couple of years with Tesla switching to an end-to-end neural net approach and the failure of many self driving companies, it has become clear that feature engineering is not the proper approach to solving this problem. "The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin." - Rich Sutton, The Bitter Lesson. Just look at <a href="https://twitter.com/johncoogan/status/1708667518863438319?t=tLJ-cWLzRqbaUSXjxKb5Jg">the growth of AI</a> and extrapolate into the future. But remember, it'll never make hands, artists are safe.
+
+The requirements of training end-to-end self driving car systems are massive amounts of useful data, massive amounts of compute, and very intelligent engineers. Tesla has the most of all of these and is most likely to succeed at creating a self-driving system first.
+
+A strategy like Waymo which does not leveraging the exponential growth of compute and data leads is very inefficient. This strategy will take more resources and time to achieve the same result, by which time the competition will have already been operating at scale for years and will be well ahead. Self driving AI systems that do not leverage exponential advances in AI may succeed in the future, <a href="https://www.cantechletter.com/2024/01/waymo-ipo-an-overview/#:~:text=%E2%80%9CAfter%20raising%20%242.25%20billion%20in,%24175%20billion%20valuation%20in%202018.">assuming the organization is not very inefficient</a>. I could create a Chess AI that beats Magnus Carlson through sheer brute force search (depending on time control), but it would be a waste of time and money and Stockfish would out compete it. Assuming self driving car systems reach a plateau where they are perfect, an inefficient system will still not be able to compete due to increased costs. For example, Tesla is paid ~$20,000 for every vehicle (which all can train FSD) while it costs Waymo is paid negative $150,000 to add a vehicle to its network.
 
 * The Bitter Lesson
 * AI Neural Net problem, just look at the line
@@ -175,6 +179,7 @@ In the short term, in the few years after a company creates self driving car sof
 
 ## <b>Ride Hailing Revolution</b>
 
+* Cost per KM comparison to public transit ($0.1 - $0.3/km)
 * Rough cost estimate: $0.1/km
 * Potentially cheaper than public transit, especially for subsized public transit
 * Higher efficiency than personal car and taxis
