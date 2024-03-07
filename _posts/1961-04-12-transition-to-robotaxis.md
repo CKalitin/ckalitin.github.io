@@ -166,7 +166,13 @@ A strategy like Waymo which does not leveraging the exponential growth of comput
 
 #### <b>How Much Will It Cost?</b>
 
-There are three components to the cost of a self driving car, the cost of hardware, amortizing development cost, and amortizing car manufacturing cost.
+There are two components to the cost of a self driving car: the cost of hardware and amortizing development cost.
+
+A <a href="https://www.comma.ai/shop/comma-3x">Comma 3X costs $1250</a>, Tesla's FSD Hardware costs a similar amount (more parts but at higher scale in a manufacturing focused organizaiton). This cost must either be worked into the purchase price of the device/vehicle or factored into the cost of a subscription. 
+
+The development cost must also be factored in for the business to be net profitable and this will become a smaller percentage as the number of customers increases. Tesla currently spends $1B - $2B per year on AI, at 2 million cars per year this is $500 - $1000 per car. This cost of development is increasing at a slower rate than the number of cars sold, so the cost per car is decreasing. Furthermore, once true self driving is achieved, the number of customers explodes. 
+
+
 
 * Cost of hardware
 * Amortize dev cost
