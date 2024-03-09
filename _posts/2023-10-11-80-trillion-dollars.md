@@ -18,7 +18,7 @@ If you bought Apple stock 10 years ago and held you'd be up 9x
 If you bought Amazon stock 10 years ago and held you'd be up 7x
 
 With this data is it obvious that predicting the next companies to 10x is the best investment strategy.
-10% per year in the S&P 500 is fine, 2.6x over 10 years. However, a 25% CAGR with companies that 10x every decade will make you a billionaire. 10x per decade is my target.
+10% per year in the S&P 500 is fine, 2.6x over 10 years. However, a 25% CAGR with companies that 10x every decade will make you a billionaire. 
 
 Now the question has been reframed.   
 It is no longer: "How do I invest." This is obviously a question for dumb people.  
