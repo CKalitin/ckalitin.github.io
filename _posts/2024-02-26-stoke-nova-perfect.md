@@ -21,8 +21,7 @@ Stoke's Nova rocket is perfectly sized to compete for existing satellite launche
 
 ![Image description]({{site.url}}/assets/images/stoke-nova-perfect/Western-Commercial-Launches-By-Type.png){: width="600" .align-center}
 
-* Constellations will be the biggest market in the future.
-* Legacy GEO is a stagnant, comparitively small market.
+* Constellations will be the biggest market in the future. Legacy GEO is stagnant and small in comparison.
 * Responsiveness and low cost per launch per satellite are the primary considerations for launching constellations.
 * Constellations can be launched on any size rocket as long as the above point is met.
 * Full reusability allows for higher cadence and lower cost, even better than partial reusability even at the 5t class.
