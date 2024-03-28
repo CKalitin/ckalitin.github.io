@@ -9,6 +9,8 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.png">
 </head>
 
+![Image description]({{site.url}}/assets/images/covers/waste-your-vote.png){: width="600" .align-center}
+
 Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
 
 ‎
