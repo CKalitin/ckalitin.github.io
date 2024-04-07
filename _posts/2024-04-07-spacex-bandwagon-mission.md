@@ -80,3 +80,5 @@ Scott O: https://x.com/scotto2050/status/1774467309987569689
 Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
 NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
 NorthStar: 16U cubesats built by Spire, Space Situational Awareness, tracking objects as small as 5cm in LEO, "Four of a Kind" previous electron launch that was slated for LauncherOne, Small constellation that needs full coverage, "NorthStar, which raised $15 million in December and $105 million overall, says that when the 12 satellites are in service they will be able to monitor 60% of the sky at any given time, increasing to 100% when combined with other sensors."
+
+SpaceX calls higher coverage of the Earth's surface a "high revisit rate" https://x.com/SpaceX/status/1777111200624791583
