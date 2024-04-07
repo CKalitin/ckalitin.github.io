@@ -20,7 +20,8 @@ New Structure:
 2. Payload list and compare to my previous blog post
 3. List payloads that make sense in my previous predictions
 4. Go into constellations that don't need exact orbital planes and why I was wrong
-5. Future of the market (Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious), earth coverage constellations, other constellations, expediency)
+5. Electron Manifest
+6. Future of the market (Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious), earth coverage constellations, other constellations, expediency)
 
 ### <b>Competition between Alpha and Electron</b>
 
@@ -57,3 +58,23 @@ The electron flights were to lower inclinations, possibly to cover more importan
 Now these bandwagon missions may fit their requirements, better to be on lower inclinations
 Again, small number of satellites and no requirement for full global coverage at lowest possible time between passes
 https://en.wikipedia.org/wiki/Capella_Space
+
+Electron Manifest:
+Wikipedia: https://nextspaceflight.com/launches/rockets/upcoming/10/
+Scott O: https://x.com/scotto2050/status/1774467309987569689
+
+1. NRO              - National Security Payload
+2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
+3. HawkEye-2        - RF signal location
+4. Kineis-1         - IoT connectivity
+5. BlackSky-7       - Earth Observation
+6. NorthStar-2      - Space Situational Awareness
+7. PREFIRE-1
+8. PREFIRE-2
+9. Kineis-2
+10. Kineis-3
+11. Winnebago-2
+
+Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
+NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
+NorthStar: 16U cubesats built by Spire, Space Situational Awareness, tracking objects as small as 5cm in LEO, "Four of a Kind" previous electron launch that was slated for LauncherOne, Small constellation that needs full coverage, "NorthStar, which raised $15 million in December and $105 million overall, says that when the 12 satellites are in service they will be able to monitor 60% of the sky at any given time, increasing to 100% when combined with other sensors."
