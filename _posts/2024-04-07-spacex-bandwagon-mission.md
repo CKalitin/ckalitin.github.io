@@ -15,3 +15,6 @@ author:
 * Compare to small sat missions
 * Predict which small sat payloads will fly on these types of missions
 * Long-term outlook on small launch
+
+"On board this mission are 11 spacecraft including KOREA's 425Sat, HawkEye 360’s Clusters 8 & 9, Tyvak International’s CENTAURI-6, iQPS’s QPS-SAR-7 TSUKUYOMI-II, Capella Space’s Capella-14, and Tata Advanced Systems Limited’s TSAT-1A."
+Link: https://www.spacex.com/launches/mission/?missionId=bandwagon-1
