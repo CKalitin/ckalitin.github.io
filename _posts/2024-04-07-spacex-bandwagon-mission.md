@@ -68,21 +68,11 @@ Both the HawkEye 360 and BlackSky have launched on both rideshare and dedicated 
 
 Kineis and NorthStar are planning to start with large constellations. They aren't quite following the exact same path of previous satellite constellation companies like Capella which began with many test satellites. Right off the bat they've booked 8 Electron launches between them and may continue to book more dedicated launches as they scale their constellations. This approach allows a faster ramp to profitability. For some, this approach was not as possible in the past because of the youth of the small launch market. For example, when Capella was launching their first few satellites Electron only had a couple of launches and the industry had much less experience in manufacturing reliable small satellites. Like PREFIRE, these small satellite consetllations are the type of payloads that are very well-suited to dedicated small launch vehicles.
 
+### <b>Outlook on the Small Satellite Launch Market</b>
+
+1. 
+
 ## <b>Notes</b>
-
-KAIST is planning to launch just a few satellites in the constellation: https://finance.yahoo.com/news/rocket-lab-prepares-launch-mission-201500316.html
-NEONSAT-1 to 520km, them 1000km for ACS3 solar sail tech demo
-
-1. NRO              - National Security Payload
-2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
-3. HawkEye-2        - RF signal location
-4. Kineis-1         - IoT connectivity
-5. BlackSky-7       - Earth Observation
-6. NorthStar-2      - Space Situational Awareness
-7. PREFIRE-1        - Earth Observation
-8. PREFIRE-2        - Earth Observation
-9. Kineis-2         - IoT connectivity
-10. Kineis-3        - IoT connectivity
 
 New New Structure:
 1. Intro (what it is, reflecting on my past predictions)
