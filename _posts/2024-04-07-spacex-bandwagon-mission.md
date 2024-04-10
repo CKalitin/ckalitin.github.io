@@ -52,7 +52,26 @@ The advantage of Bandwagon missions over Transporter can be seen when comparing 
 
 There are a couple sources for Electron's 2024 manifest. Many of these are outdated as the manifest has changed since they were published. The most up-to-date source I've found is <a href="https://x.com/scotto2050/status/1774467309987569689">Scott O's list</a>, even better than <a href="https://nextspaceflight.com/launches/rockets/upcoming/10/">Next Space Flight's</a>.
 
-![Image description]({{site.url}}/assets/images/spacex-bandwagon-mission/Scott-O-Manifest.jpeg){: height="400" .align-center}
+![Image description]({{site.url}}/assets/images/spacex-bandwagon-mission/Scott-O-Manifest.jpeg){: height="500" .align-center}
+
+In the previous secitons I laid out the advantages of Transporter / Bandwagon missions. Both are lower cost and Bandwagon gives a more ideal orbit for many payloads because of the <a href="https://x.com/SpaceX/status/1777111200624791583">higher revisit rates</a>. Now these advantages can be used as a framework for analysing which types of payloads on Electrons manifest may be at risk. Not the payloads themselves, but the general types of payloads.
+
+The first launch on the list, NROL-199 (NROL-123?) "Live and Let Fly", was a US military launch. The military uses dedicated launch because of security reasons with payloads and this payload may need an exact orbit. From <a href="https://planet4589.org/space/gcat/data/cat/satcat.html">Jonathan McDowell's data</a> it's not clear the final orbit the satellite was deployed into (COSPAR ID: 2024-053A). The estimated orbit is 500km at 48 degrees. 
+
+The NASA / KAIST (Korea Advanced Institute of Science and Technology) rideshare mission is going to a specific orbit. First, KAIST's NEONSAT-1 will be deployed in a 500km orbit and then the Photon Kick Stage will be used to deploy ACS3 - a solar sail tech demo satellite - to a 1000km orbit. From the mission profile, it seems the ACS3 satellite is the primary payload. The KAIST satellite may be launching as a rideshare payloads on an Electron due to schedule constraints, while the ACS3 satellite requires a dedicated launch for a specific orbit. Kick stages like Helios's Mira will made it possible to launch these payloads on Medium-lift rideshare missions like Transporter. In the cost estimates section of my <a href="https://ckalitin.github.io/technology/2024/02/10/smallsats-vs-rideshare.html">previous blog post</a> I point out how this can be much cheaper than a dedicated launch.
+
+NASA's PREFIRE launches are an excellent example of the perfect payloads for Electron. The PREFIRE-1 and PREFIRE-2 satellites are Earth Observation satellites that will be deployed to a polar orbit to study the Earth's poles. Like NASA's earlier TROPICS launches, these satellites require specific orbital planes to optimally cover the Earth. This can't be done on a rideshare mission unless you are the primary payload, like the first launch of Korea 425. This is the type of launch that will continue to be done on dedicated small launch vehicles.
+
+The remaining payloads on Electron's manifest can be put into two categories. First, payloads that are part of relatively small constellations that don't require perfect seperation of orbital planes. Second, payloads that much prefer unique orbital planes which can't be achieved on rideshare missions.
+
+Both the HawkEye 360 and BlackSky have launched on both rideshare and dedicated launches in the past. Because of the significant cost savings over dedicated launches, they may choose to launch on Transporter or Bandwagon missions in the future, as they have in the past. Particularly Bandwagon in the cases of these two companies as they both benefit from lower inclinations. However, as they scale their constellations the benefit of unique orbital planes for each group of constellation satellites starts to outweigh the cost savings of rideshare.
+
+Kineis and NorthStar are planning to start with large constellations. They aren't quite following the exact same path of previous satellite constellation companies like Capella which began with many test satellites. Right off the bat they've booked 8 Electron launches between them and may continue to book more dedicated launches as they scale their constellations. This approach allows a faster ramp to profitability. For some, this approach was not as possible in the past because of the youth of the small launch market. For example, when Capella was launching their first few satellites Electron only had a couple of launches and the industry had much less experience in manufacturing reliable small satellites. Like PREFIRE, these small satellite consetllations are the type of payloads that are very well-suited to dedicated small launch vehicles.
+
+## <b>Notes</b>
+
+KAIST is planning to launch just a few satellites in the constellation: https://finance.yahoo.com/news/rocket-lab-prepares-launch-mission-201500316.html
+NEONSAT-1 to 520km, them 1000km for ACS3 solar sail tech demo
 
 1. NRO              - National Security Payload
 2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
@@ -63,10 +82,7 @@ There are a couple sources for Electron's 2024 manifest. Many of these are outda
 7. PREFIRE-1        - Earth Observation
 8. PREFIRE-2        - Earth Observation
 9. Kineis-2         - IoT connectivity
-10. Kineis-3         - IoT connectivity
-11. Winnebago-2
-
-## <b>Notes</b>
+10. Kineis-3        - IoT connectivity
 
 New New Structure:
 1. Intro (what it is, reflecting on my past predictions)
