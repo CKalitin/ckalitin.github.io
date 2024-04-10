@@ -13,7 +13,7 @@ author:
 
 SpaceX's Bandwagon-1 rideshare mission launched yesterday and I was busy speedrunning a unit of Chemistry 11 in 8 hours to write this blog post before the launch. Regardless, this is the first of SpaceX's rideshare missions to low inclination orbits. The Bandwagon-1 mission will expand the range of payloads that can be launched on a Falcon 9 rideshare mission and will continue the trend of making dedicated small satellite launch a smaller niche of the market. While dedicated small satellite launch will lose market share, the overall market will increase and provide more satellites that must be launched.
 
-Three months ago I wrote this <a href="https://ckalitin.github.io/technology/2024/02/10/smallsats-vs-rideshare.html">blog post</a> on the dedicated small sat launch market. The Bandwagon missions will have significant implications on the conclusions I came to. Specifically, many of the satellites I listed as requiring a dedicated small sat launch do not.
+Three months ago I wrote this <a href="https://ckalitin.github.io/technology/2024/02/10/smallsats-vs-rideshare.html">blog post</a> on the dedicated small sat launch market. The Bandwagon missions will have significant implications on the conclusions I came to. Specifically, many of the satellites I listed as requiring a dedicated small sat launch in fact do not.
 
 ### <b>Payloads Unsuited for Dedicated Launch</b>
 
@@ -38,7 +38,19 @@ The Korea 425 Satellite is the second in a line of Synthetic Aperature Radar (SA
 
 Last year, on December 1st 2023, the first Korea 425 satellite was launched on a Falcon 9 mission along with 23 small satellites as rideshare payloads. Because it was the primary payload on the mission it was able to dictate the orbit and inclination of the mission. This may have occured on Bandwagon-1 as well because the Korea 425 satellite is the most massive payload on the mission and the first one listed by SpaceX.
 
-When 1-ton class launch vehicles start launching regularly, it may be more cost-effective to launch these 1-ton class satellites on those vehicles. However, this time the Korean military chose to launch on a Falcon 9 rideshare mission likely becaue RS1 and Alpha were not an option at the time.
+When 1-ton class launch vehicles start launching regularly, it may be more cost-effective to launch these 1-ton class satellites on those vehicles. However, this time the Korean military chose to launch on a Falcon 9 rideshare mission likely because RS1 and Alpha were not an option at the time.
+
+Six Hawk satellites were launched on this mission. In my previous blog post on the small satellite launch market I categorized these as Earth Observation when in fact they are Space Situational Awareness satellites. They collect RF signal data in space and sell this data to commercial customers. Previously they have flown on an Electron and on six Transporter missions. These satellites have been mostly indifferent to inclination and their exact orbit, but as they scale the constellation they may perfer dedicated launches to get better coverage of LEO. They have 2 launches coming up on Electron.
+
+The trade-off between frequent coverage of the Earth and cost is clear in the case of iQPS. Electron has launched many Earth Observation satellites. This is their primary market because many constellations seek to image parts of the Earth as frequently as possible. SpaceX calls this a <a href="https://x.com/SpaceX/status/1777111200624791583">"high revisit rate"</a>. The <a href="https://space.skyrocket.de/doc_sdat/qps-sar-3.htm">QPS-SAR-7 TSUKUYOMI-II</a> satellite is a Synthetic Aperature Radar satellite and iQPS has previously launched on a dedicated Electron mission as well as a rideshare mission on Epsilon and Falcon 9. Because of the relatively small size of the constellation - they're on their 7th satellite - they don't need dedicated launches to optimize their coverage of the Earth as opposed to a constellation like Starlink that must get very high coverage.
+
+
+
+3. Capella. They previously flew on Electron and Transporter missions, rideshare on starlink flight too, completely missed the mark on this one.
+The electron flights were to lower inclinations, possibly to cover more important areas of the Earth's surface, Didn't target lowest possible inclination from virginia
+Now these bandwagon missions may fit their requirements, better to be on lower inclinations
+Again, small number of satellites and no requirement for full global coverage at lowest possible time between passes
+https://en.wikipedia.org/wiki/Capella_Space
 
 ## <b>Notes</b>
 
@@ -60,30 +72,6 @@ More notes:
 * I didn't fully appriciate how many small constellations don't need exact orbits (Spire, Capella, Hawk, Blacksky somewhat)
 * Constellations that don't need exact orbits examples: (NASA Prefire (Tropics too), Strix), large sats like Strix or constellations that need regular coverage like Tropics
 
-"On board this mission are 11 spacecraft including KOREA's 425Sat, HawkEye 360’s Clusters 8 & 9, Tyvak International’s CENTAURI-6, iQPS’s QPS-SAR-7 TSUKUYOMI-II, Capella Space’s Capella-14, and Tata Advanced Systems Limited’s TSAT-1A."
-Link: https://www.spacex.com/launches/mission/?missionId=bandwagon-1
-
-Payloads that I predicted:
-1. Korea 425 - first one launched on a Falcon 9 on Dec 1 2023, 23 secondary payloads (a couple 150kg, ION SCV012, Bane, most small sats), 800kg
-https://space.skyrocket.de/doc_sdat/425-project-sar.htm
-2. CENTAURI-6, internet of things connectivity satellite 12kg, 6U, ridesharable, previously flew on a PSLV, SSO-A Falcon 9 rideshare, Electron rideshare and 2 transporter flights
-3. TSAT-1A, Tech demo Earth observation satellite from india
-https://en.wikipedia.org/wiki/Capella_Space
-
-Incorrect predictions:
-1. HawkEye 360, they've done 6 flights on transporter missions in the past and 1 electron, 2 electrons coming up. 
-I miscategorized this in the previous blog post, they're ridesharable payloads, the electron launch was to a lower inclination, appears to be agnostic to inclincation or an exact orbit.
-Also, these aren't Earth Observation but RF  signal location satellites, finding other RF signals in space are commercial use.
-https://en.wikipedia.org/wiki/HawkEye_360
-2. iQPS's QPS-SAR-7 TSUKUYOMI-II, some SAR satellites can fly on rideshare missions, 2 on Epsilon, one previously flew on electron, 1 transporter in 2023
-Exact orbits not required due to the small size of the constellation
-https://space.skyrocket.de/doc_sdat/qps-sar-3.htm
-3. Capella. They previously flew on Electron and Transporter missions, rideshare on starlink flight too, completely missed the mark on this one.
-The electron flights were to lower inclinations, possibly to cover more important areas of the Earth's surface, Didn't target lowest possible inclination from virginia
-Now these bandwagon missions may fit their requirements, better to be on lower inclinations
-Again, small number of satellites and no requirement for full global coverage at lowest possible time between passes
-https://en.wikipedia.org/wiki/Capella_Space
-
 Electron Manifest:
 Wikipedia: https://nextspaceflight.com/launches/rockets/upcoming/10/
 Scott O: https://x.com/scotto2050/status/1774467309987569689
@@ -103,8 +91,6 @@ Scott O: https://x.com/scotto2050/status/1774467309987569689
 Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
 NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
 NorthStar: 16U cubesats built by Spire, Space Situational Awareness, tracking objects as small as 5cm in LEO, "Four of a Kind" previous electron launch that was slated for LauncherOne, Small constellation that needs full coverage, "NorthStar, which raised $15 million in December and $105 million overall, says that when the 12 satellites are in service they will be able to monitor 60% of the sky at any given time, increasing to 100% when combined with other sensors."
-
-SpaceX calls higher coverage of the Earth's surface a "high revisit rate" https://x.com/SpaceX/status/1777111200624791583
 
 How does this new contract fit into it?
 https://spacenews.com/rocket-lab-wins-14-4-million-contract-to-launch-space-test-program-experiment/
