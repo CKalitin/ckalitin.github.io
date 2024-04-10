@@ -44,13 +44,27 @@ Six Hawk satellites were launched on this mission. In my previous blog post on t
 
 The trade-off between frequent coverage of the Earth and cost is clear in the case of iQPS. Electron has launched many Earth Observation satellites. This is their primary market because many constellations seek to image parts of the Earth as frequently as possible. SpaceX calls this a <a href="https://x.com/SpaceX/status/1777111200624791583">"high revisit rate"</a>. The <a href="https://space.skyrocket.de/doc_sdat/qps-sar-3.htm">QPS-SAR-7 TSUKUYOMI-II</a> satellite is a Synthetic Aperature Radar satellite and iQPS has previously launched these satellites on a dedicated Electron mission as well as a rideshare missions on Epsilon and Falcon 9. Because of the relatively small size of the constellation - they're on their 7th satellite - they don't need dedicated launches to optimize their coverage of the Earth as opposed to a constellation like Starlink that must get very high coverage.
 
-Capella has previously launched satellites on both Electron and Falcon 9. They currently have 7 satellites in orbit so they fall into the category of constellations small enoguh that they don't require dedicated launches to achieve optimal coverage of the Earth. 
+Capella has previously launched satellites on both Electron and Falcon 9. They currently have 7 satellites in orbit so they fall into the category of constellations small enough that they don't require dedicated launches to achieve optimal coverage of the Earth. The likely reason for Capella launching on both Electron and Falcon 9 is likely schedule. They may want to reasonably space out their satellites - hence launching one at a time - but also want to launch many. So, a few Transporter missions a year is not enough. 
 
-3. Capella. They previously flew on Electron and Transporter missions, rideshare on starlink flight too, completely missed the mark on this one.
-The electron flights were to lower inclinations, possibly to cover more important areas of the Earth's surface, Didn't target lowest possible inclination from virginia
-Now these bandwagon missions may fit their requirements, better to be on lower inclinations
-Again, small number of satellites and no requirement for full global coverage at lowest possible time between passes
-https://en.wikipedia.org/wiki/Capella_Space
+The advantage of Bandwagon missions over Transporter can be seen when comparing the inclinations of Capella's dedicated Electron missions vs. the Falcon 9 missions. The Capella Electron launches had an <a href="https://en.wikipedia.org/wiki/Capella_Space">inclination of ~45 degrees</a> while Transporter is around 95 degrees. The lower inclination means the satellites spend less time at the poles and more time over economially interesting areas of the Earth. 
+
+### <b>Analysing Electron's Manifest</b>
+
+There are a couple sources for Electron's 2024 manifest. Many of these are outdated as the manifest has changed since they were published. The most up-to-date source I've found is <a href="https://x.com/scotto2050/status/1774467309987569689">Scott O's list</a>, even better than <a href="https://nextspaceflight.com/launches/rockets/upcoming/10/">Next Space Flight's</a>.
+
+![Image description]({{site.url}}/assets/images/covers/Scott-O-Manifest.jpeg){: height="400" .align-center}
+
+1. NRO              - National Security Payload
+2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
+3. HawkEye-2        - RF signal location
+4. Kineis-1         - IoT connectivity
+5. BlackSky-7       - Earth Observation
+6. NorthStar-2      - Space Situational Awareness
+7. PREFIRE-1        - Earth Observation
+8. PREFIRE-2        - Earth Observation
+9. Kineis-2         - IoT connectivity
+10. Kineis-3         - IoT connectivity
+11. Winnebago-2
 
 ## <b>Notes</b>
 
@@ -76,17 +90,6 @@ Electron Manifest:
 Wikipedia: https://nextspaceflight.com/launches/rockets/upcoming/10/
 Scott O: https://x.com/scotto2050/status/1774467309987569689
 
-1. NRO              - National Security Payload
-2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
-3. HawkEye-2        - RF signal location
-4. Kineis-1         - IoT connectivity
-5. BlackSky-7       - Earth Observation
-6. NorthStar-2      - Space Situational Awareness
-7. PREFIRE-1
-8. PREFIRE-2
-9. Kineis-2
-10. Kineis-3
-11. Winnebago-2
 
 Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
 NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
