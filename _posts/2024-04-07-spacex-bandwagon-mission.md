@@ -68,35 +68,19 @@ Both the HawkEye 360 and BlackSky have launched on both rideshare and dedicated 
 
 Kineis and NorthStar are planning to start with large constellations. They aren't quite following the exact same path of previous satellite constellation companies like Capella which began with many test satellites. Right off the bat they've booked 8 Electron launches between them and may continue to book more dedicated launches as they scale their constellations. This approach allows a faster ramp to profitability. For some, this approach was not as possible in the past because of the youth of the small launch market. For example, when Capella was launching their first few satellites Electron only had a couple of launches and the industry had much less experience in manufacturing reliable small satellites. Like PREFIRE, these small satellite consetllations are the type of payloads that are very well-suited to dedicated small launch vehicles.
 
+Just yesterday Rocket Lab signed a contract to <a href="https://spacenews.com/rocket-lab-wins-14-4-million-contract-to-launch-space-test-program-experiment/">launch a US Space Force payload to a very low Earth Orbit</a>. “DiskSat will demonstrate sustained VLEO (very low earth orbit) flight and test a unique, 40-inch diameter, disk-shaped satellite bus that is designed to increase on-orbit persistence,” the Space Systems Command said. This is a unique payload that requires a dedicated launch and it's where Electron shines. In the future this may be addressable by a kick stage like Mira on a rideshare mission, but for now it requires a dedicated launch.
+
 ### <b>Outlook on the Small Satellite Launch Market</b>
 
-1. 
-
-## <b>Notes</b>
-
-New New Structure:
-1. Intro (what it is, reflecting on my past predictions)
-2. Payloads that won't launch on dedicated small launches
-3. Payloads that could launch on dedicated launches
-4. Go into constellations that don't need exact orbital planes and why I was wrong
-5. Electron Manifest
-6. Future of the market (Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious), earth coverage constellations, other constellations, expediency)
-
-* Compare payloads to earlier Transporter missions
-* Compare to small sat missions
-* Predict which small sat payloads will fly on these types of missions
-* Long-term outlook on small launch
-
-More notes:
+* Why I was wrong - looking too cloesly at rocket lab, not the market as a whole
 * The reason I was off the mark was only looking at electron payloads, not payloads in general - Expand to talk about Rocket Lab "analysts" that focus too much on the company and too little on the overall market, this is a surefire way to be wrong, bad strats
 * I didn't fully appriciate how many small constellations don't need exact orbits (Spire, Capella, Hawk, Blacksky somewhat)
-* Constellations that do need exact orbits examples: (NASA Prefire (Tropics too), Strix), large sats like Strix or constellations that need regular coverage like Tropics
+* Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious)
+* Long-term outlook on small launch (payloads that can rideshare will, dedicated launch is a niche as Peter Beck knows)
+
+## <b>Notes</b>
 
 Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
 NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
 NorthStar: 16U cubesats built by Spire, Space Situational Awareness, tracking objects as small as 5cm in LEO, "Four of a Kind" previous electron launch that was slated for LauncherOne, Small constellation that needs full coverage, "NorthStar, which raised $15 million in December and $105 million overall, says that when the 12 satellites are in service they will be able to monitor 60% of the sky at any given time, increasing to 100% when combined with other sensors."
-
-How does this new contract fit into it?
-https://spacenews.com/rocket-lab-wins-14-4-million-contract-to-launch-space-test-program-experiment/
-"“DiskSat will demonstrate sustained VLEO (very low earth orbit) flight and test a unique, 40-inch diameter, disk-shaped satellite bus that is designed to increase on-orbit persistence,” the Space Systems Command said. "
 
