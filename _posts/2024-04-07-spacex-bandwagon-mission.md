@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images//stoke-nova-perfect/hop.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg">
 </head>
 
 ![Image description]({{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg){: height="600" .align-center}
