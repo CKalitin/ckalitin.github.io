@@ -72,9 +72,12 @@ Just yesterday Rocket Lab signed a contract to <a href="https://spacenews.com/ro
 
 ### <b>Outlook on the Small Satellite Launch Market</b>
 
-* Why I was wrong - looking too cloesly at rocket lab, not the market as a whole
-* The reason I was off the mark was only looking at electron payloads, not payloads in general - Expand to talk about Rocket Lab "analysts" that focus too much on the company and too little on the overall market, this is a surefire way to be wrong, bad strats
-* I didn't fully appriciate how many small constellations don't need exact orbits (Spire, Capella, Hawk, Blacksky somewhat)
+In my <a href="https://ckalitin.github.io/technology/2024/02/10/smallsats-vs-rideshare.html">Analysing the Dedicated Small Sat Launch Market</a> blog post I came to a slightly incorrect conclusion. This error came from looking too closely at Rocket Lab and not the market as a whole as I did not look closely enough at the rideshare market to see how many small constellation satellites don't need exact orbits. My conclusion was that almost all small satellite constellations would require dedicated launches. This is slightly incorrect as we can see from the HawkEye, BlackSky, etc. launches on rideshare missions. There is an advantage from launching on dedicated missions - as is seen in Kineis and NorthStar's approaches - and with the growth of constellations like BlackSky there is a push for more dedicated launches. I came to the right conclusion, but with incorrect reasoning. 
+
+Rideshare inevitably would take significant market share from dedicated launch vehicles. The cost savings are too significant to ignore. <a href="https://x.com/CKalitin/status/1765884501262233975">Some think</a> that SpaceX is maliciously trying to take market share from Rocket Lab and other small launch providers. This is not the case as rideshare is a commercial inevitability. SpaceX is simply providing a service that is cheaper and more convenient for many small satellite operators. 
+
+
+
 * Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious)
 * Long-term outlook on small launch (payloads that can rideshare will, dedicated launch is a niche as Peter Beck knows)
 
