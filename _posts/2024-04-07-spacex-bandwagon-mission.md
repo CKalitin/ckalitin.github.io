@@ -76,14 +76,6 @@ In my <a href="https://ckalitin.github.io/technology/2024/02/10/smallsats-vs-rid
 
 Rideshare inevitably would take significant market share from dedicated launch vehicles. The cost savings are too significant to ignore. <a href="https://x.com/CKalitin/status/1765884501262233975">Some think</a> that SpaceX is maliciously trying to take market share from Rocket Lab and other small launch providers. This is not the case as rideshare is a commercial inevitability. SpaceX is simply providing a service that is cheaper and more convenient for many small satellite operators. 
 
+Rocket Lab does not compete with SpaceX on small satellites. In a conversation with Anthony Colangelo on the MECO podcast (check it out!) several years ago Peter Beck said, "[Dedicated Launch is] never going to be as cheap as rideshare" and "Our vehicle is more expensive and we don't try to compete with rideshare" (<a href="https://mainenginecutoff.com/podcast/155">47:50</a>).
 
-
-* Rideshare is cheaper and a commercial inevitability (SpaceX isn't malicious)
-* Long-term outlook on small launch (payloads that can rideshare will, dedicated launch is a niche as Peter Beck knows)
-
-## <b>Notes</b>
-
-Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
-NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
-NorthStar: 16U cubesats built by Spire, Space Situational Awareness, tracking objects as small as 5cm in LEO, "Four of a Kind" previous electron launch that was slated for LauncherOne, Small constellation that needs full coverage, "NorthStar, which raised $15 million in December and $105 million overall, says that when the 12 satellites are in service they will be able to monitor 60% of the sky at any given time, increasing to 100% when combined with other sensors."
-
+From looking at Electron manifest we've seen that around 10-20% of payloads will be addressable by rideshare missions in the future. This is offset by the growing small satellite constellations. Rideshare allows for a lower barrier to entry for satellite constellations, which often evolve and expand to needing dedicated launches. There is a significant market for dedicated small launch vehicles even while competition from MLV rideshare grows. Over the next decade, rideshare will not be the largest threat to small launch vehicles. <a href="https://ckalitin.github.io/technology/2024/02/26/stoke-nova-perfect.html">Vehicles like Nova</a> will be the largest threat in my opinion as they will be able to have high cadence because many different segments are available to them which allows lower costs. Just like Falcon 9, it will be a side effect that they destroy the partially reusable small launch market.
