@@ -52,7 +52,7 @@ The advantage of Bandwagon missions over Transporter can be seen when comparing 
 
 There are a couple sources for Electron's 2024 manifest. Many of these are outdated as the manifest has changed since they were published. The most up-to-date source I've found is <a href="https://x.com/scotto2050/status/1774467309987569689">Scott O's list</a>, even better than <a href="https://nextspaceflight.com/launches/rockets/upcoming/10/">Next Space Flight's</a>.
 
-![Image description]({{site.url}}/assets/images/covers/Scott-O-Manifest.jpeg){: height="400" .align-center}
+![Image description]({{site.url}}/assets/images/spacex-bandwagon-mission/Scott-O-Manifest.jpeg){: height="400" .align-center}
 
 1. NRO              - National Security Payload
 2. NASA / KAIST     - KAIST is Earth Obv. tech demo, NASA ACES is a solar sail demo
@@ -84,12 +84,7 @@ New New Structure:
 More notes:
 * The reason I was off the mark was only looking at electron payloads, not payloads in general - Expand to talk about Rocket Lab "analysts" that focus too much on the company and too little on the overall market, this is a surefire way to be wrong, bad strats
 * I didn't fully appriciate how many small constellations don't need exact orbits (Spire, Capella, Hawk, Blacksky somewhat)
-* Constellations that don't need exact orbits examples: (NASA Prefire (Tropics too), Strix), large sats like Strix or constellations that need regular coverage like Tropics
-
-Electron Manifest:
-Wikipedia: https://nextspaceflight.com/launches/rockets/upcoming/10/
-Scott O: https://x.com/scotto2050/status/1774467309987569689
-
+* Constellations that do need exact orbits examples: (NASA Prefire (Tropics too), Strix), large sats like Strix or constellations that need regular coverage like Tropics
 
 Peter Beck, they want to do rideshare, "Never going to be as cheap as rideshare", "Our vehicle is more expensive and we don't try to compete with rideshare", 47:50: https://mainenginecutoff.com/podcast/155
 NorthStar-2: https://spacenews.com/electron-launches-northstar-satellites-in-latest-recovery-test/
