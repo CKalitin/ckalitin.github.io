@@ -32,10 +32,12 @@ If everyone followed Andrew Tate's teachings you would have no engineers. Tate i
 
 #### <b>BUILD</b>
 
+A scammer is an individual that does not provide value themselves but rather forcefully extracts value from productive systems. Think back to finance bros and lawyers.
+
 One of the best outcomes of capitalism is giving the option to harness selfishness for the good of society. However, this only occurs when this fundamental rule of capitalism is followed: goods and services are exchanged consensually. Increasing the efficiency of society means decreasing the number of scammers - those who do not follow the above rule of capitalism.
 
-A scammer is an individual that does not provide value themselves but rather forcefully extracts value from productive systems. 
+Every scammer is an individual that could be increasing total output instead of manipulating the systems built around real productivity to favour themselves. Atoms cannot be scammed. The closer you get to the base level of reality the less scamming is possible and the more impactful the work is.
 
-Atoms cannot be scammed. The closer you get to the base level of reality the less scamming is possible. Every scammer is an individual that could be increasing total output instead of manipulating the systems built around real productivity to favour themselves. This inefficiency currently is and will continue to extend to AI. Many H100s are wasted on activities that are not increasing productivity.
+Misallocating the time of scammers to scamming - which depending on their field requires immense intelligence - is a waste of human capital. Building the core productive systems that scammers exploit is far more useful than being one of the individuals that extracts value from these systems for their own benefit, <a href="https://www.forbes.com/real-time-billionaires/#485dd98e3d78">you also get more rich</a>. The inefficiency of scammers currently infects and will continue infect AI. Many H100s are wasted on activities that are not increasing productivity.
 
 Deep tech is the least scammable sector and the place where the most true impact and innovation occurs. This is why <a href="https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/">You Should Be Working On Hardware.</a>
