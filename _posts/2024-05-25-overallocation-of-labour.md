@@ -30,7 +30,7 @@ However, increasing productive output does increasing the flourishing of humanit
 
 If everyone followed Andrew Tate's teachings you would have no engineers. Tate is part of the group that harnesses technology to increase either their own economic worth and/or power. Someone has to harness technology and there are many more individuals that play this role rather than those who build technology. Building technology is more useful - and harder - than harnessing it.
 
-#### <b>Scammers</b>
+#### <b>Don't be a scammer</b>
 
 A scammer is an individual that does not provide value themselves but rather forcefully extracts value from productive systems. Think back to finance bros and lawyers.
 
