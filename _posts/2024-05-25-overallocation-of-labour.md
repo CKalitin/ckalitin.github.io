@@ -34,7 +34,7 @@ If everyone followed Andrew Tate's teachings you would have no engineers. Tate i
 
 A scammer is an individual that does not provide value themselves but rather forcefully extracts value from productive systems. Think back to finance bros and lawyers.
 
-One of the best outcomes of capitalism is giving the option to harness selfishness for the good of society. However, this only occurs when this fundamental rule of capitalism is followed: goods and services are exchanged consensually. Increasing the efficiency of society means decreasing the number of scammers - those who do not follow the above rule of capitalism.
+One of the best outcomes of capitalism is giving the option to harness selfishness for the good of society. However, this only occurs when this fundamental rule of capitalism is followed: goods, services, and currency are exchanged <i>consensually</i>. Increasing the efficiency of society means decreasing the number of scammers - those who do not follow the above rule of capitalism.
 
 Every scammer is an individual that could be increasing total output instead of manipulating the systems built around real productivity to favour themselves. Atoms cannot be scammed. The closer you get to the base level of reality the less scamming is possible and the more impactful the work is.
 
