@@ -6,17 +6,17 @@ author:
  - Christopher Kalitin
 ---
 
-Go to where the vibes are.
+Go to where the vibes are
 
 #### <b>How many watts do you use?</b>
-
-We must to chose which metric we to improve on. The economy or the S&P 500 isn't the correct metric because it is very scammable as we've seen in the last 5 years. On the other end of the scammable spectrum is total energy output and to a lesser extent gross domestic product.
 
 The value of finance and law professionals is found in the facilitation of real useful work. The aim of increasing the efficiency of a productive society is to lower the percentage of accountants and lawyers needed. Increasing the number of these useless workers and increasing their power leads to negative outcomes. Many issues in modern society is attributable to this class in two ways: (1) inefficiency leads to suffering and (2) jobs that don't inherently produce value are susceptible to becoming part of the <a href= "{{site.url}}/assets/images/overallocation-of-labour/Geohot-PMC.png">Professional Managerial Class</a>.
 
 Hospitals demonstrate the suffering of inefficiency. There are countless reasons government-sponsored institutions are inefficient, but in the case of hospitals finance people are doubly to blame through insurance. Increasing efficiency is the goal, <b>do not be complicit in these systems.</b>
 
 The Professional Managerial Class is a part of the the deep state. A decentralized system of middle men and beauracrats that are not inherently useful themselves. Decentralization is a point of the deep state that must be highlighted (I am using the word deep state to mean groups or individuals with power over society that isn't obvious). Every group has ways of profiting off of events and movements around the world and this sets the incentive structure. Powerful groups (politicians, corporations, PMCs (<a href="https://ckalitin.github.io/assets/images/overallocation-of-labour/Geohot-PMC.png">both</a> <a href="https://en.wikipedia.org/wiki/Private_military_company">meanings</a>)) are incentivized to support certain outcomes of movements. They hijack movements to support their own goals, not exactly hijacking but slightly nudging. This means the teachers making your kids gay are not doing it because of a secret meeting they had with Big Gay. They are doing it because they think it is the right thing to do and this is supported by deep state groups, sometimes obviously. 
+
+We must to chose which metric we to improve on. The economy or the S&P 500 isn't the correct metric because it is very scammable as we've seen in the last 5 years. On the other end of the scammable spectrum is total energy output and to a lesser extent gross domestic product.
 
 The S&P 500 can't be the metric we use because it's scammable by the government. We must avoid scammable systems because they incentivize scammers. Lawyers convince you they are needed by supporting the creation of laws.  A system of arbitrating disagreements is needed, but remember, efficiency is the goal. The Professional Managerial Class are scammers in that they do not provide value themselves but rather hijack systems that provide useful output. Energy output measures what we truly produce and is one of the least scammable metrics. This is why the Kardashev Scale is the ultimate measure of a society.
 
