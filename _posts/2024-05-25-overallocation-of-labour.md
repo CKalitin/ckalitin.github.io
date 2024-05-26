@@ -28,7 +28,7 @@ I was careful when writing the title of this section to not say: "Increasing out
 
 However, increasing productive output does increasing the flourishing of humanity. We can explore the universe and connect people on opposite sides of the planet. Increasing the tech level of humanity leads to a higher potential for happiness, exploration, and everything else. One of the core outputs of humanity has been increasing the time and impact of leisure (Think heating, soft beds, TVs, TikTok, Starbucks). This will hopefully increase happiness.
 
-If everyone followed Andrew Tate's teachings you would have no engineers. Tate is part of the group that harnesses technology to increase either their own economic worth and/or power. Someone has to harness technology and there are multiple times more individuals that play this role rather than those who build technology. Building technology is more useful - and harder - than harnessing it.
+If everyone followed Andrew Tate's teachings you would have no engineers. Tate is part of the group that harnesses technology to increase either their own economic worth and/or power. Someone has to harness technology and there are many more individuals that play this role rather than those who build technology. Building technology is more useful - and harder - than harnessing it.
 
 #### <b>BUILD</b>
 
