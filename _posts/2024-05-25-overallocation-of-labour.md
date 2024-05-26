@@ -44,7 +44,7 @@ Misallocating the time of scammers to scamming - which depending on their field 
 
 The four principles laid out above:
 1. Do not be complicit in increasing the inefficiency of the world
-2. Do not create or work on scammable systems
+2. Do not create or work on scammable systems and minimize your participation in them
 3. Increasing productive output increases human flourishing
 4. Instead of scamming, BUILD!
 
