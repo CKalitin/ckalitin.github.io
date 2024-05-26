@@ -48,6 +48,6 @@ The four principles laid out above:
 3. Increasing productive output increases human flourishing
 4. Instead of scamming, BUILD!
 
-Increasing the productive output of humanity and building useful things is one of the best uses of life. Your creations will directly impact the future flourishing of humanity. Or, if you work on something farther from the base level of reality, you will at least be one of the real productive people. A life well lived is one directly useful to the future of humanity.
+Increasing the productive output of humanity and building useful things is one of the best uses of life. Your creations will directly impact the future flourishing of humanity, or, if you work on something farther from the base level of reality, you will at least be one of the real productive people - someone has to do the real work. A life well lived is one directly useful to the future of humanity. 
 
 Deep tech is the least scammable sector and the place where the most true impact and innovation occurs. This is why <a href="https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/">You Should Be Working On Hardware.</a>
