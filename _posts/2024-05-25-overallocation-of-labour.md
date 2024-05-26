@@ -8,7 +8,7 @@ author:
 
 Go to where the vibes are
 
-#### <b>Useless ambitious people are the most dangerous in the world</b>
+#### <b>Useless ambitious people are the most dangerous people in the world</b>
 
 The value of finance and law professionals is found in the facilitation of real useful work. The aim of increasing the efficiency of a productive society is to lower the percentage of accountants and lawyers to the minimum required amount. Increasing the number of these useless workers and increasing their power leads to negative outcomes. Many issues in modern society are attributable to this class in two ways: (1) inefficiency leads to suffering and (2) jobs that don't inherently produce value are susceptible to becoming part of the <a href= "{{site.url}}/assets/images/overallocation-of-labour/Geohot-PMC.png">Professional Managerial Class</a>.
 
