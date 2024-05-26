@@ -30,7 +30,7 @@ However, increasing productive output does increasing the flourishing of humanit
 
 If everyone followed Andrew Tate's teachings you would have no engineers. Tate is part of the group that harnesses technology to increase either their own economic worth and/or power. Someone has to harness technology and there are many more individuals that play this role rather than those who build technology. Building technology is more useful - and harder - than harnessing it.
 
-#### <b>BUILD</b>
+#### <b>Scammers</b>
 
 A scammer is an individual that does not provide value themselves but rather forcefully extracts value from productive systems. Think back to finance bros and lawyers.
 
@@ -39,5 +39,13 @@ One of the best outcomes of capitalism is giving the option to harness selfishne
 Every scammer is an individual that could be increasing total output instead of manipulating the systems built around real productivity to favour themselves. Atoms cannot be scammed. The closer you get to the base level of reality the less scamming is possible and the more impactful the work is.
 
 Misallocating the time of scammers to scamming - which depending on their field requires immense intelligence - is a waste of human capital. Building the core productive systems that scammers exploit is far more useful than being one of the individuals that extracts value from these systems for their own benefit, <a href="https://www.forbes.com/real-time-billionaires/#485dd98e3d78">you also get more rich</a>. The inefficiency of scammers currently infects and will continue infect AI. Many H100s are wasted on activities that are not increasing productivity.
+
+#### <b>BUILD</b>
+
+The four principles laid out above:
+1. Do not be complicit in increasing the inefficiency of the world
+2. Do not create or work on scammable systems
+3. Increasing productive output increases human flourishing
+4. Instead of scamming, BUILD!
 
 Deep tech is the least scammable sector and the place where the most true impact and innovation occurs. This is why <a href="https://caseyhandmer.wordpress.com/2023/08/25/you-should-be-working-on-hardware/">You Should Be Working On Hardware.</a>
