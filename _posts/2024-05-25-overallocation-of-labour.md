@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 
-You are not going to learn anything I am just writing my thoughts. Go to where the vibes are.
+Go to where the vibes are.
 
 #### <b>How many watts do you use?</b>
 
