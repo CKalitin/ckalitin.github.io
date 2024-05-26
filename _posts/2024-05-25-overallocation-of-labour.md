@@ -33,7 +33,7 @@ The S&P 500 can't be the metric we use because it's scammable by the government.
 
 I was careful when writing the title of this section to not say: "Increasing output increases human happiness." 
 
-However, increasing productive output does increasing the flourishing of humanity. We can explore the universe and connect people on opposite sides of the planet. Increasing the tech level of humanity leads to a higher potential for happiness and flourishing.
+However, increasing productive output does increasing the flourishing of humanity. We can explore the universe and connect people on opposite sides of the planet. Increasing the tech level of humanity leads to a higher potential for happiness and exploration. One of the core outputs of humanity has been increasing leisure, which will hopefully increase happiness.
 
 If everyone followed Andrew Tate's teachings you would have no engineers. Tate is part of the group that harnesses technology to increase either their own economic worth or power. Someone has to harness technology and there are many more of these people than those who build it. Building technology is more useful - and harder - than harnessing it.
 
