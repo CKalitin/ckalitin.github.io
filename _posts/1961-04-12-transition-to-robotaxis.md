@@ -108,9 +108,9 @@ The sources of decreasing cost in personally-owned EVs have vastly greater effec
 | Annual Total | $145k / Year |
 | <b>Annual Cost / Max Payload</b> | <b>$2.64</b> |
 
-From the numbers I used, EV semi-trucks are currently ~7% cheaper than ICE semis when operating at maximum payload. I will use this 7% number to illustrate my points throughout this section as it is directionally correct and EVs will become cheaper over time. You can substitute your own numbers, but understanding the implications of future cost declines is the most important point.
+Based on the numbers I used, EV semi-trucks are currently ~7% cheaper than ICE semis when operating at maximum payload. I will use this 7% number to illustrate my points throughout this section as it is directionally correct and EVs will become cheaper over time. You can substitute your own numbers, but understanding the implications of future cost declines is the most important point.
 
-Based on the numbers Is used, an EV Semi saves the operator $40k (22%) per year while only decreasing payload by 10,000lb (15%). A 7% cost reduction may appear very marginal, but for large companies like <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian">Amazon</a> and <a href="https://electrek.co/2023/08/04/pepsico-explains-uses-tesla-semi-electric-trucks-glimpse-future-of-trucking/">Pepsi</a> this can save hundreds of millions of dollars per year, enough to warrant <a href="https://www.businessandleadership.com/investment/item/jeff-bezos-amazon-rivian-startup/">significant up-front investment</a> in Amazon's case.
+An EV Semi saves the operator $40k (22%) per year while only decreasing payload by 10,000lb (15%). A 7% cost reduction may appear very marginal, but for large companies like <a href="https://www.aboutamazon.com/news/transportation/everything-you-need-to-know-about-amazons-electric-delivery-vans-from-rivian">Amazon</a> and <a href="https://electrek.co/2023/08/04/pepsico-explains-uses-tesla-semi-electric-trucks-glimpse-future-of-trucking/">Pepsi</a> this can save hundreds of millions of dollars per year, enough to warrant <a href="https://www.businessandleadership.com/investment/item/jeff-bezos-amazon-rivian-startup/">significant up-front investment</a> in Amazon's case.
 
 Electric semi-trucks must not exceed <a href="https://afdc.energy.gov/laws/11682">82,000lb</a> in the US. This maximum is 2,000lb more than ICE as an incentive to EV semi-manufacturers. The Tesla Semi is ~10,000lb heavier than an equivalent ICE semi and even with this drawback, operating costs are lower than that of an equivalent ICE semi. When a semi-truck is not operating at maximum load the cost improvements of EVs are even more pronounced. So, semis that often transport light loads (volume-constrained) can save more than 7% if they use EV instead of ICE.
 
@@ -184,6 +184,10 @@ In the short term, in the few years after a company creates self driving car sof
 
 ## <b>Ride Hailing Revolution</b>
 
+This isn't a quantitative analysis, but rather thinking directionally.
+
+THINK DIRECTIONALLY
+
 * Cost per KM comparison to public transit ($0.1 - $0.3/km)
 * Rough cost estimate: $0.1/km
 * Potentially cheaper than public transit, especially for subsized public transit
@@ -193,4 +197,28 @@ In the short term, in the few years after a company creates self driving car sof
 * Not everyone will run their car as a robotaxi, market saturation. In the future, this will be a relatively low margin market per km due to competition.
 * Amortize car cost
 
+Structure:
+1. Why it's a better service
+1. Potential cost (Amoritzation, Insurance, maintenance, cleaning, charging, etc.) + Higher efficiency than taxis
+2. Implications for public transit and current ride hailing services
+3. Implications for personal car ownership and the vehicle market
+4. Fleet advantage vs. personal car robotaxis
 
+## <b>Summary</b>
+
+* Use economics to understand the future.
+
+EVs:
+* Declining manufacturing costs and improving technology
+* Hydrogen, Hybrids, and ICE won't compete on economics
+* Think directionally on trucks
+
+Autonomy:
+* Tons of value, what do you price it at?
+* The Bitter Lesson, Tesla will win
+
+Ride Hailing:
+* Cheaper than personal car ownership and maybe public transit
+* Will take immense market share
+* The vehicle market will shrink
+* Amazing service, the future looks bright
