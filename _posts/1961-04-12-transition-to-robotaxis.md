@@ -182,6 +182,10 @@ Like all other subscriptions, the cost will even out when the area under the cus
 
 In the short term, in the few years after a company creates self driving car software they will have a significant advantage over the competition. This first mover advantage stems from the exponential nature of AI development and difficulty of driving. Self driving is an AI problem, so it will advance exponentially. If one company has a head start, their exponential will be significant ahead of the competition. However, the first mover advantage will not last forever because the advantage of one system over another will level out as the systems approach perfect driving. For example, if one system is 99.99999% safe and the other only 99.9999%, the difference is negligible. Aside from deceptive marketing "You're 10x more likely to die in a competitor's car!", there will be no sigficant differences between the two systems.
 
+The convergence between self driving systems is technical. First mover advantages mainly pertain to advantages in market share when a market becomes mature. The lock-in effect will mainly be due to technical reasons. When self driving systems converge, the user will not notice a significant difference between competitors. However, switching from a system built into your vehicle to a competitor's system will be difficult because you must install a new system. Partnerships with OEMs will be an early indicator of a first mover advantage - of course when the software is mature enough, not before.
+
+If devices are as easy to install and swap like a Comma 3, the effect of lock-in is diminished.
+
 ## <b>Ride Hailing Revolution</b>
 
 This isn't a quantitative analysis, but rather thinking directionally.
