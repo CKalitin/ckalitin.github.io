@@ -27,7 +27,9 @@ Conclusion: bullish on electron short term until vehicles like Nova can compete 
 
 ### <b>Which Constellations Require Dedicated Launches?</b>
 
-![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1582" .align-center}
+![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1000" .align-center}
+
+<a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a>
 
 Constellations that have a relatively small number of satellites and require high & regular revisit rates are well suited for dedicated launches. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
@@ -41,11 +43,17 @@ Prefire and Tropics do not fall into the category laid out above because they ar
 
 ### <b>The Case for Rideshare Missions Launching Constellations</b>
 
+Two categories: Large constellations, small constellations with more propulsion
+
 Kick stages like Impulse's Mira can't solve this problem in the future because they cannot 
 * You can shift orbital plane with a slightly higher orbit and RAAN change when in SSO.
 * More propulsion might be needed, good anyway like Starlink sats boosting themselves (higher isp!)
 
 * Earth Observation launches can be done on rideshare but when scaling the constellation, deciated launches provide an advantage
+
+The first category of Small Satellite Constellations that launch on rideshare missions are those with such high scale that the exact orbits of dedicated launches are not required. These include Planet Labs, Spire Global, and Swarm (before SpaceX acquired them). 
+
+The second category is constellations that don't require the revisit rate benefit of dedicated launches (even spacing of orbital planes). HawkEye 360 is the best example of this as this is one of the few constellations that is not focused on Earth Observation or communication with Earth-based assets. They sell Radio Frequency signal location data. This process involves detecting RF emmissions and triangulating the source with multiple satellite passes over the same location. This means the orbit requirements are not as strict as other constellations. In contrast to the Synspective example in the previous section, HawkEye 360 does not get as much direct monetary benefit from dedicated launches.
 
 ### <b>The Market for 1-Ton Class Launch Vehicles</b>
 
