@@ -6,12 +6,15 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">
 </head>
 
 Hawkeye 360 posts Scott O:
 https://x.com/scotto2050/status/1779568179188277349
 https://x.com/scotto2050/status/1805603572966363187
+
+Ozan Thread:
+https://x.com/CKalitin/status/1779572335181439184
 
 What to cover:
 1. List small sat constellations and how many rideshare (many)
@@ -25,6 +28,8 @@ Conclusion: bullish on electron short term until vehicles like Nova can compete 
 ### <b>Which Constellations Require Dedicated Launches</b>
 Small constellations that require high and regular revisit rates
 iQPS electron launch contract?
+
+![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){: height="277" .align-center}
 
 The constellations that require dedicated launches are those that have a relatively small number of satellites and require high & regular revisit rates. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
