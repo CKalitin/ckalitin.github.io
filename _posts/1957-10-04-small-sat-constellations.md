@@ -16,14 +16,7 @@ https://x.com/scotto2050/status/1805603572966363187
 Ozan Thread:
 https://x.com/CKalitin/status/1779572335181439184
 
-What to cover:
-1. List small sat constellations and how many rideshare (many)
-2. Is there a large enough market for 1 ton class vehicles?
-3. Dedicated launch is only for small constellations that need high revisit rates (eg. not RF situational awareness)
-
 * Will the industry converage to hosted payloads on common satellite buses?
-
-Conclusion: bullish on electron short term until vehicles like Nova can compete but at that time we'll be entering a different paradigm where hosted payloads are more common so from a Rocket Lab perspective, Neutron and Space Systems take over.
 
 ### <b>Which Constellations Require Dedicated Launches?</b>
 
@@ -55,6 +48,8 @@ Ozan 1-Ton:
 https://x.com/BellikOzan/status/1779936284125052986
 
 ### <b>The Future of Launching Small Constellations</b>
+
+Conclusion: bullish on electron short term until vehicles like Nova can compete but at that time we'll be entering a different paradigm where hosted payloads are more common so from a Rocket Lab perspective, Neutron and Space Systems take over. And Firefly/RS1 will compete on heavier satellites with >10 sats per constellation.
 
 * TAM estimates short term in number of launches
 
