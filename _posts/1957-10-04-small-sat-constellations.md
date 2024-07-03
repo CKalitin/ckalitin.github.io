@@ -25,13 +25,11 @@ What to cover:
 
 Conclusion: bullish on electron short term until vehicles like Nova can compete but at that time we'll be entering a different paradigm where hosted payloads are more common so from a Rocket Lab perspective, Neutron and Space Systems take over.
 
-### <b>Which Constellations Require Dedicated Launches</b>
-Small constellations that require high and regular revisit rates
-iQPS electron launch contract?
+### <b>Which Constellations Require Dedicated Launches?</b>
 
-![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){.align-center}
+![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1582".align-center}
 
-The constellations that require dedicated launches are those that have a relatively small number of satellites and require high & regular revisit rates. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
+Constellations that have a relatively small number of satellites and require high & regular revisit rates are well suited for dedicated launches. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
 Recently there's been a great example of the Commercial benefit that dedicated launches provide: <a href="https://synspective.com/press-release/2024/launch-agreement-rocketlab/">Synspective signed a 10 launch deal with Rocket Lab</a>. Given an Electron average sales price of $8M, this is a $80M contract. The cost of a SpaceX rideshare mission is an <a href="https://www.spacex.com/rideshare/">initial charge of $300k for 50kg to SSO with each additional kilogram at $6k</a>. Assuming Synspective launches 2 100kg Strix satellites per Electron this is 20 satellites in total. On SpaceX rideshare missions this would cost $12M, a $68M cost delta. 
 
@@ -50,3 +48,7 @@ Kick stages like Impulse's Mira can't solve this problem in the future because t
 * Earth Observation launches can be done on rideshare but when scaling the constellation, deciated launches provide an advantage
 
 ### <b>The Market for 1-Ton Class Launch Vehicles</b>
+
+
+### <b>The Future of Small Constellations</b>
+
