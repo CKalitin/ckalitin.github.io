@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Small Sat Constellations: Where's the line?"
+title: "Small Sat Constellations: Where's the line between Rideshare and Dedicated Launches?"
 categories: Space
 author:
  - Christopher Kalitin
@@ -27,7 +27,7 @@ Conclusion: bullish on electron short term until vehicles like Nova can compete 
 
 ### <b>Which Constellations Require Dedicated Launches?</b>
 
-![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1582".align-center}
+![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1582" .align-center}
 
 Constellations that have a relatively small number of satellites and require high & regular revisit rates are well suited for dedicated launches. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
@@ -52,3 +52,4 @@ Kick stages like Impulse's Mira can't solve this problem in the future because t
 
 ### <b>The Future of Small Constellations</b>
 
+* TAM estimates short term in number of launches
