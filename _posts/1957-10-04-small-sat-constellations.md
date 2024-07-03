@@ -45,14 +45,14 @@ Prefire and Tropics do not fall into the category laid out above because they ar
 
 The first category of Small Satellite Constellations that launch on rideshare missions are those with such high scale that the exact orbits of dedicated launches are not required. These include Planet Labs, Spire Global, and Swarm (before SpaceX acquired them). Planet Labs has 542 satellites, Spire has 166, Swarm had 150 before acquisition. Given the number of launches required to deploy these constellations, you get enough different orbital planes to cover the Earth with a high revisit rate. Given the falling price of launch, creating satellites cheap enough to utilize rideshare missions en mass could be a winning strategy (Like Planet Labs).
 
-The second category is constellations that don't require the revisit rate benefit of dedicated launches (even spacing of orbital planes). HawkEye 360 is the best example of this as this is one of the few constellations that is not focused on Earth Observation or communication with Earth-based assets. They sell Radio Frequency signal location data. This process involves detecting RF emmissions and triangulating the source with multiple satellite passes over the same location. This means the orbit requirements are not as strict as other constellations. In contrast to the Synspective example in the previous section, HawkEye 360 does not get as much direct monetary benefit from dedicated launches.
+The second category is constellations that don't require the revisit rate benefit of dedicated launches (even spacing of orbital planes). HawkEye 360 is the best example of this as this is one of the few constellations that is not focused on Earth Observation or communication with Earth-based assets. They sell Radio Frequency signal location data. This process involves detecting RF emmissions and triangulating the source with multiple satellite passes over the same location. This means the orbit requirements are not as strict as other constellations. In contrast to the Synspective example in the previous section, HawkEye 360 does not get as much direct monetary benefit from dedicated launches. They recently <a href="https://x.com/scotto2050/status/1779568179188277349">cancelled</a> <a href="https://x.com/scotto2050/status/1805603572966363187">some</a> of their upcoming Electron launches.
 
 One of the great benefits of rideshare missions (even to Electron) has been the ability to launch test satellties for a low cost. Many early Capella and BlackSky satellites launched on Falcon 9 and this allowed for cheaper development of their constellations which ended up launching on Electron. This allows for cheaper launches during the early scaling of the constellation and an accelerated completion timeline.
 
-
-
 ### <b>The Market for 1-Ton Class Launch Vehicles</b>
 
+Ozan 1-Ton:
+https://x.com/BellikOzan/status/1779936284125052986
 
 ### <b>The Future of Launching Small Constellations</b>
 
@@ -61,3 +61,5 @@ One of the great benefits of rideshare missions (even to Electron) has been the 
 Kick stages like Impulse's Mira can't solve this problem in the future because they cannot 
 * You can shift orbital plane with a slightly higher orbit and RAAN change when in SSO.
 * More propulsion might be needed, good anyway like Starlink sats boosting themselves (higher isp!)
+
+Maybe I am falling for the trap of attempting to understand a technical issue without a technical enough perspective, off to University I go!
