@@ -19,6 +19,8 @@ However, Neutron is not a perfectly optimized rocket compared to its competition
 
 Model this analysis is based on: <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
 
+More, better, and more accurate charts here: <a href="https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link">https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link</a>
+
 ### <b>Legacy Commerical Communication Satellite Market</b>
 
 ![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="600" .align-center}

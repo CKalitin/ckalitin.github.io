@@ -15,6 +15,8 @@ Access the source data at the link below or in <a href="{{site.url}}/assets/imag
 Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
 
+More, better, and more accurate charts here: <a href="https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link">https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link</a>
+
 ### <b>Rideshareable Satellites</b>
 ![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png){: width="600" .align-center}
 
