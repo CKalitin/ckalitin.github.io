@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Small Sat Constellations: Where's the line between Rideshare and Dedicated Launches?"
+title: "Small Sat Constellations: The line between Electron and Rideshare"
 categories: Space
 author:
  - Christopher Kalitin

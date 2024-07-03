@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg">
 </head>
 
-![Image description]({{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg){: height="600" .align-center}
+![Image description]({{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg){: height="500" .align-center}
 
 SpaceX's Bandwagon-1 rideshare mission launched yesterday and I was busy speedrunning a unit of Chemistry 11 in 8 hours to write this blog post before the launch. Regardless, this is the first of SpaceX's rideshare missions to low inclination orbits. The Bandwagon-1 mission will expand the range of payloads that can be launched on a Falcon 9 rideshare mission and will continue the trend of making dedicated small satellite launch a smaller niche of the market. However, hile dedicated small satellite launch will lose market share, the overall market will increase and provide more satellites that must be launched.
 
