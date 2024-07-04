@@ -13,8 +13,7 @@ author:
 
 ![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1000" .align-center}
 
-<a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a>  
-<a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=1994210661#gid=1994210661">Spreadsheet</a>
+<a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a> - <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=1994210661#gid=1994210661">Spreadsheet</a>
 
 Constellations that have a relatively small number of satellites and require high & regular revisit rates are well suited for dedicated launches. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
@@ -30,20 +29,21 @@ Prefire and Tropics do not fall into the category laid out above because they ar
 
 The first category of Small Satellite Constellations that launch on rideshare missions are those with such high scale that the exact orbits of dedicated launches are not required. These include Planet Labs, Spire Global, and Swarm (before SpaceX acquired them). Planet Labs has 542 satellites, Spire has 166, Swarm had 150 before acquisition. Given the number of launches required to deploy these constellations, you get a large enough distribution of orbital planes that you can cover all of the Earth with a high revisit rate. Given the falling price of launch, creating satellites cheap enough to produce hundreds so you can utilize rideshare missions could be a winning strategy (Like Planet Labs).
 
-The second category is constellations that don't require the revisit rate benefit of dedicated launches (even spacing of orbital planes). HawkEye 360 is the best example of this as this is one of the few constellations that is not focused on Earth Observation or communication with Earth-based assets. They sell Radio Frequency signal location data. This process involves detecting RF emmissions and triangulating the source with multiple satellite passes over the same location. This means the orbit requirements are not as strict as other constellations. In contrast to the Synspective example in the previous section, HawkEye 360 does not get as much direct monetary benefit from dedicated launches. They recently <a href="https://x.com/scotto2050/status/1779568179188277349">cancelled</a> <a href="https://x.com/scotto2050/status/1805603572966363187">some</a> of their upcoming Electron launches.
+The second category is constellations that don't require the revisit rate benefit of dedicated launches (even spacing of orbital planes). HawkEye 360 is the best example of this as this is one of the few constellations that is not focused on Earth Observation or communication with Earth-based assets. They sell Radio Frequency signal location data. This process involves detecting RF emmissions and triangulating the source with multiple satellite passes over the same location. This means the orbit requirements are not as strict as other constellations. In contrast to the Synspective example in the previous section, HawkEye 360 does not get as much direct monetary benefit from dedicated launches. They recently <a href="https://x.com/scotto2050/status/1779568179188277349">cancelled</a> a <a href="https://x.com/scotto2050/status/1805603572966363187">few</a> of their upcoming Electron launches.
 
 One of the great benefits of rideshare missions (even to Electron) has been the ability to launch test satellties for a low cost. Many early Capella and BlackSky satellites launched on Falcon 9 and this allowed for cheaper development of their constellations which ended up launching on Electron. This allows for cheaper launches during the early scaling of the constellation and an accelerated completion timeline.
 
 ### <b>The Market for 1-Ton Class Launch Vehicles</b>
 
-Ozan 1-Ton:
-https://x.com/BellikOzan/status/1779936284125052986
+Just like Falcon 9, Electron owns the small sat market because there are no capable competitors. Over the next few years we'll see Firefly ramp up their Alpha launches and ABL's RS1 come online (hopefully). From a product perspective, these 1-ton class rockets have potential to take market share in the small sat constellation launch market. <a href="https://x.com/BellikOzan/status/1779936284125052986">Ozan Bellik pointed this out</a> when I mentioned my blog post <a href="https://ckalitin.github.io/technology/2024/02/16/firefly-vs-rocketlab.html">Comparing Demand for Firefly's Alpha vs. Electron</a>. My conclusion wasn't completely incorrect, but inaccurate enough to warrant this section.
 
-"They've designed their constellation or their spacecraft around Electron." - Peter Beck
-https://arstechnica.com/space/2024/06/sir-peter-beck-unplugged-transporter-can-do-it-for-free-for-all-we-care/
+The niche of the market which these vehicles can solve is constellations with ~100kg satellites that plan to launch more than ~20 satellites. These include iQPS, Synspective, Capella, BlackSky. Alpha and RS1 cost ~$15M which is ~2x more than Electron while having ~4x the payload capacity. On the surface this appears to be a 2x improvement in $/kg, but the entire capacity of the rocket may not be used. Using the entire 1000kg of payload capacity would mean launching ~10 satellites at a time which negates the advantage of having satellites spaced out in different orbital planes. The breakeven point for a 1-ton class rocket vs. Electron occurs when 4-6 satellites are be launched on a single mission, 2x the payload for 2x the cost. 
+
+Rocket Lab has the massive advantage of high cadence and a proven track record, so in reality, the breakeven point from a constellation operator's perspective goes even higher. The massive first mover advantge Rocket Lab has today translates to other aspects as well. In <a href="https://arstechnica.com/space/2024/06/sir-peter-beck-unplugged-transporter-can-do-it-for-free-for-all-we-care/">Peter Beck's recent interview with Eric Berger</a> in reference to constellation customers he said: "They've designed their constellation or their spacecraft around Electron. It does things that you just can't get on other missions." Given the size of recent constellations in both individual satellite mass and total number of satellites, it's clear that Electron is the best option and is being optimized for by the industry. It will take many years for the advantages of 1-ton class rockets to be fully realized by the industry.
+
+
 
 ### <b>The Future of Launching Small Constellations</b>
-
 
 Conclusion: bullish on electron short term until vehicles like Nova can compete but at that time we'll be entering a different paradigm where hosted payloads are more common so from a Rocket Lab perspective, Neutron and Space Systems take over. And Firefly/RS1 will compete on heavier satellites with >10 sats per constellation.
 
