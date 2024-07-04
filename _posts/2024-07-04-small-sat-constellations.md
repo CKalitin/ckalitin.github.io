@@ -9,11 +9,11 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">
 </head>
 
-### <b>Which Constellations Require Dedicated Launches?</b>
-
 ![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1000" .align-center}
 
 <a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a> - <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=1994210661#gid=1994210661">Spreadsheet</a>
+
+### <b>Which Constellations Require Dedicated Launches?</b>
 
 Constellations with a relatively small number of satellites and require high & regular revisit rates are well-suited for dedicated launches. Many of the recent Synthetic Aperture Radar constellations fall into this category such as Capella, iQPS, Synspective, and Black Sky. These constellations benefit from high & regular revisit rates so they can provide near real-time data to their customers and cover specific parts of the Earth regularly (eg. once every half hour). 
 
