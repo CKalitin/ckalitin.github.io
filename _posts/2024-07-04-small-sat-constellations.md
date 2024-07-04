@@ -13,7 +13,7 @@ author:
 
 <a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a> - <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=1994210661#gid=1994210661">Spreadsheet</a>
 
-If you have any feedback or criticism, please reply <a href="https://x.com/CKalitin/status/1808950068554211410">Here</a>.
+If you have any feedback or criticism, please reply <a href="https://x.com/CKalitin/status/1808950068554211410">here</a>.
 
 ### <b>Which Constellations Require Dedicated Launches?</b>
 
