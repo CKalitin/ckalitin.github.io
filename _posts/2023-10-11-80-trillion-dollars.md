@@ -24,6 +24,8 @@ Now the question has been reframed.
 It is no longer: "How do I invest." This is obviously a question for dumb people.  
 Now the question is: "Which industries will undergo exponential growth over the next 10+ years and which companies will be the winners in those industries."
 
+‎
+
 It is important to start with industries, not companies. Companies are individual entities so they are difficult to predict individually. Entire industries are much larger and thus easier to predict.
 
 The Law of Accelerating Returns and S-curves can be applied to any segment as a method of understanding if that segment will undergo exponential growth.
