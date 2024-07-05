@@ -42,7 +42,7 @@ These are my predictions for the future:
 5. Space Applications (eg. Starlink) will grow exponentially long into the future.
 6. AI Robot's takeover of labour will follow an S-curve. This will be the largest economic paradigm shift in human history.
 
-A note on fusion: If there is a fusion breakthrough that allows for cheaper energy generation than future solar, its adoption will follow an S-Curve. Currently the S-curves of renewable energy are much clearer than that of fusion, as fusion is an R&D project. In the future, it may make sense to invest more in fusion but currently it is high risk and difficult to invest in.
+<i>A note on fusion: If there is a fusion breakthrough that allows for cheaper energy generation than future solar, its adoption will follow an S-Curve. Currently the S-curves of renewable energy are much clearer than that of fusion, as fusion is an R&D project. In the future, it may make sense to invest more in fusion but currently it is high risk and difficult to invest in.</i>
 
 ‎
 
