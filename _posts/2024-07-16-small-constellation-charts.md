@@ -11,7 +11,7 @@ author:
 
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=882883017#gid=882883017">Spreadsheet Link</a>
 
-Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1808960068554211410">FIX ME</a>.
+Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1813437503480696867">here</a>.
 
 ### <b>What Data Do We Need?</b>
 
