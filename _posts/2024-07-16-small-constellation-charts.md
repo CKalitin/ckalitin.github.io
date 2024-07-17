@@ -26,7 +26,9 @@ The solution to getting a more accurate picture of the tradeoffs is to abandon t
 Orbit Detriment Multiplier (Rideshare):‎‎ y = 85*2.71^(-0.08*sat count)  
 Cadence Detriment Multiplier (Dedicated): y = 0.0005(sat count - 20)^1.5
 
-Orbit Detriment starts very high at 0 satellites and approaches 0 as we near 100 satellites. This represents the fact that rideshare missions can't be used to launch small constellations that require specific orbits like NASA Tropics, Capella, or BlackSky. Cadence Detriment begins at 20 and scales exponentially with the number of satellites. Furthermore, there is a minimum orbital plane input which sets the floor for the number of launches, this is required to get accurate data between Electron and Firefly's Alpha at low satellite counts.
+Orbit Detriment starts very high at 0 satellites and approaches zero as we near 100 satellites. This represents the fact that rideshare missions can't be used to launch small constellations that require specific orbits like NASA Tropics, Capella, or BlackSky by shifting the calculus towards dedicated launches for constellations with a low number of satellites. 
+
+Cadence Detriment begins at 20 and scales exponentially with the number of satellites, this takes into account the fact that Electron can't launch 100 times on a whim. Furthermore, there is a minimum orbital plane input which sets the floor for the number of launches, this is required to get accurate data between Electron and Firefly's Alpha at low satellite counts.
 
 The result is several charts that are available <a href="https://drive.google.com/drive/folders/14e-rQjeAEDLuwaDg5BAvVCHw09pzt7JR?usp=drive_link">here</a>.
 
