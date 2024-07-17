@@ -46,7 +46,7 @@ There are three primary categories of small satellite constellations.
 2. 10-50 satellite constellations, mass between 30-112kg (eg. Capella)
 3. <10 satellite constellation, <15kg mass (eg. Tropics)
 
-The most interesting data I've gathered from this exercise applies to the second category. These are satellites that fit into the category of either 25 or 50 satellites and with masses of either 50kg or 100kg. This is the biggest category of the market available to small sat launch providers.
+The most interesting data I've gathered from this exercise applies to the second category. These are constellations that fit into the category of either 25 or 50 satellites total  with masses of either 50kg or 100kg. This is the biggest category of the market available to small sat launch providers.
 
 #### <b>2. The Tradeoff Between Electron and Rideshare Occurs at ~50 Satellites</b>
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-25kg.png){:width="600" .align-center}
