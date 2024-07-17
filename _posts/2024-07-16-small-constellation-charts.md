@@ -8,14 +8,13 @@ author:
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png">
 </head>
-
-<a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=882883017#gid=882883017">Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=882883017#gid=882883017">Spreadsheet Link</a>
 
 Tell me where I'm wrong, or just give compliments <a href="https://x.com/CKalitin/status/1808950068554211410">FIX ME</a>.
 
 ### <b>What Data Do We Need?</b>
 
-![Image description]({{site.url}}/assets/images/small-sat-constellations/Cost-vs-Sat-Count-For-Different-Providers.jpg){:width="600" .align-center}
+![Image description]({{site.url}}/assets/images/small-constellation-charts/Cost-vs-Sat-Count-For-Different-Providers.jpg){:width="600" .align-center}
 
 In my <a href="https://ckalitin.github.io/space/2024/07/04/small-sat-constellations.html">previous blog post</a> I gained an intuitive understanding of the tradeoffs for the different methods of launching small sat constellations. This blog post is an exercise in quantifying and visualizing that understanding. 
 
@@ -32,23 +31,21 @@ The result is several charts that are available <a href="https://drive.google.co
 
 ### <b>Insights</b>
 
-#### 1. Most Constellations Below 100 Satellites Are Either 100kg or 50kg
-
+#### <b>1. Most Constellations Below 100 Satellites Are Either 100kg or 50kg</b>
 ![Image description]({{site.url}}/assets/images/small-sat-constellations/Chart.jpg){:width="1000" .align-center}
 
 <a href="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a>
 
 This is essential data to understand the implications of the data below.
 
-There are three primary categories of small satellites constellations.  
-1. >100 satellites, most satellites under 5kg (eg. PlanetLabs)
+There are three primary categories of small satellites constellations.
+1. Constellations with >100 satellites, most satellites under 5kg (eg. PlanetLabs)
 2. 10-50 satellite constellations, mass between 30-112kg (eg. Capella)
 3. <10 satellite constellation, <15kg mass (eg. Tropics)
 
 The most interesting data I've gathered from this exercise applies to the second category. These are satellites that fit into the category of either 25 or 50 satellites and with masses of either 50kg or 100kg. The is the biggest category of the market available to small sat launch providers.
 
-#### 2. The Tradeoff Between Electron and Rideshare Occurs at ~50 Satellites
-
+#### <b>2. The Tradeoff Between Electron and Rideshare Occurs at ~50 Satellites</b>
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-25kg.png){:width="600" .align-center}
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-50kg.png){:width="600" .align-center}
 
@@ -56,8 +53,7 @@ For constellations that don't require the higher payload capacity of a 1-ton cla
 
 It's remarkable there's enough satellite constellations that I can make statements like the one above. I was born at the perfect time to bask in the glory of the growth of commercial spaceflight.
 
-#### 3. At The Most Common Constellation Size, Alpha Is Optimal for 100kg+ satellites
-
+#### <b>3. At The Most Common Constellation Size, Alpha Is Optimal for 100kg+ satellites</b>
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Mass-Vs-Adjusted-Cost-25.png){:width="600" .align-center}
 
 For most constellations (~25 satellites), Alpha is unable to properly compete with Electron because the satellites are not heavy enough to take advantage of the 1-ton payload capacity of Alpha. The higher payload capacity only starts to kick in with satellite sthat are over 100kg. For even heavier satellites (eg. 200kg+), Alpha provides a cheaper path to orbit than Electron, we may see some constellations pop up in this category in the future if Firefly or ABL demonstrate reliability. This is only true if the higher satellite mass prodives a significant enough advantage. For example, Earth Observation satellites seem to level out at around 100kg.
