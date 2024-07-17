@@ -23,7 +23,7 @@ Yesterday I felt the need to create a visual representation of the tradeoff betw
 
 The solution to getting a more accurate picture of the tradeoffs is to abandon the true cost of launch and replace it with Adjusted Cost, a score that takes into account the issues laid out above. This is a simple concept, adjust the cost with a multiplier that uses the number of satellites as the input variable.
 
-Orbit Detriment Multiplier (Rideshare):‎‎ y = 85*2.71^(-0.08*sat count)  
+Orbit Detriment Multiplier (Rideshare):‎‎ y = 85 * 2.71^(-0.08*sat count)  
 Cadence Detriment Multiplier (Dedicated): y = 0.0005(sat count - 20)^1.5
 
 Orbit Detriment starts very high at 0 satellites and approaches zero as we near 100 satellites. This represents the fact that rideshare missions can't be used to launch small constellations that require specific orbits like NASA Tropics, Capella, or BlackSky by shifting the calculus towards dedicated launches for constellations with a low number of satellites. 
