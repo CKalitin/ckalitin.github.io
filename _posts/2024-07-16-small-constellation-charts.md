@@ -25,7 +25,7 @@ The solution to getting a more accurate picture of the tradeoffs is to abandon t
 Orbit Detriment Multiplier (Rideshare): ‎‎y = 85*2.71^(-0.08*sat count)  
 Cadence Detriment Multiplier (Dedicated): y = 0.0005(sat count - 20)^1.5
 
-Orbit Detriment starts very high at 0 satellites and approaches 0 as we near 100 satellites. This represents the fact that rideshare missions can't be used to launch small constellations that require specific orbits like NASA Tropics, Capella, or BlackSky. Cadence Detriment beings at 20 and scales exponentially with the number of satellites. Furthermore, there is a minimum orbital plane input which sets the floor for the number of launches, this is required to get accurate data between Electron and Firefly's Alpha at low satellite counts.
+Orbit Detriment starts very high at 0 satellites and approaches 0 as we near 100 satellites. This represents the fact that rideshare missions can't be used to launch small constellations that require specific orbits like NASA Tropics, Capella, or BlackSky. Cadence Detriment begins at 20 and scales exponentially with the number of satellites. Furthermore, there is a minimum orbital plane input which sets the floor for the number of launches, this is required to get accurate data between Electron and Firefly's Alpha at low satellite counts.
 
 The result is several charts that are available <a href="https://drive.google.com/drive/folders/14e-rQjeAEDLuwaDg5BAvVCHw09pzt7JR?usp=drive_link">here</a>.
 
@@ -38,12 +38,12 @@ The result is several charts that are available <a href="https://drive.google.co
 
 This is essential data to understand the implications of the data below.
 
-There are three primary categories of small satellites constellations.
+There are three primary categories of small satellite constellations.
 1. Constellations with >100 satellites, most satellites under 5kg (eg. PlanetLabs)
 2. 10-50 satellite constellations, mass between 30-112kg (eg. Capella)
 3. <10 satellite constellation, <15kg mass (eg. Tropics)
 
-The most interesting data I've gathered from this exercise applies to the second category. These are satellites that fit into the category of either 25 or 50 satellites and with masses of either 50kg or 100kg. The is the biggest category of the market available to small sat launch providers.
+The most interesting data I've gathered from this exercise applies to the second category. These are satellites that fit into the category of either 25 or 50 satellites and with masses of either 50kg or 100kg. This is the biggest category of the market available to small sat launch providers.
 
 #### <b>2. The Tradeoff Between Electron and Rideshare Occurs at ~50 Satellites</b>
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-25kg.png){:width="600" .align-center}
@@ -56,9 +56,9 @@ It's remarkable there's enough satellite constellations that I can make statemen
 #### <b>3. At The Most Common Constellation Size, Alpha Is Optimal for 100kg+ satellites</b>
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Mass-Vs-Adjusted-Cost-25.png){:width="600" .align-center}
 
-For most constellations (~25 satellites), Alpha is unable to properly compete with Electron because the satellites are not heavy enough to take advantage of the 1-ton payload capacity of Alpha. The higher payload capacity only starts to kick in with satellite sthat are over 100kg. For even heavier satellites (eg. 200kg+), Alpha provides a cheaper path to orbit than Electron, we may see some constellations pop up in this category in the future if Firefly or ABL demonstrate reliability. This is only true if the higher satellite mass prodives a significant enough advantage. For example, Earth Observation satellites seem to level out at around 100kg.
+For most constellations (~25 satellites), Alpha is unable to properly compete with Electron because the satellites are not heavy enough to take advantage of the 1-ton payload capacity of Alpha. The higher payload capacity only starts to kick in with satellites that are over 100kg. For even heavier satellites (eg. 200kg+), Alpha provides a cheaper path to orbit than Electron, we may see some constellations pop up in this category in the future if Firefly or ABL demonstrate reliability. This is only true if the higher satellite mass prodives a significant enough advantage. For example, Earth Observation satellites seem to level out at around 100kg.
 
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png){:width="600" .align-center}
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-200kg.png){:width="600" .align-center}
 
-For larger constellations - eg. 50 satellites - the tradeoff shifts to lower mass satellites. This benefit extends until rideshare takes over at very larger constellations, Eg. Swarm or Spire Global. The reason for this is that with a low number of orbital planes (I used 5 as a default value, we can debate this) a single 1-ton launch is more efficient than several 300kg Electron launches. Firefly's Alpha has ~3x the payload capacity of Electron for ~2x the price. In short, larger constellations benefit Firefly (until they don't) and more orbital planes benefits Rocket Lab. 
+For larger constellations - eg. 50 satellites - the tradeoff shifts to lower mass satellites. This benefit extends until rideshare takes over at very larger constellations, Eg. Swarm or Spire Global. The reason for this is that with a low number of orbital planes (I used 5 as a default value, we can debate this) a single 1-ton launch is more efficient than several 300kg Electron launches. Firefly's Alpha has ~3x the payload capacity of Electron for ~2x the price. In short, larger constellations benefit Firefly (until they don't) and more orbital planes benefit Rocket Lab. 
