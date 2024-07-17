@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Describing Small Sat Constellation Tradeoffs with Charts"
+title: "Visualizing Small Sat Constellation Tradeoffs with Charts"
 categories: Space
 author:
  - Christopher Kalitin
@@ -11,7 +11,7 @@ author:
 
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=882883017#gid=882883017">Spreadsheet Link</a>
 
-Tell me where I'm wrong, or just give compliments <a href="https://x.com/CKalitin/status/1808950068554211410">FIX ME</a>.
+Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1808950068554211410">FIX ME</a>.
 
 ### <b>What Data Do We Need?</b>
 
@@ -61,7 +61,7 @@ It's remarkable there's enough satellite constellations that I can make statemen
 
 For most constellations (~25 satellites), Alpha is unable to properly compete with Electron because the satellites are not heavy enough to take advantage of the 1-ton payload capacity of Alpha. The higher payload capacity only starts to kick in with satellites that are over 100kg. For even heavier satellites (eg. 200kg+), Alpha provides a cheaper path to orbit than Electron, we may see some constellations pop up in this category in the future if Firefly or ABL demonstrate reliability. This is only true if the higher satellite mass prodives a significant enough advantage. For example, Earth Observation satellites seem to level out at around 100kg.
 
-For larger constellations - eg. 50 satellites - the tradeoff shifts to lower mass satellites. This benefit extends until rideshare takes over at very larger constellations, Eg. Swarm or Spire Global. The reason for this is that with a low number of orbital planes (I used 5 as a default value, we can debate this) a single 1-ton launch is more efficient than several 300kg Electron launches. Firefly's Alpha has ~3x the payload capacity of Electron for ~2x the price. In short, larger constellations benefit Firefly (until they don't) and more orbital planes benefit Rocket Lab. 
-
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png){:width="500" .align-center}
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-200kg.png){:width="500" .align-center}
+
+For larger constellations - eg. 50 satellites - the tradeoff shifts to lower mass satellites. This benefit extends until rideshare takes over at very larger constellations, Eg. Swarm or Spire Global. The reason for this is that with a low number of orbital planes (I used 5 as a default value, we can debate this) a single 1-ton launch is more efficient than several 300kg Electron launches. Firefly's Alpha has ~3x the payload capacity of Electron for ~2x the price. In short, larger constellations benefit Firefly (until they don't) and more orbital planes benefit Rocket Lab. 
