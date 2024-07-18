@@ -33,7 +33,7 @@ The other explanation is politics.
 
 The Senate Launch System (SLS) and Artemis Program are prime examples of NASA's inefficiencies. 
 
-They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Belick's posts have a lot of good info on this.</a>
+They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Bellik's posts have a lot of good info on this.</a>
 
 The Constellation Program's plan to land on the moon involved two launches that docked in Low Earth Orbit. (1) An Ares 5 launches a lander and a TLI stage. (2) An Ares 1 launches an Orion capsule into orbit which docks to the prior launch's payload.
 
@@ -63,6 +63,8 @@ Who was against the commercialization of NASA? Who stands to lose if NASA become
 
 These are the people who spoke out against the COTS, CRS, and Commercial Crew contracts. It is debatable whether they truly believed the commercial companies would fail or if they were just trying to keep their funding.* The true answer obviously lies somewhere in the middle. However, with the last decade of progress in commercial space, it is clear that the commercial companies were the right choice.
 
+*With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
+
 It is a testament to the senators and contractors power that they could overcome a directive from the President of the United States. President Obama was in favour of the Commercialization of NASA.
 
 With the recent OIG report on the cost overruns of the Mars Sample Return program (MSR), <a href="https://news.ycombinator.com/item?id=26274117">I saw a post from a former JPL employee that is very relevant to this discussion.</a>
@@ -74,8 +76,6 @@ JPL currently conducts all the flagship missions to Mars. They are very good at 
 Who stands to lose from this? JPL and contractors.
 
 This shows the common theme with NASA projects: entrenched interests that are not aligned with the goals of NASA.
-
-*With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
 ‎
 
