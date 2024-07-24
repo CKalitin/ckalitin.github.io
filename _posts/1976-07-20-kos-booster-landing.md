@@ -11,7 +11,7 @@ author:
 
 ![Image description]({{site.url}}/assets/images/kos-booster-landing/kOS-Booster-Final-Landing.jpg){:width="600" .align-center}
 
-<iframe width="854" height="480" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7jYHo3ureQQ?si=8SkNv3bZhmCOWzQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1810414736376549594">here</a>.
 
