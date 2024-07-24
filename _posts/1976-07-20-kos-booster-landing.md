@@ -11,7 +11,7 @@ author:
 
 ![Image description]({{site.url}}/assets/images/kos-booster-landing/kOS-Booster-Final-Landing.jpg){:width="600" .align-center}
 
-<iframe width="800" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"></iframe>
+<iframe width="854" height="480" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"></iframe>
 
 Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1810414736376549594">here</a>.
 
@@ -19,13 +19,13 @@ One of the reasons Casey Handmer cites when telling people to write blogs is tha
 
 ### <b>Chronological Order</b>
 
-{ % highlight ruby %}
+```
 def foo
     puts 'foo'
 end
-{ % endhighlight %}
+```
 
-{ % highlight ruby %}
+```
 // Get distance between two positions without considering the altitude
 // Eg. LatLngDist(V(SHIP:GEOPOSITION:LAT, SHIP:GEOPOSITION:LNG, 0), V(-0.09729775,-74.55767274,0))
 function LatLngDist {
@@ -36,4 +36,4 @@ function LatLngDist {
     // 10471.975 is the length of one degree lat/long on Kerbin. 3769911/360
     return (pos1 - pos2):MAG * 10471.975. 
 }
-{ % endhighlight %}
+```
