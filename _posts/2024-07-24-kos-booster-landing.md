@@ -11,7 +11,7 @@ author:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7jYHo3ureQQ?si=8SkNv3bZhmCOWzQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1810414736376549594">here</a>.
+Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1816283619213582749">here</a>.
 
 Read the code <a href="https://github.com/CKalitin/KOS-Scripts">here</a>.
 
