@@ -20,21 +20,6 @@ One of the reasons Casey Handmer cites when telling people to write blogs is tha
 Can't think of a good way to write this, so I'll just detail all the mistakes I made and stupid things I did. You have to start somewhere!  
 Halfway through writing this now and I'm not going to explain the simple stuff, this isn't a tutorial.
 
-Why am I writing this:
-1. Explaining the functions? Fuck no, only the good ones
-2. Interesting insights from bug fixing during the project <- good one
-
-Stupid things:
-1. Initial aero control approach
-2. Failing to clamp angle
-3. Code Flow
-4. Failed refactor (should use when, kOS is stupid)
-5. No unified solution for horizontal velocity and impact point
-
-The fundamental insight I learned in the past month of doing this project and watching Deep Learning lectures is that to build things properly you need knowledge of the underlying fields. The most important insights are often the most obvious ones, truly understanding and applying them is the important step. This project could have taken a few days if I was good at rotation/vector math. Skill acquisition is the most important goal all young people must have. After you've acquired the skills, building becomes exponentially easier.
-
-If I had good skills, I would've written the code like <a href="https://drive.google.com/file/d/1_5lGaSX31OOLRJyyWsC6knzdoDFOeNiB/view">this</a> (<a href="https://www.youtube.com/watch?v=UPEchDnH7hM">Video</a>). I have a ton of respect for the man that wrote that code. He didn't do it the shitty way. 
-
 ### <b>Initial Aero Control Approach</b>
 
 ```
@@ -76,9 +61,9 @@ function GetVelocityInCompassDirections {
 }
 ```
 
-When I first attempted to land a booster with Kerbal Operating System about 2-3 years ago I got stuck trying to implement aerodynamic control. So, this is where I started a month ago.
+When I first attempted to land a booster with Kerbal Operating System about 2-3 years ago I got stuck trying to implement aerodynamic control. So, this is where I started.
 
-In the intervening years I became a much better programmer and quickly implemented the helper functions above, kids stuff. The principle is to get the direction from the target point to the impact point and turn in that direction depending on the required change in distance per second is. 
+In the intervening years I became a much better programmer and quickly implemented the helper functions above, kids stuff. The principle is to get the direction from the target point to the impact point and pitch in that direction depending on what the required change in distance per second is. 
 
 The horrible problem emerges when you realize that the DirToPos function returns the direction from one point to another on the surface of Kerbin. This value is then used as the bearing (degrees relative to north) for the booster.
 
@@ -96,7 +81,7 @@ Well if you're rocket is horizontal, clamping the raw bearing and pitch values w
 
 This problem took a few days to solve (because I don't know that much math, university solves this) and it all stemmed from the initial approach I used for heading control.
 
-tl;dr, <a href="https://github.com/CKalitin/KOS-Scripts/blob/88cac909182fd015940ee345530d104665f73627/Land.ks">this</a> is very stupid:
+tl;dr <a href="https://github.com/CKalitin/KOS-Scripts/blob/88cac909182fd015940ee345530d104665f73627/Land.ks">this</a> is very stupid:
 ```
 function GlideToTarget {
     local aproxTimeRemaining to (SHIP:altitude - TargetPosAltituide) / (SHIP:velocity:surface:mag*2) / 2. // divide by 1.5 so you get to the target faster
@@ -165,13 +150,14 @@ The problem with the existing code is it used SET instead of LOCK on variables. 
 
 This refactor took more time than expected because I had to port the code to an entirely different execution paradigm.
 
-Previous SET paradigm:  
-Create an infinite "UNTIL false" loop and keep a variable to track flightPhase.  
-Depending on the current flight phase, execute the appropriate function.  
-Break the loop when we've landed.
+<b>Previous SET paradigm:</b>  
+1. Create an infinite "UNTIL false" loop and keep a variable to track flightPhase.  
+2. Depending on the current flight phase, execute the appropriate function.  
+3. Break the loop when we've landed.
 
-Simplified code:
 ```
+// directionError is SET in OrientForBoostback()
+
 UNTIL false {
     if NOT ADDONS:TR:HASIMPACT { LOCK THROTTLE TO 0. CLEARSCREEN. BREAK. }
 
@@ -196,11 +182,11 @@ function StartBoostbackBurn {
 }
 ```
 
-New LOCK paradigm:  
-Lock global variables that are needed very often.  
-Call the first flight function (OrientForBoostbackBurn()).  
-Inside OrientForBoostbackBurn(), lock the appropriate variables and wait for completion condition.  
-When the completion condition is met, call the next function.
+<b>New LOCK paradigm:</b>  
+1. Lock global variables that are needed very often.  
+2. Call the first flight function (OrientForBoostbackBurn()).  
+3. Inside OrientForBoostbackBurn(), lock the appropriate variables and wait for completion condition.  
+4. When the completion condition is met, call the next function.
 
 ```
 LOCK ImpactToTargetDir to DirToPoint(ImpactPos, TargetPos).
@@ -217,4 +203,50 @@ function OrientForBoostbackBurn {
 
 The code above was my first attempt at the refactor. It failed because when WAIT UNTIL is called, all other execution stops. In the previous SET paradigm, I used WAIT 0.1 to control the tick speed (Which itself is flawed because the code needs time to run, so Hertz != 10). In the new LOCK paradigm, WAIT UNTIL (completion condition) simply pauses the program until the condition is met, which is never because it is never updated. This approach also doesn't allow printing variables continuously. 
 
-The solution is to add a loop (eg. 10Hz) to the end of the flight functions with this line: "WHEN (completion condition) { RunNextFlightFunction(). }". The loop can also be used to print variables continuously. 
+The solution is to add a loop (eg. 10Hz) to the end of the flight functions with this line: "WHEN (completion condition) { RunNextFlightFunction(). }". The loop can also be used to print variables continuously or <a href="https://ksp-kos.github.io/KOS/structures/gui.html">kOS GUI widgets</a> can be used (better and proper). This will also make the code far more readable. I would've done this but I was on week 3 and wanted to finish the project, maybe will in the future when bored.
+
+### <b>No Unifed Solution To Cancel Horizontal Velocity and Minimize Landing Error</b>
+
+In the second part of the video at the top of this post, you can see the booster landing with the UI active. Unlike the first cinematic landing, this one barely makes it onto the landing pad. 
+
+The approach I implemented to have a soft touchdown has two phases. First, the Suicide Burn is started and it targets a point ~30 meters away from the landing pad in the opposite direction of the rocket. Second, when the rocket is <40 m/s or <25m altitude, the SoftTouchdown() function is called. This cancels out horizontal velocity and slowly decreases vertical velocity until touchdown (lerp between 10 m/s to 2 m/s, t=altitude/50)
+
+```
+// Extra code not included, this gets the point across
+function StartSuicideBurn {
+    local magnitude to -(GetHorizationVelocity():mag^1.67) / 45. // Offset by multiple of current horizontal velocity, Desmos!
+    SET TargetPos to AddMetersToGeoPos(targetSite, GetOffsetPosFromTargetSite(magnitude)).
+}
+
+function SoftTouchdown {
+    local t to TrueAltitude / 50.
+    SET TargetVerticalVelocity to Lerp(-2, -10, CLAMP(t, 0, 1)).
+
+    local aproxTimeRemaining to (TrueAltitude - TargetPosAltitude) / (SHIP:velocity:surface:mag*2). // Assuming Constant Velocity
+    SET aproxTimeRemaining to CLAMP(aproxTimeRemaining, 5, 10). // Clamp to 10 seconds, incase you want to hover, no asymptotes!
+
+    local pitchMultiplier to Lerp(0, pitchLimit, CLAMP(GetHorizationVelocity():MAG/3, 0, 1)).
+    LOCK STEERING TO HEADING(RetrogradeBearing, 90 - pitchMultiplier, 0).
+
+    local baseThrottle to SHIP:Mass/(SHIP:MAXTHRUST / 9.964016384)-0.02. // Hover, Kn to tons, -0.02 adjustment
+
+    local vertVelError to TargetVerticalVelocity - GetVerticalVelocity().
+    local throttleChange to CLAMP(vertVelError^1.7/50, 0.01, 0.25) * (vertVelError/ABS(vertVelError)). // keep the sign on vertVelError
+
+    LOCK throttle to CLAMP(baseThrottle + throttleChange, 0, 1).
+}
+```
+
+This approach has a poor success rate. With our two data points in the video, only 50% make it to the inner circle of the landing pad. A unified solution that both cancels horizontal velocity and minimizes landing error is needed. 
+
+There is a shitty solution here that many people have used. You can do an entry burn to cancel horizontal velocity far above the landing site, then land. This approach is shitty because it's unrealistic, uses extra fuel, and is avoiding a really fun problem.
+
+I imagine the solution is to track the estimated displacement in landing location after the landing burn has been completely. With the estimated time to touchdown, current pitch, and current horizontal velocity you could approximate the net displacement. Add this to the target landing location and it should be a much more accurate landing. Even this is a slightly shitty solution, maybe <a href="https://www.youtube.com/watch?v=UPEchDnH7hM">Rafael</a> (Best kOS landing scripts I've ever seen) knows the right way.
+
+### <b>The Fundamental Insight</b>
+
+The fundamental insight I learned in the past month of doing this project and watching Deep Learning lectures is that to build things properly you need knowledge of the underlying fields. The most important insights are often the most obvious ones, truly understanding and applying them is the important step. This project could have taken a few days if I was good at rotation/vector math and knew more about GNC. Skill acquisition is the most important goal all young people must have. After you've acquired the skills, building becomes exponentially easier.
+
+"I may not be able to do it the good way, but I sure can do it the shitty way." Don't be a lazy fuck, you won't be a good programmer (or actually good at anything) by doing things the shitty way.
+
+If I had good skills, I would've written the code like <a href="https://drive.google.com/file/d/1_5lGaSX31OOLRJyyWsC6knzdoDFOeNiB/view">this</a> (<a href="https://www.youtube.com/watch?v=UPEchDnH7hM">Video</a>). I have a ton of respect for the man that wrote that code. He didn't do it the shitty way. 
