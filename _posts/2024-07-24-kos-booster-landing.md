@@ -17,8 +17,9 @@ Read the code <a href="https://github.com/CKalitin/KOS-Scripts">here</a>.
 
 One of the reasons Casey Handmer cites when telling people to write blogs is that they are proof of work. Many of my early projects will not be impressive at all, but it's worth documenting it for a few reasons. (1) To share my thought process throughout the project. (2) To force myself into documenting it. (3) To be able to reflect in the future. Forcing yourself to document something means it's much harder to be satisfied with the shitty way of solving a problem. This is why everyone should write a blog. 
 
-Can't think of a good way to write this, so I'll just detail all the mistakes I made and stupid things I did. You have to start somewhere!  
-Halfway through writing this now and I'm not going to explain the simple stuff, this isn't a tutorial.
+Can't think of a good way to write this, so I'll just detail all the mistakes I made and stupid things I did. You have to start somewhere!
+
+I could write many thousands more words about this about the suicide burn, flight phases, printing, pitch mulitplier, and more. But all those things are less interesting and not what I want to cover. I'm not going to explain the simple stuff, this isn't a tutorial.
 
 ### <b>Initial Aero Control Approach</b>
 
