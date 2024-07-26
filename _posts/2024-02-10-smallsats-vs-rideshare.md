@@ -11,8 +11,11 @@ author:
 
 In the last 6 years, Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurrences. This has posed a problem many have struggled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
-Access the source data at the link below or in <a href="{{site.url}}/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png">image form</a>.  
-Copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
+![Image description]({{site.url}}/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png){: width="600" .align-center}
+
+<a href="{{site.url}}/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png">Expanded Source Data Image</a>
+
+To access the source data from the spreadsheet: copy the spreadsheet and in Cell BC2 filter to only small sat launches.  
 <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing</a>
 
 More, better, and more accurate charts here: <a href="https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link">https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link</a>
