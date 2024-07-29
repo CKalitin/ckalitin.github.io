@@ -11,15 +11,11 @@ author:
 
 ![Image description]({{site.url}}/assets/images/stoke-nova-perfect/hop.jpg){: width="600" .align-center}
 
-This blog post is very long, I added tl;drs to every section.
+This blog post is 3000 words, longest yet, I added tl;drs to every section.
 
 At first glance, Stoke's Nova appears to be an immensely exciting R&D project without much commercial appeal. In a world where the most successful rocket is a 20-ton class partially reusable launch vehicle, it is difficult to see exactly how such a comparatively small rocket will compete. Data is the answer to all your problems, so I've answered all my questions with my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> (Based on Jonathan Mcdowell's public data, Gunter's Space Page, and others) on successful western orbital launches from 2018-2023 inclusive and will convey all insights in this blog post. My primary goal is to examine Nova from a demand perspective.
 
 Stoke's Nova rocket is perfectly sized to compete for existing satellite launches and future constellations. It can compete for LEO satellite launches as the average mass of customer payloads on Falcon 9 is 3.7 tons (ex. Dragon). Full reusability will allow it to compete against Electon and launch constellations even with its 3t-7t LEO capacity. The launch cost must be several times lower than competitors and reusability allows for this. Finally, the fully reusable architecture lends itself to becoming a cargo/crew capsule while refilling in orbit to address high energy orbits and potentially Moon/Mars landings.
-
-
-READ ME READ ME READ ME
- (3 tons fully reusable, 5 with booster reuse, 7 when fully expended)
 
 ### <b>Full Reusability Makes Constellations Addressable</b>
 
