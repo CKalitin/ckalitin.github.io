@@ -93,7 +93,7 @@ Electron's other rideshare missions have either had unique requirements or were 
 
 The market most well suited to Alpha is ~1-ton satellites. Judging from the earlier Falcon 9 missions, there may be one satellite per year that Alpha will be able to launch in this market segment.
 
-It has not been made public how the US Military will make use of responsive launches in the future or how many of these launches they will conduct in the future. This makes predicting the size of this market difficult. One of these launches per year may be a reasonable estimate, please <a href="https://x.com/CKalitin">argue with me</a> if you have a differing view.
+It has not been made public how the US Military will make use of responsive launches or how many of these launches they will conduct in the future. This makes predicting the size of this market difficult. One of these launches per year may be a reasonable estimate, please <a href="https://x.com/CKalitin">argue with me</a> if you have a differing view.
 
 By far the market with the largest potential for Alpha is constellations. Currently, there are no constellations that have satellites massive enough and launched in enough numbers to take advantage of the payload advantage of Alpha, so we can only speculate on Lockheed Martin and L3 Harris' contracts and extrapolate from Electron. During the first 7 months of 2024, Rocket Lab has conducted 7 constellation launches. <a href="https://en.wikipedia.org/wiki/List_of_Electron_launches#Upcoming_orbital_launches">According to Wikipedia</a>, they have 23 planned constellation launches between 2024-2027. Given the fact that Electron will likely sign more contracts before 2027, the number of constellation launches over this timeframe should be 10-15 per year.
 
