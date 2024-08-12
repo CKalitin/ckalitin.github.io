@@ -17,9 +17,9 @@ Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin
 
 Today four of the best space investing Youtubers posted their interview with Peter Beck and Adam Spice of Rocket Lab. Responding to <a href="https://youtu.be/dfIHhLd9Wjs?si=tTmpJ1NQNpwMN2hB&t=379">one of Dave G's questions</a>, Peter Beck said this about the 1-ton rocket class: "Our view of 1-ton is it's kind of a no mans land."
 
-During this year I've written a few blog posts on the topic of the 1-ton lift class. <a href="https://ckalitin.github.io/technology/2024/02/16/firefly-vs-rocketlab.html">Comparing Demand for Firefly's Alpha vs. Electron</a>, <a href="https://ckalitin.github.io/space/2024/07/04/small-sat-constellations.html">Small Sat Constellations: The line between Electron and Rideshare</a>, and <a href="https://ckalitin.github.io/space/2024/07/16/small-constellation-charts.html">Visualizing Small Sat Constellation Tradeoffs with Charts</a>. The primary insights from this reasearch have been that there is little competition between the 1-ton rockets and Electron and that there is only a small niche of the constellation market that is optimal for the 1-ton class. Peter Beck's comments help to confirm my conclusions.
+During this year I've written a few blog posts on the topic of 1-ton class rockets: <a href="https://ckalitin.github.io/technology/2024/02/16/firefly-vs-rocketlab.html">Comparing Demand for Firefly's Alpha vs. Electron</a>, <a href="https://ckalitin.github.io/space/2024/07/04/small-sat-constellations.html">Small Sat Constellations: The line between Electron and Rideshare</a>, and <a href="https://ckalitin.github.io/space/2024/07/16/small-constellation-charts.html">Visualizing Small Sat Constellation Tradeoffs with Charts</a>. The primary insights from this reasearch have been that there is little competition between the 1-ton rockets and Electron and that there is only a small niche of the constellation market that is optimal for the 1-ton class. Peter Beck's comments help to confirm my conclusions.
 
-In this blog post, I'll use my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> (Based on Jonathan Mcdowell's public data, Gunter's Space Page, and others) to quantify exactly how big the market for the 1-ton class rockets is.
+In this blog post, I'll use my <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">dataset</a> (Based on Jonathan Mcdowell's public data, Gunter's Space Page, and others) to quantify how big the market for the 1-ton class rockets is.
 
 1. Constellation Market (how many will need it?)
 2. Dedicated large satellites
@@ -33,9 +33,9 @@ Because the small satellite market is still relatively young and still growing, 
 
 Despite the difference in size, Alpha's and Electron's first few flights resembled each other closely. Firefly's Alpha has flown 5 times to date and 3 of these missions were rideshare as part of their DREAM program or for NASA. This is the same as the first five Electron launches, 3 of them were rideshare carrying assorted satellites for Planet Labs, Spire global, or NASA's ELaNa program. 
 
-As Firefly's first four launches and the first flight of Electron proved, the early launches of any launch system are risky. This means that the first few launches of a new rocket are underpriced to account for the risk. The effect of this is the first few launches are not indicative of the future market due to the cheaper pricing. For example, in the last 3 years Electron has launched 3 rideshare missions out of 28 total launches. This amounts to ~10% of their launches vs. 60% during the first 5 launches. This is why we cannot directly extrapolate the first 5 Firefly launches and expect an accurate result.
+As Alpha's and Electron's early launches proved, the first few launches of any vehicle are risky. This means that the first few launches of a new rocket are underpriced to account for the risk. The effect of this is the first few launches are not indicative of the future market due to the cheaper pricing. For example, in the last 3 years Electron has launched 3 rideshare missions out of 28 total launches. This amounts to ~10% of their launches vs. 60% during the first 5 launches. This is why we cannot directly extrapolate the first 5 Firefly launches and expect an accurate result.
 
-"It's too small to be a useful rideshare vehicle and it's too big to be a decicated vehicle." - Peter Beck. In this quote - again from the Dave G interview - Beck is referring to competing with Falcon 9 rideshare missions where specific orbit parameters and timing are worth sacrificing for a significantly lower cost. This reflects the early Alpha and Electron flights which were underpriced to account for the risk. However, Rideshare missions are not sustainable long-term on small launch vehicles because SpaceX has far higher pricing power. He say's a 1-ton class rocket is too big to be a dedicated vehicle because the vast majority of payloads that need specific orbits and launch dates are light enough to be launched on Electron, which is ~2x cheaper.
+"It's too small to be a useful rideshare vehicle and it's too big to be a decicated vehicle." - Peter Beck. In this quote - again from the Dave G interview - Beck is referring to competing with Falcon 9 rideshare missions where specific orbit parameters and timing are worth sacrificing for a significantly lower cost. This reflects the early Alpha and Electron flights which were underpriced to account for the risk. However, Rideshare missions are not sustainable long-term on small launch vehicles because SpaceX has far better pricing power. In the second half of the quote he says a 1-ton class rocket is too big to be a dedicated vehicle. This is because the vast majority of payloads that need the specific orbits and launch dates only available on dedicated launches are light enough to be launched on Electron, which is ~2x cheaper than Firefly's Alpha.
 
 ### <b>Most Constellations Are Optimized for Electron</b>
 
@@ -83,3 +83,19 @@ Given the 4x lower cost of an Alpha launch compared to a Falcon 9 launch, it is 
 
 ### <b>Responsive Space</b>
 
+Sticking with the common theme of the 1-ton class filling niches, Responsive Space is a potential market for Firefly. Alpha's third launch was Victus Nox, a launch for the USSF that demonstrated their ability to launch a satellite within 24 hours of receiving the payload. To be able to launch a satellite so quickly, Firefly already had a vehicle at the launch site ready to receive the satellite and launch.
+
+This was a very valuable launch for Firefly and opened the opportunity for contracts that utilize the capability in the future. However, Electron may also be able to compete for these launches. The limiting factor to complete a responsive space launch seems to be reserving the capability to launch a satellite in advance (Like Firefly kept a vehicle at the pad). This may be a limiting factor for Electron if it requires a unique pad that Rocket Lab could be using for commercial payloads. Other factors similar to this one may limit the competition for these launches and make Alpha a more attractive option given it's lower flight rate (Making it easier to reserve a pad for months).  
+
+### <b>Quantifying the Size of the Market</b>
+
+1. Potential Constellations. ~5 launches per year maybe
+2. Dedicated Large Satellites. ~2 launches per year maybe
+3. Responsive Space. ~1 launch per year maybe
+4. Rideshare
+
+In the future, there will be three primary categories of payloads that will be launched on the 1-ton class rockets. These are constellations, dedicated large satellites, and responsive space launches.
+
+The current market Alpha enjoys with rideshare missions will not continue into the future because they are underpriced to account for the risk of early launches. Electron has had a few rideshare missions in the last few years but these have mainly been unique missions like the recent NeonSAT-1 and ACS3 launch or satellites tagging along with a primary payload like the "Baby Come Back" mission. Firefly will also have "tag along" payloads, but it w
+
+rideshare?!
