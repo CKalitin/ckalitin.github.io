@@ -11,7 +11,7 @@ author:
 
 ![Image description]({{site.url}}/assets/images/extrapolating-demand-firefly/cover.jpg){:width="1000" .align-center}
 
-Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1813437503480696867">fix me pls</a>.
+Tell me where I'm wrong or just give compliments <a href="https://x.com/CKalitin/status/1823096790884761641">here</a>or <a href="https://x.com/CKalitin/status/1823098005370576944">here</a>.
 
 Today four of the best space investing Youtubers posted their interview with Peter Beck and Adam Spice of Rocket Lab. Responding to <a href="https://youtu.be/dfIHhLd9Wjs?si=tTmpJ1NQNpwMN2hB&t=379">one of Dave G's questions</a>, Peter Beck said this about the 1-ton rocket class: "Our view of 1-ton is it's kind of a no man's land."
 
