@@ -21,7 +21,7 @@ In this blog post, I'll use my <a href="https://docs.google.com/spreadsheets/d/1
 
 ### <b>Don't Extrapolate the Early Launches</b>
 
-Because the small satellite market is still relatively young and still growing, relying on historical data is not the correct approach. Just this year Electron is aiming to 2x their launch cadence and Firefly is still in the process of ramping up. The primary use of historical data is comparisons between both vehicles.
+Because the small satellite market is still relatively young and still growing, completely relying on historical data is not the correct approach. Just this year Electron is aiming to 2x their launch cadence and Firefly is still in the process of ramping up. The primary use of historical data is comparisons between both vehicles.
 
 Despite the difference in size, Alpha's and Electron's first few flights resembled each other closely. Firefly's Alpha has flown 5 times to date and 3 of these missions were rideshare as part of their DREAM program or for NASA. This is the same as the first five Electron launches, 3 of them were rideshare carrying assorted satellites for Planet Labs, Spire Global, or NASA's ELaNa program. 
 
