@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extrapolating Demand for the 1-ton Class Rockets"
+title: "Extrapolating Demand for the 1-ton Rocket Class"
 categories: Space
 author:
  - Christopher Kalitin
@@ -29,13 +29,13 @@ In this blog post, I'll use my <a href="https://docs.google.com/spreadsheets/d/1
 4. Rideshare
 5. Military
 
-#### Don't Extrapolate the Early Launches
+#### <b>Don't Extrapolate the Early Launches</b>
 
 Because the small satellite market is still relatively young and still growing, relying on historical data is not the correct approach. Just this year Electron is aiming to 2x their launch cadence and Firefly is still in the process of ramping up. The primary use of historic data is comparisions between both vehicles.
 
 Firefly's Alpha has flown 5 times to date. 3 of these missions were rideshare as part of their DREAM program or for NASA. This is the same as the first five Electron launches, 3/5 of them were rideshare carrying assorted satellites for Planet Labs, Spire global, and NASA's ELaNa program. As Firefly's first four launches and the first flight of Electron proved, the early launches of any launch system are risky. This means that the first few launches of a new rocket are underpriced to account for this risk. This cheaper pricing means the first few launches are not indicative of the future market. For example, in the last 3 years Electron has launched 3 rideshare missions out of 28 launches. This amounts to ~10% of their launches vs. 60% during the first 5 launches. For this reason we cannot directly extrapolate the first 5 Firefly launches and expect an accurate result.
 
-#### Constellations
+#### <b>Constellations</b>
 
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png){:width="600" .align-center}
 ![Image description]({{site.url}}/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-200kg.png){:width="600" .align-center}
@@ -48,7 +48,7 @@ The cost advantage of Electron starts to diminish when you increase the mass of 
 
 The heaviest commercial Earth Observation satellites are operated by Capella. Six of these 112kg satellites are currently in orbit and were launched on either Electron or Falcon 9 rideshare missions. These satellites are not heavy enough and not launched at high enough scale to take advantage of Alpha's 1-ton payload capacity. 
 
-#### Are We Seeing a Military Constellation?
+#### <b>Are We Seeing a Military Constellation?</b>
 
 <a href="https://spacenews.com/firefly-inks-multi-launch-deal-with-lockheed-martin-for-alpha-rocket-rides/">Lockheed Martin</a> and <a href="https://spacenews.com/firefly-signs-multi-launch-agreement-with-l3harris/">L3 Harris</a> have purchased up to 20 and 25 launches from Firefly respectively. It is not clear what payloads will fly on these missions and even if Lockheed Martin purchased flights on Alpha or MLV. 
 
@@ -56,7 +56,25 @@ However, if launches are being purchased this far ahead in bulk it may be likely
 
 Assuming these satellites are for a constellation, the choice of Firefly to launch them may be due to the fact that the satellites are heavy enough to take advantage of Alpha's payload capacity. Earth Observation satellites seem to level out at the ~100kg mark, but other applications may require heavier satellites. For example, various Starlink satellite iterations have been between ~250kg and ~800kg. If we are seeing the early stages of a military constellation, it may be that the hardware required for these satellites make them fit into the class that can leverage the Alpha's 1-ton payload capacity.
 
-The very forward looking nature of these contracts may mean they don't materialize as <a href="https://x.com/TheRTest/status/1821560677724463405">This Guy</a>(hilarious name, true comedian) has theorised. Furthermore, the primary limiting factor of the analysis I've done to find the niche for the 1-ton class rockets in the charts above doesn't take into account industry partnerships and other business factors. 
+The very forward looking nature of these contracts may mean they don't materialize as <a href="https://x.com/TheRTest/status/1821560677724463405">This Guy</a>(hilarious name, true comedian) has theorised. Furthermore, the primary limiting factor of the analysis I've done to find the niche for the 1-ton class rockets is it doesn't take into account industry partnerships and other business factors. 
 
-# The Two Categories of Satellites
+#### <b>The Two Categories of Dedicated Small Sat Launch Satellites</b>
 
+The first category of satellites that get their own dedicated small sat launch we've seen are those that use Electron for one of it's unique capabilites. Compared to rideshare, Electron can launch to a specific orbit on a specific date. For commercial customers this has meant a quicker time to revenue which should not be under estimated. Government customers have also taken advantage of the ability to launch to a specific orbit. For example, Rocket Lab recently launched Neonsat-1 and the ACS3 satellite on a single mission to two different orbits (520km & 1000km). Also, in April they <a href="https://spacenews.com/rocket-lab-wins-14-4-million-contract-to-launch-space-test-program-experiment/">won a contract</a> to launch a set of satellites for the US Space Force to a Very Low Earth Orbit (VLEO). 
+
+This category of payloads isn't very well address by Alpha because of the low mass of the payloads. For example, the USSF VLEO satellites weight 200 kg in total. When payload capacity is not a concern, the cost advantage of Electron is a very large factor.
+
+The second category of payloads we will see launch in the next few years are those that are too heavy for Electron and too light for Falcon 9. Just as Electron launches all satellites too light for Alpha, Alpha will be able to launch all satellites for light for Falcon 9. Because of the lack of competition and Falcon 9's utter dominance of the launch market during the last few years, it has launched several satellites that are far below it's 18 ton payload capacity. 
+
+In order of most recent to least recent:
+1. Korea Project 425 (800kg) (anchor customer on Bandwagon-1)
+2. iMECE (800kg)
+3. EROS C3 (400kg)
+3. Globalstar-2 FM15 (715 kg) (Rideshare with Starshield)
+4. IXPE (330kg)
+5. Paz (1,400kg)
+6. Formosat 5 (525kg)
+7. Jason-3 (553kg)
+8. CASSIOPE (481kg) (first commercial Falcon 9 launch)
+
+Above is a slightly incomplete list, but only one of the payloads listed is above 1 ton. Given 4x lower cost of an Alpha launch compared to a Falcon 9 launch, it is likely that Alpha will be able to compete for these payloads. Falcon 9 has launched less than one of these satellites per year over it's lifetime, so the market is not large. However, on the scale of Alpha, one launch per year is significant enough to mention.
