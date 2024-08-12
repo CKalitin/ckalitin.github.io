@@ -54,7 +54,7 @@ Assuming these satellites are for a constellation, the choice of Firefly to laun
 
 The very forward-looking nature of these contracts may mean they don't materialize as <a href="https://x.com/TheRTest/status/1821560677724463405">This Guy</a> (hilarious name) has theorised. Furthermore, my analysis is based on the data shown in the charts above. This doesn't take into account industry partnerships and other business factors. 
 
-### <b>The Two Categories of Dedicated Small Sat Launch Satellites</b>
+### <b>The Two Categories of Satellites That Will Use Dedicated Small Launches</b>
 
 The first category of satellites that get their own dedicated small sat launch we've seen are those that use Electron for one of its unique capabilites. Compared to rideshare, Electron can launch to a specific orbit on a specific date. For commercial customers, this has meant a quicker time to revenue which should not be underestimated. Government customers have also taken advantage of the ability to launch to a specific orbit. For example in April they <a href="https://spacenews.com/rocket-lab-wins-14-4-million-contract-to-launch-space-test-program-experiment/">won a contract</a> to launch a set of satellites for the US Space Force to a Very Low Earth Orbit (VLEO). 
 
