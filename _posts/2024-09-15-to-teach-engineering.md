@@ -43,7 +43,7 @@ The process of brainstorming -> evaluating -> building (and iterating back to an
 
 ### <b>A Beacon of Beauty in a Sea of Depressed Teenagers</b>
 
-I applied to the UBC Solar design team. Did my interview where I asked questions for 2 hours and answer questions for one hour. And I was accepted.
+I applied to the UBC Solar design team. Did my interview where I asked questions for 2 hours and answer questions for one hour. I was accepted.
 
 <b>By asking endless technical questions to the team I explored the space of ideas and drew my own insights.</b> This process was the most fun I've had in months. Talking to techincal people and asking endless questions is the most fun and useful things in the world. I didn't fundamentally understand how engines or fuel cells worked before this week. By asking 2 hours of technical questions, I finally grokked it.
 
