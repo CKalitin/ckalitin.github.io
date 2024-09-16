@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/to-teach-engineering/Rocket.jpg">
 </head>
 
-![Image description]({{site.url}}/assets/images/to-teach-engineering/Rocket.jpg){:width="1000" .align-center}
+![Image description]({{site.url}}/assets/images/to-teach-engineering/Rocket.jpg){:width="500" .align-center}
 
 I've started university. I have a lot of ideas on university that'll probably evolve over my time here, might as well write them down in the early weeks to be able to look back on this in the coming years.
 
@@ -55,9 +55,9 @@ Like I said above, if your process of planning how to build a chair is really th
 
 ### <b>Life is a Skill Issue</b>
 
-![Image description]({{site.url}}/assets/images/to-teach-engineering/beast.png){:width="1000" .align-center}
+![Image description]({{site.url}}/assets/images/to-teach-engineering/beast.png){:width="750" .align-center}
 
-Mr Beasts memo/book to new employees got leaked. Everyone has to read this.
+<a href="https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view">Mr Beast's memo/book to new employees got leaked</a>. Everyone has to read this.
 
 Teaching processes makes C tier humans. Making your own processes breeds A tier engineers. God put me on this planet to build, and you're wasting my time by stopping me from exploring the space of ideas.
 
