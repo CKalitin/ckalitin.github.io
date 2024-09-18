@@ -21,7 +21,7 @@ Who the actual fuck teaches engineering like this?
 
 Ah yes make me wake up at 6 am every morning to take your quiz on how to play with cardboard. You haven't even given us cardboard yet, just paper. We have to work our way up to cardboard? really?
 
-Make us write 3000 words over a month before you let us play with cardboard. I'm going to give my 2 year old cardboard out of spit. Watch him build a better chair at 3 than your months of lead up to giving 18 year olds cardboard.
+Make us write 3000 words over a month before you let us play with cardboard. I'm going to give my 2 year old cardboard out of spite. Watch him build a better chair at 3 than your months of lead up to giving 18 year olds cardboard.
 
 ### <b>The Real Process</b>
 
@@ -61,7 +61,7 @@ Like I said above, if your process of planning how to build a chair is really th
 
 Teaching processes makes C tier humans. Making your own processes breeds A tier engineers. God put me on this planet to build, and you're wasting my time by stopping me from exploring the space of ideas.
 
-Everything in life is a skill issue and all skill issues can be solved by increasing your skills. That's why "Skill Issue" is such a powerful term, you are in complete control of whether whatever you're struggling with remains a skill issue.
+Everything in life is a skill issue and all skill issues can be solved by increasing your skills. That's why "Skill Issue" is such a powerful term, you are in complete control of whether your problems remain a skill issues.
 
 Some of my group members care more about grades than learning engineering. SKILL ISSUE C TIER BEHAVIOUR. You need to learn engineering yourself. It is fundamentally a self driven process of exploration. School isn't trying to help you, the members of the design teams would love to help you, but you need to <a href="https://dontasktoask.com">ask the right questions</a>!
 
