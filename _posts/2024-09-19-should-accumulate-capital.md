@@ -29,8 +29,23 @@ Notes:
 4. Conclusion
  * This blog came from the sauna and thinking about kids and my impact on the future
  * Buying power (money) is shared with my wife, capital is mine
- * How you accumulate capital is left as an exercise to the reader
- * this is just the why and what to do once you have it
+ * How you accumulate capital is left as an exercise to the reader, this is just the why and what to do once you have capital
  * Capital as a method of increasing the prosperity of humanity can be debated (Blue Origin vs. SpaceX)
 
- 
+### <b>What Money Is</b>
+
+This blog post is not "Why You Should Be Rich." When most people think about being rich the first thing that comes to mind is buying power. "I want to win the lottery so I can live on a yacht with a Lamborgini and an expensive watch." This is fundamentally spending your money to purchase goods and services - you do not get this spent money back. This spending is used to increase your quality of life or for other mainly hedonistic reasons. 
+
+Many self-made millionaire types (<a href="https://www.youtube.com/@GrahamStephan">Real estate brokers</a> / <a href="https://www.youtube.com/@ThachNguyen">builders</a>, <a href="https://sweatystartup.com/">sweaty startup founders</a>, etc.) called this hedonistic spending "burning capital." The transactions describes above are not net positives for your bank balance. You spend money to recieve goods that depreciate or services that are consumed. This is my working definition of "money" for this blog post.
+
+Prices fundamentally are used for allocation of scarce resources. This basic economic principle is why spending money is a net negative for your bank balance. Fundamentally - it's useful to temporarily remove the word money from your vocabulary - we need to solve the problem of allocating scarce resources. You require food, shelter, a mate, etc. to live and all these resources are scarce. This poses the problem of how best to allocate these resources to individuals. Capitalism (<i>there's a more fundamental term here</i>) is the principle of earning the right to scarce resources through providing value. In feudal times, you could work to produce wheat which is exchanged for other goods and services. Our modern economic system has used money as a measurement of both produced and consumed value. For this reason, it is possible in edge cases to gain the right to scarce resources (Winning the lottery) without providing value (ie. working).
+
+### <b>What Capital Is</b>
+
+
+
+### <b>Capital Is Power</b>
+
+
+
+### <b>Concluding Thoughts</b>
