@@ -46,11 +46,7 @@ Money is an input into production processes. Just like all the other inputs - pe
 
 Because money is fundamentally both an input and output, you don't need to consider it in the same way we consider other inputs. The most important element of capital is that it can gain value over time. Unlike money - which is spent and never returns to your bank account (mostly) - allocated capital can turn into more capital. An investor can put  capital into a project and receive more capital in return - they recieve the same exact resource they put in. This is not also true of lumber because lumber is consumed and not used as a currency. Fundamentally, money is spent on goods and services while capital is used to make more capital. Unlike money, capital is allocated, not spent. Put more simply, capital is money that turns into more money over time.
 
-Why does capital make more of itself? Productivity?
-
-
-
-* These are my colloquial definitions of money and capital for the purposes of this blog post. 
+Capital is fundamentally productive because each production step adds value. If this isn't true, there is a negative return on invested capital. For any production done in a competitive free market, the value of the output must be greater than the value of the inputs. This is an axiom that applies to all production. If this axiom isn't satisfied, the market quickly corrects itself and either the producer adapts or goes bankrupt. 
 
 ### <b>Capital Is Power</b>
 
