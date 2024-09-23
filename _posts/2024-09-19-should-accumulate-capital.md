@@ -30,6 +30,7 @@ author:
  * Buying power (money) is shared with my wife, capital is mine
  * How you accumulate capital is left as an exercise to the reader, this is just the why and what to do once you have capital
  * Capital vs. Time & Genius as a method of increasing the prosperity of humanity can be debated (Blue Origin vs. SpaceX)
+ * If you just listen to economists for dozens of hours, you'll learn economics through osmosis
 
 ### <b>What Money Is</b>
 
@@ -41,7 +42,16 @@ Prices fundamentally are used for allocation of scarce resources. This basic eco
 
 ### <b>What Capital Is</b>
 
+Unlike money, capital is allocated, not spent. 
 
+Money is an input into production processes. Just like all the other inputs - people, materials, land, etc. - it is consumed. However, the most important difference between money and other resources is that money is both an input and an output of all production processes. Unlike wood or steel, money doesn't contitute any physical object. Rather, money is a measurement of value. You cannot recoup the exact wood and steel that were used to build a factory, but you can recoup the exact money that was used to purchase those materials. You get the exact money back because every dollar is the same as every other dollar - they are measurements, not anything physical.
+
+Because money is fundamentally both an input and output, you don't need to consider it in the same way we consider other inputs. The most important element of capital is that it can gain value over time. Unlike money - which is spent and never returns to your bank account (mostly) - allocated capital can turn into more capital. An investor can put investment capital into a project and receive more capital in return - they recieve the same exact resource they put in. This is not also true of lumber because lumber is consumed and not used as a currency. Fundamentally, money is spent on goods and services while capital is used to make more capital. Put more simply, capital is money that turns into more money over time.
+
+Why does capital make more of itself? Productivity?
+
+
+* These are my colloquial definitions of money and capital for the purposes of this blog post. 
 
 ### <b>Capital Is Power</b>
 
