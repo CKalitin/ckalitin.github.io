@@ -15,11 +15,11 @@ author:
  * Money is used to purchase goods and services
 2. What Capital Is
  * Unlike money, capital is allocated, not spent
- * Capital allows you to participate in the debate over the future of humanity
- * Capital is power over the future
  * Capital is accumulated
  * Capital is used to make more capital
 3. Capital As Power
+ * Capital is power over the future
+ * Capital allows you to participate in the debate over the future of humanity
  * This gets to the ideals of democracy, it's pay to play in terms of time, intelligence, and focus
  * Capitalism spreads power among the rich and the politicians, this is why capitalism wins over communism, distribution of power
  * Distribution of power is democracy, so a wide distribution of capital is synonymous with democracy (don't confuse this with equality of outcome, equity isn't evenly distributed)
@@ -48,7 +48,7 @@ Because money is fundamentally both an input and output, you don't need to consi
 
 Capital is fundamentally productive because each production step adds value. If this isn't true, there is a negative return on invested capital. For any production done in a competitive free market, the value of the output must be greater than the value of the inputs. This is an axiom that applies to all production. If this axiom isn't satisfied, the market quickly corrects itself and either the producer adapts or goes bankrupt.
 
-It should be clear why capital is more useful than money from the perspective of individuals (using the colloquial definitions described above). Capital makes more of itself and can be converted into money at any time by making purchases. This is fundamentally why investing works. Instead of spending your entire paycheque, you can invest in the S&P 500 and bet on the absolute productivity of those 500 companies increasing. Later, you can withdraw your capital - which has increased in value - and spend it on goods and services. 
+It should be clear why capital is more useful than money from the perspective of individuals (using the colloquial definitions as described above). Capital makes more of itself and can be converted into money at any time by making purchases. This is fundamentally why investing works. Instead of spending your entire paycheque, you can invest in the S&P 500 and bet on the absolute productivity of those 500 companies increasing. Later, you can withdraw your capital and spend it on more goods and services than you could have purchased otherwise. 
 
 ### <b>Capital Is Power</b>
 
