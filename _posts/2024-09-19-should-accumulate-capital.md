@@ -53,7 +53,7 @@ It should be clear why capital is more useful than money from the perspective of
 
 ##### <b>Allocate Capital to Issues You Care About</b>
 
-<i>“A market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
+<i>“A market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population does not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
 Thomas Sowell, Basic Economics, Chapter 15
 
 Under our current democracy, every voter has roughly even say in all issues. This is inefficient because not every voter has sufficient knowledge in every field to make an effective decision. Representitive democracy tries to solve this by having the voter elect a representitive to make decisions on their behalf. The reason this fails is that if you know less than someone in a particular field, you are not the best judge of their skill in that field. You cannot grade a math test if you know less than the students taking the test.
