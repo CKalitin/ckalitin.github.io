@@ -79,7 +79,7 @@ Capital allows you to participate in the debate over the future of humanity. Wha
 
 This system of allocating power is fundamentally meritocratic. To accumulate a large amount of capital you must first invest a large amount of time, intelligence, and focus into your particular field. These are table stakes to enter the debate over the future of humanity. This is unlike a political class where if you only get in the door if you kiss enough ass and back stab a critical mass of individuals. Your success in a free market is dependent on you, and by extension, your influence on the future of humanity is completely dependent on you. Under extremely political systems, power is allocated to those who have the right connections and not those who have demonstrated their ability to do the job. Stalin did not come to lead the Soviet Union through proving his skills in managing a nation.
 
-##### <b>Distributing Power</b>
+##### <b>Distributing Power Is a Moral Good</b>
 
 Under capitalism, power is concentrated under the rich and under the political class. Under communism, there is only the political class. Concentrating power in the hands of a small number of people is how we get evil and suffering. For this reason, distributing power is extremely important to have a bright future for humanity. 
 
