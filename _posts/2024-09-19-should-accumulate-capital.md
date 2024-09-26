@@ -51,13 +51,6 @@ It should be clear why capital is more useful than money from the perspective of
 
 ### <b>Capital Is Power</b>
 
-* Get the chamath quote
-
-https://youtu.be/PMotykw0SIk?si=P8AEh2uS40QSCtXB&t=1617 <- Get the fucking money
-https://youtu.be/PMotykw0SIk?si=MgPNG_2_W1JQowS6&t=595 <- Money as an instrument of change
-
-Since the dawn of time we've had the problem of trying to allocate power over the future of humanity. democracy blah blah
-
 ##### <b>Allocate Capital to Issues You Care About</b>
 
 <i>“A market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
