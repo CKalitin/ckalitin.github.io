@@ -5,9 +5,6 @@ categories: Investing
 author:
  - Christopher Kalitin
 ---
-<head>
-    <meta property="og:image" content="{{site.url}}/assets/images/to-teach-engineering/Rocket.jpg">
-</head>
 
 1. What Money Is
  * This blog post isn't "Why you should be rich"
@@ -89,14 +86,16 @@ Capital allows you to participate in the debate over the future of humanity. Wha
 
 This system of allocating power is fundamentally meritocratic. To accumulate a large amount of capital you must first invest a large amount of time, intelligence, and focus into your particular field. These are table stakes to enter the debate over the future of humanity. This is unlike a political class where if you only get in the door if you kiss enough ass and back stab a critical mass of individuals. Your success in a free market is dependent on you, and by extension, your influence on the future of humanity is completely dependent on you. Under extremely political systems, power is allocated to those who have the right connections and not those who have demonstrated their ability to do the job. Stalin did not come to lead the Soviet Union through proving his skills in managing a nation.
 
-##### </b>Distributing Power</b>
+##### <b>Distributing Power</b>
 
 Under capitalism, power is concentrated under the rich and under the political class. Under communism, there is only the political class. Concentrating power in the hands of a small number of people is how we get evil and suffering. For this reason, distributing power is extremely important to have a bright future for humanity. 
 
+* Think more, then expand this seciton, write the bullet points
+
 ### <b>Concluding Thoughts</b>
 
-##### </b>Get The Fucking Money</b>
+##### <b>Get The Fucking Money</b>
 
-Chamath Palihapitiya did a great talk at Stanford in 2018, before the All-in Pod. This was the first place I was exposed to these ideas about gaining capital to be able to steer humanity into the path you see as the best possible future. The <a href="https://youtu.be/PMotykw0SIk?si=P8AEh2uS40QSCtXB&t=1617">most memorable quote of his</a> from this talk is, "Get the fucking money." 
+Chamath Palihapitiya did a <a href="https://youtu.be/PMotykw0SIk?si=MgPNG_2_W1JQowS6&t=595">great talk</a> at Stanford in 2018, before the All-in Pod. This was the first place I was exposed to these ideas about gaining capital to be able to steer humanity into the path you see as the best possible future. The <a href="https://youtu.be/PMotykw0SIk?si=P8AEh2uS40QSCtXB&t=1617">most memorable quote of his</a> from this talk is, "Get the fucking money." 
 
-This is all on you. No one is going to implement your vision of the future for you. There's this idea from democracy that you can influence the future just by being given a vote. That is not true. There are vast currents in politics that you have very little control over - by design. You can either work hard to gain political power, or work hard to accumulate power and compete in the free market of ideas.
+This is all on you. No one is going to implement your vision of the future for you. There's this idea from democracy that you can influence the future just by being given a vote. That is not true. There are vast currents in politics that you have very little control over by design - a tiny drop in a tsunami. You can either work hard to gain political power and become a member of this system that concentrates power, or work hard to accumulate power and compete in the free market of ideas.
