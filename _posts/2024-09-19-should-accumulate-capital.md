@@ -62,7 +62,7 @@ Instead of evenly allocating decision making on all issues among all voters we c
 
 This system of allocating your vote to a particular issues exists today. If you want to steer a corporation in a particular direction, you can buy stock and vote as a shareholder. Anyone can acquire enough shares of any company to have more of a say in the management of that company than they do in the management of their country. For example, there are 161 million voters in the US. To acquire one 161 millionth of Tesla, you would need to spend ~$5,000. It's important to notes that your interests may more closely align to a company of a smaller market cap, making your capital more powerful in that company.
 
-##### <b>Battling in the Market Leads to Better Results</b>
+##### <b>Battling in the Free Market Of Ideas Leads to Better Results</b>
 
 <i>"The best way to predict the future is to create it"</i>  
 Peter Drucker / Alan Kay
