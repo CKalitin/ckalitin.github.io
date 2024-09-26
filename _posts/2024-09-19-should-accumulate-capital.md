@@ -58,7 +58,7 @@ It should be clear why capital is more useful than money from the perspective of
 
 Since the dawn of time we've had the problem of trying to allocate power over the future of humanity. democracy blah blah
 
-#### Allocate Capital to Issues You Care About
+##### <b>Allocate Capital to Issues You Care About</b>
 
 <i>“A market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
 Thomas Sowell, Basic Economics, Chapter 15
@@ -69,7 +69,7 @@ Instead of evenly allocating decision making on all issues among all voters we c
 
 This system of allocating your vote to a particular issues exists today. If you want to steer a corporation in a particular direction, you can buy stock and vote as a shareholder. Anyone can acquire enough shares of any company to have more of a say in the management of that company than they do in the management of their country. For example, there are 161 million voters in the US. To acquire one 161 millionth of Tesla, you would need to spend ~$5,000. It's important to notes that your interests may more closely align to a company of a smaller market cap, making your capital more powerful in that company.
 
-#### Battling in the Market Leads to Better Results
+##### <b>Battling in the Market Leads to Better Results</b>
 
 <i>"The best way to predict the future is to create it"</i>  
 Peter Drucker / Alan Kay
