@@ -58,7 +58,9 @@ It should be clear why capital is more useful than money from the perspective of
 
 Since the dawn of time we've had the problem of trying to allocate power over the future of humanity. democracy blah blah
 
-<i>“As in other situations, a market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
+<b>Allocate Capital to Issues You Care About</b>
+
+<i>“A market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”</i>  
 Thomas Sowell, Basic Economics, Chapter 15
 
 The reason capital is such a powerful method of allocating decision making is that those that have amassed capital in a particular field are those with the best knowledge of that field. 
@@ -67,13 +69,15 @@ Under our current democracy, every voter has roughly even say in all issues. Thi
 
 Instead of evenly allocating decision making on all issues among all voters we can allocate decision making with those who have capital allocated in a particular field. This solves the problem of having a lack of focus in a democracy where you have a say in all issues. There are likely only a small subset of issues that actually affect you and that you care about. The vast majority of decisions to be made in your country are likely uninteresting and irrelevant to you. If instead you could allocate your votes to the particular issues you care about, you could have far more of an impact.
 
-This system of allocating your votes to a particular issue exists today. If you want to steer a corporation in a particular direction, you can buy stock and vote as a shareholder. Anyone can easily acquire enough shares of any company to have more of a say in the management of that company than they do in the management of their country. 
+This system of allocating your votes to a particular issue exists today. If you want to steer a corporation in a particular direction, you can buy stock and vote as a shareholder. Anyone can acquire enough shares of any company to have more of a say in the management of that company than they do in the management of their country. For example, there are 161 million voters in the US. To acquire one 161 millionth of Tesla, you would need to spend ~$5,000. It's important to notes that your interests may more closely align to a company of a smaller market cap, making your capital more powerful in that company.
+
+<b>Battling in the Market Leads to Net Positive Results</b>
 
 <i>"The best way to predict the future is to create it"</i>  
-Peter Drucker / Alan Kay. 
+Peter Drucker / Alan Kay
 
 This system of allocating decision making with capital invested in a particular field is even more powerful if you work in that field. Those who have the most power to steer a particular field in a certain direction are those who work in it. If you have your life savings invested in your field, you are likely to have a tremendous knowledge over the field and a great incentive to steer it in the direction you believe is right.
 
-The participants in this kind of democracy are the most invested and most knowledgeable and are able to battle in the market to see which ideas are the best. Because this is an idea that gets to economic markets, economic principles decide who wins. By extension, the agents in a field that produce the most value are the ones that win. This is an extremely important point to understand because the winners in this battle of capital and ideas are those who will benefit the market - and by exention humanity - the most.
+The participants in this kind of democracy are the most invested and most knowledgeable. They battle in the market to see which ideas are the best. Because this is an idea that gets to economic markets, economic principles decide who wins. By extension, the agents in a field that produce the most value are the ones that win. This is an extremely important point to understand because the winners in this battle of capital and ideas are those who will benefit the market - and by exention humanity - the most.
 
 ### <b>Concluding Thoughts</b>
