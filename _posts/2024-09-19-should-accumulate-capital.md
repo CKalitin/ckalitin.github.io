@@ -54,11 +54,13 @@ It should be clear why capital is more useful than money from the perspective of
 
 ### <b>Capital Is Power</b>
 
+* Get the chamath quote
+
 Since the dawn of time we've had the problem of trying to allocate power over the future of humanity. democracy blah blah
 
 <i>“As in other situations, a market economy allows accurate knowledge to be effective in influencing decision making even if 99% of the population do not have that knowledge. In politics however, the 99% who do not understand can create immediate political success for elected officials and for policies that will turn out in the end to be harmful to society as a whole.”
+\- Thomas Sowell, Basic Economics Chapter 15</i>
 
-- Thomas Sowell, Basic Economics, Chapter 15</i>
 
 
 ### <b>Concluding Thoughts</b>
