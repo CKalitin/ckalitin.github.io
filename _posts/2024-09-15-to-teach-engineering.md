@@ -61,7 +61,7 @@ Like I said above, if your process of planning how to build a chair is really th
 
 Teaching processes makes C tier humans. Making your own processes breeds A tier engineers. God put me on this planet to build, and you're wasting my time by stopping me from exploring the space of ideas.
 
-Everything in life is a skill issue and all skill issues can be solved by increasing your skills. That's why "Skill Issue" is such a powerful term, you are in complete control of whether your problems remain a skill issues.
+Everything in life is a skill issue and all skill issues can be solved by increasing your skills. That's why "Skill Issue" is such a powerful term, you are in complete control of whether your problems remain skill issues.
 
 Some of my group members care more about grades than learning engineering. SKILL ISSUE C TIER BEHAVIOUR. You need to learn engineering yourself. It is fundamentally a self driven process of exploration. School isn't trying to help you, the members of the design teams would love to help you, but you need to <a href="https://dontasktoask.com">ask the right questions</a>!
 
