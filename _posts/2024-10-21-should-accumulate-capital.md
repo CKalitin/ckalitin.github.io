@@ -65,7 +65,7 @@ Under capitalism, power is concentrated under the rich and under the political c
 
 ##### <b>The Free Market Allows Autonomy For All</b>
 
-<i>A government is just a corporation in the limit</i>  
+<i>"A government is just a corporation in the limit."</i>  
 E
 
 The defining feature of a free market is that market participants are free to make their own decisions about which transactions to partake in. If you apply this principle to a society, everyone is free from the control of anyone other individual or group - so long as we all have the power to decide if we do or do not want to participate in transactions. Because a true free market allows individuals to make their own decisions, it is not purely rule by capital. A problem arises when you consider how to maintain these individual freedoms and not degenerate into rule by capital, or, in the limit (Using the mathematic definition of a limit), rule by violence.
