@@ -30,10 +30,10 @@ author:
  * If you just listen to economists for dozens of hours, you'll learn economics through osmosis
 
 Notes:
-The free market allows people to make their own decisions, it isn’t rule by capital.
-The Korean Peninsula shows the difference between freedom (liberal capitalism, liberal in the classical sense) and totalitarianism
-The free market allows people to make their own decisions, it isn’t rule by capital.
-“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”
+The free market allows people to make their own decisions, it isn’t rule by capital.  
+The Korean Peninsula shows the difference between freedom (liberal capitalism, liberal in the classical sense) and totalitarianism  
+The free market allows people to make their own decisions, it isn’t rule by capital.  
+“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.” 
 
 Section: The Free Market Allows Autonomy For All
 - The free market allows people to make their own decisions, it isn’t rule by capital.
@@ -93,7 +93,7 @@ This system of allocating power is fundamentally meritocratic. To accumulate a l
 
 ##### <b>Distributing Power Is a Moral Good</b>
 
-<i>“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”  </i>
+<i>“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”</i>  
 The Capitalist Manifesto, Chapter 2
 
 Under capitalism, power is concentrated under the rich and under the political class. Under communism, there is only the political class. Concentrating power in the hands of a small number of people is how we get evil and suffering. For this reason, distributing power is extremely important to have a bright future for humanity. 
