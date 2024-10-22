@@ -102,7 +102,16 @@ Under capitalism, power is concentrated under the rich and under the political c
 
 ##### <b>The Free Market Allows Autonomy For All</b>
 
+<i>A government is just a corporation in the limit</i>  
+- E
 
+The defining feature of a free market is that market participants are free to make their own decisions about which transactions to partake in. If you apply this principle to a society, everyone is free from the control of anyone other individual or group - so long as we all have the power to decide if we do or do not want to participate in transactions. Because a true free market allows individuals to make their own decisions, it is not purely rule by capital. A problem arises when you consider how to maintain these individual freedoms and not degenerate into rule by capital, or, in the limit (Using the mathematic definition of a limit), rule by violence.
+
+One of the beautiful manifestations of the mutual benefits of the free market is the "double thank you" as described in chapter 2 of The Capitalist Manifesto. Every time I've sold something on Facebook Marketplace both I and the buyer say thank you. We both agree to participate in a mutually beneficial transaction and both come out ahead. Thank you for allowing me to purchase this and thank you for taking it off my hands.
+
+Liberal governments (in the classical sense of the word liberal, read What's Our Problem by Tim Urban and The Road to Serfdom by F.A. Hayek) have historically played the extremely important role of ensuring individuals have the freedom to make their own decisions. Violence is fundamentally required to ensure this fundamental freedom continues to exist, because those with the power of violence have the ability to take away the freedom of others. For this reason, along with many others, the government has maintained its monopoly on violence within its own borders. 
+
+The issue arises when the government starts to abuse its absolute power of violence to impose its own will on the populace. Using capital to decentralize this power is a step in the right direction because it is far easier for a single entity with absolute power to control you rather than 1000 smaller entities. Individuals or groups with vast amounts of capital can also use this to control you, but from recent events it is clear that the government exercises this power far more than private entities. The government is just a corporation in the limit. Would you rather have a single monopolistic corporation to transact with, or 1000 smaller corporations in competition where you can choose which one to transact with.
 
 ### <b>Concluding Thoughts</b>
 
