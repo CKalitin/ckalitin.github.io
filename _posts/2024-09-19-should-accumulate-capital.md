@@ -29,6 +29,18 @@ author:
  * Capital vs. Time & Genius as a method of increasing the prosperity of humanity can be debated (Blue Origin vs. SpaceX)
  * If you just listen to economists for dozens of hours, you'll learn economics through osmosis
 
+Notes:
+The free market allows people to make their own decisions, it isn’t rule by capital.
+The Korean Peninsula shows the difference between freedom (liberal capitalism, liberal in the classical sense) and totalitarianism
+The free market allows people to make their own decisions, it isn’t rule by capital.
+“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”
+
+Section: The Free Market Allows Autonomy For All
+- The free market allows people to make their own decisions, it isn’t rule by capital.
+- As long as someone doesn't have power over you, you are free
+- Need to be careful to both not have government control you or corporations control you
+- "Government is just a corporation in the limit" - E
+
 ### <b>What Money Is</b>
 
 This blog post is not "Why You Should Be Rich." When most people think about being rich the first thing that comes to mind is buying power. "I want to win the lottery so I can live on a yacht with a Lamborgini and an expensive watch." This is fundamentally spending your money to purchase goods and services - you do not get this spent money back. This spending is used to increase your quality of life or for other mainly hedonistic reasons. 
@@ -81,9 +93,16 @@ This system of allocating power is fundamentally meritocratic. To accumulate a l
 
 ##### <b>Distributing Power Is a Moral Good</b>
 
+<i>“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”  </i>
+The Capitalist Manifesto, Chapter 2
+
 Under capitalism, power is concentrated under the rich and under the political class. Under communism, there is only the political class. Concentrating power in the hands of a small number of people is how we get evil and suffering. For this reason, distributing power is extremely important to have a bright future for humanity. 
 
 * Think more, then expand this seciton, write the bullet points
+
+##### <b>The Free Market Allows Autonomy For All</b>
+
+
 
 ### <b>Concluding Thoughts</b>
 
@@ -92,3 +111,10 @@ Under capitalism, power is concentrated under the rich and under the political c
 Chamath Palihapitiya did a <a href="https://youtu.be/PMotykw0SIk?si=MgPNG_2_W1JQowS6&t=595">great talk</a> at Stanford in 2018, before the All-in Pod. This was the first place I was exposed to these ideas about gaining capital to be able to steer humanity into the path you see as the best possible future. The <a href="https://youtu.be/PMotykw0SIk?si=P8AEh2uS40QSCtXB&t=1617">most memorable quote of his</a> from this talk is, "Get the fucking money." 
 
 This is all on you. No one is going to implement your vision of the future for you. There's this idea from democracy that you can influence the future just by being given a vote. That is not true. There are vast currents in politics that you have very little control over by design - a tiny drop in a tsunami. You can either work hard to gain political power and become a member of this system that concentrates power, or work hard to accumulate power and compete in the free market of ideas.
+
+##### <b>Capital Vs. Genius</b>
+
+
+
+##### <b>You Should Sit In The Sauna</b>
+
