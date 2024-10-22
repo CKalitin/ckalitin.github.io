@@ -41,7 +41,7 @@ This system of allocating your vote to a particular issue exists today. If you w
 
 ##### <b>Battling in the Free Market Of Ideas Leads to Better Results</b>
 
-<i>"The best way to predict the future is to create it"</i>  
+<i>"The best way to predict the future is to create it."</i>  
 Peter Drucker / Alan Kay
 
 This system of allocating decision-making with capital invested in a particular field is even more powerful if you work in that field. Those who have the most power to steer a particular field in a certain direction are those who work in it. If you have your life savings invested in your field, you are likely to have a tremendous knowledge of the field and a great incentive to steer it in the direction you believe is right.
