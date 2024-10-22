@@ -41,7 +41,7 @@ This system of allocating your vote to a particular issue exists today. If you w
 
 ##### <b>Battling in the Free Market Of Ideas Leads to Better Results</b>
 
-<i>"The best way to predict the future is to create it"</i>  
+<i>"The best way to predict the future is to create it"</i>  
 Peter Drucker / Alan Kay
 
 This system of allocating decision-making with capital invested in a particular field is even more powerful if you work in that field. Those who have the most power to steer a particular field in a certain direction are those who work in it. If you have your life savings invested in your field, you are likely to have a tremendous knowledge of the field and a great incentive to steer it in the direction you believe is right.
@@ -50,7 +50,7 @@ The participants in this kind of democracy are the most invested and most knowle
 
 ##### <b>Capital is Meritocratic Allocation of Power Over The Future</b>
 
-<i>"You may not be interested in politics, but politics is interested in you."</i>
+<i>"You may not be interested in politics, but politics is interested in you."</i>  
 
 Capital allows you to participate in the debate over the future of humanity. What's more important than this is that you aren't being allowed to participate by some other power. You aren't at the behest of the government, which has a monopoly on violence and can forcibly take away your vote if suboptimal events transpire. Your capital is power, and you are the one who decides to enter the game. 
 
@@ -58,14 +58,14 @@ This system of allocating power is fundamentally meritocratic. To accumulate a l
 
 ##### <b>Distributing Power Is a Moral Good</b>
 
-<i>“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”</i>  
+<i>“The utopians who have dreamed of avoiding this struggle always land in some variant where they force others to perform it for them.”</i>  
 The Capitalist Manifesto, Chapter 2
 
 Under capitalism, power is concentrated under the rich and under the political class. Under communism, there is only the political class. Concentrating power in the hands of a small number of people is how we get evil and suffering. For this reason, distributing power is extremely important to have a bright future for humanity. 
 
 ##### <b>The Free Market Allows Autonomy For All</b>
 
-<i>"A government is just a corporation in the limit"</i>  
+<i>A government is just a corporation in the limit</i>  
 E
 
 The defining feature of a free market is that market participants are free to make their own decisions about which transactions to partake in. If you apply this principle to a society, everyone is free from the control of anyone other individual or group - so long as we all have the power to decide if we do or do not want to participate in transactions. Because a true free market allows individuals to make their own decisions, it is not purely rule by capital. A problem arises when you consider how to maintain these individual freedoms and not degenerate into rule by capital, or, in the limit (Using the mathematic definition of a limit), rule by violence.
