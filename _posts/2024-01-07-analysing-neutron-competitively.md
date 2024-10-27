@@ -23,7 +23,8 @@ More, better, and more accurate charts here: <a href="https://drive.google.com/d
 
 ### <b>Legacy Commerical Communication Satellite Market</b>
 
-![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="600" .align-center}
+![Image description]({{site.url}}/assets/images/2024-01-07/Launches-Total-Type-Mass.png){: width="600" .align-center}  
+<a href="{{site.url}}/assets/images/2024-01-07/Western-Commercial-Launches-By-Orbit-By-Mass.png">Updated Chart (Important! Click Me!)</a>
 
 The legacy commercial communication satellite market is dominated by GEO satellites. Between 2018 and 2023, 48 commercial satellites were successfully launched. 39 of these satellites were launched to GTO/GEO while only 9 were launched to LEO/MEO/SSO.
 
