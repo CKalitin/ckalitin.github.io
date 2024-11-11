@@ -29,15 +29,6 @@ Section 3:
 
 I've decided I'm going to be an <a href="https://x.com/Andercot/status/1855046549015052624">Econophysicist</a>.
 
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="420" .align-center}
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="420" .align-center}
-
 What is an S-curve?
 An s curve (sigmoid curve) is a specific shape of a graph of market share vs. time.
 - Sigmoid etymology
@@ -86,5 +77,19 @@ What to cover:
 
 An S curve is a function that describes the shape of the market share vs. time graphs of almost all technologies. These S-curves are characterized by an extremely slow start, where they are arbitrarily close to zero; an exponential growth phase; then followed by a leveling off where they asymptotically approach 100% market share.
 
-These S curves give you the ability to predict the future with a high level of certainty. <a href="https://asimov.fandom.com/wiki/Psychohistory">Psychohistory</a> brought to reality. The reason you can use this method to predict the future with such high certainty is that almost all technologies that we have ever invented have followed the same pattern: the S curve.
+These S curves give you the ability to predict the future with a high level of certainty. <a href="https://asimov.fandom.com/wiki/Psychohistory">Psychohistory</a> brought to reality (Read Foundation). The reason you can use this method to predict the future with such high certainty is that almost all technologies that we have ever invented have followed the same pattern: the S curve.
 
+At the begining of this year I began work on my longest blog post yet, <a href="https://ckalitin.github.io/technology/1961/04/12/transition-to-robotaxis.html">The Transition to EV Robotaxis (FUTURE CHIRS! UPDATE THIS LINK WHEN ITS DONE)</a>. In this post I extrapolated historic data on EV adoption by fitting an S curve to the data to predict that 50% of cars sold in 2027 will be EVs and 90% in 2030. To ensure fitting an S curve was an appropriate method to make such predictions, I aggregated the market share data of several technologies over the past century to confirm whether they followed the same growth pattern. All of these charts are shown below.
+
+<a href="https://docs.google.com/spreadsheets/d/1jXpCkFLl7Gyy0wmI-rIuWAXR_NwLOPIjxLCfmX2XnO0/edit?usp=sharing">Source of the charts</a>
+
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="420" .align-center}
+
+As you can see, all of these charts follow the same pattern. It's important to note that I didn't cherry pick any of these, I just searched for growth curves of early technologies and pixel counted to get the data you see above. 
