@@ -29,14 +29,14 @@ Section 3:
 
 I've decided I'm going to be an <a href="https://x.com/Andercot/status/1855046549015052624">Econophysicist</a>.
 
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="400" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="400" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="500" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="500" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="700" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="700" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="300" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="420" .align-center}
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="420" .align-center}
 
 What is an S-curve?
 An s curve (sigmoid curve) is a specific shape of a graph of market share vs. time.
@@ -72,3 +72,12 @@ The early growth of a technology is characterized by exponential improvements th
 After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. Throughout
 
 - Casey Handmer Clip: https://youtu.be/ekEdq6PhC0Q?si=3AEwnx4ETjwbmKmI&t=541 on how to actually understand Moore's Law, why does it happen really? I still can't write the full proof.
+
+What to cover:
+1. Explain what an S-curve is
+2. Show my charts
+3. Explain how to use S curves to predict the future
+4. Show my EV prediction
+5. Describe the 5 stages of an S curve, then show Kurzweil's 7 stages
+6. Explain Learning Rate <- Casey Handmer Clip
+7. Show that growth rate linearly declines, derivative magic means a nice smooth exponential looking curve
