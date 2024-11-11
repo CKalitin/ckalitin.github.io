@@ -29,14 +29,14 @@ Section 3:
 
 I've decided I'm going to be an <a href="https://x.com/Andercot/status/1855046549015052624">Econophysicist</a>.
 
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="600" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-AMRadio.jpg){: width="400" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-TV.jpg){: width="400" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-ColorTV.jpg){: width="500" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg){: width="500" .align-center}  
 ![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="600" .align-center}  
-![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="600" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-Internet.jpg){: width="700" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-MobileInternet.jpg){: width="700" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EVMarketShare.jpg){: width="300" .align-center}  
 
 What is an S-curve?
 An s curve (sigmoid curve) is a specific shape of a graph of market share vs. time.
