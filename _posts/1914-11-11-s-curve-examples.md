@@ -81,3 +81,10 @@ What to cover:
 5. Describe the 5 stages of an S curve, then show Kurzweil's 7 stages
 6. Explain Learning Rate <- Casey Handmer Clip
 7. Show that growth rate linearly declines, derivative magic means a nice smooth exponential looking curve
+
+![Image description]({{site.url}}/assets/images/s-curve-examples/s-curve.png){: width="420" .align-center}
+
+An S curve is a function that describes the shape of the market share vs. time graphs of almost all technologies. These S-curves are characterized by an extremely slow start, where they are arbitrarily close to zero; an exponential growth phase; then followed by a leveling off where they asymptotically approach 100% market share.
+
+These S curves give you the ability to predict the future with a high level of certainty. <a href="https://asimov.fandom.com/wiki/Psychohistory">Psychohistory</a> brought to reality. The reason you can use this method to predict the future with such high certainty is that almost all technologies that we have ever invented have followed the same pattern: the S curve.
+
