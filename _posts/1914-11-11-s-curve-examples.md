@@ -78,10 +78,13 @@ The four stages of the S-curve:
 The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. 
 - There's a storage example here (silicon or something? SSDs?)
 
+- Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
+
 After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. Throughout
 
 ### <b>The end of learning rate and the death of a technology</b>
 
 This explains why electrical transformers will be superceded.
 
-- Mention that Growth rates exponentially decline, with the image example of EVs
+- Mention that Growth rates linearly decline, with the image example of EVs
+
