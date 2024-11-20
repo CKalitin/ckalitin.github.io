@@ -68,19 +68,20 @@ An even more remarkable fact about Moore's Law is that it <a href="https://youtu
 
 <a href="https://archive.org/details/kurzweil-ray-the-singularity-is-near/page/n105/mode/1up">The Singularity Is Near, Chapter 2, page 105 on Internet Archive</a>
 
-The four stages of the S-curve:
+A technology goes through five majors stages that can be described by its S-curve. These stages are:
 1. Early R&D
 2. Initial Commercial Appeal
 3. Obvious exponential growth
 4. Market Saturation
 5. Stagnation
 
-The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. 
-- There's a storage example here (silicon or something? SSDs?)
+![Image description]({{site.url}}/assets/images/s-curve-examples/ssd.jpg){: width="650" .align-center}  
+
+The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. For example, Solid State Memory (SSDs) were conceived of in 1978 and were first released as a product in 1991. However, it took until the late 2000s for costs to drop low enough that they were considered a reasonable alternative to hard drives.
 
 - Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
 
-After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. Throughout
+After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. This means that electric vehicle technology can be adopted to golf carts, which in the grand scheme of things isn't a very large market, but is just a step along the path to market domination.
 
 ### <b>The end of learning rate and the death of a technology</b>
 
@@ -88,3 +89,9 @@ This explains why electrical transformers will be superceded.
 
 - Mention that Growth rates linearly decline, with the image example of EVs
 
+
+#### <b>Appendix: More Examples of Applications of S-Curves</b>
+
+I'm currently reading <i>Eccentric Orbits: How a single man saved the world's largest satellite constallation from fiery destruction</i>, the book which covers the Iridium satellite call/internet constellation. This book goes through a great example of an S-curve that looks like many discrete processes at first glance. This book covers the Iridium satellite internet/cellphone call constellation. The Motorola study into building a satellite constellation for handling phone calls began around 1988 (phase 1). The Iridium constallation began deployement in 1997 and the first call was made over the network in 1988 (Still phase 1). They had a brief encounter with bankruptcy and later began scaling the constellation and launching a new generation of satellites as revenue increased (Phase 2). At this point the Iridium phones were still a very niche product without much market penetration except in the very unique cases in which there was no better alternative. Next, Starlink entered the satellite internet market and began <a href="https://www.nextbigfuture.com/2022/12/spacex-starlink-has-1-million-active-subscribers.html">growing exponentially<\a> (Phase 3) (Note: I keep stubling upon this Brian Wang guy writing about SpaceX). We're currently living through phase 3 of the S-curve, in a decade or two we'll see Starlink reach market saturation and a few decades after that Starlink will be replaced by a new, better techonlogy.
+
+If you imagine yourself at any stage in the story detailed above except the current one, it would not look like any exponential growth was occuring or like you could apply learning rate to understand the future of the industry. You could be living through the brief bankruptcy of Iridium and think that the technology was a failure, but the underlying technology was still improving either through direct research or through external development. For example, while the original proposal for Iridium was being worked on at Motorola, satellite buses and other components were gradually becoming less expensive, and by extension the cost to develop and satellite internet constellation constellation was decreasing.
