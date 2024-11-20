@@ -6,16 +6,8 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/to-teach-engineering/Rocket.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/s-curve-examples/s-curve.png">
 </head>
-
-1. Explain what an S-curve is
-2. Show my charts
-3. Explain how to use S curves to predict the future
-4. Show my EV prediction
-5. Describe the 5 stages of an S curve, then show Kurzweil's 7 stages
-6. Explain Learning Rate <- Casey Handmer Clip
-7. Show that growth rate linearly declines, derivative magic means a nice smooth exponential looking curve
 
 I've decided I'm going to be an <a href="https://x.com/Andercot/status/1855046549015052624">Econophysicist</a>.
 
@@ -53,8 +45,6 @@ As Casey Handmer (Highest information density speaker alive) <a href="https://yo
 The framework of applying learning rate is most useful for new exponentially growing technologies where doubling time is low. For example, EVs have a doubling time of about 2-3 years. If we extrapolate this out a few years we find that we will undergo a massive paradigm shift where EVs become the most common vehicle type on roads. Electrical transformers can also be described by a learning rate, but because they are such a mature technology the learning rate is only 4% and doubling time is very long.
 
 Like Handmer explains, exponential decrease in cost (described by learning rate) is due to the reinforcing cycle of increased demand which leads to increased production which leads to decreased cost which leads to increased demand. As a product increases in volume, the revenues from the product increase, which allows for further investment into R&D and production, which further decreases cost and increases the desirability of the product.
-
-- Expand more on why exactly increased investment leads to lower costs
 
 The most famous application of this framework is <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore's Law</a>, which states that the number of transistors in an integrated circuit doubles about every two years. Moore discovered this with only about 4 points on the graph of transistor count vs. time. Because learning rate appears to be a fundamental law of the universe, he was able to predict the future of integrated circuits far into the future with a high level of certainty.
 
@@ -115,9 +105,11 @@ The inherent hope of this perspective is that as long as long as humanity contin
 ‎
 ‎
 ‎
+‎
+‎
 
 #### <b>Appendix: More Examples of Applications of S-Curves</b>
 
 I'm currently reading <i>Eccentric Orbits: How a single man saved the world's largest satellite constallation from fiery destruction</i>, the book which covers the Iridium satellite call/internet constellation. This book goes through a great example of an S-curve that looks like many discrete processes at first glance. This book covers the Iridium satellite internet/cellphone call constellation. The Motorola study into building a satellite constellation for handling phone calls began around 1988 (phase 1). The Iridium constallation began deployement in 1997 and the first call was made over the network in 1988 (Still phase 1). They had a brief encounter with bankruptcy and later began scaling the constellation and launching a new generation of satellites as revenue increased (Phase 2). At this point the Iridium phones were still a very niche product without much market penetration except in the very unique cases in which there was no better alternative. Next, Starlink entered the satellite internet market and began <a href="https://www.nextbigfuture.com/2022/12/spacex-starlink-has-1-million-active-subscribers.html">growing exponentially </a> (Phase 3) (Note: I keep stubling upon this Brian Wang guy writing about SpaceX). We're currently living through phase 3 of the S-curve, in a decade or two we'll see Starlink reach market saturation and a few decades after that Starlink will be replaced by a new, better techonlogy.
 
-If you imagine yourself at any stage in the story detailed above except the current one, it would not look like any exponential growth was occuring or like you could apply learning rate to understand the future of the industry. You could be living through the brief bankruptcy of Iridium and think that the technology was a failure, but the underlying technology was still improving either through direct research or through external development. For example, while the original proposal for Iridium was being worked on at Motorola, satellite buses and other components were gradually becoming less expensive, and by extension the cost to develop and satellite internet constellation constellation was decreasing.
+If you imagine yourself at any stage in the story detailed above except the current one, it would not look like any exponential growth was occuring or like you could apply learning rate to understand the future of the industry. You could be living through the brief bankruptcy of Iridium and think that the technology was a failure, but the underlying technology was still improving either through direct research or through external development. For example, while the original proposal for Iridium was being worked on at Motorola, satellite buses and other components were gradually becoming less expensive, and by extension the cost to develop and satellite internet constellation constellation was decreasing (Exponential Growth).
