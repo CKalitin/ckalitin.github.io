@@ -110,7 +110,7 @@ This stagnation is the time period in which we can hope to see a better technolo
 
 Waiting on these new technologies can have major implications because of the impacts of the current technology. For example, Climate Change is caused by the previous/current paradigm of Hydrocarbon-based fuels. This technology was a huge win for humanity hundreds of years ago and allowed us to build the modern world and feed billions of people living better lives than they ever have. However, this technology has now begun to stagnate and we are seeing the negative impacts of it (citation needed). The solution to Climate Change is the next energy technology which will elevate humanity into a new era of unprecedented prosperity. Solar panels are batteries are declining in cost exponentially and will replace the vast majority of previous energy technologies in the coming decades. Modelling this out is left as an exercise to the reader.
 
-The inherent hope of this perspective is that as long as long as humanity continues to develop technology, all of our problems will be solved and we will continually prosper to greater and greater levels. 
+The inherent hope of this perspective is that as long as long as humanity continues to develop technology, all of our problems will be solved and we will continually prosper to greater and greater levels. However, this isn't automatic! We must continue to work extremely hard to develop new technologies! The fundamental input into all technologies is human labour and we are that labour! Work Harder!
 
 ‎
 ‎
