@@ -68,6 +68,8 @@ An even more remarkable fact about Moore's Law is that it <a href="https://youtu
 
 <a href="https://archive.org/details/kurzweil-ray-the-singularity-is-near/page/n105/mode/1up">The Singularity Is Near, Chapter 2, page 105 on Internet Archive</a>
 
+Above you can see the seven stages that Ray Kurzweil laid out for the life cycle of a technology. The Singularity is Near was the first place I was exposed to these ideas presented in such a concrete manner. <a href="https://ckalitin.github.io/technology/2023/09/22/applying-accelerating-returns.html">My first blog post</a> was about insights I gained from this book, you may also want to read it.
+
 A technology goes through five majors stages that can be described by its S-curve. These stages are:
 1. Early R&D
 2. Initial Commercial Appeal
@@ -81,8 +83,6 @@ A technology goes through five majors stages that can be described by its S-curv
 
 The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. For example, Solid State Memory (SSDs) were conceived of in 1978 and were first released as a product in 1991. However, it took until the late 2000s for costs to drop low enough that they were considered a reasonable alternative to hard drives.
 
-- Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
-
 <b>2. Initial Commercial Appeal</b>  
 After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. This means that electric vehicle technology can be adopted to golf carts, which in the grand scheme of things isn't a very large market, but is just a step along the path to market domination.
 
@@ -90,25 +90,27 @@ After this initial R&D phase, there is a smooth transition to a phase in which t
 
 ![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EV-Prediction.jpg){: width="420" .align-center}
 
-Another gradual, smooth transition occurs from the second phase into the third, exponential growth. The technology has declined in cost and improved in capability enough that it is now the best option for a large portion of the market and it begins to take significant marketshare. We are living through this today with EVs. Pure electric vehicles currently have around 25% market share worldwide and the current growth rate is around 50%. Extrapolating this out a few years, we find that EVs will be the most common vehicle type on the road.
+Another gradual and smooth transition occurs from the second phase into the third, exponential growth. The technology has declined in cost and improved in capability enough that it is now the best option for a large portion of the market and it begins to take significant marketshare. We are living through this today with EVs. Pure electric vehicles currently have around 25% market share worldwide and the current growth rate is around 50%. Extrapolating this out a few years, we find that EVs will be the most common vehicle type on the road.
 
-<b>4. Market Saturation</b>
+Because the exponential growth in this era is driven by economic factors (decreasing cost and increasing capability), the growth continues even through recessions and depressions. For example, look at the charts on AM radio during the Great Depression and EV adoption during Covid.
+
+<b>4. Market Saturation</b>  
 No product can grow exponentially forever as we live in a finite universe. Once the market for a technology has been saturated, growth rates begin to decline. Now, unlike phase 2 where the technology only had its own niche, the technology makes everything else a niche. Horses were dominant before the internal combustion engine, but now are mainly used for niche recreational purposes, meanwhile the internal combustion engine powers the majority of vehicles.
 
 It's important to note that growth rates linearly decline as a technology increases in maturity. This is again due to the fact that no technology can grow forever. You can see this in any of the charts above or my prediction for EV market share. Also, given a linearly declining growth rate, the magic of derivatives means that we get a nice smooth exponential looking curve. Next time you hear that the growth rate of EVs is declining, remember that this is a byproduct of market domination.
 
-<b>5. Stagnation</b>
+<b>5. Stagnation</b>  
 In the final stage of a technology, it asymptotically approaches 100% market share and we await another disruptive technology to emerge that displaces the current paradigm. We currently see this in internal combustion engine powered automobiles. We have had these products for over a century and there are very marginal improvements in their efficiency and cost. Most of the improvement we've seen in vehicles recently has been in comfort and other user-focused features.
 
 ### <b>The End of Learning Rate and the Death of a Technology</b>
 
-In the final stage 
+In the final stage of the life cycle of a technology, we see the end of learning rate and the slow death of the technology. As we learn more about how to harness a particular technology, we near the limits of the technology. This means that the once constant variable of learning rate begins to decline and the technology stagnates. Once you're in this stage, applying learning rate is no longer a very useful exercise to understand the future of the technology because the technology has very little future apart from what it already is. This is why learning rate is best applied in stages 2-4.
 
-This explains why electrical transformers will be superceded.
+This stagnation is the time period in which we can hope to see a better technology arise that will supercede the current technology. In some cases, waiting for the emergence of this new technology can be a very long process that has extremely major consequences for the future of humanity. We are unable to predict when this new technology will emerge if it is still early in stage one - unless you have a perfect mental model of all similar technologies that are currently being researched and are able to predict their success.
 
-- Mention that Growth rates linearly decline, with the image example of EVs
+Waiting on these new technologies can have major implications because of the impacts of the current technology. For example, Climate Change is caused by the previous/current paradigm of Hydrocarbon-based fuels. This technology was a huge win for humanity hundreds of years ago and allowed us to build the modern world and feed billions of people living better lives than they ever have. However, this technology has now begun to stagnate and we are seeing the negative impacts of it (citation needed). The solution to Climate Change is the next energy technology which will elevate humanity into a new era of unprecedented prosperity. Solar panels are batteries are declining in cost exponentially and will replace the vast majority of previous energy technologies in the coming decades. Modelling this out is left as an exercise to the reader.
 
-- Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
+The inherent hope of this perspective is that as long as long as humanity continues to develop technology, all of our problems will be solved and we will continually prosper to greater and greater levels. 
 
 ‎
 ‎
@@ -116,6 +118,6 @@ This explains why electrical transformers will be superceded.
 
 #### <b>Appendix: More Examples of Applications of S-Curves</b>
 
-I'm currently reading <i>Eccentric Orbits: How a single man saved the world's largest satellite constallation from fiery destruction</i>, the book which covers the Iridium satellite call/internet constellation. This book goes through a great example of an S-curve that looks like many discrete processes at first glance. This book covers the Iridium satellite internet/cellphone call constellation. The Motorola study into building a satellite constellation for handling phone calls began around 1988 (phase 1). The Iridium constallation began deployement in 1997 and the first call was made over the network in 1988 (Still phase 1). They had a brief encounter with bankruptcy and later began scaling the constellation and launching a new generation of satellites as revenue increased (Phase 2). At this point the Iridium phones were still a very niche product without much market penetration except in the very unique cases in which there was no better alternative. Next, Starlink entered the satellite internet market and began <a href="https://www.nextbigfuture.com/2022/12/spacex-starlink-has-1-million-active-subscribers.html">growing exponentially<\a> (Phase 3) (Note: I keep stubling upon this Brian Wang guy writing about SpaceX). We're currently living through phase 3 of the S-curve, in a decade or two we'll see Starlink reach market saturation and a few decades after that Starlink will be replaced by a new, better techonlogy.
+I'm currently reading <i>Eccentric Orbits: How a single man saved the world's largest satellite constallation from fiery destruction</i>, the book which covers the Iridium satellite call/internet constellation. This book goes through a great example of an S-curve that looks like many discrete processes at first glance. This book covers the Iridium satellite internet/cellphone call constellation. The Motorola study into building a satellite constellation for handling phone calls began around 1988 (phase 1). The Iridium constallation began deployement in 1997 and the first call was made over the network in 1988 (Still phase 1). They had a brief encounter with bankruptcy and later began scaling the constellation and launching a new generation of satellites as revenue increased (Phase 2). At this point the Iridium phones were still a very niche product without much market penetration except in the very unique cases in which there was no better alternative. Next, Starlink entered the satellite internet market and began <a href="https://www.nextbigfuture.com/2022/12/spacex-starlink-has-1-million-active-subscribers.html">growing exponentially </a> (Phase 3) (Note: I keep stubling upon this Brian Wang guy writing about SpaceX). We're currently living through phase 3 of the S-curve, in a decade or two we'll see Starlink reach market saturation and a few decades after that Starlink will be replaced by a new, better techonlogy.
 
 If you imagine yourself at any stage in the story detailed above except the current one, it would not look like any exponential growth was occuring or like you could apply learning rate to understand the future of the industry. You could be living through the brief bankruptcy of Iridium and think that the technology was a failure, but the underlying technology was still improving either through direct research or through external development. For example, while the original proposal for Iridium was being worked on at Motorola, satellite buses and other components were gradually becoming less expensive, and by extension the cost to develop and satellite internet constellation constellation was decreasing.
