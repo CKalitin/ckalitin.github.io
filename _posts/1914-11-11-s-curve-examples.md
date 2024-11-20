@@ -69,7 +69,7 @@ A technology goes through five majors stages that can be described by its S-curv
 
 <b>1. Early R&D</b>  
 
-![Image description]({{site.url}}/assets/images/s-curve-examples/ssd.jpg){: width="420" .align-center}  
+![Image description]({{site.url}}/assets/images/s-curve-examples/ssd.jpg){: width="400" .align-center}  
 
 The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. For example, Solid State Memory (SSDs) were conceived of in 1978 and were first released as a product in 1991. However, it took until the late 2000s for costs to drop low enough that they were considered a reasonable alternative to hard drives.
 
