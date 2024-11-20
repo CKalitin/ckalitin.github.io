@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "S-Curves Will Set You Free"
+title: "S-Curves Allow You to Predict the Future"
 categories: Technology
 author:
  - Christopher Kalitin
@@ -75,20 +75,44 @@ A technology goes through five majors stages that can be described by its S-curv
 4. Market Saturation
 5. Stagnation
 
-![Image description]({{site.url}}/assets/images/s-curve-examples/ssd.jpg){: width="650" .align-center}  
+<b>1. Early R&D</b>  
+
+![Image description]({{site.url}}/assets/images/s-curve-examples/ssd.jpg){: width="420" .align-center}  
 
 The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. For example, Solid State Memory (SSDs) were conceived of in 1978 and were first released as a product in 1991. However, it took until the late 2000s for costs to drop low enough that they were considered a reasonable alternative to hard drives.
 
 - Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
 
+<b>2. Initial Commercial Appeal</b>  
 After this initial R&D phase, there is a smooth transition to a phase in which the technology begins to be adopted. It has exponentially declined in cost enough that it has its own niche. An example here is golf carts, they are a relatively small and niche market compared to all other vehicles, but it just so happens that the electric powertrain is more optimal for the user experience than an internal combustion engine. This means that electric vehicle technology can be adopted to golf carts, which in the grand scheme of things isn't a very large market, but is just a step along the path to market domination.
 
-### <b>The end of learning rate and the death of a technology</b>
+<b>3. Obvious exponential growth</b>  
+
+![Image description]({{site.url}}/assets/images/s-curve-examples/Chart-EV-Prediction.jpg){: width="420" .align-center}
+
+Another gradual, smooth transition occurs from the second phase into the third, exponential growth. The technology has declined in cost and improved in capability enough that it is now the best option for a large portion of the market and it begins to take significant marketshare. We are living through this today with EVs. Pure electric vehicles currently have around 25% market share worldwide and the current growth rate is around 50%. Extrapolating this out a few years, we find that EVs will be the most common vehicle type on the road.
+
+<b>4. Market Saturation</b>
+No product can grow exponentially forever as we live in a finite universe. Once the market for a technology has been saturated, growth rates begin to decline. Now, unlike phase 2 where the technology only had its own niche, the technology makes everything else a niche. Horses were dominant before the internal combustion engine, but now are mainly used for niche recreational purposes, meanwhile the internal combustion engine powers the majority of vehicles.
+
+It's important to note that growth rates linearly decline as a technology increases in maturity. This is again due to the fact that no technology can grow forever. You can see this in any of the charts above or my prediction for EV market share. Also, given a linearly declining growth rate, the magic of derivatives means that we get a nice smooth exponential looking curve. Next time you hear that the growth rate of EVs is declining, remember that this is a byproduct of market domination.
+
+<b>5. Stagnation</b>
+In the final stage of a technology, it asymptotically approaches 100% market share and we await another disruptive technology to emerge that displaces the current paradigm. We currently see this in internal combustion engine powered automobiles. We have had these products for over a century and there are very marginal improvements in their efficiency and cost. Most of the improvement we've seen in vehicles recently has been in comfort and other user-focused features.
+
+### <b>The End of Learning Rate and the Death of a Technology</b>
+
+In the final stage 
 
 This explains why electrical transformers will be superceded.
 
 - Mention that Growth rates linearly decline, with the image example of EVs
 
+- Note that the growth continues through recessions and depressions, look at AM Radio (Great Depression) and EV Adoption (Covid)
+
+‎
+‎
+‎
 
 #### <b>Appendix: More Examples of Applications of S-Curves</b>
 
