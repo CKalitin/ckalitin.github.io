@@ -29,7 +29,7 @@ The TSAT-1A satellite weighs 42kg and is a tech demo for Earth Observation from 
 
 The default for small satellites is to use a rideshare mission, they only use dedicated launches if it is required for their mission or if they have schedule constraints.
 
-### <b>Payloads That Could've Launched on an SLV</b>
+### <b>Payloads That Could've Launched on a Small Launch Vehicle</b>
 
 1. Korea 425                - Korean Military SAR satellite, 800kg
 2. HawkEye 360 Satellites   - Space Situational Awareness Satellites, 25kg each
