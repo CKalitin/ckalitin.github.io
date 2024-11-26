@@ -86,7 +86,9 @@ This is all on you. No one is going to implement your vision of the future for y
 
 ##### <b>Capital Vs. Genius</b>
 
-The point of this blog post was to illustrate how you can acquire capital to be able to build your vision of the future and why it is good for many decentralized individuals to all work towards building their own visions of the future. This blog post is mainly about this theoretical idea and not how to actually implement it. How to acquire vast amounts of capital is left as an exercise to the reader but how to allocate this capital to maximize impact on the future is a theoretical topic that is important to mention in this context.
+![Image description]({{site.url}}/assets/images/should-accumulate-capital/Autism.png){: width="420" .align-center}
+
+The point of this blog post was to illustrate how you can acquire capital to be able to build your vision of the future and why it is good for many decentralized individuals to all work towards building their own visions of the future. I'm mainly going into this theoretical idea and not how to actually implement it. How to acquire vast amounts of capital is left as an exercise to the reader. However, how to allocate this capital to maximize impact on the future is a theoretical topic that is important to mention in this context.
 
 Capital efficiency is an extremely difficult metric to optimize for. You can't throw capital at this problem because it is fundamentally determined by the intelligence and ability of those involved in a particular enterprise. Companies that amass vast amounts of capital famously become less efficient at spending this capital. Government agencies also suffer from this inefficiency of complacency.
 
