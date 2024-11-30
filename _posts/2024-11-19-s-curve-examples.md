@@ -123,7 +123,9 @@ If you imagine yourself at any stage in the story detailed above except the curr
 
 I'm going to have to rewrite this section 
 
-Latent demand is desire for a product or service that currently isn't offered in the market. Like I mentioned in the previous appendix, there are situations in which the fundamental technologies behind a product improve without direct investment into that product. For example, solar cells leverage semiconductor lithography which has been improving for decades due to investments into integrated curcuits. Through all these decades solar energy was getting cheaper even though there was not much direct investment into it. 
+Latent demand is desire for a product or service that currently isn't offered in the market. Like I mentioned in the previous appendix, there are situations in which the fundamental technologies behind a product improve without direct investment into that product. For example, solar cells leverage semiconductor lithography which has been improving for decades due to investments into integrated curcuits. Throughout all these decades solar energy was getting cheaper even though there was not much direct investment into it. 
+
+So, the theoretical demand for solar was increasing at a price that had not been realized yet. This means a technology can have a long period of indirect advancement, followed by a period of brief extreme growth that realizes the gains of the previous time period. 
 
 So, there was lots of latent demand for solar as the theoretical cost for panels were decreasing, but this can only be realized when producers realize the opportunity and begin to invest directly into solar panels and manufacture them at scale.
 
