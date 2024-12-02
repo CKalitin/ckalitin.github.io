@@ -113,3 +113,20 @@ The inherent hope of this perspective is that as long as long as humanity contin
 I'm currently reading <i>Eccentric Orbits: How a single man saved the world's largest satellite constallation from fiery destruction</i>. This book covers the Iridium satellite internet/cellphone call constellation and it goes through a great example of an S-curve that looks like many discrete processes at first glance. The first stage began with the Motorola study into building a satellite constellation for handling phone calls began around 1988 (phase 1). The Iridium constallation began deployement in 1997 and the first call was made over the network in 1998 (Still phase 1). They had a brief encounter with bankruptcy and later began scaling the constellation and launching a new generation of satellites as revenue increased (Phase 2). At this point the Iridium phones were still a very niche product without much market penetration except in the very unique cases in which there was no better alternative. Next, Starlink entered the satellite internet market and began <a href="https://www.nextbigfuture.com/2022/12/spacex-starlink-has-1-million-active-subscribers.html">growing exponentially </a> (Phase 3) (Note: I keep stubling upon this Brian Wang guy writing about SpaceX). We're currently living through phase 3 of the S-curve, in a decade or two we'll see Starlink reach market saturation and a few decades after that Starlink will be replaced by a new, better techonlogy.
 
 If you imagine yourself at any stage in the story detailed above except the current one, it would not look like any exponential growth was occuring or like you could apply learning rate to understand the future of the industry - part of the reason for this is that little data would exist to determine learning rate or see the S-curve. You could be living through the brief bankruptcy of Iridium and think that the technology was a failure, but the underlying technology was still improving either through direct research or through external development. For example, while the original proposal for Iridium was being worked on at Motorola, satellite buses and other components were gradually becoming less expensive, and by extension the cost to develop and satellite internet constellation constellation was decreasing (Exponential Growth).
+
+#### <b>Appendix: Latent Demand</b>
+
+1. Define it - I didn't know
+2. Give an example, Starlink
+3. Give another example that isn't directly related, Eastern European Countries
+4. This phenomenon means there are times where growth builds up and occurs all at once
+
+I'm going to have to rewrite this section 
+
+Latent demand is desire for a product or service that currently isn't offered in the market. Like I mentioned in the previous appendix, there are situations in which the fundamental technologies behind a product improve without direct investment into that product. For example, solar cells leverage semiconductor lithography which has been improving for decades due to investments into integrated curcuits. Throughout all these decades solar energy was getting cheaper even though there was not much direct investment into it. 
+
+So, the theoretical demand for solar was increasing at a price that had not been realized yet. This means a technology can have a long period of indirect advancement, followed by a period of brief extreme growth that realizes the gains of the previous time period. 
+
+So, there was lots of latent demand for solar as the theoretical cost for panels were decreasing, but this can only be realized when producers realize the opportunity and begin to invest directly into solar panels and manufacture them at scale.
+
+Another example is Starlink. Is it? What was improving? Not launch economics, maybe commercial satellite components. There's latent demand for everything really. 
