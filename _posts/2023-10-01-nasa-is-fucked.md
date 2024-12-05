@@ -158,3 +158,7 @@ The payloads of NASA missions will be commercialized. Currently, NASA is very mu
 ‎
 
 Commercialization has been the trend in all industries. It is inevitable that this will happen in space. It is only a matter of time.
+
+‎
+
+<a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized these insights well</a> by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
