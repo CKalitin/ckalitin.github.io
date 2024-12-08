@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/covers/nasa-is-fucked.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/nasa-is-fucked/JPL-Dragon.jpg">
 </head>
 
 ## How'd This Happen?
@@ -65,7 +65,7 @@ These are the people who spoke out against the COTS, CRS, and Commercial Crew co
 
 It is a testament to the senators and contractors power that they could overcome a directive from the President of the United States. President Obama was in favour of the Commercialization of NASA.
 
-With the recent OIG report on the cost overruns of the Mars Sample Return program (MSR), <a href="https://news.ycombinator.com/item?id=26274117">I saw a post from a former JPL employee that is very relevant to this discussion.</a>
+With the recent OIG report on the cost overruns of the Mars Sample Return program (MSR), <a href="https://news.ycombinator.com/item?id=26274117">I saw a post from a former JPL employee that is very relevant to this discussion.</a> <a href="{{site.url}}/assets/images/nasa-is-fucked/JPL-Dragon.jpg">Backup image in case the original is deleted.</a>
 
 It shows how SpaceX pursued Red Dragon as a Mars Lander. This would be a more efficient platform for conducting science on the surface of Mars. There was intense pressure to not give funding to this program. From the post, it is not entirely clear where this pressure came from or the exact motive. But it is clear that the pressure was enough for SpaceX to cancel Red Dragon and shift over to Starship.
 
