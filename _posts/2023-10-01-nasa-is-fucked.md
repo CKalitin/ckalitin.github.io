@@ -61,9 +61,7 @@ There are many examples of NASA impeding progress in space. Lori Garver's book E
 
 Who was against the commercialization of NASA? Who stands to lose if NASA becomes more efficient? The contractors and senators.
 
-These are the people who spoke out against the COTS, CRS, and Commercial Crew contracts. It is debatable whether they truly believed the commercial companies would fail or if they were just trying to keep their funding.* The true answer obviously lies somewhere in the middle. However, with the last decade of progress in commercial space, it is clear that the commercial companies were the right choice.
-
-*With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
+These are the people who spoke out against the COTS, CRS, and Commercial Crew contracts. It is debatable whether they truly believed the commercial companies would fail or if they were just trying to keep their funding [See Update Dec 13 2023]. The true answer obviously lies somewhere in the middle. However, with the last decade of progress in commercial space, it is clear that the commercial companies were the right choice.
 
 It is a testament to the senators and contractors power that they could overcome a directive from the President of the United States. President Obama was in favour of the Commercialization of NASA.
 
@@ -159,7 +157,10 @@ The payloads of NASA missions will be commercialized. Currently, NASA is very mu
 
 Commercialization has been the trend in all industries. It is inevitable that this will happen in space. It is only a matter of time.
 
-‎
+### Updates
+
+[Update Dec 13 2023]  
+*With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
 [Update Dec 5 2024]  
 <a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized these insights well</a> by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
