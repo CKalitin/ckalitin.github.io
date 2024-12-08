@@ -23,7 +23,7 @@ There are two core explanations:
 
 Cost-Plus contracting gained a lot of popularity during the Second World War. The government needed to build a lot of stuff quickly and cost-plus was the best way to do it. 
 
-This is the Cost-Plus process: Your company gives an estimated price for a contract. If you need more money, oh well, we're at war, you can have it. No one would dare overspend money if your coworker's son would die.
+This is the Cost-Plus process: Your company gives an estimated price for a contract. If you need more money, oh well, we're at war, you can have it. No one would dare overspend money if your coworker's son would die. [Update Dec 7 2024]
 
 No one dies if SLS is delayed 5 years. So, the contractors can delay and get more money. Incentives are not aligned.
 
@@ -33,7 +33,7 @@ The other explanation is politics.
 
 The Senate Launch System (SLS) and Artemis Program are prime examples of NASA's inefficiencies. 
 
-They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Bellik's posts have a lot of good info on this.</a>
+They were born out of the constellation program. <a href="https://ozanbellik.blogspot.com/2021/11/whatever-happened-to-single-launch.html">Ozan Bellik's blog posts have a lot of good info on this.</a>
 
 The Constellation Program's plan to land on the moon involved two launches that docked in Low Earth Orbit. (1) An Ares 5 launches a lander and a TLI stage. (2) An Ares 1 launches an Orion capsule into orbit which docks to the prior launch's payload.
 
@@ -163,7 +163,7 @@ Commercialization has been the trend in all industries. It is inevitable that th
 *With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
 [Update Dec 5 2024]  
-<a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized these insights well</a> by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
+<a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized the insights</a> in this blog post well by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
 
 [Update Dec 7 2024]  
 The fundamental issue with cost-plus contracting now is that contractors are not incentivized enough to move quickly. In World War 2, the contracting paradigm didn't need to include incentives to move quickly because it was implicit in the nationa priorities of the time (not losing). Now, contracting paradigms need to include urgency to complete projects on time because there isn't this external signal to move quickly.
