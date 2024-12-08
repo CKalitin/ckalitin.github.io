@@ -161,4 +161,8 @@ Commercialization has been the trend in all industries. It is inevitable that th
 
 ‎
 
+[Update Dec 5 2024]  
 <a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized these insights well</a> by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
+
+[Update Dec 7 2024]  
+The fundamental issue with cost-plus contracting now is that contractors are not incentivized enough to move quickly. In World War 2, the contracting paradigm didn't need to include incentives to move quickly because it was implicit in the nationa priorities of the time (not losing). Now, contracting paradigms need to include urgency to complete projects on time because there isn't this external signal to move quickly.
