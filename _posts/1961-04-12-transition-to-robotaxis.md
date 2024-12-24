@@ -188,6 +188,8 @@ If devices are as easy to install and swap like a Comma 3, the effect of lock-in
 
 ## <b>Ride Hailing Revolution</b>
 
+### Consider this: https://x.com/aleximm/status/1867257473671082356
+
 I started writing this blog post 293 days ago and working on it here and there over this time. I have less time than ever studying engineering at UBC, so this section will give directional analysis of where this market will go. In the future, quantative analysis is required.
 
 This isn't a quantitative analysis, but rather thinking directionally.
