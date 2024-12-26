@@ -93,8 +93,50 @@ I tried to make each script detect staging events on their own, but this failed.
 
 The atmosphere of Kerbin is not balanced as well at God balanced Earth's atmosphere. When we stage the boosters, we are still only 28km above the surface of Kerbin. This means aerodynamic affects play a major role in the control of the boosters. Unlike <a href="https://youtu.be/eiOzvaEBD0Q?si=kmkaxR_zkjiCH7D6&t=164">Falcon 9's comparatively calm</a> reorientation for boostback where it is above the atmosphere, our boosters are still in the atmosphere and have to fight against it. We can't rely purely on RCS to reorient the boosters and atmospheric forces are too strong. So, we fire the engines once we are within 90 degree of the boostback burn direction vector. This leads to a batshit crazy looking separation and boostback startup as all the boosters are point in different directions and getting wildly flung around by the atmosphere. Watch the video at the top <a href="https://youtu.be/TlE2G-zM3PI?si=vkA91f0ccABY5PED&t=111">at the 1:51 mark</a> to see what I mean.
 
-Also, in testing I had the force of the decouple between the center core and the boosters set too high. Because the decoupler is at the bottom of the boosters for aesthetic reasons, this meant the top of the boosters would be pushed into the center core as the bottom was pushed away. <a href="https://youtu.be/vHWDNrrfhnI?si=ywafNIzUZUpWuCA0&t=135">Soyuz Style</a> - </a href="{{site.url}}/assets/images/more-kos-boosters/SoyuzBoosterSeparation.jpg">This image really gets the point across</a>. The solution was the decrease the force the decouplers exerted and to add small solid separation motors. Note that the force vector of the separation motors runs through the center of mass of the boosters to ensure no torque.
+Also, in testing I had the force of the decouple between the center core and the boosters set too high. Because the decoupler is at the bottom of the boosters for aesthetic reasons, this meant the top of the boosters would be pushed into the center core as the bottom was pushed away. <a href="https://youtu.be/vHWDNrrfhnI?si=ywafNIzUZUpWuCA0&t=135">Soyuz Style</a> - <a href="{{site.url}}/assets/images/more-kos-boosters/SoyuzBoosterSeparation.jpg">This image really gets the point across</a>. The solution was the decrease the force the decouplers exerted and to add small solid separation motors. Note that the force vector of the separation motors runs through the center of mass of the boosters to ensure no torque.
 
 ### <b>Upper Stage Burn</b>
 
+![Image description]({{site.url}}/assets/images/more-kos-boosters/Upper.jpg){: height="400" .align-center}
 
+Once the center core propels the stack to an apogee of 77 km (exterimentally found to be the optimal value to have enough fuel to land), the second stage separates and continues onto orbit. 
+
+When you're playing KSP yourself, the common way to get the second stage into orbit is to create a maneuver node at the apoapsis and burn prograde until you have your desired periapsis (likely above 70km, the barrier of the atmosphere). However, this usually leads to a coast phase between separation of the first stage and startup of the second stage engine. This is not very realistic, so I wanted to avoid it.
+
+Instead, I start the second stage engine immediately at a throttle of 50%. The engine keeps running until we make orbit. This makes a far more realistic looking ascent profile. 
+
+An issue emerges when the engine is ran at a throttle greater than ~50%. Because the second stage starts it's burn so early, it is still increasing in altitude and is far away from it's peak on it's parabolic flight, the apoapsis. This means that as we coast to apoapsis, the thrust from the engine is making that point higher and higher and further away in time. If this flight profile is followed, we keep burning to increase our apoapsis, but never efficiently enough to increase our periapsis so we reach a stable orbit (Oberth effect ftw).
+
+To solve this, I have the second stage engine throttle down to 50% and control it's pitch to ensure the apoapsis doesn't run away from us. When we point down, the apoapsis decreases in height and comes closer to us in time. The opposite is true when we point up. So, the upper stage script is constantly adjusting the pitch to keep the apoapsis at a constant time away from us. It estimates the remaining time in the burn, and tries to make it so that we reach the apoapsis right when the burn ends. Once you understand the formulas, the math for this is very simple to implement.
+
+```
+CLEARSCREEN.
+Print "BURNING TO ORBIT" at (0, 0).
+
+LOCK STEERING to HEADING(targetBearing, 10, 0).
+LOCK THROTTLE to 0.5.
+
+UNTIL SHIP:ALTITUDE > 65000 { PRINT "WAITING FOR 65KM ALTITUDE FOR FINE CONTROL" at (0, 0).}
+
+// We aim to burn until 10 seconds after the apoapsis to get into orbit, so calculate throttle based off this target burn time
+UNTIL ORBIT:PERIAPSIS > 75000 {
+    SET shipdV to 9.81 * isp * ln(SHIP:MASS / SHIP:DRYMASS).
+    SET remainingdVToLEO to leoVel - SHIP:VELOCITY:ORBIT:MAG.
+
+    SET finalWetMass to SHIP:DRYMASS * 2.71828^(remainingdVToLEO / (9.81 * isp)).
+    SET burnMass to SHIP:MASS - finalWetMass.
+    SET burnTime to burnMass / massFlowRate.
+
+    SET targetApTime to 10. // We want to be 10 seconds away from apoapsis forever
+
+    SET timeToAp to ETA:APOAPSIS.
+
+    SET targetPitch to CLAMP((targetApTime - timeToAp)*0.5, -30, 30).
+
+    LOCK STEERING to HEADING(targetBearing, targetPitch, 0).
+
+    PrintValue("Engine ISP", isp, 2).
+    PrintValue("Engine Mass Flow Rate (t)", massFlowRate, 3).
+    // The rest of the print statements are not included
+}
+```
