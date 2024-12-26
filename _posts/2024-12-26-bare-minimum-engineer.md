@@ -1,12 +1,21 @@
 ---
 layout: post
-title: "How To Become The Bare Minimum Engineer"
-categories: Technology
+title: "The Bare Minimum Engineer"
+categories: Engineering
 author:
  - Christopher Kalitin
 ---
 
+Longer title: How To Become The Bare Minimum Engineer
+
 This is partly a play on Casey Handmer's <a href="https://caseyhandmer.wordpress.com/2024/01/30/the-well-rounded-engineer/">The Well-Rounded Engineer</a>.
+
+Slightly a continuation of How To Teach Engineering, though that was mostly just yapping.
+
+Potential Structure:
+1. Get on the Positive Slope Side of the J Curve
+2. How To Become The Bear Minimum Engineer
+3. How Not To Become The Bare Minimum Engineer
 
 ### The Bare Minimum Engineer
 1. Play on Handmer's The Well-Rounded Engineer
