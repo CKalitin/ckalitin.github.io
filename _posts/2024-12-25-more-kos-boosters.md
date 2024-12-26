@@ -17,7 +17,7 @@ Read the code <a href="https://github.com/CKalitin/KOS-Scripts">here</a>.
 
 I have a tendency to only write blog posts about things I think are impressive. This blog post isn't very technically impressive to me, but documenting your work has value in and of itself. <a href="https://mischajohal.com/Thoughts/Reflecting-on-UBC-Solar">Mischa Johal</a>, THE UBC SOLAR WIZARD, has done a great job at drilling into our heads at UBC Solar the importance of documentation.
 
-I was going to make this blog post understandable to non technical kOS folk and hence increase the readership infinitely, however I realized I'm the only person who will ever read this.
+I was going to make this blog post understandable to non-technical non-kOS folk and hence increase the readership infinitely, however I realized I'm the only person who will ever read this.
 
 This blog post is a continuation of my previous post on <a href="https://ckalitin.github.io/space/2024/07/24/kos-booster-landing.html">How to Land an Orbital Rocket Booster with kOS</a>. In that post I described how I figured out how to write the fundamental code required to land a booster. Since then, I tinkered some more to create a fully autonomous KSP launch vehicle that can land 5 boosters simultaneously. It is completely beautiful and magical to watch agents you wrote autonomously navigate an environment - agents that are self landing rockets!!
 
