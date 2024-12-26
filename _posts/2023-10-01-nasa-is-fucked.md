@@ -120,7 +120,7 @@ Is it too far of a stretch to assume that private companies will be able to buil
 
 Commercialization is inevitable either way. We might as well embrace it early.
 
-The early voyages to North America were government-funded. How many are today? None. The early voyages to the Moon were government-funded. How many will be entirely government-funded in the future? None.
+The early voyages to North America were government-funded. How many are today? Almost none aside from the military. The early voyages to the Moon were government-funded. How many will be entirely government-funded in the future? None.
 
 I hope NASA never builds a moon base. They are bad at building big orange rockets, so it's not a stretch to assume a NASA moon base would be far over budget and behind schedule as well.
 
