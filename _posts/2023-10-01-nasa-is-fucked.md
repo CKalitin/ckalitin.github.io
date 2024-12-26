@@ -160,7 +160,7 @@ Commercialization has been the trend in all industries. It is inevitable that th
 ## Updates
 
 [Update Dec 13 2023]  
-With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
+With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues. Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
 [Update Dec 5 2024]  
 <a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized the insights</a> in this post well by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
