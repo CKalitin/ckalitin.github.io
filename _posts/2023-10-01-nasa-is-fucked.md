@@ -109,7 +109,7 @@ Now that we have set the goal, we can use it as a framework to analyze NASA's cu
 
 Show me a single example where a government agency has been more efficient than private companies. I can't think of a single one off the top of my head.
 
-NASA should be a customer, not a provider.
+NASA should be a customer, not a provider.  
 "One customer among many" - Jim Bridenstine, former NASA Administrator
 
 Private companies have proven their ability to get to space cheaper and more efficiently than NASA. This is why for most payloads, NASA uses commercial launch providers. Private companies can also get people to space cheaper and safer than NASA could. This isn't purely SpaceX's doing, but they have been the most successful at it.
