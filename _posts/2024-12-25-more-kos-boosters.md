@@ -160,8 +160,7 @@ Another possible solution to this problem is to aggressively pitch the booster s
 
 ### <b>Binary Search & Lack of Landing Pads</b>
 
-4. More unified landing script from last blog post - each booster has it's own config file + boot files are used (put this somewhere else?)
-5. MERRY CHRISTMAS!
+![Image description]({{site.url}}/assets/images/more-kos-boosters/Boosters-Landing.jpg){: height="400" .align-center}
 
 The Kerbal Konstructs mod (I think it's this one) I'm using to add the extra landing pads at the Kerbal Space Centre only adds three landing pads, presumably chosen for the required amount for a Falcon Heavy RTLS mission. I have 5 boosters so why don't we just they to get them to land at the same landing site in a pattern? Very beautiful, except I was slightly off when setting the coordinates for the landing position and they where perfectly aligned. Oh well.
 
@@ -171,4 +170,86 @@ Luckily, I had already created my own function for this that uses binary search 
 
 However, the KSP Orbit information is all given relative to the core of the planet. This means that it doesn't account for the rotation of Kerbin. The simple solution to this is finding the circumference of Kerbin (2\*600km\*pi) and multiplying this by your eta to get an offset. This approach doesn't take into account aerodynamic forces (I think trajectories does this), but the error is decreases as we get closer to landing so the boosters asymptotically approach the correct impact location (the landing site).
 
-### <b>A Slightly 
+Binary Search Function found in KOS-Scripts/HelperFunctions.ks:
+```
+// Return the lat/long of the position in the future on the current orbit at a given altitude
+// Ie. find the geolocation when we're at x meters above the surface in range y seconds
+// SET impactGeoPos to GetLatLngAtAltitude(0, SHIP:OBT:ETA:PERIAPSIS, 10).
+function GetLatLngAtAltitude {
+    local parameter targetAltitude. // Meters
+    local parameter timeRange. // Seconds
+    local parameter altitudePrecision. // Allowable meters from given altitude to be considered correct, can't asymptote and crash the game
+
+    // Replace 'SET' with 'Local'
+    // Lower bound is present, upper bound is future
+    local lowerBound to TIME:seconds.
+    local upperBound to TIME:seconds + timeRange.
+    local midTime to 0.
+
+    // Binary Search
+    for x in range(0, 35) {
+        SET midTime to (lowerBound + upperBound) / 2.
+        local midAltitude to body:altitudeof(positionat(SHIP, midTime)).
+
+        if midAltitude < targetAltitude {
+            SET upperBound to midTime.
+        } else {
+            SET lowerBound to midTime.
+        }
+
+        // If error less than precision
+        if ABS(ABS(midAltitude) - targetAltitude) < altitudePrecision { BREAK. }
+    }
+
+    local geopos to BODY:GEOPOSITIONOF(positionat(SHIP, midTime)).
+    // Longitude rotation of planet during coast to altitude ((360 degrees * seconds until impact) / seconds per rotation) * cos(cosine of latitude becuase of curvature)
+    local rotationAdjustment to (360*(midTime-TIME:seconds)/BODY:rotationperiod) * cos(geopos:lat).
+
+    return latlng(geopos:lat, geopos:lng - rotationAdjustment).
+}
+```
+
+### <b>A Slightly More Unified Solution to Landing</b>
+
+![Image description]({{site.url}}/assets/images/more-kos-boosters/Quad-Landing.jpg){: height="400" .align-center}
+
+In my <a href="https://ckalitin.github.io/space/2024/07/24/kos-booster-landing.html">previous blog post</a> on kOS scripts, I wrote this:  
+<i>"I imagine the solution is to track the estimated net displacement in landing position during the Suicide Burn. With the estimated time to touchdown, current pitch, and current horizontal velocity you could approximate the net displacement. Add this to the target landing location and it should be a much more accurate landing."</i>
+
+This quote is in reference to suboptimal solution to final propulsive descent that I came up with in my first iteration. An issue arises when your final landing burn is not perfectly vertical. Because there is a horizontal component to your thrust, your impact position shifts closer to you. If you were originally targetting your landing site before the landing burn, this horizontal component means you'll now land far short of it. My solution at the time was to adjust the target landing position by a constant so that we would initially overshoot, but end up landing right on target.
+
+The addition of a constant was a very imprecise way to solve this issue. If we came it in different angles we would be off target (imagine, in the limit, a perfectly vertical or perfectly horizontal trajectory). So, the constant was just the eye-balled optimal value for an expected trajectory.
+
+A better solution is to calculate an estimate of your net horizontal displacement during the landing burn. Then, you can add this value to your target landing location and end up far closer to the target in a wider range of trajectories.
+
+```
+function GetSuicideBurnNetDisplacementEstimate {
+    local pitchRelativeToDown to vang(ship:facing:forevector, up:forevector). // Eg. up = 0, horizontal = 90
+
+    // Iterate over every second until impact and linearly estimate the angle relative to down for every second
+    // With this value, calculate the difference in horizontal velocity, and add to net displacement
+    local localSuicideBurnLength to GetSuicideBurnLength().
+    local t to localSuicideBurnLength.
+    local netDisplacement to 0.
+    UNTIL (t < 0) {
+        local angle to lerp(0, pitchRelativeToDown, t / localSuicideBurnLength).
+        local xVel to SIN(angle) * ((SHIP:AVAILABLETHRUST*EstThrottleInSuicideBurn) / SHIP:MASS). // F/m = a, thrust in kN, mass in tons / mega grams / kilo kilograms you get kN/t or N/kg, so the formula works
+        SET netDisplacement to netDisplacement + xVel.
+        SET t to t - 1.
+    }
+
+    return netDisplacement.
+}
+```
+
+Above you can see the code for this estimated displacement function.
+
+It works by getting your current pitch relative to vertical. It assumes you decrease your pitch linearly as you come in for landing. With this assumption, it steps through second by second to calculate your horizontal velocity at each step and takes the sum of these velocities to get your net displacement. This is a slightly shitty implementation and I didn't know the meaning of the word integral when I wrote this, but it works (mostly).
+
+The "mostly works" part is adjusted for by another constant! Use this one easy trick to solve all your problems! Just add another terms! You can see the EstThrottleInSuicideBurn variable in the function above. We need to know our average throttle during the landing burn to get an accurate displacement result, and that's what this value represents. I set it to 1.5 (150%) in the config file for the boosters (<a href="https://github.com/CKalitin/KOS-Scripts/blob/main/Dzhanibekov/DzhanibekovBoosterEast.ks">KOS-Scripts/Dzhanibekov/DzhanibekovBoosterEast.ks</a>). This is not quite a real value because we of course never expect more than 100% throttle, but I experimentally found it to be the proper value. A common theme in this project is experimentally finding proper parameters mostly because the experiments here are watching rockets land!
+
+The config file for the boosters contains slightly more information than just the estimated throttle during the landing burn. It also contains the pitch multiplier that specifies how much the boosters should pitch to minimize error between intended landing site and impact position, craft height, and other variables. This "config" file isn't quite a config file because kOS doesn't allow this (shitty language). So, it also has the code to handle staging and running the landing script after the boosters have separated from the core.
+
+I've covered the most important parts of this project, If you have questions, <a href="https://x.com/CKalitin">DM me</a>.
+
+MERRY CHRISTMAS!!! 🎄🎄🎄
