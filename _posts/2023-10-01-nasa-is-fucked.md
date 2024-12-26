@@ -157,7 +157,7 @@ The payloads of NASA missions will be commercialized. Currently, NASA is very mu
 
 Commercialization has been the trend in all industries. It is inevitable that this will happen in space. It is only a matter of time.
 
-### Updates
+## How to Fix NASA
 
 [Update Dec 13 2023]  
 With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
