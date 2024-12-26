@@ -34,11 +34,12 @@ This is all to say that this isn't a technologically insightful or impressive pr
 
 ![Image description]({{site.url}}/assets/images/more-kos-boosters/Dzhanibekov-Ascent.jpg){: height="400" .align-center}
 
-On real launch vehicles, getting the payload into orbit is the most important objective of every launch, recovery of hardware is secondary. However, unlike a real satellite, the output of my scripts is not economically productive. The output of my scripts is purely watching boosters autonomously land and marvelling at the sight. This is important context for understanding the parameters for state changes during launch.
+On real launch vehicles, getting the payload into orbit is the most important objective of every launch, recovery of hardware is secondary. However, unlike a real satellite, the output of my scripts is not economically productive. The output of my scripts is purely watching boosters autonomously land and marvelling at the sight. This is important context for understanding the parameters for state changes during launch (mass instead of velocity).
 
 The Dzhanibekov (most impressive Cosmonaut to ever live) launch vehicle is a design that have a single core with 4 side mounted boosters. It has a payload capacity of about 1 ton in KSP. This is an extremely overengineered rocket because it's goal is to look cool, not be efficient. One productive insight from this project is a better appreciation of the difficulty of recovering high-energy stages. The side boosters separate at around 700/s and ~28km altitude. This is close enough to the launch site that the boost back burn is not very expensive. However, the center core separates at a far higher altitude and higher velocity, meaning it requires far more fuel to return to the launch site. This is sub-optimal as you are leaving a lot of payload capacity on the table. Hence why SpaceX doesn't try to recover the center core of the Falcon Heavy anymore. 
 
 ### <b>How Ascent Works</b>
+
 ![Image description]({{site.url}}/assets/images/more-kos-boosters/front_Dzhanibekov_1.png){: height="400" .align-center}
 
 Ascent is very simple. 
@@ -140,3 +141,20 @@ UNTIL ORBIT:PERIAPSIS > 75000 {
     // The rest of the print statements are not included
 }
 ```
+
+### <b>Booster Aerodynamic Control Issues</b>
+
+![Image description]({{site.url}}/assets/images/more-kos-boosters/front_Dzhanibekov 1_2.png){: height="400" .align-center}
+
+When I was first testing the landing script, I only needed to test descent and not worry about ascent. This meant I only had to optimize for aerodynamics on descent. If you don't understand how to optimize a booster for descent I'm not gonna be able to explain it without being with you in person - If you'd like this please <a href="https://x.com/CKalitin">send me a dm</a>. The basic principles are that you want high drag and for your center of mass to be below your center of drag. However, on ascent you want the opposite. The Falcon 9 solves this with deployable grid fins, but we don't have this in KSP 1 (RIP KSP 2).
+
+Because your rocket burns fuel as it ascends, the center of mass shifts. We can set the rocket to first use fuel from the upper fuel tanks so that the COM shifts downwards. In a scenerio where our COL (Center of Lift) stays constant (Eg. New Glenn without deployable aero surfaces), at the begining of our first stage burn we could have COM below COL to ensure we fly point end up, and at the end when we're flying back, we could have COM above COL to ensure we fly engines first. In my first iteration of the vehicle this was what I aimed for, but the center of mass didn't shift enough to allow for stable ascent and stable descent.
+
+The solution (as SpaceX learned on Falcon 9!) is deployable control surfaces. Instead of having static fins, I added joints from the Breaking Ground DLC to the fins so they could be stowed on ascent and deployed for descent. This solves to COL problem as we can artificially shift it when we descent by deploying fins at the top of the rocket.
+
+![Image description]({{site.url}}/assets/images/more-kos-boosters/F9-GrassHopper.jpg){: height="400" .align-center}
+
+Another issue was the drag on descent. When I was testing descent in the previous blog post, I created Falcon 9 Grass Hopper looking landing legs. These had a big base for supporting the legs that provided a tremendous amount of drag on descent. The completed rocket did not have this base and hence had far lower drag when on final descent. This is the difference between a terminal velocity of ~200m/s and ~500m/s. As you might imagine, this is an extreme difference in the fuel required to land. The solution is simple, air breaks. They look slightly ugly and are slightly unrealistic, but they work.
+
+Another possible solution to this problem is to aggressively pitch the booster side to side on descent. This way, you can greater increase average drag force on the booster. Imagine this like doing S-curves while plummeting down to the surface. Although this would be a great mix between and extremely elegent simplification of the problem and a batshit insane looking descent, air breaks were far simpler to implement. Just add them to the craft and set them to an action group, simple.
+
