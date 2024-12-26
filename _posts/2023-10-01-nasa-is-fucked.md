@@ -163,7 +163,7 @@ Commercialization has been the trend in all industries. It is inevitable that th
 With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues . Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
 [Update Dec 5 2024]  
-<a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized the insights</a> in this blog post well by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
+<a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized the insights</a> in this post well by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
 
 [Update Dec 7 2024]  
 The fundamental issue with cost-plus contracting now is that contractors are not incentivized enough to move quickly. In World War 2, the contracting paradigm didn't need to include incentives to move quickly because it was implicit in the national priorities of the time (not losing the war). Now, contracting paradigms need to include urgency to complete projects on time because there isn't this external signal to move quickly.
