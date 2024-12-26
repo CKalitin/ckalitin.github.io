@@ -11,8 +11,7 @@ author:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TlE2G-zM3PI?si=CwmZvX_dRyTEJXnh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-FIX LINK FIX LINK FIX LINK
-X Post Link for comments: <a href="https://x.com/CKalitin/status/1816283619213582749">here</a>.
+X link if you have comments: <a href="https://x.com/CKalitin/status/1872162367565676964">here</a>.
 
 Read the code <a href="https://github.com/CKalitin/KOS-Scripts">here</a>.
 
