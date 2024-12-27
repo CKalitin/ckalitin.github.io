@@ -89,7 +89,7 @@ In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate
 
 This lookup table appraoch required 16 KB of flash memory on the ESP32. If we really wanted to do this on the UBC Solar battery pack we could shrink the lookup table to 128 values and probably have enough flash left over for the other programs. However, this is still a very stupid idea. We aren't software devs that can throw memory and compute at all of our problems.
 
-![Test Results]({{site.url}}/assets/images/esp32-adc-characterization/LUT-Values.jpg){: height="100" .align-center}  
+![Test Results]({{site.url}}/assets/images/esp32-adc-characterization/LUT-Values.jpg){: height="400" .align-center}  
 <i>Blue Line = DAC Output Voltage, Red Line = Unadjusted ADC Reading, Yellow Line = ADC Reading Adjusted with Lookup Table</i>
 
 The shape of the error looks very similar in this test and the calibrated reading is spot on with what we expect. However, I later found out that the output of the DAC cannot be trusted. When testing with a multimeter, it's output was inaccurate in a similar was in which the ADC was. So, this kind of test where you use the DAC to calibrate the ADC is not possible on my ESP32 chip.
