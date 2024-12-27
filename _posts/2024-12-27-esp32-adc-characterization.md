@@ -57,6 +57,7 @@ For the previous few months we've been trying to diagnose an issue we've been ha
 A few days ago I had my last final exam for the term, so the real work of figuring out how microcontrollers actually work could begin. After bouncing around a few of my existing projects I decided to characterize the ADCs on my STM32 F031K6T6 and ESP32-WROOM-32D to get a better understanding of how to use them and learn more about how they work along the way.
 
 All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSSoQIURZ027khO06cPYy9pPMkBiIPu_ZhBbcTdWYQ/edit?usp=sharing">here</a>.
+My code can be found <a href="https://github.com/CKalitin/ESP32-WROOM-32D/blob/master/ADC-Self-Calibration/src/main.cpp">here</a> if you look through previous commits.
 
 ### <b>Initial Testing</b>
 
@@ -82,10 +83,10 @@ I also tested with a 1.2V AAA battery to ensure that the potentiometer was not a
 
 ### <b>Using the esp32-adc-calibration Github repo</b>
 
-![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="100" .align-center}  
+![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="400" .align-center}  
 <i>This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.</i>
 
-In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this</a> project that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find you error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds it into an arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for reach range in between them it calculates the error. With these ranges you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
+In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this gtihub repo</a> that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find you error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds it into an arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for reach range in between them it calculates the error. With these ranges you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
 
 This lookup table appraoch required 16 KB of flash memory on the ESP32. If we really wanted to do this on the UBC Solar battery pack we could shrink the lookup table to 128 values and probably have enough flash left over for the other programs. However, this is still a very stupid idea. We aren't software devs that can throw memory and compute at all of our problems.
 
@@ -93,3 +94,19 @@ This lookup table appraoch required 16 KB of flash memory on the ESP32. If we re
 <i>Blue Line = DAC Output Voltage, Red Line = Unadjusted ADC Reading, Yellow Line = ADC Reading Adjusted with Lookup Table</i>
 
 The shape of the error looks very similar in this test and the calibrated reading is spot on with what we expect. However, I later found out that the output of the DAC cannot be trusted. When testing with a multimeter, it's output was inaccurate in a similar was in which the ADC was. So, this kind of test where you use the DAC to calibrate the ADC is not possible on my ESP32 chip.
+
+I initially wanted to write my own self calibration script for my STM32, but after realizing the DAC may not be trustworthy and the fact that unlike UBC Solar's STM32 chip mine doesn't have a DAC, I decided to abandon this idea. If on Solar we find that the DAC on our chip is trustworthy, this could be a good way to calibrate the ADCs on any of our boards, not just the ECU (Elithion Control Unit) in the Battery Pack.
+
+### <b>Testing Attenuation</b>
+
+In the <a href="https://github.com/e-tinkers/esp32-adc-calibrate/blob/master/README.md">README</a> for the esp32-adc-calibrate repo, the author mentions that reading the <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc_calibration.html">ADC Calibration</a> documentation is a good first step before implementing the code. I read it and found the esp_adc_cal_characterize() function that allows you to set the attenuation, bit width, and other parameters for either of the two ADCs on the ESP32-WROOM-32D. 
+
+![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-0-2.5.jpg){: height="400" .align-center}  
+![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-12.jpg){: height="400" .align-center}  
+<i>Little difference was found between all the attenuation values.</i>
+
+I wrote some firmware inspried by the github repo above that automatically tested the ADC given a range of DAC values. This was before I found out the DAC is not trustworthy to output specific voltages within 0.1V, and I needed ~0.01V precision.
+
+With that firmware, I automatically tested the attenuation values of 0 dB, 2.5dB, and 12dB to see if there was any difference and found none. Attenuation is essentially signal boosting, and I was using a small jumper cable, so it made little difference. However, when swapping out the jumper cable for a short paper clip I found that the noise was reduced. When I get into designing PCBs I'm sure I'll understand this phenomenon better.
+
+### <b>Raw ADC Values Testing</b>
