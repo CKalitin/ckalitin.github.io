@@ -53,7 +53,7 @@ I also tested with a 1.2V AAA battery to ensure that the potentiometer was not a
 ### <b>Using the esp32-adc-calibration Github repo</b>
 
 ![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="500" .align-center}  
-<i>This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table and the line count.</i>
+<i>This is the code from the Github repo I used, notice the line count and the massive array at the top that stores the lookup table.</i>
 
 In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this Github repo</a> that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find your error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds them into an Arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for each range in between them, it calculates the error. With these ranges, you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
 
