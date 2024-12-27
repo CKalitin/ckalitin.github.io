@@ -66,10 +66,10 @@ All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSS
 I initially wanted a graph of ADC voltage vs. True voltage (as measured by a multimeter) for both microcontrollers. I used a potentiometer to vary voltage between 0-3.3 to get a full range of values. I have no power supply yet so we must work with the tools we have. It doesn't look like the potentiometer introduced much error when comparing these results to those later in testing, the potentiometer only introduced some noise.
 
 ![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="300" .align-center}
-###### STM32 ADC Voltage vs. True Voltage
+Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="300" .align-center}
-###### ESP32 ADC Voltage vs. True Voltage
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="300" .align-center}  
+Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial
 
 The shape of the ESP32's ADC voltage graph perplexed me because it appears the first value it observed was 0.14V, and it stopped at 3.18V. Some googling & talking to Grok showed that below 0.1V or above 3.1V the ESP32's ADCs are not accurate. In the UBC Solar battery pack we give the current sensor a 1.8V reference voltage to offset the readings. So, the we are right in the middle of the accurate range of the ESP32's microcontroller. STM32 has a similar range in which it is meant to operate.
 
