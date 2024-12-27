@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/more-kos-boosters/Quad-Landing.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/esp32-adc-characterization/STM32-Zoomed.jpg">
 </head>
 
 ### <b>Introduction</b>
