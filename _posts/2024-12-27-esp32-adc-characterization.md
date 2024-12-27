@@ -51,8 +51,8 @@ I joined the UBC Solar design team in September as a member of the Battery Manag
 
 For the previous few months we've been trying to diagnose an issue we've been having with the current sensor on our battery pack. We use the HASS-100S hall effect sensor and it was giving us inaccurate current data during competition in the summer. We spent months diving deep into what could cause this and the project took many turns. We started at characterizing the current sensor itself, then realized the ADC pin was the issue and tried characterizing it, then realized all ADC pins were off which is where we arrive today. This process took months mostly because we didn't understand these systems from first principles, now that I've done this testing, fixing this kind of issue in the future will take 10x-100x less time.
 
-![Error Graph from our initial characterization of the current sensor]({{site.url}}/assets/images/esp32-adc-characterization/initial-error.jpg){: height="300" .align-center}
-###### Error Graph from our initial characterization of the current sensor
+![Error Graph from our initial characterization of the current sensor]({{site.url}}/assets/images/esp32-adc-characterization/initial-error.jpg){: height="300" .align-center}  
+<i>Error Graph from our initial characterization of the current sensor</i>
 
 A few days ago I had my last final exam for the term, so the real work of figuring out how microcontrollers actually work could begin. After bouncing around a few of my existing projects I decided to characterize the ADCs on my STM32 F031K6T6 and ESP32-WROOM-32D to get a better understanding of how to use them and learn more about how they work along the way.
 
@@ -60,21 +60,23 @@ All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSS
 
 ### <b>Initial Testing</b>
 
-![My Initial Testing Setup]({{site.url}}/assets/images/esp32-adc-characterization/test-setup.jpg){: height="300" .align-center}
-###### My Initial Testing Setup
+![My Initial Testing Setup]({{site.url}}/assets/images/esp32-adc-characterization/test-setup.jpg){: height="250" .align-center}  
+<i>My Initial Testing Setup</i>
 
 I initially wanted a graph of ADC voltage vs. True voltage (as measured by a multimeter) for both microcontrollers. I used a potentiometer to vary voltage between 0-3.3 to get a full range of values. I have no power supply yet so we must work with the tools we have. It doesn't look like the potentiometer introduced much error when comparing these results to those later in testing, the potentiometer only introduced some noise.
 
-![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="300" .align-center}
-Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial
+![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="400" .align-center}  
+<i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="300" .align-center}  
-Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="400" .align-center}  
+<i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
+
+With the ADC observed voltage and the expected voltage, I fit a polynomial to the error using Google Sheet's built in function and plotted the voltage + error polynomial on the graph. Note that I didn't redo the test here with the error polynomial applied in firmware, I just added it to the spreadsheet values. With the error polynomial applied, the STM32 and ESP32 ADCs became accurate to within 0.01V in most of the range (0.5V - 3.0V). The reason this range doesn't exactly match the expected 0.1V - 3.1V range that the ESP32 chip should be accurate in is because of improper application of the error polynomial, I should have deleted values that are outside the range I want.
 
 The shape of the ESP32's ADC voltage graph perplexed me because it appears the first value it observed was 0.14V, and it stopped at 3.18V. Some googling & talking to Grok showed that below 0.1V or above 3.1V the ESP32's ADCs are not accurate. In the UBC Solar battery pack we give the current sensor a 1.8V reference voltage to offset the readings. So, the we are right in the middle of the accurate range of the ESP32's microcontroller. STM32 has a similar range in which it is meant to operate.
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Battery-Testing.jpg){: height="300" .align-center}
-###### Testing with a 1.2 V Battery
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Battery-Testing.jpg){: height="100" .align-center}  
+<i>Testing with a 1.2 V Battery</i>
 
-I also tested with a 1.2V AAA battery to ensure that the potentiometer was not an issue and got similar inaccurate results.
+I also tested with a 1.2V AAA battery to ensure that the potentiometer was not an issue and got results that were similarly inaccurate.
 
