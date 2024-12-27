@@ -63,20 +63,33 @@ All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSS
 ![My Initial Testing Setup]({{site.url}}/assets/images/esp32-adc-characterization/test-setup.jpg){: height="250" .align-center}  
 <i>My Initial Testing Setup</i>
 
-I initially wanted a graph of ADC voltage vs. True voltage (as measured by a multimeter) for both microcontrollers. I used a potentiometer to vary voltage between 0-3.3 to get a full range of values. I have no power supply yet so we must work with the tools we have. It doesn't look like the potentiometer introduced much error when comparing these results to those later in testing, the potentiometer only introduced some noise.
+I initially wanted a graph of ADC voltage vs. True voltage (as measured by a multimeter) for both microcontrollers. Both have 12-bit SAR ADC's so this testing is applicable to the work on the UBC Solar battery pack. I used a potentiometer to vary voltage between 0-3.3 to get a full range of values. I have no power supply (yet) so I must work with the tools I have. It doesn't look like the potentiometer introduced much error when comparing these results to those later in testing, it only introduced some noise.
 
-![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="400" .align-center}  
+![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="350" .align-center}  
 <i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="400" .align-center}  
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="350" .align-center}  
 <i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
+
+The shape of the ESP32's ADC voltage graph perplexed me because it appears the first value it observed was 0.14V, and it stopped at 3.18V. Some googling & talking to Grok showed that below 0.1V or above 3.1V the ESP32's ADCs are not accurate. In the UBC Solar battery pack we give the current sensor a 1.8V reference voltage to offset the readings. So, the we are right in the middle of the accurate range of the ESP32's microcontroller. STM32 chips have a similar range in which they are meant to operate accurately.
 
 With the ADC observed voltage and the expected voltage, I fit a polynomial to the error using Google Sheet's built in function and plotted the voltage + error polynomial on the graph. Note that I didn't redo the test here with the error polynomial applied in firmware, I just added it to the spreadsheet values. With the error polynomial applied, the STM32 and ESP32 ADCs became accurate to within 0.01V in most of the range (0.5V - 3.0V). The reason this range doesn't exactly match the expected 0.1V - 3.1V range that the ESP32 chip should be accurate in is because of improper application of the error polynomial, I should have deleted values that are outside the range I want.
-
-The shape of the ESP32's ADC voltage graph perplexed me because it appears the first value it observed was 0.14V, and it stopped at 3.18V. Some googling & talking to Grok showed that below 0.1V or above 3.1V the ESP32's ADCs are not accurate. In the UBC Solar battery pack we give the current sensor a 1.8V reference voltage to offset the readings. So, the we are right in the middle of the accurate range of the ESP32's microcontroller. STM32 has a similar range in which it is meant to operate.
 
 ![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Battery-Testing.jpg){: height="100" .align-center}  
 <i>Testing with a 1.2 V Battery</i>
 
-I also tested with a 1.2V AAA battery to ensure that the potentiometer was not an issue and got results that were similarly inaccurate.
+I also tested with a 1.2V AAA battery to ensure that the potentiometer was not an issue and got results that were similarly inaccurate. Note that I converted in the spreadsheet with the formula (ADC Reading / 4095) * 3.3. This assumes the reference voltage is 3.3V and converts the ADC reading assuming the conversions: 0 = 0V and 4095 = 3.3V.
 
+### <b>Using the esp32-adc-calibration Github repo</b>
+
+![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="100" .align-center}  
+<i>This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.</i>
+
+In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this</a> project that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find you error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds it into an arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for reach range in between them it calculates the error. With these ranges you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
+
+This lookup table appraoch required 16 KB of flash memory on the ESP32. If we really wanted to do this on the UBC Solar battery pack we could shrink the lookup table to 128 values and probably have enough flash left over for the other programs. However, this is still a very stupid idea. We aren't software devs that can throw memory and compute at all of our problems.
+
+![Test Results]({{site.url}}/assets/images/esp32-adc-characterization/LUT-Values.jpg){: height="100" .align-center}  
+<i>Blue Line = DAC Output Voltage, Red Line = Unadjusted ADC Reading, Yellow Line = ADC Reading Adjusted with Lookup Table</i>
+
+The shape of the error looks very similar in this test and the calibrated reading is spot on with what we expect. However, I later found out that the output of the DAC cannot be trusted. When testing with a multimeter, it's output was inaccurate in a similar was in which the ADC was. So, this kind of test where you use the DAC to calibrate the ADC is not possible on my ESP32 chip.
