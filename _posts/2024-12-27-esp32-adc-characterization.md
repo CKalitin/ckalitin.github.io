@@ -56,8 +56,8 @@ For the previous few months we've been trying to diagnose an issue we've been ha
 
 A few days ago I had my last final exam for the term, so the real work of figuring out how microcontrollers actually work could begin. After bouncing around a few of my existing projects I decided to characterize the ADCs on my STM32 F031K6T6 and ESP32-WROOM-32D to get a better understanding of how to use them and learn more about how they work along the way.
 
-All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSSoQIURZ027khO06cPYy9pPMkBiIPu_ZhBbcTdWYQ/edit?usp=sharing">here</a>.
-My code can be found <a href="https://github.com/CKalitin/ESP32-WROOM-32D/blob/master/ADC-Self-Calibration/src/main.cpp">here</a> if you look through previous commits.
+All test data can be found <a href="https://docs.google.com/spreadsheets/d/14OSSoQIURZ027khO06cPYy9pPMkBiIPu_ZhBbcTdWYQ/edit?usp=sharing">here</a>.  
+My code can be found <a href="https://github.com/CKalitin/ESP32-WROOM-32D/blob/master/ADC-Self-Calibration/src/main.cpp">here</a>, if you look through previous commits you'll find earlier test code I wrote for this project.
 
 ### <b>Initial Testing</b>
 
@@ -66,27 +66,27 @@ My code can be found <a href="https://github.com/CKalitin/ESP32-WROOM-32D/blob/m
 
 I initially wanted a graph of ADC voltage vs. True voltage (as measured by a multimeter) for both microcontrollers. Both have 12-bit SAR ADC's so this testing is applicable to the work on the UBC Solar battery pack. I used a potentiometer to vary voltage between 0-3.3 to get a full range of values. I have no power supply (yet) so I must work with the tools I have. It doesn't look like the potentiometer introduced much error when comparing these results to those later in testing, it only introduced some noise.
 
-![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="350" .align-center}  
+![STM32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Multimeter-Testing.jpg){: height="320" .align-center}  
 <i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="350" .align-center}  
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/ESP32-Multimeter-Testing.jpg){: height="320" .align-center}  
 <i>Blue Line = ADC Observed Voltage, Red Line = True Voltage (what we expect), Yellow Line = ADC Voltage plus Error Polynomial</i>
 
 The shape of the ESP32's ADC voltage graph perplexed me because it appears the first value it observed was 0.14V, and it stopped at 3.18V. Some googling & talking to Grok showed that below 0.1V or above 3.1V the ESP32's ADCs are not accurate. In the UBC Solar battery pack we give the current sensor a 1.8V reference voltage to offset the readings. So, the we are right in the middle of the accurate range of the ESP32's microcontroller. STM32 chips have a similar range in which they are meant to operate accurately.
 
 With the ADC observed voltage and the expected voltage, I fit a polynomial to the error using Google Sheet's built in function and plotted the voltage + error polynomial on the graph. Note that I didn't redo the test here with the error polynomial applied in firmware, I just added it to the spreadsheet values. With the error polynomial applied, the STM32 and ESP32 ADCs became accurate to within 0.01V in most of the range (0.5V - 3.0V). The reason this range doesn't exactly match the expected 0.1V - 3.1V range that the ESP32 chip should be accurate in is because of improper application of the error polynomial, I should have deleted values that are outside the range I want.
 
-![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Battery-Testing.jpg){: height="100" .align-center}  
+![ESP32 ADC Voltage vs. True Voltage]({{site.url}}/assets/images/esp32-adc-characterization/STM32-Battery-Testing.jpg){: height="104" .align-center}  
 <i>Testing with a 1.2 V Battery</i>
 
 I also tested with a 1.2V AAA battery to ensure that the potentiometer was not an issue and got results that were similarly inaccurate. Note that I converted in the spreadsheet with the formula (ADC Reading / 4095) * 3.3. This assumes the reference voltage is 3.3V and converts the ADC reading assuming the conversions: 0 = 0V and 4095 = 3.3V.
 
 ### <b>Using the esp32-adc-calibration Github repo</b>
 
-![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="400" .align-center}  
+![This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.]({{site.url}}/assets/images/esp32-adc-characterization/LUT.jpg){: height="500" .align-center}  
 <i>This is the code from the Github repo I used, notice the massive array at the top that stores the lookup table.</i>
 
-In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this gtihub repo</a> that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find you error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds it into an arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for reach range in between them it calculates the error. With these ranges you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
+In researching I found <a href="https://github.com/e-tinkers/esp32-adc-calibrate">this Github repo</a> that uses the ESP32's DAC (Digital to Analogue Voltage Converter) to get the chip to characterize itself. If you have a known voltage output from the DAC, you can pipe this directly into the ADC and find you error in firmware instead of on a spreadsheet. This Github repo then takes the error values and feeds it into an arduino .ino program (ESP32's can run using the Arduino IDE) to get a lookup table of errors. Essentially, it records 256 values and for reach range in between them it calculates the error. With these ranges you can use them as a lookup table where you input your ADC value as a key and get the expected ADC value back for that particular ADC voltage. 
 
 This lookup table appraoch required 16 KB of flash memory on the ESP32. If we really wanted to do this on the UBC Solar battery pack we could shrink the lookup table to 128 values and probably have enough flash left over for the other programs. However, this is still a very stupid idea. We aren't software devs that can throw memory and compute at all of our problems.
 
@@ -99,14 +99,28 @@ I initially wanted to write my own self calibration script for my STM32, but aft
 
 ### <b>Testing Attenuation</b>
 
-In the <a href="https://github.com/e-tinkers/esp32-adc-calibrate/blob/master/README.md">README</a> for the esp32-adc-calibrate repo, the author mentions that reading the <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc_calibration.html">ADC Calibration</a> documentation is a good first step before implementing the code. I read it and found the esp_adc_cal_characterize() function that allows you to set the attenuation, bit width, and other parameters for either of the two ADCs on the ESP32-WROOM-32D. 
+In the <a href="https://github.com/e-tinkers/esp32-adc-calibrate/blob/master/README.md">README</a> for the esp32-adc-calibrate repo, the author mentions that reading the <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/adc_calibration.html">ADC Calibration</a> documentation is a good first step before implementing the code. I read it and found the esp_adc_cal_characterize() function that allows you to set the attenuation, bit width, and other parameters for either of the two ADCs on the ESP32-WROOM-32D. There's no automatic ADC calibration, but I could set parameters and record the results.
 
-![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-0-2.5.jpg){: height="400" .align-center}  
-![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-12.jpg){: height="400" .align-center}  
+![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-0-2.5.jpg){: height="320" .align-center}  
+![Little difference was found between all the attenuation values.]({{site.url}}/assets/images/esp32-adc-characterization/Atten-12.jpg){: height="320" .align-center}  
 <i>Little difference was found between all the attenuation values.</i>
 
-I wrote some firmware inspried by the github repo above that automatically tested the ADC given a range of DAC values. This was before I found out the DAC is not trustworthy to output specific voltages within 0.1V, and I needed ~0.01V precision.
+I <a href="https://github.com/CKalitin/ESP32-WROOM-32D/blob/master/ADC-Self-Calibration/src/main.cpp">wrote some firmware</a> inspried by the Github repo above that automatically tested the ADC given a range of DAC values. This was before I found out the DAC is not trustworthy to output specific voltages within ~0.1V in most of the range - I needed ~0.01V precision.
 
 With that firmware, I automatically tested the attenuation values of 0 dB, 2.5dB, and 12dB to see if there was any difference and found none. Attenuation is essentially signal boosting, and I was using a small jumper cable, so it made little difference. However, when swapping out the jumper cable for a short paper clip I found that the noise was reduced. When I get into designing PCBs I'm sure I'll understand this phenomenon better.
 
 ### <b>Raw ADC Values Testing</b>
+
+![I tested ADC 2 with lower level functiosn and found little improvement.]({{site.url}}/assets/images/esp32-adc-characterization/ADC2-raw-testing.jpg){: height="320" .align-center}  
+<i>I tested ADC 2 with lower level functiosn and found little improvement.</i>
+
+Looking further into the ESP32 documentation, I found lower level libraries that can be used to get the raw ADC values directly instead of interfacing through the Arduino library. I wrote a quick function to convert this raw value into a voltage and tested it using the same "DAC voltage into ADC" strategy as before. I found no difference between my own custom conversion function and the Arduino library's analogRead() function. I also tested the second ADC on my ESP32 and found little difference in the results compared to the first ADC. However, the second ADC was accurate down to 0V while ADC 1 was accurate down to 0.08V. 
+
+![With the graphs above, I got the error graph and fit a Polynomial (trendline) to it]({{site.url}}/assets/images/esp32-adc-characterization/Error-ADC2.jpg){: height="320" .align-center} 
+<i>With the graphs above, I got the error graph and fit a Polynomial (trendline) to it.</i>
+
+I then got the error for ADC 2 in raw bits. Instead of converting to voltages and then getting the error, I skipped that step and got the error in raw ADC values between 0-255. This isn't keeping with the ADC's 12-bit range because the DAC only goes to 8-bits, so I was limited to 8-bits of precision. I then fit a polynomial to the error and got the error graph above. The error was very similar to earlier testing, so nothing I had tried fixed the problem and mostly served as an exercise in understanding how to use the ADC on my ESP32.
+
+### <b>Discovering the DAC was Imprescise</b>
+
+![With the graphs above, I got the error graph and fit a Polynomial (trendline) to it]({{site.url}}/assets/images/esp32-adc-characterization/voltages.jpg){: height="320" .align-center} 
