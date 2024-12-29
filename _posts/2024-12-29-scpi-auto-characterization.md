@@ -82,10 +82,10 @@ At Saman's request, here are ADC Voltage Reading & DMM Voltage vs. Time graphs b
 
 The average takes the sum of the previous 4 values and the current value and divides by 5. The Gaussian uses a 0.06, 0.24, 0.4, 0.24, 0.06 filter centered on the current value.
 
-![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Raw.png){: height="400" .align-center}
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Raw.png){: height="350" .align-center}
 
-![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Avg.png){: height="400" .align-center}
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Avg.png){: height="350" .align-center}
 
-![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Gau.png){: height="400" .align-center}
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Gau.png){: height="350" .align-center}
 
-![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-All.png){: height="400" .align-center}
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-All.png){: height="350" .align-center}
