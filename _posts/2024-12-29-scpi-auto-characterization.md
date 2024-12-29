@@ -74,3 +74,17 @@ During initial testing I noticed that the DMM outputted values far faster lower 
 I solve this problem by requiring each observation to be done at a constant cadence. I require 1 second per observation. To meet this requirement I take an observation and record how long it look, by using the expression <i>delayTime = 1 - obvTime</i> I find the remaining delay required to space each observation out by 1 second. The longest observation sets the minimum time required for all other observation if we want a constant cadence, so our theoretical minimum is ~0.3s. Read the Python script [here](https://github.com/CKalitin/STM32-F031K6T6/blob/master/ADC-Auto-Characterization/SCPI%20Scripts/PyVisa-CharacterizationScript.py).
 
 Overall, this test made me learn a lot about SCPI and interfacing with electronic instruments. For our goal of more accurate current data, an automatic test setup like this isn’t strictly required. Recording values manually may take ~30 minutes while it took me ~5 hours today to set up automatic data recording - this could be reduced to ~1 hour of programming/setup for future tests. Although this might not be on the critical path for a more accurate current sensor, learning SCPI has value in and of itself and this knowledge may prove valuable in the future.
+
+### Updates:
+
+At Saman's request, here are ADC Voltage Reading & DMM Voltage vs. Time graphs but with averaging and gaussian filters applied.
+
+The average takes the sum of the previous 4 values and the current value and divides by 5. The Gaussian uses a 0.06, 0.24, 0.4, 0.24, 0.06 filter centered on the current value.
+
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Raw.png){: height="400" .align-center}
+
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Avg.png){: height="400" .align-center}
+
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-Gau.png){: height="400" .align-center}
+
+![BROKEN IMAGE]({{site.url}}/assets/images/scpi-auto-characterization/Update-All.png){: height="400" .align-center}
