@@ -22,6 +22,7 @@ Terms:
 4. AFG - Arbitrary Function Generator
 5. DMM - Digital Multimeter
 6. Nucleo - STM32 Nucleo Micro Controller
+6. HPPC - Hybrid Pulse Power Characterization (Battery test)
 
 Context: This was part of a UBC Solar project to characterize the current sensor in our battery pack.
 
