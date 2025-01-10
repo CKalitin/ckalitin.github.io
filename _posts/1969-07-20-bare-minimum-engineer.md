@@ -36,6 +36,8 @@ Potential Structure:
 2. You need to acquire knowledge and skills to start becoming productive, and then pay back your debt to the organization (UBC Solar)
 3. Be extremely curious, the side effects/fundamental reasons for this are extremely positive and increase your net lifetime productive output (increased salary too in engineering)
 
+phenolphthalein
+
 ### Prashant Conversation Notes:
 
 + + + Hardest I've ever worked and not the most productive I've ever been
