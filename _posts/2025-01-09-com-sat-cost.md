@@ -9,5 +9,5 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/com-sat-cost/Cost per Mbps vs. Satellite Program & Year Of First Launch.png">
 </head>
 
-![My final testing setup]({{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png){: height="400" .align-center}  
+![My final testing setup]({{site.url}}/assets/images/com-sat-cost/Cost per Mbps vs. Satellite Program & Year Of First Launch.png){: height="400" .align-center}  
 <i>My final t</i>
