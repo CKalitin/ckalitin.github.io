@@ -49,8 +49,8 @@ With the partially-reusable Falcon 9, there are still some areas where SpaceX do
 
 Looking into the future, SpaceX is fully bought into reuse and the result is they are developing a single vehicle that they can throw at every problem. With Starship they're again going all in on a single vehicle and <a href="https://x.com/culpable_mink/status/1780049986203349125">throwing it at every problem</a>.
 
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="320" .align-center}
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="320" .align-center}
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
