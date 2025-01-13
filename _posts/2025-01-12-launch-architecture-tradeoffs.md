@@ -10,7 +10,7 @@ author:
 </head>
 
 ![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg){: height="600" .align-center}  
-<i>This image from <a href="https://x.com/StormSilvawalk1/status/1878617797531742227">@StormSilvawalk1</a> illustrates the two paradigms well. 10 separable vehicle parts (SRBs, stages, fairing etc.) vs. just 2 for Starship & Neutron.</i>
+<i>This image I got from <a href="https://x.com/StormSilvawalk1/status/1878617797531742227">@StormSilvawalk1</a>'s reply illustrates the two paradigms well. 10 separable vehicle parts (SRBs, stages, fairing etc.) vs. just 2 for Starship & Neutron.</i>
 
 We are currently living through a paradigm shift in launch vehicle architecture design. We are seeing old space companies like ULA or Ariane Space that are used to building highly customizable vehicles try to adapt to a new paradigm of reuse and high flight rates. Every day we continue to see these legacy perspectives bump up against new ideas that are optimized for different requirements. These companies once had extremely successful business models, but now they are struggling to adapt to the new paradigm of launch vehicle design, sometimes resulting in laughable concepts.
 
@@ -51,7 +51,7 @@ The Ariane NEXT concepts are an example of Ariane Space still thinking in the ol
 
 The architecture of the Vulcan rocket shows that ULA is another old-space company that isn't adapting to the new paradigm well. Vulcan is a customizable vehicle in that it can have 0, 2, 4, or 6 solid boosters. Almost as an afterthought, they included some reuse in the design with their SAFER concept, that decouples, reenters (with an inflatable heat shield), and parachutes the engines back to Earth. This shows even less buy-in to the new paradigm, as they are seemingly trying to reuse as little of the vehicle as possible while keeping the ability to add solid boosters to increase payload capability.
 
-The new paradigm of reuse incentivizes a single vehicle that can be reused as much as possible for all missions. ULA's Vulcan architecture is not optimized for this. Like I said in the first section, these design decisions make complete sense if you're operating in the old paradigm, but they are not the right tradeoffs for the new paradigm. Vulcan is optimized to launch US Military payloads through the NSSL program, but not to launch as much mass to LEO as possible which is the requirement for upcoming megaconstellations. When launch is no longer extremely supply-constrained, it will become clear that Vulcan is not optimized for competing with vehicles optimized for economical reuse.
+The new paradigm of reuse incentivizes a single vehicle that can be reused as much as possible for all missions. ULA's Vulcan architecture is not optimized for this. Like I said in the first section, these design decisions make complete sense if you're operating in the old paradigm, but they are not the right tradeoffs for the new paradigm. Vulcan is optimized to launch US Military payloads through the NSSL program, but not to launch as much mass to LEO as possible which is the requirement for upcoming megaconstellations (<a href="https://ckalitin.github.io/technology/2024/01/07/analysing-neutron-competitively.html">See the <i>Constellations - The Next Paradigm</i> section</a>). When launch is no longer extremely supply-constrained, it will become clear that Vulcan is not optimized for competing with vehicles optimized for economical reuse.
 
 ### <b>Conclusion</b>
 
