@@ -63,4 +63,7 @@ ULA and Ariane Space have clearly not committed to this new approach and are han
 
 ## <b>Updates</b>
 
-Casey Handmer explains the issues with increasing the number of vehicles your architecture uses in <a href="https://caseyhandmer.wordpress.com/2020/02/15/dont-stage-off-starship/">this blog post</a>. It's a good read to get more context on this issue. Another way to consider the paradigm shift I described is architecture complexity vs. launch cost (ie. do you make more vehicle configurations or just make a single vehicle that is oversized for most tasks that'll be cheaper through reuse).
+[Update Jan 12 2025]  
+Casey Handmer explains the issues with increasing the number of vehicles your architecture uses in <a href="https://caseyhandmer.wordpress.com/2020/02/15/dont-stage-off-starship/">this blog post</a>. It's a good read to get more context on this issue and described the issues with increasing the complexity of you architecture well.
+
+Another way to consider the paradigm shift I described is architecture complexity vs. launch cost (ie. do you make more vehicle configurations or just make a single vehicle that is oversized for most tasks that'll be cheaper through reuse).
