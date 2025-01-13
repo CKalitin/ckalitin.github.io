@@ -49,13 +49,21 @@ With the partially-reusable Falcon 9, there are still some areas where SpaceX do
 
 Looking into the future, SpaceX is fully bought into reuse and the result is they are developing a single vehicle that they can throw at every problem. With Starship they're again going all in on a single vehicle and <a href="https://x.com/culpable_mink/status/1780049986203349125">throwing it at every problem</a>.
 
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="320" .align-center}
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="320" .align-center}
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
-There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of beliving the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}  
+<i>The Ariane NEXT concept illustrates why Ariane Space is not adapting to the new paradigm well.</i>
+
+There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious, infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of beliving the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.
+
+Once of Ariane Space's concepts for a reusable vehicle is Ariane NEXT. The end goal of Ariane NEXT is a partially resuable 3 core vehicle, similar to Falcon Heavy. One of the interim steps described in a <a href="https://www.eucass.eu/index.php/component/docindexer/?task=download&id=5506">paper on the concept</a> (Section 4.2) is to have smaller liquid boosters based on the same engine to increase the payload capability of the vehicle. There is also some discussion of a hydrolox upper stage, while the standard vehicle is methalox. 
+
+The Ariane NEXT concepts are an example of Ariane Space still thinking in the old paradigm of having a highly customizable vehicle. Instead of completely buying into having just a single vehicle (or at most 2 versions like Falcon 9 and Falcon Heavy), they want to have 3+ versions (single core, small boosters, large booster, plus a potential hydrolox upper stage). This is an approach that will not get them the cost savings of having a single standard vehicle (like the Falcon 9 booster).
+
+The architecture of the Vulcan rocket shows that ULA is another old-space company that isn't apapting to the new paradigm well. 
 
 Consider full reuse on Vulcan + why SAFER reuse isn't economical
-
 Use my Stoke Space charts as an example of why you want to standardize your vehicle and reuse the larger parts and integrate parts into one reusable part
