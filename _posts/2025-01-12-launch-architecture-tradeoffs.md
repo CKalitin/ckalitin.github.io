@@ -33,7 +33,7 @@ The old paradigm of vehicle design was optimized for infrequent launches to a va
 
 The new paradigm ushered in by SpaceX's Falcon 9 is focused on reuse, high flight rates, and standardizing your vehicle for a specific orbit. Falcon 9 was originally optimized only to deliver the Dragon capsule to the ISS which is in Low Earth Orbit (LEO). Now, it's primary use is launching the Starlink satellites to LEO. To a first approximation, Falcon 9's architecture is solely focused on getting as much mass to LEO as possible. Starship shows this goal even more clearly. It is a vehicle architecture that is completely focused on getting as much mass to LEO as possible. This means that through reuse and an extremely high flight rate they can achieve low cost, then leverage refilling missions to get to Mars or other high energy destinations in the solar system.
 
-### <b>The Paradigm Shift Decides Vehicle Architectures</b>
+### <b>The Paradigms Decide Vehicle Architecture Optimizations</b>
 
 * Both of what approaches?
 
@@ -49,9 +49,11 @@ With the partially-reusable Falcon 9, there are still some areas where SpaceX do
 
 Looking into the future, SpaceX is fully bought into reuse and the result is they are developing a single vehicle that they can throw at every problem. With Starship they're again going all in on a single vehicle and <a href="https://x.com/culpable_mink/status/1780049986203349125">throwing it at every problem</a>.
 
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="400" .align-center}  
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="400" .align-center}  
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}  
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}  
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
 There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of beliving the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.
+
+
