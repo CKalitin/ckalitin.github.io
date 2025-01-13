@@ -36,7 +36,7 @@ Looking into the future, SpaceX is fully bought into reuse and the result is the
 
 ![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}
 ![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}  
-<i>Everyone on X already understands all my points here intrinsically through memes. A meme is worth a million words, and it spreads as a mind virus.</i>
+<i>Everyone on X already understands all my points intrinsically through memes. A meme is worth a million words, and it spreads as a mind virus.</i>
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
