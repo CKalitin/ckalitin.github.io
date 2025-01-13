@@ -19,3 +19,8 @@ Whiteboard notes:
 - Market addressability given mass (Eager space chart)
 - 30% hardware cost? What?
 - Model net company costs
+
+Vulcan reuse numbers: https://x.com/deltaIV9250/status/1878461890923217295
+
+Ozan, Reuse numbers for external parts like Upper stage, fairings, boosters, etc:
+https://x.com/BellikOzan/status/1878602456537682227
