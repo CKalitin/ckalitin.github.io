@@ -54,7 +54,7 @@ Looking into the future, SpaceX is fully bought into reuse and the result is the
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}  
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/ArianeNEXT.jpg){: height="400" .align-center}  
 <i>The Ariane NEXT concept illustrates why Ariane Space is not adapting to the new paradigm well.</i>
 
 There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious, infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of beliving the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.
@@ -63,7 +63,10 @@ Once of Ariane Space's concepts for a reusable vehicle is Ariane NEXT. The end g
 
 The Ariane NEXT concepts are an example of Ariane Space still thinking in the old paradigm of having a highly customizable vehicle. Instead of completely buying into having just a single vehicle (or at most 2 versions like Falcon 9 and Falcon Heavy), they want to have 3+ versions (single core, small boosters, large booster, plus a potential hydrolox upper stage). This is an approach that will not get them the cost savings of having a single standard vehicle (like the Falcon 9 booster).
 
-The architecture of the Vulcan rocket shows that ULA is another old-space company that isn't apapting to the new paradigm well. 
+The architecture of the Vulcan rocket shows that ULA is another old-space company that isn't apapting to the new paradigm well. Vulcan is a customizable vehicle in that it can have 0, 2, 4, or 6 solid boosters. Almost as an afterthought, they included some reuse in the design with their SAFER concept, that decouples, reenters (with an inflatable heat shield), and parachutes the engines back to Earth. This shows even less buy-in to the new paradigm, as they are seemingly trying to reuse as little of the vehicle as possible while keeping the ability to add solid boosters to increase payload capability.
 
-Consider full reuse on Vulcan + why SAFER reuse isn't economical
-Use my Stoke Space charts as an example of why you want to standardize your vehicle and reuse the larger parts and integrate parts into one reusable part
+The new paradigm of reuse incentivizes a single vehicle that can be reused as much as possible for all missions. ULA's Vulcan architecture is not optimized for this. Like I said in the first section, these design decisions make complete sense if you're operating in the old paradigm, but they are not the right tradeoffs for the new paradigm. Vulcan is optimized to launch US Military payloads through the NSSL program, but not to launch as much mass to LEO as possible which is the requirement for upcoming megaconstellations. When launch is no longer extremely supply constrained, it will become clear that Vulcan is not optimized for competing with vehicles optimized for economical reuse.
+
+### <b>Conclusion</b>
+
+The fundamental issue with Ariane Space's and ULA's approaches is that the new paradigm of reuse and high flight rates incentivizes integrating as much onto a single reusable booster as possible. Don't have solid boosters, just make your core bigger and get good at reuse. Don't even have seperable fairings! Integrate those onto your second stage so reusing them is even easier! ULA and Ariane Space have clearly not commited to this approach and are hanging on to the old paradigm of having a highly customizable vehicle. This approach may work for them in the short term as they have government support, but in the long term, it will become clearer and clearer that this approach will not be commercially competitive with other vehicles optimized for reuse.
