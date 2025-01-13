@@ -49,11 +49,13 @@ With the partially-reusable Falcon 9, there are still some areas where SpaceX do
 
 Looking into the future, SpaceX is fully bought into reuse and the result is they are developing a single vehicle that they can throw at every problem. With Starship they're again going all in on a single vehicle and <a href="https://x.com/culpable_mink/status/1780049986203349125">throwing it at every problem</a>.
 
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}  
-![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}  
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg){: height="300" .align-center}
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg){: height="300" .align-center}
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
 There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of beliving the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.
 
+Consider full reuse on Vulcan + why SAFER reuse isn't economical
 
+Use my Stoke Space charts as an example of why you want to standardize your vehicle and reuse the larger parts and integrate parts into one reusable part
