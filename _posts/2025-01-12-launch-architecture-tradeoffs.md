@@ -58,3 +58,9 @@ The new paradigm of reuse incentivizes a single vehicle that can be reused as mu
 The fundamental issue with Ariane Space's and ULA's approaches is that the new paradigm of reuse and high flight rates incentivizes integrating as much onto a single reusable booster as possible. Don't have solid boosters, just make your core bigger and get good at reuse. Don't even have separable fairings! Integrate those onto a reusable stage so reusing them is even easier!
 
 ULA and Ariane Space have clearly not committed to this new approach and are hanging on to the old paradigm of having a highly customizable vehicle. This approach may work for them in the short term as they have government support, but in the long term, it will become clearer and clearer that this approach will not be commercially competitive with other vehicles optimized for reuse.
+
+‎
+
+## <b>Updates</b>
+
+Casey Handmer explains the issues with increasing the number of vehicles your architecture uses in <a href="https://caseyhandmer.wordpress.com/2020/02/15/dont-stage-off-starship/">this blog post</a>. It's a good read to get more context on this issue. Another way to consider the paradigm shift I described is architecture complexity vs. launch cost (ie. do you make more vehicle configurations or just make a single vehicle that is oversized for most tasks that'll be cheaper through reuse).
