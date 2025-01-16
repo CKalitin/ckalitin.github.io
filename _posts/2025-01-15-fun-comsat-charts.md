@@ -16,11 +16,13 @@ author:
 
 So, here's 4 fun charts that visualize the history of communications satellites with an explaination under each one of interesting points.
 
-![Image]({{site.url}}/assets/images/fun-comsat-charts/Communications Satellite Launches by Provider vs. Year.png){: .align-center}  
-This chart just shows that Starlink is still winning.
-
 ![Image]({{site.url}}/assets/images/fun-comsat-charts/Communications Satellite Launches by Provider vs. Year (Ex. Starlink).png){: .align-center}  
-Without Starlink, we can better see the history of Communications Satellite launches. You can clearly see the Iridium V1 bump from 1997-1998, and directly after it the Globalstar bump, which were Iridium's chief competition back in the day. This also illustrates the massive launch requirements for internet constellations vs. call constellations with the size of the Iridium and Globalstar bumps relative to OneWeb (and of course Starlink, but that's on a whole other level). All the red on the chart is all the other Soviet/Russia satellites and the yellow is western communications satellites and Galileo, which is the European GPS system. 
+This is the same chart as the one above but with colour coding for each satellite series. Just appreciate for a minute how information dense it is now!
+
+By removing Starlink, we can better see the history of Communications Satellite launches. You can clearly see the Iridium V1 bump from 1997-1998, and directly after it the Globalstar bump, which were Iridium's chief competition back in the day. This also illustrates the massive launch requirements for internet constellations vs. call constellations with the size of the Iridium and Globalstar bumps relative to OneWeb (and of course Starlink, but that's on a whole other level). All the red on the chart is all the other Soviet/Russia satellites and the yellow is western communications satellites and Galileo, which is the European GPS system. 
+
+![Image]({{site.url}}/assets/images/fun-comsat-charts/Communications Satellite Launches by Provider vs. Year.png){: .align-center}  
+This chart is the same as the one above but includes Starlink, notice how you can learn pretty much nothing except that yea Starlink is still winning and Elon is the most important living human.
 
 ![Image]({{site.url}}/assets/images/fun-comsat-charts/Sat Count by Satellite Program.png){: .align-center}  
 Just for fun, you can see the power law distribution of satellite programs by the number of satellites launched. As you'd expect, most satellites are one-offs or part of a small series, you get what'd you'd expect after that, an exponential decay.
