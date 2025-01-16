@@ -16,6 +16,8 @@ Find my raw data <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIP
 
 Three hours ago I saw <a href="https://x.com/spacecasetayl0r/status/1877536120893755801">(Space) Case Taylor</a> reply to a <a href="https://x.com/skorusARK/status/1876483384467468797">post Sam Korus</a> of Ark Invest made in which he showed a chart of satellite bandwidth cost over time. You can see this chart above and it clearly shows the exponential cost decline of satellite bandwidth over time, <a href="https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html">the beauty of learning rate in production</a>. As an exercise and an opportunity to learn more about the communication satellite industry, I decided to derive a similar chart myself.
 
+Read the <a href="https://ckalitin.github.io/space/2025/01/15/fun-comsat-charts.html">sequel to this blog post</a> to get better charts the describe the history of Communications Satellites.
+
 ### <b>Using Jonathan Mcdowell's Dataset</b>
 
 ![Image]({{site.url}}/assets/images/com-sat-cost/Sat Count by Program.png){: .align-center}  
