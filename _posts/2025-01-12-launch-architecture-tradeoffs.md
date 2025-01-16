@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A New Paradigm of Launch Vehicle Tradeoffs"
+title: "A New Paradigm of Launch Vehicle Architecture Design Tradeoffs"
 categories: Space
 author:
  - Christopher Kalitin
