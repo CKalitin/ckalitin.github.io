@@ -62,3 +62,22 @@ In the previous section, I described the 4 major categories of satellites that I
 Again, this is a reason to do the analysis in the way Ark Invest did instead of the way I did. Maybe Sam Korus of Ark also ran into similar issues as I did in doing his research and he course corrected before publishing a graph. I'm not profesional enough to not show my work, so this blog post is full of interesting intermediary results.
 
 Post Iridium Next / OneWeb in 2017 and 2019, we see an exponential decline in the cost of bandwidth with LEO broadband satellites. Remember that these numbers are mainly illustrative of the shape of the graph since SpaceX doesn't give us precise internal launch cost and satellite manufacturing numbers, but the trend is clear. The cost of bandwidth from space has been exponentially declining and is likely to continue as satellite technology continues to improve, the scale of the satellites increases with Starlin V3, and competition enters the arena.
+
+‎
+
+### <b>Update Jan 15 2024: More Charts!</b>
+
+Earlier in this blog post I gave you the chart of Communication Satellites launched over time and explained some of the bumps. Now, I categorized the data by Satellite Series so you could better visualize the bumps I was describing and get a better feel for the history of the satellite industry.
+
+![Image]({{site.url}}/assets/images/Communications Satellite Launches by Provider vs. Year.png){: .align-center}  
+In case you still don't understand, yea Starlink is still winning.
+
+![Image]({{site.url}}/assets/images/Communications Satellite Launches by Provider vs. Year (Ex. Starlink).png){: .align-center}  
+
+Without Starlink, we can better see the history of Communications Satellite launches. You can clearly see the Iridium V1 bump from 1997-1998, and directly after it the Globalstar bump, which were Iridiums chief competition back in the day. This also illustrates the massive launch requirements for internet constellations vs. call constellations with the size of the Iridium and Globalstar bumps relative to OneWeb (and of course Starlink, but that's on a whole other level). All the red on the chart is all the other Soviet/Russia satellites and the yellow is western communications satellites and Galileo, which is the European GPS system. 
+
+![Image]({{site.url}}/assets/images/Sat Count by Satellite Program.png){: .align-center}  
+Just for fun, you can see the power law distribution of satellite programs by the number of satellites launched. As you'd expect, most satellites are one-offs or part of a small series, you get what'd you'd expect after that, an exponential decay.
+
+![Image]({{site.url}}/assets/images/Sat Count by Satellite Program Aggregated.png){: .align-center}  
+This chart is another way to illustrate the power law distribution of satellite programs as you can see how many satellite programs have launched 1 or fewer satellites, <=2, <=3, etc. The previous chart is the derivative of this function.
