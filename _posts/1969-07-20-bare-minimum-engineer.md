@@ -36,7 +36,9 @@ Potential Structure:
 2. You need to acquire knowledge and skills to start becoming productive, and then pay back your debt to the organization (UBC Solar)
 3. Be extremely curious, the side effects/fundamental reasons for this are extremely positive and increase your net lifetime productive output (increased salary too in engineering)
 
-phenolphthalein
+phenolphthalein - ignition?
+
+- Tesla recruiter lady's comments. They don't like hiring first time coop students, need to have a minimum level of experience (knowing how to write an email, etc. she mentioned simple shit) to make the j curve dip not at low 
 
 ### Prashant Conversation Notes:
 
