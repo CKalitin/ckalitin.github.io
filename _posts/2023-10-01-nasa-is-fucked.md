@@ -159,16 +159,16 @@ Commercialization has been the trend in all industries. It is inevitable that th
 
 ## Updates
 
-[Update Dec 13 2023]  
+<b>[Update Dec 13 2023]</b>  
 With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's latest video</a>, it seems much of the personal push from engineers is good hearted. It's only when the government gets involved that degeneracy ensues. Also, Destin makes the mistake of simplifing the architecture at the expense of the mission.
 
-[Update Dec 5 2024]  
+<b>[Update Dec 5 2024]</b>  
 <a href="https://x.com/BellikOzan/status/1864803476003524913">Ozan Bellik summarized the insights</a> in this post well by saying systems engineering and project management should be moved to private companies, while NASA mainly does R&D, data analysis, and mission planning.
 
-[Update Dec 7 2024]  
+<b>[Update Dec 7 2024]</b>  
 The fundamental issue with cost-plus contracting now is that contractors are not incentivized enough to move quickly. In World War 2, the contracting paradigm didn't need to include incentives to move quickly because it was implicit in the national priorities of the time (not losing the war). Now, contracting paradigms need to include urgency to complete projects on time because there isn't this external signal to move quickly.
 
-[Update Feb 8 2025]  
+<b>[Update Feb 8 2025]</b>  
 Peter Beck just went on the <a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS8tNTl&t=1859">Planetary Radio podcast</a>  and made a ton of great points that are in the same vain of this post. I'm just some teenager, so it's great to write a post like this one, and 16 months later see Peter Beck make the same points!
 
 (Timestamp 31:00-32:30 for these quotes)
@@ -180,3 +180,15 @@ Peter Beck just went on the <a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS
 "If rocket lab is successful you can guarantee other people are going to want to make money too so there'll be all of a sudden you've got competition and you know you can afford to do many more missions so you've got volume and you know scientists presumably making great discoveries so there's more impetus to go and do these missions."
 
 "The one thing that I've always kind of harped on about is that I'd much rather go do like 10 small missions in a decade then one large mission in a decade because if you think about the way you iterate science in a laboratory very few times where you you work for 10 years and do one experiment. You generally you know do a lot of bunch of different experiments and learn a whole bunch of different things along the way."
+
+In the same podcast, Richard French - former JPL engineer and now VP of Business & Strategy at Rocket Lab - explains Rocket Lab's collaboration with NASA on their privately funded Venus mission.
+
+They're using NASA Ames for manufacture of the heat shield for Venus entry and other analytical work like modelling plume interactions with the Martian surface for their MSR concept.
+
+This is the same way I described NASA's role in the future of space exploration. Helping with technological development and helping with tasks that aren't as commercially viable as what the big space companies specialize in (eg. Rocket Lab isn't manufacturing heat shields as there's a lack of a market).
+
+(<a href="https://youtu.be/QEXSdcl_2SU?si=4ZM6IlGzz17kNAFz&t=3830">timestamp 1:03:50</a>)
+
+"The relationship with NASA is where I think it becomes interesting. So how do we take a non-commercial technology like thermal protection systems which are pretty bespoke. There's not a lot of need for blunt body TPS systems. We're going to manufacture part of the aeroshell and then our partners at NASA,  NASA Ames in this case, would do the TPS. They have all the relationships to manage the manufacturer of a single flight article and we can collaborate. Pretty exciting, next week I'll be going up to NASA Ames to take delivery of our heat shield that we're going to fly to Venus."
+
+"Pretty exciting, next week I'll be going up to NASA Ames to take delivery of our heat shield that we're going to fly to Venus."
