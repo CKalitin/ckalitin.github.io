@@ -167,3 +167,16 @@ With <a href="https://www.youtube.com/watch?v=OoJsPvmFixU">Smarter Every Day's l
 
 [Update Dec 7 2024]  
 The fundamental issue with cost-plus contracting now is that contractors are not incentivized enough to move quickly. In World War 2, the contracting paradigm didn't need to include incentives to move quickly because it was implicit in the national priorities of the time (not losing the war). Now, contracting paradigms need to include urgency to complete projects on time because there isn't this external signal to move quickly.
+
+[Update Feb 8 2025]  
+Peter Beck just went on the <a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS8tNTl&t=1859">Planetary Radio podcast</a>  and made a ton of great points that are in the same vain of this post. I'm just some teenager, so it's great to write a post like this one, and 16 months later see Peter Beck make the same points!
+
+(Timestamp 31:00-32:30 for these quotes)
+
+"I think if anybody has suggested that the US government start an entirely new rocket program as a government most people would look at that and go that's stupid but let's not forget like 10, 15 years ago that would be normal."
+
+"I see MSR is exactly one of those defining moments where if commercial can come and do a great job if we fast forward 10, 20 years time that will be the standard and the result of that is there'll be tremendously more science missions."
+
+"If rocket lab is successful you can guarantee other people are going to want to make money too so there'll be all of a sudden you've got competition and you know you can afford to do many more missions so you've got volume and you know scientists presumably making great discoveries so there's more impetus to go and do these missions."
+
+"The one thing that I've always kind of harped on about is that I'd much rather go do like 10 small missions in a decade then one large mission in a decade because if you think about the way you iterate science in a laboratory very few times where you you work for 10 years and do one experiment. You generally you know do a lot of bunch of different experiments and learn a whole bunch of different things along the way."
