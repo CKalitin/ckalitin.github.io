@@ -171,7 +171,7 @@ The fundamental issue with cost-plus contracting now is that contractors are not
 <b>[Update Feb 8 2025]</b>  
 Peter Beck just went on the <a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS8tNTl&t=1859">Planetary Radio podcast</a>  and made a ton of great points that are in the same vain of this post. I'm just some teenager, so it's great to write a post like this one, and 16 months later see Peter Beck make the same points!
 
-(Timestamp 31:00-32:30 for these quotes)
+(<a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS8tNTl&t=1859">Timestamp 31:00-32:30 for these quotes</a>)
 
 "I think if anybody has suggested that the US government start an entirely new rocket program as a government most people would look at that and go that's stupid but let's not forget like 10, 15 years ago that would be normal."
 
@@ -180,6 +180,8 @@ Peter Beck just went on the <a href="https://youtu.be/QEXSdcl_2SU?si=Fk5stQlNMrS
 "If rocket lab is successful you can guarantee other people are going to want to make money too so there'll be all of a sudden you've got competition and you know you can afford to do many more missions so you've got volume and you know scientists presumably making great discoveries so there's more impetus to go and do these missions."
 
 "The one thing that I've always kind of harped on about is that I'd much rather go do like 10 small missions in a decade then one large mission in a decade because if you think about the way you iterate science in a laboratory very few times where you you work for 10 years and do one experiment. You generally you know do a lot of bunch of different experiments and learn a whole bunch of different things along the way."
+
+‎
 
 In the same podcast, Richard French - former JPL engineer and now VP of Business & Strategy at Rocket Lab - explains Rocket Lab's collaboration with NASA on their privately funded Venus mission.
 
@@ -190,5 +192,3 @@ This is the same way I described NASA's role in the future of space exploration.
 (<a href="https://youtu.be/QEXSdcl_2SU?si=4ZM6IlGzz17kNAFz&t=3830">timestamp 1:03:50</a>)
 
 "The relationship with NASA is where I think it becomes interesting. So how do we take a non-commercial technology like thermal protection systems which are pretty bespoke. There's not a lot of need for blunt body TPS systems. We're going to manufacture part of the aeroshell and then our partners at NASA,  NASA Ames in this case, would do the TPS. They have all the relationships to manage the manufacturer of a single flight article and we can collaborate. Pretty exciting, next week I'll be going up to NASA Ames to take delivery of our heat shield that we're going to fly to Venus."
-
-"Pretty exciting, next week I'll be going up to NASA Ames to take delivery of our heat shield that we're going to fly to Venus."
