@@ -34,3 +34,5 @@ In a previous blog post, <a href="https://ckalitin.github.io/technology/2024/11/
 
 The framework of applying Learning Rate is the fundamental principle that allows me to have high certainty in my predictions. Learning Rate is the percentage cost decline for a cumulative doubling in production. For example, <a href="https://www.pv-magazine.com/2021/03/29/battery-costs-have-fallen-97-since-1991-claim-mit-researchers/">batteries</a> currently have a learning rate of about 20%, meaning for every doubling in production (about every 2 years) they fall in cost by about 20%. Casey Handmer explains part of the concept in <a href="https://youtu.be/ekEdq6PhC0Q?si=Verot8watOdSoCzD&t=551">this clip</a>.
 
+Energy and Civilization notes:
+"In countries with high per capita energy use, “at saturation”, Jevons paradox is weaker."
