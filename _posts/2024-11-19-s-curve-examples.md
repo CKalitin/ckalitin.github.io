@@ -13,6 +13,8 @@ I've decided I'm going to be an <a href="https://x.com/Andercot/status/185504654
 
 ### <b>Historic Proof for S Curves</b>
 
+<b>FUTURE CHRIS! REWRITE THIS SECTION IT IS INCOMPREHENSIBLE TO THE UNPREPARED READER</b>
+
 ![Image description]({{site.url}}/assets/images/s-curve-examples/s-curve.png){: width="420" .align-center}
 
 An S curve is a function that describes the shape of the market share vs. time graphs of almost all technologies. These S-curves are characterized by an extremely slow start, where they are arbitrarily close to zero; an exponential growth phase; then followed by a levelling off where they asymptotically approach 100% market share.
