@@ -24,6 +24,8 @@ However, after soldering on the new MCU we saw that after flashing [master code]
 
 This blog post will explain the RCC_CSR register in STM32 chips, how we found out it was an issue with the ECU, and how we fixed it.
 
+This blog post is mostly copied from a [project update](https://docs.google.com/document/d/1r4EUV-VYLYU-DLjS0XQSxoHilgCY1WAmpvgW4Q0D-Hk/edit?usp=sharing) I wrote for UBC Solar, with some edits to make it slightly more understandable to non-UBC Solar members.
+
 ### <b>What is RCC_CSR Anyway?</b>
 
 ![Image]({{site.url}}/assets/images/stm32-rcc-register/block-diagram.jpg){: .align-center}  
