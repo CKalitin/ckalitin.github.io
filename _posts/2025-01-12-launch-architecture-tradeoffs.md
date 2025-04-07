@@ -9,8 +9,8 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg">
 </head>
 
-![Image](/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg){: height="600" .align-center}  
-<i>This image I got from <a href="https://x.com/StormSilvawalk1/status/1878617797531742227">@StormSilvawalk1</a>'s reply illustrates the two paradigms well. One of these vehicles (Vulcan, left) has 10 separable vehicle parts (SRBs, stages, fairing etc.) vs. just 2 for a vehicle like Starship ors Neutron.</i>
+![Image]({{site.url}}/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg){: height="600" .align-center}  
+<i>This image I got from <a href="https://x.com/StormSilvawalk1/status/1878617797531742227">@StormSilvawalk1</a>'s reply illustrates the two paradigms well. One of these vehicles (Vulcan, left) has 10 separable vehicle parts (SRBs, stages, fairing etc.) vs. just 2 for a vehicle like Starship or Neutron.</i>
 
 We are currently living through a paradigm shift in launch vehicle architecture design. We are seeing old space companies like ULA or Ariane Space that are used to building highly customizable vehicles try to adapt to a new paradigm of reuse and high flight rates. Every day we continue to see these legacy perspectives bump up against new ideas that are optimized for different requirements. These companies once had extremely successful business models, but now they are struggling to adapt to the new paradigm of launch vehicle design, sometimes resulting in laughable concepts.
 
