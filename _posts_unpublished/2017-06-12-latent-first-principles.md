@@ -11,6 +11,11 @@ author:
 
 ![Image]({{site.url}}/assets/images/nasa-end-state/msr.jpg){: .align-center}  
 
+https://x.com/yacineMTB/status/1906700878989652138
+
+To think from first principles  
+you must first  
+return to retard
 
 ### First Principles Thinking Expressed As A Latent Space
 1. The compression step is the most important thing
