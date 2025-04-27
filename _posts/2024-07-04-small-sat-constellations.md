@@ -60,3 +60,8 @@ Sun Synchronous Orbits precess around the Earth which is the mechanism that allo
 Either space tugs like Impulse's Mira or ion thrusters on each satellite can accomplish the low-energy polar orbital plane change. Ion thrusters have the advantage of providing efficient propulsion that can extend the satellite's lifespan. Starlink satellites currently use Argon ion thrusters to boost themselves to their final orbit. With 2500 seconds of isp, they are far more efficient than chemical propulsion, meaning more mass can be delivered to the final orbit. As always, the limiting factor here is the cost. This is possibly offset by a longer satellite lifespan, but it remains to be seen how many constellations opt for this route. In the next 5-10 years we will see.
 
 The advantage of ion propulsion is best seen on large constellations like Starlink, OneWeb, or Kuiper. This may have an impact on the industry as we see convergence to an end-to-end model. In the case of Rocket Lab, this could mean manufacturing their Lightning satellite bus with ion propulsion to host many different payloads. This allows for the benefits Starlink has seen with a common satellite bus and launch vehicle while serving multiple customers. While Rocket Lab sees competition from 1-ton class rockets and potentially Stoke's Nova, they will be transitioning to hosting payloads on a common satellite bus where Neutron and Space Systems take over from Electron on constellations.
+
+### <b>Updates</b>
+
+[Update Apr 24 2025]  
+In this [Space News article by Jeff Foust](https://spacenews.com/rocket-lab-sees-demand-for-electron-despite-rideshare-competition/), 

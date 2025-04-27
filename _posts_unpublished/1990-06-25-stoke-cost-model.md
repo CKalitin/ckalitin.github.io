@@ -26,3 +26,4 @@ Ozan, Reuse numbers for external parts like Upper stage, fairings, boosters, etc
 https://x.com/BellikOzan/status/1878602456537682227
 
 This is actually just "At what point is a partially or fully reusable rocket economical, sharing the parameters."
+
