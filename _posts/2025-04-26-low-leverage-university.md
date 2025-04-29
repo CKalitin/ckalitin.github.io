@@ -25,7 +25,7 @@ The low leverage of university is an issue because the opportunity cost of unive
 
 ### <b>Why being a University Student has Extremely Low Leverage</b>
 
-Being a university student has extremely low leverage because of three reasons:
+Being a university student has extremely low leverage because of four reasons:
 1. You are doing the same tasks as everyone else.
 2. Incentives are misaligned, you are not looking for high-leverage tasks.
 2. You are not innovating in your process.
