@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/jevons-learning-rate/notebook.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/useful-intermediary-steps/postscreenshot.png">
 </head>
 
 Several years ago I saw [this clip of George Hotz](https://youtu.be/_L3gNaAVjQ4?si=timvK1RTGQ4UDSr7&t=3199) in which he described the mission of Comma AI as "solving self-driving cars while delivering shippable intermediaries." In that clip and elsewhere he describes how actually shipping products to customers is a fundamental test of a startup that allows you to course correct quickly and prove your right to capital.
