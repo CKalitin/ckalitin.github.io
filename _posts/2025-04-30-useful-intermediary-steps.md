@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Useful Intermediary Steps Are A Fundamental Litmus Test For Startups And All Large Projects"
+title: "Useful Intermediary Steps Are Fundamental To Startups And Large Novel Projects"
 categories: Technology
 author:
  - Christopher Kalitin
