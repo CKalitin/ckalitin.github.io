@@ -9,6 +9,8 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/useful-intermediary-steps/postscreenshot.png">
 </head>
 
+If you have feedback or criticism, please [reply here](https://x.com/CKalitin/status/1917713182904430786).
+
 Several years ago I saw [this clip of George Hotz](https://youtu.be/_L3gNaAVjQ4?si=timvK1RTGQ4UDSr7&t=3199) in which he described the mission of Comma AI as "solving self-driving cars while delivering shippable intermediaries." In that clip and elsewhere he describes how actually shipping products to customers is a fundamental test of a startup that allows you to course correct quickly and prove your right to capital.
 
 In this blog post, I'll describe how we can take the slightly more fundamental idea of useful intermediary steps and apply this to large-scale projects, startups, and capital allocation.

@@ -9,6 +9,8 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/jevons-learning-rate/notebook.jpg">
 </head>
 
+For feedback / criticism, please [reply here](https://x.com/CKalitin/status/1916367593910501869).
+
 <i>Leverage</i>  
 <i>verb</i>    
 <i>1. to use (something) to maximum advantage.</i>  
