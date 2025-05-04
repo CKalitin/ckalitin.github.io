@@ -25,7 +25,7 @@ In a previous blog post, <a href="https://ckalitin.github.io/technology/2024/11/
 
 The S-Curve is the graphical representation of this principle, which you can see in the chart above or in my [previous blog post](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html). In the most basic sense, you can just fit an S-Curve to existing market data, and extrapolate into the future (so long as you check your assumptions carefully!).
 
-Learning Rate is the percentage cost decline for a cumulative doubling in production. For example, <a href="https://www.pv-magazine.com/2021/03/29/battery-costs-have-fallen-97-since-1991-claim-mit-researchers/">batteries</a> currently have a learning rate of about 20%, meaning for every doubling in production (about every 2 years) they fall in cost by about 20%. Casey Handmer explains part of the concept in <a href="https://youtu.be/ekEdq6PhC0Q?si=Verot8watOdSoCzD&t=551">this clip</a> the rest is explained in my [previous blog post](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html).
+Learning Rate is the percentage cost decline for a cumulative doubling in production. For example, <a href="https://www.pv-magazine.com/2021/03/29/battery-costs-have-fallen-97-since-1991-claim-mit-researchers/">batteries</a> currently have a learning rate of about 20%, meaning for every doubling in production (about every 2 years) they fall in cost by about 20%. Casey Handmer explains part of the concept in <a href="https://youtu.be/ekEdq6PhC0Q?si=Verot8watOdSoCzD&t=551">this clip</a> and the rest is explained in my [previous blog post](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html).
 
 ### <b>Expressing Learning Rate With A Simple Diagram</b>
 
