@@ -11,6 +11,11 @@ author:
 
 ![Image description]({{site.url}}/assets/images/covers/waste-your-vote.png){: width="600" .align-center}
 
+[Update 2025 May 3]  
+During the 2025 Canadian federal election [my riding went conservative](https://en.wikipedia.org/wiki/New_Westminster%E2%80%94Burnaby%E2%80%94Maillardville). I was wrong, this blog post is an example of a teenager not fully writing the proofs for his statements. My old riding no longer exists as they were redrawn, so this is not a one to one comparison, but I was still wrong. Also, the conclusion of this blog post is horribly nihilistic.
+
+‎
+
 Some things I say are sarcasm, but all of my sarcasm is based in truth. This is evident in my first post. I will let you figure out where the line is.
 
 ‎
