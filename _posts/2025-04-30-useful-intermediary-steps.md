@@ -56,7 +56,7 @@ The goal of each intermediary step is to prove your ability to execute and hence
 
 Another benefit of raising capital - as opposed to self funding - is it's a way to accelerate progress towards a larger goal without focusing too much on the intermediary steps. It is not a requirement that each step is a sustainable business, only that it buys down risk for the next step. This allows you to focus on the larger goal while still proving your right to capital.
 
-During [Destin Sandlin's talk in which he criticized aspects of the Artemis program](https://youtu.be/OoJsPvmFixU?si=RCo10HyKo1Zf8UWi&t=2530) he shared this quote from George M. Low - former NASA administrator - about the strategy steadily of increasing the scope of the Apollo missions:  
+During [Destin Sandlin's talk in which he criticized aspects of the Artemis program](https://youtu.be/OoJsPvmFixU?si=RCo10HyKo1Zf8UWi&t=2530) he shared this quote from George M. Low - former NASA administrator - about the strategy of steadily increasing the scope of the Apollo missions:  
 <i>"Too small a step would have involved the risk that is always inherent in manned flight, without any significant gain - without any real progress toward the lunar landing. Too large a step, on the other hand, might have stretched the system beyond the capability and to the point where risks would have become excessive because the new requirements in flight operations were more than people could learn and practice and perfect in available time."</i>
 
 [Casey Handmer has often quoted Nat Friedman](https://x.com/search?q=(from%3Acjhandmer)%20%22slow%20is%20fake%22&src=typed_query&f=top) saying "slow is fake." Beware of too small intermediary steps!
