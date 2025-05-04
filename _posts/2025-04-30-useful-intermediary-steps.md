@@ -59,7 +59,7 @@ Another benefit of raising capital - as opposed to self funding - is it's a way 
 During [Destin Sandlin's talk in which he criticized aspects of the Artemis program](https://youtu.be/OoJsPvmFixU?si=RCo10HyKo1Zf8UWi&t=2530) he shared this quote from George M. Low - former NASA administrator - about the strategy of steadily increasing the scope of the Apollo missions:  
 <i>"Too small a step would have involved the risk that is always inherent in manned flight, without any significant gain - without any real progress toward the lunar landing. Too large a step, on the other hand, might have stretched the system beyond the capability and to the point where risks would have become excessive because the new requirements in flight operations were more than people could learn and practice and perfect in available time."</i>
 
-[Casey Handmer has often quoted Nat Friedman](https://x.com/search?q=(from%3Acjhandmer)%20%22slow%20is%20fake%22&src=typed_query&f=top) saying "slow is fake." Beware of too small intermediary steps!
+[Casey Handmer has often quoted Nat Friedman](https://x.com/search?q=%22slow%20is%20fake%22%20(from%3A%40cjhandmer)&src=typed_query&f=top) saying "slow is fake." Beware of too small intermediary steps!
 
 ### <b>Revenue Generation on the path of the Master Plan</b>
 
