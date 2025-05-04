@@ -8,6 +8,7 @@ author:
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/jevons-learning-rate/notebook.jpg">
 </head>
+
 <i>"It's not really an explanatory power to take Moore's law and then just kind of extrapolate."</i>  
 \- [Casey Handmer](https://youtu.be/ekEdq6PhC0Q?si=Verot8watOdSoCzD&t=551)
 
