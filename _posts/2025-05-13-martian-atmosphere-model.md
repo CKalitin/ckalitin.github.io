@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png">
 </head>
 
-![Image](/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png)) This is one of the outputs of this project, a simulated entry of the Perseverance Mars rover compared to real data.</i>
 
 For a fun application of this model and explanation of one of the tradeoffs in designing a Mars lander and Mars lander trajectories, see the [companion blog post](https://ckalitin.github.io/technology/2025/05/13/martian-ballistic-coefficient) to this one.
@@ -20,7 +20,7 @@ Links to [Github](https://github.com/CKalitin/Martian-Ballistic-Modelling) and [
 
 ### <b>Introduction to Modelling Mars Landers</b>
 
-![Image](/assets/images/martian-atmosphere-model/FBD.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/FBD.png){: .align-center}  
 <i>Free body diagram of the blunt body entry vehicle used in the model.</i>
 
 My goal with this project was to create a minimum viable Martian atmosphere model that could be used to simulate the entry of blunt body vehicles with various parameters (drag coefficient, ballistic coefficient, angle of attack, etc.).
@@ -45,7 +45,7 @@ See Appendix 1 for more explanation of modelling blunt body vehicles.
 
 <b>Getting Data From Papers</b>
 
-![Image](/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg){: width="600" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg){: width="600" .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg)) This shows translation of pixel locations on a screenshot of a chart from a paper into useful values.</i>
 
 Before I could begin implementing the model, I needed to find quantitative data on the Martian atmosphere in a format I could use. Unfortunately, most papers do not give you .csv's of their data, and instead give you charts. So I resorted to pixel counting in Krita and writing Python scripts to extract data from the charts.
@@ -67,7 +67,7 @@ I wrote (with the help of the LLMs) several Python scripts to automate data extr
 
 <b>Atmospheric Pressure Data</b>
 
-![Image](/assets/images/martian-atmosphere-model/Pressure-comparison.jpg){: width="450" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Pressure-comparison.jpg){: width="450" .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Pressure-comparison.jpg)) NASA Website approximation of Martian atmospheric pressure (red) compared to NASA MarsGRAM (blue).</i>
 
 In the name of simplicity, my first approach was to approximate Mars' atmospheric pressure with this function from a [NASA website](https://www.grc.nasa.gov/www/k-12/airplane/atmosmrm.html):  
@@ -83,7 +83,7 @@ I later found a [few](https://ntrs.nasa.gov/api/citations/20210015330/downloads/
 
 <b>Atmospheric Temperature Data</b>
 
-![Image](/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg){: width="450" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg){: width="450" .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg)) Mars Altitude vs. Temperature from [this paper](https://www.researchgate.net/publication/234396071_The_Martian_upper_atmosphere).</i>
 
 I [found](https://www.researchgate.net/publication/234396071_The_Martian_upper_atmosphere) two [papers](https://www.sciopen.com/article/10.1007/s42064-021-0115-z) that show Martian atmospheric temperature vs. altitude. Both agree with each other on the rough shape of the curve and the values.
@@ -92,15 +92,15 @@ Interestingly, Mars' atmosphere is coldest around 80-120 km above the surface, t
 
 <b>Atmospheric Density Data</b> 
 
-![Image](/assets/images/martian-atmosphere-model/Atmospheric-Density-vs-Altitude.png){: width="450" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Atmospheric-Density-vs-Altitude.png){: width="450" .align-center}  
 <i>Comparing two sources for Mars' Atmospheric Pressure. The blue line ended up giving more accurate results.</i>
 
 Initially, I used a formula and parameters from the [NASA Mars Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html) to calculate atmospheric density:  
-![Image](/assets/images/martian-atmosphere-model/Initial-Density-Formula.jpg){: height="70" .align-center} 
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Initial-Density-Formula.jpg){: height="70" .align-center} 
 
 During testing against historic Mars lander data, I found that the density values were too high. Instead, I found another formula to approximate density from this [NASA Website](https://www.grc.nasa.gov/www/k-12/airplane/atmosmrm.html).
 
-![Image](/assets/images/martian-atmosphere-model/Density-Formula.jpg){: height="120" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Density-Formula.jpg){: height="120" .align-center}  
 
 This results in far lower atmospheric density values than the previous formula (see the graph above). At this point, I hadn't yet found any papers that had density vs. altitude data to compare to, though I later [found](https://ntrs.nasa.gov/api/citations/20210015330/downloads/NASA-TM-20210015330.pdf) a [few](https://www.sciopen.com/article/10.1007/s42064-021-0115-z).
 
@@ -121,16 +121,16 @@ We're at the low end of the Viking range with a maximum density of ~0.015 kg/m3 
 
 <b>Drag Coefficient and Lift-to-Drag Ratio</b>
 
-![Image](/assets/images/martian-atmosphere-model/Drag-Coefficient.png){: width="450" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Drag-Coefficient.png){: width="450" .align-center}  
 
-![Image](/assets/images/martian-atmosphere-model/LD-Ratio.jpg){: width="450" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/LD-Ratio.jpg){: width="450" .align-center}  
 
 As mentioned earlier, I used the paper [Aerodynamics for the Mars Phoenix Entry Capsule](https://arc.aiaa.org/doi/10.2514/1.46219) to find the drag coefficient vs. velocity and lift-to-drag ratio vs. angle of attack for the Phoenix lander.
 
 I'm only now realizing that the drag coefficient vs. velocity graph is given for multiple angles of attack, and I only implemented the 0-degree AoA curve. Whoops! This results in higher than expected drag force for higher angles of attack, which I will have to fix if I continue this project.
 
 To calculate the drag force, I used this formula:  
-![Image](/assets/images/martian-atmosphere-model/Drag-formula.jpg){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Drag-formula.jpg){: .align-center}  
 
 Then, I solved for lift using the lift-to-drag ratio:  
 (Lift/Drag Ratio) * Drag = Lift
@@ -140,18 +140,18 @@ Then, I solved for lift using the lift-to-drag ratio:
 I used a timestep-based Newtonian physics model to simulate the vehicle's trajectory. This model used a few basic equations to calculate the forces acting on the vehicle, then calculated acceleration, velocity, and position at each timestep.
 
 Acceleration due to drag:  
-![Image](/assets/images/martian-atmosphere-model/Force-drag-formula.jpg){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Force-drag-formula.jpg){: .align-center}  
 
 Acceleration due to gravity:  
-![Image](/assets/images/martian-atmosphere-model/Force-gravity-formula.jpg){: .align-center}
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Force-gravity-formula.jpg){: .align-center}
 
 Acceleration due to lift (same as before but with acceleration instead of force as the variables):  
 (Lift/Drag Ratio) * Drag = Lift
 
-![Image](/assets/images/martian-atmosphere-model/Simulation-Acceleration-Functions.jpg){: .align-center}
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Simulation-Acceleration-Functions.jpg){: .align-center}
 <i>Acceleration functions implemented in Python in [sim.py](https://github.com/CKalitin/Martian-Ballistic-Modelling/blob/master/Project/utils.py).</i>
 
-![Image](/assets/images/martian-atmosphere-model/Simulation-While-Loop.jpg){: .align-center}
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Simulation-While-Loop.jpg){: .align-center}
 <i>Simulation time step implemented in Python in [sim.py](https://github.com/CKalitin/Martian-Ballistic-Modelling/blob/master/Project/sim.py).</i>
 
 With each iteration of the simulation, the atmospheric pressure, temperature and density are calculated based on the current altitude.
@@ -164,7 +164,7 @@ Finally, velocity and position are updated and the loop continues until the vehi
 
 ### <b>Initial Simulations and Convergence as a Function of Time Step</b>
 
-![Image](/assets/images/martian-atmosphere-model/first-sim.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/first-sim.png){: .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/first-sim.png)) This is [one of the first simulations](https://x.com/CKalitin/status/1920714814873129164) done using the model. (Shown using updated interface so that it's consistent with other charts in this post)</i>
 
 Once I had a first iteration of the model, I ran a few simulations and worked on the matplotlib interface to visualize the results.
@@ -184,7 +184,7 @@ Once I had a first iteration of the model, I ran a few simulations and worked on
 9. Parameters - These are the initial parameters of the simulation
 10. Terminal Values - This shows you the status of the vehicle at the end of the simulation.
 
-![Image](/assets/images/martian-atmosphere-model/Convergence.jpg){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Convergence.jpg){: .align-center}  
 <i>This shows simulation terminal values vs. time step size.</i>
 
 Because I'm using discrete time steps and not a continuous integration method, the size of the time step can affect the accuracy of the simulation. This is an inherent limitation of all numerical integration/differentiation methods.
@@ -195,7 +195,7 @@ We can see above that there are diminishing returns to decreasing the time step 
 
 ### <b>Fitting To Opportunity</b>
 
-![Image](/assets/images/martian-atmosphere-model/Opportunity.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Opportunity.png){: .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/opportunity.png)) This is my simulation of the Opportunity rover's Mars atmospheric entry.</i>
 
 All the explanation above of gathering Martian atmospheric data and building the model is not given in chronological order. In reality, progress was not monotonic and I had several intermediary iterations of the model before I got to the final version.
@@ -208,7 +208,7 @@ The top middle chart of the image above shows the simulated vs. real altitude vs
 
 ### <b>Fitting To Perseverance</b>
 
-![Image](/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png)) This is my simulation of the Perseverance rover's Mars atmospheric entry.</i>
 
 After a difficult process of just trying to find a [paper that contained the Perseverance Mars entry data](https://drive.google.com/file/d/1Ou3LRuLYgJrq4oOTXSURy2oxXd8bafxY/view?usp=drive_link) (See Appendix 2), I was able to extract a trove of data including altitude; net velocity; east, north, down velocities; flight path angle; angle of attack; and even more that I didn't include.
@@ -221,10 +221,10 @@ Just like we saw with Opportunity, the model has a major divergence when the par
 
 ### <b>Fitting To Starship</b>
 
-![Image](/assets/images/martian-atmosphere-model/Elon-talk.jpg){: .align-center}
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Elon-talk.jpg){: .align-center}
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Elon-talk.jpg)) In a [2017 Starship talk](https://youtu.be/o7lBn93SxyE?si=aGaAdXPdI904-rYb&t=2016), Elon showed a simulated BFR Mars entry which I plotted my results against.</i>
 
-![Image](/assets/images/martian-atmosphere-model/Starship.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Starship.png){: .align-center}  
 <i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Starship.png)) See the top middle chart for comparison between my Model and SpaceX's higher fidelity simulation.</i>
 
 Just like the greater mass-to-area ratio (ballistic coefficient) of Opportunity vs. Perseverance, Starship has a much greater ballistic coefficient than either of them (~50 kg/m2, ~200 kg/m2, ~400 kg/m2, respectively). This means that Starship will require far more time in the atmosphere for drag to slow it down enough for a low propellant landing.
@@ -257,13 +257,13 @@ NASA's Technical Reports Server (NTRS) also gives me a 504 error every time I tr
 
 ### <b>Appendix 3: Cool paper with a detachable heat shield Mars lander design</b>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield.jpg){: width="500" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Detachable-Heatshield.jpg){: width="500" .align-center}  
 <i>([Expanded Image]({{site.url}}Detachable-Heatshield.jpg))</i>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Vel.jpg){: width="500" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Vel.jpg){: width="500" .align-center}  
 <i>([Expanded Image]({{site.url}}Detachable-Heatshield-Alt-vs-Vel.jpg))</i>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Dist.jpg){: width="500" .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Dist.jpg){: width="500" .align-center}  
 <i>([Expanded Image]({{site.url}}Detachable-Heatshield-Alt-vs-Dist.jpg))</i>
 
 While I was looking for historic Mars entry data, I found a [cool paper](https://engineering.purdue.edu/RDSL/ippw10-paper-saikia---june.pdf) that describes a Mars lander design with a detachable heat shield that contained several cool charts and insights that are applicable to Kerbal Space Program.
