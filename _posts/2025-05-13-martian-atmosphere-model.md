@@ -184,6 +184,8 @@ Once I had a first iteration of the model, I ran a few simulations and worked on
 9. Parameters - These are the initial parameters of the simulation
 10. Terminal Values - This shows you the status of the vehicle at the end of the simulation.
 
+<b>Convergence as a Function of Timestep</b>  
+
 ![Image]({{site.url}}/assets/images/martian-atmosphere-model/Convergence.jpg){: .align-center}  
 <i>This shows simulation terminal values vs. time step size.</i>
 
@@ -196,7 +198,7 @@ We can see above that there are diminishing returns to decreasing the time step 
 ### <b>Fitting To Opportunity</b>
 
 ![Image]({{site.url}}/assets/images/martian-atmosphere-model/Opportunity.png){: .align-center}  
-<i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/opportunity.png)) This is my simulation of the Opportunity rover's Mars atmospheric entry.</i>
+<i>([Expanded Image]({{site.url}}/assets/images/martian-atmosphere-model/Opportunity.png)) This is my simulation of the Opportunity rover's Mars atmospheric entry.</i>
 
 All the explanation above of gathering Martian atmospheric data and building the model is not given in chronological order. In reality, progress was not monotonic and I had several intermediary iterations of the model before I got to the final version.
 
