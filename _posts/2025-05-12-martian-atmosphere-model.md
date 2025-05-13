@@ -9,7 +9,7 @@ author:
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png">
 </head>
 
-![Image](/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png){: .align-center}  
 <i>This is one of the outputs of this project, a simulated entry of the Perseverance Mars rover compared to real data.</i>
 
 For a fun application of this model and explanation of one of the tradeoffs in designing a Mars lander and Mars lander trajectories, see the [companion blog post](https://ckalitin.github.io/technology/2025/05/03/jevons-learning-rate.html) to this one.
@@ -20,7 +20,7 @@ Links to [Github](https://github.com/CKalitin/Martian-Ballistic-Modelling) and [
 
 ### <b>How to Model a Mars Lander</b>
 
-![Image](/assets/images/martian-atmosphere-model/FBD.png){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/FBD.png){: .align-center}  
 <i>Free body diagram of the blunt body entry vehicle used in the model.</i>
 
 My goal with this project was to create a minimum viable Martian atmosphere model that could be used to simulate the entry of blunt body vehicles with various parameters (drag coefficient, ballistic coefficient, angle of attack, etc.).
@@ -52,7 +52,7 @@ Further structure:
 
 <b>Getting Data From Papers</b>
 
-![Image](/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg){: .align-center}  
+![Image]({{site.url}}/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg){: .align-center}  
 <i>This shows getting raw data from a chart from a paper by translating pixel positions on a chart to useful values.</i>
 
 Before I could begin implementing the model, I needed to find quantitative data on the Martian atmosphere in a format I could use. Unfortunately, most papers do not give you .csv's of their data, and instead give you charts. So I resorted to pixel counting in Krita and writing Python scripts to extract data from the charts.
