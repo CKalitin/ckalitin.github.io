@@ -47,6 +47,8 @@ layout: base
     {% for tag in site.tags %}
       {% if tag[0] == "Latest Posts" %}
         {% continue %}
+      {% if tag[0] == "Drafts" %}
+        {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
