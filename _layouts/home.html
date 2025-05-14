@@ -24,10 +24,9 @@ layout: base
 
     <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
     {% for tag in site.tags %}
-      {%if tag.size > 1 %}
-        {% if tag[1] != "Latest Posts" %}
-          {% continue %}
-        {% endif %}
+      {% if tag[0] != "Latest Posts" %}
+        {% continue %}
+      {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -46,10 +45,8 @@ layout: base
     {% endfor %}
 
     {% for tag in site.tags %}
-      {%if tag.size > 1 %}
-        {% if tag[0] == "Drafts" %}
-          {% continue %}
-        {% endif %}
+      {% if tag[0] == "Drafts" %}
+        {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
