@@ -28,11 +28,11 @@ layout: base
         {% continue %}
       {% endif %}
       <h2><b>{{ tag[0] }}</b></h2>
-      <ul>
+      <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in tag[1] -%}
         <li>
-          <span class="post-meta">{{ post.date | date: date_format}} - {{tag[0]}}</span>
+          <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags}}</span>
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
@@ -51,7 +51,7 @@ layout: base
         {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
-      <ul>
+      <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in tag[1] -%}
         <li>
