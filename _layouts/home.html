@@ -28,6 +28,8 @@ layout: base
         {% if tags[1] != "Latest Posts" %}
           {% continue %}
         {% endif %}
+      {% else %}
+        {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
