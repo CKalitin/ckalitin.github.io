@@ -44,6 +44,8 @@ layout: base
       </ul>
     {% endfor %}
 
+    { site.tags.move(0,3) }
+
     {% for tag in site.tags %}
       {% if tag[0] == "Latest Posts" %}
         {% continue %}
