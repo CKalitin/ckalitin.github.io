@@ -72,10 +72,10 @@ layout: base
         {% continue %}
       {% endif %}
       <h2>{{ tag[0] }}</h2>
-      <ul class="post-list">
+      <ul class="tiny-post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {% for post in tag[1] %}
-          <li><a href="{{ post.url }}">{{post.date}} - {{ post.title }}</a></li>
+          <li>{{post.date}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     {% endfor %}
