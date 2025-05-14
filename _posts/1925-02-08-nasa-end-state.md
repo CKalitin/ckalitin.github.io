@@ -2,6 +2,8 @@
 layout: post
 title: "The End State of NASA"
 categories: Space
+tags:
+    - Drafts
 author:
  - Christopher Kalitin
 ---
