@@ -24,8 +24,10 @@ layout: base
 
     <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
     {% for tag in site.tags %}
-      {% if tag[0] != "Latest Posts" %}
-        {% continue %}
+      {% if tags.size > 1 %}
+        {% if tags[1] != "Latest Posts" %}
+          {% continue %}
+        {% endif %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
@@ -45,7 +47,7 @@ layout: base
     {% endfor %}
 
     {% for tag in site.tags %}
-      {% if tag[0] == "Drafts" %}
+      {% if tag[0] == "Latest Posts" %}
         {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
@@ -59,33 +61,6 @@ layout: base
               {{ post.title | escape }}
             </a>
           </h4>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-    {% endfor %}
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-
-    <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
-    {% for tag in site.tags %}
-      {% if tag[0] != "Drafts" %}
-        {% continue %}
-      {% endif %}
-      <h1><b>{{ tag[0] }}</b></h1>
-      <ul class="post-list">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {%- for post in tag[1] -%}
-        <li>
-          <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags[0]}}</span>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
