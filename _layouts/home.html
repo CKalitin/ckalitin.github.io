@@ -16,19 +16,71 @@ layout: base
     {% assign posts = site.posts %}
   {% endif %}
 
-  {% for tag in site.tags %}
-    <h3>{{ tag[0] }}</h3>
-    <ul>
-      {% for post in tag[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
+
+    <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
+    {% for tag in site.tags %}
+      {% if tag[0] != "Latest Posts" %}
+        {% continue %}
+      {% endif %}
+      <h2>{{ tag[0] }}</h2>
+      <ul>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in posts -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {% endfor %}
+
+    {% for tag in site.tags %}
+      {% if tag[0] == "Latest Posts" %}
+        {% continue %}
+      {% endif %}
+      <h2>{{ tag[0] }}</h2>
+      <ul>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in posts -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {% endfor %}
+
+    {% for tag in site.tags %}
+      {% if tag[0] == "Latest Posts" %}
+        {% continue %}
+      {% endif %}
+      <h2>{{ tag[0] }}</h2>
+      <ul>
+        {% for post in tag[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
