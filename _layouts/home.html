@@ -47,6 +47,8 @@ layout: base
     {% for tag in site.tags %}
       {% if tag[0] == "Latest Posts" %}
         {% continue %}
+      {% if tag[0] == "Drafts" %}
+        {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
@@ -59,6 +61,27 @@ layout: base
               {{ post.title | escape }}
             </a>
           </h4>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {% endfor %}
+
+    {% for tag in site.tags %}
+      {% if tag[0] != "Drafts" %}
+        {% continue %}
+      {% endif %}
+      <h1><b>{{ tag[0] }}</b></h1>
+      <ul class="post-list">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in tag[1] -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags[0]}}</span>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
