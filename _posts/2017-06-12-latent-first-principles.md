@@ -3,6 +3,7 @@ layout: post
 title: "First Principles Thinking Expressed As Compression Into a Latent Space"
 categories: Ideas
 tags:
+    - Ideas
     - Drafts
 author:
  - Christopher Kalitin

@@ -3,6 +3,7 @@ layout: post
 title: "The Bare Minimum Engineer"
 categories: Engineering
 tags:
+    - Ideas
     - Drafts
 author:
  - Christopher Kalitin

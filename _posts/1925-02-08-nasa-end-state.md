@@ -3,6 +3,7 @@ layout: post
 title: "The End State of NASA"
 categories: Space
 tags:
+    - Space Industry Analysis
     - Drafts
 author:
  - Christopher Kalitin

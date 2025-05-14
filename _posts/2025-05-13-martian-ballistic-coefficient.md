@@ -3,6 +3,7 @@ layout: post
 title: "Modelling Terminal Velocity Vs. Ballistic Coefficient For Blunt Body Mars Entry Vehicles"
 categories: Space
 tags:
+    - Projects
     - Drafts
 author:
  - Christopher Kalitin

@@ -3,6 +3,7 @@ layout: post
 title: "Stoke Nova Cost Model - Will it Survive?"
 categories: Technology
 tags:
+    - Space Industry Analysis
     - Drafts
 author:
  - Christopher Kalitin
