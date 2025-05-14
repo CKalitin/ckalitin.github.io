@@ -2,6 +2,7 @@
 layout: post
 title: "A New Paradigm of Launch Vehicle Architecture Design Tradeoffs"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

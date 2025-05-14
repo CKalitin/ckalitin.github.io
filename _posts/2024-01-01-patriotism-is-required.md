@@ -2,6 +2,7 @@
 layout: post
 title: "Patriotism is a Requirement"
 categories: Government
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

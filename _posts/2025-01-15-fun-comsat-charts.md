@@ -2,6 +2,7 @@
 layout: post
 title: "Fun Charts That Visualize The History of Communicatons Satellites"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Small Sat Constellations: The line between Electron and Rideshare"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Characterizing the ESP32's ADC"
 categories: Projects
+tag: Projects
 author:
  - Christopher Kalitin
 ---

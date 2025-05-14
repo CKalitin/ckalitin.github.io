@@ -2,6 +2,7 @@
 layout: post
 title: "How to Teach Engineering"
 categories: Dumbshit
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "On the Overallocation of Labour to Finance and Law"
 categories: Technology
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

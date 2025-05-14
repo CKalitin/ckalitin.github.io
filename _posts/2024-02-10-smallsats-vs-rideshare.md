@@ -2,6 +2,7 @@
 layout: post
 title: "Analysing the Dedicated Small Sat Launch Market"
 categories: Technology
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

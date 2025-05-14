@@ -2,6 +2,7 @@
 layout: post
 title: "Visualizing Small Sat Constellation Tradeoffs with Charts"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Waste Your Vote! Do What's Funniest!"
 categories: Government
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

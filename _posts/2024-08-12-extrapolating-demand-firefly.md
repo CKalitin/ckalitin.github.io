@@ -2,6 +2,7 @@
 layout: post
 title: "Extrapolating Demand and Competition for the 1-ton Rocket Class"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

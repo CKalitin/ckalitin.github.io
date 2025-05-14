@@ -2,6 +2,7 @@
 layout: post
 title: "What Is the RCC_CSR Register in STM32 Microcontrollers?"
 categories: Technical
+tag: Projects
 author:
  - Christopher Kalitin
 ---

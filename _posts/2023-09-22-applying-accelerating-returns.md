@@ -2,7 +2,7 @@
 layout: post
 title: "Applying the Law of Accelerating Returns"
 categories: Technology
-tag: test1
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

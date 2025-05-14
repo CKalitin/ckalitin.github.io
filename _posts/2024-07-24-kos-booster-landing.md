@@ -2,6 +2,7 @@
 layout: post
 title: "How to Land an Orbital Rocket Booster with kOS"
 categories: Space
+tag: Projects
 author:
  - Christopher Kalitin
 ---

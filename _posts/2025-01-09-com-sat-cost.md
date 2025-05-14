@@ -2,6 +2,7 @@
 layout: post
 title: "Estimating Cost per Mbps of Communication Satellites Over Time"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

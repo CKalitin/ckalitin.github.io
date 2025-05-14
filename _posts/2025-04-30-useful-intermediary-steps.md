@@ -2,6 +2,9 @@
 layout: post
 title: "Useful Intermediary Steps Are Fundamental To Startups And Large Novel Projects"
 categories: Technology
+tags:
+    - Ideas
+    - Latest Posts
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Only Make Bets You Can Win"
 categories: Miscellaneous
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

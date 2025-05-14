@@ -2,6 +2,7 @@
 layout: post
 title: "Stoke's Nova is a Perfectly Sized Rocket"
 categories: Technology
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "S-Curves Allow You to Predict the Future"
 categories: Technology
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

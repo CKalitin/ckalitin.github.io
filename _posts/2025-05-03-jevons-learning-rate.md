@@ -2,6 +2,9 @@
 layout: post
 title: "Jevons Paradox is Just a Subset of the Principle Behind Learning Rate"
 categories: Technology
+tags:
+    - Ideas
+    - Latest Posts
 author:
  - Christopher Kalitin
 ---

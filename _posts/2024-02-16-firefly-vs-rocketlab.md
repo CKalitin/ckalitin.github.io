@@ -2,6 +2,7 @@
 layout: post
 title: "Comparing Demand for Firefly's Alpha vs. Electron"
 categories: Technology
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

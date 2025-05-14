@@ -2,6 +2,7 @@
 layout: post
 title: "Why You Should Accumulate Capital"
 categories: Investing
+tag: Ideas
 author:
  - Christopher Kalitin
 ---

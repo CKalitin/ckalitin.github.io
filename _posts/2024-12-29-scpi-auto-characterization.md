@@ -2,6 +2,7 @@
 layout: post
 title: "Using SCPI and PyVISA to Automatically Collect Data for ADC Characterization"
 categories: Projects
+tag: Projects
 author:
  - Christopher Kalitin
 ---

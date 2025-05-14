@@ -2,6 +2,7 @@
 layout: post
 title: "What SpaceX's Bandwagon Missions Mean for Small Rockets"
 categories: Space
+tag: Space Industry Analysis
 author:
  - Christopher Kalitin
 ---

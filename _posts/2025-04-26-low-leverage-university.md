@@ -2,6 +2,7 @@
 layout: post
 title: "Being a University Student has Extremely Low Leverage"
 categories: Idea
+tag: Ideas
 author:
  - Christopher Kalitin
 ---
