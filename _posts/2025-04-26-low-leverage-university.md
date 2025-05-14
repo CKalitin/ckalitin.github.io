@@ -6,7 +6,7 @@ author:
  - Christopher Kalitin
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/jevons-learning-rate/notebook.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/low-leverage-university/postscreenshot.jpg">
 </head>
 
 For feedback / criticism, please [reply here](https://x.com/CKalitin/status/1916367593910501869).
