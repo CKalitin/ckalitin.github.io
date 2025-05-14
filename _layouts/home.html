@@ -24,11 +24,10 @@ layout: base
 
     <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
     {% for tag in site.tags %}
-      {% if tags.size > 1 %}
-        {% if tags[1] != "Latest Posts" %}
-          {% continue %}
-        {% endif %}
-      {% else %}
+      {% if tags.size <= 1 %}
+        {% continue %}
+      {% endif %}
+      {% if tags[1] != "Latest Posts" %}
         {% continue %}
       {% endif %}
       <h1><b>{{ tag[0] }}</b></h1>
