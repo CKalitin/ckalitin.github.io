@@ -2,6 +2,7 @@
 layout: post
 title: "NASA's fucked - Here's my vision"
 categories: Space
+tag: test2
 author:
  - Christopher Kalitin
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "You Will Get 80 Trillion Dollars If You Read This Closely"
 categories: Investing
+tag: test3
 author:
  - Christopher Kalitin
 ---
