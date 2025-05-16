@@ -8,7 +8,7 @@ tags:
 author:
  - Christopher Kalitin
 redirect_from:
-  - /technology/1961/04/13/transition-to-robotaxis.html
+  - /space/2025/05/13/martian-ballistic-coefficient.html
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/terminal_velocity_vs_BC_t0.1_allAoA_max30_log.png">
