@@ -7,6 +7,8 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
+redirect_from:
+  - /ideas/2017/06/12/latent-first-principles.html
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">

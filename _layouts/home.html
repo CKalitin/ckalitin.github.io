@@ -28,6 +28,9 @@ layout: base
         {% if tag[0] != tag_ordered %}
           {% continue %}
         {% endif %}
+        {% if tag[0] == "Drafts" %}
+          {% continue %}
+        {% endif %}
         <h1><b>{{ tag[0] }}</b></h1>
         <ul class="post-list">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

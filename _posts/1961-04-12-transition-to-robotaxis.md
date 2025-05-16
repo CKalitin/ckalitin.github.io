@@ -7,6 +7,8 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
+redirect_from:
+    - /technology/1961/04/12/transition-to-robotaxis.html
 ---
 
 1. S-curves (show them, and why they're the future) "S-curves are destiny"

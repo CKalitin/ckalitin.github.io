@@ -7,6 +7,8 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
+redirect_from:
+  - /engineering/1969/07/20/bare-minimum-engineer.html
 ---
 
 Longer title: How To Become The Bare Minimum Engineer
