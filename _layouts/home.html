@@ -21,7 +21,31 @@ layout: base
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
 
+    {% assign ordered_tags = "Latest Posts,Projects,Space Industry Analysis,Ideas,Drafts" | split: "," %}
+
+    {% for tag_ordered in ordered_tags %}
+      {% for tag in site.tags %}
+        {% if tag[0] != tag_ordered %}
+          {% continue %}
+        {% endif %}
+        <h1><b>{{ tag[0] }}</b></h1>
+        <ul class="post-list">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {%- for post in tag[1] -%}
+          <li>
+            <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags[0]}}</span>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+      {% endfor %}
+    {% endfor %}
+
     <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
+    <!--
     {% for tag in site.tags %}
       0
       {{tag[0]}}
@@ -58,7 +82,7 @@ layout: base
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {%- for post in tag[1] -%} <!--tag[1] contains all the posts, so don't show that or you'll just get all posts there-->
+        {%- for post in tag[1] -%} tag[1] contains all the posts, so don't show that or you'll just get all posts there
         <li>
           {{post.tags[0]}}1
           {{post.tags[1]}}2
@@ -111,6 +135,8 @@ layout: base
       </li>
       {%- endfor -%}
     </ul>
+
+  -->
 
     {% if site.paginate %}
       <div class="pager">
