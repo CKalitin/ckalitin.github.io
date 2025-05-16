@@ -6,7 +6,7 @@ tags:
     - Projects
     - Drafts
 author:
- - Christopher Kalitinre
+ - Christopher Kalitin
 direct_from:
   - /technology/1961/04/13/transition-to-robotaxis.html
 ---
