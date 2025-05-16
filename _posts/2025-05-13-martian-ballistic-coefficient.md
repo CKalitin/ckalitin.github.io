@@ -7,7 +7,7 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-direct_from:
+redirect_from:
   - /technology/1961/04/13/transition-to-robotaxis.html
 ---
 <head>
