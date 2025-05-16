@@ -6,7 +6,9 @@ tags:
     - Projects
     - Drafts
 author:
- - Christopher Kalitin
+ - Christopher Kalitinre
+direct_from:
+  - /technology/1961/04/13/transition-to-robotaxis.html
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/terminal_velocity_vs_BC_t0.1_allAoA_max30_log.png">
