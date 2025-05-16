@@ -60,8 +60,9 @@ layout: base
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in tag[1] -%} <!--tag[1] contains all the posts, so don't show that or you'll just get all posts there-->
         <li>
-          {{post.tags[0]}}
-          {{post.tags[1]}}
+          {{post.tags[0]}}1
+          {{post.tags[1]}}2
+          {{post.tags[2]}}3
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h4>
             <a class="post-link" href="{{ post.url | relative_url }}">
