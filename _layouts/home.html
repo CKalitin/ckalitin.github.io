@@ -21,7 +21,7 @@ layout: base
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
 
-    !--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags->
+    <!--Display Latest posts first, docs; https://jekyllrb.com/docs/posts/#tags-->
     {% for tag in site.tags %}
       0
       {{tag[0]}}
@@ -78,7 +78,7 @@ layout: base
 
     
     {% for tag in site.tags %}
-      {{tag}}
+      {{tag[0]}}
       {{site.tags.size}}
       {% if tag[0] == "Latest Posts" %}
         {% continue %}
