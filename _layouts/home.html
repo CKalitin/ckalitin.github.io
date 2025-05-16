@@ -58,8 +58,10 @@ layout: base
       <h1><b>{{ tag[0] }}</b></h1>
       <ul class="post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {%- for post in tag[1] -%}
+        {%- for post in tag[1] -%} <!--tag[1] contains all the posts, so don't show that or you'll just get all posts there-->
         <li>
+          {{post.tags[0]}}
+          {{post.tags[1]}}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h4>
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -84,6 +86,8 @@ layout: base
       <h2>{{ tag[0] }}</h2>
       <ul class="tiny-post-list">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta"><li>{{post.date}} - <a href="{{ post.url }}">{{ post.title }}</a></li></span>
+        <span class="post-meta">{{post.date}} - <a href="{{ post.url }}">{{ post.title }}</a></span>
         {% for post in tag[1] %}
           <li>{{post.date}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
