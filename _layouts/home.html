@@ -32,8 +32,10 @@ layout: base
         <ul class="post-list">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           {%- for post in tag[1] -%}
-            {% if post.tags[0] == "Drafts" %}
-              {% continue %}
+            {% if tag != "Drafts" %}
+              {% if post.tags[1] == "Drafts" %}
+                {% continue %}
+              {% endif %}
             {% endif %}
             <li>
               <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags[0]}}</span>
