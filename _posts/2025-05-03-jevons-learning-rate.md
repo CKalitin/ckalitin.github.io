@@ -7,6 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
+word_count: 2314
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/jevons-learning-rate/notebook.jpg">

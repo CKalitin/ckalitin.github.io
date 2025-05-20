@@ -5,6 +5,7 @@ categories: Projects
 tag: Projects
 author:
  - Christopher Kalitin
+word_count: 2103
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/esp32-adc-characterization/STM32-Zoomed.jpg">

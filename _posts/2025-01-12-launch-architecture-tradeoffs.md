@@ -5,6 +5,7 @@ categories: Space
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 1567
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg">

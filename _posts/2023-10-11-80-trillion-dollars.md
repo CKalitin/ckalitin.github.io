@@ -5,6 +5,7 @@ categories: Investing
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 1046
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/covers/80-trillion-dollars.jpg">

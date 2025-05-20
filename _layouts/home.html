@@ -38,7 +38,7 @@ layout: base
               {% endif %}
             {% endif %}
             <li>
-              <span class="post-meta">{{ post.date | date: date_format}} - {{post.tags[0]}}</span>
+              <span class="post-meta">{{ post.date | date: date_format}} - {{post.word_count}} - {{post.tags[0]}}</span>
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
               </a>

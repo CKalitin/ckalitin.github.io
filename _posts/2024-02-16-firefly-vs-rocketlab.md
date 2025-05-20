@@ -5,6 +5,7 @@ categories: Technology
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 1121
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/firefly-vs-rocketlab/alpha-launch-1.jpg">

@@ -5,6 +5,7 @@ categories: Space
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 379
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/fun-comsat-charts/Communications Satellite Launches by Provider vs. Year (Ex. Starlink).png">

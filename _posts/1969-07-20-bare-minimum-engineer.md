@@ -9,8 +9,8 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /engineering/1969/07/20/bare-minimum-engineer.html
+word_count: 1752
 ---
-
 Longer title: How To Become The Bare Minimum Engineer
 
 This is partly a play on Casey Handmer's <a href="https://caseyhandmer.wordpress.com/2024/01/30/the-well-rounded-engineer/">The Well-Rounded Engineer</a>.

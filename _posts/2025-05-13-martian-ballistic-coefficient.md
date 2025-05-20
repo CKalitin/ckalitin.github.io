@@ -9,6 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/2025/05/13/martian-ballistic-coefficient.html
+word_count: 26
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/terminal_velocity_vs_BC_t0.1_allAoA_max30_log.png">

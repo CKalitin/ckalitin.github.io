@@ -5,8 +5,8 @@ categories: Technology
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 959
 ---
-
 Go to where the vibes are
 
 #### <b>Useless ambitious people are the most dangerous people in the world</b>

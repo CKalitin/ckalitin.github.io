@@ -5,6 +5,7 @@ categories: Space
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 1885
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/small-sat-constellations/Chart.jpg">

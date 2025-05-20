@@ -5,8 +5,8 @@ categories: Government
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 688
 ---
-
 I intend to become a citizen of the Land of Opportunity and do everything in my power to improve the nation. Albeit, until I find a place that aligns more closely with my ideals.
 
 This is patriotism, being a net positive to your nation. I can't imagine living a net-zero or net-negative life, what's the point? Work to improve your life and the lives of your neighbors and family members. This is a fundamentally useful and positive life and everyone should strive for it. 

@@ -5,6 +5,7 @@ categories: Technical
 tag: Projects
 author:
  - Christopher Kalitin
+word_count: 1625
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/stm32-rcc-register/block-diagram.jgp">

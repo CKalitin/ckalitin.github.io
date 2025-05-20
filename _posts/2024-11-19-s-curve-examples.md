@@ -5,6 +5,7 @@ categories: Technology
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 2607
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/s-curve-examples/s-curve.png">

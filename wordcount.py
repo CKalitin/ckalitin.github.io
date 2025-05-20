@@ -81,7 +81,7 @@ def scan_directory_for_md_files(directory):
     # Prepare CSV output
     output = StringIO()
     writer = csv.writer(output, lineterminator='\n')
-    writer.writerow(['Date', 'Words', 'Title'])  # CSV header
+    writer.writerow(['Date', 'Words', 'Title', 'Path'])  # CSV header
 
     # Sort files by date (extracted from filename)
     md_files.sort(key=lambda x: x.name[:10])  # Sort by YYYY-MM-DD
@@ -90,7 +90,7 @@ def scan_directory_for_md_files(directory):
         if title and content:
             word_count = count_words_in_content(content)
             date = extract_date_from_filename(md_file.name)
-            writer.writerow([date, word_count, title])
+            writer.writerow([date, word_count, title, md_file])
     
     return output.getvalue()
 

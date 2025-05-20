@@ -5,6 +5,7 @@ categories: Miscellaneous
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 584
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/covers/art-is-dead.jpg">

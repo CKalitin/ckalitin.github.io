@@ -7,6 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
+word_count: 1869
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/useful-intermediary-steps/postscreenshot.png">

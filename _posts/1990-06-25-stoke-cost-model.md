@@ -9,6 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
     - /technology/1990/06/25/stoke-cost-model.html
+word_count: 64
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/stoke-nova-perfect/hop.jpg">

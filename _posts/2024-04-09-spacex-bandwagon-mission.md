@@ -5,6 +5,7 @@ categories: Space
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 2144
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/covers/spacex-bandwagon-mission.jpg">

@@ -5,6 +5,7 @@ categories: Technology
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 1424
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/image1.png">

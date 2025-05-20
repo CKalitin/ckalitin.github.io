@@ -5,8 +5,8 @@ categories: Miscellaneous
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 742
 ---
-
 ![Image description]({{site.url}}/assets/images/2023-12-17/Chris-bet.png){: width="440" .align-left}  
 ‎  
 ![Image description]({{site.url}}/assets/images/2023-12-17/His-bet.png){: width="497" .align-left}

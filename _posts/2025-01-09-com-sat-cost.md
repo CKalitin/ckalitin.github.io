@@ -5,6 +5,7 @@ categories: Space
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 1246
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/com-sat-cost/Cost per Mbps vs. Satellite Program & Year Of First Launch.png">

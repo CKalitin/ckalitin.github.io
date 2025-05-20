@@ -5,6 +5,7 @@ categories: Dumbshit
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 1051
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/to-teach-engineering/Rocket.jpg">

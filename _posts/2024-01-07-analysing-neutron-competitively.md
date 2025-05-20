@@ -5,6 +5,7 @@ categories: Technology
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 1315
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/2024-01-07/neutron-deploy.jpg">

@@ -5,6 +5,7 @@ categories: Technology
 tag: Space Industry Analysis
 author:
  - Christopher Kalitin
+word_count: 2407
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png">

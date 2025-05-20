@@ -5,6 +5,7 @@ categories: Space
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 2439
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-is-fucked/JPL-Dragon.jpg">

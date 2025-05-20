@@ -9,8 +9,8 @@ author:
  - Christopher Kalitin
 redirect_from:
     - /technology/1961/04/12/transition-to-robotaxis.html
+word_count: 3970
 ---
-
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)

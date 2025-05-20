@@ -5,6 +5,7 @@ categories: Government
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 722
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/covers/waste-your-vote.png">

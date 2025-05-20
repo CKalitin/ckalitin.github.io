@@ -5,6 +5,7 @@ categories: Projects
 tag: Projects
 author:
  - Christopher Kalitin
+word_count: 1224
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png">

@@ -7,6 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
+word_count: 3184
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/martian-atmosphere-model/Perseverance.png">

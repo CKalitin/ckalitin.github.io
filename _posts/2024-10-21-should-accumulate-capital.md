@@ -5,8 +5,8 @@ categories: Investing
 tag: Ideas
 author:
  - Christopher Kalitin
+word_count: 2842
 ---
-
 ### <b>What Money Is</b>
 
 This blog post is not "Why You Should Be Rich." When most people think about being rich the first thing that comes to mind is buying power. "I want to win the lottery so I can live on a yacht with a Lamborgini and an expensive watch." This is fundamentally spending your money to purchase goods and services - you do not get this spent money back. This spending is used to increase your quality of life or for other mainly hedonistic reasons. 
