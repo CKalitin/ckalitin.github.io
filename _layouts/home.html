@@ -21,7 +21,7 @@ layout: base
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
 
-    {% assign ordered_tags = "Latest Posts,Projects,Space Industry Analysis,Ideas,Drafts" | split: "," %}
+    {% assign ordered_tags = "Latest Posts,Projects,Space Industry Analysis,Ideas,Drafts,Other" | split: "," %}
 
     {% for tag_ordered in ordered_tags %}
       {% for tag in site.tags %}
