@@ -3,12 +3,9 @@ layout: post
 title: "The End State of NASA"
 categories: Space
 tags:
-    - Space Industry Analysis
-    - Drafts
+    - Other
 author:
  - Christopher Kalitin
-redirect_from:
-  - /space/1925/02/08/nasa-end-state.html
 word_count: 76
 ---
 <head>
