@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The End State of NASA"
-categories: Space
+title: "Portfolio"
+categories: Portfolio
 tags:
     - Other
 author:
