@@ -8,7 +8,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/2025/06/02/impulse-master-plan.html
-word_count: 2187
+word_count: 2267
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/impulse-master-plan/header.jpeg">
@@ -192,7 +192,7 @@ There's also the angle of creating prevalent small home batteries. In the US you
 This means Impulse Labs appliances could power household loads when electricity prices are high and charge when prices are low. Or, briefly power your home if the grid is down (however, afterwards you wouldn't be able to cook food).
 
 So, in short, the Impulse Labs Master Plan is:
-1. Make a beautiful stove that can be installed in any home without rewriring.
+1. Make a beautiful stove that can be installed in any home without rewiring.
 2. Build an oven using the same strategy of an embedded battery in the device and expand to other household appliances (eg. water heater or dryer).
 3. While doing above, develop additional applications for the embedded batteries and potentially integrate into a home power / smart home system.
 
