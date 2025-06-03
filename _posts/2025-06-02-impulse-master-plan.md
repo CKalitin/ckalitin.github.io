@@ -141,7 +141,7 @@ Electric water heaters typically run on 240 V outlets, so we run into the same p
 
 However, not all homes have 240 V outlets ready for electric water heaters. There's a niche where customers don't want to wire 240 V to the location of their water heater and could use a battery water heater instead.
 
-Also, a water heater is an appliance that isn't commonly used for long uninterrupted periods of time, so my strategy of calculating battery size is not quite applicable. A more reasonable battery size of 4 kWh for an hour of continuous full-power operation, then falling back to 1 kW from the wall.
+Also, a water heater is an appliance that isn't commonly used for long uninterrupted periods of time, so my strategy of calculating battery size is not quite applicable. A more reasonable battery size is 4 kWh for an hour of continuous full-power operation, then falling back to 1 kW from the wall.
 
 ### <b>Washing Machines</b>
 
