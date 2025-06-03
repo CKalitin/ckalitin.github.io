@@ -16,13 +16,13 @@ word_count: 0
 </head>
 
 ![Image](/assets/images/impulse-master-plan/header.jpeg){: .align-center}  
-<i>The Impulse Stove has a peak single element power output of 10kW!!!</i>
+<i>The Impulse Stove has a peak single-element power output of 10kW!!!</i>
 
 ### <b>Intro</b>
 
-For the last few days I've been visting SF (holy shit you can just do things) and last Thursday I got to see Impulse Labs. Today, through an unlikely series of events (See Appendix 1), I interviewed at Impulse and could have the opportunity to work on their astoundingly beautiful electric induction stove that can output a max of 10kW from a single heating element! For some context, our car at [UBC Solar](https://ckalitin.github.io/technical/2025/03/26/stm32-rcc-register.html) has an average power of 2kW. This stove outputs 5x the power of our solar car!
+For the last few days I've been visiting SF (holy shit you can just do things) and last Thursday I got to see Impulse Labs. Today, through an unlikely series of events (See Appendix 1), I interviewed at Impulse and could have the opportunity to work on their astoundingly beautiful electric induction stove that can output a max of 10kW from a single heating element! For some context, our car at [UBC Solar](https://ckalitin.github.io/technical/2025/03/26/stm32-rcc-register.html) has an average power of 2kW. This stove outputs 5x the power of our solar car!
 
-To hedge against the risk of me getting this job and not being able to write about Impulse Labs, today I'm writing a blog in which I'll attempt to derive the Impulse Labs [Master Plan](https://www.tesla.com/secret-master-plan). This is a quick couple hour blog post, so not a full deep analysis like some of my other [Space](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html) [Industry](https://ckalitin.github.io/technology/2024/01/07/analysing-neutron-competitively.html) [posts](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html), just a first attempt.
+To hedge against the risk of getting this job and not being able to write about Impulse Labs, today I'm writing a blog in which I'll attempt to derive the Impulse Labs [Master Plan](https://www.tesla.com/secret-master-plan). This is a quick couple-hour blog post, so not a full deep analysis like some of my other [Space](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html) [Industry](https://ckalitin.github.io/technology/2024/01/07/analysing-neutron-competitively.html) [posts](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html), just a first attempt.
 
 While at Impulse Labs I got some EE related information and heard the term "NDA" so I assume I can't share it. This blog will be a high level exploration/derivation of Impulse's product strategy with information I can find on the internet and hence will not risk divulging information that would get an offer revoked.
 
@@ -50,7 +50,7 @@ I will analyze how useful the battery strategy is for these appliances:
 
 ### <b>Characteristics of an Applicable Appliance</b>
 
-Most US homes have individual circuit breakers at 15-20 A and a main circuit breaker of 100-200 A. Large electrical appliances such as stoves, dryers, and water heaters typically have 30 A breakers on separate circuits.
+Most US homes have individual circuit breakers at 15-20 A and a main circuit breaker at 100-200 A. Large electrical appliances such as stoves, dryers, and water heaters typically have 30 A breakers on separate circuits.
 
 We can use 110V AC RMS and 15A max as an upper bound for peak power on a standard home circuit. 110 V * 15 A = 1.65 kW. Impulse Labs' website mentioned installation can be done without an electrician, so we can assume appliances must be charged at <1.65 kW.
 
@@ -68,7 +68,7 @@ To determine if an appliance is suitable, we need to know the following:
  - Usage factor (What percentage of time the appliance is on)
  - Charge time (In between uses, will you be able to charge it fully?)
 
-We'll assume the appliance operates at a nominal power until it is fully discharged and that it charges at a power of 1 kW whenever it is not in use. We'll also assume that the battery is sized for a continuous usage of the nominal power for the duration of the usage factor (eg. 3 kW for 30 minutes for the stove means 1.5kWh).
+We'll assume the appliance operates at a nominal power until it is fully discharged and that it charges at a power of 1 kW whenever it is not in use. We'll also assume that the battery is sized for continuous usage of the nominal power for the duration of the usage factor (eg. 3 kW for 30 minutes for the stove means 1.5 kWh).
 
 If we see that given the expected usage factor we cannot fully charge the appliance in between uses, it is not suitable for the Impulse battery strategy from a consumer perspective.
 
@@ -82,13 +82,13 @@ Parameters:
  - Battery size: 1.5 kWh (3 kW * 30 minutes)
  - Charge time: 1.5 hours
 
-Using the strategy described above, we get an electric stove that required 3 kW to be on par with gas stoves and has a 1.5 kWh battery that can be charged in 1.5 hours.
+Using the strategy described above, we get an electric stove that requires 3 kW to be on par with gas stoves and has a 1.5 kWh battery that can be charged in 1.5 hours.
 
-This differs from the Impulse stove in that the battery is 1.5 kWh instead of 3 kWh and nominal power output is 3 kW instead of Impulse's max of 10 kW. These differences are easily explained by the fact that the Impulse stove is designed to be a $6,000 premium product.
+This differs from the Impulse stove in that the battery is 1.5 kWh instead of 3 kWh and the nominal power output is 3 kW instead of Impulse's max of 10 kW. These differences are easily explained by the fact that the Impulse stove is designed to be a $6,000 premium product.
 
 The 3 kW nominal power output means this product is very suitable for the Impulse battery strategy (3 > 1.65 kW).
 
-This model also has a 2% usage factor and induction stoves are fairly comparable to gas stoves, which make this a great candidate for an initial Impulse Labs product.
+This model also has a 2% usage factor and induction stoves are fairly comparable to gas stoves, which makes this a great candidate for an initial Impulse Labs product.
 
 Now it seems I derived exactly the same reasoning behind the founding of Impulse Labs.
 
@@ -116,9 +116,9 @@ Parameters:
  - Battery size: 16 kWh (4 kW * 4 hours)
  - Charge time: 16 hours
 
-There are two variants of ovens: gas and electric. According to [Grok](https://grok.com/chat/3f5afe09-9a8b-446f-80ea-8720d4d19261), 60% of US households use electric ovens. Like Dryers, these also use 240 V outlets. The max power from these 240 V outlets is 7.2 kW (240 * 30 A), so if running a dryer and oven on the same circuit simultaneously it's possible to trip the breaker (is this common knowledge for people with many high power electrical appliances?).
+There are two variants of ovens: gas and electric. According to [Grok](https://grok.com/chat/3f5afe09-9a8b-446f-80ea-8720d4d19261), 60% of US households use electric ovens. Like Dryers, these also use 240 V outlets. The max power from these 240 V outlets is 7.2 kW (240 * 30 A), so if running a dryer and oven on the same circuit simultaneously it's possible to trip the breaker (is this common knowledge for people with many high-power electrical appliances?).
 
-The biggest issue with an electric oven run on a 110 V outlet is the 16 hours charging time (and the need for a 16+ kWh battery).
+The biggest issue with an electric oven run on a 110 V outlet is the 16-hours charging time (and the need for a 16+ kWh battery).
 
 It's possible to extend operation time to 5.33 hours by running the power from the outlet at 1 kW while discharging the battery. However, given the long single usage time of an Oven, a very large battery and long charge time will be required.
 
@@ -138,11 +138,11 @@ Water heaters fall into four categories: gas or electric and tank or tankless. T
 
 Tankless water heaters have about [25%](https://www.gminsights.com/industry-analysis/water-heater-market) market share and electric water heaters already have [~50%](https://www.gminsights.com/industry-analysis/water-heater-market) revenue share in the US.
 
-Electric water heaters are typically run on 240 V outlets, so we run into the same problem as with ovens and dryers: the Impulse battery strategy is not required because this problem has already been solved by using higher voltage outlets.
+Electric water heaters typically run on 240 V outlets, so we run into the same problem as with ovens and dryers: the Impulse battery strategy is not required because this problem has already been solved by using higher voltage outlets.
 
-Furthermore, a water heater is an appliance that isn't commonly used for long uninterrupted periods of time, so my strategy of calculating battery size is not quite applicable.
+However, not all homes have 240 V outlets ready for electric water heaters. There's a niche where customers don't want to wire 240 V to the location of their water heater and could use a battery water heater instead.
 
-A water heater also doesn't match the Impulse Labs aesthetic.
+Also, a water heater is an appliance that isn't commonly used for long uninterrupted periods of time, so my strategy of calculating battery size is not quite applicable. A more reasonable battery size of 4 kWh for an hour of continuous full-power operation, then falling back to 1 kW from the wall.
 
 ### <b>Washing Machines</b>
 
@@ -166,7 +166,7 @@ Parameters:
  - Battery size: 1 kWh (1 kW * 1 hour)
  - Charge time: 1 hours
 
-Again, also no applicable to the Impulse battery strategy.
+Again, also not applicable to the Impulse battery strategy.
 
 ### <b>Fridges</b>
 
@@ -174,16 +174,32 @@ Ok we all know these already run continuously on 110 V, no need to get numbers f
 
 Ok if you're curious they [nominally use 300 W](https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-refrigerator-use/) with peaks of 800 W.
 
+### <b>Summary of Appliances</b>
+
+We've found that a Stove is a great candidate for the Impulse battery strategy with a relatively small battery (1.5 kWh in my analysis) and a nominal power of 3 kW. Stoves are also a niche where not all homes are wired for electric stoves so there's the added benefit of being able to install a new electric stove without hiring an electrician.
+
+The second product where the Impulse battery appliance strategy is more applicable is an Oven. Not all homes have electric ovens (like stoves) and Impulse could make a stove with a ~20 kWh battery that is suitable for most people.
+
+The third product could be a water heater. It shares the trait that not all homes have wired 240 V for them and many are gas. They'd require a ~4 kWh battery, which is similar to their stove (3 kWh).
+
+Where the battery appliance strategy is less applicable is for appliances that are either high power and already electric (eg. dryers), or low power and already electric (eg. washing machines, dishwashers, fridges).
+
 ### <b>Conclusion</b>
+
+The unique feature of the Impulse stove (a battery) can be applied to a couple of other appliances, but not all. Impulse Labs' future looks more likely to be as a beautiful home appliance company and less applying the same battery strategy to every appliance, as I thought originally.
+
+There's also the angle of creating prevalent small home batteries. In the US you can't push power back to the grid without a regulatory process, but can power other household loads.
+
+This means Impulse Labs appliances could power household loads when electricity prices are high and charge when prices are low. Or, briefly power your home if the grid is down (however, afterwards you wouldn't be able to cook food).
 
 ### <b>Appendix One: The Remarkable Story of How I Got To Impulse Labs</b>
 
 I'll quickly go over how I got into this position because it's a completely remarkable experience  
 - In September 2024 I joined the UBC Solar student design team and got a ton of firmware / PCB / Debugging experience.
-- This shaped the projects I worked on and posted on X. David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware interships."
-- Next I DM'd a ton of founders asking for factory tours and a job in SF.
+- This shaped the projects I worked on and posted on X. David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware intermships."
+- Next, I DM'd a ton of founders asking for factory tours and a job in SF.
 - Through sheer luck, Casey Handmer happened to fly into SF a day after me and responded to my DM.
-- He sent me a random address to said "Sam is happy to chat Mars stuff too."
+- He sent me a random address and said "Sam is happy to chat Mars stuff too."
 - That random address was Impulse Labs and Sam was Sam d'Amico, the founder. I asked about hardware internships and got an interview, which seemed to have gone well!
 
 The moral of this story is that you have agency! You can just ask people for things and most say yes! Just make sure you ask good questions and are someone worth talking to!
