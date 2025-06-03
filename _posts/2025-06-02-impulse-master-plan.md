@@ -103,7 +103,7 @@ Parameters:
 
 Dryers use [1.8 - 5 kW](https://www.inspirecleanenergy.com/blog/sustainable-living/how-much-electricity-dryer) of power, so if you have the requirement of only using 110 V, 15 A wall outlets, they are well suited for the Impulse battery strategy. 
 
-However, as we know, all dryers are already electric and use 240 V outlets in the US. Given that the issue of powering a dryer has already been solved through higher voltage outlets (which are common), it seems unlikely that Impulse Labs' making a dryer is a high priority.
+However, as we know, all dryers are already electric and use 240 V outlets in the US. Given that the issue of powering a dryer has already been solved through higher voltage outlets (which are common), it seems unlikely that Impulse Labs making a dryer is a high priority. However, it can fit well into an Impulse Labs array of products.
 
 ### <b>Ovens</b>
 
@@ -190,6 +190,11 @@ The unique feature of the Impulse stove (a battery) can be applied to a couple o
 There's also the angle of creating prevalent small home batteries. In the US you can't push power back to the grid without a regulatory process, but can power other household loads.
 
 This means Impulse Labs appliances could power household loads when electricity prices are high and charge when prices are low. Or, briefly power your home if the grid is down (however, afterwards you wouldn't be able to cook food).
+
+So, in short, the Impulse Labs Master Plan is:
+1. Make a beautiful stove that can be installed in any home without rewriring.
+2. Build an oven using the same strategy of an embedded battery in the device and expand to other household appliances (eg. water heater or dryer).
+3. While doing above, develop additional applications for the embedded batteries and potentially integrate into a home power / smart home system.
 
 ### <b>Appendix One: The Remarkable Story of How I Got To Impulse Labs</b>
 
