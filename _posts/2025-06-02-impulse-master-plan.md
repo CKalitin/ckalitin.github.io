@@ -52,13 +52,13 @@ I will analyze how useful the battery strategy is for these appliances:
 
 Most US homes have individual circuit breakers at 15-20 A and a main circuit breaker of 100-200 A. Large electrical appliances such as stoves, dryers, and water heaters typically have 30 A breakers on separate circuits.
 
-We can use 110V AC RMS and 15A max as an upper bound for peak power on a standard home circuit. 110 V * 15 A = 1.65 kW.
+We can use 110V AC RMS and 15A max as an upper bound for peak power on a standard home circuit. 110 V * 15 A = 1.65 kW. Impulse Labs' website mentioned installation can be done without an electrician, so we can assume appliances must be charged at <1.65 kW.
 
 If a given electrical appliance has a peak power output of >1.65 kW, the only option is to either use a battery or a legacy energy source (eg. nat gas). If peak power output is reasonably less than 1.65kW, a wall outlet can be used directly.
 
 This gives us a few traits for an appliance to be a good candidate for the Impulse Labs battery strategy:
  - Peak power output of >1.65 kW
- - Low usage factor (eg. ~1% for a stove)
+ - Low usage factor (eg. stove, microwave, etc.)
  - Suitable for an electrical energy source (eg. induction stove vs. gas)
 
 To determine if an appliance is suitable, we need to know the following:
@@ -82,24 +82,109 @@ Parameters:
  - Battery size: 1.5 kWh (3 kW * 30 minutes)
  - Charge time: 1.5 hours
 
-"120 V, 15 A or 240 V, 10–30 A" from website https://www.impulselabs.com/
-"No electrician required"
+Using the strategy described above, we get an electric stove that required 3 kW to be on par with gas stoves and has a 1.5 kWh battery that can be charged in 1.5 hours.
+
+This differs from the Impulse stove in that the battery is 1.5 kWh instead of 3 kWh and nominal power output is 3 kW instead of Impulse's max of 10 kW. These differences are easily explained by the fact that the Impulse stove is designed to be a $6,000 premium product.
+
+The 3 kW nominal power output means this product is very suitable for the Impulse battery strategy (3 > 1.65 kW).
+
+This model also has a 2% usage factor and induction stoves are fairly comparable to gas stoves, which make this a great candidate for an initial Impulse Labs product.
+
+Now it seems I derived exactly the same reasoning behind the founding of Impulse Labs.
 
 ### <b>Dryers</b>
 
+Parameters:
+ - Legacy power input: [3 kW](https://www.inspirecleanenergy.com/blog/sustainable-living/how-much-electricity-dryer)
+ - Electric power input: 1 kW
+ - Nominal power output: 3 kW (Same as legacy power input)
+ - Usage factor: 0.6 % (1 hour per week)
+ - Battery size: 3 kWh (3 kW * 1 hour)
+ - Charge time: 3 hours
+
+Dryers use [1.8 - 5 kW](https://www.inspirecleanenergy.com/blog/sustainable-living/how-much-electricity-dryer) of power, so if you have the requirement of only using 110 V, 15 A wall outlets, they are well suited for the Impulse battery strategy. 
+
+However, as we know, all dryers are already electric and use 240 V outlets in the US. Given that the issue of powering a dryer has already been solved through higher voltage outlets (which are common), it seems unlikely that Impulse Labs' making a dryer is a high priority.
+
 ### <b>Ovens</b>
+
+Parameters:
+ - Legacy power input: [4 kW](https://grok.com/chat/3f5afe09-9a8b-446f-80ea-8720d4d19261)
+ - Electric power input: 1 kW
+ - Nominal power output: 4 kW (Same as legacy power input)
+ - Usage factor: 4% (1 hour per day)
+ - Battery size: 16 kWh (4 kW * 4 hours)
+ - Charge time: 16 hours
+
+There are two variants of ovens: gas and electric. According to [Grok](https://grok.com/chat/3f5afe09-9a8b-446f-80ea-8720d4d19261), 60% of US households use electric ovens. Like Dryers, these also use 240 V outlets. The max power from these 240 V outlets is 7.2 kW (240 * 30 A), so if running a dryer and oven on the same circuit simultaneously it's possible to trip the breaker (is this common knowledge for people with many high power electrical appliances?).
+
+The biggest issue with an electric oven run on a 110 V outlet is the 16 hours charging time (and the need for a 16+ kWh battery).
+
+It's possible to extend operation time to 5.33 hours by running the power from the outlet at 1 kW while discharging the battery. However, given the long single usage time of an Oven, a very large battery and long charge time will be required.
+
+Overall, some households already have wiring for electric ovens and the benefit of the Impulse battery strategy is diminished by the long charge time. This is a reasonable - but not excellent - candidate for the Impulse battery strategy.
 
 ### <b>Water Heaters</b>
 
+Parameters:
+ - Legacy power input: [4 kW](https://grok.com/chat/c8bb03db-b11b-4399-a0da-1e10233e4719)
+ - Electric power input: 1 kW
+ - Nominal power output: 4 kW
+ - Usage factor: 16% (4 hours per day)
+ - Battery size: 16 kWh (4 kW * 4 hours)
+ - Charge time: 16 hours
+
+Water heaters fall into four categories: gas or electric and tank or tankless. Tankless water heaters are [~30%](https://www.gminsights.com/industry-analysis/water-heater-market) more efficient due to the fact that they don't need to store hot water which cools down over time.
+
+Tankless water heaters have about [25%](https://www.gminsights.com/industry-analysis/water-heater-market) market share and electric water heaters already have [~50%](https://www.gminsights.com/industry-analysis/water-heater-market) revenue share in the US.
+
+Electric water heaters are typically run on 240 V outlets, so we run into the same problem as with ovens and dryers: the Impulse battery strategy is not required because this problem has already been solved by using higher voltage outlets.
+
+Furthermore, a water heater is an appliance that isn't commonly used for long uninterrupted periods of time, so my strategy of calculating battery size is not quite applicable.
+
+A water heater also doesn't match the Impulse Labs aesthetic.
+
 ### <b>Washing Machines</b>
+
+Parameters:
+ - Legacy power input: [1 kW](https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-washing-machine-use/)
+ - Electric power input: 1 kW
+ - Nominal power output: 1 kW (Same as legacy power input, I've never seen a gas washing machine)
+ - Usage factor: 0.6 % (1 hour per week)
+ - Battery size: 1 kWh (1 kW * 1 hour)
+ - Charge time: 1 hours
+
+Washing machines already run on 110 V. Not applicable to the Impulse battery strategy.
 
 ### <b>Dishwashers</b>
 
+Parameters:
+ - Legacy power input: [1.2 kW](https://www.directenergy.com/en/learn/home-energy-management/how-much-energy-dishwasher-use)
+ - Electric power input: 1 kW
+ - Nominal power output: 1.2 kW
+ - Usage factor: 4% (1 hour per day)
+ - Battery size: 1 kWh (1 kW * 1 hour)
+ - Charge time: 1 hours
+
+Again, also no applicable to the Impulse battery strategy.
+
 ### <b>Fridges</b>
+
+Ok we all know these already run continuously on 110 V, no need to get numbers for them.
+
+Ok if you're curious they [nominally use 300 W](https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-refrigerator-use/) with peaks of 800 W.
+
+### <b>Conclusion</b>
 
 ### <b>Appendix One: The Remarkable Story of How I Got To Impulse Labs</b>
 
-I'll quickly go over how I got into this position because it's a completely remarkable experience. In September 2024 I joined the UBC Solar student design team and got a ton of firmware / PCB / Debugging experience. This shaped the projects I posted on X and David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware interships." Next I DM'd a ton of founders asking for factory tours and a job. Through sheer luck, Casey Handmer happened to fly into SF a day after me and responded to my DM. He sent me a random address to said "Sam is happy to chat Mars stuff too." That random address was Impulse Labs and Sam was Sam d'Amico, the founder. I asked about hardware internships and got an interview, which seems to have gone well!
+I'll quickly go over how I got into this position because it's a completely remarkable experience  
+- In September 2024 I joined the UBC Solar student design team and got a ton of firmware / PCB / Debugging experience.
+- This shaped the projects I worked on and posted on X. David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware interships."
+- Next I DM'd a ton of founders asking for factory tours and a job in SF.
+- Through sheer luck, Casey Handmer happened to fly into SF a day after me and responded to my DM.
+- He sent me a random address to said "Sam is happy to chat Mars stuff too."
+- That random address was Impulse Labs and Sam was Sam d'Amico, the founder. I asked about hardware internships and got an interview, which seemed to have gone well!
 
 The moral of this story is that you have agency! You can just ask people for things and most say yes! Just make sure you ask good questions and are someone worth talking to!
 
