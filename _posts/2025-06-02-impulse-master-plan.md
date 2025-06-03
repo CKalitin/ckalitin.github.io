@@ -185,11 +185,11 @@ Where the battery appliance strategy is less applicable is for appliances that a
 
 ### <b>Conclusion</b>
 
-The unique feature of the Impulse stove (a battery) can be applied to a couple of other appliances, but not all. Impulse Labs' future looks more likely to be as a beautiful home appliance company and less applying the same battery strategy to every appliance, as I thought originally.
+The unique feature of the Impulse stove - an battery embedded battery - can be applied to a couple of other appliances, but not all. Unlike what I first thought, which was to apply the battery strategy to every appliance, it seems that the Impulse is more about making beautiful home appliances that happen to take advantage of the battery strategy, which may evolve into a home appliance ecosystem with several small home batteries.
 
-There's also the angle of creating prevalent small home batteries. In the US you can't push power back to the grid without a regulatory process, but can power other household loads.
+The angle of creating prevalent small home batteries may have lots of potential and is what I focused on less, this has been an analysis of the battery approach. In the US you can't push power back to the grid without a regulatory process, but you can push power into the house to power other household loads.
 
-This means Impulse Labs appliances could power household loads when electricity prices are high and charge when prices are low. Or, briefly power your home if the grid is down (however, afterwards you wouldn't be able to cook food).
+This means Impulse Labs appliances could power household loads when electricity prices are high and charge the batteries when prices are low, while also being appliances. Or, briefly power your home if the grid is down (however, afterwards you wouldn't be able to cook food).
 
 So, in short, the Impulse Labs Master Plan is:
 1. Make a beautiful stove that can be installed in any home without rewiring.
