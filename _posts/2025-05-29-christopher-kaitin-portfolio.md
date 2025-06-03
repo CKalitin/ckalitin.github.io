@@ -6,7 +6,7 @@ tags:
     - Other
 author:
  - Christopher Kalitin
-word_count: 1
+word_count: 5
 ---
 <a href="{{site.url}}/assets/Christopher_Kalitin_Portfolio.pdf">Download</a> (Especially if on mobile)
 

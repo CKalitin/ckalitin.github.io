@@ -96,7 +96,7 @@ def scan_directory_for_md_files(directory):
 
 if __name__ == "__main__":
     # Specify the directory to scan
-    target_directory = r"C:\_Dev\ckalitin.github.io\_posts"
+    target_directory = r"C:\Users\Chris\Documents\Git\ckalitin.github.io\_posts"
     csv_output = scan_directory_for_md_files(target_directory)
     print(csv_output)
 
