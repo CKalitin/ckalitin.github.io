@@ -175,7 +175,7 @@ Ok if you're curious they [nominally use 300 W](https://www.energysage.com/elect
 
 ### <b>Summary of Appliances</b>
 
-We've found that a Stove is a great candidate for the Impulse battery strategy with a relatively small battery (1.5 kWh in my analysis) and a nominal power of 3 kW. Stoves are also a niche where not all homes are wired for electric stoves so there's the added benefit of being able to install a new electric stove without hiring an electrician.
+We've found that a Stove is a great candidate for the Impulse battery strategy with a relatively small battery of 1.5 kWh in my analysis and a nominal power of 3 kW. Stoves are also a niche where not all homes are wired for electric stoves so there's the added benefit of being able to install a new electric stove without hiring an electrician.
 
 The second product where the Impulse battery appliance strategy is more applicable is an Oven. Not all homes have electric ovens (like stoves) and Impulse could make a stove with a ~20 kWh battery that is suitable for most people.
 
