@@ -198,12 +198,12 @@ So, in short, the Impulse Labs Master Plan is:
 
 ### <b>Appendix One: The Remarkable Story of How I Got To Impulse Labs</b>
 
-I'll quickly go over how I got into this position because it's a completely remarkable experience  
+I'll quickly go over how I got into this position because it's a completely remarkable experience:
 - In September 2024 I joined the UBC Solar student design team and got a ton of firmware / PCB / Debugging experience.
-- This shaped the projects I worked on and posted on X. David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware intermships."
+- This shaped the projects I worked on and what I posted on X. David Holz (founder of Midjourney) DM'd me one day while I was studying for my linear algebra final. His advice essentially was "Hey kid you should consider dropping out and moving to SF for hardware internships."
 - Next, I DM'd a ton of founders asking for factory tours and a job in SF.
 - Through sheer luck, Casey Handmer happened to fly into SF a day after me and responded to my DM.
-- He sent me a random address and said "Sam is happy to chat Mars stuff too."
+- He sent me a random address to meet up at and said "Sam is happy to chat Mars stuff too."
 - That random address was Impulse Labs and Sam was Sam d'Amico, the founder. I asked about hardware internships and got an interview, which seemed to have gone well!
 
 The moral of this story is that you have agency! You can just ask people for things and most say yes! Just make sure you ask good questions and are someone worth talking to!
