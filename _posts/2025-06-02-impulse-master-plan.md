@@ -25,7 +25,7 @@ To hedge against the risk of getting this job and not being able to write about 
 
 While at Impulse Labs I got some EE related information and heard the term "NDA" so I assume I can't share it. This blog will be a high level exploration/derivation of Impulse's product strategy with information I can find on the internet and hence will not risk divulging information that would get an offer revoked.
 
-### <b>Begining the Analysis</b>
+### <b>Beginning the Analysis</b>
 
 ![Image](/assets/images/impulse-master-plan/impulse-home.jpg){: .align-center}  
 <i>A home full of potential Impulse products.</i>
