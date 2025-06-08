@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Principles Thinking Expressed As Compression Into a Latent Space"
+title: "First Principles Thinking Expressed As Distillation Into a Latent Space"
 categories: Ideas
 tags:
     - Ideas
@@ -17,11 +17,10 @@ word_count: 149
 
 ![Image]({{site.url}}/assets/images/nasa-end-state/msr.jpg){: .align-center}  
 
-https://x.com/yacineMTB/status/1906700878989652138
-
-To think from first principles  
+"To think from first principles  
 you must first  
-return to retard
+return to retard."
+- [Yacine](https://x.com/yacineMTB/status/1906700878989652138)
 
 ### First Principles Thinking Expressed As A Latent Space
 1. The compression step is the most important thing
@@ -38,3 +37,7 @@ Structure:
 4. In the most simple state, it's easier to compare to other ideas
 5. Generative / decompression step lets you expand out your insights to the entire world
 6. Examples (blog posts, Jevons paradox & learning rate, space, etc.)
+
+"And over a long enough time scale, we can generate blog posts and books, both of which can embody compressed intelligence and a much higher signal to noise ratio than an average conversation."
+https://caseyhandmer.wordpress.com/2025/05/21/questions-about-ai-2025/
+
