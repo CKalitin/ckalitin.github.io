@@ -17,6 +17,6 @@ redirect_from:
 
 <a href="{{site.url}}/assets/Christopher Kalitin Resume.pdf">Download Resume</a>
 
-<object data="{{site.url}}/assets/Christopher_Kalitin_Portfolio.pdf" width="1000" height="1200" type='application/pdf'></object>
+<object data="{{site.url}}/assets/Christopher_Kalitin_Portfolio.pdf" width="800" type='application/pdf'></object>
 
-<object data="{{site.url}}/assets/Christopher Kalitin Resume.pdf" type='application/pdf'></object>
+<object data="{{site.url}}/assets/Christopher Kalitin Resume.pdf" width="800" height="1000" type='application/pdf'></object>
