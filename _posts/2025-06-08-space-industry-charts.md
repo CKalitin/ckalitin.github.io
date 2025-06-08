@@ -6,9 +6,8 @@ tags:
     - Other
 author:
  - Christopher Kalitin
-word_count: 0
+word_count: 984
 ---
-
 I'm very open to ideas for new charts!  
 I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
 
