@@ -7,7 +7,10 @@ tags:
 author:
  - Christopher Kalitin
 word_count: 984
+redirect_from:
+  - /space/2025/06/08/space-industry-charts.html
 ---
+
 I'm very open to ideas for new charts!  
 I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
 
