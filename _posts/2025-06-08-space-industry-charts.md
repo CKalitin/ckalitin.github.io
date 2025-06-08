@@ -9,7 +9,10 @@ author:
 word_count: 0
 ---
 
-I'm very open to ideas for new charts! I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
+I'm very open to ideas for new charts!  
+I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
+
+Github Repo that I wrote to generate these charts: https://github.com/CKalitin/mcdowell-dataset-analysis
 
 ### <b>Type Explanations</b>
 
@@ -46,7 +49,25 @@ Eg. There are Electron charts categorised by General Launch Payload Type, but ob
 
 ### <b>Chart Types Explanations</b>
 
-* Launches Vs Mass By General Launch Payload Type
+<b>Launches Vs Mass By Category:</b>  
+These charts show the distribution of launches by payload mass range. They're also broken down by category.
+
+Eg. how many Falcon 9 launches were between 0 and 1000 kg and to LEO, BEO, etc.
+
+<b>Total Mass Vs Mass By Category:</b>  
+These charts are the same as the launch count vs. mass range charts describe above but normalized for mass.
+
+So, instead of launch count per mass range, this is total mass launched per mass range.
+
+Eg. A launch in the 0-1000 kg range with a payload of 500 kg counts as 500 kg in the chart. A launch in the 16-17 t range with a payload of 16.5 t counts as 16,500 kg in the chart.
+
+This weighs each launch by its payload mass, to give a better sense of the distribution of mass launched. Useful for constellations for example, like Starlink.
+
+<b>Launches Vs Month By Category:</b>  
+There's a lot of months in the history of a launch vehicle, so this charts gets a bit busy.
+
+<b>Launches Vs Year By Category:</b>  
+Yea you get what this is right?
 
 ### <b>Charts in Alphabetical Order</b>
 
