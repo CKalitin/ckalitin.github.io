@@ -7,6 +7,11 @@ tags:
 author:
  - Christopher Kalitin
 word_count: 8
+redirect_from:
+  - /portfolio/2025/05/29/christopher-kalitin-portfolio.html
+  - /portfolio/2025/05/29/christopher-kalitin-resume.html
+  - christopher-kalitin-resume.html
+  - christopher-kalitin-portfolio.html
 ---
 <a href="{{site.url}}/assets/Christopher_Kalitin_Portfolio.pdf">Download Portfolio</a> (Especially if on mobile)
 
