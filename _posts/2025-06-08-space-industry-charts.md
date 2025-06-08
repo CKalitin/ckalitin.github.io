@@ -12,7 +12,7 @@ word_count: 0
 I'm very open to ideas for new charts!  
 I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
 
-Github Repo that I wrote to generate these charts: https://github.com/CKalitin/mcdowell-dataset-analysis
+Github Repo that I wrote to generate these charts [here](https://github.com/CKalitin/mcdowell-dataset-analysis).
 
 ### <b>Type Explanations</b>
 
@@ -50,11 +50,19 @@ Eg. There are Electron charts categorised by General Launch Payload Type, but ob
 ### <b>Chart Types Explanations</b>
 
 <b>Launches Vs Mass By Category:</b>  
+
+![Electron Launches Vs Mass By Orbit](https://ckalitin.github.io\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: width="450"}  
+[Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png)
+
 These charts show the distribution of launches by payload mass range. They're also broken down by category.
 
 Eg. how many Falcon 9 launches were between 0 and 1000 kg and to LEO, BEO, etc.
 
 <b>Total Mass Vs Mass By Category:</b>  
+
+![F9 Launches Vs Month By General Launch Payload Type 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_general_launch_payload_type_2010_2025.png){: width="450"}  
+[Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_general_launch_payload_type_2010_2025.png)
+
 These charts are the same as the launch count vs. mass range charts describe above but normalized for mass.
 
 So, instead of launch count per mass range, this is total mass launched per mass range.
@@ -64,12 +72,22 @@ Eg. A launch in the 0-1000 kg range with a payload of 500 kg counts as 500 kg in
 This weighs each launch by its payload mass, to give a better sense of the distribution of mass launched. Useful for constellations for example, like Starlink.
 
 <b>Launches Vs Month By Category:</b>  
+
+![F9 Launches Vs Month By Orbit 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: width="450"}  
+[Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png)
+
 There's a lot of months in the history of a launch vehicle, so this charts gets a bit busy.
 
 <b>Launches Vs Year By Category:</b>  
+
+![Global Launches Vs Year By General Launch Payload Type 2000 2025](https://ckalitin.github.io\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: width="450"}  
+[Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png)
+
 Yea you get what this is right?
 
 ### <b>Charts in Alphabetical Order</b>
+
+[Download All](https://ckalitin.github.io\assets\space-industry-charts.zip)
 
 <b>Ariane</b>
 
@@ -112,7 +130,7 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 [F9 Launches Vs Mass By General Launch Payload Type](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_mass_by_general_launch_payload_type.png)  
 [F9 Launches Vs Mass By Orbit](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_mass_by_orbit.png)  
-[F9 Launches Vs Month By General Launch Payload Type 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_general_launch_payload_type_2010_2025.png)  
+[F9 Launches Vs Month By General Launch Payload Type 2010 2025](https://ckalitin.github io\assets\space-industry-charts\f9_launches_vs_month_by_general_launch_payload_type_2010_2025.png)  
 [F9 Launches Vs Month By Orbit 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png)  
 [F9 Launches Vs Year By General Launch Payload Type 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_year_by_general_launch_payload_type_2010_2025.png)  
 [F9 Launches Vs Year By Orbit 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_year_by_orbit_2010_2025.png)  
@@ -137,7 +155,7 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 <b>Global Payloads</b>
 
-[Payloads Launched Vs Time By Simple Payload Category](https://ckalitin.github.io\assets\space-industry-charts\payloads_launched_vs_time_by_simple_payload_category.png)  
+[Payloads Launched Vs Year By Simple Payload Category](https://ckalitin.github.io\assets\space-industry-charts\payloads_launched_vs_year_by_simple_payload_category.png)  
 
 <b>Soyuz</b>
 
