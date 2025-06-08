@@ -163,7 +163,7 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 <b>Global Payloads</b>
 
-[Payloads Launched Vs Year By Simple Payload Category]({{site.url}}\assets\space-industry-charts\payloads_launched_vs_year_by_simple_payload_category.png){: target="_blank"}  
+[Global Payloads vs Year by Simple Payload Category]({{site.url}}\assets\space-industry-charts\global_payloads_vs_year_by_simple_payload_category.png){: target="_blank"}  
 
 <b>Soyuz</b>
 
