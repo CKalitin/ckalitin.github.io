@@ -16,6 +16,8 @@ I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKal
 
 Github Repo that I wrote to generate these charts [here](https://github.com/CKalitin/mcdowell-dataset-analysis).
 
+[Download All](https://ckalitin.github.io\assets\space-industry-charts.zip)
+
 ### <b>Type Explanations</b>
 
 There are currently 2 types in which launches are categorised:
@@ -53,7 +55,7 @@ Eg. There are Electron charts categorised by General Launch Payload Type, but ob
 
 <b>Launches Vs Mass By Category:</b>  
 
-![Electron Launches Vs Mass By Orbit](https://ckalitin.github.io\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: width="450"}  
+![Electron Launches Vs Mass By Orbit](https://ckalitin.github.io\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: width="550"}  
 [Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: target="_blank"}
 
 These charts show the distribution of launches by payload mass range. They're also broken down by category.
@@ -62,7 +64,7 @@ Eg. how many Falcon 9 launches were between 0 and 1000 kg and to LEO, BEO, etc.
 
 <b>Total Mass Vs Mass By Category:</b>  
 
-![F9 Launches Vs Month By General Launch Payload Type 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: width="450"}  
+![F9 Launches Vs Month By General Launch Payload Type 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: width="550"}  
 [Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
 
 These charts are the same as the launch count vs. mass range charts describe above but normalized for mass.
@@ -75,14 +77,14 @@ This weighs each launch by its payload mass, to give a better sense of the distr
 
 <b>Launches Vs Month By Category:</b>  
 
-![F9 Launches Vs Month By Orbit 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: width="450"}  
+![F9 Launches Vs Month By Orbit 2010 2025](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: width="550"}  
 [Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: target="_blank"}
 
 There's a lot of months in the history of a launch vehicle, so this charts gets a bit busy.
 
 <b>Launches Vs Year By Category:</b>  
 
-![Global Launches Vs Year By General Launch Payload Type 2000 2025](https://ckalitin.github.io\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: width="450"}  
+![Global Launches Vs Year By General Launch Payload Type 2000 2025](https://ckalitin.github.io\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: width="550"}  
 [Expanded Chart](https://ckalitin.github.io\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: target="_blank"}
 
 Yea you get what this is right?
