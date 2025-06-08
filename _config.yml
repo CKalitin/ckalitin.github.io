@@ -49,9 +49,9 @@ minima:
 # order as they should show up.
 #
 header_pages:
-   - 2025-06-08-space-industry-charts.md
+   - https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html
    - about.md
 
 # Set to `true` to show excerpts on the homepage.
 #
-show_excerpts: false
+show_excerpts: true
