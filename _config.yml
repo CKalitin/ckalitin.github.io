@@ -49,7 +49,7 @@ minima:
 # order as they should show up.
 #
 header_pages:
-   - _posts/2025-06-08-space-industry-charts.md
+   - about.md
    - about.md
 
 # Set to `true` to show excerpts on the homepage.
