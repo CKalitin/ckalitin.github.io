@@ -49,7 +49,7 @@ These categories were created for high level views of the global space industry,
 
 Eg. There are Electron charts categorised by General Launch Payload Type, but obviously Electron isn't launching Russian defense satellites.
 
-### <b>Chart Types Explanations</b>
+### <b>Chart Examples & Explainations</b>
 
 <b>Launches Vs Mass By Category:</b>  
 
