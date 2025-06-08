@@ -11,7 +11,7 @@ redirect_from:
   - /space/2025/06/08/space-industry-charts.html
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
+    <meta property="og:image" content="{{site.url}}\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png">
 </head>
 
 I'm very open to ideas for new charts!  
