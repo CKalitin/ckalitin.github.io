@@ -20,10 +20,10 @@ redirect_from:
 
 Also take a look at the rest of my blog for all my other projects!
 
-# <b>Portfolio</b>
+## <b>Portfolio</b>
 
 <object data="{{site.url}}/assets/Christopher_Kalitin_Portfolio.pdf" width="800"  height="1000" type='application/pdf'></object>
 
-# <b>Resume</b>
+## <b>Resume</b>
 
 <object data="{{site.url}}/assets/Christopher Kalitin Resume.pdf" width="800" height="1000" type='application/pdf'></object>
