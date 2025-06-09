@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1
+word_count: 1748
 ---
 <head>
     <meta property="og:image" content="{{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png">
@@ -28,7 +28,7 @@ First, we have a chart of payloads vs year by program.
 
 Planet Labs has has 8 satellite programs (at least that are recorded in McDowell's dataset):
 - Doves (3U, ~5 kg, no propulsion, 3-5 m resolution, 1-3 year lifespan)
-- Flock 1 (Deployed from ISS in Feb 2014 so 1-2 year lifespan)
+- Flock 1 (Deployed from ISS in Feb 2014 so 1-2 year lifespan at that 400 km orbit)
 - Flock 2 (Deployed to SSO orbit for greater lifespan of ~3 years)
 - Flock 3 (about the same as the rest)
 - Flock 4 (Superdoves)
@@ -85,7 +85,7 @@ The delay in launching to the ISS and satellite deployment is notable.
 
 [According to the great Gunter Krebs](https://space.skyrocket.de/doc_sdat/flock-1.htm), the satellites on the CRS-6 mission of Flock-1e were played in April 2015 and deplaying on 13 July 2025 and 16 July 2015. A 3 month delay between launch and deployment!
 
-### <b>Aside on The Depressing Lakc of Competition to SpaceX</b>
+### <b>Aside on The Depressing Lack of Competition to SpaceX</b>
 
 I'll also write a blog post later on this, but watching the competition to SpaceX recently has been [horribly depressing](https://x.com/CKalitin/status/1847868023064948888).
 
