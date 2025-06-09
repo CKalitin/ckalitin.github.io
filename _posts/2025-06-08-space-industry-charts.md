@@ -150,7 +150,7 @@ This covers Delta 1, 2, 3, and 4.
 [Electron Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\electron_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
 [Electron Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\electron_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
-<b>F9</b>
+<b>Falcon 9</b>
 
 [F9 Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\f9_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
 [F9 Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\f9_launches_vs_mass_by_orbit.png){: target="_blank"}  
@@ -161,7 +161,7 @@ This covers Delta 1, 2, 3, and 4.
 [F9 Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
 [F9 Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\f9_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
-<b>Fh</b>
+<b>Falcon Heavy</b>
 
 [Fh Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\fh_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Fh Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\fh_total_mass_vs_mass_by_orbit.png){: target="_blank"}  

@@ -32,14 +32,14 @@ for png_dir in pngs_dir:
 
 previous_subtitle = ""
 for path, beautified_title in charts:
-    for subtitle in subtitle_dict.keys():
-        subtitle_len = len(subtitle)
-        if beautified_title[:subtitle_len] == subtitle:
-            if previous_subtitle != subtitle:
-                previous_subtitle = subtitle
-                print(f"\n<b>{subtitle}</b>\n")
-                if subtitle in extra_text:
-                    print(f"{extra_text[subtitle]}\n")
+    for subtitle_key in subtitle_dict.keys():
+        subtitle_len = len(subtitle_key)
+        if beautified_title[:subtitle_len] == subtitle_key:
+            if previous_subtitle != subtitle_key:
+                previous_subtitle = subtitle_key
+                print(f"\n<b>{subtitle_dict[subtitle_key]}</b>\n")
+                if subtitle_key in extra_text:
+                    print(f"{extra_text[subtitle_key]}\n")
         
     suffix = "{: target=\"_blank\"}"
     print(f'[{beautified_title}]({path}){suffix}  ')
