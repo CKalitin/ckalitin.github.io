@@ -127,6 +127,8 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 <b>Delta</b>
 
+This covers Delta 1, 2, 3, and 4.
+
 [Delta Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\delta_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
 [Delta Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\delta_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Delta Launches Vs Month By General Launch Payload Type 1972 2024]({{site.url}}\assets\space-industry-charts\delta_launches_vs_month_by_general_launch_payload_type_1972_2024.png){: target="_blank"}  

@@ -18,6 +18,12 @@ subtitle_dict = {
     "Titan": "Titan",
 }
 
+extra_text = {
+    "Ariane": "This covers Ariane 1, 2, 3, 4, and 5.",
+    "Atlas": "This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.",
+    "Delta": "This covers Delta 1, 2, 3, and 4."
+}
+
 charts = [] # title: (title, path, beautified title)
 
 pngs_dir = list(dir.glob("*.png"))
@@ -32,6 +38,8 @@ for path, beautified_title in charts:
             if previous_subtitle != subtitle:
                 previous_subtitle = subtitle
                 print(f"\n<b>{subtitle}</b>\n")
+                if subtitle in extra_text:
+                    print(f"{extra_text[subtitle]}\n")
         
     suffix = "{: target=\"_blank\"}"
     print(f'[{beautified_title}]({path}){suffix}  ')
