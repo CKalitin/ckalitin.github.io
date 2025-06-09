@@ -147,6 +147,10 @@ This covers Delta 1, 2, 3, and 4.
 
 <b>Electron</b>
 
+[Electron Launches Apogee Vs Date By Simple Orbit 2017 2025]({{site.url}}\assets\space-industry-charts\electron_launches_apogee_vs_date_by_simple_orbit_2017_2025.png){: target="_blank"}  
+[Electron Launches Apogee Vs Inc By Simple Orbit 2017 2025]({{site.url}}\assets\space-industry-charts\electron_launches_apogee_vs_inc_by_simple_orbit_2017_2025.png){: target="_blank"}  
+[Electron Launches Inc Vs Date By Simple Orbit 2017 2025]({{site.url}}\assets\space-industry-charts\electron_launches_inc_vs_date_by_simple_orbit_2017_2025.png){: target="_blank"}  
+[Electron Launches Payload Mass Vs Date By Simple Orbit 2017 2025]({{site.url}}\assets\space-industry-charts\electron_launches_payload_mass_vs_date_by_simple_orbit_2017_2025.png){: target="_blank"}  
 [Electron Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\electron_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
 [Electron Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Electron Launches Vs Month By General Launch Payload Type 2017 2025]({{site.url}}\assets\space-industry-charts\electron_launches_vs_month_by_general_launch_payload_type_2017_2025.png){: target="_blank"}  
