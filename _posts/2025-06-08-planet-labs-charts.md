@@ -46,7 +46,7 @@ What's also interesting (and I have little insight into) is the fact that they'v
 
 My guess is we'll see fewer Starlink iterations for Starship than we saw for Falcon 9.
 
-<b>Aside on Chris Kemp talking about constellation over-provisioning</b>
+### <b>Aside on Chris Kemp Talking About Constellation Over-Provisioning</b>
 
 Chris Kemp, founder of Astra Space, went on [Ashlee Vance's podcast](https://www.youtube.com/watch?v=I_I_TS-dZdc&start=1469) recently and spoke about their strategy with Astra's Rocket 4 and his view on the future of satellite constellations:
 
@@ -71,8 +71,51 @@ LEO constellations don't lend as well to the sovereign model as something like t
 ![Planet Labs Payloads Vs Year By Orbit]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_orbit.png){: width="800"}  
 [Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_orbit.png){: target="_blank"}  
 
+The most obvious trend here is the switch to sun-synchronous orbit (SSO) in 2014. SSO is a polar orbit that allows satellites to pass over the same point on Earth at the same local time every day. This is ideal for Earth observation satellites like Planet Labs' Doves, as it allows them to capture consistent lighting conditions for their images.
+
+As we'll see below, the early LEO launches were on the Soyuz, Antares, Falcon 9, H2, and Atlas 5 rockets. 
+
+The 2014 bar to LEO was launched on Antares. This can be explained by the fact the Antares was designed by Orbital ATK to launch the Cygnus resupply spacecraft to the ISS under NASA's Commercial Resupply Services program. Because Antares always flies to the ISS (which is in Low Earth Orbit), any Planet Labs flights on Antares would also be to LEO.
+
+There was another Antares launch in 2014 which carried 26 Dove satellites (compared to 28 on the previous launch). This vehicle exploded a few seconds after launch and plummeted back down onto the launch pad, destroying it all. [Smarter Every Day made a video on this](https://www.youtube.com/watch?v=PbabP9ttrZc) and more ISS resupply missions that exploded (CRS-7).
+
+In 2015 Planet Labs launched satellites on 3 Falcon 9 launches to the ISS, CRS-5, -6, -7 carrying 10, 14, and 8 satellites respectively ([according to Wikipedia](https://www.spacedaily.com/reports/NanoRacks_Completes_Historic_Third_Round_of_ISS_CubeSat_Deployments_999.html), but McDowell's numbers disagree). CRS-7 was famously the first Falcon 9 failure.
+
+The delay in launching to the ISS and satellite deployment is notable.
+
+[According to the great Gunter Krebs](https://space.skyrocket.de/doc_sdat/flock-1.htm), the satellites on the CRS-6 mission of Flock-1e were played in April 2015 and deplaying on 13 July 2025 and 16 July 2015. A 3 month delay between launch and deployment!
+
+### <b>Aside on The Depressing Lakc of Competition to SpaceX</b>
+
+I'll also write a blog post later on this, but watching the competition to SpaceX recently has been [horribly depressing](https://x.com/CKalitin/status/1847868023064948888).
+
+First, with the COTS contract SpaceX sued NASA to be allowed to compete. It was originally to be a sole source contract to Kistler Space Systems which were going to develop the K-1 launch vehicle using Soviet NK-33 engines originally developed for the N1 Moon rocket. Kistler was unable to get enough private funding to advance in the COTS competition and went bankrupt. This is the first SpaceX competitor failure in a NASA contract.
+
+Next, Northrop Grumman (then Orbital ATK) was awarded the COTS contract in 2008 and developed the Antares rocket and Cygnus spacecraft. Antares at that time used the NK-33 engines as well. These engines failed during the 2014 launch and they had to switch to using different engines.
+
+They decided on another Russian engine, the RD-181. They ordered a limited supply of these engines and after US sanctions on Russia they were unable to get more and had to once again switch to a different engine. (Maybe there's more to this story someone correct me).
+
+Now, they are developing the Antares 330 rocket which will use the Firefly Miranda engine. In the meantime, Northrop Grumman has no launch vehicle to launch Cygnus themselves and ULA is all booked up with Kuiper launches. So what do you they do? Launch Cygnus on a SpaceX Falcon 9, their direct competition.
+
+OneWeb has also recently been launching their satellites on Falcon 9 because there's no alterative.
+
+Better yet, Amazon was sued by their shareholders for how they were buying launches for the Kuiper program and effectively forced to buy 3 launches on the Falcon 9, again their direct competition.
+
+[Eager Space](https://www.youtube.com/@EagerSpace) made some good videos here you should go find them and watch all his stuff.
+
+There's really no alterative to SpaceX for these companies, so they go to their direct competition for launch services. How depressing that SpaceX is the only option and everyone else is falling over themselves.
+
+Furthermore, after Elon's recent hilarious crashout over Trump (simultaneously iSpace was failing to land on the Moon which made it even more fun), the Pentagon began [urging SpaceX's competition](https://www.washingtonpost.com/technology/2025/06/07/trump-musk-spacex-nasa-national-security/?utm_campaign=wp_main&utm_source=twitter&utm_medium=social) to work faster. Yea why didn't we think of that before. Btw this is a one-shot blog post that I'm writing at midnight now I'm not proof reading shit.
+
+### <b>Launch Vehicles</b>
+
 ![Planet Labs Payloads Vs Year By Launch Vehicle]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: width="800"}  
 [Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: target="_blank"}  
 
+
+
+### <b>Countries</b>
+
 ![Planet Labs Payloads Vs Year By Country]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: width="800"}  
 [Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: target="_blank"}  
+
