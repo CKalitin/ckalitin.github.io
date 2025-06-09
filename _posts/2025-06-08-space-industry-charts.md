@@ -102,6 +102,7 @@ Yea you get what this is right?
 This covers Ariane 1, 2, 3, 4, and 5.
 
 [Ariane Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Ariane Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Ariane Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Ariane Launches Vs Month By General Launch Payload Type 1979 2025]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_month_by_general_launch_payload_type_1979_2025.png){: target="_blank"}  
 [Ariane Launches Vs Month By Orbit 1979 2025]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_month_by_orbit_1979_2025.png){: target="_blank"}  
@@ -109,6 +110,7 @@ This covers Ariane 1, 2, 3, 4, and 5.
 [Ariane Launches Vs Year By Launch Vehicle 1979 2025]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_year_by_launch_vehicle_1979_2025.png){: target="_blank"}  
 [Ariane Launches Vs Year By Orbit 1979 2025]({{site.url}}\assets\space-industry-charts\ariane_launches_vs_year_by_orbit_1979_2025.png){: target="_blank"}  
 [Ariane Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\ariane_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Ariane Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\ariane_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Ariane Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\ariane_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
 <b>Atlas</b>
@@ -116,6 +118,7 @@ This covers Ariane 1, 2, 3, 4, and 5.
 This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 [Atlas Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Atlas Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Atlas Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Atlas Launches Vs Month By General Launch Payload Type 1958 2025]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_month_by_general_launch_payload_type_1958_2025.png){: target="_blank"}  
 [Atlas Launches Vs Month By Orbit 1958 2025]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_month_by_orbit_1958_2025.png){: target="_blank"}  
@@ -123,6 +126,7 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 [Atlas Launches Vs Year By Launch Vehicle 1958 2025]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_year_by_launch_vehicle_1958_2025.png){: target="_blank"}  
 [Atlas Launches Vs Year By Orbit 1958 2025]({{site.url}}\assets\space-industry-charts\atlas_launches_vs_year_by_orbit_1958_2025.png){: target="_blank"}  
 [Atlas Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\atlas_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Atlas Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\atlas_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Atlas Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\atlas_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
 <b>Delta</b>
@@ -130,6 +134,7 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 This covers Delta 1, 2, 3, and 4.
 
 [Delta Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\delta_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Delta Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\delta_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Delta Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\delta_launches_vs_mass_by_orbit.png){: target="_blank"}  
 [Delta Launches Vs Month By General Launch Payload Type 1972 2024]({{site.url}}\assets\space-industry-charts\delta_launches_vs_month_by_general_launch_payload_type_1972_2024.png){: target="_blank"}  
 [Delta Launches Vs Month By Orbit 1972 2024]({{site.url}}\assets\space-industry-charts\delta_launches_vs_month_by_orbit_1972_2024.png){: target="_blank"}  
@@ -137,6 +142,7 @@ This covers Delta 1, 2, 3, and 4.
 [Delta Launches Vs Year By Launch Vehicle 1972 2024]({{site.url}}\assets\space-industry-charts\delta_launches_vs_year_by_launch_vehicle_1972_2024.png){: target="_blank"}  
 [Delta Launches Vs Year By Orbit 1972 2024]({{site.url}}\assets\space-industry-charts\delta_launches_vs_year_by_orbit_1972_2024.png){: target="_blank"}  
 [Delta Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\delta_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Delta Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\delta_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}  
 [Delta Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\delta_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
 <b>Electron</b>
