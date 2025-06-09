@@ -112,10 +112,18 @@ Furthermore, after Elon's recent hilarious crashout over Trump (simultaneously i
 ![Planet Labs Payloads Vs Year By Launch Vehicle]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: width="800"}  
 [Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: target="_blank"}  
 
+The first interesting thing here is the great big bar in 2017 with the PSLV launch. This was the [PSLV-C37](https://en.wikipedia.org/wiki/PSLV-C37) mission which before SpaceX's Transporter missions had the record for most satellites launched in a single mission with 2014 satellites to SSO. Planet Labs constituted 88 of these with their Dove Flock 3 satellites.
 
+Also interesting is the dominance of the Falcon 9 since 2021. Planet Labs has apparently been taking full advantage of SpaceX's Transporter rideshare missions! USA!!!
 
 ### <b>Countries</b>
 
 ![Planet Labs Payloads Vs Year By Country]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: width="800"}  
 [Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: target="_blank"}  
+
+Columbia Flag Jumpscare!
+
+I was joking about a friend today how Planet Labs frantically searched all over the world for launch vehicles during their early days. This chart really shows that with 6 countries total across 10 launch vehicles.
+
+Then, in 2021, launch was solved for Planet Labs with SpaceX's Transporter missions. What a great result! Also, where is the competition for SpaceX's Transporter missions! Neutron get launching already so you can compete! Soon I'll be complaining about lack of competition for Starship too, but that's a different story and the third future blog post I've mentioned in this post.
 
