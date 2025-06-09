@@ -185,10 +185,10 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 <b>Starlink</b>
 
-[Starlink Apogee Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_apogee_vs_date_by_pad.png)  
-[Starlink Apogee Vs Inclination By Pad]({{site.url}}\assets\space-industry-charts\starlink_apogee_vs_inclination_by_pad.png)  
-[Starlink Inclination Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_inclination_vs_date_by_pad.png)  
-[Starlink Mass Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_mass_vs_date_by_pad.png)  
+[Starlink Launches Apogee Vs Date By Launch Pad 2019 2025]({{site.url}}\assets\space-industry-charts\starlink_launches_apogee_vs_date_by_launch_pad_2019_2025.png){: target="_blank"}  
+[Starlink Launches Apogee Vs Inc By Launch Pad 2019 2025]({{site.url}}\assets\space-industry-charts\starlink_launches_apogee_vs_inc_by_launch_pad_2019_2025.png){: target="_blank"}  
+[Starlink Launches Inc Vs Date By Launch Pad 2019 2025]({{site.url}}\assets\space-industry-charts\starlink_launches_inc_vs_date_by_launch_pad_2019_2025.png){: target="_blank"}  
+[Starlink Launches Payload Mass Vs Date By Launch Pad 2019 2025]({{site.url}}\assets\space-industry-charts\starlink_launches_payload_mass_vs_date_by_launch_pad_2019_2025.png){: target="_blank"}  
 
 <b>Titan</b>
 

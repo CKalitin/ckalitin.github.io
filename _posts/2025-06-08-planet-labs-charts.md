@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1748
+word_count: 1753
 ---
 <head>
     <meta property="og:image" content="{{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png">
