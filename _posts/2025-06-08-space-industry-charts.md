@@ -165,6 +165,13 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 [Global Payloads vs Year by Simple Payload Category]({{site.url}}\assets\space-industry-charts\global_payloads_vs_year_by_simple_payload_category.png){: target="_blank"}  
 
+<b>Planet Labs</b>
+
+[Planet Labs Payloads Vs Year By Country]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png)  
+[Planet Labs Payloads Vs Year By Launch Vehicle]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png)  
+[Planet Labs Payloads Vs Year By Orbit]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_orbit.png)  
+[Planet Labs Payloads Vs Year By Program]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png)  
+
 <b>Soyuz</b>
 
 [Soyuz Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\soyuz_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
@@ -178,10 +185,10 @@ This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.
 
 <b>Starlink</b>
 
-[Starlink Apogee Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_apogee_vs_date_by_pad.png){: target="_blank"}  
-[Starlink Inclination Vs Apogee By Pad]({{site.url}}\assets\space-industry-charts\starlink_inclination_vs_apogee_by_pad.png){: target="_blank"}  
-[Starlink Inclination Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_inclination_vs_date_by_pad.png){: target="_blank"}  
-[Starlink Mass Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_mass_vs_date_by_pad.png){: target="_blank"}  
+[Starlink Apogee Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_apogee_vs_date_by_pad.png)  
+[Starlink Apogee Vs Inclination By Pad]({{site.url}}\assets\space-industry-charts\starlink_apogee_vs_inclination_by_pad.png)  
+[Starlink Inclination Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_inclination_vs_date_by_pad.png)  
+[Starlink Mass Vs Date By Pad]({{site.url}}\assets\space-industry-charts\starlink_mass_vs_date_by_pad.png)  
 
 <b>Titan</b>
 
