@@ -118,8 +118,8 @@ Also interesting is the dominance of the Falcon 9 since 2021. Planet Labs has ap
 
 ### <b>Countries</b>
 
-![Planet Labs Payloads Vs Year By Country]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: width="800"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_country.png){: target="_blank"}  
+![Planet Labs Payloads Vs Year By Country]({{site.url}}/assets/space-industry-charts/planet_labs_payloads_vs_year_by_launch_country.png){: width="800"}  
+[Expanded Chart]({{site.url}}/assets/space-industry-charts/planet_labs_payloads_vs_year_by_launch_country.png){: target="_blank"}  
 
 Columbia Flag Jumpscare!
 
