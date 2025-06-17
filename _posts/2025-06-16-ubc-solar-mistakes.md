@@ -129,7 +129,7 @@ Recently I saw another phenomenon of team leads pushing for project updates and 
 
 ### <b>7. Not Giving Enough Honest Feedback To Each Other</b>
 
-![Image]({{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png){: width="500"}
+![Image]({{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png){: width="350"}  
 <i>A precursor to my current sensor testing setup.</i>
 
 The most useful feedback I've ever gotten on UBC Solar was from my team lead, Krish, during my main pack current sensor characterization project. I was setting up a benchtop test which involved measuring the current going through the current sensor with a digital multimeter (DMM). I had set up a lot of other wires to measure voltage and when it came to measure current, I tried to set up the ammeter in parallel with the current sensor.
