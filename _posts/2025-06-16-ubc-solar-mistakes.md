@@ -35,7 +35,7 @@ The primary types of mistakes / issues I've seen are:
 5. Not being aware enough of learning opportunities or not seeking them out
 6. Not fundamentally understanding the importance of project updates, test plans, and Design Review documents
 7. Not giving enough honest feedback to each other
-8. Hiding competence behind fast decision making and not fully explaining yourself
+8. Hiding incompetence behind fast decision making and not fully explaining yourself
 9. Not being precise in your speech and meaning what you say
 
 Notice that 8/9 of these start with "Not". These are unforced errors that you can correct!
@@ -141,7 +141,7 @@ a positive statement then your negative feedback is a great way to give feedback
 
 It's a problem that this piece of feedback I got ~5 months ago and there's been nothing since. Given how important this feedback was to me (and the allocate of hundreds of my hours and the projects I choose to take on), we need to be giving honest feedback to each other like this more often!
 
-### <b>8. Hiding Competence Behind Fast Decision Making And Not Fully Explaining Yourself</b>
+### <b>8. Hiding Incompetence Behind Fast Decision Making And Not Fully Explaining Yourself</b>
 
 Grok came up with this one: The Competence Illusion. When you try to hide your incompetence behind fast decision making and not fully explaining yourself.
 
