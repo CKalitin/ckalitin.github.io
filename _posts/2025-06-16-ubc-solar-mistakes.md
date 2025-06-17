@@ -48,8 +48,8 @@ However, when I was tasked with characterizing the low voltage system current se
 
 Furthermore, it was a mistake that could have so easily been spotted! "Hey Chris are you probing right next to those other pins? What are they? Are you sure you won't short anything?" Anyone could (and should!) have asked this walking by, but no one did. Whenever anyone is working on a 134 V battery pack, you should be asking them questions about what they are doing and why for both your learning and to keep them focused and reevaluating the path they're taking.
 
-![Image]({{site.url}}/assets/images/ubc-solar-mistakes/slaveboard-1.jpg){: width=906}  
-![Image]({{site.url}}/assets/images/ubc-solar-mistakes/slaveboard-2.jpg){: width=300}  
+![Image]({{site.url}}/assets/images/ubc-solar-mistakes/slaveboard-1.jpg){: width="906"}  
+![Image]({{site.url}}/assets/images/ubc-solar-mistakes/slaveboard-2.jpg){: width="300"}  
 <i>You'd think this would be enough warning to stave off anyone who doesn't know what they're doing!</i>
 
 We use the LTC6813 chip in our battery to sense the temperature and voltage of the battery modules. This same chip is used by Tesla and is complex enough that not a soul in the design team bay fundamentally understands how it works and is completely confident using it. 
@@ -129,7 +129,7 @@ Recently I saw another phenomenon of team leads pushing for project updates and 
 
 ### <b>7. Not Giving Enough Honest Feedback To Each Other</b>
 
-![Image]({{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png){: width=500}
+![Image]({{site.url}}/assets/images/scpi-auto-characterization/Testing-Setup.png){: width="500"}
 <i>A precursor to my current sensor testing setup.</i>
 
 The most useful feedback I've ever gotten on UBC Solar was from my team lead, Krish, during my main pack current sensor characterization project. I was setting up a benchtop test which involved measuring the current going through the current sensor with a digital multimeter (DMM). I had set up a lot of other wires to measure voltage and when it came to measure current, I tried to set up the ammeter in parallel with the current sensor.
