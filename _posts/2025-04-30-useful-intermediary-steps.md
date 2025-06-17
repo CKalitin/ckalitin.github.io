@@ -4,7 +4,6 @@ title: "Useful Intermediary Steps Are Fundamental To Startups And Large Novel Pr
 categories: Technology
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1869

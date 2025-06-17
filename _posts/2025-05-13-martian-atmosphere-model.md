@@ -4,7 +4,6 @@ title: "Modelling Mars’ Atmosphere for Simulating Blunt Body Entry Vehicles"
 categories: Space
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 3184
