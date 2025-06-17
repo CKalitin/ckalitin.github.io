@@ -84,7 +84,7 @@ You can't quite generalize this to trying to literally be another person, but it
 ### <b>3. Not Setting Up Members For Success With The Right Approach</b>
 
 "I put 100% of my focus into applying frameworks that would empower members to output fast-paced, high quality work that required minimal oversight from leads, while at the same time training members to become leads themselves - following the team motto of “recruit your replacement”."  
-- [Mischa Johal](https://mischajohal.com/Thoughts/Reflecting-on-UBC-Solar), former UBC Solar Electrical Lead
+[Mischa Johal](https://mischajohal.com/Thoughts/Reflecting-on-UBC-Solar), former UBC Solar Electrical Lead
 
 Your goal as a team lead on a student design team must be to set your members up for success and hence to recruit your replacement. This requires maximally competent and productive members which in turn requires as many learning opportunities as possible.
 
@@ -154,7 +154,7 @@ A great way to spot when someone is hiding their incompetence is to ask "Why?" s
 ### <b>9. Not Being Precise In Your Speech And Meaning What You Say</b>
 
 "When a company is meandering, it’s management staff is demoralized. When the management staff is demoralized, nothing works. Everybody feels paralyzed. This is exactly when you need a strong leader setting direction. It may not be the best direction, just a strong, clear one."  
-- Andy Grove, [Only The Paranoid Survive](https://docs.google.com/document/d/167o7qqgBmj5-ulRm9ApSMSXQAmGZfp_wCtMpLs1uSvY/edit?usp=sharing), Chapter 8 
+Andy Grove, [Only The Paranoid Survive](https://docs.google.com/document/d/167o7qqgBmj5-ulRm9ApSMSXQAmGZfp_wCtMpLs1uSvY/edit?usp=sharing), Chapter 8 
 
 This point is something that generally annoys me when I hear it and it's a broader principle that applies to life. It's also rule 10 in 12 Rules For Life.
 
