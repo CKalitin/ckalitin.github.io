@@ -27,7 +27,7 @@ Technical mistakes are an easy example, especially on a student design team. Thi
 
 Interpersonal mistakes and organizational/managerial mistakes are what pose a much greater concern. Even taking the example of a technical mistake that a first year student makes, this is down to a mistake of a team lead not properly assessing the member's abilities, supporting them in the right way, or not providing the right framework / environment for the member to succeed.
 
-The primary types of mistakes / issues I've seen are:
+The primary types of mistakes/issues I've seen are in no particular order:
 1. Not understanding the gravity of what you're working on
 2. Not having the right instincts when posed with a problem
 3. Not setting up members for success with the right approach
