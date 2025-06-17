@@ -7,8 +7,6 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-redirect_from:
-  - /ideas/2015/06/11/highest-leverage-work.html
 word_count: 183
 ---
 <head>
@@ -199,3 +197,7 @@ Future (the reasonable ones it comes up with):
 It gave tons of slop
 
 Now, I'll use my brain to make a list for the future:
+
+Storage:
+https://x.com/johnfreehayes/status/1934312768070639651
+
