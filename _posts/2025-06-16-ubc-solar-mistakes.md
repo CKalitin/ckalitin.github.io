@@ -54,7 +54,7 @@ Furthermore, it was a mistake that could have so easily been spotted! "Hey Chris
 
 We use the LTC6813 chip in our battery to sense the temperature and voltage of the battery modules. This same chip is used by Tesla and is complex enough that not a soul in the design team bay fundamentally understands how it works and is completely confident using it. 
 
-We've shorted the chip seven times (my lead gave me this number in the middle of a standup I was giving) in the past couple of months. None of use fundamentally understand how it works and make guesses constantly. This is great for learning, but is terrible when an inexperienced member is working on the pack and doesn't realize that one wrong choice and they fry another chip which costs on the order of $10 and several hours of design team member time to fix.
+We've shorted the chip seven times (my lead gave me this number in the middle of a standup I was giving) in the past couple of months. None of us fundamentally understand how it works and make we guesses constantly. This is great for learning, but is terrible when an inexperienced member is working on the pack and doesn't realize that one wrong choice and they fry another chip which costs on the order of $10 and several hours of design team member time to fix.
 
 Some of the mistakes to due with this chip have been truly stupid and as a team (or our elec lead specifically) we haven't taken a step back to fundamentally consider why we've made fried SEVEN of these chips now.
 
