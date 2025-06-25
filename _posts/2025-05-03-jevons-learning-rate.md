@@ -73,7 +73,7 @@ On page 14 of Energy and Civilization, Vaclav Smil describes this phenomenon wit
 
 <b>1. YOU Make Learning Rate Happen!</b>
 
-"People sometimes think technology just automatically gets better every year, but it actually don't. It only gets beter if smart people work like cracy to make it better."  
+"People sometimes think technology just automatically gets better every year, but it actually doesn't. It only gets beter if smart people work like crazy to make it better."  
 \- [Elon Musk](https://youtu.be/tnBQmEqBCY0?si=wd_kTwxFdfcE47Yt&t=420)
 
 In my [first ever blog post](https://ckalitin.github.io/technology/2023/09/22/applying-accelerating-returns.html) I made the mistake of assuming that the growth of humanity is assured. Since then I saw [this clip](https://youtu.be/zIwLWfaAg-8?si=GDwdlOjMb4pqzsYP&t=2245) of Elon where he demonstrates that technology does not automatically improve and it in fact requires a great amount of human effort to make it happen.
