@@ -95,9 +95,12 @@ Ask about wave sculptors
 
 
 Motor scrutineer in morning:
-“Have you guys passed scrutineer if?”
+“Have you guys passed scrutineer yet?”
 Nods
 “Good, because you’ll fail insulation now.”
+
+edit:
+*AND COMES BACK TO REDO SCRUTINEERING INSULATION?!?!?! GOOD THING WE PASSED AGAIN*
 
 Sasha Zbrozek
 
