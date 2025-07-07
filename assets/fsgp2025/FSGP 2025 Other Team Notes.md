@@ -424,7 +424,7 @@ Grab as much knowledge as possible from previous members.
 
 Anytime your off the track there’s. A yellow shirt with you. Observers like ASC.
 
-At ASC observers sleep eight eg teams like food and sleep.  
+At WSC observers sleep eight eg teams like food and sleep.  
 “You’re happy when you’re with Michigan.”
 
 They’re camping I the desert for WSC.
