@@ -83,9 +83,9 @@ However, some of the points made in that article prompted me to consider the mar
 
 #### **Historic Data**
 
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png){: .align-center .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png)*  
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png){: .align-center .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png){:  target="_blank" .width="600"}  
 *[Enlarged Image]({{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png)*  
 <i>Note these are Canadian payloads (As categorized by Jonathan McDowell in his [dataset psatcat](https://planet4589.org/space/gcat/web/cat/pcols.html)) launched on any nation's launch vehicle. Ignore the lower counts of the simple payload category chart (eg. 15 vs 18 in 2023), those are wrong, Python is being goofy.</i>
 
@@ -103,17 +103,17 @@ Unlike the American space industry, dominated by thousands of Starlink satellite
 
 #### **Mass Distribution of Canadian Satellites**
 
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_max_mass.png){: .align-center .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_max_mass.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_max_mass.png)*  
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_1000_50.png){: .align-center .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_1000_50.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_1000_50.png)*  
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_100_5.png){: .align-center .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_100_5.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_mass_by_orbit_100_5.png)*  
 <i>These charts show in progressively more detail the mass distribution of Canadian satellites. Satellite count vs. payload mass.</i>
 
 The vast majority of Canadian satellites weigh less than 15 kg. These consist of Kepler's communication satellites, various University projects, and GHGSat's Earth Observation satellites. Kepler is based in Toronto and is focused on high-bandwidth In-space data relay for LEO spacecraft, particularly remoate sensing missions. GHGSat is based in Montreal (Where I'm flying in a few weeks go please reach out if you're around there!) and monitors primarily methane and carbon dioixde emissions.
 
-The higher mass geostationary satellites are mainly communication satellites. Telstar 18V and 19V were launched on Falcon 9s in 2018 and provide communication services. RCM-1, -2, -3 are C-band synthetic aperture radar satellites in Sun Synchronous Orbit that weight ~1.5t. They were built by MDA and operated by the Canadian Space Agency (CSA). Anik F3 was a 4.6 tonne satellite launched on the Proton-M rocket and is also a geostationary communications satellites.
+The higher mass geostationary satellites are mainly communication satellites. Telstar 18V and 19V were launched on Falcon 9s in 2018 and provide communication services. Anik F3 was a 4.6 tonne satellite launched on the Proton-M rocket and is also a geostationary communications satellites. RCM-1, -2, -3 are C-band synthetic aperture radar satellites in Sun Synchronous Orbit that weight ~1.5t. They were built by MDA and operated by the Canadian Space Agency (CSA). 
 
 **Analyzing NordSpace's Founders Comments**
 
