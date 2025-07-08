@@ -15,44 +15,13 @@ word_count: 2000
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
 </head>
 
-Aim for <2000 words, deep enough analysis that I'm directionally correct.
-
-Space news article: https://www.space.com/space-exploration/launches-spacecraft/can-canada-get-to-orbit-companies-nordspace-and-protospace-hope-to-launch-countrys-1st-space-mission-exclusive
-
-Estimates several launches a year with Canadian Payloads (0.5 and 5 ton class?), later expanding to global payloads.
-
-DoD of Canada is sending the strongest demand signal.
-
-They talk about moving fast and iterating, good.
-
-Structure:
-1. Examine Canadian customer base (Gov, Commercial, Military!!!)
-2. Issues with building rockets in a country that hasn't done it. Parallels to rocket lab.
-    a. Regulatory Framework
-    a. No ITAR
-    a. No test sites
-    a. No one wants you there, Beck had to dance with the indigenous people of New Zealand
-    a. Some benefit of being a bigger country, SpaceX supply chain too
-    a. Cancelled Canadian jet comparison, private industry advantage of constant vision, this is also why SpaceX will make it to Mars and why NASA hasn't
-3. Examine the LV Strategy
-4. Launch Range / Regulatory Strategy
-
-27.5 kg to lunar orbit?
-https://x.com/Nord_Space/status/1917571312375194068
-Not TLI????
-
-Prediction of 2025 Canadian payloads:
-https://x.com/CanadaInSpace/status/1914436522469929039
-
-
-
 ### <b>Introduction</b>
 
 Today I read this [Space News article](https://www.space.com/space-exploration/launches-spacecraft/can-canada-get-to-orbit-companies-nordspace-and-protospace-hope-to-launch-countrys-1st-space-mission-exclusive) about Nord Space, Canada's first launch vehicle startup ever.
 
-I'm generally skeptical of all space startups, hardware is already extremely difficult and this is one of the most unforgiving domains ever. Don't make the mistake of looking at SpaceX and extrapolating!
+While i'm generally skeptical of all space startups - hardware is already extremely difficult and this is one of the most unforgiving domains ever - some of the points made in that article prompted me to consider the market for a domestic launch provider in Canada more seriously.
 
-However, some of the points made in that article prompted me to consider the market for a domestic launch provider in Canada more seriously. Particularly, the founder was optimistic about sovereign launch demand in Canada, creating a regulatory framework for launches here, and the aerospace supply chain around their HQ in Ontario.
+Particularly, the founder was optimistic about sovereign launch demand in Canada, creating a regulatory framework for launches here, and the aerospace supply chain around their HQ in Ontario.
 
 ### <b>Domestic Canadian Launch Market</b>
 
@@ -130,13 +99,28 @@ My favourite advantage of a non-US launch company is that they are not subject t
 
 ### **Proactive Launch Range / Regulatory Strategy**
 
-Canada has no regulatory launch approval process. NordSpace's strategy 
+Canada has no regulatory launch approval process. NordSpace's strategy for solving this problem is to be proactive about working with the government to build such a framework. [They are aiming](https://www.space.com/space-exploration/launches-spacecraft/can-canada-get-to-orbit-companies-nordspace-and-protospace-hope-to-launch-countrys-1st-space-mission-exclusive) to get a full orbital launch approval for their upcoming 2025 suborbital launch of their Taiga rocket.
 
-4. Launch Range / Regulatory Strategy
+Rocket Lab had to go through a similar process to get approval to launch from New Zealand and to get ITAR approval to launch US military payloads from their Mahia launch site.
 
-No regulatory framework, trying to establish an orbital reg framework for orbital launches for the first suborbital launch. Get ahead of the problem. Rocket Lab went through the same thing.
+They plan on building out their launch site with two pads. One for themselves, the other for a theoretical customer in the future. They hope for another company to come around and use this pad, whether a local Canadian company or international company. Like discussed in the previous two sections, I'm not sure of the benefits any company could get here aside from not having to go through ITAR approvals - assuming they don't want to launch US military payloads from Canadian soil.
 
 ### **Examining NordSpace's Launch Vehicle Strategy**
+
+![Image](/assets/images/canada-space-industry/electron_launches_vs_mass_by_orbit.png){:  target="_blank" .width="600"}  
+*[Enlarged Image](/assets/images/canada-space-industry/electron_launches_vs_mass_by_orbit.png)*  
+<i>This is [my chart](https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html) of the mass distribution of Rocket Lab Electron launches.</i>
+
+NordSpace has plans for 3 launch vehicles:  
+1. Taiga - Hypersonic Suborbital Space - 50 kg payload
+2. Tundra - LEO Small Sat Launcher - 500 kg payload
+3. Titan - LEO Medium Lift Vehicle - 5,000 kg payload
+
+A hypersonic suborbital launch vehicle is an interesting first vehicle. As Rocket Lab's HASTE program has demonstrated, there is a non-trivial amount of hypersonic testing demand from US military contractors. This may be true in Canada as well so NordSpace may continue to have demand for Taiga after their larger launch vehicles come online. A small vehicle is obviously the right choice for their first rocket to demonstrate their ability to build rockets - [Stoke Space seems to be the exception here](https://ckalitin.github.io/technology/2024/02/26/stoke-nova-perfect.html).
+
+I have [written extensively](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html) about the 1-ton class launch vehicles like Firefly's Alpha in the past, so a Neuron instantly actived in my mind when I saw they were aiming for 500 kg, instead of something lower like the ~100 kg capacity of Astra's Rocket 3.3.
+
+In short, most payloads will not use the full payload capacity of 500 kg.
 
 3. Examine the LV Strategy
 
@@ -151,3 +135,9 @@ Then 5000 kg class LEO LV
 he talked about monthly launches end of 2030. Good Luck! Where payloads? Not from Canada!
  
 They talk about moving fast and iterating, good.
+
+27.5 kg to lunar orbit?
+https://x.com/Nord_Space/status/1917571312375194068
+Not TLI????
+
+Estimates several launches a year with Canadian Payloads (0.5 and 5 ton class?), later expanding to global payloads.
