@@ -114,21 +114,19 @@ They plan on building out their launch site with two pads. One for themselves, t
 NordSpace has plans for 3 launch vehicles:  
 1. Taiga - Hypersonic Suborbital Space - 50 kg payload
 2. Tundra - LEO Small Sat Launcher - 500 kg payload
-3. Titan - LEO Medium Lift Vehicle - 5,000 kg payload
+3. Titan - LEO Medium Lift Launch Vehicle (MLV) - 5,000 kg payload
 
-A hypersonic suborbital launch vehicle is an interesting first vehicle. As Rocket Lab's HASTE program has demonstrated, there is a non-trivial amount of hypersonic testing demand from US military contractors. This may be true in Canada as well so NordSpace may continue to have demand for Taiga after their larger launch vehicles come online. A small vehicle is obviously the right choice for their first rocket to demonstrate their ability to build rockets - [Stoke Space seems to be the exception here](https://ckalitin.github.io/technology/2024/02/26/stoke-nova-perfect.html).
+A hypersonic suborbital launch vehicle is an interesting first vehicle. As Rocket Lab's HASTE program has demonstrated, there is a non-trivial amount of hypersonic testing demand from US military contractors. This may be true in Canada as well so NordSpace may continue to have demand for Taiga after their larger launch vehicles come online. A small vehicle is obviously the right choice for their first rocket to demonstrate their ability to build rockets - [Stoke Space seems to be the rare exception here](https://ckalitin.github.io/technology/2024/02/26/stoke-nova-perfect.html).
 
 I have [written extensively](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html) about the 1-ton class launch vehicles like Firefly's Alpha in the past, so a Neuron instantly actived in my mind when I saw they were aiming for 500 kg, instead of something lower like the ~100 kg capacity of Astra's Rocket 3.3.
 
-In short, most payloads will not use the full payload capacity of 500 kg. Looking at the payload mass distribution of Electron launches we see that there isn't much merit in going about XXX kg. The exception is for constellations that contain satellites with high individual masses or launching heavier individual satellites - not many of these exist. I go into far more detail in my blog post [Extrapolating Demand and Competition for the 1-ton Rocket Class](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html), which [Peter Beck responded to](https://x.com/Peter_J_Beck/status/1823128548581994792)!
+In short, most payloads will not use the full payload capacity of 500 kg. Looking at the payload mass distribution of Electron launches we see that there isn't much merit in going above a 200 kg payload capacity. The exception is for constellations that contain satellites with high individual masses or launching heavier individual satellites - not many of either of these exist. I go into far more detail in my blog post [Extrapolating Demand and Competition for the 1-ton Rocket Class](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html), which [Peter Beck responded to](https://x.com/Peter_J_Beck/status/1823128548581994792)!
 
+In my blog post [Stoke's Nova is a Perfectly Sized Rocket](https://ckalitin.github.io/technology/2024/02/26/stoke-nova-perfect.html) I made the case for why a ~5t fully reusable launch vehicle is the perfect vehicle to compete with existing medium-lift partially reusable launch vehicles. In short, they are already capable of launching most payloads at that class, with orbital refilling they can launch most GEO satellites, and full reuse allows them to launch constellations at a reasonable cost. 
 
+Titan does not seem to get any of these advantages except for being able to launch all payloads under 5t, which is a majority of payloads. It has not been announced if they plan reusability for Titan, but if they plan to be competitive against other launch vehicles in 5-10 years time, reusability is a requirement. Furthermore, there exist extremely few Canadian satellites that could take advantage of this vehicle. To get the to low enough cost to launch constellation effectively they need very high cadence. If there's remains a launch shortage in several years, they may get contracts from the US constellation companies, but the launch market will be even more competitive at that time.
 
-3. Examine the LV Strategy
-
-Suborbital hypersonic test vehicle first, 50 kg past 100km
-Then 500 kg class LEO LV
-Then 5000 kg class LEO LV
+Overall, 5t is a strange class for a maybe reusable medium lift launch vehicle. SpaceX cancelled the Falcon 5 - 4.2t payload capacity - for a reason. I don't see how this vehicle will be successful in 5-10 years given the lack of Canadian payloads that could take advantage of it and the increased MLV competition we'll see then.
 
 ### **Conclusion**
 
