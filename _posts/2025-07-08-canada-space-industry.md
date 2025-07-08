@@ -35,7 +35,9 @@ Particularly, the founder was optimistic about sovereign launch demand in Canada
 
 To begin my analysis of the Canadian Space Industry I used my [McDowell Dataset Analysis repo](https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html) to generate a few charts about the history of Canadian Payloads that have successfully made it into orbit.
 
-The trend in Canadian payloads looks roughly exponential and it feels like you could fit an exponential to them without much worry. However, seeing as there were only 10 payloads launched in 2024 and 2025 so far, we need to carefully check our assumptions before predicting extreme growth.
+On net, only about 100 Canadian satellites have ever been launched into space.
+
+A positive sign is that the trend in Canadian payloads looks roughly exponential and it feels like you could fit an exponential to them without much worry. However, seeing as there were only 10 payloads launched in 2024 and 2025 so far, we need to carefully check our assumptions before predicting extreme growth.
 
 #### Upcoming Canadian Payloads
 
@@ -87,6 +89,8 @@ Peter Beck danced with the indigenous people of New Zealand to be allowed to bui
 
 They're launch site is located at 46 degrees latitude on the coast of Newfoundland. This is less than the 49 degree latitude of Baikonur Cosmodrome, so they could access the International Space Station. However, future US commercial space stations and under no obligation to launch to higher orbital inclinations. A higher inclination also requires more energy expenditure to reach a Geostationary Orbit, which lowers payload capacity. On the other hand, Sun Synchronous Orbit can be access from anywhere as it's ~95 degrees inclined. Many Earth Observation satellites use this orbit.
 
+Finally, there's lower capital availablitiy in Canada than in the US. To raise money for Electron Peter Beck flew to Silicon Valley and got a cheque from Khosla Ventures. If NordSpace is trying to be explicitly Canadian, this is less of an option.
+
 ### **Positives Of Being A Non-US Non-Government Launch Program**
 
 Although there are many challenges, it's not all negatives!
@@ -130,14 +134,25 @@ Overall, 5t is a strange class for a maybe reusable medium lift launch vehicle. 
 
 ### **Conclusion**
 
-"sub-$100 million easily." LOL
+The biggest issue with being a Canadian launch provider is that there aren't very many Canadian satellites. Looking at the last few years, there is demand for launching ~10 Canadian satellites per year. This could increase many multiples in the future, but it remains a tiny market compared to the US or the rest of the world. 
 
-he talked about monthly launches end of 2030. Good Luck! Where payloads? Not from Canada!
- 
-They talk about moving fast and iterating, good.
+The majority of Canadian satellites are commercial observation or communication constellations. These companies have a profit incentive and I expect them to choose the launch provider which is cheapest and fastest. Here, NordSpace would be competing against SpaceX Rideshare missions and Rocket Lab's Electron, both of which are extremely hard to compete against on cost or schedule.
 
-27.5 kg to lunar orbit?
-https://x.com/Nord_Space/status/1917571312375194068
-Not TLI????
+This leaves university payloads or government and military payloads. This is maybe 30-40% of total lifetime history Canadian launch demand. I assume university launch demand is farily inelastic and government/military payloads are at most 15% of Canadian launch demand. This is the best market for a sovereign Canadian launch company and it's a very small market.
 
-Estimates several launches a year with Canadian Payloads (0.5 and 5 ton class?), later expanding to global payloads.
+5 payloads a year is not even enough to fill a single Tundra rideshare mission to Sun Synchronous Orbit (250 kg to SSO), which is not enough to support a commercial company.
+
+"We're really treating Canada as a pathfinder market."  
+As Goel mentions, competing for international payloads is an option for the company and a great path forward. However, this is a very competitive sector and they may fall for the same issues[ Firefly and other 1-ton class rockets are having](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html), not being the right size for most small satellites. 
+
+"By the end of the decade, we're doing at least one launch a month. We think that's a lot more reasonable than new companies coming out of the gate who say they're going to launch 50 times a year."  
+These optimistic predictions of launch rate must be under the assumption of either increased Canadian govrenment/military launch demand or an expectation of success in the global commercial market. This will be extremely difficult and I hope to see them succeed, but the launch business is not forgiving!
+
+"This is not a multi-billion-dollar project," he added. "We can do this for sub-$100 million easily."  
+I'll operate under the assumption that Goel is describing the cost of the Tundra program to get to a first launch, also not sure if this is CAD or USD. Hopefully I'll have the opportunity to ask Goel for clarity myself! Either way, $100M USD in 2025 is optimistic for the first launch of a 500 kg class launch vehicle. Even more optimistic if this is including Taiga development costs. 
+
+There's a [slide from a NordSpace presentation](https://x.com/rory_mg/status/1917271390597665091/photo/1) in which they mention a 27.5 kg lunar orbit payload capability for Tundra (strange they mention lunar orbit and not TLI, are they planning direct insertion? Extremely cool if true.). The founder also talked about letting techincal teams move without impedance from management and moving very fast. This is nice but founders that talk about a fast pace of iteration are a dime a dozen. Hopefully these insights are really implemented!
+
+Overall, the advantage of a domestic launch company is launching domestic payloads. There aren't many of these in Canada so they'll have to expand to the extremely competitive commercial market. The strategy of 50 kg -> 500 kg -> 5000 kg is sound, even if some of those payload mass classes don't align perfectly with the market.
+
+I am a Canadian and I hope to see them succeed! However, like all launch companies, the odds are against them.
