@@ -107,43 +107,34 @@ Goel claims there are payloads sitting on shelves and he certainly has greater i
 
 ### **Challenges With Building Rockets In a Country Where It Hasn't Ever Been Done**
 
-1. No regulatory framework, need to build this from scratch, go into it more later
-2. No test sites or launch sites, again, later
-3. No one wants you there, Beck had to dance with the indigenous people of New Zealand
-4. Some benefit of being a bigger country than New Zealand, SpaceX supply chain too
-5. High latitude. Maybe not getting to stations or GEO is harder. SSO FTW though!
+The most visible issue with building rockets in Canada is that there are no launch or test sites. NordSpace's test site is an abandoned mine that they found after searching "every location you can imagine."
 
-Advantages:
-1. No ITAR!!
-2. You are private, not going to cancel you like that jet with the name from the 80s ish
+"In Canada, [if] you mentioned to anybody that you're building a rocket engine and you want to test it on their farm or on an industrial plot, they're just going to have an allergic reaction to it right away. We got kciked out of every location you can imagine."
+*[Rahul Goel, NordSpace Founder](https://www.space.com/space-exploration/launches-spacecraft/can-canada-get-to-orbit-companies-nordspace-and-protospace-hope-to-launch-countrys-1st-space-mission-exclusive)*
 
-Five critical Raptor and Merlin suppliers are within 10 km of their HQ. You can do manufacturing in Canada, just with a smaller industrial base, but it's possible.
+The lack of any launch or test sites means you are required to build you own. As Rocket Lab at Mahia or SpaceX at McGregor can attest to, having your own test/launch infrastructure can be a great advantage in launch vehicle programs. This is especially true in SpaceX's case where they bought McGregor from the bankrupt Beal Aerospace for a farily low price (Eric Berger goes into this in Liftoff). However, for early stage companies you want to buy down technical risk and focus on reaching milestones early. So, vertical integration is not ideal for a startup if it isn't required.
 
-Compare to that old cancelled Canadian jet, briefly!!!
-Private efforts have an advantage over govrenment programs here, as the government is risk averse. Even US supply chain for military equipment is in China.
+Peter Beck danced with the indigenous people of New Zealand to be allowed to build a launch site on land they had the rights to. Goel's quote gets to a similar mentality in Canada where it's also particularly difficult to build risky test sites.
 
-They want another customer for their New Found Land spaceport.
- - 46 degrees is not ideal
- - No ITAR is great! Even I could work there!
- - Big cost to building it out without much around, not much different from Mahia though
- - Example of Rocket Lab, would never launch from there
- - ITAR is the only real advantage
- - Compare to Firefly out of Norway
- 
-They talk about moving fast and iterating, good.
+They're launch site is located at 46 degrees latitude on the coast of Newfoundland. This is less than the 49 degree latitude of Baikonur Cosmodrome, so they could access the International Space Station. However, future US commercial space stations and under no obligation to launch to higher orbital inclinations. A higher inclination also requires more energy expenditure to reach a Geostationary Orbit, which lowers payload capacity. On the other hand, Sun Synchronous Orbit can be access from anywhere as it's ~95 degrees inclined. Many Earth Observation satellites use this orbit.
 
-Old mine is the engine test site, yea no one in Canada wants you to build a rocket engine next to you, minor disadvantage but not unprecedented, see Rocket Lab. (Where was their engine test site?)
+### **Positives Of Being A Non-US Non-Government Launch Program**
 
-Their model can be copy and pasted to other countries looking for sovereign space capabilities. They'd also have no ITAR.
+Although there are many challenges, it's not all negatives!
 
+In the same Space News article I've been mentioning Goel says that within 10 km of their headquarters there are five critical suppliers to SpaceX's Merlin and Raptor engine programs. Even though they're in Canada, they aren't too isolated from US Aerospace technology.
+
+Because NordSpace is a private company, they aren't subject to the same whims of goverment as programs like the Avro Arrow. They may rely on domestic payloads, but the vision and execution for how they launch these payloads is all up to them. This is the same reason why SpaceX will take us to Mars and why NASA has failed for decades.
+
+My favourite advantage of a non-US launch company is that they are not subject to ITAR. This means you don't need to be a US citizen to work there. For countries that don't want to go through ITAR regulatory approval processes or individuals that can't be bothered to become US citizens, NordSpace presents and easier path to space or working on space.
 
 ### **Proactive Launch Range / Regulatory Strategy**
 
+Canada has no regulatory launch approval process. NordSpace's strategy 
+
 4. Launch Range / Regulatory Strategy
 
-
 No regulatory framework, trying to establish an orbital reg framework for orbital launches for the first suborbital launch. Get ahead of the problem. Rocket Lab went through the same thing.
-
 
 ### **Examining NordSpace's Launch Vehicle Strategy**
 
@@ -158,3 +149,5 @@ Then 5000 kg class LEO LV
 "sub-$100 million easily." LOL
 
 he talked about monthly launches end of 2030. Good Luck! Where payloads? Not from Canada!
+ 
+They talk about moving fast and iterating, good.
