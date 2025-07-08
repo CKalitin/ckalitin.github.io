@@ -4,7 +4,6 @@ title: "Can Canada Support a Sovereign Space Industry?"
 categories: Space
 tags:
     - Space Industry Analysis
-    - Drafts
 author:
  - Christopher Kalitin
 redirect_from:
