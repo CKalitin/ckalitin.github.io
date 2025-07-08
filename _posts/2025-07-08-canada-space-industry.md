@@ -109,7 +109,7 @@ They plan on building out their launch site with two pads. One for themselves, t
 
 ![Image](/assets/images/canada-space-industry/electron_launches_vs_mass_by_orbit.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/electron_launches_vs_mass_by_orbit.png)*  
-<i>This is [my chart](https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html) of the mass distribution of Rocket Lab Electron launches.</i>
+<i>This is [my chart](https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html) of the payload mass distribution of Rocket Lab Electron launches.</i>
 
 NordSpace has plans for 3 launch vehicles:  
 1. Taiga - Hypersonic Suborbital Space - 50 kg payload
@@ -120,7 +120,9 @@ A hypersonic suborbital launch vehicle is an interesting first vehicle. As Rocke
 
 I have [written extensively](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html) about the 1-ton class launch vehicles like Firefly's Alpha in the past, so a Neuron instantly actived in my mind when I saw they were aiming for 500 kg, instead of something lower like the ~100 kg capacity of Astra's Rocket 3.3.
 
-In short, most payloads will not use the full payload capacity of 500 kg.
+In short, most payloads will not use the full payload capacity of 500 kg. Looking at the payload mass distribution of Electron launches we see that there isn't much merit in going about XXX kg. The exception is for constellations that contain satellites with high individual masses or launching heavier individual satellites - not many of these exist. I go into far more detail in my blog post [Extrapolating Demand and Competition for the 1-ton Rocket Class](https://ckalitin.github.io/space/2024/08/12/extrapolating-demand-firefly.html), which [Peter Beck responded to](https://x.com/Peter_J_Beck/status/1823128548581994792)!
+
+
 
 3. Examine the LV Strategy
 
