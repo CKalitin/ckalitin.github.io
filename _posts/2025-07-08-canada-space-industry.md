@@ -1,4 +1,4 @@
----
+---canada_payloads_vs_year_by_operator_type
 layout: post
 title: "Can Canada Support a Sovereign Space Industry?"
 categories: Space
@@ -12,8 +12,10 @@ redirect_from:
 word_count: 2000
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
+    <meta property="og:image" content="{{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png">
 </head>
+
+![Image](/assets/images/canada-space-industry/cover.webp) 
 
 ### <b>Introduction</b>
 
@@ -27,7 +29,7 @@ Particularly, the founder was optimistic about sovereign launch demand in Canada
 
 ##### **Historic Data**
 
-![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png){:  target="_blank" .width="600"}  
+![Image](/assets/images/canada-space-industry/.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png)*  
 ![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png){:  target="_blank" .width="600"}  
 *[Enlarged Image]({{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png)*  
