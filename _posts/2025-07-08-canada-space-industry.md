@@ -8,7 +8,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /solar/2025/07/08/canada-space-industry.html
-word_count: 2000
+word_count: 2746
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png">
@@ -28,7 +28,7 @@ Particularly, the founder was optimistic about sovereign launch demand in Canada
 
 #### Historic Data
 
-![Image](/assets/images/canada-space-industry/.png){:  target="_blank" .width="600"}  
+![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png){:  target="_blank" .width="600"}  
 *[Enlarged Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png)*  
 ![Image](/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png){:  target="_blank" .width="600"}  
 *[Enlarged Image]({{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_simple_payload_category.png)*  
