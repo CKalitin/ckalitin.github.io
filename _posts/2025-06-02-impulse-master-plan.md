@@ -4,7 +4,6 @@ title: "Deriving the Impulse Labs Master Plan"
 categories: Space
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 redirect_from:

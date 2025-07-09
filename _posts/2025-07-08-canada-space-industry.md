@@ -4,15 +4,20 @@ title: "Can Canada Support a Sovereign Space Industry?"
 categories: Space
 tags:
     - Space Industry Analysis
+    - Latest Posts
 author:
  - Christopher Kalitin
 redirect_from:
   - /solar/2025/07/08/canada-space-industry.html
-word_count: 2746
+word_count: 2772
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/canada-space-industry/canada_payloads_vs_year_by_operator_type.png">
 </head>
+
+For feedback / criticism (which is well appreciated!) respond [here](https://x.com/CKalitin/status/1942751765025210441) or email me (christopher.kalitin@gmail.com).
+
+The CEO and Founder of NordSpace responded to this blog post [here](https://x.com/astrorahul_/status/1942767079133946088).
 
 ![Image](/assets/images/canada-space-industry/cover.webp) 
 
