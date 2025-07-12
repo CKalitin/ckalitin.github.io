@@ -13,6 +13,8 @@ word_count: 1500
     <meta property="og:image" content="{{site.url}}/assets/images/most-profilic-modules/Alexander-The-Ok-July-11-2025-Soviet-Stations.jpg">
 </head>
 
+Source data for my charts is available in [this Google Sheet](https://docs.google.com/spreadsheets/d/1kqzgV7y3OS3aHCWXOCRws8F3FelriOv0EHpb7aWZqFw/edit?usp=sharing) and in [this repo](https://github.com/CKalitin/UBC-Solar-Leads-Gantt/tree/master/station-modules-gantt).
+
 ![I Love Alexander The Ok!!!](/assets/images/most-profilic-modules/Alexander-The-Ok-July-11-2025-Soviet-Stations.jpg)  
 <i>[Alexander the ok's](https://youtu.be/e-n_V5iEwAs?si=8psyaMOoXeRRNlI4&t=765) Beautiful Soviet Space Station Timeline.</i>
 
@@ -55,13 +57,13 @@ You've heard of Almaz and TKS now. Skylab was the US's first space station, laun
 
 Five small modules were launched to Mir or the ISS as docking / small scientific modules. One of these flew to Mir, and four of these to the ISS (Pirs, Poisk, Rassvet, Prichal). All but one of these were launched on Soyuz rockets as they used the Progress spacecraft's service module for propulsion and docking to the ISS. The odd one out is Rassvet, a "Mini-Research Module" that was launched on a Space Shuttle flight.
 
-The US ISS modules are the ones you've heard of (Unity, Destiny, Quest, Harmony, Tranquility, Cupla, Leonardo). Jared Owen has a great video on [the assembly of the ISS](https://www.youtube.com/watch?v=FhKOuxhGlmI) which you should watch if you want to know more about these. I'm counting all of these as a single family. This isn't quite right because they aren't all based on the same hull like the Almaz or TKS modules, but it was all for the same station by the same space agency, so I'm counting them as one family.
+The US ISS modules are the ones you've heard of (Unity, Destiny, Quest, Harmony, Tranquility, Cupola, Leonardo). Jared Owen has a great video on [the assembly of the ISS](https://www.youtube.com/watch?v=FhKOuxhGlmI) which you should watch if you want to know more about these. I'm counting all of these as a single family. This isn't quite right because they aren't all based on the same hull like the Almaz or TKS modules, but it was all for the same station by the same space agency, so I'm counting them as one family.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/BEAM.jpg){.width="300"}
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/BEAM.jpg){: .width="300"}
 
 The international / commercial ISS modules are BEAM (Bigelow Expandable Activity Module), Columbus (European Space Agency, ESA), Kibo (Japan Aerospace Exploration Agency, JAXA), and BEAM (Bigelow Expandable Activity Module). BEAM was developed by Bigelow Aerospace and launched on a SpaceX Dragon resupply mission to the ISS before they went bankrupt. It was an inflatable module.
 
-[![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Tiangong.jpg){.width="300"}
+[![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Tiangong.jpg){: .width="300"}
 
 Tiangong is a series of 3 Chinese space stations. The first two were small, short-lived stations that were launched in 2011 and 2016. The third one is a modular space station with three modules at the moment. [The Chinese are planning](https://www.space.com/china-expand-upgrade-tiangong-space-station) a fourth free-flying space telescope module. Very cool and we need to accelerate.
 
@@ -77,31 +79,4 @@ Tiangong is a series of 3 Chinese space stations. The first two were small, shor
 
 Source data is available in [this Google Sheet](https://docs.google.com/spreadsheets/d/1kqzgV7y3OS3aHCWXOCRws8F3FelriOv0EHpb7aWZqFw/edit?usp=sharing) and in [this repo](https://github.com/CKalitin/UBC-Solar-Leads-Gantt/tree/master/station-modules-gantt).
 
-Look into every space station module ever launched and what they were derived from.
-
-Tiangong, Skylab, ISS (Space Lab derived? US modules and all the international modules), Almaz/Salyut (what do I call it?).
-
-Then, look into the future for when we might beat these records. If we count Space Lab, Starship might count too.
-
-1. Soyuz is derived from the Almaz OPS hull, which was a military project "stolen" by OKB-1.
-
-2. TKS was originally a crew/cargo spacecraft to the Salyut stations. TKS capsule wasn't used, but TKS cargo blocks were evolved into the Functional Cargo Block (FGB, transliterated from the Russian initialism ФГБ) which was used on Mir and the ISS.
-Alexander the Ok uses FGB, I'm going before this and using TKS for the family.
-
-3. Counting all US ISS modules as a single family, not quite right
-
-4. Predict how long until the US segment of the ISS beats net lifetime of Russian modules
-
-5. How long for commercial modules to beat the Russian modules? Or US modules by then.
-
-6. Russian docking modules history
-
-Structure:
-1. Background on TKS and Almaz
-2. Gantt chart of all modules
-3. List all module families
-4. Give some details on each one
-    a. Counting US as one
-    a. Russian docking modules
-5. Charts of net lifetime
-6. What it'll take to beat these records
+### <b>How Long Until We Beat These Records?</b>
