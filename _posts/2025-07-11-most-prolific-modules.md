@@ -71,7 +71,7 @@ Tiangong is a series of 3 Chinese space stations. The first two were small, shor
 ### <b>Plotting Space Station Families</b>
 
 ![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/station_modules_gantt_chart_4k.png)  
-<i>[CLICK HERE](/assets/images/most-profilic-modules/station_modules_gantt_chart_1080p.html) for the beautiful raw html interactible plotly chart as some names were cutoff or small to read.</i>
+<i>[CLICK HERE](/assets/images/most-profilic-modules/station_modules_gantt_chart_1080p.html) for the beautiful raw html interactible plotly chart as some names were cutoff or too small to read.</i>
 
 Everything you've read up until now is background that anyone could have told you. Now onto my analysis and charts that I made.
 
