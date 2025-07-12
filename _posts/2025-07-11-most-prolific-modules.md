@@ -49,21 +49,21 @@ I've sorted all space station modules into seven primary families:
 6. International/Commercial ISS Modules (Bigelow, ESA, JAXA)
 7. Tiangong
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Skylab.jpg){: .width="400"}
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Skylab.jpg){:width="400"}
 
 You've heard of Almaz and TKS now. Skylab was the US's first space station, launched in 1973. It was a modified Saturn V third stage and the final flight of the Saturn V rocket. Three crews visited the station.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Prichal.png){: .width="400"}
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Prichal.png){:width="500"}
 
 Five small modules were launched to Mir or the ISS as docking / small scientific modules. One of these flew to Mir, and four of these to the ISS (Pirs, Poisk, Rassvet, Prichal). All but one of these were launched on Soyuz rockets as they used the Progress spacecraft's service module for propulsion and docking to the ISS. The odd one out is Rassvet, a "Mini-Research Module" that was launched on a Space Shuttle flight.
 
 The US ISS modules are the ones you've heard of (Unity, Destiny, Quest, Harmony, Tranquility, Cupola, Leonardo). Jared Owen has a great video on [the assembly of the ISS](https://www.youtube.com/watch?v=FhKOuxhGlmI) which you should watch if you want to know more about these. I'm counting all of these as a single family. This isn't quite right because they aren't all based on the same hull like the Almaz or TKS modules, but it was all for the same station by the same space agency, so I'm counting them as one family.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/BEAM.jpg){: .width="300"}
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/BEAM.jpg){:width="400"}
 
 The international / commercial ISS modules are BEAM (Bigelow Expandable Activity Module), Columbus (European Space Agency, ESA), Kibo (Japan Aerospace Exploration Agency, JAXA), and BEAM (Bigelow Expandable Activity Module). BEAM was developed by Bigelow Aerospace and launched on a SpaceX Dragon resupply mission to the ISS before they went bankrupt. It was an inflatable module.
 
-[![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Tiangong.jpg){: .width="300"}
+[![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Tiangong.jpg){:width="300"}
 
 Tiangong is a series of 3 Chinese space stations. The first two were small, short-lived stations that were launched in 2011 and 2016. The third one is a modular space station with three modules at the moment. [The Chinese are planning](https://www.space.com/china-expand-upgrade-tiangong-space-station) a fourth free-flying space telescope module. Very cool and we need to accelerate.
 
