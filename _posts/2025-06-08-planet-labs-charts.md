@@ -4,7 +4,6 @@ title: "Planet Labs Charts That Describe Their History"
 categories: Space
 tags:
     - Space Industry Analysis
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1753
