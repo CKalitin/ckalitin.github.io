@@ -7,7 +7,7 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-word_count: 1500
+word_count: 1475
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/most-profilic-modules/Alexander-The-Ok-July-11-2025-Soviet-Stations.jpg">
@@ -30,7 +30,7 @@ First, I'll give some background on the TKS and Almaz-derived station modules.
 
 In 1969, with the Apollo 11 Moon landing and the Soviet Moon Rocket, the N1, failing, the Soviet space program shifted its focus from the Moon to space stations. OKB-1 - a design bureau formerly run by Sergei Korolev - acquired ("or stole" according to Alexander the ok) several OPS hulls from the OKB-52 design bureau (They developed Almaz and the Proton rocket used to launch it). After refitting the OPS hulls with Soyuz spacecraft electronics and hardware (And renaming the station from Almaz (military-focused) to Salyut (civilian / science-focused)), the world's first space station was launched on April 19 1971.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/TKS.jpg){:width="650"}  
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/TKS.jpg){:width="600"}  
 <i>Diagram of the TKS spacecraft courtesy of [Anatoly Zak of russianspaceweb.com](https://www.russianspaceweb.com/zak.html), which you should check out!</i>
 
 [TKS](https://en.wikipedia.org/wiki/TKS_(spacecraft)) (Transport Supply Spacecraft) was a Soviet spacecraft designed and flown in the 60s and 70s. It was designed to carry crew and cargo to the Salyut space stations. 3 of them were launched and docked to the Salyut 6 and 7 space stations. 
@@ -71,7 +71,7 @@ Tiangong is a series of 3 Chinese space stations. The first two were small, shor
 ### <b>Plotting Space Station Families</b>
 
 ![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/station_modules_gantt_chart_4k.png)  
-<i>Some module names are cutoff and too small to read, so look at the beautiful raw html plotly chart [here](/assets/images/most-profilic-modules/station_modules_gantt_chart_1080p.html).</i>
+<i>[CLICK HERE](/assets/images/most-profilic-modules/station_modules_gantt_chart_1080p.html) for the beautiful raw html interactible plotly chart as some names were cutoff or small to read.</i>
 
 Everything you've read up until now is background that anyone could have told you. Now onto my analysis and charts that I made.
 
@@ -83,17 +83,17 @@ With the first modular space stations, Mir and the ISS, we see a lot of modules 
 
 At the bottom right in red, you can see the youngest space station (Until Vast's Haven 1 launches!) - the Chinese Tiangong space station.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Net%20Lifetime%20(days)%20vs.%20Station%20Module%20Family.png){:width="600"}  
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Net%20Lifetime%20(days)%20vs.%20Station%20Module%20Family.png)  
 
 Next, I used this data to plot out the net lifetime of each module family. We see that the US ISS modules have combined more lifetime than any other family of modules. Judging off my criteria of all US ISS modules being one family, Alexander the ok's statement is incorrect. TKS and Almaz are both behind the US ISS modules.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/ISS-US-Segment.jpg){.width="600"}
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/ISS-US-Segment.jpg){:width="600"}
 
 However, again, it isn't quite proper to say all of these modules are of one family. Looking at the diagram of US ISS modules above, we see that every module is distinct and serves different purposes. They were developed in parallel for the same station, but aren't identical hulls like the TKS and Almaz modules. You get away with it this time Alexander the ok!
 
 Another unexpected result is that the small Soviet / Russian docking / mini-research modules have just slightly more lifetime than all Almaz modules. This makes sense once you consider that Mir and ISS have decades of lifetime while the Almaz-derived stations (Salyut mainly) were only flown for a few years each.
 
-![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Net%20Lifetime%20(days)%20vs.%20Station%20Module%20Country.png){:width="600"}  
+![IMAGE SUPPOSED TO BE HERE](/assets/images/most-profilic-modules/Net%20Lifetime%20(days)%20vs.%20Station%20Module%20Country.png)  
 
 Sorting by country, we see that Russia has the most net space station module lifetime, followed by the US and China.
 

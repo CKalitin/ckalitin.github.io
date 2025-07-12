@@ -1,46 +1,48 @@
 Date,Words,Title,Path
-1925-02-08,76,The End State of NASA,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\1925-02-08-nasa-end-state.md
-1961-04-12,3970,The Transition to EV Robotaxis,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\1961-04-12-transition-to-robotaxis.md
-1969-07-20,1752,The Bare Minimum Engineer,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\1969-07-20-bare-minimum-engineer.md
-1990-06-25,64,Stoke Nova Cost Model - Will it Survive?,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\1990-06-25-stoke-cost-model.md
-2017-06-12,183,First Principles Thinking Expressed As Distillation Into a Latent Space,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2017-06-12-latent-first-principles.md
-2023-09-22,1424,Applying the Law of Accelerating Returns,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-09-22-applying-accelerating-returns.md
-2023-10-01,2439,NASA's fucked - Here's my vision,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-10-01-nasa-is-fucked.md
-2023-10-11,1046,You Will Get 80 Trillion Dollars If You Read This Closely,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-10-11-80-trillion-dollars.md
-2023-10-17,722,Waste Your Vote! Do What's Funniest!,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-10-17-waste-your-vote.md
-2023-10-21,584,Art Is Dead?,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-10-21-art-is-dead.md
-2023-12-17,742,Only Make Bets You Can Win,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2023-12-17-only-make-bets.md
-2024-01-01,688,Patriotism is a Requirement,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-01-01-patriotism-is-required.md
-2024-01-07,1315,Analysing Neutron in the Commerical Satellite Launch Market,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-01-07-analysing-neutron-competitively.md
-2024-02-10,2407,Analysing the Dedicated Small Sat Launch Market,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-02-10-smallsats-vs-rideshare.md
-2024-02-16,1121,Comparing Demand for Firefly's Alpha vs. Electron,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-02-16-firefly-vs-rocketlab.md
-2024-02-26,3005,Stoke's Nova is a Perfectly Sized Rocket,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-02-26-stoke-nova-perfect.md
-2024-04-09,2144,What SpaceX's Bandwagon Missions Mean for Small Rockets,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-04-09-spacex-bandwagon-mission.md
-2024-05-25,959,On the Overallocation of Labour to Finance and Law,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-05-25-overallocation-of-labour.md
-2024-07-04,1885,Small Sat Constellations: The line between Electron and Rideshare,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-07-04-small-sat-constellations.md
-2024-07-16,831,Visualizing Small Sat Constellation Tradeoffs with Charts,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-07-16-small-constellation-charts.md
-2024-07-24,1545,How to Land an Orbital Rocket Booster with kOS,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-07-24-kos-booster-landing.md
-2024-08-12,2558,Extrapolating Demand and Competition for the 1-ton Rocket Class,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-08-12-extrapolating-demand-firefly.md
-2024-09-15,1051,How to Teach Engineering,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-09-15-to-teach-engineering.md
-2024-10-21,2842,Why You Should Accumulate Capital,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-10-21-should-accumulate-capital.md
-2024-11-19,2607,S-Curves Allow You to Predict the Future,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-11-19-s-curve-examples.md
-2024-12-25,3009,Quintuple Simultaneous Booster Landings with kOS,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-12-25-more-kos-boosters.md
-2024-12-27,2103,Characterizing the ESP32's ADC,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-12-27-esp32-adc-characterization.md
-2024-12-29,1224,Using SCPI and PyVISA to Automatically Collect Data for ADC Characterization,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2024-12-29-scpi-auto-characterization.md
-2025-01-09,1246,Estimating Cost per Mbps of Communication Satellites Over Time,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-01-09-com-sat-cost.md
-2025-01-12,1567,A New Paradigm of Launch Vehicle Architecture Design Tradeoffs,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-01-12-launch-architecture-tradeoffs.md
-2025-01-15,379,Fun Charts That Visualize The History of Communicatons Satellites,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-01-15-fun-comsat-charts.md
-2025-03-26,1625,What Is the RCC_CSR Register in STM32 Microcontrollers?,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-03-26-stm32-rcc-register.md
-2025-04-26,1256,Being a University Student has Extremely Low Leverage,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-04-26-low-leverage-university.md
-2025-04-30,1869,Useful Intermediary Steps Are Fundamental To Startups And Large Novel Projects,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-04-30-useful-intermediary-steps.md
-2025-05-03,2314,Jevons Paradox is Just a Subset of the Principle Behind Learning Rate,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-05-03-jevons-learning-rate.md
-2025-05-13,3184,Modelling Mars’ Atmosphere for Simulating Blunt Body Entry Vehicles,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-05-13-martian-atmosphere-model.md
-2025-05-13,223,Modelling Terminal Velocity Vs. Ballistic Coefficient For Blunt Body Mars Entry Vehicles,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-05-13-martian-ballistic-coefficient.md
-2025-05-29,23,Portfolio / Resume,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-05-29-christopher-kalitin-portfolio.md
-2025-06-02,2331,Deriving the Impulse Labs Master Plan,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-06-02-impulse-master-plan.md
-2025-06-08,1753,Planet Labs Charts That Describe Their History,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-06-08-planet-labs-charts.md
-2025-06-08,1363,Space Industry Charts,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-06-08-space-industry-charts.md
-2025-06-11,499,Highest Leverage Work Over Time,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-06-11-highest-leverage-work.md
-2025-06-16,3069,All Mistakes On UBC Solar Were Due To People,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-06-16-ubc-solar-mistakes.md
-2025-07-07,5149,DRAFT DRAFT DRAFT Everything That Went Wrong For UBC Solar At FSGP 2025,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-07-07-ubc-fsgp-2025.md
-2025-07-08,2772,Can Canada Support a Sovereign Space Industry?,c:\Users\Chris\Documents\Git\ckalitin.github.io\_posts\2025-07-08-canada-space-industry.md
+1925-02-08,76,The End State of NASA,c:\_Dev\ckalitin.github.io\_posts\1925-02-08-nasa-end-state.md
+1961-04-12,3970,The Transition to EV Robotaxis,c:\_Dev\ckalitin.github.io\_posts\1961-04-12-transition-to-robotaxis.md
+1969-07-20,1752,The Bare Minimum Engineer,c:\_Dev\ckalitin.github.io\_posts\1969-07-20-bare-minimum-engineer.md
+1990-06-25,64,Stoke Nova Cost Model - Will it Survive?,c:\_Dev\ckalitin.github.io\_posts\1990-06-25-stoke-cost-model.md
+2017-06-12,183,First Principles Thinking Expressed As Distillation Into a Latent Space,c:\_Dev\ckalitin.github.io\_posts\2017-06-12-latent-first-principles.md
+2023-09-22,1424,Applying the Law of Accelerating Returns,c:\_Dev\ckalitin.github.io\_posts\2023-09-22-applying-accelerating-returns.md
+2023-10-01,2439,NASA's fucked - Here's my vision,c:\_Dev\ckalitin.github.io\_posts\2023-10-01-nasa-is-fucked.md
+2023-10-11,1046,You Will Get 80 Trillion Dollars If You Read This Closely,c:\_Dev\ckalitin.github.io\_posts\2023-10-11-80-trillion-dollars.md
+2023-10-17,722,Waste Your Vote! Do What's Funniest!,c:\_Dev\ckalitin.github.io\_posts\2023-10-17-waste-your-vote.md
+2023-10-21,584,Art Is Dead?,c:\_Dev\ckalitin.github.io\_posts\2023-10-21-art-is-dead.md
+2023-12-17,742,Only Make Bets You Can Win,c:\_Dev\ckalitin.github.io\_posts\2023-12-17-only-make-bets.md
+2024-01-01,688,Patriotism is a Requirement,c:\_Dev\ckalitin.github.io\_posts\2024-01-01-patriotism-is-required.md
+2024-01-07,1315,Analysing Neutron in the Commerical Satellite Launch Market,c:\_Dev\ckalitin.github.io\_posts\2024-01-07-analysing-neutron-competitively.md
+2024-02-10,2407,Analysing the Dedicated Small Sat Launch Market,c:\_Dev\ckalitin.github.io\_posts\2024-02-10-smallsats-vs-rideshare.md
+2024-02-16,1121,Comparing Demand for Firefly's Alpha vs. Electron,c:\_Dev\ckalitin.github.io\_posts\2024-02-16-firefly-vs-rocketlab.md
+2024-02-26,3005,Stoke's Nova is a Perfectly Sized Rocket,c:\_Dev\ckalitin.github.io\_posts\2024-02-26-stoke-nova-perfect.md
+2024-04-09,2144,What SpaceX's Bandwagon Missions Mean for Small Rockets,c:\_Dev\ckalitin.github.io\_posts\2024-04-09-spacex-bandwagon-mission.md
+2024-05-25,959,On the Overallocation of Labour to Finance and Law,c:\_Dev\ckalitin.github.io\_posts\2024-05-25-overallocation-of-labour.md
+2024-07-04,1885,Small Sat Constellations: The line between Electron and Rideshare,c:\_Dev\ckalitin.github.io\_posts\2024-07-04-small-sat-constellations.md
+2024-07-16,831,Visualizing Small Sat Constellation Tradeoffs with Charts,c:\_Dev\ckalitin.github.io\_posts\2024-07-16-small-constellation-charts.md
+2024-07-24,1545,How to Land an Orbital Rocket Booster with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-07-24-kos-booster-landing.md
+2024-08-12,2558,Extrapolating Demand and Competition for the 1-ton Rocket Class,c:\_Dev\ckalitin.github.io\_posts\2024-08-12-extrapolating-demand-firefly.md
+2024-09-15,1051,How to Teach Engineering,c:\_Dev\ckalitin.github.io\_posts\2024-09-15-to-teach-engineering.md
+2024-10-21,2842,Why You Should Accumulate Capital,c:\_Dev\ckalitin.github.io\_posts\2024-10-21-should-accumulate-capital.md
+2024-11-19,2607,S-Curves Allow You to Predict the Future,c:\_Dev\ckalitin.github.io\_posts\2024-11-19-s-curve-examples.md
+2024-12-25,3009,Quintuple Simultaneous Booster Landings with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-12-25-more-kos-boosters.md
+2024-12-27,2103,Characterizing the ESP32's ADC,c:\_Dev\ckalitin.github.io\_posts\2024-12-27-esp32-adc-characterization.md
+2024-12-29,1224,Using SCPI and PyVISA to Automatically Collect Data for ADC Characterization,c:\_Dev\ckalitin.github.io\_posts\2024-12-29-scpi-auto-characterization.md
+2025-01-09,1246,Estimating Cost per Mbps of Communication Satellites Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-01-09-com-sat-cost.md
+2025-01-12,1567,A New Paradigm of Launch Vehicle Architecture Design Tradeoffs,c:\_Dev\ckalitin.github.io\_posts\2025-01-12-launch-architecture-tradeoffs.md
+2025-01-15,379,Fun Charts That Visualize The History of Communicatons Satellites,c:\_Dev\ckalitin.github.io\_posts\2025-01-15-fun-comsat-charts.md
+2025-03-26,1625,What Is the RCC_CSR Register in STM32 Microcontrollers?,c:\_Dev\ckalitin.github.io\_posts\2025-03-26-stm32-rcc-register.md
+2025-04-26,1256,Being a University Student has Extremely Low Leverage,c:\_Dev\ckalitin.github.io\_posts\2025-04-26-low-leverage-university.md
+2025-04-30,1869,Useful Intermediary Steps Are Fundamental To Startups And Large Novel Projects,c:\_Dev\ckalitin.github.io\_posts\2025-04-30-useful-intermediary-steps.md
+2025-05-03,2314,Jevons Paradox is Just a Subset of the Principle Behind Learning Rate,c:\_Dev\ckalitin.github.io\_posts\2025-05-03-jevons-learning-rate.md
+2025-05-13,3184,Modelling Mars’ Atmosphere for Simulating Blunt Body Entry Vehicles,c:\_Dev\ckalitin.github.io\_posts\2025-05-13-martian-atmosphere-model.md
+2025-05-13,223,Modelling Terminal Velocity Vs. Ballistic Coefficient For Blunt Body Mars Entry Vehicles,c:\_Dev\ckalitin.github.io\_posts\2025-05-13-martian-ballistic-coefficient.md
+2025-05-29,23,Portfolio / Resume,c:\_Dev\ckalitin.github.io\_posts\2025-05-29-christopher-kalitin-portfolio.md
+2025-06-02,2331,Deriving the Impulse Labs Master Plan,c:\_Dev\ckalitin.github.io\_posts\2025-06-02-impulse-master-plan.md
+2025-06-08,1753,Planet Labs Charts That Describe Their History,c:\_Dev\ckalitin.github.io\_posts\2025-06-08-planet-labs-charts.md
+2025-06-08,1363,Space Industry Charts,c:\_Dev\ckalitin.github.io\_posts\2025-06-08-space-industry-charts.md
+2025-06-11,499,Highest Leverage Work Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-06-11-highest-leverage-work.md
+2025-06-16,3069,All Mistakes On UBC Solar Were Due To People,c:\_Dev\ckalitin.github.io\_posts\2025-06-16-ubc-solar-mistakes.md
+2025-07-07,5149,DRAFT DRAFT DRAFT Everything That Went Wrong For UBC Solar At FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-07-ubc-fsgp-2025.md
+2025-07-08,2772,Can Canada Support a Sovereign Space Industry?,c:\_Dev\ckalitin.github.io\_posts\2025-07-08-canada-space-industry.md
+2025-07-09,170,What I Learned From Other Teams At FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-09-fsgp-team-insights.md
+2025-07-11,1475,Most Profilic Space Station Modules,c:\_Dev\ckalitin.github.io\_posts\2025-07-11-most-prolific-modules.md
