@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 3066
+word_count: 3069
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/ubc-solar-mistakes/team-photo.jpg">
