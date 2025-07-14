@@ -17,7 +17,7 @@ word_count: 170
 
 ### **Waterloo**
 
-#### Components They Use
+#### **Components They Use**
 - LTC6811 Slave Board IC
 - XBee Radio Modules
 - 10 Ah custom supplemental battery
@@ -26,9 +26,10 @@ word_count: 170
 - Duraclick connector for CAN
 - Nomura MPPTs
 
-#### General Notes
+#### **General Notes**
 
 **Bootloader & STM32**
+
 They have Bootloaders to flash over CAN (I think it was CAN). Mostly because "It's an easy project for a first year."
 
 This is also why they want to use STM32F103CBT6's instesad of the C8's. The CB has 128 KB of flash memory while the C8 has 64 KB, which is not quite enough space for the bootloader and the application code.
@@ -69,7 +70,11 @@ It seems that Controller Boards are on their own CAN Bus. The Motor Controller i
 
 **Power Distribution Board**
 
-***IMAGES OF POWER DIST BOARD***
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg)  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg)  
+*MS15's Power Distribution Board.*  
 
 Midnight Sun 15 has a single Power Distribution Board that lives outside of the battery pack. Standard power connectors enter this board from the battery (Left side of image).
 
@@ -81,7 +86,11 @@ The Waterloo guys described this themselves as convoluted and suboptimal, so hav
 
 **10x Nomura MPPTs**
 
-***IMAGES OF UNDER SIDE OF TOP SHELL***
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){.width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg)  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg)  
+*Bottom of MS15's top shell showing MPPTs and arrays in series.*  
 
 Mightnight Sun 15 uses 10 Nomura MPPTs, with 5 each in 2 strings.
 
@@ -114,11 +123,17 @@ Our Hall Effect current sensors are already isolated, so we don't do this in the
 
 **Scrutineering**
 
-***IMAGE OF VOLTAGE DIVIDER BOARD***
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg)  
+*Waterloo's voltage divider perf board to simulate a shunt current sensor.*  
 
 For over current scrutineering tests, they simulate the shunt current sensor by inputing a voltage into the MAX17261. They don't actually need a current source to complete the over current test, just a voltage source.
 
 On a perfboard they have a voltage divider that gets them to the microvolt range to simulate the shunt voltage. This is then connected to the MAX17261.
+
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg)  
+*Midnight Sun 15's cell board.*  
 
 For cell board testing, they have their own harness that gives them battery module voltages and a thermistor. This is similar to our setup but they don't have to take out a cell board for the test and the cell boards are far more accessible.
 
@@ -148,15 +163,17 @@ They use a drone camera with the 3 standard wires (red, white, yellow) as a back
  
 7 segment display for driver. When I said this looks cool they quickly corrected me and said it was actually shitty.
 
-***CUSTOM AUX BATTERY***
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Pack.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/Pack.jpg)  
 
 They have a custom built 10 Ah auxiliary battery.
 
-***IMAGE OF BROKEN LABELLED BOARD***
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Label.jpg){.width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/Label.jpg)  
 
 Boards that they have fried all have labels on them signifying when they broke. 
 
-#### What Solar Should Take From Them / Ideas
+#### **What UBC Solar Should Take From Them / Ideas**
 
 **Grafana Is An Industry Standard**
 
@@ -165,8 +182,6 @@ Boards that they have fried all have labels on them signifying when they broke.
 [Zydro Marine](https://x.com/chris_dalke/status/1923546546139779487) also uses Grafana for telemetry.
 
 Web-based telemetry also isn't too rare. All of [Starship mission control telemetry](https://x.com/spacesudoer/status/1871235297746538727) is web-based.
-
-GPS on Grafana. https://x.com/andrewmccalip/status/1896012825686057178
 
 Andrew McCalip of Varda Space - the space pharmaceutical manufacturing company - has a [public Grafana dashboard](https://x.com/andrewmccalip/status/1939444347528941872) for his side project of building an autonomous boat that can sail the world. He also has a [GPS dashboard to track his autonomous boat](https://x.com/andrewmccalip/status/1896012825686057178).
 
@@ -211,6 +226,7 @@ We should reconsider our CAN connector and the form factor of our CAN splitter b
 Our DB-9 and 4 port CAN splitter is a reasonable solution to this problem, but could be made better through a smaller form factor. Furthermore, a cleaner and more accessible wiring diagram for the car would help with understanding what all the wires in the car do.
 
 **Shunt Current Sensor**
+
 The big advantage of Waterloo's shunt current sensor system is that the MAX17261 IC gives them a higher precision voltage reading than we get from our STM32, leading to a more precise current value.
 
 We can consider a shunt current sensor for v4. We could also achieve a higher precision current reading by using a high precision ADC IC on our ECU, eg. the ADS1115 which I'm using in [one of my projects](https://ckalitin.github.io/scribe/).
