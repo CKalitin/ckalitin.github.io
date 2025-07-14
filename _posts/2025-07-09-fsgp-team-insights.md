@@ -38,9 +38,9 @@ The STM32F103CBT6 is also the same chip that is on our ST-Links.
 
 **Controller Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg)  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg)  
 *MS15's standard Controller Board.*
 
@@ -64,7 +64,7 @@ This also allows hot swapping microcontrollers, which is only an advantage if yo
 
 **CAN Architecture**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg)  
 *MS15's standard Controller Board with CAN In and CAN Out ports.*
 
@@ -78,9 +78,9 @@ It seems that Controller Boards are on their own CAN Bus. The Motor Controller i
 
 **Power Distribution Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg)  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg)  
 *MS15's Power Distribution Board.*  
 
@@ -94,9 +94,9 @@ The Waterloo guys described this themselves as convoluted and suboptimal, so hav
 
 **10x Nomura MPPTs**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg)  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg)  
 *Bottom of MS15's top shell showing MPPTs and arrays in series.*  
 
@@ -131,7 +131,7 @@ Our Hall Effect current sensors are already isolated, so we don't do this in the
 
 **Scrutineering**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg)  
 *Waterloo's voltage divider perf board to simulate a shunt current sensor.*  
 
@@ -139,7 +139,7 @@ For over current scrutineering tests, they simulate the shunt current sensor by 
 
 On a perfboard they have a voltage divider that gets them to the microvolt range to simulate the shunt voltage. This is then connected to the MAX17261.
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg)  
 *Midnight Sun 15's cell board.*  
 
@@ -171,12 +171,12 @@ They use a drone camera with the 3 standard wires (red, white, yellow) as a back
  
 7 segment display for driver. When I said this looks cool they quickly corrected me and said it was actually shitty.
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Pack.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Pack.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Pack.jpg)  
 
 They have a custom built 10 Ah auxiliary battery.
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Label.jpg){:width="500"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Label.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Label.jpg)  
 
 Boards that they have fried all have labels on them signifying when they broke. 
