@@ -78,10 +78,10 @@ It seems that Controller Boards are on their own CAN Bus. The Motor Controller i
 
 **Power Distribution Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:width="500"}  
-[Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg)  
 ![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:width="500"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg)  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:width="500"}  
+[Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg)  
 *MS15's Power Distribution Board.*  
 
 Midnight Sun 15 has a single Power Distribution Board that lives outside of the battery pack. Standard power connectors enter this board from the battery (Left side of image).
@@ -95,8 +95,8 @@ The Waterloo guys described this themselves as convoluted and suboptimal, so hav
 **10x Nomura MPPTs**
 
 ![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){:width="500"}  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:width="500"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg)  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:width="500"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg)  
 *Bottom of MS15's top shell showing MPPTs and arrays in series.*  
 
