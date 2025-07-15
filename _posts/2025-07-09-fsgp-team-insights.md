@@ -18,6 +18,7 @@ word_count: 170
 ### **Waterloo**
 
 #### **Highlevel Overview**
+
 - LTC6811 Slave Board IC
 - XBee Radio Modules
 - Grafana Telemetry
@@ -295,7 +296,7 @@ At ASC 2024 they claimed a dog jumped onto the solar cells during a public showi
 ![IMAGE](/assets/images/fsgp-team-insights/purdue/module2.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/module2.jpg){: target="_blank"}  
 
-Purdue has "sandwich" style battery modules.
+Purdue has "sandwich" style battery modules. Notice there are two electrical modules (8x2 cells) in a single structural module.
 
 First, polycarbonate is CNC'd to the shape of the module. Then, nickel sheets are laser cut and spot welded onto the cells. Finally, 3D printed clips hold the module in place in the battery.
 
@@ -313,6 +314,8 @@ They did a sweep of characterization tests on 3-5 of the cells at 2C, 1C, 0.5C, 
 The 2C test was half an hour, so the 0.2C test would be 10x longer at 300 minutes.
 
 They didn't spend the time to characterize all of their cells as they saw that they were similar enough from the manufacturer that they could be put into modules without much trepidation.
+
+So, If you have a good enough cell manufacturer, it isn't a strict requirement to characterize all of your cells.
 
 They use 21700 50E Samsung cells and said that the trailing 0 may mean it's a cylindrical cell (Not prismatic or pouch cells).  
 
@@ -339,6 +342,7 @@ Purdue has an operations team which consists of a subteam of business/marketing 
 
 They are alcoholics (raging)  
 (They told me this themselves!)  
+(Literally me)  
 
 I was told that WSC teams start with a cooled pack at the beginning of the day. They choose cells with chemstry's such that they have high thermal capacity and low internal resistance.
 
@@ -363,26 +367,28 @@ They use [TE V23720-A0002-A001 contactors](https://www.mouser.com/ProductDetail/
 ![IMAGE](/assets/images/fsgp-team-insights/purdue/motorcontroller.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/motorcontroller.jpg){: target="_blank"}  
 
+Tritium WaveSculptor 22 motor controller. WaveSculptor's are actually quite common at FSGP.
+
 ![IMAGE](/assets/images/fsgp-team-insights/purdue/america1.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/america1.jpg){: target="_blank"}  
 ![IMAGE](/assets/images/fsgp-team-insights/purdue/america2.jpg){:width="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/america2.jpg){: target="_blank"}  
 
-Everytime I stopped by Purdue's bay they were very professional and seemed to have everything in order. They made it most of the way through ASC 2024 and I expected them to do very well at FSGP 2025. However, it was only around the final day that I realized they've actually been having issues the entire time and hadn't gotten on the track. Chill guys though! Especially on the 4th of July!
+Everytime I stopped by Purdue's bay they were very professional and seemed to have everything in order. They made it most of the way through ASC 2024 and I expected them to do very well at FSGP 2025. However, it was only around the final day that I realized they've actually been having issues the entire time and hadn't gotten on the track. Terrible failure but chill guys though! Especially on the 4th of July!
 
 #### **What UBC Solar Should Take From Them / Ideas**
 
 They are alcoholics (raging)
 
-Operations team, or at least have leads far more involved
+UBC Solar should consider having a structure similar to Purdue's Operations team, where aside from marketing and business tasks, all team leads are involved in securing sponsorships for their subteam's needs and other general operations tasks. This makes make it explicitly clear that leads are responsible for securing sponsorships of components/services/money and that they are involved in the financial operations of the team.
 
-
+Our current ECU uses a relay to toggle between the supplemental battery and the DCDC, and a 1uF capacitor is required to smooth the transition. We should consider using a Power Prioritizer on the next ECU (Also, rename Elithion Control Unit to something move professional like Power Controller Unit).
 
 ### **Illinois (One of them, probably Illini)**
 
-Illinois: make sure high corkage crimps are good, if they rattle they melt the Andersons.
+I spoke to someone with the Illinois team for a couple of minutes and a point they attempted to ingrain in my mind was that you must make sure that your high wattage crimps are good.
 
-Wattage??
+They had an issue that rattling crimps in their Anderson connectors lead to quickly varying contact resistance, heat buildup, and melting of the Anderson connector.
 
 ### **Puerto Rico**
 
