@@ -422,7 +422,7 @@ Say what works and what doesn’t.
 
 Grab as much knowledge as possible from previous members. 
 
-Anytime your off the track there’s. A yellow shirt with you. Observers like ASC.
+Anytime your off the track there’s a yellow shirt with you. Observers like ASC.
 
 At WSC observers sleep eight eg teams like food and sleep.  
 “You’re happy when you’re with Michigan.”

@@ -80,9 +80,9 @@ It seems that Controller Boards are on their own CAN Bus. The Motor Controller i
 
 **Power Distribution Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:height="320"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:height="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:height="320"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:height="400"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){: target="_blank"}  
 *MS15's Power Distribution Board.*  
 
@@ -380,7 +380,11 @@ Everytime I stopped by Purdue's bay they were very professional and seemed to ha
 
 They are alcoholics (raging)
 
+**Operations Team**
+
 UBC Solar should consider having a structure similar to Purdue's Operations team, where aside from marketing and business tasks, all team leads are involved in securing sponsorships for their subteam's needs and other general operations tasks. This makes make it explicitly clear that leads are responsible for securing sponsorships of components/services/money and that they are involved in the financial operations of the team.
+
+**Power Prioritizer Instead Of ECU Relays**
 
 Our current ECU uses a relay to toggle between the supplemental battery and the DCDC, and a 1uF capacitor is required to smooth the transition. We should consider using a Power Prioritizer on the next ECU (Also, rename Elithion Control Unit to something move professional like Power Controller Unit).
 
@@ -392,14 +396,450 @@ They had an issue that rattling crimps in their Anderson connectors lead to quic
 
 ### **Puerto Rico**
 
+TODO: Make notes look nicer
+
+Race capture 4 used for driver sensing. It has a can I put from their orion
+
+Raspberry pi powers disappear.
+
+Two driver fans
+
+Space limited in pack due to cage (other team?) so power dist is external. High voltage inside a glass cage for motor, arrays, battery, probably DCDC.
+
+No can to raspberry, they do it through the race capture Quateo.
+
+Bars between contractors, everything else wires. Bars because better and no bars anywhere else because hard.
+
+Two big bars of cells. 7 high, dozens long. 30s14p. See the image.
+
+GPS map of track with the race capture, track position, very cool.
+
+Didn't ask about telemetry\! They looked bare bones though maybe don’t have it or CAN logging.
+
+Playing music on drums (handheld)\!\!\!\!
+
+Have to take off all nickel tabs to get to a cell in the middle of a bar. 
+
+Copper bus bars. 
+
+LCD driver display I think high res, well if it shows track position.
+
+Single piston thing spring on the wheel.
+
+External DCDC you can see in the image.
 
 ### **Wisconsin Madison**
 
+Lights testing:  
+If one turn signal is on, the daytime running lights on the other side should be on.
+
+Fully removable top shell way easier for array work.
+
+#### **What UBC Solar Should Take From Them / Ideas**
+
+**Alternative Slave Board BMS IC**
+
+For their next gen car, Wisconsin Madison is using the ADBMS6830 IC which supports voltage sensing of up to 16 cells, isoSPI or I2C up to 2 Mbps, passive cell balancing control built-in, a 16-bit ADC, and up to 10 GPIOs pins.
+
+From the teams that use the Orion v2 BMS, I've heard that they have little issue with plugging modules in the wrong order due to internal protection circuits within the Orion v2.
 
 ### **Berkeley**
 
+#### **Highlevel Overview**
+
+- 
+
+#### **General Notes**
+
+#### **What UBC Solar Should Take From Them / Ideas**
+
+**Module Sheet Design**
+
+TODO: Wait for Ezzat to get back to me
+
+**Precharge Resistors on PCB**
+
+![IMAGE](/assets/images/fsgp-team-insights/precharge-res.jpg){:height="320"}
+
+On the primary board in Berkeley's battery pack, they have an isolated high voltage section with high power resistors, presumably for pre/discharge.
+
+This design eliminates a non-trivial amount of space in the pack since far less control board space is required to to let the operator install the bolts or wires to the resistors. Furthermore, no margins are required around the precharge resistors for installation of the bolts or wires since that work can be done outside the pack / control board. Finally, no external relays (or wires from the ECU to these relays) are required to toggle the resistors because they are integrated onto the HV side of the PCB, like our current discharge resistor relay.
+
+Integrating HV components like pre/discharge resistors and their relays onto a PCB will allow us to save space in the pack, reduce the number of loose wires in the pack, and simplify the control boards overall design.
+
+**Self-Encalsulation of Solar Cells**
+
+Berkeley told me that majority of the teams at FSGP encapsulate their solar cells in-house. The ones that don't (like Berkeley, AppState, us) have issues with damanged cells. 
+
+Purdue's experience with self-encapsulation is that it was strong enough for a random dog to jump on the top shell without any physical damage or degradation of the cells.
+
+For v4, we should consider the path of self-encapsulation of our solar cells for greater durability, albeit at the expense of higher mass and a non-trivial amount of member time.
+
+***MORE NOTES***
+
+Majority do self encapsulation.
+
+Gochermann encapsules theirs.
+
+Theirs is (n't???) self and easy to damage.
+
+- Module Sheet Design
+- Precharge resistor on the PCB, makes integration simpler but HV on PCB, not too hard
+- Each module has 5 thermistors along its line
+- 
+Majority do self encapsulation.
+
+Gochermann encapsules theirs.
+
+Theirs is self and easy to damage.
+
+
+Michigan has active wheel farings with a spring so faring goes out on turns, they might have in older car, might next car. Currently magnets, bolts on top, magnets bottom and tape.
+
+Battery and solar is at charging area, mech fixes so rest of car is here\!\!
+
+Now at charging area for elec guys:
+
+12p34s
+
+In house interconnects between modules
+
+Modules have cells vertically, they swap direction each time so interconnects are only on one side.
+
+Module logics, LTC something.
+
+High voltage power distribution board. Pre charge on it\!\!
+
+BMS board.
+
+Two victor DCdc, heat sinks.
+
+Each module has 5 thermistors, white wires.
+
+Miles connector soldered onto module board.
+
+MPPTs: bankrupt, 13 years, and for next Feb, Dilithium power company, photon 3\.
+
+Homemade kinda spare mppt.
+
+Can connector: phoenix conmector  
+M8 5 pin
+
+It’s just a wire going into everywhere, why do we have can splitters?\!?\!?\!\!?\!\!\!
+
+Molocell, Taiwan, Canadian factory, M35A. “They’re great cells highly recommend.”
+
+Omg this battery
+
+E stop on battery
+
+Motor controller Mitsuba
+
+Gochermann solar panels  
+Maxion gen 3 solar cells
+
+Motor: Mitsuba too
+
+No cfd for battery, just cell
+
+Hand calcs for fans  
+Literally in notebooks for five hours and a text book. Fluid dynamics test book, heat transfer. Model convective gets transfer over rows of cylindrical banks is the name of the chapter.
+
+24 milliohns per cell. Used for be 36 for their last gen. He says Deev says we’re around 40\.
+
+3.6 kW absolute for two motors.
+
+Modelled for dropping cells 5 degrees below steady state battery temp in the model. 
+
+Do you want three slow fans or one fast one??
+
+M1096 D3 motor
+
+3.6 kW is max regen  
+5.4 kW is max power into motors  
+Better numbers
+
+Majority do self encapsulation.
+
+Gochermann encapsules theirs.
+
+Theirs is self and easy to damage.
+
+Top wrap sponsored Esteban’s wrap
 
 ### **ETS**
 
+#### **What UBC Solar Should Take From Them / Ideas**
+
+**700km Of Track Testing, Mostly in Rain**
+
+ETS did 700 km of track testing before FSGP/ASC 2024. They did this on a 7km track near their campus (PMG Technologies Test and Research Center) and most of their testing was done in the rain.
+
+If UBC Solar did more long-duration track testing we would have found issues like the motor power wire colliding with the motor rotor and melting, the break caliper falling out of its housing and getting stuck (effectively always breaking), and the MDI (Motor Drive Interface) board shorting during FSGP 2024 due to water ingress.
+
+ETS also uses a parking lot for dynamics testing like us, but we focused solely on dynamics testing and no long-duration stress testing on a track (especially in rain, like we would likely see during ASC).
+
+Note that ETS didn't do wet break testing, and did hand calculations instead.
+
+**Focus More On Waterproofing**
+
+ETS plastic wraps all of their PCBs and their 3D printed enclosures. Antoine Lapointe, technical direction of ETS, told me they "Wrap the shit out of PCBs."
+
+If we can't prevent water ingress through the aeroshell (this is effectively what industry does, good exterior seals), then we should do everything we can to prevent water ingress into PCBs and their enclosures.
+
+This can be acomplished through fewer holes in enclosures, tighter tolerances around connectors, and plastic wrapping the shit out of our PCBs. Connectors could still poke out of the plastic wrap and we could have flashing GPIOs sticking out as well, as long as nothing on the PCB is shorted.
+
+**Carbon Fibre Mount for Horn**
+
+To prevent future issues with our horn being too quiet, we could mount the horn on either strong bands (eg. like the seat belt), or on a carbon fiber mount. This way less kinetic energy is being transfered into the body of the car and more of it emerges as kinetic energy in the air.
+
+ETS mounts their horn on a carbon fiber mount that is not placed on the center line of the car. Lapointe told me: “I don’t know why you decided to put it in the middle, it doesnt change much.” He proceeded to say that mounting is slightly more difficult and the acoustic profile of the horn doesn't change much.
+
+**"Keep the Wikipedia in shape"**
+
+ETS members write a wiki page for every project after it has been completed. This way insights made along the way, an SOP, or ideas for a next generation design are all documented in a single accessible place. On UBC Solar an issue that I run into is not being able to easily find information on past projects which are hidden deep in Monday or in a design review document deep in Google Drive. Having a wiki page for every project and relevant links to design reviews, SOPs, Monday updates, etc. would make it much easier to find information on past projects.
+
+ETS also has a centralized reflection on their wiki after every competition. UBC Solar currently has around 6 reflection documents (including blog posts that are otherwise not easily accessible to future members) for FSGP 2025 and no centralized place to find them. These documents should all be linked on a single wiki page for easy access.
+
+We also have no centralized place to find all previous competition images and we found FSGP 2024 pictures after one member seemingly randomly stumbled upon them in a Microsoft Sharepoint folder. This would also be useful to include in a centralized competition reflection wiki page.
+
+More fun Antoine Lapointe quotes:
+
+“How do you make sure your team knows how to build a good car for the next generation.”  
+”Take notes. Take notes.”
+
+“Keep the Wikipedia in shape.”  
+
+“You guys have a lot of wires. Less Cables.”
+
+“It would have been pretty easy for us to win here ... with six square meters of cells.”
+
+***MORE NOTES***
+
+Prohelion BMS off the shelf
+
+They test PCBs extensively before putting it in the car.
+
+Marand motor, pretty old  
+Tritium, wavesculpter 22
+
+Elmars MPPTs
+
+Cell: 2170s, Mun Mull? Cells.  
+Good manufacturer so all the same internal resistance so no big characterisation 
+
+Encapsulation is Suncat Solar
+
+Every project has a page, wiki.
+
+Info on every comp, the dos and donts 
+
+WSC is way bigger and you try to keep stuff secret, no public wiki
+
+17 of their people going to WSC.
+
+40 teams ish at WSC. Mostly SOV.
+
+Wiki is done after the project, some pictures, what needs to be upgraded.
+
+Sometimes do design reviews. Mostly based on if people are confident in what their doing.
+
+What is a monocoque.
+
+Bullets are more aerodynamic but less stable.
+
+Manufacturing is easier for bullet. 
+
+Antoine Lapointe. 
+
+Mostly undergrads 
+
+Observer here, car is being shipped To WSC. He’s 
+
+“It would have been pretty easy for us to win here … with six square meters of cells.”
+
+They were at 80% SOC last year after FSGP, not pushing it, keep it ready for ASC.
+
+Do as much testing as you can, so you come here with a car that works.
+
+They have a 7km track, where they test. Dynamics in parking lot.
+
+They don’t do wet break testing, calcs instead.
+
+Driving a few months before for testing. Sometimes delays.
+
+This year 700km of tracking testing before comp. Most of it was in rain too.
+
+Everywhere cerane wrap.
+
+“We wrap the shit out of PCBs.”
+
+Wrap the boxes around PCBs.
+
+3D printed PCB enclosures. 
+
+They try to just have CAN wires everywhere. He doesn’t know how they do power.
+
+Lights have two molex to each light. Light controller PCB.
+
+“You guys have a lot of wires.”
+
+Each board has Can in and out.  
+“Less cables.”
+
+“You guys have a lot of cables.”
+
+They have a dashboard completely on the wheel, just can coming out of it.
+
+PNG technology is the track.
+
+CNC aluminium roll cage. brian scrutineer doesn’t like it.
+
+Most Machining done in house. 5 axis parts not in house. Like roll cage, too big for CNC. 
+
+Carbon fibre wheels brought from GH Craft.  
+“They are popular carbon fibre wheels for solar cars, only solar cars.”
+
+CAN connector: M12 or M16, “the msot reliable connector you know.”
+
+“I know screw on connectors are fine.”
+
+Carbon fibre mount for horn to aero shell.
+
+Can put horn in the side, “I don’t know why you decided to put it in the middle, it doesnt change much.”
+
+Easier to mount o m the side.
+
+Ease of manufacturing is why they go bullet, “for us it’s more aero.”
+
+6 square meter on the new bullet.
+
+About half the size of the space were in right now at comp.
+
+Two zones for wet layup and pairing.
+
+They also have a specific building for design teams.
+
+More and more design teams at ETS by the year.
+
+Teams that don’t need garages just have a room.
+
+“How do you make sure your team knows how to build a good car for the next generation.”  
+”Take notes. Take notes.”
+
+“Keep the Wikipedia in shape.”
+
+Say what works and what doesn’t.
+
+“We just started making good cars five years ago maybe.”
+
+2022 didnt run at ASC, then they got 2nd place.
+
+Grab as much knowledge as possible from previous members. 
+
+Anytime your off the track there’s. A yellow shirt with you. Observers like ASC.
+
+At WSC observers sleep eight eg teams like food and sleep.  
+“You’re happy when you’re with Michigan.”
+
+They’re camping I the desert for WSC.
+
+Monocoque
+
+They do plugs out sources then they do molds and parts in house.
+
+No active wheel fairings, time constraint because of WSC rule change. 2 months earlier and bigger arrays.
+
+Manufacturing was less than a year.
+
+Started in September done in April.
+
+Design was earlier.
 
 ### **Calgary**
+
+#### **What UBC Solar Should Take From Them / Ideas**
+
+### **Cellular Telemetry**
+
+Calgary's Solar Car team and a few other use cellular data for telemetry instead of radio. Calgary in particular uses a Raspberry Pi with a cellular modem to send telemetry data to a server hosted by one of the big providers (eg. Amazon, idk which one they use).
+
+UBC Solar spent several months developing a cellular telemetry system for our current car, but we got hung up on the need for a static public IP address. A sim card with a static IP costs on the order of $1000. Not sure why this was an issue and none of the other teams I spoke to had any issues with a static IP.
+
+### **Separate Power Lines For Critical Systems**
+
+The majority of Calgary's boards are powered over a 12V wire in the CAN harness. They have separate power lines for critical systems like the strobe lights and BMS so they stay powered during a fault.
+
+UBC Solar's third generation car already has separate power lines for all boards and it would be purely a firmware change to separate critical systems from non-critical systems that don't need power during a fault. We should consider having this separation in our next generation car. All non-critical boards could also be powered off a shared 12V in the CAN harness.
+
+***MORE NOTES***
+
+Separate regen pedal.
+
+Raspberry pi running hdmi display and cellular modem without static ip.
+
+Can splitters\!\!\!\!\!\!
+
+St link usb c to flash. 
+
+fucking drink holders\!\!\!
+
+USB C CHARGER\!\!\!
+
+Molex microfit connector for can
+
+JTAG is a standard connector too?
+
+Fuse board fans, display, all lv systems. Can 12V input.
+
+Separate critical system and CAN power lines.
+
+Battery, Strobe light, on critical system.
+
+No estop for driver
+
+18 kWh
+
+Driver control boards stacked. 
+
+Power board in the stack, it distributes power to the stack and it. Only top board in the stack has an STM32 F4 or L4. then in stack is driver input board for mostly buttons and pedals.
+
+630-640 ish kg.
+
+33s
+
+Nominal voltage 108\.
+
+18650s
+
+Maran motor and motor controller
+
+Some type of carbon fibre for the battery, different from chassis.
+
+5 pre charge boards, one master BMS, Orion BMS, switch board for emergency switch, dcdc board with aux and high voltage, and 12v selector.
+
+They did a lot of cell characterzi, idk of capacity or impedance.
+
+A much of word docs for documentation.
+
+In the middle:
+
+1. CAN  
+2. Lights to the back  
+3. Key signals for on
+
+Pi and modem have static local ips.
+
+### **McMaster**
+
+McMaster uses sigma clad for module sandwiches contacts. Sponsored for free. before they had a design with tons of spot welds and bus bars, then talked to a power electronics professor.
+
+Hexagonal pattern of cells horizontal to air flow.
+
+RJ 44 for can and Can debug blue (blue).
+
+12.96 kWh, used to be 18kWh it is the limit for MOV.
+
+Off the shelf seats they can’t find receipts could have been stolen lol.
+
+### **Stanford**
