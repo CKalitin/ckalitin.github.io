@@ -40,9 +40,9 @@ The STM32F103CBT6 is also the same chip that is on our ST-Links.
 
 **Controller Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-1.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-2.jpg){: target="_blank"}  
 *MS15's standard Controller Board.*
 
@@ -66,7 +66,7 @@ This also allows hot swapping microcontrollers, which is only an advantage if yo
 
 **CAN Architecture**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Controller-CAN.jpg){: target="_blank"}  
 *MS15's standard Controller Board with CAN In and CAN Out ports.*
 
@@ -80,9 +80,9 @@ It seems that Controller Boards are on their own CAN Bus. The Motor Controller i
 
 **Power Distribution Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-2.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/PowerDist-1.jpg){: target="_blank"}  
 *MS15's Power Distribution Board.*  
 
@@ -96,9 +96,9 @@ The Waterloo guys described this themselves as convoluted and suboptimal, so hav
 
 **10x Nomura MPPTs**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-1.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/MPPT-2.jpg){: target="_blank"}  
 *Bottom of MS15's top shell showing MPPTs and arrays in series.*  
 
@@ -133,7 +133,7 @@ Our Hall Effect current sensors are already isolated, so we don't do this in the
 
 **Scrutineering**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Voltage-Divider.jpg){: target="_blank"}  
 *Waterloo's voltage divider perf board to simulate a shunt current sensor.*  
 
@@ -141,7 +141,7 @@ For over current scrutineering tests, they simulate the shunt current sensor by 
 
 On a perfboard they have a voltage divider that gets them to the microvolt range to simulate the shunt voltage. This is then connected to the MAX17261.
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Module-Board.jpg){: target="_blank"}  
 *Midnight Sun 15's cell board. Note the pads for SCI and SDA, maybe they're just filled holes for test pins.*  
 
@@ -179,7 +179,7 @@ They use a drone camera with the 3 standard wires (red, white, yellow) as a back
 
 They have a custom built 10 Ah auxiliary battery.
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Label.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Label.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Label.jpg){: target="_blank"}  
 
 Boards that they have fried all have labels on them signifying when they broke. 
@@ -218,7 +218,7 @@ Currently, the system for allocating a member to a particular subteam is the lea
 
 **Power Distribution Board**
 
-![IMAGE](/assets/images/fsgp-team-insights/waterloo/Blueforce-Fuse-Box.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/waterloo/Blueforce-Fuse-Box.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/waterloo/Blueforce-Fuse-Box.jpg){: target="_blank"}  
 *Blue Force's fuse box, fairly standard in the automotive sector.*
 
@@ -267,7 +267,7 @@ For simulating an over current fault in the future it seems we could inject a vo
 
 **Orion V2 BMS**
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/orionv2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/orionv2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/orionv2.jpg){: target="_blank"}  
 
 Purdue uses an Orion V2 BMS, commercial off-the-shelf BMS. 
@@ -276,7 +276,7 @@ The Orion V2 has an internal Insulation Monitoring Device (IMD).
 
 **Kevlar Honeycomb Battery Enclosure**
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/enclosure.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/enclosure.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/enclosure.jpg){: target="_blank"}  
 
 Apparently, Purdue has one of the best materials science departments in the world.
@@ -291,9 +291,9 @@ At ASC 2024 they claimed a dog jumped onto the solar cells during a public showi
 
 **Battery Modules**
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/module1.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/module1.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/module1.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/purdue/module2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/module2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/module2.jpg){: target="_blank"}  
 
 Purdue has "sandwich" style battery modules. Notice there are two electrical modules (8x2 cells) in a single structural module.
@@ -352,26 +352,26 @@ Purdue tried making their own DCDC, but couldn't find a suitable transformer.
 
 On the night July 4th one of the Purdue guys told me they did CFD on their steering wheel. Surely he meant FEA right! right? Guys the steering wheel has to be aerodynamic we should be taking notes!
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/auxbatt.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/auxbatt.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/auxbatt.jpg){: target="_blank"}  
 
 Purdue has ~5 spare supplemental batteries that the drive can swap in during racing (with the car off obv). Like us, they had supplemental battery issues and decided to solve it by having 5 spares.
 
 Like almost everyone else, they use "auxiliary" instead of "supplemental" to refer to their secondary NiMH batteries. Regulations use "supplemental" so it's not clear why there's such a discrepancy.
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/contactors.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/contactors.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/contactors.jpg){: target="_blank"}  
 
 They use [TE V23720-A0002-A001 contactors](https://www.mouser.com/ProductDetail/TE-Connectivity-PB/V23720A0002A001?qs=uPPG%252B8wRllwec4sPoQzDuQ%3D%3D). 12V, IP54, 250 A / 500 V max.
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/motorcontroller.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/motorcontroller.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/motorcontroller.jpg){: target="_blank"}  
 
 Tritium WaveSculptor 22 motor controller. WaveSculptor's are actually quite common at FSGP.
 
-![IMAGE](/assets/images/fsgp-team-insights/purdue/america1.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/america1.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/america1.jpg){: target="_blank"}  
-![IMAGE](/assets/images/fsgp-team-insights/purdue/america2.jpg){:width="400"}  
+![IMAGE](/assets/images/fsgp-team-insights/purdue/america2.jpg){:height="320"}  
 [Expanded Image](/assets/images/fsgp-team-insights/purdue/america2.jpg){: target="_blank"}  
 
 Everytime I stopped by Purdue's bay they were very professional and seemed to have everything in order. They made it most of the way through ASC 2024 and I expected them to do very well at FSGP 2025. However, it was only around the final day that I realized they've actually been having issues the entire time and hadn't gotten on the track. Terrible failure but chill guys though! Especially on the 4th of July!
