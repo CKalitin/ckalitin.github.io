@@ -603,9 +603,10 @@ ETS also has a centralized reflection on their wiki after every competition. UBC
 
 We also have no centralized place to find all previous competition images and we found FSGP 2024 pictures after one member seemingly randomly stumbled upon them in a Microsoft Sharepoint folder. This would also be useful to include in a centralized competition reflection wiki page.
 
-More fun Antoine Lapointe quotes:
+More fun (and insightful) Antoine Lapointe quotes:  
+(Imagine these in a Quebec accent for maximum effect)
 
-“How do you make sure your team knows how to build a good car for the next generation.”  
+“How do you make sure your team knows how to build a good car for the next generation?”  
 ”Take notes. Take notes.”
 
 “Keep the Wikipedia in shape.”  
