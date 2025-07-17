@@ -459,7 +459,7 @@ TODO: Wait for Ezzat to get back to me
 
 **Precharge Resistors on PCB**
 
-![IMAGE](/assets/images/fsgp-team-insights/precharge-res.jpg){:height="320"}
+![IMAGE](/assets/images/fsgp-team-insights/berkeley/Precharge-res.jpg){:height="320"}
 
 On the primary board in Berkeley's battery pack, they have an isolated high voltage section with high power resistors, presumably for pre/discharge.
 
