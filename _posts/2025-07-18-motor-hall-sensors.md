@@ -7,30 +7,27 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 906
+word_count: 850
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/motor-hall-sensors/6FETs.png">
 </head>
 
-
-# **Observed Issue**
+### **Observed Issue**
 
 At [FSGP 2025 we fried our motor](https://ckalitin.github.io/solar/2025/07/07/ubc-fsgp-2025.html) and replaced it with the University of Toronto’s spare motor. When we had it set up in the car and pressed the accelerator the motor would rapidly oscillate back and forth. Instead of the expected smooth rotation we got shaking where it would move a couple of degrees in one direction, then reverse a couple of degrees very rapidly, and repeat.
 
-These videos shows the motor oscillation:  
-[https://drive.google.com/file/d/1F5dOqEp4PRlCYW6mMxXftuAmcUdNVAhc/view?usp=drive_link](https://drive.google.com/file/d/1F5dOqEp4PRlCYW6mMxXftuAmcUdNVAhc/view?usp=drive_link)  
-[https://drive.google.com/file/d/1aUCpvb7H_-Id2E_v3IPbg5WM-gfGJ7ds/view?usp=drive_link](https://drive.google.com/file/d/1aUCpvb7H_-Id2E_v3IPbg5WM-gfGJ7ds/view?usp=drive_link)
+[These](https://drive.google.com/file/d/1F5dOqEp4PRlCYW6mMxXftuAmcUdNVAhc/view?usp=drive_link) two [videos](https://drive.google.com/file/d/1aUCpvb7H_-Id2E_v3IPbg5WM-gfGJ7ds/view?usp=drive_link) shows the motor oscillation.
 
-# **Background On Motor FETs & Hall Sense Lines**
+### **Background On Motor FETs & Hall Sense Lines**
 
-![IMAGE](/assets/images/motor-hall-sensors/6FETs.png){: .height="400" .img-fluid }
+![IMAGE](/assets/images/motor-hall-sensors/6FETs.png){: .height="350" }  
 *(Figure 1\) This diagram shows a 6-FET motor controller, like the one we have in the car.*
 
-![IMAGE](/assets/images/motor-hall-sensors/3-Phases.gif){: .height="400"}
+![IMAGE](/assets/images/motor-hall-sensors/3-Phases.gif){: .height="350"}  
 *(Figure 2\) This diagram shows how successive electromagnets are activated as north/south poles to push/pull the rotor. This is achieved through the use of the 6 motor FETs.*
 
-![IMAGE](/assets/images/motor-hall-sensors/Mitsuba-At-Comp.jpg){: .height="400"}
+![IMAGE](/assets/images/motor-hall-sensors/Mitsuba-At-Comp.jpg){: .height="280"}  
 *(Figure 3\) Notice the copper wire coils as part of the stationary element (stator) and the metal outer rotating element (rotor). Notice that the motor power wires enter the stator.*
 
 **Motor FETs**  
@@ -60,9 +57,9 @@ Saman Niksiar (elec lead) explains this concept at comp in [this video](https://
 
 *Note that in the video the amplitudes on the oscilloscope were incorrect because we didn’t know some probes had a gain value and one of them was set to 10x. Evan Stumpges \- Scrutineering, head timekeeper, and sponsor of FSGP \- pointed this out to us.*
 
-# **Our Solution**
+### **Our Solution**
 
-![][image4]  
+![IMAGE](/assets/images/motor-hall-sensors/Wagos.jpg){: .height="280"} 
 *Notice that in this image the green wires are connected to the red wire. The primary issue was that the new motor’s wires were not coloured in the same order as our old motor. (Eg. instead of the red wire being phase A, it was phase B).*
 
 The motor oscillating back and forth suggested that the motor controller was frantically switching between two sets of coils that were right next to each other, pushing and pulling the motor back and forth.
@@ -73,13 +70,6 @@ To remedy this issue, we tried every possible set of connections between the mot
 
 We labelled the motor controller’s terminals 1,2,3 and used the wire colors on the motor’s wires. Earlier we put some Wago connectors in series with the hall sense wires to be able to observe the voltages with an oscilloscope, so swapping the wires wasn’t an issue. We ended up driving our 5 official laps with these Wago connectors.
 
-| 1 | 2 | 3 |
-| :---- | :---- | :---- |
-| R | G | W |
-| R | W | G |
-| G  | R | W |
-| G | W | R |
-| W | R | G |
-| W | G | R |
+![IMAGE](/assets/images/motor-hall-sensors/table.png)  
 
 On the sixth attempt, we got [smooth rotation from the motor](https://drive.google.com/file/d/1cmtJa5CVsqQHUD_2m_hvauho_JLfxWzo/view?usp=drive_link) (watch until the end!) and could drive the car. Great Success!
