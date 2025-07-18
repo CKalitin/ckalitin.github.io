@@ -21,13 +21,13 @@ At [FSGP 2025 we fried our motor](https://ckalitin.github.io/solar/2025/07/07/ub
 
 ### **Background On Motor FETs & Hall Sense Lines**
 
-![IMAGE](/assets/images/motor-hall-sensors/6FETs.png){: height="350" }  
+![IMAGE](/assets/images/motor-hall-sensors/6FETs.png){: height="300" }  
 *(Figure 1\) This diagram shows a 6-FET motor controller, like the one we have in the car.*
 
-![IMAGE](/assets/images/motor-hall-sensors/3-Phases.gif){: height="350"}  
+![IMAGE](/assets/images/motor-hall-sensors/3-Phases.gif){: height="300"}  
 *(Figure 2\) This diagram shows how successive electromagnets are activated as north/south poles to push/pull the rotor. This is achieved through the use of the 6 motor FETs.*
 
-![IMAGE](/assets/images/motor-hall-sensors/Mitsuba-At-Comp.jpg){: height="280"}  
+![IMAGE](/assets/images/motor-hall-sensors/Mitsuba-At-Comp.jpg){: height="300"}  
 *(Figure 3\) Notice the copper wire coils as part of the stationary element (stator) and the metal outer rotating element (rotor). Notice that the motor power wires enter the stator.*
 
 **Motor FETs**  
@@ -59,7 +59,7 @@ Saman Niksiar (elec lead) explains this concept at comp in [this video](https://
 
 ### **Our Solution**
 
-![IMAGE](/assets/images/motor-hall-sensors/Wagos.jpg){: height="280"} 
+![IMAGE](/assets/images/motor-hall-sensors/Wagos.jpg){: height="300"}  
 *Notice that in this image the green wires are connected to the red wire. The primary issue was that the new motor’s wires were not coloured in the same order as our old motor. (Eg. instead of the red wire being phase A, it was phase B).*
 
 The motor oscillating back and forth suggested that the motor controller was frantically switching between two sets of coils that were right next to each other, pushing and pulling the motor back and forth.
@@ -71,5 +71,6 @@ To remedy this issue, we tried every possible set of connections between the mot
 We labelled the motor controller’s terminals 1,2,3 and used the wire colors on the motor’s wires. Earlier we put some Wago connectors in series with the hall sense wires to be able to observe the voltages with an oscilloscope, so swapping the wires wasn’t an issue. We ended up driving our 5 official laps with these Wago connectors.
 
 ![IMAGE](/assets/images/motor-hall-sensors/table.png)  
+*Every permutation we tried (rows vs index), last one was successful.*
 
 On the sixth attempt, we got [smooth rotation from the motor](https://drive.google.com/file/d/1cmtJa5CVsqQHUD_2m_hvauho_JLfxWzo/view?usp=drive_link) (watch until the end!) and could drive the car. Great Success!
