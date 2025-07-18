@@ -4,7 +4,6 @@ title: "All Mistakes On UBC Solar Were Due To People"
 categories: UBC-Solar
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 3069

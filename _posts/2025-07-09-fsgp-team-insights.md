@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /solar/2025/07/09/fsgp-team-insights.html
-word_count: 170
+word_count: 4494
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
