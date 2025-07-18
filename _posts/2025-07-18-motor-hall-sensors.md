@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 850
+word_count: 861
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/motor-hall-sensors/6FETs.png">
@@ -71,6 +71,6 @@ To remedy this issue, we tried every possible set of connections between the mot
 We labelled the motor controller’s terminals 1,2,3 and used the wire colors on the motor’s wires. Earlier we put some Wago connectors in series with the hall sense wires to be able to observe the voltages with an oscilloscope, so swapping the wires wasn’t an issue. We ended up driving our 5 official laps with these Wago connectors.
 
 ![IMAGE](/assets/images/motor-hall-sensors/table.png)  
-*Every permutation we tried (rows vs index), last one was successful.*
+*Every permutation we tried (index vs rows), last one was successful.*
 
 On the sixth attempt, we got [smooth rotation from the motor](https://drive.google.com/file/d/1cmtJa5CVsqQHUD_2m_hvauho_JLfxWzo/view?usp=drive_link) (watch until the end!) and could drive the car. Great Success!
