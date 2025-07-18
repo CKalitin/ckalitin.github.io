@@ -55,7 +55,7 @@ Given the three bit digital signal from the hall effect sensors, the motor knows
 
 Saman Niksiar (elec lead) explains this concept at comp in [this video](https://drive.google.com/file/d/12kFICC34EynzxLJvv5koBksaCCAeopOD/view?usp=drive_link).
 
-*Note that in the video the amplitudes on the oscilloscope were incorrect because we didn’t know some probes had a gain value and one of them was set to 10x. Evan Stumpges \- Scrutineering, head timekeeper, and sponsor of FSGP \- pointed this out to us.*
+*Note that in the video the amplitudes on the oscilloscope were incorrect because we didn’t know some probes had a gain value and one of them was set to 10x. Evan Stumpges \- Scrutineer, head timekeeper, and sponsor of FSGP \- pointed this out to us.*
 
 ### **Our Solution**
 
