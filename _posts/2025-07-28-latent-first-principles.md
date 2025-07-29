@@ -40,15 +40,15 @@ Once information is distilled into a latent space, it becomes considerably easie
 
 To this point, my description has been necessarily abstract because of all the different ways first principles thinking can be applied. I'll provide a few examples to illustrate this process in action.
 
-**1**  
+**1 - Jevons Paradox**  
 
-A few months ago, I wrote about [Jevons Paradox](https://ckalitin.github.io/technology/2025/05/03/jevons-learning-rate.html) and [Learning Rate](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html). These are two disparate ideas that I have never seen related to each other. After a significant amount of thought and effort put into distilling both ideas, I came to the conclusion that Jevon's Paradox is a special case of the principle behind learning rate.
+A few months ago, I wrote about [Jevons Paradox](https://ckalitin.github.io/technology/2025/05/03/jevons-learning-rate.html) and [Learning Rate](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html). These are two disparate ideas that I have never seen related to each other. After a significant amount of thought and effort put into distilling both ideas, I came to the conclusion that Jevons Paradox is a special case of the principle behind learning rate.
 
 Learning rate describes how given products get cheaper with greater scale, and Jevons Paradox describes how as the use of a resource becomes more efficient, the total consumption of that resource increases. These occur for the same fundamental reason: greater production leads to greater efficiency, which leads to lower costs, which leads to greater consumption.
 
 As is common in the results of first principles thinking, the result of your thought appears entirely obvious in hindsight. However, if given just the input space and not the result, it is difficult to reach the same conclusion because the distillation step is on the critical path to understanding the relationship between the two ideas.
 
-**2**  
+**2 - Casey Handmer**  
 
 "And over a long enough time scale, we can generate blog posts and books, both of which can embody compressed intelligence and a much higher signal to noise ratio than an average conversation."  
 \- [Casey Handmer](https://caseyhandmer.wordpress.com/2025/05/21/questions-about-ai-2025/)
@@ -57,7 +57,7 @@ Casey Handmer wrote a book titled [How to get to Earth from Mars](https://docs.g
 
 Casey Handmer wrote about this on his blog in various posts, such as How [Terraform Navigated The Idea Maze](https://caseyhandmer.wordpress.com/2024/06/24/how-terraform-navigated-the-idea-maze/), [To Conquer the Primary Energy Consumption Layer of Our Entire Civilization](https://caseyhandmer.wordpress.com/2025/04/08/to-conquer-the-primary-energy-consumption-layer-of-our-entire-civilization/), and [Terraform Industries Whitepaper 2.0](https://caseyhandmer.wordpress.com/2023/01/09/terraform-industries-whitepaper-2-0/).
 
-**3**  
+**3 - Elon Musk**  
 
 [Elon reasoned from first principles](https://www.youtube.com/live/lSD_vpfikbE?t=735s) about the purpose of government and capital allocation and came to the conclusion that "the government is essentially a corporation in the limit with a monopoly on violence" and that capital allocation should be done through the means in which has greatest efficiency, private corporations. This is again an obvious result in hindsight, but a tremendous amount of thought and distillation of complex ideas was required to reach this conclusion.
 
