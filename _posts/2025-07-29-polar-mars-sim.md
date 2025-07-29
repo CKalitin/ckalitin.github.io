@@ -62,7 +62,6 @@ So we must rotate the velocity vector every frame to align with the global Carte
 
 ![Image](/assets/images/polar-mars-sim/orbit-1s-timestep_xy.png){:height="250"}  
 *[Expanded Image](/assets/images/polar-mars-sim/orbit-1s-timestep.png)*  
-*When changing the time step size from 10s to 1s, we notice that the vehicle stays in orbit for longer. Unexpected.*  
-*Note that this simulation is with drag and lift forces disabled.*
+*When changing the time step size from 10s to 1s, we notice that the vehicle stays in orbit for longer. Unexpected. Note that this simulation is with drag and lift forces disabled.*
 
 I next simulated an orbit around Mars with drag and lift forces disabled to ensure the simulation was operating correctly. You can see above that the vehicle was decelerating while orbiting around Mars, and that this deceleration increased with a larger time step size. My guess is that the vehicle's velocity vector is being rotated at the wrong time or by a slightly too-large angle, resulting in part of the velocity vector being retrograde. At this point, the project was already sufficient for my purposes in my upcoming blog posts on modelling heat flux of Stoke Nova's second stage during reentry and [modelling ballistic coefficient vs. impact velocity](https://ckalitin.github.io/space/2025/05/13/martian-ballistic-coefficient.html). So I didn't investigate that particular issue further.
