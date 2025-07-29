@@ -20,7 +20,7 @@ First principles thinking is the process of distilling complex ideas and source 
 ### **Autoencoders**
 
 ![Image](/assets/images/latent-first-principles/autoencoder.png){:height="300"}  
-*[Expanded Image](https://assets/images/latent-first-principles/autoencoder.png)*
+*[Expanded Image](/assets/images/latent-first-principles/autoencoder.png)*
 
 This process can be described in relation to a variational autoencoder, a type of neural network. Autoencoders are a type of latent variable model that take an input space, encode it into a lower-dimensional latent space, and then decode it back into the original higher-dimensional space. The latent space - also known as an embedding space or feature space - is a compressed representation of the input data, capturing its essential features while discarding noise and irrelevant information. 
 
