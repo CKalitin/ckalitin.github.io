@@ -4,7 +4,6 @@ title: "Most Profilic Space Station Modules"
 categories: Space
 tags:
     - Space Industry Analysis
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1476
