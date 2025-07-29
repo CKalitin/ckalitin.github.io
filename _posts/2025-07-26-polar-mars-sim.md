@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rewriting Mars Simulation Using Polar Coordinates"
+title: "Rewriting My Mars Entry Simulation Using Polar Coordinates"
 categories: Space
 tags:
     - Projects
@@ -10,7 +10,7 @@ author:
 word_count: 57
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/motor-hall-sensors/6FETs.png">
+    <meta property="og:image" content="{{site.url}}/assets/images/polar-mars-sim/Perseverance_Polar_xy.png">
 </head>
 
 You can tell I wrote this code by hand due to the intrinsicly human artisanal nature of the code. Hand made, no machine involvement, pure craftsmanship. (tl;dr code is shitty)
@@ -48,7 +48,7 @@ My old code is available when browsing the files associated with [this commit](h
 *[Expanded Image](/assets/images/polar-mars-sim/Perseverance_Cartesian.png)*  
 *This shows a Y vs. X plot from my original Mars simulation, modelling the planet as flat.*
 
-![Image](/assets/images/polar-mars-sim/Perseverance_Cartesian_xy.png){:height="250"}  
-*[Expanded Image](/assets/images/polar-mars-sim/Perseverance_Cartesian.png)*  
+![Image](/assets/images/polar-mars-sim/Perseverance_Polar_xy.png){:height="250"}  
+*[Expanded Image](/assets/images/polar-mars-sim/Perseverance_Polar.png)*  
 *This shows a global Mars-center relative position plot from my updated simulation. Notice Mars curves down ~50 km from start to finish.*
 
