@@ -65,7 +65,7 @@ This thought process is essentially gathering a critical mass of source data abo
 
 ### **Source Data And Inference Bear Equal Importance**
 
-As alluded to in the Casey Handmer example above, collecting relevant source data is critical to the first principles thinking process. If you have too little source data, your inference step will not be utilized to maximum ability, and if you have too much source data, you can lose signal in the noise and [commit the sin of wasting computation](https://www.eoht.info/page/Energetic%20imperative).
+As alluded to in the Casey Handmer example above, collecting relevant source data is critical to the first principles thinking process. If you have too little source data, your inference step (thinking) will not be utilized to maximum ability, and if you have too much source data, you can lose signal in the noise and [commit the sin of wasting computation](https://www.eoht.info/page/Energetic%20imperative).
 
 This, by extension, is why you should learn everything. All source data can end up becoming relevant in computations you cannot anticipate yourself performing. Elon Musk or Casey Handmer did not know that when they were aspiring PhDs learning the fundamentals of physics, that they would one day be applying this knowledge to shape the future of civilization through industry.
 
