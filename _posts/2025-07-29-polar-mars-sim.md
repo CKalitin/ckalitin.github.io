@@ -21,7 +21,7 @@ My old code is available when browsing the files associated with [this commit](h
 
 ![Image](/assets/images/polar-mars-sim/Perseverance_Cartesian_xy.png){:height="250"}  
 *[Expanded Image](/assets/images/polar-mars-sim/Perseverance_Cartesian.png)*  
-*This shows a Y vs. X plot from my original Mars simulation, modelling the planet as flat. This is a simulation of the Perseverance rover's entry trajectory.*
+*This shows a Y vs. X position plot from my original Mars simulation, modelling the planet as flat. This is a simulation of the Perseverance rover's entry trajectory.*
 
 ![Image](/assets/images/polar-mars-sim/Perseverance_Polar_xy.png){:height="250"}  
 *[Expanded Image](/assets/images/polar-mars-sim/Perseverance_Polar.png)*  

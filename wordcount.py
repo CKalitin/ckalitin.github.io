@@ -16,7 +16,7 @@ def extract_front_matter_and_content(file_path):
         # Split front matter and content
         front_matter_end = content.find('---', 3)  # Find second '---' (first is at start)
         if front_matter_end == -1:
-            return None, None, content  # No front matter found
+            return None, None, content, True  # No front matter found, assume published
         
         front_matter = content[:front_matter_end].strip()
         remaining_content = content[front_matter_end + 3:].strip()
@@ -30,10 +30,13 @@ def extract_front_matter_and_content(file_path):
         title_match = re.search(r'^title:\s*"(.*?)"', front_matter, re.MULTILINE)
         title = title_match.group(1) if title_match else "Unknown Title"
 
-        return front_matter, title, remaining_content
+        # Check if it's a draft (contains " - Drafts" in front matter)
+        is_published = " - Drafts" not in front_matter
+
+        return front_matter, title, remaining_content, is_published
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
-        return None, None, None
+        return None, None, None, False
 
 def count_words_in_content(content):
     """Count words in the Markdown content, excluding syntax."""
@@ -81,16 +84,17 @@ def scan_directory_for_md_files(directory):
     # Prepare CSV output
     output = StringIO()
     writer = csv.writer(output, lineterminator='\n')
-    writer.writerow(['Date', 'Words', 'Title', 'Path'])  # CSV header
+    writer.writerow(['Date', 'Words', 'Published', 'Title', 'Path'])  # CSV header
 
     # Sort files by date (extracted from filename)
     md_files.sort(key=lambda x: x.name[:10])  # Sort by YYYY-MM-DD
     for md_file in md_files:
-        front_matter, title, content = extract_front_matter_and_content(md_file)
+        front_matter, title, content, is_published = extract_front_matter_and_content(md_file)
         if title and content:
             word_count = count_words_in_content(content)
             date = extract_date_from_filename(md_file.name)
-            writer.writerow([date, word_count, title, md_file])
+            published_status = "Y" if is_published else "N"
+            writer.writerow([date, word_count, published_status, title, md_file])
     
     return output.getvalue()
 
