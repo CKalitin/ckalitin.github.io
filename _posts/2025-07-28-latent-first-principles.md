@@ -98,7 +98,7 @@ My explanation involves distillation of relevant source data into a latent space
 
 If you load my explanation of first principles thinking, the 7 Ds and little s method, and the Feynman algorithm into your input data space, losslessly compress them into their fundamental elements, then compare them, you will likely find that they are all instantiations of the same underlying process. This is the power of first principles thinking: it allows you to see the commonalities between seemingly disparate ideas and methods, and derive new insights from them.
 
-"To think from first principles  
+<i>"To think from first principles  
 you must first  
 return to retard."  
-\- [Yacine](https://x.com/yacineMTB/status/1906700878989652138)
+\- [Yacine](https://x.com/yacineMTB/status/1906700878989652138)</i>
