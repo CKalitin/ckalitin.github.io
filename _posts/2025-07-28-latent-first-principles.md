@@ -17,38 +17,39 @@ word_count: 1425
 
 First principles thinking is the process of distilling complex ideas and source data into their most basic components, allowing for clearer reasoning, fundamental understanding, and a more efficient process of relating new insights to existing knowledge. Through this process, you collect source data, distill it into a latent space, operate in the latent space to derive insights, and then expand those insights back out into the world. This process has many parallels to machine learning.
 
-**Autoencoders**
+### **Autoencoders**
 
 ![Image](/assets/images/latent-first-principles/autoencoder.png){:height="300"}  
 *[Expanded Image](https://assets/images/latent-first-principles/autoencoder.png)*
 
 This process can be described in relation to a variational autoencoder, a type of neural network. Autoencoders are a type of latent variable model that take an input space, encode it into a lower-dimensional latent space, and then decode it back into the original higher-dimensional space. The latent space - also known as an embedding space or feature space - is a compressed representation of the input data, capturing its essential features while discarding noise and irrelevant information. 
 
-![Image](/assets/images/latent-first-principles/GauGAN.jpg){:height="300"}  
-*[Expanded Image](https://assets/images/latent-first-principles/GauGAN.jpg)*
+![Image](/assets/images/latent-first-principles/GauGAN.jpg){:height="200"}  
 
 By adding noise or activating a particular feature in the latent space, you can generate new data. NVIDIA's GauGAN model from several years ago is a good example of this, where you can draw a simple sketch with labelled features ("water", "mountain", "sky", etc.) and from this compressed representation, the model generates a realistic image. Recently, Anthropic released [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude), a model in which they were able to map its inner workings and could activate the feature that was correlated with the golden gate bridge. This means the model was constantly thinking of the Golden Gate Bridge, leading to [humorous results](https://x.com/LinkofSunshine/status/1904275393470758930).
 
 These examples from the AI world illustrate how extremely complex or large data can be distilled into a far simpler space, and in this space we can perform operations that would be impossible in the original space (eg. generating a realistic image from a simple sketch).
 
-**Lossless Compression, Then Performing Operations, Is Intelligence**
+### **Lossless Compression, Then Performing Operations, Is Intelligence**
 
 First principles thinking is similar to autoencoders in that you, a human, can take a complex space of ideas and data and distill it into a latent space. This distillation process is the key to first principles thinking. Through asking the right questions and breaking down complex ideas into their fundamental components, you are losslessly compressing information into a smaller, more manageable form.
 
 Once information is distilled into a latent space, it becomes considerably easier to perform operations and reason about it. You can compare this compressed idea to other compressed ideas, consider how your lower-dimensional representation relates to the original complex form, or expand your latent space back into the higher-dimensional space to see how a resultant idea derived from the essence of the original idea compares to the original itself.
 
-**Examples**
+### **Examples**
 
 To this point, my description has been necessarily abstract because of all the different ways first principles thinking can be applied. I'll provide a few examples to illustrate this process in action.
 
-1.  
+**1**  
+
 A few months ago, I wrote about [Jevons Paradox](https://ckalitin.github.io/technology/2025/05/03/jevons-learning-rate.html) and [Learning Rate](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html). These are two disparate ideas that I have never seen related to each other. After a significant amount of thought and effort put into distilling both ideas, I came to the conclusion that Jevon's Paradox is a special case of the principle behind learning rate.
 
 Learning rate describes how given products get cheaper with greater scale, and Jevons Paradox describes how as the use of a resource becomes more efficient, the total consumption of that resource increases. These occur for the same fundamental reason: greater production leads to greater efficiency, which leads to lower costs, which leads to greater consumption.
 
 As is common in the results of first principles thinking, the result of your thought appears entirely obvious in hindsight. However, if given just the input space and not the result, it is difficult to reach the same conclusion because the distillation step is on the critical path to understanding the relationship between the two ideas.
 
-2.  
+**2**  
+
 "And over a long enough time scale, we can generate blog posts and books, both of which can embody compressed intelligence and a much higher signal to noise ratio than an average conversation."  
 \- [Casey Handmer](https://caseyhandmer.wordpress.com/2025/05/21/questions-about-ai-2025/)
 
@@ -56,12 +57,13 @@ Casey Handmer wrote a book titled [How to get to Earth from Mars](https://docs.g
 
 Casey Handmer wrote about this on his blog in various posts, such as How [Terraform Navigated The Idea Maze](https://caseyhandmer.wordpress.com/2024/06/24/how-terraform-navigated-the-idea-maze/), [To Conquer the Primary Energy Consumption Layer of Our Entire Civilization](https://caseyhandmer.wordpress.com/2025/04/08/to-conquer-the-primary-energy-consumption-layer-of-our-entire-civilization/), and [Terraform Industries Whitepaper 2.0](https://caseyhandmer.wordpress.com/2023/01/09/terraform-industries-whitepaper-2-0/).
 
-3.  
+**3**  
+
 [Elon reasoned from first principles](https://www.youtube.com/live/lSD_vpfikbE?t=735s) about the purpose of government and capital allocation and came to the conclusion that "the government is essentially a corporation in the limit with a monopoly on violence" and that capital allocation should be done through the means in which has greatest efficiency, private corporations. This is again an obvious result in hindsight, but a tremendous amount of thought and distillation of complex ideas was required to reach this conclusion.
 
 This thought process is essentially gathering a critical mass of source data about government, corporations, and capital allocation, distilling all of this into a latent space, then expanding out the compressed representation to see how these entities should be organized and coming to an actionable conclusion.
 
-**Source Data And Inference Bear Equal Importance**
+### **Source Data And Inference Bear Equal Importance**
 
 As alluded to in the Casey Handmer example above, collecting relevant source data is critical to the first principles thinking process. If you have too little source data, your inference step will not be utilized to maximum ability, and if you have too much source data, you can lose signal in the noise and [commit the sin of wasting computation](https://www.eoht.info/page/Energetic%20imperative).
 
@@ -72,7 +74,7 @@ This, by extension, is why you should learn everything. All source data can end 
 
 Acquiring accurate source data and performing sufficient computation is also what Mentats and AIs do. Frank Herbert understood first principles thinking required both accurate source data and computation time when he wrote Dune, and this is why much of the role of the Mentats revolves around gathering and processing information. Furthermore, this is why LLM companies are so focused on acquiring high-quality training data and compute.
 
-**The Feynman Algorithm**
+### **The Feynman Algorithm**
 
 1. Write down the problem.
 2. Think very, very hard.
