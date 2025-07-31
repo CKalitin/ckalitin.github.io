@@ -15,7 +15,7 @@ word_count: 1059
 
 About two months ago I flew to SF and had the opportunity to speak to Casey Handmer [while touring Impulse Labs](https://ckalitin.github.io/space/2025/06/02/impulse-master-plan.html). Handmer had previously done some [Mars EDL modelling](https://caseyhandmer.wordpress.com/2016/09/29/spacex-mars-plan-analysis/) back when Starship was called the Interplanetary Transportation System, and I got some useful feedback on my [Blunt Body Mars Entry Vehicle simulation](https://ckalitin.github.io/space/2025/05/13/martian-atmosphere-model.html) from him. The most important piece of feedback was that modelling Mars as a flat surface is not an accurate approximation.
 
-My old code is available when browsing the files associated with [this commit](https://github.com/CKalitin/Martian-Ballistic-Modelling/tree/7d8259368cf26e0765eb03a828a1cbb55736c84a). You can tell I wrote this code by hand due to the intrinsically human artisanal nature of the code. Handmade, no machine involvement, pure craftsmanship. (tl;dr code is shitty)
+My old code is available when browsing the files associated with [this commit](https://github.com/CKalitin/Martian-Ballistic-Modelling/tree/7d8259368cf26e0765eb03a828a1cbb55736c84a). You can tell I wrote this code by hand due to the intrinsically human artisanal nature of the code. Handmade, no machine involvement, [pure craftsmanship](https://youtu.be/dNrTrx42DGQ?si=mcAlihOL1aM7T2hD&t=9205). (tl;dr code is shitty)
 
 ### **The Problem With A Flat Mars**
 
