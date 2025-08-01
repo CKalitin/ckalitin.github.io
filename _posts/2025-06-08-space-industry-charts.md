@@ -38,7 +38,7 @@ There are currently 2 types in which launches are categorised:
 * HEO (High Earth Orbit)
 * BEO (Beyond Earth Orbit)
 
-Polar orbits are considered a subset of SSO. Not technically correct but it's a useful simplification. Pls [complain at me](https://x.com/CKalitin) if you disagree my mind isn't hard to sway here.
+*Some* polar orbits are considered a subset of SSO. If this is critical to your application, check the [raw csv lists](https://github.com/CKalitin/mcdowell-dataset-analysis/tree/main/examples/outputs/raw_dataframes) of the launches for a particular chart. Polar being SSO isn't technically correct but it's a useful simplification. Pls [complain at me](https://x.com/CKalitin) if you disagree my mind isn't hard to sway here.
 
 <b>General Launch Payload Types:</b>
 * Starlink
