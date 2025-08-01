@@ -32,6 +32,8 @@ Modelling idiot index & embodied energy:
 
  + Another project I need to do is modelling energy sources into the future. Ie. solar, and the elements of solar cost, and what batteries actually do on the grid. Batteries are the most important project for me to do, megapack. Figure out grid dynamics, watch talks and podcasts.
 
+ + It's possible to write this blog post in a way everyone understands, be explicit in the quest to do this. Simplify to explanable levels.
+
 Substrate in engineering:
 In materials science and engineering, a substrate refers to a base material on which processing is conducted.
 
