@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/1925/02/08/nasa-end-state.html
-word_count: 76
+word_count: 309
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
@@ -26,3 +26,23 @@ Peter beck MSR article:
 https://spacenews.com/bringing-mars-to-earth-solving-mars-sample-return/
 
 Jared Isaacman thoughts: https://x.com/SciGuySpace/status/1915800015781429444
+
+Notes from rereading NASA's Fucked:
+- Get more (& more concrete) examples of cost plus contracting being a negative
+- Find counterexamples of cost plus being a positive
+- Artemis is an example of NASA being horrible at systems engineering
+- Why was it good at systems engineering during Apollo? What was the management structure and how is it different now?
+- Dispersed centers make for more senators fighting on your behalf, and perverting your architecture
+- Centralized decision making allowed for more coherent architecture and design choices
+- Find counterexamples where government is more efficient than private industry (Probably not in the limit)
+- Find correlaries in history of a transition from government architectures to buying rides on commercial architectures
+
+More notes:
+- First principles proof for why the end state of NASA is buying commercial capabilities
+- What are NASA's responsibilities in the limit? (R&D? Funding early development? Experimental programs? Human exploration? Why even explore with humans?)
+    - Essentially, do what is useful and private companies won't do (Find correlaries)
+- This is a path-dependent process. Whether NASA has naming rights on the Mars colony is path dependent, can you be useful to SpaceX?
+    - Not driving for the end state leads to a diminished role for NASA in the limit
+    - Being proactive accelerates the beautiful future
+- Consider end-to-end space companies and they're role in providing the full mission architecture to NASA (NASA sets goal, Rocket Lab builds the lander, orbiter, return capsule, etc.)
+

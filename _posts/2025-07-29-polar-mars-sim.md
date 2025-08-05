@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1059
+word_count: 1069
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/polar-mars-sim/Perseverance_Polar_xy.png">

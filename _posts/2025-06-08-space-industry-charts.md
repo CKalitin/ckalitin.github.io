@@ -6,7 +6,7 @@ tags:
     - Other
 author:
  - Christopher Kalitin
-word_count: 1363
+word_count: 1386
 redirect_from:
   - /space/2025/06/08/space-industry-charts.html
 ---
