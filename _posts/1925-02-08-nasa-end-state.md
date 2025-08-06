@@ -64,3 +64,5 @@ Benefits of this model:
  - Companies can build their own business models and architectures and get NASAs business in a broader sense than a strict design contract (Apollo model was like this too?).
 
 The space companies that will be successful in the future will self-fund their own development programs. They will then sell this capability to NASA and other commercial customers, building a product that is useful to customers before the customers explicitly request it. Eg. SpaceX, Rocket Lab, Vast, Firefly (Lunar reconnaissance), etc.
+
+Anduril too https://x.com/anduriltech/status/1953163828671463557
