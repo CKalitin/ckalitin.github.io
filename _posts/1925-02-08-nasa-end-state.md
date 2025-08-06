@@ -46,3 +46,21 @@ More notes:
     - Being proactive accelerates the beautiful future
 - Consider end-to-end space companies and they're role in providing the full mission architecture to NASA (NASA sets goal, Rocket Lab builds the lander, orbiter, return capsule, etc.)
 
+https://arstechnica.com/space/2025/08/as-the-end-of-the-iss-nears-nasa-shakes-up-program-for-commercial-replacements/
+
+Old NASA CLD model:  
+Companies supply preliminary design studies (and maybe some hardware if they want) and then choose a contractor or two to build out a station.  
+Phase 2 would have been firm-fixed price contracts for certification of designs on the ground without hardware in space and "services".  
+
+New NASA CLD model:  
+Multiple participants receive Space Act Agreements.  
+Formula design, acceptance, and certification will come in a follow-on certification phase, well after the Space Act Agreements phase.  
+Certification happens after they fly.  
+25% of milestone funding withheld until a successful in-space crewed demo.
+Minimum capability NASA is seeking is 4 crew for 1 month.
+
+Benefits of this model:
+ - Companies incentivized to build hardware and demonstrate their capabilities to continue in the competition.
+ - Companies can build their own business models and architectures and get NASAs business in a broader sense than a strict design contract (Apollo model was like this too?).
+
+The space companies that will be successful in the future will self-fund their own development programs. They will then sell this capability to NASA and other commercial customers, building a product that is useful to customers before the customers explicitly request it. Eg. SpaceX, Rocket Lab, Vast, Firefly (Lunar reconnaissance), etc.
