@@ -17,7 +17,8 @@ redirect_from:
 I'm very open to ideas for new charts!  
 I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKalitin) or email (christopher.kalitin@gmail.com).
 
-Github Repo that I wrote to generate these charts [here](https://github.com/CKalitin/mcdowell-dataset-analysis).  
+[See the Github repo I wrote to generate these charts!](https://github.com/CKalitin/mcdowell-dataset-analysis)
+
 CSVs of all the data is also available in the repo if you'd like to visualize it yourself! Or, run the scripts and get your own data for a launch vehicle of your choosing!
 
 [Download All]({{site.url}}\assets\space-industry-charts.zip)
