@@ -54,7 +54,7 @@ Phase 2 would have been firm-fixed price contracts for certification of designs 
 
 New NASA CLD model:  
 Multiple participants receive Space Act Agreements.  
-Formula design, acceptance, and certification will come in a follow-on certification phase, well after the Space Act Agreements phase.  
+Formal design, acceptance, and certification will come in a follow-on certification phase, well after the Space Act Agreements phase.  
 Certification happens after they fly.  
 25% of milestone funding withheld until a successful in-space crewed demo.
 Minimum capability NASA is seeking is 4 crew for 1 month.
