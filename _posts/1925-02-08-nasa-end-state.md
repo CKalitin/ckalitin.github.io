@@ -66,3 +66,37 @@ Benefits of this model:
 The space companies that will be successful in the future will self-fund their own development programs. They will then sell this capability to NASA and other commercial customers, building a product that is useful to customers before the customers explicitly request it. Eg. SpaceX, Rocket Lab, Vast, Firefly (Lunar reconnaissance), etc.
 
 Anduril too https://x.com/anduriltech/status/1953163828671463557
+
+The reason Vast is using Falcon Heavy's for Haven 2 is the difference in cost between a marginally larger module vs. marginally larger launch vehicle. Cheaper to make a bigger rocket, Handmer.
+
+Counter to new CLD strategy:
+https://payloadspace.com/op-ed-nasas-new-cld-strategy-will-lose-mars-leo-to-china/
+
+"Acting Administrator Sean Duffy merely issued a directive to change the acquisition strategy for NASA’s commercial follow-on to the ISS."
+As long as he's right, I don't mind!
+
+Claims:
+1. This delays final competition for services (Final as in for a full station? This appears correct, with hardware intermediary steps)
+2. No requirement for long duration flights (only 4 crew 30 days), correct. Incentivizes must be alligned for a full station in the end.
+
+Emphasis on requirements definition. Yes. Good idea. Constant changes lead to schedule delays and cost overruns.
+
+Medical community wants 100 6-9 month flights before Mars. Guys we're fine, fucking send it.
+
+Crew rotating every 30 days is obviously terrible for cost, more crew launches bad for cost.
+
+Claims giving up continuous presence is bad for commercial station's business model.
+Whats worse is not having a minimum viable space station and lack of on-ramps to the program. Validate hardware!
+
+Is it clear who will pay for the 4-crew 1-month certification flight of the station to proceed in the competition.
+If it's like commercial crew and the company pays, then this is fine. NASA can request the capability for 6 month flights, and should make this explicit now!
+
+Focusing on short-term now leads to more transport costs short-term and more costs to upgrade to a full station later. Well, it seems a short duration station is on the critical path to a long duration station. Still, it should be clear that a long duration station is the goal.
+
+Why are we in LEO again? Because the Chinese are? "Research"?
+
+Companies say they need a final competition for funding sources to sign on. Not a bad argument, this strategy may burn more private money in the short term. Also, we want to incentivize private investment through open competition, but want that investment to not be freaked out!
+
+Claims of reducing competition, but does save money up front. Reduce competition because of lack of funding? Minimum viable products guys! This is how we avoid a self-licking ice cream cone!
+
+She was deputy NASA admin under Biden. Fuck we could have had Isaacman
