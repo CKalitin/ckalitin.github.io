@@ -1,45 +1,63 @@
+# Run this script after updating the charts, then copy and past from chart_links_output.txt
+# This txt file is required to retain the double space line breaks, copying from the terminal doesn't do this (But copying from the output window in VS Code does)
+
 from pathlib import Path
 
 dir = Path(__file__).parent / "assets" / "space-industry-charts"
 
-# Start of beautified title: Subtitle
+# Folder name to beautified title mapping
 subtitle_dict = {
-    "Ariane": "Ariane",
-    "Atlas": "Atlas",
-    "Delta": "Delta",
-    "Electron": "Electron",
-    "F9": "Falcon 9",
-    "Fh": "Falcon Heavy",
-    "Global Launches": "Global Launches",
-    "Global Payloads": "Global Payloads",
-    "Planet Labs": "Planet Labs",
-    "Soyuz": "Soyuz",
-    "Starlink": "Starlink",
-    "Titan": "Titan",
+    "ariane": "Ariane",
+    "atlas": "Atlas",
+    "canada": "Canada",
+    "delta": "Delta",
+    "electron": "Electron",
+    "f9": "Falcon 9",
+    "f9h": "Falcon Heavy",
+    "global": "Global",
+    "planet_labs": "Planet Labs",
+    "soyuz": "Soyuz",
+    "starlink": "Starlink",
+    "titan": "Titan",
 }
 
 extra_text = {
-    "Ariane": "This covers Ariane 1, 2, 3, 4, and 5.",
-    "Atlas": "This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.",
-    "Delta": "This covers Delta 1, 2, 3, and 4."
+    "ariane": "This covers Ariane 1, 2, 3, 4, and 5.",
+    "atlas": "This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.",
+    "delta": "This covers Delta 1, 2, 3, and 4."
 }
 
-charts = [] # title: (title, path, beautified title)
+charts = [] # (path, beautified_title, folder_name)
 
-pngs_dir = list(dir.glob("*.png"))
-for png_dir in pngs_dir:
-    charts.append(("{{site.url}}\\" + "\\".join(str(png_dir).split("\\")[3:]), png_dir.stem.replace("_", " ").title()))
+# Get all subfolders
+subfolders = [f for f in dir.iterdir() if f.is_dir()]
+
+for subfolder in subfolders:
+    folder_name = subfolder.name
+    # Skip test folder or other non-chart folders
+    if folder_name == "test":
+        continue
+        
+    # Get all PNG files in this subfolder
+    png_files = list(subfolder.glob("*.png"))
+    for png_file in png_files:
+        # Generate relative path for Jekyll
+        relative_path = "{{site.url}}\\" + "\\".join(str(png_file).split("\\")[3:])
+        # Create beautified title from filename
+        beautified_title = png_file.stem.replace("_", " ").title()
+        charts.append((relative_path, beautified_title, folder_name))
+
+# Sort charts by folder name to group them together
+charts.sort(key=lambda x: x[2])
 
 previous_subtitle = ""
-for path, beautified_title in charts:
-    for subtitle_key in subtitle_dict.keys():
-        subtitle_len = len(subtitle_key)
-        if beautified_title[:subtitle_len] == subtitle_key:
-            if previous_subtitle != subtitle_key:
-                previous_subtitle = subtitle_key
-                print(f"\n<b>{subtitle_dict[subtitle_key]}</b>\n")
-                if subtitle_key in extra_text:
-                    print(f"{extra_text[subtitle_key]}\n")
+for path, beautified_title, folder_name in charts:
+    # Check if we need to print a new section header
+    if folder_name in subtitle_dict and previous_subtitle != folder_name:
+        previous_subtitle = folder_name
+        print(f"\n<b>{subtitle_dict[folder_name]}</b>\n")
+        if folder_name in extra_text:
+            print(f"{extra_text[folder_name]}\n")
         
     suffix = "{: target=\"_blank\"}"
     print(f'[{beautified_title}]({path}){suffix}  ')
