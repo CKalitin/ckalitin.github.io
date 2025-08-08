@@ -230,18 +230,18 @@ This covers Delta 1, 2, 3, and 4.
 
 <b>Titan</b>
 
-[Titan Launches Apogee Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_apogee_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}
-[Titan Launches Apogee Vs Inc By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_apogee_vs_inc_by_simple_orbit_1964_2005.png){: target="_blank"}
-[Titan Launches Inc Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_inc_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}
-[Titan Launches Payload Mass Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_payload_mass_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}
-[Titan Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
-[Titan Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}     
-[Titan Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_orbit.png){: target="_blank"}
-[Titan Launches Vs Month By General Launch Payload Type 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_month_by_general_launch_payload_type_1964_2005.png){: target="_blank"}
-[Titan Launches Vs Month By Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_month_by_orbit_1964_2005.png){: target="_blank"} 
-[Titan Launches Vs Year By General Launch Payload Type 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_general_launch_payload_type_1964_2005.png){: target="_blank"}
-[Titan Launches Vs Year By Launch Vehicle 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_launch_vehicle_1964_2005.png){: target="_blank"}
-[Titan Launches Vs Year By Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_orbit_1964_2005.png){: target="_blank"}   
-[Titan Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
-[Titan Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"} 
-[Titan Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_orbit.png){: target="_blank"}
+[Titan Launches Apogee Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_apogee_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}  
+[Titan Launches Apogee Vs Inc By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_apogee_vs_inc_by_simple_orbit_1964_2005.png){: target="_blank"}  
+[Titan Launches Inc Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_inc_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}  
+[Titan Launches Payload Mass Vs Date By Simple Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_payload_mass_vs_date_by_simple_orbit_1964_2005.png){: target="_blank"}  
+[Titan Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Titan Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}  
+[Titan Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_mass_by_orbit.png){: target="_blank"}  
+[Titan Launches Vs Month By General Launch Payload Type 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_month_by_general_launch_payload_type_1964_2005.png){: target="_blank"}  
+[Titan Launches Vs Month By Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_month_by_orbit_1964_2005.png){: target="_blank"}  
+[Titan Launches Vs Year By General Launch Payload Type 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_general_launch_payload_type_1964_2005.png){: target="_blank"}  
+[Titan Launches Vs Year By Launch Vehicle 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_launch_vehicle_1964_2005.png){: target="_blank"}  
+[Titan Launches Vs Year By Orbit 1964 2005]({{site.url}}\assets\space-industry-charts\titan\titan_launches_vs_year_by_orbit_1964_2005.png){: target="_blank"}  
+[Titan Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Titan Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}  
+[Titan Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\titan\titan_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
