@@ -21,7 +21,7 @@ I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKal
 
 CSVs of all the data is also available in the repo if you'd like to visualize it yourself! Or, run the scripts and get your own data for a launch vehicle of your choosing!
 
-[Download All]({{site.url}}\assets\space-industry-charts.zip)
+[Download All 111 Charts]({{site.url}}\assets\space-industry-charts.zip)
 
 ### <b>Type Explanations</b>
 
@@ -96,7 +96,7 @@ Yea you get what this is right?
 
 ### <b>Charts in Alphabetical Order</b>
 
-[Download All]({{site.url}}\assets\space-industry-charts.zip)
+[Download All 111 Charts]({{site.url}}\assets\space-industry-charts.zip)
 
 <b>Ariane</b>
 
