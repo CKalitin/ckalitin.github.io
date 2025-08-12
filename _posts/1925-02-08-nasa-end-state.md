@@ -27,6 +27,8 @@ https://spacenews.com/bringing-mars-to-earth-solving-mars-sample-return/
 
 Jared Isaacman thoughts: https://x.com/SciGuySpace/status/1915800015781429444
 
+### Rereading Notes
+
 Notes from rereading NASA's Fucked:
 - Get more (& more concrete) examples of cost plus contracting being a negative
 - Find counterexamples of cost plus being a positive
@@ -45,6 +47,8 @@ More notes:
     - Not driving for the end state leads to a diminished role for NASA in the limit
     - Being proactive accelerates the beautiful future
 - Consider end-to-end space companies and they're role in providing the full mission architecture to NASA (NASA sets goal, Rocket Lab builds the lander, orbiter, return capsule, etc.)
+
+### CLD!
 
 https://arstechnica.com/space/2025/08/as-the-end-of-the-iss-nears-nasa-shakes-up-program-for-commercial-replacements/
 
@@ -71,6 +75,8 @@ The reason Vast is using Falcon Heavy's for Haven 2 is the difference in cost be
 
 Counter to new CLD strategy:
 https://payloadspace.com/op-ed-nasas-new-cld-strategy-will-lose-mars-leo-to-china/
+
+### Pam Melroy on CLD
 
 "Acting Administrator Sean Duffy merely issued a directive to change the acquisition strategy for NASA’s commercial follow-on to the ISS."
 As long as he's right, I don't mind!
@@ -100,3 +106,17 @@ Companies say they need a final competition for funding sources to sign on. Not 
 Claims of reducing competition, but does save money up front. Reduce competition because of lack of funding? Minimum viable products guys! This is how we avoid a self-licking ice cream cone!
 
 She was deputy NASA admin under Biden. Fuck we could have had Isaacman
+
+### Astroforge
+
+Jared Isaacman: "cool company"
+
+Private company developing the capability of Asteroid flyby and landing with significant payload capacity.
+
+And hardware rich!
+
+https://x.com/rookisaacman/status/1953958880222097910
+
+Gialich went to JPL in 2021, could've gotten a position there, he saw Europa Clipper and thought this shouldn't cost $5B. AstroForge should do science!
+
+https://www.youtube.com/watch?v=NuT4p0QbTO4
