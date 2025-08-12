@@ -95,7 +95,7 @@ Also show a simulation with a multiple skip reentry!!!
 "It's a very very straight forward calculation any well motivated middle schooler could do."  
 \- [Casey Handmer, unrelated](https://youtu.be/prUXHpvsIPg?si=wRYjIBMgZcb3r01d&t=589)
 
-![Image](/assets/images/optimal-lunar-atmosphere/impact_velocity_vs_atm_t0.1_linear.png){:height="600"}  
+![Image](/assets/images/optimal-lunar-atmosphere/impact_velocity_vs_atm_t0.1_linear.png) 
 *The final result, impact velocity vs. lunar surface atmospheric pressure for a few reentry vehicles.*
 
 Three hours ago I was nerdsnipped by this [podcast with Casey Handmer](https://youtu.be/prUXHpvsIPg?si=j5JJXZ2TA5xpSea_&t=2012) in which he starts gushing about how beautiful a Lunar atmosphere would be. The effect this lunar atmosphere would have on spacecraft landing on the Moon was brought up and I decided to adapt my [Martian entry vehicle](https://ckalitin.github.io/space/2025/05/13/martian-atmosphere-model.html) model to how small you could make a lunar atmosphere while getting most of the benefits of atmospheric decelleration on landing.
@@ -127,7 +127,7 @@ Earth's scale height is about 8.5 km, Mars' is about 11 km, and Titan's is ~15-5
 
 Using the numbers above (250 K, 32 g/mol, 1.62 m/s^2), we find a lunar scale height of 40.1 km. This is significantly larger than Earth's and Mars', indictating a lunar atmosphere that falls off more slowly with altitude.
 
-![Image](/assets/images/optimal-lunar-atmosphere/pressures.png){:height="600"}  
+![Image](/assets/images/optimal-lunar-atmosphere/pressures.png)  
 *This illustrates how slowly our lunar atmosphere falls off.*
 
 To illustrate how extreme a scale height of 40.1 km is, above is a graph showing atmospheric pressure vs. altitude for the Earth, Mars, and an example 100 Pa Lunar atmosphere. Notice how steep the lines are for the Earth and Mars, and how shallow the line is for the Lunar atmosphere.
@@ -137,5 +137,11 @@ The Karman line defines the edge of space on Earth, this fairly arbitrary bounda
 We can use the definition of space beginning at the altitude at which atmospheric pressure is 1 Pa. Using this definition, space begins 72 km above Mars' surface. On our Moon, space would begin 185 km above the surface. That's what an extremely low gravity gets you! Especially for a body the size of the Moon!
 
 To further illustrate just how far the Moon's atmosphere would extend, we can consider the International Space Station. The ISS orbits the Earth at an altitude of about 400 km and without boosts it would reorbit due to drag in about one year. At this altitude atmosphereic pressure is 0.37 femtopascals (using the formula above, not experimental data). To reach the same pressure if the ISS was around our 100 Pa Moon, it would have to be 1,610 km from the surface.
+
+### </b>Simulating Reentry Through A Lunar Atmosphere</b>
+
+With some data on a theoretical lunar atmosphere with surface pressure as the input parameter (p0), I could adapt my Mars reentry model to simulate reentry of a blunt body vehicle through a lunar atmosphere.
+
+<b>Space shuttle Simulation</b>
 
 <b>Mars' Atmosphere is Perfectly Sized</b>
