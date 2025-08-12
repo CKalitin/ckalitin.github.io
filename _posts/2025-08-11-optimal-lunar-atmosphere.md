@@ -32,7 +32,7 @@ Casey Handmer's quick method for creating a lunar atmosphere involves melting th
 
 Depending on the region of the Moon you're in, [lunar regolith is composed](https://www.linkedin.com/pulse/chemistry-moon-ganeshkumar-palanisamy/) of 42% oxygen, 21% silicon, 13% iron, 8% calcium, 7% aluminum, 6% magnesium, and 3% other trace elements. This mainly comes in the form of silicon dioxide, aluminum oxide, and iron oxide. So, it appears to be a safe assumption that the majority of the gas in a terraformed Moon's atmosphere would be oxygen.
 
-Hence, I assumed a lunar atmosphere mean molar mass of 32g/mol, the same as diatomic oxygen. For reference, Earth is 29 g/mol (since N2 is 28g/mol) and Mars is 43 g/mol (mostly CO2 at 43g/mol).
+Hence, I assumed a lunar atmosphere mean molar mass of 32 g/mol, the same as diatomic oxygen. For reference, Earth is 29 g/mol (since N2 is 28 g/mol) and Mars is 43 g/mol (mostly CO2 at 44g/mol).
 
 <b>Temperature</b>  
 Next, I assumed a uniform average temperature of 250 K. The mean surface temperature on Earth is 288 K, and on Mars, it's 210 K. With the Moon closer to the Sun than Mars, I felt (Felt!) 250 K was a fair number. This is a one-night project; I'm fine with theoretical +/- 25% error bars.
