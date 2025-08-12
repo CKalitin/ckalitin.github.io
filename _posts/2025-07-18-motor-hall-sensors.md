@@ -4,7 +4,6 @@ title: "Learning About Motor FETs and Hall Effect Sensors Live at FSGP 2025"
 categories: Solar
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 861
