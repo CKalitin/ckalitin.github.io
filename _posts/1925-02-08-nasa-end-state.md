@@ -120,3 +120,15 @@ https://x.com/rookisaacman/status/1953958880222097910
 Gialich went to JPL in 2021, could've gotten a position there, he saw Europa Clipper and thought this shouldn't cost $5B. AstroForge should do science!
 
 https://www.youtube.com/watch?v=NuT4p0QbTO4
+
+explore, and grow
+https://x.com/MattGialich/status/1955344699591659962
+
+
+The goal of NASA:
+
+"However, in abandoning Earth science, NASA would be violating the law that created the agency, the National Aeronautics and Space Act of 1958.
+
+This charter legislation established "the expansion of human knowledge of phenomena in the atmosphere and space" as part of the space agency's core mission. To meet this mandate, NASA has typically spent about 10 percent of its budget annually on Earth science, including key missions to observe the planet's atmosphere, monitor weather, study land use changes, and more."
+
+https://arstechnica.com/space/2025/08/nasas-acting-chief-calls-for-the-end-of-earth-science-at-the-space-agency/
