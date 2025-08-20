@@ -102,3 +102,11 @@ If you load my explanation of first principles thinking, the 7 Ds and little s m
 you must first  
 return to retard."  
 \- [Yacine](https://x.com/yacineMTB/status/1906700878989652138)</i>
+
+[Update Aug 19 2025]  
+[Here's a video about The College Dropout](https://youtu.be/zH5srIgWLZk?si=Oru-lQ-YJLZvTnlg&t=232) where this guy explains the exact process I described but in the context of music:  
+1. Artist begins with an abtract idea
+2. The artist distills this into a piece of art (Compressing the big idea into quippy Kanye lyrics)
+3. The listener expands the distilled representation back out into the original idea
+
+This is also why the experience of listening to Kanye songs is exceptionally wonderful.
