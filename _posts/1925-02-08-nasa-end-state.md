@@ -132,3 +132,6 @@ The goal of NASA:
 This charter legislation established "the expansion of human knowledge of phenomena in the atmosphere and space" as part of the space agency's core mission. To meet this mandate, NASA has typically spent about 10 percent of its budget annually on Earth science, including key missions to observe the planet's atmosphere, monitor weather, study land use changes, and more."
 
 https://arstechnica.com/space/2025/08/nasas-acting-chief-calls-for-the-end-of-earth-science-at-the-space-agency/
+
+Better capital efficiency of private companies, Jared Issacman:
+https://x.com/rookisaacman/status/1959816251154268412
