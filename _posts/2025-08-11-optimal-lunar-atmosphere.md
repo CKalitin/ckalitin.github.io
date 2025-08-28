@@ -58,7 +58,7 @@ We can use the definition of space beginning at the altitude at which atmospheri
 
 To further illustrate just how far the Moon's atmosphere would extend, we can consider the International Space Station. The ISS orbits the Earth at an altitude of about 400 km, and without boosts, it would reorbit due to drag in about one year. At this altitude, atmospheric pressure is 0.37 femtopascals (using the formula above, not experimental data). To reach the same pressure if the ISS was around our 100 Pa Moon, it would have to be 1,610 km from the surface.
 
-Finally, note that, [as Claude pointed out](https://claude.ai/chat/4b661ce0-8a5d-4ccc-b576-6005e5e71606), there is extreme diurnal temperature variation on the Moon (120K to 390K). With a convective atmosphere this may be downplayed, but the atmosphere would still be 2x longer in some places than others (ie. in sunlight vs. in the shade of the Moon).
+Finally, note that, [as Claude pointed out](https://claude.ai/share/bf881bec-ab30-43f2-8654-930087b5ad17), there is extreme diurnal temperature variation on the Moon (120K to 390K). With a convective atmosphere this may be downplayed, but the atmosphere would still be 2x longer in some places than others (ie. in sunlight vs. in the shade of the Moon).
 
 ### <b>Simulating Reentry Through A Lunar Atmosphere</b>
 
