@@ -68,7 +68,7 @@ At this point in my research, I realized this is really the opposite of my usual
 
 Hopefully the list of acquisitions above shed some light on what Redwire does. However, without further context there's no way to know how successful any of these acquisitions have been or if there are any synergies between the different companies. To get a better idea of what Redwire actually does, here's a list of some contracts they've won in the last few years.
 
-**NASA Partnerships**
+**NASA Contracts**
 
 - **March 2025**: Won a contract to deliver four PIL-BOXes to the International Space Station (ISS) for pharmaceutical drug development in microgravity.  
   Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-nasa-contract-to-expand-pharmaceutical-drug-development-in-space-for-future-commercialization/)
@@ -77,7 +77,7 @@ Hopefully the list of acquisitions above shed some light on what Redwire does. H
 - **2025 (Tipping Point Program)**: Received $12.9M in prototype funding for the Mason Martian / Lunar manufacturing technology, aimed at developing infrastructure for sustainable human presence on the Moon and Mars.  
   Source: [Redwire](https://redwirespace.com/newsroom/redwire-receives-nasa-approval-to-advance-cutting-edge-manufacturing-technology-for-building-infrastructure-on-moon-and-mars/)
 
-**European Space Agency (ESA) Collaborations**
+**European Space Agency (ESA) Contracts**
 
 - **February 2025**: Awarded a contract to lead the preliminary spacecraft design for an ESA astrophysics mission focused on imaging, utilizing Redwire's Hammerhead satellite platform. Redwire Space NV, an acquired subsidiary, leads this effort.  
   Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-to-lead-study-for-the-european-space-agencys-next-dark-matter-mission/)
@@ -98,9 +98,6 @@ Hopefully the list of acquisitions above shed some light on what Redwire does. H
   Source: [SpaceNews](https://spacenews.com/orion-space-wins-u-s-space-force-contract-for-on-orbit-services-experiment/)
 - **August 2024**: Selected by a "European Defense Contractor" to provide flight-proven RF payloads from their Longmont, Colorado facility (acquired via Roccor).  
   Source: [Redwire](https://redwirespace.com/newsroom/redwire-selected-to-provide-advanced-rf-payloads-to-a-leading-european-defense-contractor-expanding-rf-offerings-to-overseas-markets)
-
-**Commercial and Biomedical Innovations**
-
 - **July 2025 (with Maxar)**: Delivered two ROSA wings for the Power and Propulsion Element (PPE) of NASA’s Gateway, most powerful roll-out solar arrays ever built.  
   Source: [BusinessWire](https://www.businesswire.com/news/home/20250702438974/en/Redwire-Successfully-Deploys-the-Most-Powerful-Roll-Out-Solar-Arrays-Ever-Built-Prepares-for-Major-Delivery-in-Fourth-Quarter)
 - **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate ADAR1 inhibitor therapies using a PIL-BOX on the ISS.  
