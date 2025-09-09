@@ -70,38 +70,38 @@ Hopefully the list of acquisitions above shed some light on what Redwire does. H
 
 **NASA Partnerships**
 
-- **March 2025**: Won a contract to deliver four PIL-BOXes to the International Space Station (ISS) for pharmaceutical drug development in microgravity.
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-nasa-contract-to-expand-pharmaceutical-drug-development-in-space-for-future-commercialization/)_
-- **January 2025**: Delivered the fourth pair of Roll-Out Solar Array (iROSA) wings for the ISS, increasing station power.
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-fourth-pair-of-roll-out-solar-array-wings-for-iss-power/)_
+- **March 2025**: Won a contract to deliver four PIL-BOXes to the International Space Station (ISS) for pharmaceutical drug development in microgravity.  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-nasa-contract-to-expand-pharmaceutical-drug-development-in-space-for-future-commercialization/)
+- **January 2025**: Delivered the fourth pair of Roll-Out Solar Array (iROSA) wings for the ISS, increasing station power.  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-fourth-pair-of-roll-out-solar-array-wings-for-iss-power/)
 - **2025 (Tipping Point Program)**: Received $12.9M in prototype funding for the Mason Martian / Lunar manufacturing technology, aimed at developing infrastructure for sustainable human presence on the Moon and Mars.  
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-receives-nasa-approval-to-advance-cutting-edge-manufacturing-technology-for-building-infrastructure-on-moon-and-mars/)_
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-receives-nasa-approval-to-advance-cutting-edge-manufacturing-technology-for-building-infrastructure-on-moon-and-mars/)
 
 **European Space Agency (ESA) Collaborations**
 
-- **February 2025**: Awarded a contract to lead the preliminary spacecraft design for an ESA astrophysics mission focused on imaging, utilizing Redwire's Hammerhead satellite platform. Redwire Space NV, an acquired subsidiary, leads this effort.
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-to-lead-study-for-the-european-space-agencys-next-dark-matter-mission/)_
-- **May 2025**: Delivered an on-board computer (OBC) for ESA’s Comet Interceptor mission.
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-onboard-computer-for-esas-comet-interceptor-mission-to-study-pristine-comet/)_
-- **2025**: Provided avionics and on-board computer systems for ESA’s Next-Generation Gravity Mission.
-  _Source: [BioSpace](https://www.biospace.com/press-releases/redwire-awarded-contract-to-provide-critical-avionics-technology-for-multinational-earth-observation-satellite-constellation)_
-- **April 2025 (with OHB Italia)**: Developed the International Berthing & Docking Mechanism for ESA’s Lunar I-Hab Gateway module, a lunar gateway component.
-  _Source: [SpaceNews](https://spacenews.com/redwire-wins-darpa-contract-for-vleo-demonstration/)_
+- **February 2025**: Awarded a contract to lead the preliminary spacecraft design for an ESA astrophysics mission focused on imaging, utilizing Redwire's Hammerhead satellite platform. Redwire Space NV, an acquired subsidiary, leads this effort.  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-to-lead-study-for-the-european-space-agencys-next-dark-matter-mission/)
+- **May 2025**: Delivered an on-board computer (OBC) for ESA’s Comet Interceptor mission.  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-onboard-computer-for-esas-comet-interceptor-mission-to-study-pristine-comet/)
+- **2025**: Provided avionics and on-board computer systems for ESA’s Next-Generation Gravity Mission.  
+  Source: [BioSpace](https://www.biospace.com/press-releases/redwire-awarded-contract-to-provide-critical-avionics-technology-for-multinational-earth-observation-satellite-constellation)
+- **April 2025 (with OHB Italia)**: Developed the International Berthing & Docking Mechanism for ESA’s Lunar I-Hab Gateway module, a lunar gateway component.  
+  Source: [SpaceNews](https://spacenews.com/redwire-wins-darpa-contract-for-vleo-demonstration/)
 
 **Defense and Commercial Contracts**
 
 - **December 2025**: Secured a $45M contract from the US Air Force Research Laboratory (AFRL) for the design, development, and testing of "mission-critical technologies" to enhance space-based capabilities for warfighters.  
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-45-million-contract-from-air-force-research-laboratory-afrl-to-advance-enhanced-space-based-capabilities-for-the-warfighter/)_
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-45-million-contract-from-air-force-research-laboratory-afrl-to-advance-enhanced-space-based-capabilities-for-the-warfighter/)
 - **February 2025**: Awarded a contract to deliver a Mako spacecraft for the US Space Force (USSF) Tetra-6 mission, building on prior success with two Mako spacecraft for Tetra-5. These will be the first geostationary satellites designed for in-orbit refueling.  
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-wins-follow-on-contract-to-deliver-third-mako-spacecraft-for-u-s-space-force/)_
-- **August 2022 (Inherited from Hera Systems)**: Partnered with Orion Space on a USSF contract for an in-orbit refueling and servicing experiment.
-  _Source: [SpaceNews](https://spacenews.com/orion-space-wins-u-s-space-force-contract-for-on-orbit-services-experiment/)_
-- **August 2024**: Selected by a "European Defense Contractor" to provide flight-proven RF payloads from their Longmont, Colorado facility (acquired via Roccor).
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-selected-to-provide-advanced-rf-payloads-to-a-leading-european-defense-contractor-expanding-rf-offerings-to-overseas-markets)_
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-wins-follow-on-contract-to-deliver-third-mako-spacecraft-for-u-s-space-force/)
+- **August 2022 (Inherited from Hera Systems)**: Partnered with Orion Space on a USSF contract for an in-orbit refueling and servicing experiment.  
+  Source: [SpaceNews](https://spacenews.com/orion-space-wins-u-s-space-force-contract-for-on-orbit-services-experiment/)
+- **August 2024**: Selected by a "European Defense Contractor" to provide flight-proven RF payloads from their Longmont, Colorado facility (acquired via Roccor).  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-selected-to-provide-advanced-rf-payloads-to-a-leading-european-defense-contractor-expanding-rf-offerings-to-overseas-markets)
 
 **Commercial and Biomedical Innovations**
 
-- **July 2025 (with Maxar)**: Delivered two ROSA wings for the Power and Propulsion Element (PPE) of NASA’s Gateway, most powerful roll-out solar arrays ever built.
-  _Source: [BusinessWire](https://www.businesswire.com/news/home/20250702438974/en/Redwire-Successfully-Deploys-the-Most-Powerful-Roll-Out-Solar-Arrays-Ever-Built-Prepares-for-Major-Delivery-in-Fourth-Quarter)_
-- **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate ADAR1 inhibitor therapies using a PIL-BOX on the ISS.
-  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-from-aspera-biomedicines-to-investigate-cutting-edge-cancer-treatment-in-space/)_
+- **July 2025 (with Maxar)**: Delivered two ROSA wings for the Power and Propulsion Element (PPE) of NASA’s Gateway, most powerful roll-out solar arrays ever built.  
+  Source: [BusinessWire](https://www.businesswire.com/news/home/20250702438974/en/Redwire-Successfully-Deploys-the-Most-Powerful-Roll-Out-Solar-Arrays-Ever-Built-Prepares-for-Major-Delivery-in-Fourth-Quarter)
+- **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate ADAR1 inhibitor therapies using a PIL-BOX on the ISS.  
+  Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-from-aspera-biomedicines-to-investigate-cutting-edge-cancer-treatment-in-space/)
