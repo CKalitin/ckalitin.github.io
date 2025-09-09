@@ -68,46 +68,40 @@ At this point in my research, I realized this is really the opposite of my usual
 
 Hopefully the list of acquisitions above shed some light on what Redwire does. However, without further context there's no way to know how successful any of these acquisitions have been or if there are any synergies between the different companies. To get a better idea of what Redwire actually does, here's a list of some contracts they've won in the last few years.
 
-- Dec 2025
-    - USAF Research Laboratory
-    - 
-
 **NASA Partnerships**
 
-- **March 2025**: Secured a contract to deliver **four PIL-BOXes** to the International Space Station (ISS) for pharmaceutical drug development in microgravity, advancing potential commercialization of space-based biotech.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-awarded-nasa-contract-to-expand-pharmaceutical-drug-development-in-space-for-future-commercialization/)_
-- **January 2025**: Delivered the **fourth pair of Roll-Out Solar Array (IROSA) wings** for the ISS, enhancing the station's power capabilities with cutting-edge solar technology.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-successfully-delivers-fourth-pair-of-roll-out-solar-array-wings-for-iss-power/)_
-- **2025 (Tipping Point Program)**: Received **$12.9M** in prototype funding for the **Mason Martian/Lunar manufacturing technology**, aimed at developing infrastructure for sustainable human presence on the Moon and Mars.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-receives-nasa-approval-to-advance-cutting-edge-manufacturing-technology-for-building-infrastructure-on-moon-and-mars/)_
-- **October 2025 (Cancelled)**: An **on-orbit manufacturing demonstration** contract was awarded but later cancelled for undisclosed reasons, reflecting the dynamic nature of space project funding.  
-  _Source: [Reddit Discussion](https://www.reddit.com/r/redwire/comments/17zq13z/looks_like_osam2_ao1_archinaut_might_be_canceled/)_
+- **March 2025**: Won a contract to deliver four PIL-BOXes to the International Space Station (ISS) for pharmaceutical drug development in microgravity.
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-nasa-contract-to-expand-pharmaceutical-drug-development-in-space-for-future-commercialization/)_
+- **January 2025**: Delivered the fourth pair of Roll-Out Solar Array (iROSA) wings for the ISS, increasing station power.
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-fourth-pair-of-roll-out-solar-array-wings-for-iss-power/)_
+- **2025 (Tipping Point Program)**: Received $12.9M in prototype funding for the Mason Martian / Lunar manufacturing technology, aimed at developing infrastructure for sustainable human presence on the Moon and Mars.  
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-receives-nasa-approval-to-advance-cutting-edge-manufacturing-technology-for-building-infrastructure-on-moon-and-mars/)_
 
 **European Space Agency (ESA) Collaborations**
 
-- **February 2025**: Awarded a contract to lead the **preliminary spacecraft design** for an ESA astrophysics mission focused on imaging, utilizing the **Hammerhead satellite platform**. Redwire Space NV, an acquired subsidiary, is spearheading this effort.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-awarded-contract-to-lead-study-for-the-european-space-agencys-next-dark-matter-mission/)_
-- **May 2025**: Delivered an **on-board computer (OBC)** for ESA’s **Comet Interceptor mission**, designed to study a pristine comet, showcasing Redwire’s expertise in mission-critical avionics.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-successfully-delivers-onboard-computer-for-esas-comet-interceptor-mission-to-study-pristine-comet/)_
-- **2025**: Provided **avionics and on-board computer systems** for ESA’s **Next-Generation Gravity Mission**, supporting a multinational Earth observation satellite constellation.  
+- **February 2025**: Awarded a contract to lead the preliminary spacecraft design for an ESA astrophysics mission focused on imaging, utilizing Redwire's Hammerhead satellite platform. Redwire Space NV, an acquired subsidiary, leads this effort.
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-to-lead-study-for-the-european-space-agencys-next-dark-matter-mission/)_
+- **May 2025**: Delivered an on-board computer (OBC) for ESA’s Comet Interceptor mission.
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-successfully-delivers-onboard-computer-for-esas-comet-interceptor-mission-to-study-pristine-comet/)_
+- **2025**: Provided avionics and on-board computer systems for ESA’s Next-Generation Gravity Mission.
   _Source: [BioSpace](https://www.biospace.com/press-releases/redwire-awarded-contract-to-provide-critical-avionics-technology-for-multinational-earth-observation-satellite-constellation)_
-- **April 2025 (with OHB Italia)**: Developed the **International Berthing & Docking Mechanism** for ESA’s **Lunar I-Hab Gateway module**, a critical component for the lunar Gateway program.  
+- **April 2025 (with OHB Italia)**: Developed the International Berthing & Docking Mechanism for ESA’s Lunar I-Hab Gateway module, a lunar gateway component.
   _Source: [SpaceNews](https://spacenews.com/redwire-wins-darpa-contract-for-vleo-demonstration/)_
 
 **Defense and Commercial Contracts**
 
-- **December 2025**: Secured a **$45M contract** from the **US Air Force Research Laboratory (AFRL)** for the design, development, and testing of **mission-critical technologies** to enhance space-based capabilities for warfighters.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-awarded-45-million-contract-from-air-force-research-laboratory-afrl-to-advance-enhanced-space-based-capabilities-for-the-warfighter/)_
-- **February 2025**: Awarded a contract to deliver a **Mako spacecraft** for the **US Space Force (USSF) Tetra-6 mission**, building on prior success with two Mako spacecraft for Tetra-5. These will be the first geostationary satellites designed for in-orbit refueling.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-wins-follow-on-contract-to-deliver-third-mako-spacecraft-for-u-s-space-force/)_
-- **August 2022 (Inherited from Hera Systems)**: Partnered with **Orion Space** on a **USSF contract** for an **in-orbit refueling and servicing experiment**, showcasing Redwire’s growing role in space logistics.  
+- **December 2025**: Secured a $45M contract from the US Air Force Research Laboratory (AFRL) for the design, development, and testing of "mission-critical technologies" to enhance space-based capabilities for warfighters.  
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-45-million-contract-from-air-force-research-laboratory-afrl-to-advance-enhanced-space-based-capabilities-for-the-warfighter/)_
+- **February 2025**: Awarded a contract to deliver a Mako spacecraft for the US Space Force (USSF) Tetra-6 mission, building on prior success with two Mako spacecraft for Tetra-5. These will be the first geostationary satellites designed for in-orbit refueling.  
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-wins-follow-on-contract-to-deliver-third-mako-spacecraft-for-u-s-space-force/)_
+- **August 2022 (Inherited from Hera Systems)**: Partnered with Orion Space on a USSF contract for an in-orbit refueling and servicing experiment.
   _Source: [SpaceNews](https://spacenews.com/orion-space-wins-u-s-space-force-contract-for-on-orbit-services-experiment/)_
-- **August 2024**: Selected by a **European Defense Contractor** to provide **flight-proven RF payloads** from their Longmont, Colorado facility (acquired via Roccor), expanding Redwire’s RF offerings to international markets.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-selected-to-provide-advanced-rf-payloads-to-a-leading-european-defense-contractor-expanding-rf-offerings-to-overseas-markets)_
+- **August 2024**: Selected by a "European Defense Contractor" to provide flight-proven RF payloads from their Longmont, Colorado facility (acquired via Roccor).
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-selected-to-provide-advanced-rf-payloads-to-a-leading-european-defense-contractor-expanding-rf-offerings-to-overseas-markets)_
 
 **Commercial and Biomedical Innovations**
 
-- **July 2025 (with Maxar)**: Delivered **two ROSA wings** for the **Power and Propulsion Element (PPE)** of NASA’s Gateway, deploying the most powerful roll-out solar arrays ever built.  
+- **July 2025 (with Maxar)**: Delivered two ROSA wings for the Power and Propulsion Element (PPE) of NASA’s Gateway, most powerful roll-out solar arrays ever built.
   _Source: [BusinessWire](https://www.businesswire.com/news/home/20250702438974/en/Redwire-Successfully-Deploys-the-Most-Powerful-Roll-Out-Solar-Arrays-Ever-Built-Prepares-for-Major-Delivery-in-Fourth-Quarter)_
-- **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate **ADAR1 inhibitor** therapies using a **PIL-BOX** in microgravity, advancing cutting-edge cancer treatment research.  
-  _Source: [Redwire Newsroom](https://redwirespace.com/newsroom/redwire-awarded-contract-from-aspera-biomedicines-to-investigate-cutting-edge-cancer-treatment-in-space/)_
+- **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate ADAR1 inhibitor therapies using a PIL-BOX on the ISS.
+  _Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-from-aspera-biomedicines-to-investigate-cutting-edge-cancer-treatment-in-space/)_
