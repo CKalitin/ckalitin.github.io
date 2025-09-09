@@ -58,7 +58,7 @@ AE Industrial Partners, a private equity firm, led the merger of Adcole and DSS 
 4. **Oakman Aerospace (Jan 2021)** - Spacecraft integration and testing and lab space.  
 5. **Deployable Space Systems (Feb 2021)** - Deployable solar arrays, structures, flexible and concentrator arrays, etc.  
 6. **Techshot (Nov 2021)** - Biotech in 0g, bioprinting, on-orbit manufacturing.  
-7. **Space NV (Oct 2022)** - Belgium-based satellite design and development. Specializes in computers, power control and distribution, and terminals. Developed the International Berthing and Docking Mechanism. Acquired from QinetiQ for €32 million, adding $109.8 million in contract value.  
+7. **Space NV (Oct 2022)** - Belgium-based satellite design and development. Specializes in computers, power control and distribution, and terminals. Developed the International Berthing and Docking Mechanism. Acquired from QinetiQ for €32 million, adding $109.8 million in contract value. ([source](https://ir.redwirespace.com/sec-filings/quarterly-reports/content/0001819810-24-000043/0001819810-24-000043.pdf), page 33)
 8. **Hera Systems (Aug 2024)** - Specializes in small satellite technologies for the defense industry, with approximately $15 million in annual revenue prior to acquisition. The undisclosed acquisition price brought in $21.9 million in contract value ([source](https://www.sec.gov/Archives/edgar/data/1819810/000181981024000111/exhibit991redwire9302024ea.htm), page 11).  
 9. **Edge Autonomy (Jan 2025)** - Drone manufacturer in defense.  
 
@@ -102,3 +102,13 @@ Hopefully the list of acquisitions above shed some light on what Redwire does. H
   Source: [BusinessWire](https://www.businesswire.com/news/home/20250702438974/en/Redwire-Successfully-Deploys-the-Most-Powerful-Roll-Out-Solar-Arrays-Ever-Built-Prepares-for-Major-Delivery-in-Fourth-Quarter)
 - **2025 (with Aspera Biomedicines)**: Awarded a contract to investigate ADAR1 inhibitor therapies using a PIL-BOX on the ISS.  
   Source: [Redwire](https://redwirespace.com/newsroom/redwire-awarded-contract-from-aspera-biomedicines-to-investigate-cutting-edge-cancer-treatment-in-space/)
+  
+### **Satellite Busses**
+
+
+### **Acorn & DEMSI Software**
+
+
+### **Valkyrie Electric Propulsion Thruster**
+
+
