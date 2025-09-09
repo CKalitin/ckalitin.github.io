@@ -52,15 +52,15 @@ Before any acquisitions came the merger of Adcole Space and Deep Space Systems i
 
 AE Industrial Partners, a private equity firm, led the merger of Adcole and DSS to form Redwire. After the merger, [Redwire went on to acquire 9 additional companies](https://d1io3yog0oux5.cloudfront.net/_6200c35b11d134e94999e85dff0661b6/redwirespace/db/856/7620/pdf/Redwire+101+-+Updated+as+of+August+2025.pdf) presumably with involvement from AE Industrial Partners (they also funded Edge Autonomy).
 
-1. Made In Space (Jun 2020) - Orbital additive manufacturing, zero-g printing.  
-2. Roccor (Oct 2020) - Solar arrays, booms, hinges, antennas, RF.  
-3. LoadPath (Dec 2020) - Satellite structures, launch adapters, thermal management components, deployable structures, etc.  
-4. Oakman Aerospace (Jan 2021) - Spacecraft integration and testing and lab space.  
-5. Deployable Space Systems (Feb 2021) - Deployable solar arrays, structures, flexible and concentrator arrays, etc.  
-6. Techshot (Nov 2021) - Biotech in 0g, bioprinting, on-orbit manufacturing.  
-7. Space NV (Oct 2022) - Belgium-based satellite design and development. Specializes in computers, power control and distribution, and terminals. Developed the International Berthing and Docking Mechanism. Acquired from QinetiQ for €32 million, adding $109.8 million in contract value.  
-8. Hera Systems (Aug 2024) - Specializes in small satellite technologies for the defense industry, with approximately $15 million in annual revenue prior to acquisition. The undisclosed acquisition price brought in $21.9 million in contract value ([source](https://www.sec.gov/Archives/edgar/data/1819810/000181981024000111/exhibit991redwire9302024ea.htm), page 11).  
-9. Edge Autonomy (Jan 2025) - Drone manufacturer in defense.  
+**1.** **Made In Space (Jun 2020)** - Orbital additive manufacturing, zero-g printing.  
+**2.** **Roccor (Oct 2020)** - Solar arrays, booms, hinges, antennas, RF.  
+**3.** **LoadPath (Dec 2020)** - Satellite structures, launch adapters, thermal management components, deployable structures, etc.  
+**4.** **Oakman Aerospace (Jan 2021)** - Spacecraft integration and testing and lab space.  
+**5.** **Deployable Space Systems (Feb 2021)** - Deployable solar arrays, structures, flexible and concentrator arrays, etc.  
+**6.** **Techshot (Nov 2021)** - Biotech in 0g, bioprinting, on-orbit manufacturing.  
+**7.** **Space NV (Oct 2022)** - Belgium-based satellite design and development. Specializes in computers, power control and distribution, and terminals. Developed the International Berthing and Docking Mechanism. Acquired from QinetiQ for €32 million, adding $109.8 million in contract value.  
+**8.** **Hera Systems (Aug 2024)** - Specializes in small satellite technologies for the defense industry, with approximately $15 million in annual revenue prior to acquisition. The undisclosed acquisition price brought in $21.9 million in contract value ([source](https://www.sec.gov/Archives/edgar/data/1819810/000181981024000111/exhibit991redwire9302024ea.htm), page 11).  
+**9.** **Edge Autonomy (Jan 2025)** - Drone manufacturer in defense.  
 
 At this point in my research, I realized this is really the opposite of my usual [investing](https://ckalitin.github.io/investing/2023/10/11/80-trillion-dollars.html) [philosophy](https://ckalitin.github.io/technology/2024/11/19/s-curve-examples.html). It is an exponentially growing sector, but Redwire isn't quite following Wright's Law or any fundamental underlying pattern. It’s just growth of little individual programs brought into a single organization. I still had some hope of finding a reason to buy RDW, so I continued researching.
 
