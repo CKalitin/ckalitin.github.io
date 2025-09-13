@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Constantly Do Root Cause Analysis"
-categories: Space
+categories: ideas
 tags:
     - Ideas
     - Drafts
