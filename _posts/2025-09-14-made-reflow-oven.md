@@ -57,24 +57,48 @@ For 3D printer filament thermal characterization testing, I'll likely want preci
 
 ### **STM32 Microcontroller + 1602A LCD Display**
 
-![Image](/assets/images/made-reflow-oven/display.jpg){:height="200"}
+![Image](/assets/images/made-reflow-oven/display.jpg){:height="300"}
 
+My first STM32 firmware project was writing a [library to control a 1602A LCD display](https://github.com/CKalitin/STM32-Projects/tree/master/F031K6T6-1602A-Lib). A few months after writing that library,[ I made a PCB](https://docs.google.com/document/d/1K3BKlunD05acUSBwUwxqNvbRFN78D8LkdGsMdLNjiL0/edit?usp=sharing) to interface between the 1602A display and the STM32F031K6T6 microcontroller.
 
-- ADC fried and 1.5 mA current flowing into it, no other available ADC pin so can't use the display
-- Firmware / FSM
-- Instead, real time matplotlib graphing via UART
-- Up next: Modelling it to do something more sophisticated than bang-bang control as a function of target and current temperature
-    https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control
-
+This was my first PCB project so I just put female header arrays on the PCB so I could slot in the display and STM32 Nucleo. This meant all GPIOs were still accessible, unlike if I had soldered the STM32 directly to the PCB. So, I could use this PCB to display temperature and status information in real time while controlling the reflow oven.
 
 ### **Firmware / FSM**
 
+[Github](https://github.com/CKalitin/reflow-oven)
+
+The firmware has 4 primary functions: reading temperature, displaying information on the LCD, controlling the SSR, and running an FSM to manage the reflow process. 
+
+Reading the thermistor voltage and converting it to a temperature reading is a slightly involved process because we start with a voltage, convert it to a resistance via the voltage divider equation, then convert resistance to temperature. Took longer than I'd liked to have spent on this to derive the equation. See it in [adc.c](https://github.com/CKalitin/reflow-oven/blob/master/STM32_F103K6T6_Reflow_Oven/Core/Src/adc.c).
+
+I copy and pasted my 1602A LCD library into this project, and it worked first try. The issue I ended up seeing with the LCD was that the 5 V source from the USB was noisy and not constant. This meant the difference between VDD and V0 (the contrast voltage) was not constant, so the contrast of the display would vary. This meant one second the text could be perfectly visible, the next second all pixels are active, and the next second no pixels are active. I'll have to solve this on a future revision by using a 5 V regulator or using a DAC to set V0 (this makes it less user controllable, instead of turning a trimmer potentiometer we need to reflash).
+
+Controlling the SSR is just a GPIO as I didn't go for precise PWM control on my first iteration.
+
+![Image](/assets/images/made-reflow-oven/code.png)
+
+Each FSM states are made up of 2 variables and 2 flags: duration (s), target temperature (C), exit on temperature reached (bool), heater enabled (bool). If exit on temperature reached is true, then the FSM goes into the next state when the target temperature is reached. Otherwise, a timer is used and is compared to the duration variable. Fairly simple.
+
+The current FSM profile shown above was just an example one I made to test the system. It slowly goes up to 240 C over several minutes, then turns off and hopefully I remember to open the oven door to cool it down.
+
+### **Fried ADC**
+
 ![Image](/assets/images/made-reflow-oven/fried_adc.jpg){:height="300"}  
 *The multimeter is in series between the middle tap of the thermistor + 1k voltage divider and the ADC pin. We see 1.5 mA flowing into the ADC, clearly it's fried.*
+
+While testing the firmware and reflow oven there was a point where the ADC was reading a constant voltage regardless of the temperature. After some testing, I found that the voltage in the middle of the divider changes depending on if the ADC pin is connected or not. Clearly current was flowing into the ADC pin instead of through the secondary resistor of the voltage divider. I used my multimeter and found 1.5 mA of current was flowing into the ADC. Clearly it was fried.
+
+To solve this problem I used a different ADC pin and it worked fine. However, to get another ADC pin I had to repurpose a GPIO that was being used to control the LCD display. So, no more display, but we can read temperature!
 
 ### **Real-time Matplotlib Graphing via UART**
 
 ![Image](/assets/images/made-reflow-oven/uart_data_2025-09-14_10-09-09_real_time.png){:height="400"}
 
+With no display to show temperature information and wanting to get real-time CSV data for analysis, I [vibecoded a simple UART read script](https://github.com/CKalitin/reflow-oven/tree/master/scripts) that saved data to a CSV file and plotted it in real time using matplotlib. Once you've written one UART read script you've written them all and I can feel good about myself vibecoding all my future simple Python scripts.
+
+Real time telemetry is always super fun and useful, [see this clip](https://x.com/CKalitin/status/1966366769989468180).
+
 ### **Up Next: Modelling & Control Algorithms**
 
+- Up next: Modelling it to do something more sophisticated than bang-bang control as a function of target and current temperature
+    https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control
