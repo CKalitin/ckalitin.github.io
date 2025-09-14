@@ -6,7 +6,7 @@ tags:
     - Projects
 author:
  - Christopher Kalitin
-word_count: 1333
+word_count: 1326
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/made-reflow-oven/SSR.jpg">
@@ -99,9 +99,6 @@ With no display to show temperature information and wanting to get real-time CSV
 Real-time telemetry is always super fun and useful, [see this clip](https://x.com/CKalitin/status/1966366769989468180).
 
 ### **Up Next: Modelling & Control Algorithms**
-
-- Up next: Modelling it to do something more sophisticated than bang-bang control as a function of target and current temperature
-    https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control
 
 The biggest issue with the current iteration of my reflow oven is overshooting temperature targets. I used [bang-bang control](https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control), meaning the heater is either fully on or fully off depending on the current temperature, target temperature, and hysteresis. This works, but as you can see in the graph above, it overshoots the temperature target by a significant amount.
 
