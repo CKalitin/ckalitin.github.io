@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /ideas/2017/06/12/latent-first-principles.html
-word_count: 1417
+word_count: 1492
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/latent-first-principles/autoencoder.png">

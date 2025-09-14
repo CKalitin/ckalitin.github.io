@@ -6,7 +6,7 @@ tags:
     - Projects
 author:
  - Christopher Kalitin
-word_count: 1
+word_count: 1333
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/made-reflow-oven/SSR.jpg">

@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1275
+word_count: 1277
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/optimal-lunar-atmosphere/impact_velocity_vs_atm_t0.1_linear.png">
