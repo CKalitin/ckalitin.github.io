@@ -36,7 +36,8 @@ I chose the [SSR-25DA](https://cdn.sparkfun.com/datasheets/Components/General/SS
 **Thermistor**
 
 ![Image](/assets/images/made-reflow-oven/thermistor_1.jpg){:height="250"}
-![Image](/assets/images/made-reflow-oven/thermistor_2.jpg){:height="250"}
+![Image](/assets/images/made-reflow-oven/thermistor_2.jpg){:height="250"}  
+*Hedging against potentially poor quality AliExpress parts by characterizing the thermistor. [Results Here](https://docs.google.com/spreadsheets/d/1yqm948NJ8_uzt0267oY7HAHMM17IJyKlpiy86Fge3AQ/edit?usp=sharing)*
 
 ![Image](/assets/images/made-reflow-oven/thermistor_back.jpg){:height="250"}
 
