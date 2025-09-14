@@ -6,7 +6,7 @@ tags:
     - Projects
 author:
  - Christopher Kalitin
-word_count: 1326
+word_count: 1339
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/made-reflow-oven/SSR.jpg">
@@ -93,7 +93,7 @@ To solve this problem I used a different ADC pin and it worked fine. However, to
 
 ### **Real-time Matplotlib Graphing via UART**
 
-![Image](/assets/images/made-reflow-oven/uart_data_2025-09-14_10-09-09_real_time.png){:height="500"}
+![Image](/assets/images/made-reflow-oven/uart_data_2025-09-14_10-09-09_real_time.png)
 
 With no display to show temperature information and wanting to get real-time CSV data for analysis, I [vibecoded a simple UART read script](https://github.com/CKalitin/reflow-oven/tree/master/scripts) that saved data to a CSV file and plotted it in real-time using matplotlib. Once you've written one UART read script you've written them all and I can feel good about myself vibecoding all my future simple Python scripts.
 
