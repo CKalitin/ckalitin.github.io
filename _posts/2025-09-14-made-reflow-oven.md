@@ -26,7 +26,7 @@ Because most convection toaster ovens are completely analog systems, it is not t
 
 **Solid State Relay**
 
-![Image](/assets/images/made-reflow-oven/SSR.jpg){:height="300"}
+![Image](/assets/images/made-reflow-oven/SSR.jpg){:height="300"}  
 *The SSR is in series with the 120 V AC input on the high-side.*
 
 Because precise control of temperature requires PWMing the heating elements, a Solid State Relay (SSR) is required. A mechanical relay / contactor would wear out rather quickly if switched many times per second. Switching time for a mechanical relay is also tens of milliseconds while SSRs switch in microseconds.
