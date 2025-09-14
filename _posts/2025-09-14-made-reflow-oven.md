@@ -35,16 +35,16 @@ I chose the [SSR-25DA](https://cdn.sparkfun.com/datasheets/Components/General/SS
 
 **Thermistor**
 
-![Image](/assets/images/made-reflow-oven/thermistor_1.jpg){:height="200"}
-![Image](/assets/images/made-reflow-oven/thermistor_2.jpg){:height="200"}
+![Image](/assets/images/made-reflow-oven/thermistor_1.jpg){:height="250"}
+![Image](/assets/images/made-reflow-oven/thermistor_2.jpg){:height="250"}
 
-![Image](/assets/images/made-reflow-oven/thermistor_back.jpg){:height="200"}
+![Image](/assets/images/made-reflow-oven/thermistor_back.jpg){:height="250"}
 
 I bought [this NTC 100 K thermistor](https://datasheet4u.com/datasheet/Danfoss/NTC100K-944190) from AliExpress. NTC = negative temperature coefficient, meaning resistance decreases as temperature increases. 100 K means resistance is 100 kΩ at 25°C. 
 
 Electrical tape melts at ~80°C and I have no great thermal adhesive, so I cut a hole in the back of the oven and put the thermistor through it. I've unfortunately returned to being a busy engineering student so this solution to mounting the thermistor will have to suffice for now. I'll just have to remember to check if it's fallen out!
 
-![Image](/assets/images/made-reflow-oven/graph.png){:height="300"}  
+![Image](/assets/images/made-reflow-oven/graph.png){:height="350"}  
 <i>[See spreadsheet](https://docs.google.com/spreadsheets/d/1yqm948NJ8_uzt0267oY7HAHMM17IJyKlpiy86Fge3AQ/edit?usp=sharing)</i>
 
 To convert a resistance to a voltage I used a voltage divider with a 1 kΩ resistor.
@@ -83,7 +83,7 @@ The current FSM profile shown above was just an example one I made to test the s
 
 ### **Fried ADC**
 
-![Image](/assets/images/made-reflow-oven/fried_adc.jpg){:height="300"}  
+![Image](/assets/images/made-reflow-oven/fried_adc.jpg){:height="400"}  
 *The multimeter is in series between the middle tap of the thermistor + 1k voltage divider and the ADC pin. We see 1.5 mA flowing into the ADC, clearly it's fried.*
 
 While testing the firmware and reflow oven there was a point where the ADC was reading a constant voltage regardless of the temperature. After some testing, I found that the voltage in the middle of the divider changes depending on if the ADC pin is connected or not. Clearly current was flowing into the ADC pin instead of through the secondary resistor of the voltage divider. I used my multimeter and found 1.5 mA of current was flowing into the ADC. Clearly it was fried.
@@ -92,7 +92,7 @@ To solve this problem I used a different ADC pin and it worked fine. However, to
 
 ### **Real-time Matplotlib Graphing via UART**
 
-![Image](/assets/images/made-reflow-oven/uart_data_2025-09-14_10-09-09_real_time.png){:height="400"}
+![Image](/assets/images/made-reflow-oven/uart_data_2025-09-14_10-09-09_real_time.png){:height="500"}
 
 With no display to show temperature information and wanting to get real-time CSV data for analysis, I [vibecoded a simple UART read script](https://github.com/CKalitin/reflow-oven/tree/master/scripts) that saved data to a CSV file and plotted it in real-time using matplotlib. Once you've written one UART read script you've written them all and I can feel good about myself vibecoding all my future simple Python scripts.
 
