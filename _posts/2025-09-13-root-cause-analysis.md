@@ -52,3 +52,5 @@ Opening:
     - RCA of everything
     - Design team examples
     - Operational / Leadership solutions to technical problems
+
+supp low being low is a function of if members are good enough to remember to watch for that LED, example
