@@ -6,7 +6,7 @@ tags:
     - Projects
 author:
  - Christopher Kalitin
-word_count: 1362
+word_count: 1379
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/made-reflow-oven/SSR.jpg">
@@ -43,7 +43,7 @@ I chose the [SSR-25DA](https://cdn.sparkfun.com/datasheets/Components/General/SS
 
 I bought [this NTC 100 K thermistor](https://datasheet4u.com/datasheet/Danfoss/NTC100K-944190) from AliExpress. NTC = negative temperature coefficient, meaning resistance decreases as temperature increases. 100 K means resistance is 100 kΩ at 25°C. 
 
-Electrical tape melts at ~80°C and I have no great thermal adhesive, so I cut a hole in the back of the oven and put the thermistor through it. I've unfortunately returned to being a busy engineering student so this solution to mounting the thermistor will have to suffice for now. I'll just have to remember to check if it's fallen out!
+Electrical tape melts at ~80°C and I have no great thermal adhesive, so I cut a hole in the back of the oven and put the thermistor through it. I've unfortunately returned to being a busy engineering student so this solution to mounting the thermistor will have to suffice for now. I'll just have to remember to check if it's fallen out! Kapton tape seems like the right solution here, at some point in the future I'll buy some.
 
 ![Image](/assets/images/made-reflow-oven/graph.png){:height="350"}  
 <i>[See spreadsheet](https://docs.google.com/spreadsheets/d/1yqm948NJ8_uzt0267oY7HAHMM17IJyKlpiy86Fge3AQ/edit?usp=sharing)</i>
