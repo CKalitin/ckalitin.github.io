@@ -70,3 +70,5 @@ This definition is of engine, not prime mover. Redirected from the prime mover W
 Well that page says the same. Conversion of any form into mechanical
 Mechanical energy depends on position and motion. Kinetic is only motion
 Mechanical = kinetic + potential
+
+Also compressed air as a transmission mechanism, mostly at smaller scales
