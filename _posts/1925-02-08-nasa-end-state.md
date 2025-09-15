@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/1925/02/08/nasa-end-state.html
-word_count: 951
+word_count: 1050
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
@@ -107,6 +107,10 @@ Claims of reducing competition, but does save money up front. Reduce competition
 
 She was deputy NASA admin under Biden. Fuck we could have had Isaacman
 
+https://spacenews.com/vast-backs-new-nasa-commercial-space-station-strategy/
+
+"Haot disagreed, calling the demo a steppingstone to a permanently crewed station. “If you say, ‘I want permanent presence on day one,’ all you do is you delay when you see that,” he said."
+
 ### Astroforge
 
 Jared Isaacman: "cool company"
@@ -135,3 +139,4 @@ https://arstechnica.com/space/2025/08/nasas-acting-chief-calls-for-the-end-of-ea
 
 Better capital efficiency of private companies, Jared Issacman:
 https://x.com/rookisaacman/status/1959816251154268412
+
