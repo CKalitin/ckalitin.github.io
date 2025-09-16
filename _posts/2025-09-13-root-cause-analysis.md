@@ -54,3 +54,7 @@ Opening:
     - Operational / Leadership solutions to technical problems
 
 supp low being low is a function of if members are good enough to remember to watch for that LED, example
+
+Heres an Elon example of instantly making a technical decision, what you can do when you have good technical intuition.
+Also get the Elon quote of having to make decisions, even if 2"% are wrong and undone later, if no decisions are made we die.
+https://x.com/yrouel86/status/1967887843113799969?s=46
