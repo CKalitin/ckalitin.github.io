@@ -58,3 +58,9 @@ supp low being low is a function of if members are good enough to remember to wa
 Heres an Elon example of instantly making a technical decision, what you can do when you have good technical intuition.
 Also get the Elon quote of having to make decisions, even if 2"% are wrong and undone later, if no decisions are made we die.
 https://x.com/yrouel86/status/1967887843113799969?s=46
+
+Always be taking in new context. Use this to update your world model, then use your world model.
+This adds an important delay from acqusition of new information to new action, which is always present.
+When responding to new situation youre using priors and heuristics anyway, let these new situations update your world model as well.
+
+
