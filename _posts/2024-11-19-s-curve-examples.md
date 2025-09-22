@@ -36,6 +36,8 @@ At the beginning of this year I began work on my longest blog post yet, <a href=
 
 As you can see, all of these charts follow the same pattern. It's important to note that I didn't cherry pick any of these, I just searched for growth curves of early technologies and pixel counted to get the data you see above. There may be some edge cases where a technology doesn't follow the S curve, but for our purposes we will focus on the subset of technologies that do. This is still a very large set such that S-curves are a very useful tool for predicting the future.
 
+More beautifully plotted examples are available in this [WEF commercial space report](https://www3.weforum.org/docs/WEF_Space_2024.pdf) on page 7. Courtesy of [@Tim_X94](https://x.com/Tim_X94/status/1970099902060609553).
+
 ### <b>Learning Rate Explains it All</b>
 
 If you have the mentality of a school student who only wants to answer the questions on the test, you can be satisfied with the information above and apply it to all new technologies to your heart's content. However, if you're destined for great things, you must understand why S curves happen from first principles.
