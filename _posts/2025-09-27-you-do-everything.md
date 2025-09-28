@@ -38,7 +38,10 @@ Unfortunately, the marginal increase in productivity seems to decrease as you ge
 
 I've been losing my mind recently - but which I mean literally losing it as in not knowing where it's going or gone. Usually I have a very good mental model of my own head and feel very content with being in my own head all day. Recently I started drinking and going to a few parties - essentially leaning into the 19 year old university student aesthetic - and this introduced a lot of new edge cases and source data about my mental model of myself, which recently has been diverging from the actions I end up taking. Particularly in one moment today where I performed far worse in a potentially high-leverage opportunity than expected, potentially risking future opportunities (for a stupid reason really, *professionalism is absolutely something to strive for* and one particularly capable and intelligent person I respect quite a lot made this point to me). To improve my mental model of myself I had to write some things down, and I don't particularly mind *you* seeing this, maybe you can parse some of it.
 
-<i>But now, I know, achieved the goal  
+<i>Maybe if I go platinum they'll remember me then  
+
+I used to wonder what it feel like  
+But now, I know, achieved the goal  
 I ran the race, I won the gold  
 I used to wonder what it feel like  
 
