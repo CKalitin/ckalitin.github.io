@@ -6,8 +6,12 @@ tags:
     - Ideas
 author:
  - Christopher Kalitin
-word_count: 924
+word_count: 1004
 ---
+<head>
+    <meta property="og:image" content="{{site.url}}/assets/images/you-do-everything/Screenshot 2025-09-27 210513.png">
+</head>
+
 Today I was put into the amazing situation that does not come nearly often enough of talking to one of the most intelligent and insightful humans I have ever met. Talking to this specific kind of human is always the best kind of conversation, as it makes at least my brain go to new territory that I have not explored before. I might as well document what my brain is doing in this moment.
 
 He told the story of a coworker he had a few years ago. This man had two PhDs in extremely technically complex fields and was a very capable engineer. He worked exceptionally hard on hardware development programs at startups, to the point of sleeping in the office for weeks on end. All the while, his wife had given birth to their daughter, and he did not really get to know his own daughter for the first four years of her life. 
