@@ -4,7 +4,6 @@ title: "First Principles Thinking Expressed As Distillation Into a Latent Space"
 categories: Ideas
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 redirect_from:

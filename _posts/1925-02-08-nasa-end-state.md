@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/1925/02/08/nasa-end-state.html
-word_count: 1050
+word_count: 1085
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">
