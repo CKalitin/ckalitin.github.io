@@ -6,7 +6,7 @@ tags:
     - Ideas
 author:
  - Christopher Kalitin
-word_count: 1004
+word_count: 1056
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/you-do-everything/Screenshot 2025-09-27 210513.png">
