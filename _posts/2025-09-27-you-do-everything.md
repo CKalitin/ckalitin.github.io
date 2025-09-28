@@ -6,7 +6,7 @@ tags:
     - Ideas
 author:
  - Christopher Kalitin
-word_count: 1056
+word_count: 1073
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/you-do-everything/Screenshot 2025-09-27 210513.png">
@@ -49,6 +49,6 @@ You can really do anything
 You can really do anything  
 You can really do anything  
 You can really do anything
-</i>  
+</i>
 
 \- [Logic](https://www.youtube.com/watch?v=oJAUMIvTXF4&list=PLuvVjLDbzSdFKzS_SxKKB75qdqErTnMBC&index=1)
