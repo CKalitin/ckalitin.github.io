@@ -60,8 +60,8 @@ Eg. There are Electron charts categorised by General Launch Payload Type, but ob
 
 <b>Launches Vs Mass By Category:</b>  
 
-![Electron Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: width="550"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\electron_launches_vs_mass_by_orbit.png){: target="_blank"}
+![Electron Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\electron\electron_launches_vs_mass_by_orbit.png){: width="550"}  
+[Expanded Chart]({{site.url}}\assets\space-industry-charts\electron\electron_launches_vs_mass_by_orbit.png){: target="_blank"}
 
 These charts show the distribution of launches by payload mass range. They're also broken down by category.
 
@@ -69,8 +69,8 @@ Eg. how many Falcon 9 launches were between 0 and 1000 kg and to LEO, BEO, etc.
 
 <b>Total Mass Vs Mass By Category:</b>  
 
-![F9 Launches Vs Month By General Launch Payload Type 2010 2025]({{site.url}}\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: width="550"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
+![F9 Launches Vs Month By General Launch Payload Type 2010 2025]({{site.url}}\assets\space-industry-charts\f9\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: width="550"}  
+[Expanded Chart]({{site.url}}\assets\space-industry-charts\f9\f9_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
 
 These charts are the same as the launch count vs. mass range charts describe above but normalized for mass.
 
@@ -82,15 +82,15 @@ This weighs each launch by its payload mass, to give a better sense of the distr
 
 <b>Launches Vs Month By Category:</b>  
 
-![F9 Launches Vs Month By Orbit 2010 2025]({{site.url}}\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: width="550"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\f9_launches_vs_month_by_orbit_2010_2025.png){: target="_blank"}
+![F9 Launches Vs Month By Orbit 2010 Present]({{site.url}}\assets\space-industry-charts\f9\f9_launches_vs_month_by_orbit_2010_present.png){: width="550"}  
+[Expanded Chart]({{site.url}}\assets\space-industry-charts\f9\f9_launches_vs_month_by_orbit_2010_present.png){: target="_blank"}
 
 There's a lot of months in the history of a launch vehicle, so this charts gets a bit busy.
 
 <b>Launches Vs Year By Category:</b>  
 
-![Global Launches Vs Year By General Launch Payload Type 2000 2025]({{site.url}}\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: width="550"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: target="_blank"}
+![Global Launches Vs Year By General Launch Payload Type 2000 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_2000_present.png){: width="550"}  
+[Expanded Chart]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_2000_present.png){: target="_blank"}
 
 Yea you get what this is right?
 
