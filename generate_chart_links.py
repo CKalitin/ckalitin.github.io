@@ -7,6 +7,7 @@ dir = Path(__file__).parent / "assets" / "space-industry-charts"
 
 # Folder name to beautified title mapping
 subtitle_dict = {
+    "antares": "Antares",
     "ariane": "Ariane",
     "atlas": "Atlas",
     "canada": "Canada",
@@ -61,3 +62,5 @@ for path, beautified_title, folder_name in charts:
         
     suffix = "{: target=\"_blank\"}"
     print(f'[{beautified_title}]({path}){suffix}  ')
+
+print(f"\nTotal number of charts: {len(charts)}")
