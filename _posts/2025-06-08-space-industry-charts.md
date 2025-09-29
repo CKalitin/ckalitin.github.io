@@ -100,21 +100,21 @@ Yea you get what this is right?
 
 <b>Antares</b>
 
-[Antares Launches Apogee Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}      
-[Antares Launches Apogee Vs Inc By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_inc_by_simple_orbit_2013_2023.png){: target="_blank"}        
-[Antares Launches Inc Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_inc_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}
-[Antares Launches Payload Mass Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_payload_mass_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}
-[Antares Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}
-[Antares Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}
-[Antares Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_orbit.png){: target="_blank"}
-[Antares Launches Vs Month By General Launch Payload Type 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_month_by_general_launch_payload_type_2013_2023.png){: target="_blank"}
-[Antares Launches Vs Month By Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_month_by_orbit_2013_2023.png){: target="_blank"}
-[Antares Launches Vs Year By General Launch Payload Type 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_general_launch_payload_type_2013_2023.png){: target="_blank"}
-[Antares Launches Vs Year By Launch Vehicle 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_launch_vehicle_2013_2023.png){: target="_blank"}
-[Antares Launches Vs Year By Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_orbit_2013_2023.png){: target="_blank"}
-[Antares Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}      
-[Antares Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}
-[Antares Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_orbit.png){: target="_blank"}
+[Antares Launches Apogee Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}  
+[Antares Launches Apogee Vs Inc By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_inc_by_simple_orbit_2013_2023.png){: target="_blank"}   
+[Antares Launches Inc Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_inc_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}  
+[Antares Launches Payload Mass Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_payload_mass_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}  
+[Antares Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Antares Launches Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_launch_vehicle.png){: target="_blank"}  
+[Antares Launches Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_mass_by_orbit.png){: target="_blank"}  
+[Antares Launches Vs Month By General Launch Payload Type 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_month_by_general_launch_payload_type_2013_2023.png){: target="_blank"}  
+[Antares Launches Vs Month By Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_month_by_orbit_2013_2023.png){: target="_blank"}  
+[Antares Launches Vs Year By General Launch Payload Type 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_general_launch_payload_type_2013_2023.png){: target="_blank"}  
+[Antares Launches Vs Year By Launch Vehicle 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_launch_vehicle_2013_2023.png){: target="_blank"}  
+[Antares Launches Vs Year By Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_vs_year_by_orbit_2013_2023.png){: target="_blank"}  
+[Antares Total Mass Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
+[Antares Total Mass Vs Mass By Launch Vehicle]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_launch_vehicle.png){: target="_blank"}  
+[Antares Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\antares\antares_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
 <b>Ariane</b>
 
