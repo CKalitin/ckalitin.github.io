@@ -13,11 +13,11 @@ word_count: 1213
     <meta property="og:image" content="{{site.url}}/assets/images/must-be-beautiful/Brightside-Pack.png">
 </head>
 
-"Everything is beautifully finished. I’ll go down and look at a launch vehicle and everybody knows that the cable ties holding the wire looms should be 50 millimeters apart, equally spaced within Nibs pointing up. You go down there and all the wiring looms are just works of art
+*"Everything is beautifully finished. I’ll go down and look at a launch vehicle and everybody knows that the cable ties holding the wire looms should be 50 millimeters apart, equally spaced within Nibs pointing up. You go down there and all the wiring looms are just works of art*
 
-And you can argue that why is that really needed? Does it matter if they’re 50 millimeters or 60 millimeters apart? Probably not. But the reality is, if someone has taken the pride to make it all look just absolutely beautiful, then chances are they’ve taken the pride to look at the wires at their cable tying and the tray, they’re cable tying too.
+*And you can argue that why is that really needed? Does it matter if they’re 50 millimeters or 60 millimeters apart? Probably not. But the reality is, if someone has taken the pride to make it all look just absolutely beautiful, then chances are they’ve taken the pride to look at the wires at their cable tying and the tray, they’re cable tying too.*
 
-I think there’s nothing better than somebody walking away from their job going, that’s the best that can be. So it’s hard coded into the DNA of the company. It’s one of our core values and that is built beautiful things. So anything that goes out of the door of Rocket Lab must be beautiful."  
+*I think there’s nothing better than somebody walking away from their job going, that’s the best that can be. So it’s hard coded into the DNA of the company. It’s one of our core values and that is built beautiful things. So anything that goes out of the door of Rocket Lab must be beautiful."*  
 \- [Peter Beck, Rocket Lab](https://youtu.be/IueD0_f7O8k?si=m25ORLIJwAgbrrNi&t=864)
 
 ### <b>Effort Put Into Beauty Provides Positive Externalities</b>
@@ -39,7 +39,7 @@ This, as with many of the points I'll make in this post, become self-evident to 
 
 ### <b>Elegance Is Key</b>
 
-“All of us had been trained by Kelly Johnson and believed fanatically at his insistence that an airplane that looked beautiful would fly the same way.”  
+*“All of us had been trained by Kelly Johnson and believed fanatically at his insistence that an airplane that looked beautiful would fly the same way.”*  
 \- Ben R. Rich, Skunk Works
 
 An elegant design is one that maximizes a desired trait while minimizing the complexity and cost required to achieve it. Such elegance in a design is a subset of beauty. Beauty is possible without elegance, but elegance itself is a form of beauty.
@@ -51,7 +51,7 @@ UBC Solar went through several minor and major iterations during the design of o
 
 In contrast, the final design eliminated the majority of the wasted conductor length by using pin connectors, organized the HV- and HV+ connections on either corner of the same side of the pack, and made the battery monitoring boards easily accessible (thank god for that!). All these changes made the battery pack more elegant, achieving the same result with less complexity, cost, and risk. Part of why I've been mentioning beauty so much on UBC Solar is that I see the risk of our next pack not being a particularly elegant design, and I want to avoid that!
 
-"In traditional Japanese aesthetics, wabi-sabi (侘び寂び) centers on the acceptance of transience and imperfection. It is often described as the appreciation of beauty that is 'imperfect, impermanent, and incomplete'."  
+*"In traditional Japanese aesthetics, wabi-sabi (侘び寂び) centers on the acceptance of transience and imperfection. It is often described as the appreciation of beauty that is 'imperfect, impermanent, and incomplete'."*    
 \- [Wikipedia](https://en.wikipedia.org/wiki/Wabi-sabi)
 
 It is important to note that elegant designs do not require perfection. A design can be elegant and beautiful without being perfect. There's some elegance in an [O(1) search space L1 cache of clothes sitting on your floor](https://x.com/0xAsync/status/1607541407937339392) while such a situation is not perfect, beautifully symmetric, or particularly clean - focusing on a subset of the beauty in this situation as other negative externalities can present themselves.
