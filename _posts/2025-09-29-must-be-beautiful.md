@@ -4,7 +4,7 @@ title: "It Must Be Beautiful"
 categories: ideas
 tags:
     - Ideas
-    - Drafts
+    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1213

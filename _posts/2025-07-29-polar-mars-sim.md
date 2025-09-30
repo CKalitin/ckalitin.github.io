@@ -4,7 +4,6 @@ title: "Rewriting My Mars Entry Simulation Using Polar Coordinates"
 categories: Space
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1069
