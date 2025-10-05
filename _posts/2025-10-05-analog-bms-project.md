@@ -13,9 +13,7 @@ word_count: 2500
     <meta property="og:image" content="{{site.url}}/assets/images/must-be-beautiful/Brightside-Pack.png">
 </head>
 
-![Image](/assets/images/analog-bms-project/PCB-no-probes.jpg){:height="400"}
-
-![Image](/assets/images/analog-bms-project/module.JPG){:height="400"}
+![Image](/assets/images/analog-bms-project/PCB-no-probes.jpg){:height="350"}
 
 About 6 weeks ago I read a [blog post by Vlastimil Slinták](https://uart.cz/en/2557/lto-bms-development-notes/) in which attempted to develop an Analog Battery Management System (BMS) for a 1s3p Lithium Titanate (LTO) battery pack. From what I understand, he ended up running into an issue where he could not drive a PMOS's gate high enough to open it fully, and decided to go with a low-power microcontroller in the end.
 
@@ -29,8 +27,6 @@ Fundamentally, a BMS has 5 main functions:
 - Overcurrent protection (OC)
 
 Other functions include cell balancing, state of charge (SoC) estimation, and communication with other devices. These were out of scope for an Analog BMS and I get a good enough taste of these technical problems on the [UBC Solar student design team](https://ubcsolar.com/) where I work on the BMS for [our 5.4 kWh Li-ion battery pack](https://ckalitin.github.io/ideas/2025/09/29/must-be-beautiful.html).
-
-https://x.com/ee44cd/status/1957650301126623319
 
 ### **Schematic Overview**
 
@@ -52,9 +48,9 @@ A similar arrangement is used for the overvoltage (OV) protection, however I use
 
 To detect undervoltage and overvoltage conditions, I used two comparators (TLV7031) that compared divided battery voltages to a fixed 1.8 V voltage reference.
 
-To simplify the BOM, I used a single 1.8 V fixed voltage reference (TPS71518) and two voltage dividers to scale the battery voltage to toggle the comparators at the desired voltages. For example, for undervoltage I divided the 2.7 V minimum voltage of the cells into 1.8 V and connected this to the inverting input of the comparator. The non-inverting input was connected to the 1.8 V reference. When the battery voltage dropped below 2.7 V, the output of the comparator went high, pulling the gate of the PMOS to BATT+ and disabling discharge.
+I baselined the use of [Molicel's INR-18650-M35A cells](https://www.molicel.com/wp-content/uploads/INR18650M35A-V2-80096.pdf), which are the cells that UBC Solar uses. This provided a voltage range of 2.7 V to 4.2 V per cell, giving me my UV and OV conditions.
 
-I baselined the use of [Molicel's INR-18650-M35A cells](https://www.molicel.com/wp-content/uploads/INR18650M35A-V2-80096.pdf), which are the cells that UBC Solar uses. This provided a voltage range of 2.7 V to 4.2 V per cell.
+To simplify the BOM, I used a single 1.8 V fixed voltage reference (TPS71518) and two voltage dividers to scale the battery voltage to toggle the comparators at the desired voltages. For example, for undervoltage I divided the 2.7 V minimum voltage of the cells into 1.8 V and connected this to the inverting input of the comparator. The non-inverting input was connected to the 1.8 V reference. When the battery voltage dropped below 2.7 V, the output of the comparator went high, pulling the gate of the PMOS to BATT+ and disabling discharge.
 
 My original design involved two voltage references (TPS7A2401) that would output 2.542 V and 4.142 V. These values were the closest I could trim the output of the references to 2.5 V and 4.2 V (I hadn't yet realized 2.7 V is the correct value for UV for battery chemistry reasons). [Chris Jack](https://x.com/ee44cd/status/1957650301126623319) (Great name) pointed out that I could get away with a single 1.8 V reference and two voltage dividers, instead of 2 references and 2 dividers.
 
@@ -64,14 +60,13 @@ I ended up having issues with the voltage dividers not dividing BATT+ properly b
 
 
 
-- Circuit Overview
-    - Fundamental principle: Body diodes of FETs
-    - Comparators (Mistake of not doing all logic signal-side, not power-side, link Limina)
-    - Voltage references + dividers (Wrong approach, more later)
-    - Part Selection
-    - Breadboard Testing
-    - Direct connections for all (bad design decision, not really required)
-    - Quiescense current
+**Quiesence Current & Part Selection**
+
+
+
+**PCB Routing**
+
+
 
 ### **Enclosure Rev 1**
 
