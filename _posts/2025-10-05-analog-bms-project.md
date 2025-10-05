@@ -46,7 +46,7 @@ A similar arrangement is used for the overvoltage (OV) protection, however I use
 
 **Toggling UV/OV Fault Conditions**
 
-To detect undervoltage and overvoltage conditions, I used two comparators (TLV7031) that compared divided battery voltages to a fixed 1.8 V voltage reference.
+To detect undervoltage and overvoltage conditions, I used two comparators (TLV7031) that compared divided battery voltages to a fixed 1.8 V voltage reference. These comparators were chosen for low quiescense current, rail-to-rail operation, and fairly high hysteresis (10 mV typical).
 
 I baselined the use of [Molicel's INR-18650-M35A cells](https://www.molicel.com/wp-content/uploads/INR18650M35A-V2-80096.pdf), which are the cells that UBC Solar uses. This provided a voltage range of 2.7 V to 4.2 V per cell, giving me my UV and OV conditions.
 
@@ -58,7 +58,26 @@ I ended up having issues with the voltage dividers not dividing BATT+ properly b
 
 **Temperature Faults**
 
+Temperature faulting circuitry uses the same principle as the UV/OV circuitry with FETs and comparators. The difference is that I used a 560k NTC thermistor and an additional PMOS.
 
+To sense temperature, I hooked up the NTC thermistor in a voltage divider with a 1M resistor from Batt+ to GND. This way, voltage at the midpoint of the divider increases as temperature increases. By referencing this against voltage dividers from BATT+ to GND, I could toggle comparators at given temperatures.
+
+I setup the comparators to output high (5 V) whenever a fault temperature occured. Because I used a rail-to-rail comparator (TLV7032) and the comparator outputs are connected to each other, I added a diode in series with each output to prevent one comparator outputting high and the other low (eg. one OT and other nominal) and effectively shorting GND to 5 V. This is a good time to mention that if you have any better ideas for this circuitry please email (christopher.kalitin@gmail.com) or [DM me](https://x.com/CKalitin).
+
+The UT/OT comparators output high during a fault condition, which is whats required to open the PMOS. However, the NMOS needs to be pulled to GND to open, so I added a PMOS with source to 5V, drain to the gate of the NMOS, and gate to the output of the UT/OT comparators. This way, I flip the logic of the UT/OT comparators to drive the NMOS gate low during a fault condition.
+
+**Don't Do Logic Power-Side**
+
+As [one of my Moots pointed out](https://x.com/liminalsunset_/status/1957613147210346914), a mistake in this design is doing UT/OT logic power-side instead of signal-side. All MOSFETs have an on resistance (Rds(on)), and a BMS should aim for as low resistance as possible to minimize power loss. By adding 2 more FETs in series with the load path, I increassed the overall Rds(on) of the BMS. A better design would be to do all OT/UT logic signal-side, so as to not add more resistance power-side.
+
+He also pointed out that the [drain current of NMOS's is a function of Vgs](https://x.com/CKalitin/status/1957620149005217891), and with only 0.8 V between my NMOS gate and source when the battery is at 4.2 V, the drain current is ~100 mA. I decreased the OV threshold to 4 V to increase the max current to ~1 A. This is a bandaid on the problem and is a result of a fundamentally flawed design, but it works for a learning exercise PCB.
+
+**Breadboarding Temperature Circuitry**
+
+![Image](/assets/images/analog-bms-project/breadboard.jpg){:height="450"}  
+![Image](/assets/images/analog-bms-project/breadboard-2.jpg){:height="150"}  
+
+To confirm the temperature circuitry I designed worked, I breadboarded it up and tested it by shorting the equivalent of the thermistor voltage divider output to PSU+ (OT fault) and GND (UT fault). This worked first try!
 
 **Quiesence Current & Part Selection**
 
