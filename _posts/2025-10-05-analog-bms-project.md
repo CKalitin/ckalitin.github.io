@@ -28,6 +28,8 @@ Fundamentally, a BMS has 5 main functions:
 
 Other functions include cell balancing, state of charge (SoC) estimation, and communication with other devices. These were out of scope for an Analog BMS and I get a good enough taste of these technical problems on the [UBC Solar student design team](https://ubcsolar.com/) where I work on the BMS for [our 5.4 kWh Li-ion battery pack](https://ckalitin.github.io/ideas/2025/09/29/must-be-beautiful.html).
 
+See all my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0), [BOM](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0), [testing data](https://docs.google.com/spreadsheets/d/1fG0IjSdaaXqMwqhgySdIyr8Wdc52NVvBKQQJ1HLR2iQ/edit?usp=sharing), and ![KiCAD / Solidworks files on GitHub](https://github.com/CKalitin/analog-bms/blob/master/renders/PCB_schematic.jpg).
+
 ### **Schematic Overview**
 
 ![Image](/assets/images/analog-bms-project/PCB_schematic.jpg)  
@@ -74,17 +76,22 @@ He also pointed out that the [drain current of NMOS's is a function of Vgs](http
 
 **Breadboarding Temperature Circuitry**
 
-![Image](/assets/images/analog-bms-project/breadboard.jpg){:height="450"}  
-![Image](/assets/images/analog-bms-project/breadboard-2.jpg){:height="150"}  
+![Image](/assets/images/analog-bms-project/breadboard.jpg){:height="350"}
 
 To confirm the temperature circuitry I designed worked, I breadboarded it up and tested it by shorting the equivalent of the thermistor voltage divider output to PSU+ (OT fault) and GND (UT fault). This worked first try!
 
 **Quiesence Current & Part Selection**
 
+The primary condsideration I took into account for part selection is ensuring all components had low quiesence current. The BMS is always connected to the battery, so it must draw a very small amount of current to avoid draining the battery over time, and potentially going low enough to damage the cells.
 
+Two of the 18650 cells I chose have a capacity of 7000 mAh. If the BMS draws 50 uA ([Vlastimil Slinták](https://uart.cz/en/2557/lto-bms-development-notes/) got 50 uA), this would drain the battery in 140,000 hours, or 16 years. This is acceptable for a BMS. 
+
+The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0) and all notes about part selection are in my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0).
 
 **PCB Routing**
 
+![Image](/assets/images/analog-bms-project/PCB_kicad_top_layer.png){:height="350"}
+<i><a href="{{site.url}}/assets/images/analog-bms-project/PCB_kicad_top_layer.png">Expanded Image</a></i>
 
 
 ### **Enclosure Rev 1**
