@@ -10,7 +10,7 @@ author:
 word_count: 2500
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/must-be-beautiful/Brightside-Pack.png">
+    <meta property="og:image" content="{{site.url}}/assets/images/analog-bms-project/PCB-no-probes.jpg">
 </head>
 
 ![Image](/assets/images/analog-bms-project/PCB-no-probes.jpg){:height="350"}
@@ -104,8 +104,9 @@ The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXV
 
 ### **Enclosure Rev 1**
 
-![Image](/assets/images/analog-bms-project/module.JPG){:height="350"}  
-![Image](/assets/images/analog-bms-project/module_exploded.JPG){:height="350"}  
+![Image](/assets/images/analog-bms-project/module.JPG){:width="300"}
+![Image](/assets/images/analog-bms-project/module_exploded.JPG){:width="300"}
+
 
 After the PCB was completed, I took a first run at designing an enclosure for the battery module using Solidworks.
 
@@ -121,7 +122,15 @@ This is all to say that my first iteration is a terrible design. It's a far bett
 
 ### **PCB Bringup**
 
-- PCB Bringup (link reflow oven post)
+PCBWay offered to manufacture a PCB of mine for free if I made a review of their product.
+
+The PCB is obviously functional and looks very beautiful. The silkscreen doesn't have the highest resolution, but this is a function of me using very small text. They through in a free stencil as well, the nice kind that's as big as a picture frame. They did only give enough credits to get the slowest shipping option for free, so they saved ~$5 on shipping on my behalf at the expense of 1.5 weeks.
+
+PCBWay is obviously one of the big PCB manufacturers so the product is as expected. No real differentiating factors from JLCPCB or really anyone else. But they do give you free PCBs if you ask!!! That's a very important differentiating factor.
+
+![Image](/assets/images/analog-bms-project/reflow.jpg){:height="300"}
+
+I used the [reflow oven I made a couple of weeks](https://ckalitin.github.io/ideas/2025/09/14/made-reflow-oven.html) ago on this PCB. This was the first time I used the reflow oven on a real project and it worked great.
 
 ### **Debugging**
 
