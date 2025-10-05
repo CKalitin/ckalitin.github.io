@@ -90,9 +90,19 @@ The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXV
 
 **PCB Routing**
 
-![Image](/assets/images/analog-bms-project/PCB_kicad_top_layer.png){:height="350"}
+![Image](/assets/images/analog-bms-project/PCB_kicad_top_layer.png){:height="350"}  
 <i><a href="{{site.url}}/assets/images/analog-bms-project/PCB_kicad_top_layer.png">Expanded Image</a></i>
 
+[Ari Wasch pointed out](https://x.com/ariwasch/status/1958188737726202057) that direct connections would be ideal instead of thermal reliefs for the high current paths. I set the entire top layer of the PCB (BATT+) to use direct connections instead of thermal reliefs and didn't really have any problems with this. Resistance was marginally decreased and I never had issues soldering / desoldering components.
+
+[I asked former UBC Solar Electrical Lead Mischa Johal](/assets/images/analog-bms-project/mischa-on-direct-connections.jpg) about if we have / should use direct connections on our module sheet PCBs (they hold and provide current paths for our cells) to decrease the resistance of our pack. Apparently some characterization testing was done on this (with little documentation) and it was found that temperatures didn't significantly increase and resistance didn't significantly decrease.
+
+![Image](/assets/images/analog-bms-project/i-love-my-moots.jpg){:height="350"}
+<i><a href="{{site.url}}/assets/images/analog-bms-project/i-love-my-moots.jpg">I love my moots.</a></i>
+
+[One of my moots](https://x.com/sgull_dev/status/1958066751775596706) gave the amazing suggestion of removing all reference designators and replacing it with fun squigles. The only logical response to this is to [get all my moots to send me their best pepes and memes](https://x.com/CKalitin/status/1958071000773587136) to put on the PCB, along with my [favourite 4chan greentext](https://www.reddit.com/r/4chan/comments/qnh8m5/best_thing_ive_ever_read_in_4chan/).
+
+https://x.com/sgull_dev/status/1958066751775596706
 
 ### **Enclosure Rev 1**
 
