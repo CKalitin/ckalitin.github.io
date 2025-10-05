@@ -28,7 +28,7 @@ Fundamentally, a BMS has 5 main functions:
 
 Other functions include cell balancing, state of charge (SoC) estimation, and communication with other devices. These were out of scope for an Analog BMS and I get a good enough taste of these technical problems on the [UBC Solar student design team](https://ubcsolar.com/) where I work on the BMS for [our 5.4 kWh Li-ion battery pack](https://ckalitin.github.io/ideas/2025/09/29/must-be-beautiful.html).
 
-See all my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0), [BOM](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0), [testing data](https://docs.google.com/spreadsheets/d/1fG0IjSdaaXqMwqhgySdIyr8Wdc52NVvBKQQJ1HLR2iQ/edit?usp=sharing), and ![KiCAD / Solidworks files on GitHub](https://github.com/CKalitin/analog-bms/blob/master/renders/PCB_schematic.jpg).
+See all my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0), [BOM](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0), [testing data](https://docs.google.com/spreadsheets/d/1fG0IjSdaaXqMwqhgySdIyr8Wdc52NVvBKQQJ1HLR2iQ/edit?usp=sharing), and [KiCAD / Solidworks files on GitHub](https://github.com/CKalitin/analog-bms/blob/master/renders/PCB_schematic.jpg).
 
 ### **Schematic Overview**
 
@@ -97,16 +97,27 @@ The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXV
 
 [I asked former UBC Solar Electrical Lead Mischa Johal](/assets/images/analog-bms-project/mischa-on-direct-connections.jpg) about if we have / should use direct connections on our module sheet PCBs (they hold and provide current paths for our cells) to decrease the resistance of our pack. Apparently some characterization testing was done on this (with little documentation) and it was found that temperatures didn't significantly increase and resistance didn't significantly decrease.
 
-![Image](/assets/images/analog-bms-project/i-love-my-moots.jpg){:height="350"}
-<i><a href="{{site.url}}/assets/images/analog-bms-project/i-love-my-moots.jpg">I love my moots.</a></i>
+![Image](/assets/images/analog-bms-project/i-love-my-moots.jpg){:height="250"}  
+<i><a href="{{site.url}}/assets/images/analog-bms-project/i-love-my-moots.jpg">Expanded Image</a></i>. I love my moots.
 
 [One of my moots](https://x.com/sgull_dev/status/1958066751775596706) gave the amazing suggestion of removing all reference designators and replacing it with fun squigles. The only logical response to this is to [get all my moots to send me their best pepes and memes](https://x.com/CKalitin/status/1958071000773587136) to put on the PCB, along with my [favourite 4chan greentext](https://www.reddit.com/r/4chan/comments/qnh8m5/best_thing_ive_ever_read_in_4chan/).
 
-https://x.com/sgull_dev/status/1958066751775596706
-
 ### **Enclosure Rev 1**
 
-- Enclosure rev 1 design (bad design)
+![Image](/assets/images/analog-bms-project/module.JPG){:height="350"}  
+![Image](/assets/images/analog-bms-project/module_exploded.JPG){:height="350"}  
+
+After the PCB was completed, I took a first run at designing an enclosure for the battery module using Solidworks.
+
+My first attempt required 3d printed parts on the top and bottom of the cells to be installed before nickel tabs were spot welded to the cells (allowing for no repairability) and 3 screws to hold the outermost parts of the enclosure to the inner 3d printed parts. Suboptimal design.
+
+Because there's a screw terminal on one end of the PCB, there's only a single screw holding the PCB in place, which allows for rotation on the vertical axis.
+
+To connect the bottom of the cells (Batt+) to the PCB, I would have used a 16 gauge wire soldered to the PCB and to the nickel tab on the bottom.
+
+Finally, the bottom of the PCB would be directly above the top nickel tab (Batt-), and any through-hole components (eg. for the positive and negative terminals of the screw terminal) would be at risk of shorting to the nickel tab (most critical failure mode of a battery).
+
+This is all to say that my first iteration is a terrible design. It's a far better idea to make everything a snap-fit to the cells, consider using cells with both terminals on the same side [like Vlastimil did](https://x.com/vascocz/status/1958028828485287983), and to better isolate the PCB from the top nickel tab.
 
 ### **PCB Bringup**
 
