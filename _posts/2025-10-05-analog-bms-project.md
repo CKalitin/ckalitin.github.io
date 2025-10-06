@@ -173,7 +173,7 @@ Several times during testing I found that the UT/OT FETs were not conducting or 
 
 As part of creating a truth table of expected behaviour, I learned the basics of LTspice and simulated the entire BMS circuit. LTspice's comparator model backfed current into the voltage dividers for UV and OV because the dividers were too weak (1M resistors). This meant that the voltage at the comparator inputs was not what I expected, and the comparators were not toggling when I expected them to.
 
-![Image](/assets/images/analog-bms-project/ov-divider-testing.jpg){:height="300"}  
+![Image](/assets/images/analog-bms-project/ov-divider-testing.jpg){:height="250"}  
 <i><a href="{{site.url}}/assets/images/analog-bms-project/ov-divider-testing.jpg" target="_blank" rel="noopener">Expanded Image</a>. When plotting the OV voltage divider output for given input voltages, I did not get a linear response.</i>
 
 ![Image](/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg){:height="250"}  
