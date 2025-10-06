@@ -191,7 +191,7 @@ These stronger resistors draw more current (I=V/R, so 4.2 V / 10k = 0.42 mA), wh
 
 ![Image](/assets/images/analog-bms-project/led.jpg){:height="300"}  
 
-In the end, I was able to get current output out of the BMS PCB when simulating the cells with a power supply. Great success! That LED actually turned on!
+In the end, I was able to pull current out of the BMS PCB when simulating the cells with a power supply. Great success! That LED actually turned on!
 
 I was able to validate undervoltage protection and the functionality of the over/under temperature faulting comparators. I used a PTC fuse to OC and when I shorted the output to GND with a 1 A current limit on my power supply, I read 300 mA of current. PTC fuses don't work in the way that I expected them to, as current flow wasn't completely cut off immediately. The temperature of the fuse did reach 37 C. Overvoltage protection I was not able to validate because of the issues with the OV voltage divider and comparator, I made a mistake not using 2 voltage reference ICs.
 
