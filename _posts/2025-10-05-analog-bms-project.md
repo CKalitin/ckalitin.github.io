@@ -13,7 +13,7 @@ word_count: 2500
     <meta property="og:image" content="{{site.url}}/assets/images/analog-bms-project/PCB-no-probes.jpg">
 </head>
 
-![Image](/assets/images/analog-bms-project/PCB-no-probes.jpg){:height="350"}
+![Image](/assets/images/analog-bms-project/PCB-probes.jpg){:height="350"}
 
 About 6 weeks ago I read a [blog post by Vlastimil Slinták](https://uart.cz/en/2557/lto-bms-development-notes/) in which attempted to develop an Analog Battery Management System (BMS) for a 1s3p Lithium Titanate (LTO) battery pack. From what I understand, he ended up running into an issue where he could not drive a PMOS's gate high enough to open it fully, and decided to go with a low-power microcontroller in the end.
 
@@ -28,7 +28,7 @@ Fundamentally, a BMS has 5 main functions:
 
 Other functions include cell balancing, state of charge (SoC) estimation, and communication with other devices. These were out of scope for an Analog BMS and I get a good enough taste of these technical problems on the [UBC Solar student design team](https://ubcsolar.com/) where I work on the BMS for [our 5.4 kWh Li-ion battery pack](https://ckalitin.github.io/ideas/2025/09/29/must-be-beautiful.html).
 
-See all my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0), [BOM](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0), [testing data](https://docs.google.com/spreadsheets/d/1fG0IjSdaaXqMwqhgySdIyr8Wdc52NVvBKQQJ1HLR2iQ/edit?usp=sharing), and [KiCAD / Solidworks files on GitHub](https://github.com/CKalitin/analog-bms/blob/master/renders/PCB_schematic.jpg).
+See all my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?usp=sharing), [BOM](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0), [testing data](https://docs.google.com/spreadsheets/d/1fG0IjSdaaXqMwqhgySdIyr8Wdc52NVvBKQQJ1HLR2iQ/edit?usp=sharing), and [KiCAD / Solidworks files on GitHub](https://github.com/CKalitin/analog-bms/blob/master/renders/PCB_schematic.jpg).
 
 ### **Schematic Overview**
 
@@ -86,7 +86,7 @@ The primary condsideration I took into account for part selection is ensuring al
 
 Two of the 18650 cells I chose have a capacity of 7000 mAh. If the BMS draws 50 uA ([Vlastimil Slinták](https://uart.cz/en/2557/lto-bms-development-notes/) got 50 uA), this would drain the battery in 140,000 hours, or 16 years. This is acceptable for a BMS. 
 
-The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0) and all notes about part selection are in my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?tab=t.0).
+The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXVPueQ1eiFWQywlaV26638HY9bX2LvsAcdvjEg/edit?gid=0#gid=0) and all notes about part selection are in my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?usp=sharing).
 
 **PCB Routing**
 
@@ -134,13 +134,47 @@ I used the [reflow oven I made a couple of weeks](https://ckalitin.github.io/ide
 
 ### **Debugging**
 
+I ran into a painful amount of issues during testing and easily spent many multiples more time debugging than designing. A good lesson to have forced into your head is that you can spend a little more design time to prevent debugging or make debugging easier later and you'll probably be saving time on net.
+
+Below is a list of a few issues I encountered, a lot more of them are described in a more inscrutable manner in my [project notes](https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?usp=sharing).
+
+**Incorrect Resistors**
+
+![Image](/assets/images/analog-bms-project/annotation.png){:height="300"}  
+<i><a href="{{site.url}}/assets/images/analog-bms-project/annotation.png">Expanded Image</a>. Annoted trace voltages test data in firefox. <a href="https://github.com/CKalitin/analog-bms/tree/master/tests">All available in the Git repo</a>.</i>
+
+First, a fairly mundane issue. In my project notes I came to the conclusion that for the overvoltage BATT+ voltage divider I would need to use 600k and 500k equivalent resistances for the top and bottom of the divider respectively. I noted this down but never updated the schematic so manufactured the PCB with incorrect resistors.
+
+When I encountered behaviour that didn't align with my expectations at all I started annotating PDFs of the schematic in firefox and added text boxes with observed voltages for all relevant traces. This is how I found the OV voltage divider was incorrect.
+
+**Incorrect MOSFET Footprint**
+
+![Image](/assets/images/analog-bms-project/Rotated-FETs.jpg){:height="200"}    
+
+Labelling trace voltages also helped me to figure out that [all my MOSFET footprints were incorrect](https://x.com/CKalitin/status/1969834710554779652). I used the built-in KiCAD libraries for MOSFET schematic symbols and footprints, and these are not consistent with each other. Once again I had to learn the lesson that you must check all footprints yourself, don't blindly trust KiCAD libraries! SOT-23 is not purely used for MOSFETs, so the pinout is not consistent.
+
+Luckily, SOT-23 FETs are mostly symmetrical at 120 degree rotations, so I was able to desolder and rotate all FETs 120 degrees to get the correct pinout.
+
+![Image](/assets/images/analog-bms-project/table.jpg)  
+*This table defines expected voltages and FET states for given BATT+ voltages.*
+
+While attempting to figure out the issues with the OV voltage divider and FETs, I made a truth table of expected voltages and UV/OV FET states for given BATT+ voltages. This way I had a very clear visualization of what should be happening for given BATT+ voltages and I could easily compare to observed behaviour.
+
+For all analog comparator / logic circuitry you should always make a truth table like this so you're never guessing or trying to remember what should be happening.
+
+**Weak Temperature FET Pulldown**
+
+
+**Inconsistent Voltage Dividers**
+
+
 - Issues during testing
     - Wrong resistors
     - MOSFET footprint (easy fix)
     - Weak pulldowns? FET issue? Temp circuitry
     - Voltage dividers inconsistent (LTspice, replaced comparator & same issue)
 
-### **Conclusion**
+### **I'm Calling The Project Complete**
 
 - Conclusion / It worked
     - UV worked, not OV. Haven't tested UT or OT or OC (I should do this now)
