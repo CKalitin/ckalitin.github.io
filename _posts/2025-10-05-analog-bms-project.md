@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2500
+word_count: 3223
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/analog-bms-project/PCB-no-probes.jpg">
