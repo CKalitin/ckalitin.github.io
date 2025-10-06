@@ -164,15 +164,26 @@ For all analog comparator / logic circuitry you should always make a truth table
 
 **Weak Temperature FET Pulldown**
 
-
 **Inconsistent Voltage Dividers**
 
+![Image](/assets/images/analog-bms-project/ltspice.jpg){:height="300"}    
+<i><a href="{{site.url}}/assets/images/analog-bms-project/ltspice.jpg">Expanded Image</a>. LTspice sim available in the <a href="https://github.com/CKalitin/analog-bms/tree/master/ltspice">Git repo</a>.</i>
 
-- Issues during testing
-    - Wrong resistors
-    - MOSFET footprint (easy fix)
-    - Weak pulldowns? FET issue? Temp circuitry
-    - Voltage dividers inconsistent (LTspice, replaced comparator & same issue)
+As part of creating a truth table of expected behaviour, I learned the basics of LTspice and simulated the entire BMS circuit. LTspice's comparator model backfed current into the voltage dividers for UV and OV because the dividers were too weak (1M resistors). This meant that the voltage at the comparator inputs was not what I expected, and the comparators were not toggling when I expected them to.
+
+![Image](/assets/images/analog-bms-project/ov-divider-testing.jpg)  
+<i><a href="{{site.url}}/assets/images/analog-bms-project/ov-divider-testing.jpg">Expanded Image</a>. When plotting the OV voltage divider output for given input voltages, I did not get a linear response.</i>
+
+![Image](/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg)  
+<i><a href="{{site.url}}/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg">Expanded Image</a>. After replacing the comparator and using 5k/10k voltage divider (instead of 500k/1M), I got a linear response.</i>
+
+The result of the LTspice sim was not what I expected, but I didn't see any issues with the PCB at the time that I made the sim. However, later when I tested the OV voltage divider ouput as a function of BATT+ voltage, the output was very non-linear and clearly the comparator was causing some issues.
+
+This issue goes back to my decision to use a single 1.8 V reference, instead of 2 voltage references. If I used 2 voltage references, no unexpected current would be going through the voltage dividers and the references would be outputting the correct voltages. Fundamentally, this is due to a lack of theoretical understanding of comparators on my part. I haven't gotten that far in Elec 204 at UBC or in Pratical Electronics For Inventors or The Art Of Electronics.
+
+I replaced the comparator and used stronger 5k and 10k resistors for the divider and got a mostly linear response (the inconsistency in the graph above is due to low resolution of my multimeter and high % error at low voltages (since voltage measurements have constant precision, you get greater % error at low voltages)).
+
+These stronger resistors draw more current (I=V/R, so 4.2 V / 10k = 0.42 mA), which is unacceptable for a BMS but not for a learning exercise PCB. I should have done more breadboarding and LTspice simulating before manufacturing the PCB to avoid this issue.
 
 ### **I'm Calling The Project Complete**
 
