@@ -155,8 +155,8 @@ Labelling trace voltages also helped me to figure out that [all my MOSFET footpr
 
 Luckily, SOT-23 FETs are mostly symmetrical at 120 degree rotations, so I was able to desolder and rotate all FETs 120 degrees to get the correct pinout.
 
-![Image](/assets/images/analog-bms-project/table.jpg)  
-*This table defines expected voltages and FET states for given BATT+ voltages.*
+![Image](/assets/images/analog-bms-project/table.jpg){:height="300"}  
+<i>This table defines expected voltages and FET states for given BATT+ voltages. Screenshotted from <a href="https://docs.google.com/document/d/1lFDT0ucuAMWAn8gqRJLu0UlbEVvGxtJeb0i-wHZCMNs/edit?usp=sharing">project notes</a>.</i>
 
 While attempting to figure out the issues with the OV voltage divider and FETs, I made a truth table of expected voltages and UV/OV FET states for given BATT+ voltages. This way I had a very clear visualization of what should be happening for given BATT+ voltages and I could easily compare to observed behaviour.
 
@@ -167,14 +167,14 @@ For all analog comparator / logic circuitry you should always make a truth table
 **Inconsistent Voltage Dividers**
 
 ![Image](/assets/images/analog-bms-project/ltspice.jpg){:height="300"}    
-<i><a href="{{site.url}}/assets/images/analog-bms-project/ltspice.jpg">Expanded Image</a>. LTspice sim available in the <a href="https://github.com/CKalitin/analog-bms/tree/master/ltspice">Git repo</a>.</i>
+<i><a href="{{site.url}}/assets/images/analog-bms-project/ltspice.jpg" target="_blank" rel="noopener">Expanded Image</a>. LTspice sim available in the <a href="https://github.com/CKalitin/analog-bms/tree/master/ltspice" target="_blank" rel="noopener">Git repo</a>.</i>
 
 As part of creating a truth table of expected behaviour, I learned the basics of LTspice and simulated the entire BMS circuit. LTspice's comparator model backfed current into the voltage dividers for UV and OV because the dividers were too weak (1M resistors). This meant that the voltage at the comparator inputs was not what I expected, and the comparators were not toggling when I expected them to.
 
-![Image](/assets/images/analog-bms-project/ov-divider-testing.jpg)  
+![Image](/assets/images/analog-bms-project/ov-divider-testing.jpg){:height="300"}  
 <i><a href="{{site.url}}/assets/images/analog-bms-project/ov-divider-testing.jpg">Expanded Image</a>. When plotting the OV voltage divider output for given input voltages, I did not get a linear response.</i>
 
-![Image](/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg)  
+![Image](/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg){:height="300"}  
 <i><a href="{{site.url}}/assets/images/analog-bms-project/ov-divider-testing-replaced-comparator-and-5k-10k-divider.jpg">Expanded Image</a>. After replacing the comparator and using 5k/10k voltage divider (instead of 500k/1M), I got a linear response.</i>
 
 The result of the LTspice sim was not what I expected, but I didn't see any issues with the PCB at the time that I made the sim. However, later when I tested the OV voltage divider ouput as a function of BATT+ voltage, the output was very non-linear and clearly the comparator was causing some issues.
