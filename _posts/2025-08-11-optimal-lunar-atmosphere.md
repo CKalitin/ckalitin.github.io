@@ -4,7 +4,6 @@ title: "What's An Optimal Lunar Atmospheric Pressure For Reentry Vehicles?"
 categories: Space
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1277
