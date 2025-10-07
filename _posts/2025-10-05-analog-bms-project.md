@@ -13,7 +13,7 @@ word_count: 3223
     <meta property="og:image" content="{{site.url}}/assets/images/analog-bms-project/PCB-no-probes.jpg">
 </head>
 
-![Image](/assets/images/analog-bms-project/PCB-probes.jpg){:height="350"}
+![Image](/assets/images/analog-bms-project/PCB-probes.jpg)
 
 About 6 weeks ago I read a [blog post by Vlastimil Slinták](https://uart.cz/en/2557/lto-bms-development-notes/){: target="_blank"} in which he attempted to develop an Analog Battery Management System (BMS) for a 1s3p Lithium Titanate (LTO) battery pack. From what I understand, he ended up running into an issue where he could not drive a PMOS's gate high enough to open it fully, and decided to go with a low-power microcontroller in the end.
 
