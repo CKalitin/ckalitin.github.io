@@ -5,6 +5,8 @@ categories: projects
 tags:
     - Projects
     - Latest Posts
+redirect_from:
+  - /analogbms
 author:
  - Christopher Kalitin
 word_count: 3223
