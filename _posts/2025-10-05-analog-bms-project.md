@@ -128,7 +128,7 @@ PCBWay offered to manufacture a PCB of mine for free if I made a review of their
 
 The PCB is obviously functional and looks very beautiful. The silkscreen doesn't have the highest resolution, but this is a function of me using very small text. They threw in a free stencil as well, the nice kind that's as big as a picture frame. They did only give enough credits to get the slowest shipping option for free, so they saved ~$5 on shipping on my behalf at the expense of 1.5 weeks.
 
-PCBWay is obviously one of the big PCB manufacturers so the product is as expected. No real differentiating factors from JLCPCB or really anyone else. But they do give you free PCBs if you ask!!! That's a very important differentiating factor.
+PCBWay is obviously one of the big PCB manufacturers so the product is as expected. The differentiating factor is they do give you free PCBs if you ask!!! That's a very important differentiating factor.
 
 ![Image](/assets/images/analog-bms-project/reflow.jpg){:height="300"}
 
