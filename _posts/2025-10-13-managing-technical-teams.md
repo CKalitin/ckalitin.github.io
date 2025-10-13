@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing Technical Teams"
+title: "Optimize For Small Exceptionally Competent Teams"
 categories: projects
 tags:
     - Projects
@@ -35,24 +35,6 @@ Distilled Insights / Ideas:
     - Gene Kranz quote on NASA (higher level)
     - Contrast to rule 2
 
-Key ideas:
- - Benefits of small strong teams
-    - Engineers as ground truth
-    - Rapid decision making (docking collar or rules)
-    - Autonomously attacking critical path problems (Overholter)
-    - Some projects require this (MCC)
- - What must you do in the absence of a small strong team
-    - Documentation
-    - Design reviews
-    - Integration meetings
-    - Solar examples
- - Team progress declines without clear functional goals
-    - Tesla Bot
-    - Current sensor
-    - NASA
- - Finally, how do you find exceptionally competent engineers?
-    - Kaiser quote
-
 ![Image](/assets/images/managing-technical-teams/meme.png){: height="300px" }  
 
 Several years ago I saw the meme above and realized I came to the exact opposite conclusion as most people discussing it. [I've done my share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but the most useful insights from this meme is not to feel sympathy for the child.
@@ -65,36 +47,21 @@ I've spent the past couple of months reading books on some of the early monument
 
 ### **Small Strong Teams**
 
- - Benefits of small strong teams
-    - Engineers as ground truth
-    - Rapid decision making (docking collar or rules)
-    - Autonomously attacking critical path problems (Overholter)
-    - Some projects require this (MCC)
-
-Structure:
-- Extremely fast decision making (course correction blog post)
-- Engineers all know exactly how they fit into the product and their interfaces
-- Engineers individually attack critical path problems
-- Examples:
-    - MCC is only possible with a small team of exceptional engineers (Boeing happens when this fails)
-    - Dennis Overholter independently discovering the stealth problem
-    - Elon Dragon Docking Collar
-
-"If the team is small and strong, then engineers and the code are the source of truth. So, they [engineers] have the source of truth, not some manager."  
+*"If the team is small and strong, then engineers and the code are the source of truth. So, they [engineers] have the source of truth, not some dmanager."*  
  \- *[Andrej Karpathy](https://x.com/rohanpaul_ai/status/1977266545333297525)*
 
-"The Skunk Works manager must be delegated practically complete control of his program in all aspects."    
- \- Kelly Johnson's Skunk Works Operating Rule #1
+*"The Skunk Works manager must be delegated practically complete control of his program in all aspects."*  
+ \- *Kelly Johnson's Skunk Works Operating Rule #1*
 
-Most importantly, a small number of exceptionally competent engineers can extremely rapidly make decisions that advance progress to their shared goal. If all engineers have ownership over their individual systems, they have the authority to make decisions they find useful quickly. This decreases the timeline to completion of a project. However, this only works if the decisions made rapidly are the right decisions, hence the prefix "exceptionally competent".
+Most importantly, a small number of exceptionally competent engineers can extremely rapidly make decisions that advance progress to their shared goal. If all engineers have ownership over their individual systems, they have the authority to make decisions they find useful quickly. This decreases the timeline to completion of a project. However, this only works if the decisions made rapidly are the right decisions, hence the prefix "exceptionally competent."
 
-"There must be a minimum number of reports required, but important work must be recorded thoroughly."  
- \- Kelly Johnson's Skunk Works Operating Rule #5
+*"There must be a minimum number of reports required, but important work must be recorded thoroughly."*  
+ \- *Kelly Johnson's Skunk Works Operating Rule #5*
 
 Furthermore, a small team means all engineers can easily interface with each other without excessive documentation or meetings. All engineers must understand how changing their system affects other systems and must understand all relevant interfaces. A subset of being an exceptionally competent engineer is being interdisciplinary, and this helps when interfacing with other engineers and systems.
 
-“The number of people having any connection to the project must be restricted in an almost vicious manner. Use a small number of good people.”  
- \- Kelly Johnson's Skunk Works Operating Rule #3
+*“The number of people having any connection to the project must be restricted in an almost vicious manner. Use a small number of good people.”*  
+ \- *Kelly Johnson's Skunk Works Operating Rule #3*
 
 The marginal addition of an engineer to a project makes interfacing more difficult, as there is another person making decisions to interface with. A greater number of engineers increases overhead, which is the fundamental reason why large teams move so slowly. Rapid decision making also becomes harder as more people must be consulted / interfaced with.
 
@@ -102,7 +69,7 @@ When engineers are let loose in a competent organization with a clear goal, they
 
 **Examples**
 
-“In the seconds-critical world of Mission Control, a single individual must assume responsibility to take any actions needed for crew safety and mission success.”  
+*“In the seconds-critical world of Mission Control, a single individual must assume responsibility to take any actions needed for crew safety and mission success.”*  
  \- *Failure is Not an Option, Chapter 22, Gene Kranz*
 
 In some cases, success is completely impossible with a large team. Apollo Mission Control is an example of this. During the Apollo 12 mission a lightning strike on ascent caused a fuel cell failure in the Command Module. If power was lost for >120 seconds, an abort would be required. John Arron was on console monitoring cabin pressure saw scrambled data and in tens of seconds made a connection between this faulty data and similar data seen in ground testing a year prior when a technican inadvertantly turned off a power supply. He traced the issue to the Signal Conditioning Equipment (SCE) power supply, and the crew switched to the Auxiliary (AUX) power supply, saving the mission.
@@ -117,25 +84,36 @@ To use extremely competent engineers to maximum leverage you must let them make 
 
 ### **What Must You Do In The Absence Of A Small Strong Team?**
 
- - What must you do in the absence of a small strong team
-    - Documentation
-    - Design reviews
-    - Integration meetings
-    - Solar examples
+*“Our people knew what they were doing, worked skilfully under intense pressure, and skirted hazards mostly by sheer expertise and experience. But as we grew the skill level decreased and sloppiness suddenly became a serious problem.”*
+ \- *Skunk Works, Chapter 3, Ben R. Rich*
 
-“Our people knew what they were doing, worked skilfully under intense pressure, and skirted hazards mostly by sheer expertise and experience. But as we grew the skill level decreased and sloppiness suddenly became a serious problem.”
-Chapter 3, Skunk Works, Ben R. Rich
+The UBC Solar student design team I'm a part of is a fun fairly benign example of a slightly-to-large team with varying levels of competence. After the 2025 recruiting cycle we brought on about 30 new members, raising our total to about 70. Because we constantly intake new first year engineering students that don't particularly understand how to do useful engineering work in a technical organization, we cannot run like the small strong teams I have been describing. Instead, more systems and processes are required to ensure everyone is making progress towards our common goal of winning competition.
 
-UBC Solar uses design reviews because we get new first year engineering students every year that don't really know how to do useful things. 
-This is the failure mode of my first project (current sensor), and contrast it to how quickly I designed the circuit for the next generation current sensor.
-If you aren't dead set on a functional goal, you'll go in suboptimal directions (Tesla Bot Kevin Huang example). 
+My first project on UBC Solar was characterizing our main pack current sensor. This took about 5 months from start to finish. For context, when our previous electrical lead Mischa Johal suggested this project he believed he could do it in a weekend. I took a few wrong turns on this project and spent the majority of it learning the systems I was working with. Because I didn't have the requisite technical understanding at the beginning, I had to spend a lot of time learning and going down rabbit holes which were not on the critical path of the project. This was very useful for my learning, but it was not the shortest path to completing the project. In contrast, last Saturday I selected parts and designed the circuit at a high-level for our next generation vehicle's shunt current sensor in a few hours.
 
-Integration failures occur when everyone does not have a clear view of everything going on, this is why being interdisciplinary is so important. (QUOTE HOW TO BUILD A CAR)
-“Engineers needed to become operators. There was a hell of a difference. An engineer can explain how a system should work in theory, but an operator has to know what the engineer knows and how the systems tie together to get the mission accomplished.”
-Chapter 3 Failure is Not an Option, Gene Kranz
+UBC Solar has a few systems in place to mitigate the risk of novice engineers (as I was!) going down suboptimal paths:
+1. Design Review meetings and documents
+2. Integration meetings with other subteams
+3. Detailed Documentation
 
-“What are they doing? Compiling one million sheets of paper every day. Reports and data that no one in the bureaucracy has either the time or the interest to read.”
-Ben R. Rich on the cost overruns due to countless USAF auditors on the B2 bomber program.
+Throughout a project's lifecycle UBC Solar has a few primary design review documents and associated meetings. Design Review 0 (DR0) documents set functional requirements and constraints for a project. DR1 documents explore solutions that meet the given requirements. DR2 documents are detailed designs ready for implementation. DR3 documents are mostly reflection, summary, and lessons learned.
+
+This process makes the current state and direction of a project clear at any given instant, but require a lot of overhead. These processes were designed for novice engineers to avoid common pitfalls, but such new members are also those that appreciate this structure the least (it is mostly writing and meetings). You need to get a few scrapes and bruises before you appreciate the value of such processes (as I did).
+
+*“In fact, my sole interest lies in improving the ability of the car to score points and what helps me do that is my experience across the disciplines.”*  
+ \- *Adrian Newey, How to Build a Car*
+
+Integration failures occur when members of a team do not have a full understanding of how their system affects other systems in the car. UBC Solar's current electrical lead Aarjav Jain has elected to solve this problem through numerous integration meetings between subteams. I'm particularly happy about this new process, for [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) as shown up on UBC Solar far too many times. However, an excess of integration meetings slows progress without significant decrease in the risk of Conway's Law.
+
+*“Engineers needed to become operators. There was a hell of a difference. An engineer can explain how a system should work in theory, but an operator has to know what the engineer knows and how the systems tie together to get the mission accomplished.”*  
+ \- *Gene Kranz, Failure is Not an Option, Chapter 3*
+
+Strive to be the kind of operator Gene Kranz describes. You can't just know how individual systems work in theory, you must understand how they work together in practice and tie together.
+
+*“What are they doing? Compiling one million sheets of paper every day. Reports and data that no one in the bureaucracy has either the time or the interest to read.”*  
+ \- *Ben R. Rich in Skunk Works on the cost overruns due to countless USAF auditors on the B2 bomber program.*
+
+Each additional process imposes a cost. We must be careful not to overburden our team with excessive documentation and meetings, it's a fairly thin line you must walk. The most [elegant and beautiful solution](https://ckalitin.github.io/ideas/2025/09/29/must-be-beautiful.html) to this is having a competent enough team that these processes are not required.
 
 ### **Team Progress Asymptotically Approaches Zero Without Clear Functional Goals**
 
