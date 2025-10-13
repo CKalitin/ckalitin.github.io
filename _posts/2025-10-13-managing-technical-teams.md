@@ -55,13 +55,13 @@ Key ideas:
 
 ![Image](/assets/images/managing-technical-teams/meme.png){: height="300px" }  
 
-Several years ago I saw the meme above and realized I came to the exact opposite conclusion as most people discussing it. I've done [my fair share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but the most useful insights from this meme is not to feel sympathy for the child.
+Several years ago I saw the meme above and realized I came to the exact opposite conclusion as most people discussing it. [I've done my share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but the most useful insights from this meme is not to feel sympathy for the child.
 
-The very small number of "smart kids" in that classroom have the potential to go on to do extremely useful things for humanity that will improve all of our lives and allow prosperity long into the future. Catering to such students that show promise at doing useful things is far more important than catering to the median student, and I feel far more sympathy for the smart kids being forced to sit in that slow boring classroom - having been one of them - than the students slowing them down.
+The very small number of "smart kids" in that classroom have the potential to go on to do extremely useful things for humanity that will improve all of our lives and allow for prosperity long into the future. Catering to such students that show promise at doing useful things is far more important than catering to the median student. Having been one of them, I feel far more sympathy for the smart kids being forced to sit in that slow boring classroom than the students slowing them down.
 
-Catering to the smart kids does not end with education, but it extends to using their abilities to maximum leverage in technical projects. This is the focus of this blog post.
+Catering to the smart kids does not end with education, but it extends to using their abilities to maximum leverage in humanity's most difficult technical projects. This is the focus of this blog post.
 
-I've spent the past couple of months reading books on some of the early monumental technical projects in human history. There are very many common themes between these, especially in how the teams of exceptionally competent engineers were managed. The following insights are distilled from these books and my own experiences.
+I've spent the past couple of months reading books on some of the early monumental technical projects in human history. There are very many common themes between these, especially in how the teams of exceptionally competent engineers were managed. Many of my insights are distilled from these books, hence this post will be heavy on quotes.
 
 ### **Small Strong Teams**
 
@@ -71,22 +71,49 @@ I've spent the past couple of months reading books on some of the early monument
     - Autonomously attacking critical path problems (Overholter)
     - Some projects require this (MCC)
 
-"If the team is small and strong, then engineers and the code are the source of truth. So they [engineers] have the source of truth, not some manager."
-https://x.com/rohanpaul_ai/status/1977266545333297525
+Structure:
+- Extremely fast decision making (course correction blog post)
+- Engineers all know exactly how they fit into the product and their interfaces
+- Engineers individually attack critical path problems
+- Examples:
+    - MCC is only possible with a small team of exceptional engineers (Boeing happens when this fails)
+    - Dennis Overholter independently discovering the stealth problem
+    - Elon Dragon Docking Collar
 
-Elon instantly making a decision on the docking collar, this can be done with exceptionally competent engineers
-https://x.com/yrouel86/status/1967887843113799969
+"If the team is small and strong, then engineers and the code are the source of truth. So, they [engineers] have the source of truth, not some manager."  
+ \- *[Andrej Karpathy](https://x.com/rohanpaul_ai/status/1977266545333297525)*
 
-In some cases, success is only possible with a small team of exceptional engineers. Eg. SCE to AUX.
-“In the seconds-critical world of Mission Control, a single individual must assume responsibility to take any actions needed for crew safety and mission success.”
-Chapter 22 Failure is Not an Option, Gene Kranz
+"The Skunk Works manager must be delegated practically complete control of his program in all aspects."    
+ \- Kelly Johnson's Skunk Works Operating Rule #1
 
-Kelly Johnson’s Rule #3
-“The number of people having any connection to the project must be restricted in an almost vicious manner. Use a small number of good people.”
-rule 1: "The Skunk Works manager must be delegated practically complete control of his program in all aspects."
-rule 5: "There must be a minimum number of reports required, but important work must be recorded thoroughly."
+Most importantly, a small number of exceptionally competent engineers can extremely rapidly make decisions that advance progress to their shared goal. If all engineers have ownership over their individual systems, they have the authority to make decisions they find useful quickly. This decreases the timeline to completion of a project. However, this only works if the decisions made rapidly are the right decisions, hence the prefix "exceptionally competent".
 
-Dennis Overholter stealth discovery story?
+"There must be a minimum number of reports required, but important work must be recorded thoroughly."  
+ \- Kelly Johnson's Skunk Works Operating Rule #5
+
+Furthermore, a small team means all engineers can easily interface with each other without excessive documentation or meetings. All engineers must understand how changing their system affects other systems and must understand all relevant interfaces. A subset of being an exceptionally competent engineer is being interdisciplinary, and this helps when interfacing with other engineers and systems.
+
+“The number of people having any connection to the project must be restricted in an almost vicious manner. Use a small number of good people.”  
+ \- Kelly Johnson's Skunk Works Operating Rule #3
+
+The marginal addition of an engineer to a project makes interfacing more difficult, as there is another person making decisions to interface with. A greater number of engineers increases overhead, which is the fundamental reason why large teams move so slowly. Rapid decision making also becomes harder as more people must be consulted / interfaced with.
+
+When engineers are let loose in a competent organization with a clear goal, they can independently attack critical path problems and find new solutions and innovations to problems that other people may not have even noticed. Instant decision making and minimal interfaces allow for individual engineers to move quickly to attack such problems. If this is not a clear point to you, read the examples below.
+
+**Examples**
+
+“In the seconds-critical world of Mission Control, a single individual must assume responsibility to take any actions needed for crew safety and mission success.”  
+ \- *Failure is Not an Option, Chapter 22, Gene Kranz*
+
+In some cases, success is completely impossible with a large team. Apollo Mission Control is an example of this. During the Apollo 12 mission a lightning strike on ascent caused a fuel cell failure in the Command Module. If power was lost for >120 seconds, an abort would be required. John Arron was on console monitoring cabin pressure saw scrambled data and in tens of seconds made a connection between this faulty data and similar data seen in ground testing a year prior when a technican inadvertantly turned off a power supply. He traced the issue to the Signal Conditioning Equipment (SCE) power supply, and the crew switched to the Auxiliary (AUX) power supply, saving the mission.
+
+If one exceptionally competent engineer was not on console, the Apollo 12 mission would have been a failure. Note that the term ["steely-eyed missile man"](https://en.m.wikipedia.org/wiki/John_Aaron) originated from John Aaron's performance during this incident.
+
+The reason Skunk Works was able to develop stealth technology was because a mathematician and radar specialist, Denys Overholser, came across a translated Russian paper by Pyotr Ufimtsev that took Maxwell's and Sommerheld's to predict what geometries would reflect electromagnetic radiation and how to calculate radar cross sections. This work was mostly overlooked in the Soviet Union, but Overholser created computational methods for calculating radar cross section and convinced Ben R. Rich, who ran Skunk Works at the time, to pursue it. This spawned the F-117 Nighthawk program and improved US stealth capability by orders of magnitude. Overholser independently found a solution to a critical path problem for the US military.
+
+To use extremely competent engineers to maximum leverage you must let them make decisions quickly, or get their managers to make decisions quickly. [This excerpt](https://x.com/yrouel86/status/1967887843113799969) from Christian Davenport's new book Rocket Dreams tells the story of how two engineers designed a simplified docking collar for SpaceX's Dragon capsule, showed it to Mark Juncosa -"one of Musk's most trusted engineers" - who showed it to Musk who within minutes approved the design.
+
+"There were no deliberations. Not consultations with other engineers. No memos or meetings. Musk liked what he saw and simply made the decision to go." This example should illustrate why having a good technical intuition is extremely important. If Elon made the wrong decision quickly, it would have been suboptimal, but he made the right decision. Extreme competence is just as important as extreme speed.
 
 ### **What Must You Do In The Absence Of A Small Strong Team?**
 
