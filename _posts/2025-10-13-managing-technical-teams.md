@@ -117,19 +117,17 @@ Each additional process imposes a cost. We must be careful not to overburden our
 
 ### **Team Progress Asymptotically Approaches Zero Without Clear Functional Goals**
 
- - Team progress declines without clear functional goals
-    - Tesla Bot
-    - Current sensor
-    - NASA
+*“We must revitalise NASA. Lacking a clear goal, the team that placed an American on the Moon, NASA, has become just another federal bureaucracy beset by competing agendas and unable to establish discipline within its structure.”*  
+ \- *Gene Kranz, Failure is Not an Option, Epilogue*
 
-Or, goes backwards.
-https://caseyhandmer.wordpress.com/2025/01/17/dittemores-law/
+[During the summer I visited San Francisco](https://ckalitin.github.io/space/2025/06/02/impulse-master-plan.html) and had the chance to talk to Kevin Huang who works on the Tesla bot. He described how at any given moment the Tesla bot team is working towards a given functional goal, and course correcting as a function of if they are coming closer or further from that function goal. A constant clear functional goal means everyone is on the same page about what work must be done, and what work is not useful.
 
-rule 2: "Strong but small project offices must be provided both by the military and industry."
+My current sensor characterization project on UBC Solar is an example of what happens when you don't spend every working minute optimizing for a functional goal. You end up spending time on side tangents that don't bring you closer to success.
 
-Clear functional goals are required at all levels:
-“We must revitalise NASA. Lacking a clear goal, the team that placed an American on the Moon, NASA, has become just another federal bureaucracy beset by competing agendas and unable to establish discipline within its structure.”
-Epilogue, Failure is Not an Option, Gene Kranz
+*"The outcome of any given company is the vector sum of the people within it."*
+ \- *[Elon Musk](https://x.com/elonmusk/status/1871997501970235656?referrer=grok-com)*
+
+As organizations increase in headcount, the risk of an individual engineer not working in the direction of a common functional goal increases. This becomes particularly problematic when an organization does not have a clear functional goal. Hence, the progress towards a supposed goal asymptotically approaches zero as the goal becomes less clear and team size increases. Casey Handmer has written about how progress may even become negative, not approach zero - [Dittemore's Law](https://caseyhandmer.wordpress.com/2025/01/17/dittemores-law/).
 
 ### **Finally, How Do You Find Exceptionally Competent Engineers**
 
