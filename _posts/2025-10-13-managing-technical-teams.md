@@ -53,16 +53,15 @@ Key ideas:
  - Finally, how do you find exceptionally competent engineers?
     - Kaiser quote
 
-![Image](/assets/images/managing-technical-teams/meme.png)  
+![Image](/assets/images/managing-technical-teams/meme.png){: height="300px" }  
 
-Several years ago I saw the meme above and noticed the majority of the discussion around it was people speaking from their perspective of the child, being forced to learn something they would never find any use for. I've done [my share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but my conclusion is the exact opposite. I feel an extreme amount of sympathy for the small number of students in that classroom who will make use of whatever is being taught, and being forced to sit next to dozens of other kids who slow their own progress.
+Several years ago I saw the meme above and realized I came to the exact opposite conclusion as most people discussing it. I've done [my fair share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but the most useful insights from this meme is not to feel sympathy for the child.
 
-I've been that kid, and have recently come to the conclusion that fostering the quick advancement of students that show promise at becoming exceptionally useful people is far more useful than catering to the median student. After examining how I came to this conclusion, I found it stems from my understanding of exceptionally competent technical teams and their positive impacts on the future of humanity.
+The very small number of "smart kids" in that classroom have the potential to go on to do extremely useful things for humanity that will improve all of our lives and allow prosperity long into the future. Catering to such students that show promise at doing useful things is far more important than catering to the median student, and I feel far more sympathy for the smart kids being forced to sit in that slow boring classroom - having been one of them - than the students slowing them down.
+
+Catering to the smart kids does not end with education, but it extends to using their abilities to maximum leverage in technical projects. This is the focus of this blog post.
 
 I've spent the past couple of months reading books on some of the early monumental technical projects in human history. There are very many common themes between these, especially in how the teams of exceptionally competent engineers were managed. The following insights are distilled from these books and my own experiences.
-
-I was that smart kid in the meme
-Reading about early monumental technical projects and their leaders recently.
 
 ### **Small Strong Teams**
 
