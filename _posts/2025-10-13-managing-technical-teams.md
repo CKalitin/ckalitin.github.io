@@ -55,6 +55,12 @@ Key ideas:
 
 ![Image](/assets/images/managing-technical-teams/meme.png)  
 
+Several years ago I saw the meme above and noticed the majority of the discussion around it was people speaking from their perspective of the child, being forced to learn something they would never find any use for. I've done [my share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but my conclusion is the exact opposite. I feel an extreme amount of sympathy for the small number of students in that classroom who will make use of whatever is being taught, and being forced to sit next to dozens of other kids who slow their own progress.
+
+I've been that kid, and have recently come to the conclusion that fostering the quick advancement of students that show promise at becoming exceptionally useful people is far more useful than catering to the median student. After examining how I came to this conclusion, I found it stems from my understanding of exceptionally competent technical teams and their positive impacts on the future of humanity.
+
+I've spent the past couple of months reading books on some of the early monumental technical projects in human history. There are very many common themes between these, especially in how the teams of exceptionally competent engineers were managed. The following insights are distilled from these books and my own experiences.
+
 I was that smart kid in the meme
 Reading about early monumental technical projects and their leaders recently.
 
