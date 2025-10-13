@@ -4,7 +4,6 @@ title: "I Made A Reflow Oven"
 categories: ideas
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1379

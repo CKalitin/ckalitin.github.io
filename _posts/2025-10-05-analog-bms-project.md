@@ -9,7 +9,7 @@ redirect_from:
   - /analogbms/
 author:
  - Christopher Kalitin
-word_count: 3223
+word_count: 3197
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/analog-bms-project/PCB-no-probes.jpg">
