@@ -21,7 +21,7 @@ Two weeks ago I applied to Terraform Industries and spoke to Casey Handmer. His 
 
 ![Image](/assets/images/rewired-240v-kiln/stoichiometry.png)
 
-[Terraform industries is using this process](https://terraformindustries.wordpress.com/2022/07/24/terraform-industries-whitepaper/) to produce carbon-neutral CH4 and CH3OH from sunlight and air. The stoichiometry of the calcium looping process is shown above. The calcination step is done at ~850-900 C and is what I approached first (can't do the carbonation step without Calcium Oxide to start with).
+[Terraform industries is using this process](https://terraformindustries.wordpress.com/2022/07/24/terraform-industries-whitepaper/) to produce carbon-neutral CH4 and CH3OH from sunlight and air. The stoichiometry of the calcium looping process is shown above. The calcination step is done at ~850-900 C and produces Calcium Oxide (CaO) and is what I approached first (can't have a CO2 absorption bed without CaO to start with).
 
 My project notes are [available here](https://docs.google.com/document/d/12KHtcnumooHgzO7qDuehRkyOHOEnnQzopWQEb114Iws/edit?usp=sharing). If you can parse them, there are more details in there.
 
@@ -30,6 +30,7 @@ I'll try to keep this post short and just get into fun anecdotes in a few parts 
 ### **Theory of Operating + Wiring**
 
 ![Image](/assets/images/rewired-240v-kiln/header.jpg){:height="500"}
+
 I bought a $300 kiln off Facebook Marketplace with a missing power cord and a couple broken elements. In the interest of moving fast on this project I didn't do much research before this and jumped straight into serially solving all problems with the kiln.
 
 In any project there are always a finite number of problems you have to solve, so you can move very quickly by attacking the problem directly in front of you at full force, solving it, and moving onto the next one.
@@ -45,9 +46,9 @@ There are three main components:
 
 ### **LT-3 Kiln Sitter**
 
-![Image](/assets/images/rewired-240v-kiln/kiln-sitter.jpg){:height="200"}
+![Image](/assets/images/rewired-240v-kiln/kiln-sitter.jpg){:height="300"}
 
-![Image](/assets/images/rewired-240v-kiln/kiln-sitter-schematic.png)
+![Image](/assets/images/rewired-240v-kiln/kiln-sitter-schematic.png){:height="400"}
 
 The LT-3 kiln sitter contains a relay (with an unknown part number) that connects both 240 V phases to the element control box. This relay is the first switch in the kiln.
 
@@ -76,8 +77,6 @@ The wiring was shown in my sketch above.
 
 ![Image](/assets/images/rewired-240v-kiln/pcb.jpg){:height="300"}
 
-![Image](/assets/images/rewired-240v-kiln/durakool-mercury-contactor.jpg){:height="300"}
-
 This PCB is on the other end of the black control panel shown in the element control box image in the previous section. 
 
 It takes in both phase A and phase B, steps this down into some sort of logic voltage, then outputs a PWM signal to the primary mercury contactors.
@@ -88,7 +87,7 @@ It scales the duty cycle over 0-10 hours so you can get a sloped temperautre pro
 
 ![Image](/assets/images/rewired-240v-kiln/durakool-mercury-contactor.jpg){:height="300"}
 
-![Image](/assets/images/rewired-240v-kiln/mercury-contactor-schematic.png){:height="300"}
+![Image](/assets/images/rewired-240v-kiln/mercury-contactor-schematic.png){:height="400"}
 
 This is the primary contactor in the element control box. After the kiln sitter relay, this is the next switch in the path of current flow.
 
@@ -96,8 +95,38 @@ Because the AutoMate II PCB needs to control this contactor with PWM, it needs t
 
 ### **Infinite Control Switch**
 
+![Image](/assets/images/rewired-240v-kiln/infinite-switches.jpg){:height="300"}
+
+![Image](/assets/images/rewired-240v-kiln/infinite-switch-schematic-1.png)
+
+![Image](/assets/images/rewired-240v-kiln/infinite-switch-schematic-2.png)
+
+An infinite control switch allows for a primitive hardware-based form of PWM to control net current flow into a device.
+
+A small bimetallic strip is connected to the armature of the switch. When this strip is heated, it deforms such that the armature is released from its contact and current flow is broken. Then, it cools back down and reconnects.
+
+The bimetallic strip has a resistive heater wrapped around it which is in series with the primary current path.
+
+Depending on the initial force on the bimetallic strip, the point at which the armature opens can be adjusted. For example, the strip has to deform more to open the strip if it's prestressed with 10 N versus 5 N.
+
+The initial force on the strip is adjusted with a stepped CAM shaft that the user can rotate.
+
+This way, you can manually set the initial force on the bimetallic strip, and hence the temperature required to open the switch, and hence the duty cycle of the switch. (This part might not be quite true, it's dependent on the the rate of heating and cooling).
+
+### **Rewiring**
+
 ![Image](/assets/images/rewired-240v-kiln/infinite-switch.jpg){:height="300"}
 
-![Image](/assets/images/rewired-240v-kiln/infinite-switches.jpg){:height="300"}
+If you look closely at the image above you'll find a spider web on the left side of the infinite control switch. It turns out mechanical switches don't like being left outside for decades (one part was labelled 1995 on the kiln), so I had to open the infinite control switches to return them to an operational state.
+
+They were too far gone to operate as primitive PWM-controlled switches, but I could still use the secondary side of the switch as a regular switch (See the second figure in the previous section which shows a two paths for current to flow).
+
+![Image](/assets/images/rewired-240v-kiln/Rewired-Kiln-Schematic.png){:height="400"}
+
+Above is a schematic of how I rewired the kiln. Essentially, the major difference is that I skipped the L2/H2 "PWM" side of the infinite switch. Now, only Phase A is being switched and Phase B is always connected to the heating elements.
+
+### **CaO Production**
+
+- Reactions
 
 
