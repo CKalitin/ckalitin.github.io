@@ -181,6 +181,8 @@ This covers Delta 1, 2, 3, and 4.
 
 <b>V2</b>
 
+[Jonathan McDowell pointed out](https://x.com/planet4589/status/1997942839096095176) his dataset of suborbital launches is "certainly incomplete."
+
 [V2 Launches Apogee Vs Date By Launch Vehicle Simplified 1942 1952]({{site.url}}\assets\space-industry-charts\v2\v2_launches_apogee_vs_date_by_launch_vehicle_simplified_1942_1952.png){: target="_blank"}  
 [V2 Launches Vs Month By Category 1942 1952]({{site.url}}\assets\space-industry-charts\v2\v2_launches_vs_month_by_category_1942_1952.png){: target="_blank"}  
 [V2 Launches Vs Month By Launch Vehicle 1942 1952]({{site.url}}\assets\space-industry-charts\v2\v2_launches_vs_month_by_launch_vehicle_1942_1952.png){: target="_blank"}  

@@ -26,7 +26,8 @@ subtitle_dict = {
 extra_text = {
     "ariane": "This covers Ariane 1, 2, 3, 4, and 5.",
     "atlas": "This covers Atlas 1, 2, 3, and 5. Remember Atlas 4 doesn't exist.",
-    "delta": "This covers Delta 1, 2, 3, and 4."
+    "delta": "This covers Delta 1, 2, 3, and 4.",
+    "v2": "[Jonathan McDowell pointed out](https://x.com/planet4589/status/1997942839096095176) his dataset of suborbital launches is \"certainly incomplete.\""
 }
 
 charts = [] # (path, beautified_title, folder_name)
