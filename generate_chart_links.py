@@ -53,15 +53,19 @@ for subfolder in subfolders:
 charts.sort(key=lambda x: x[2])
 
 previous_subtitle = ""
+output_lines = []
 for path, beautified_title, folder_name in charts:
     # Check if we need to print a new section header
     if folder_name in subtitle_dict and previous_subtitle != folder_name:
         previous_subtitle = folder_name
-        print(f"\n<b>{subtitle_dict[folder_name]}</b>\n")
+        output_lines.append(f"\n<b>{subtitle_dict[folder_name]}</b>\n")
         if folder_name in extra_text:
-            print(f"{extra_text[folder_name]}\n")
-        
+            output_lines.append(f"{extra_text[folder_name]}\n")
     suffix = "{: target=\"_blank\"}"
-    print(f'[{beautified_title}]({path}){suffix}  ')
+    output_lines.append(f'[{beautified_title}]({path}){suffix}  ')
 
 print(f"\nTotal number of charts: {len(charts)}")
+
+# Write output to file
+with open("chart_links_output.txt", "w", encoding="utf-8") as f:
+    f.write("\n".join(output_lines))
