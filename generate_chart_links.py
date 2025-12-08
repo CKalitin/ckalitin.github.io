@@ -20,6 +20,7 @@ subtitle_dict = {
     "soyuz": "Soyuz",
     "starlink": "Starlink",
     "titan": "Titan",
+    "v2": "V2",
 }
 
 extra_text = {
