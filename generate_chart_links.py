@@ -11,14 +11,18 @@ subtitle_dict = {
     "ariane": "Ariane",
     "atlas": "Atlas",
     "canada": "Canada",
+    "constellation_payloads": "Constellations",
     "delta": "Delta",
     "electron": "Electron",
     "f9": "Falcon 9",
     "f9h": "Falcon Heavy",
     "global": "Global",
+    "kuiper": "Kuiper",
+    "observation": "Observation Satellites",
     "planet_labs": "Planet Labs",
     "soyuz": "Soyuz",
     "starlink": "Starlink",
+    "test": "Test",
     "titan": "Titan",
     "v2": "V2",
 }
@@ -37,9 +41,6 @@ subfolders = [f for f in dir.iterdir() if f.is_dir()]
 
 for subfolder in subfolders:
     folder_name = subfolder.name
-    # Skip test folder or other non-chart folders
-    if folder_name == "test":
-        continue
         
     # Get all PNG files in this subfolder
     png_files = list(subfolder.glob("*.png"))
