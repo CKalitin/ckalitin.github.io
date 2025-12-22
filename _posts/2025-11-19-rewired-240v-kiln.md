@@ -124,9 +124,3 @@ They were too far gone to operate as primitive PWM-controlled switches, but I co
 ![Image](/assets/images/rewired-240v-kiln/Rewired-Kiln-Schematic.png){:height="400"}
 
 Above is a schematic of how I rewired the kiln. Essentially, the major difference is that I skipped the L2/H2 "PWM" side of the infinite switch. Now, only Phase A is being switched and Phase B is always connected to the heating elements.
-
-### **CaO Production**
-
-- Reactions
-
-
