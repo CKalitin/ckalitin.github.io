@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Falcon 9 Cadence Is Asymptotically Approaching A Limit"
+title: "Falcon 9 Launch Cadence Is Asymptotically Approaching A Limit"
 categories: Space
 tags:
     - Space Industry Analysis
@@ -13,7 +13,7 @@ word_count: 1341
     <meta property="og:image" content="{{site.url}}/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png">
 </head>
 
-![Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png)</i>
 
 ### **Introduction**
@@ -32,7 +32,7 @@ The vibecoded script and painstakingly manually written library to generate all 
 
 ### **Launch Pad Cadence Graphs**
 
-![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC40_2022-01-01_present.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC40_2022-01-01_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC40_2022-01-01_present.png)</i>
 
 SLC40 is SpaceX's most frequently used Falcon 9 launch pad, and hence the most used launch pad in the world. Above is a graph of days between Falcon 9 Launches from SLC-40.
@@ -45,19 +45,19 @@ The fundamental limiting factor in launch cadence is turnaround time of a single
 
 It took thousands of engineers working extremely hard through a decade to build a launch vehicle capable of launching and landing every few days, and now their work is complete and they can move onto Starship or [breaking the Medium Launch Monopoly](https://finance.yahoo.com/news/rocket-lab-ceo-we-have-the-right-combination-to-break-spacexs-monopoly-194214038.html).
 
-![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC39A_2022-01-01_present.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC39A_2022-01-01_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_days_between_launches_LC39A_2022-01-01_present.png)</i>
 
 LC-39A is a more interesting case, as it is shared between Falcon 9, Falcon Heavy, and Dragon launches. So, it has a much more sporradic launch cadence as the pad is reconfigured between different vehicle types. That 3rd degree polynominal fit is literally a wave.
 
-![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_SLC4E_2022-01-01_present.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_days_between_launches_SLC4E_2022-01-01_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_days_between_launches_SLC4E_2022-01-01_present.png)</i>
 
 SLC-4E is SpaceX's west coast launch pad, primarily used for Starlink launches to polar orbits. It has a similar trend to SLC-40, with minor improvements in turnaround time over the past 2 years.
 
 ### **Booster Turnaround Time**
 
-![Image](/assets/images/falcon-9-cadence/f9_days_between_vs_date_all_boosters.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_days_between_vs_date_all_boosters.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_days_between_vs_date_all_boosters.png)</i>
 
 As discussed above, the primary limitation to launch cadence is launch site turnaround time. However, analyzing booster turnaround times can provide us some insight into how many boosters SpaceX required to maintain a given launch cadence.
@@ -72,7 +72,7 @@ Given an average booster turnaround time of 50 days, and a launch cadence of 2-3
 
 ### **Fitting An S-Curve**
 
-![Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png)</i>
 
 With the above data in mind, we can make some assumptions to fit an S-curve to Falcon 9 launch cadence.
@@ -97,12 +97,12 @@ Assumptions:
 - Second Pad (at least!) operational in 2027 (LC-39A).
 - Sufficient short-term cadence for Starlink after test, Lunar, and Martian missions.
 
-![Image](/assets/images/falcon-9-cadence/starship_launches_by_type.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/starship_launches_by_type.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/starship_launches_by_type.png)</i>
 
 With the above assumptions, I took a guess at what Starship launch cadence might look like over the next few years. Note that I have the first Starlink launch at the end of 2026, and assume a fairly linear ramp as that is suitable for this analysis (of course it'll actually be an S-curve).
 
-![Image](/assets/images/falcon-9-cadence/starlink_capacity_tbps.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/starlink_capacity_tbps.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/starlink_capacity_tbps.png)</i>
 
 At the end of 2024, SpaceX disclosed that each Starship Starlink launch would add over 60 Tbps of capacity to the Starlink constellation, and that this is 20x greater than a single Falcon 9 Starlink launch. This data may be slightly out of date for when it's most relevant in my analysis (2026-2029), but it is suitable for rough estimates as my prediction of Starship launch cadence will probably be more wrong than this data.
@@ -113,7 +113,7 @@ Combining this information with my Starship launch cadence estimates, we can pre
 
 We see that a Single Starship launch per month adds more bandwidth capacity than 20 Falcon 9 launches in a month.
 
-![Image](/assets/images/falcon-9-cadence/f9_and_starship_total_launches_vs_month.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/f9_and_starship_total_launches_vs_month.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_and_starship_total_launches_vs_month.png)</i>
 
 I assume SpaceX will continue launching Starlink of Falcon 9 until it is a small fraction of Starship capacity. Eliminating all Falcon 9 Starlink launches as soon as Starship begins launching Starlink satellites is suboptimal because that would eliminate ~50% of Starlink capacity growth capability until Starlink launches ramp up.
@@ -124,7 +124,7 @@ My assumption is that Falcon 9 Starlink launches will begin to be phased out aro
 
 This means around the begin of 2028 will begin the collapse of Falcon 9 launch cadence, as Starlink launches are around 75% of Falcon 9 launches.
 
-![Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png){:height="300"}
+![Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png)</i>
 
 Given that the Falcon 9 is the most launched rocket in the world, 2028 may be a year in which humanity experiences a decline in annual launch cadence. Note that annual mass to orbit will increase, due to Starship's vastly higher payload capacity.
