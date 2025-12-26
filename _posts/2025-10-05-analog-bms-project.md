@@ -4,7 +4,6 @@ title: "Analog Battery Management System"
 categories: projects
 tags:
     - Projects
-    - Latest Posts
 redirect_from:
   - /analogbms/
 author:
