@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1000
+word_count: 1037
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/rewired-240v-kiln/1000c.jpg">

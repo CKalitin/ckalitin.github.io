@@ -6,7 +6,7 @@ tags:
     - Other
 author:
  - Christopher Kalitin
-word_count: 1727
+word_count: 2123
 redirect_from:
   - /space/2025/06/08/space-industry-charts.html
 ---
@@ -21,7 +21,7 @@ I'm in this for the love of the game pls send me ideas on [X](https://x.com/CKal
 
 CSVs of all the data is also available in the repo if you'd like to visualize it yourself! Or, run the scripts and get your own data for a launch vehicle of your choosing!
 
-[Download All 158 Charts]({{site.url}}\assets\space-industry-charts.zip)
+[Download All 160 Charts]({{site.url}}\assets\space-industry-charts.zip)
 
 ### <b>Type Explanations</b>
 
@@ -96,10 +96,9 @@ Yea you get what this is right?
 
 ### <b>Charts in Alphabetical Order</b>
 
-[Download All 158 Charts]({{site.url}}\assets\space-industry-charts.zip)
+[Download All 160 Charts]({{site.url}}\assets\space-industry-charts.zip)
 
 <b>Antares</b>
-
 [Antares Launches Apogee Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}  
 [Antares Launches Apogee Vs Inc By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_apogee_vs_inc_by_simple_orbit_2013_2023.png){: target="_blank"}  
 [Antares Launches Inc Vs Date By Simple Orbit 2013 2023]({{site.url}}\assets\space-industry-charts\antares\antares_launches_inc_vs_date_by_simple_orbit_2013_2023.png){: target="_blank"}  
@@ -213,6 +212,19 @@ This covers Delta 1, 2, 3, and 4.
 [F9 Total Mass Vs Mass By Launch Pad]({{site.url}}\assets\space-industry-charts\f9\f9_total_mass_vs_mass_by_launch_pad.png){: target="_blank"}  
 [F9 Total Mass Vs Mass By Orbit]({{site.url}}\assets\space-industry-charts\f9\f9_total_mass_vs_mass_by_orbit.png){: target="_blank"}  
 
+<b>Falcon 9 (Matplotlib Charts)</b>
+
+[F9 Days Between Launches Lc39A 2022-01-01 Present]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_launches_LC39A_2022-01-01_present.png){: target="_blank"}  
+[F9 Days Between Launches Lc40 2022-01-01 Present]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_launches_LC40_2022-01-01_present.png){: target="_blank"}  
+[F9 Days Between Launches Slc4E 2022-01-01 Present]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_launches_SLC4E_2022-01-01_present.png){: target="_blank"}  
+[F9 Days Between Vs Date All Boosters]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_vs_date_all_boosters.png){: target="_blank"}  
+[F9 Days Between Vs Date B1080-To-B1088]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_vs_date_B1080-to-B1088.png){: target="_blank"}  
+[F9 Days Between Vs Date B1090-To-B1097]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_vs_date_B1090-to-B1097.png){: target="_blank"}  
+[F9 Days Between Vs Flight Count B1080-To-B1088]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_vs_flight_count_B1080-to-B1088.png){: target="_blank"}  
+[F9 Days Between Vs Flight Count B1090-To-B1097]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_days_between_vs_flight_count_B1090-to-B1097.png){: target="_blank"}  
+[F9 Flight Counts Over Time B1080-To-B1088]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_flight_counts_over_time_B1080-to-B1088.png){: target="_blank"}  
+[F9 Flight Counts Over Time B1090-To-B1097]({{site.url}}\assets\space-industry-charts\f9_matplotlib\f9_flight_counts_over_time_B1090-to-B1097.png){: target="_blank"}  
+
 <b>Falcon Heavy</b>
 
 [F9H Launches Vs Mass By General Launch Payload Type]({{site.url}}\assets\space-industry-charts\f9h\f9h_launches_vs_mass_by_general_launch_payload_type.png){: target="_blank"}  
@@ -226,21 +238,13 @@ This covers Delta 1, 2, 3, and 4.
 
 <b>Global</b>
 
-[Global Launches Vs Month By General Launch Payload Type 1957 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_general_launch_payload_type_1957_2025.png){: target="_blank"}  
 [Global Launches Vs Month By General Launch Payload Type 1957 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_general_launch_payload_type_1957_present.png){: target="_blank"}  
-[Global Launches Vs Month By General Launch Payload Type 2000 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_general_launch_payload_type_2000_2025.png){: target="_blank"}  
 [Global Launches Vs Month By General Launch Payload Type 2000 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_general_launch_payload_type_2000_present.png){: target="_blank"}  
-[Global Launches Vs Month By Orbit 1957 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_orbit_1957_2025.png){: target="_blank"}  
 [Global Launches Vs Month By Orbit 1957 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_orbit_1957_present.png){: target="_blank"}  
-[Global Launches Vs Month By Orbit 2000 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_orbit_2000_2025.png){: target="_blank"}  
 [Global Launches Vs Month By Orbit 2000 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_month_by_orbit_2000_present.png){: target="_blank"}  
-[Global Launches Vs Year By General Launch Payload Type 1957 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_1957_2025.png){: target="_blank"}  
 [Global Launches Vs Year By General Launch Payload Type 1957 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_1957_present.png){: target="_blank"}  
-[Global Launches Vs Year By General Launch Payload Type 2000 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_2000_2025.png){: target="_blank"}  
 [Global Launches Vs Year By General Launch Payload Type 2000 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_general_launch_payload_type_2000_present.png){: target="_blank"}  
-[Global Launches Vs Year By Orbit 1957 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_orbit_1957_2025.png){: target="_blank"}  
 [Global Launches Vs Year By Orbit 1957 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_orbit_1957_present.png){: target="_blank"}  
-[Global Launches Vs Year By Orbit 2000 2025]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_orbit_2000_2025.png){: target="_blank"}  
 [Global Launches Vs Year By Orbit 2000 Present]({{site.url}}\assets\space-industry-charts\global\global_launches_vs_year_by_orbit_2000_present.png){: target="_blank"}  
 [Global Payloads Vs Year By Simple Payload Category]({{site.url}}\assets\space-industry-charts\global\global_payloads_vs_year_by_simple_payload_category.png){: target="_blank"}  
 
