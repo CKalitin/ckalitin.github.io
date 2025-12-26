@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Falcon 9 Cadence Is Approaching A Limit"
+title: "Falcon 9 Cadence Is Asymptotically Approaching A Limit"
 categories: Space
 tags:
     - Space Industry Analysis
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1321
+word_count: 1341
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png">
