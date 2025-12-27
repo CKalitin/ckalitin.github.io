@@ -105,7 +105,7 @@ With the above assumptions, I took a guess at what Starship launch cadence might
 ![Image](/assets/images/falcon-9-cadence/starlink_capacity_tbps.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/starlink_capacity_tbps.png)</i>
 
-At the end of 2024, SpaceX disclosed that each Starship Starlink launch would add over 60 Tbps of capacity to the Starlink constellation, and that this is 20x greater than a single Falcon 9 Starlink launch. This data may be slightly out of date for when it's most relevant in my analysis (2026-2029), but it is suitable for rough estimates as my prediction of Starship launch cadence will probably be more wrong than this data.
+At the end of 2024, [SpaceX disclosed](https://x.com/Starlink/status/1874123729950958075?s=20) that each Starship Starlink launch would add over 60 Tbps of capacity to the Starlink constellation, and that this is 20x greater than a single Falcon 9 Starlink launch. This data may be slightly out of date for when it's most relevant in my analysis (2026-2029), but it is suitable for rough estimates as my prediction of Starship launch cadence will probably be more wrong than this data.
 
 Note that I backfit this 3 Tbps number to all previous Falcon 9 launches, artifically increasing the impact of early Starlink launches with previous satellite versions. This is again suitable for the current analysis.
 
