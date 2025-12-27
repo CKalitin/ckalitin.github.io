@@ -94,7 +94,7 @@ def update_markdown_file(output_lines, total_charts):
         end_line = len(content)
     
     # New content is everything before end_line + \n + the joined output_lines[1:]
-    new_content = content[:end_line] + '\n' + '\n'.join(output_lines[1:])
+    new_content = content[:end_line] + '\n' + '\n' + '\n'.join(output_lines[1:])
     
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
