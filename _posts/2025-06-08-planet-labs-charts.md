@@ -20,8 +20,8 @@ The scripts/library I used are [available on Github](https://github.com/CKalitin
 
 ### <b>Planet Labs Satellite Programs</b>
 
-![Planet Labs Payloads Vs Year By Program]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png){: width="800"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png){: target="_blank"}  
+![Planet Labs Payloads Vs Year By Program](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_program.png){: width="800"}  
+[Expanded Chart](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_program.png){: target="_blank"}  
 
 First, we have a chart of payloads vs year by program.
 
@@ -67,8 +67,8 @@ LEO constellations don't lend as well to the sovereign model as something like t
 
 ### <b>Orbits</b>
 
-![Planet Labs Payloads Vs Year By Orbit]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_orbit.png){: width="800"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_orbit.png){: target="_blank"}  
+![Planet Labs Payloads Vs Year By Orbit](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_orbit.png){: width="800"}  
+[Expanded Chart](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_orbit.png){: target="_blank"}  
 
 The most obvious trend here is the switch to sun-synchronous orbit (SSO) in 2014. SSO is a polar orbit that allows satellites to pass over the same point on Earth at the same local time every day. This is ideal for Earth observation satellites like Planet Labs' Doves, as it allows them to capture consistent lighting conditions for their images.
 
@@ -108,8 +108,8 @@ Furthermore, after Elon's recent hilarious crashout over Trump (simultaneously i
 
 ### <b>Launch Vehicles</b>
 
-![Planet Labs Payloads Vs Year By Launch Vehicle]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: width="800"}  
-[Expanded Chart]({{site.url}}\assets\space-industry-charts\planet_labs_payloads_vs_year_by_launch_vehicle.png){: target="_blank"}  
+![Planet Labs Payloads Vs Year By Launch Vehicle](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_launch_vehicle.png){: width="800"}  
+[Expanded Chart](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_launch_vehicle.png){: target="_blank"}  
 
 The first interesting thing here is the great big bar in 2017 with the PSLV launch. This was the [PSLV-C37](https://en.wikipedia.org/wiki/PSLV-C37) mission which before SpaceX's Transporter missions had the record for most satellites launched in a single mission with 2014 satellites to SSO. Planet Labs constituted 88 of these with their Dove Flock 3 satellites.
 
@@ -117,8 +117,8 @@ Also interesting is the dominance of the Falcon 9 since 2021. Planet Labs has ap
 
 ### <b>Countries</b>
 
-![Planet Labs Payloads Vs Year By Country]({{site.url}}/assets/space-industry-charts/planet_labs_payloads_vs_year_by_launch_country.png){: width="800"}  
-[Expanded Chart]({{site.url}}/assets/space-industry-charts/planet_labs_payloads_vs_year_by_launch_country.png){: target="_blank"}  
+![Planet Labs Payloads Vs Year By Country](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_launch_country.png){: width="800"}  
+[Expanded Chart](/assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_launch_country.png){: target="_blank"}  
 
 Columbia Flag Jumpscare!
 
