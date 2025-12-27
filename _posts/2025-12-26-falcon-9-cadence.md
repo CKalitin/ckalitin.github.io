@@ -64,7 +64,7 @@ SLC-4E is SpaceX's west coast launch pad, primarily used for Starlink launches t
 
 As discussed above, the primary limitation to launch cadence is launch site turnaround time. However, analyzing booster turnaround times can provide us some insight into how many boosters SpaceX required to maintain a given launch cadence.
 
-SpaceX's fastest turnaround time for a Falcon 9 booster was 9 days with B1088 from SLC-4E between a March 12 2025 Launch of the SPHEREx NASA missing and a March 21 2025 Starshield launch.
+SpaceX's fastest turnaround time for a Falcon 9 booster was 9 days. Booster B1088 launched from SLC-4E on March 12 2025 carrying NASA's SPHEREx mission, and launched again on March 21 2025 carrying Starshield sateliltes.
 
 Average booster turnaround time follows a similar trend as launch site turnaround time, with only minor improvements over the past few years. The average booster turnaround time for the last 50 launches is currently 50 days.
 
@@ -125,6 +125,8 @@ Even though a Falcon 9 Starship launch is far less efficient (in cost per Tbps) 
 My assumption is that Falcon 9 Starlink launches will begin to be phased out around the time Starship is ramping from 1 to 2 Starlink launches per month, around mid 2028.
 
 This means around the begin of 2028 will begin the collapse of Falcon 9 launch cadence, as Starlink launches are around 75% of Falcon 9 launches.
+
+The above graph shows 1,356 total Falcon 9 launches from 2010 to 2029. For reference, the Soyuz family of rockets has launched ~1,050 times in total. The American record was previously held by the Delta II at 155 launches until the Falcon 9 took the title.
 
 ![Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png)</i>
