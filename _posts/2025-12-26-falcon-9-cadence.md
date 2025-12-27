@@ -16,6 +16,8 @@ word_count: 1341
 ![Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png)</i>
 
+If you have feedback or criticism, please [respond here](https://x.com/CKalitin/status/2004666380306841780?s=20).
+
 ### **Introduction**
 
 A couple of weeks ago I updated the [160 space industry charts](https://ckalitin.github.io/space/2025/06/08/space-industry-charts.html) available on my blog and [noticed](https://x.com/CKalitin/status/1998611899546517821?s=20) that Falcon 9 launch cadence appeared to be leveling out.
