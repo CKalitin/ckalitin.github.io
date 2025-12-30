@@ -126,7 +126,7 @@ My assumption is that Falcon 9 Starlink launches will begin to be phased out aro
 
 This means around the begin of 2028 will begin the collapse of Falcon 9 launch cadence, as Starlink launches are around 75% of Falcon 9 launches.
 
-The above graph shows 1,356 total Falcon 9 launches from 2010 to 2029. For reference, the Soyuz family of rockets has launched ~1,050 times in total. The American record was previously held by the Delta II at 155 launches until the Falcon 9 took the title.
+The above graph shows 1,314 total Falcon 9 launches from 2010 to 2029. For reference, the Soyuz family of rockets has launched ~1,050 times in total. The American record was previously held by the Delta II at 155 launches until the Falcon 9 took the title.
 
 ![Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png){:height="400"}  
 <i>[Expanded Image](/assets/images/falcon-9-cadence/global_launches_vs_year_by_general_launch_payload_type_1957_present.png)</i>
