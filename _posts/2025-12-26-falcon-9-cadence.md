@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1341
+word_count: 1397
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png">
