@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modelling dV Savings Of Super Synchronous Transfer Orbits"
-categories: Space
+categories: Projects
 tags:
     - Space Industry Analysis
     - Latest Posts
