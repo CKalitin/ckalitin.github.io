@@ -4,7 +4,6 @@ title: "Optimize For Exceptionally Competent Small Teams"
 categories: ideas
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2150
