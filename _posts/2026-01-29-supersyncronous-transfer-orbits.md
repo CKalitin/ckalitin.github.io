@@ -22,7 +22,7 @@ If you have feedback or criticism, please [respond here](https://x.com/CKalitin/
 
 A few weeks ago SpainSat NG 2 - a Spanish Military Telecommunication Satellite launched in October 2025 - was struck by a micrometeoroid while 50,000 km above the Earth. Note that at 50,000 km altitude there is extremely little man-made space debris, so the impactor was almost certainly a natural micrometeoroid, see [the distribution of space debris](https://www.google.com/search?client=firefox-b-d&hs=DMRU&sca_esv=8661a703ca5d5409&sxsrf=AE3TifPul-NgCOJjxg__-p-XSQuptlGVRg:1767592158357&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MRo3L_oOc-1oJ7O1RV73dx3MIyCigtuiU2aDjExIvydX85cOq96-7Mxd4KSNCLhHwYIo4RJXEXVWYwYSeCFXG0J5g7J0_QlNiqM4Euq3DbUukakRlQBtEL4YIItWZLBS4_D4qpoqMYJgdHY3UCoXAcIgwU4ag&q=space+debris+over+earth+altitude+distribution&sa=X&ved=2ahUKEwjDsdP12fORAxUKODQIHf6EJ9sQtKgLegQIFhAB&biw=958&bih=954&dpr=1#sv=CAMSVhoyKhBlLUV5aTNlcWE4OXRmMU9NMg5FeWkzZXFhODl0ZjFPTToOQWpwMm80NXhQWDdHbE0gBCocCgZtb3NhaWMSEGUtRXlpM2VxYTg5dGYxT00YADABGAcgyYC8kwMwAkoKCAIQAhgCIAIoAg).
 
-This satellite was transiting to a Geostationary Orbit above Earth at an altitude of 35,768 km using a supers ynchronous transfer orbit with an apogee of approximately 50,000 km. This is in contrast to a more common direct geostationary transfer orbit (GTO) with an apogee of 35,768 km.
+This satellite was transiting to a Geostationary Orbit above Earth at an altitude of 35,768 km using a super synchronous transfer orbit with an apogee of approximately 50,000 km. This is in contrast to a more common direct geostationary transfer orbit (GTO) with an apogee of 35,768 km.
 
 After stepping out of the steam room an hour ago I got to thinking about the dV savings of using a super synchronous transfer orbit versus a standard geostationary transfer orbit so - with great help from Gemini and Grok Code Fast 1 - I wrote some Python scripts to model dV of given maneuvers.
 
@@ -32,7 +32,7 @@ The code and charts are available on [GitHub](https://github.com/CKalitin/charts
 
 Some shape rotation is likely required to understand these charts, wordcels be warned.
 
-![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_100000ms.png){:height="400"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_100000ms.png){:height="500"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_100000ms.png)</i>  
 <i>This chart shows a direct insertion into a Geostationary Orbit from an initial orbit with a perigee of 400 km and inclination of 45 degrees.</i>
 
@@ -41,7 +41,7 @@ The chart above shows a standard direct insertion in Geostationary Orbit. The tr
 2. Inclination Change (Purple): At apogee, the satellite performs an inclination change maneuver to reduce its inclination from 45 degrees to 0 degrees.
 3. Circularization Burn (Yellow): Again at apogee, the satellite performs a circularization burn to raise its perigee from 400 km to 35,768 km, achieving a circular geostationary orbit.
 
-![Image](/assets/images/supersyncronous-transfer-orbits/250000_km_apogee_transfer_to_geo.png){:height="400"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/250000_km_apogee_transfer_to_geo.png){:height="500"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/250000_km_apogee_transfer_to_geo.png)</i>  
 <i> This chart shows a generic super synchronous transfer orbit with an initial apogee of 100,000 km, perigee of 400 km, and inclination of 45 degrees.</i>
 
@@ -98,7 +98,7 @@ To determine how much dV a satellite can get in a single apogee pass, I [asked G
 
 This isn't a perfect approximation, since satellites at higher altitudes have longer orbital periods and can burn for longer periods of time at high efficiency (just eating the cosine losses, ask your favourite LLM or KSP player if confused). Furthermore, a real satellite isn't limited to only raising perigee or changing inclination at one time, you can do both. So, my model overestimates transit time.
 
-![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png){:height="400"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png){:height="500"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png)</i>
 
 The chart above shows a standard GTO transfer but with a dV limit of 1 m/s per pass. This means that the satellite must do 2729 total passes to reach geostationary orbit, taking 1480 days. The net dV requirement doesn't change because we impose a 1m/s dV limit per pass, as my model assumes perfect efficiency in using all available dV each pass.
@@ -107,7 +107,7 @@ This chart follows the same colour scheme as before, so a lighter colour is wher
 
 This is the trade-off of using a low-thrust propulsion system. Electric thrusters are far more efficient than chemical thrusters meaning your satellite can be lighter, but you pay for this efficiency with longer transfer times, and hence a delayed time to revenue / operational capability.
 
-![Image](/assets/images/supersyncronous-transfer-orbits/100000_km_apogee_transfer_to_geo_1ms.png){:height="400"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/100000_km_apogee_transfer_to_geo_1ms.png){:height="500"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/100000_km_apogee_transfer_to_geo_1ms.png)</i>
 
 This chart shows a super synchronous transfer orbit with an initial apogee of 100,000 km and a dV limit of 1 m/s per pass.
@@ -116,7 +116,7 @@ Notice that the net number of passes has decreased to 1921, because the total dV
 
 ### <b>Time to GEO & Net dV Requirement vs Insertion Apogee Charts</b>
 
-![Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_100000ms_dV_lim_inc_comparison.png){:height="300"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_100000ms_dV_lim_inc_comparison.png){:height="350"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_100000ms_dV_lim_inc_comparison.png)</i>
 
 Finally, here's a chart that shows the trend in total dV required vs initial apogee for both 0 degree and 45 degree inclination orbits, with no dV limit per pass.
@@ -129,10 +129,10 @@ The limit of dV to reach GEO from a 400 km circular orbit is ~1.28 km/s, which i
 
 Just to illustrate that the model really breaks down here, this is what the 10,000,000 km orbit looks like:
 
-![Image](/assets/images/supersyncronous-transfer-orbits/10000000_km_apogee_transfer_to_geo.png){:height="400"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/10000000_km_apogee_transfer_to_geo.png){:height="500"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/10000000_km_apogee_transfer_to_geo.png)</i>
 
-![Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_1ms_dV_lim_inc_comparison.png){:height="300"}  
+![Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_1ms_dV_lim_inc_comparison.png){:height="350"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/apogee_vs_dv_time_10000Mm_1ms_dV_lim_inc_comparison.png)</i>
 
 The chart above shows what happens when we impose a 1 m/s dV limit per pass.
