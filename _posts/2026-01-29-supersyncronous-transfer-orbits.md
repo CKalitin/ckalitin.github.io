@@ -7,6 +7,8 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
+redirect_from:
+  - /solar/2026/01/04/supersyncronous-transfer-orbits.html
 word_count: 1787
 ---
 <head>
