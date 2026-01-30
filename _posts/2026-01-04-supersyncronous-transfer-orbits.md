@@ -13,8 +13,7 @@ word_count: 1787
     <meta property="og:image" content="{{site.url}}/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png">
 </head>
 
-![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png){:height="400"}  
-<i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png)</i>
+![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png){:height="600"}  
 
 If you have feedback or criticism, please [respond here](https://x.com/CKalitin/status/2004666380306841780?s=20).
 
