@@ -15,7 +15,7 @@ word_count: 1787
 
 ![Image](/assets/images/supersyncronous-transfer-orbits/35786_km_apogee_transfer_to_geo_1ms.png){:height="600"}  
 
-If you have feedback or criticism, please [respond here](https://x.com/CKalitin/status/2004666380306841780?s=20).
+If you have feedback or criticism, please [respond here](https://x.com/CKalitin/status/2017032666072436794).
 
 A few weeks ago SpainSat NG 2 - a Spanish Military Telecommunication Satellite launched in October 2025 - was struck by a micrometeoroid while 50,000 km above the Earth. Note that at 50,000 km altitude there is extremely little man-made space debris, so the impactor was almost certainly a natural micrometeoroid, see [the distribution of space debris](https://www.google.com/search?client=firefox-b-d&hs=DMRU&sca_esv=8661a703ca5d5409&sxsrf=AE3TifPul-NgCOJjxg__-p-XSQuptlGVRg:1767592158357&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MRo3L_oOc-1oJ7O1RV73dx3MIyCigtuiU2aDjExIvydX85cOq96-7Mxd4KSNCLhHwYIo4RJXEXVWYwYSeCFXG0J5g7J0_QlNiqM4Euq3DbUukakRlQBtEL4YIItWZLBS4_D4qpoqMYJgdHY3UCoXAcIgwU4ag&q=space+debris+over+earth+altitude+distribution&sa=X&ved=2ahUKEwjDsdP12fORAxUKODQIHf6EJ9sQtKgLegQIFhAB&biw=958&bih=954&dpr=1#sv=CAMSVhoyKhBlLUV5aTNlcWE4OXRmMU9NMg5FeWkzZXFhODl0ZjFPTToOQWpwMm80NXhQWDdHbE0gBCocCgZtb3NhaWMSEGUtRXlpM2VxYTg5dGYxT00YADABGAcgyYC8kwMwAkoKCAIQAhgCIAIoAg).
 
