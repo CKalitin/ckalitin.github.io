@@ -81,5 +81,4 @@ def main():
         # Write the updated content back to the file
         write_updated_file(file_path, updated_front_matter, content)
 
-if __name__ == "__main__":
-    main()
+main()

@@ -98,15 +98,14 @@ def scan_directory_for_md_files(directory):
     
     return output.getvalue()
 
-if __name__ == "__main__":
-    # Specify the directory to scan
-    target_directory = Path(__file__).parent / "_posts"
-    csv_output = scan_directory_for_md_files(target_directory)
-    print(csv_output)
+# Specify the directory to scan
+target_directory = Path(__file__).parent / "_posts"
+csv_output = scan_directory_for_md_files(target_directory)
+print(csv_output)
 
-    # Optionally save to a file
-    with open('word_counts.csv', 'w', encoding='utf-8') as f:
-        f.write(csv_output)
+# Optionally save to a file
+with open('word_counts.csv', 'w', encoding='utf-8') as f:
+    f.write(csv_output)
         
 if __name__ == "__main__":
     import wordcount_update
