@@ -107,3 +107,6 @@ if __name__ == "__main__":
     # Optionally save to a file
     with open('word_counts.csv', 'w', encoding='utf-8') as f:
         f.write(csv_output)
+        
+if __name__ == "__main__":
+    import wordcount_update

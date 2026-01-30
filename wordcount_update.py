@@ -2,6 +2,9 @@ import pandas as pd
 import os
 import re
 
+if __name__ == "__main__":
+    import wordcount
+
 def read_front_matter(file_path):
     """Read the front matter from a Markdown file."""
     try:
