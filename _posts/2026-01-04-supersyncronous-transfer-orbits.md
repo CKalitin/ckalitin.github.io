@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modelling dV Savings Of Supersynchronous Transfer Orbits"
+title: "Modelling dV Savings Of Super Synchronous Transfer Orbits"
 categories: Space
 tags:
     - Space Industry Analysis
@@ -19,9 +19,9 @@ If you have feedback or criticism, please [respond here](https://x.com/CKalitin/
 
 A few weeks ago SpainSat NG 2 - a Spanish Military Telecommunication Satellite launched in October 2025 - was struck by a micrometeoroid while 50,000 km above the Earth. Note that at 50,000 km altitude there is extremely little man-made space debris, so the impactor was almost certainly a natural micrometeoroid, see [the distribution of space debris](https://www.google.com/search?client=firefox-b-d&hs=DMRU&sca_esv=8661a703ca5d5409&sxsrf=AE3TifPul-NgCOJjxg__-p-XSQuptlGVRg:1767592158357&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MRo3L_oOc-1oJ7O1RV73dx3MIyCigtuiU2aDjExIvydX85cOq96-7Mxd4KSNCLhHwYIo4RJXEXVWYwYSeCFXG0J5g7J0_QlNiqM4Euq3DbUukakRlQBtEL4YIItWZLBS4_D4qpoqMYJgdHY3UCoXAcIgwU4ag&q=space+debris+over+earth+altitude+distribution&sa=X&ved=2ahUKEwjDsdP12fORAxUKODQIHf6EJ9sQtKgLegQIFhAB&biw=958&bih=954&dpr=1#sv=CAMSVhoyKhBlLUV5aTNlcWE4OXRmMU9NMg5FeWkzZXFhODl0ZjFPTToOQWpwMm80NXhQWDdHbE0gBCocCgZtb3NhaWMSEGUtRXlpM2VxYTg5dGYxT00YADABGAcgyYC8kwMwAkoKCAIQAhgCIAIoAg).
 
-This satellite was transiting to a Geostationary Orbit above Earth at an altitude of 35,768 km using a supersynchronous transfer orbit with an apogee of approximately 50,000 km. This is in contrast to a more common direct geostationary transfer orbit (GTO) with an apogee of 35,768 km.
+This satellite was transiting to a Geostationary Orbit above Earth at an altitude of 35,768 km using a supers ynchronous transfer orbit with an apogee of approximately 50,000 km. This is in contrast to a more common direct geostationary transfer orbit (GTO) with an apogee of 35,768 km.
 
-After stepping out of the steam room an hour ago I got to thinking about the dV savings of using a supersynchronous transfer orbit versus a standard geostationary transfer orbit so - with great help from Gemini and Grok Code Fast 1 - I wrote some Python scripts to model dV of given maneuvers.
+After stepping out of the steam room an hour ago I got to thinking about the dV savings of using a super synchronous transfer orbit versus a standard geostationary transfer orbit so - with great help from Gemini and Grok Code Fast 1 - I wrote some Python scripts to model dV of given maneuvers.
 
 The code and charts are available on [GitHub](https://github.com/CKalitin/charts-and-data-analysis/tree/master/supersyncronous-transfer-modelling).
 
@@ -40,9 +40,9 @@ The chart above shows a standard direct insertion in Geostationary Orbit. The tr
 
 ![Image](/assets/images/supersyncronous-transfer-orbits/250000_km_apogee_transfer_to_geo.png){:height="400"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/250000_km_apogee_transfer_to_geo.png)</i>  
-<i> This chart shows a generic supersynchronous transfer orbit with an initial apogee of 100,000 km, perigee of 400 km, and inclination of 45 degrees.</i>
+<i> This chart shows a generic super synchronous transfer orbit with an initial apogee of 100,000 km, perigee of 400 km, and inclination of 45 degrees.</i>
 
-This chart shows a supersynchronous transfer orbit with an apogee of 250,000 km. The trajectory has one additional phase:
+This chart shows a super synchronous transfer orbit with an apogee of 250,000 km. The trajectory has one additional phase:
 1. Initial Orbit: Unchanged
 2. Inclination Change: Unchanged
 3. Perigee Raise: Unchanged
@@ -107,7 +107,7 @@ This is the trade-off of using a low-thrust propulsion system. Electric thruster
 ![Image](/assets/images/supersyncronous-transfer-orbits/100000_km_apogee_transfer_to_geo_1ms.png){:height="400"}  
 <i>[Expanded Image](/assets/images/supersyncronous-transfer-orbits/100000_km_apogee_transfer_to_geo_1ms.png)</i>
 
-This chart shows a supersynchronous transfer orbit with an initial apogee of 100,000 km and a dV limit of 1 m/s per pass.
+This chart shows a super synchronous transfer orbit with an initial apogee of 100,000 km and a dV limit of 1 m/s per pass.
 
 Notice that the net number of passes has decreased to 1921, because the total dV requirement is now 1.920 km/s instead of 2.728 km/s. However, higher orbits take more time, so our total time to GEO has increased to 3180 days.
 
@@ -153,4 +153,4 @@ This was a fun exercise in modelling an arbitrary problem in Python, and I reall
 
 ![Image](/assets/images/supersyncronous-transfer-orbits/model.jpg){:height="200"}  
 
-Here's a 3D model of 100,000 km Supersynchronous Transfer Orbit.
+Here's a 3D model of 100,000 km Super Synchronous Transfer Orbit.
