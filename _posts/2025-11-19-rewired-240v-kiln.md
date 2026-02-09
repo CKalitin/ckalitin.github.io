@@ -3,7 +3,7 @@ layout: post
 title: "Rewiring a 240V Kiln and Producing Calcium Oxide"
 categories: projects
 tags:
-    - Latest Posts
+    - Projects
 author:
  - Christopher Kalitin
 word_count: 1037

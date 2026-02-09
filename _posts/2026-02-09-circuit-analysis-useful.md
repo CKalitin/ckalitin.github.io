@@ -36,9 +36,9 @@ Seeing clearly how such a class is useful is always a great bit of feedback. My 
 
 If you're interested, all of my previous project updates (some mentioned here) are available [in this repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/HVC%20Monday%20Updates).
 
---
+---
 
-## Simulating Optocoupler Discharge Pulse Extension Circuitry
+## **Simulating Optocoupler Discharge Pulse Extension Circuitry**
 
 Similar to the [previous Optocoupler update](https://ubcsolar26.monday.com/boards/9702086049/pulses/18080991742/posts/4906276781) this morning.
 
@@ -51,7 +51,7 @@ Conclusion:
 
 **The Concern**
 
-![](/assets/images/image_2743922576.png)
+![](/assets/images/circuit-analysis-useful/image_2743922576.png)
 
 As explained in [the previous update](https://ubcsolar26.monday.com/boards/9702086049/pulses/18080991742/posts/4906276781), I was concerned about the NPN BJT in the optocouplers being limiting the current in some circuits.
 
@@ -61,7 +61,7 @@ I decided to simulate the circuit in LTSpice to confirm functionality.
 
 **Simulation 1**
 
-![](/assets/images/image_2743916863.png)
+![](/assets/images/circuit-analysis-useful/image_2743916863.png)
 
 Parameters:
 - Input Pulse: 3 ms
@@ -82,7 +82,7 @@ However, issues come up with CTR < 100% or if the pulse is even shorter.
 
 **Simulation 2**
 
-![](/assets/images/image_2743917832.png)
+![](/assets/images/circuit-analysis-useful/image_2743917832.png)
 
 Parameters:
 - Input Pulse: 100 ms
@@ -95,7 +95,7 @@ Note that my cursor was at the 1.8 V crossing for all screenshots, and you can s
 
 **Simulation 3**
 
-![](/assets/images/image_2743922406.png)
+![](/assets/images/circuit-analysis-useful/image_2743922406.png)
 
 Parameters:
 - Input Pulse: 4 ms
@@ -110,7 +110,7 @@ This results in a minimum pulse length of 4 ms required to latch the relay, whic
 
 **Simulation 4**
 
-![](/assets/images/image_2743924667.png)
+![](/assets/images/circuit-analysis-useful/image_2743924667.png)
 
 Parameters:
 - Input Pulse: 100 ms
@@ -126,7 +126,7 @@ This results in a much faster charging time. Notice the almost instant charging 
 
 **Simulation 5**
 
-![](/assets/images/image_2743933942.png)
+![](/assets/images/circuit-analysis-useful/image_2743933942.png)
 
 Parameters:
 - Input Pulse: 1 ms
@@ -166,13 +166,13 @@ Notice that even with the 1 ms charging pulse the pulse is extended to ~130 ms!
 
 ---
 
-## Simulating Optocoupler DCH_ON Circuit
+## **Simulating Optocoupler DCH_ON Circuit**
 
 LTSpice sims saved [in the Drive](https://drive.google.com/drive/folders/1d_N84UDBGEXQGZUtdiL4UZMFQ7Z3tRlc?usp=drive_link).
 
 **Problem Background**
 
-![](/assets/images/image_2743899550.png)
+![](/assets/images/circuit-analysis-useful/image_2743899550.png)
 
 I was concerned the circuit above wouldn't work due to R11.8, the emitter
 pull-down / load resistor. I simulated pretty much the same circuit
@@ -186,9 +186,9 @@ I used an RC circuit to extend the pulse of DISCHARGE_GND_IN by ~10x to
 ensure that even a pulse as short as 2 ms will extend to be long enough
 to latch the discharge relay.
 
-<img src="/assets/images/image_2743899543.png" width="169" height="121">
+<img src="/assets/images/circuit-analysis-useful/image_2743899543.png" width="169" height="121">
 
-![](/assets/images/image_2743899536.png)
+![](/assets/images/circuit-analysis-useful/image_2743899536.png)
 
 During the team-wide DR yesterday, Saman pointed out I used a few
 Optocoupler's incorrectly with common collectors instead of common
@@ -240,7 +240,7 @@ to close a MOSFET (shown at the top of this update.
 
 **Simulation**
 
-![](/assets/images/image_2743899559.png)
+![](/assets/images/circuit-analysis-useful/image_2743899559.png)
 
 I
 simulated an optocoupler circuit in LTSpice and took a sweep of input
@@ -270,7 +270,7 @@ high enough for our purposes.
 
 Hence, the circuit I showed at the beginning will work:
 
-![](/assets/images/image_2743899556.png)
+![](/assets/images/circuit-analysis-useful/image_2743899556.png)
 
 Note:
 
@@ -279,9 +279,9 @@ Yesterday R11.5 was a 1k resistor, which wouldn't have worked! Very good that Sa
 > **Christopher Kalitin** (11h)
 >
 > My original question to Saman:
-> 
-> ![](/assets/images/image_2743899651.png)
-> 
-> ![](/assets/images/image_2743899659.png)
+
+![](/assets/images/circuit-analysis-useful/image_2743899651.png)
+
+![](/assets/images/circuit-analysis-useful/image_2743899659.png)
 
 ---
