@@ -8,7 +8,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /space/2025/06/02/impulse-master-plan.html
-word_count: 2331
+word_count: 2344
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/impulse-master-plan/header.jpeg">

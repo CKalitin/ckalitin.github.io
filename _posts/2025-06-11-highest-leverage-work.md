@@ -9,7 +9,7 @@ author:
  - Christopher Kalitin
 redirect_from:
   - /ideas/2015/06/11/highest-leverage-work.html
-word_count: 499
+word_count: 588
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/nasa-end-state/msr.jpg">

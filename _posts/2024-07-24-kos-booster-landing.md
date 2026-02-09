@@ -5,7 +5,7 @@ categories: Space
 tag: Projects
 author:
  - Christopher Kalitin
-word_count: 1545
+word_count: 1827
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/kos-booster-landing/kOS-Booster-Final-Landing.jpg">

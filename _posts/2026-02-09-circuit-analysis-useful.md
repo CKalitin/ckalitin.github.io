@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1787
+word_count: 1962
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/circuit-analysis-useful/header.jpg">
@@ -51,7 +51,8 @@ Conclusion:
 
 **The Concern**
 
-![](/assets/images/circuit-analysis-useful/image_2743922576.png)
+![](/assets/images/circuit-analysis-useful/image_2743922576.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743922576.png)</i>
 
 As explained in [the previous update](https://ubcsolar26.monday.com/boards/9702086049/pulses/18080991742/posts/4906276781), I was concerned about the NPN BJT in the optocouplers being limiting the current in some circuits.
 
@@ -61,7 +62,8 @@ I decided to simulate the circuit in LTSpice to confirm functionality.
 
 **Simulation 1**
 
-![](/assets/images/circuit-analysis-useful/image_2743916863.png)
+![](/assets/images/circuit-analysis-useful/image_2743916863.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743916863.png)</i>
 
 Parameters:
 - Input Pulse: 3 ms
@@ -82,7 +84,8 @@ However, issues come up with CTR < 100% or if the pulse is even shorter.
 
 **Simulation 2**
 
-![](/assets/images/circuit-analysis-useful/image_2743917832.png)
+![](/assets/images/circuit-analysis-useful/image_2743917832.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743917832.png)</i>
 
 Parameters:
 - Input Pulse: 100 ms
@@ -95,7 +98,8 @@ Note that my cursor was at the 1.8 V crossing for all screenshots, and you can s
 
 **Simulation 3**
 
-![](/assets/images/circuit-analysis-useful/image_2743922406.png)
+![](/assets/images/circuit-analysis-useful/image_2743922406.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743922406.png)</i>
 
 Parameters:
 - Input Pulse: 4 ms
@@ -110,7 +114,8 @@ This results in a minimum pulse length of 4 ms required to latch the relay, whic
 
 **Simulation 4**
 
-![](/assets/images/circuit-analysis-useful/image_2743924667.png)
+![](/assets/images/circuit-analysis-useful/image_2743924667.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743924667.png)</i>
 
 Parameters:
 - Input Pulse: 100 ms
@@ -126,7 +131,8 @@ This results in a much faster charging time. Notice the almost instant charging 
 
 **Simulation 5**
 
-![](/assets/images/circuit-analysis-useful/image_2743933942.png)
+![](/assets/images/circuit-analysis-useful/image_2743933942.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743933942.png)</i>
 
 Parameters:
 - Input Pulse: 1 ms
@@ -172,7 +178,8 @@ LTSpice sims saved [in the Drive](https://drive.google.com/drive/folders/1d_N84U
 
 **Problem Background**
 
-![](/assets/images/circuit-analysis-useful/image_2743899550.png)
+![](/assets/images/circuit-analysis-useful/image_2743899550.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899550.png)</i>
 
 I was concerned the circuit above wouldn't work due to R11.8, the emitter
 pull-down / load resistor. I simulated pretty much the same circuit
@@ -186,9 +193,11 @@ I used an RC circuit to extend the pulse of DISCHARGE_GND_IN by ~10x to
 ensure that even a pulse as short as 2 ms will extend to be long enough
 to latch the discharge relay.
 
-<img src="/assets/images/circuit-analysis-useful/image_2743899543.png" width="169" height="121">
+![](/assets/images/circuit-analysis-useful/image_2743899543.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899543.png)</i>
 
-![](/assets/images/circuit-analysis-useful/image_2743899536.png)
+![](/assets/images/circuit-analysis-useful/image_2743899536.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899536.png)</i>
 
 During the team-wide DR yesterday, Saman pointed out I used a few
 Optocoupler's incorrectly with common collectors instead of common
@@ -240,7 +249,8 @@ to close a MOSFET (shown at the top of this update.
 
 **Simulation**
 
-![](/assets/images/circuit-analysis-useful/image_2743899559.png)
+![](/assets/images/circuit-analysis-useful/image_2743899559.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899559.png)</i>
 
 I
 simulated an optocoupler circuit in LTSpice and took a sweep of input
@@ -270,7 +280,8 @@ high enough for our purposes.
 
 Hence, the circuit I showed at the beginning will work:
 
-![](/assets/images/circuit-analysis-useful/image_2743899556.png)
+![](/assets/images/circuit-analysis-useful/image_2743899556.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899556.png)</i>
 
 Note:
 
@@ -280,8 +291,10 @@ Yesterday R11.5 was a 1k resistor, which wouldn't have worked! Very good that Sa
 >
 > My original question to Saman:
 
-![](/assets/images/circuit-analysis-useful/image_2743899651.png)
+![](/assets/images/circuit-analysis-useful/image_2743899651.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899651.png)</i>
 
-![](/assets/images/circuit-analysis-useful/image_2743899659.png)
+![](/assets/images/circuit-analysis-useful/image_2743899659.png){: target="_blank" .height="300"}  
+<i>[Expanded Image](/assets/images/circuit-analysis-useful/image_2743899659.png)</i>
 
 ---

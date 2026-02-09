@@ -13,17 +13,17 @@ Date,Words,Published,Title,Path
 2024-01-07,1315,Y,Analysing Neutron in the Commerical Satellite Launch Market,c:\_Dev\ckalitin.github.io\_posts\2024-01-07-analysing-neutron-competitively.md
 2024-02-10,2407,Y,Analysing the Dedicated Small Sat Launch Market,c:\_Dev\ckalitin.github.io\_posts\2024-02-10-smallsats-vs-rideshare.md
 2024-02-16,1121,Y,Comparing Demand for Firefly's Alpha vs. Electron,c:\_Dev\ckalitin.github.io\_posts\2024-02-16-firefly-vs-rocketlab.md
-2024-02-26,3005,Y,Stoke's Nova is a Perfectly Sized Rocket,c:\_Dev\ckalitin.github.io\_posts\2024-02-26-stoke-nova-perfect.md
+2024-02-26,3170,Y,Stoke's Nova is a Perfectly Sized Rocket,c:\_Dev\ckalitin.github.io\_posts\2024-02-26-stoke-nova-perfect.md
 2024-04-09,2144,Y,What SpaceX's Bandwagon Missions Mean for Small Rockets,c:\_Dev\ckalitin.github.io\_posts\2024-04-09-spacex-bandwagon-mission.md
 2024-05-25,959,Y,On the Overallocation of Labour to Finance and Law,c:\_Dev\ckalitin.github.io\_posts\2024-05-25-overallocation-of-labour.md
 2024-07-04,1885,Y,Small Sat Constellations: The line between Electron and Rideshare,c:\_Dev\ckalitin.github.io\_posts\2024-07-04-small-sat-constellations.md
 2024-07-16,831,Y,Visualizing Small Sat Constellation Tradeoffs with Charts,c:\_Dev\ckalitin.github.io\_posts\2024-07-16-small-constellation-charts.md
-2024-07-24,1545,Y,How to Land an Orbital Rocket Booster with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-07-24-kos-booster-landing.md
+2024-07-24,1827,Y,How to Land an Orbital Rocket Booster with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-07-24-kos-booster-landing.md
 2024-08-12,2558,Y,Extrapolating Demand and Competition for the 1-ton Rocket Class,c:\_Dev\ckalitin.github.io\_posts\2024-08-12-extrapolating-demand-firefly.md
 2024-09-15,1051,Y,How to Teach Engineering,c:\_Dev\ckalitin.github.io\_posts\2024-09-15-to-teach-engineering.md
 2024-10-21,2842,Y,Why You Should Accumulate Capital,c:\_Dev\ckalitin.github.io\_posts\2024-10-21-should-accumulate-capital.md
 2024-11-19,2625,Y,S-Curves Allow You to Predict the Future,c:\_Dev\ckalitin.github.io\_posts\2024-11-19-s-curve-examples.md
-2024-12-25,3009,Y,Quintuple Simultaneous Booster Landings with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-12-25-more-kos-boosters.md
+2024-12-25,3069,Y,Quintuple Simultaneous Booster Landings with kOS,c:\_Dev\ckalitin.github.io\_posts\2024-12-25-more-kos-boosters.md
 2024-12-27,2103,Y,Characterizing the ESP32's ADC,c:\_Dev\ckalitin.github.io\_posts\2024-12-27-esp32-adc-characterization.md
 2024-12-29,1224,Y,Using SCPI and PyVISA to Automatically Collect Data for ADC Characterization,c:\_Dev\ckalitin.github.io\_posts\2024-12-29-scpi-auto-characterization.md
 2025-01-09,1246,Y,Estimating Cost per Mbps of Communication Satellites Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-01-09-com-sat-cost.md
@@ -36,14 +36,14 @@ Date,Words,Published,Title,Path
 2025-05-13,3184,Y,Modelling Mars’ Atmosphere for Simulating Blunt Body Entry Vehicles,c:\_Dev\ckalitin.github.io\_posts\2025-05-13-martian-atmosphere-model.md
 2025-05-13,223,N,Modelling Terminal Velocity Vs. Ballistic Coefficient For Blunt Body Mars Entry Vehicles,c:\_Dev\ckalitin.github.io\_posts\2025-05-13-martian-ballistic-coefficient.md
 2025-05-29,23,Y,Portfolio / Resume,c:\_Dev\ckalitin.github.io\_posts\2025-05-29-christopher-kalitin-portfolio.md
-2025-06-02,2331,Y,Deriving the Impulse Labs Master Plan,c:\_Dev\ckalitin.github.io\_posts\2025-06-02-impulse-master-plan.md
+2025-06-02,2344,Y,Deriving the Impulse Labs Master Plan,c:\_Dev\ckalitin.github.io\_posts\2025-06-02-impulse-master-plan.md
 2025-06-08,1753,Y,Planet Labs Charts That Describe Their History,c:\_Dev\ckalitin.github.io\_posts\2025-06-08-planet-labs-charts.md
 2025-06-08,2123,Y,Space Industry Charts,c:\_Dev\ckalitin.github.io\_posts\2025-06-08-space-industry-charts.md
-2025-06-11,499,N,Highest Leverage Work Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-06-11-highest-leverage-work.md
+2025-06-11,588,N,Highest Leverage Work Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-06-11-highest-leverage-work.md
 2025-06-16,3069,Y,All Mistakes On UBC Solar Were Due To People,c:\_Dev\ckalitin.github.io\_posts\2025-06-16-ubc-solar-mistakes.md
 2025-07-07,5149,N,DRAFT DRAFT DRAFT Everything That Went Wrong For UBC Solar At FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-07-ubc-fsgp-2025.md
 2025-07-08,2772,Y,Can Canada Support a Sovereign Space Industry?,c:\_Dev\ckalitin.github.io\_posts\2025-07-08-canada-space-industry.md
-2025-07-09,4494,N,What I Learned From Other Teams At FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-09-fsgp-team-insights.md
+2025-07-09,6024,N,What I Learned From Other Teams At FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-09-fsgp-team-insights.md
 2025-07-11,1476,Y,Most Profilic Space Station Modules,c:\_Dev\ckalitin.github.io\_posts\2025-07-11-most-prolific-modules.md
 2025-07-18,861,Y,Learning About Motor FETs and Hall Effect Sensors Live at FSGP 2025,c:\_Dev\ckalitin.github.io\_posts\2025-07-18-motor-hall-sensors.md
 2025-07-28,1492,Y,First Principles Thinking Expressed As Distillation Into a Latent Space,c:\_Dev\ckalitin.github.io\_posts\2025-07-28-latent-first-principles.md
@@ -59,4 +59,5 @@ Date,Words,Published,Title,Path
 2025-10-13,2150,Y,Optimize For Exceptionally Competent Small Teams,c:\_Dev\ckalitin.github.io\_posts\2025-10-13-managing-technical-teams.md
 2025-11-19,1037,Y,Rewiring a 240V Kiln and Producing Calcium Oxide,c:\_Dev\ckalitin.github.io\_posts\2025-11-19-rewired-240v-kiln.md
 2025-12-26,1397,Y,Falcon 9 Launch Cadence Is Asymptotically Approaching A Limit,c:\_Dev\ckalitin.github.io\_posts\2025-12-26-falcon-9-cadence.md
-2026-01-04,1787,Y,Modelling dV Savings Of Supersynchronous Transfer Orbits,c:\_Dev\ckalitin.github.io\_posts\2026-01-04-supersyncronous-transfer-orbits.md
+2026-01-29,1791,Y,Modelling dV Savings Of Super Synchronous Transfer Orbits,c:\_Dev\ckalitin.github.io\_posts\2026-01-29-supersyncronous-transfer-orbits.md
+2026-02-09,1962,Y,2nd Year Circuit Analysis Being Useful,c:\_Dev\ckalitin.github.io\_posts\2026-02-09-circuit-analysis-useful.md

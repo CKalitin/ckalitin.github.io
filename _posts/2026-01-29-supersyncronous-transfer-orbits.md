@@ -10,7 +10,7 @@ author:
 redirect_from:
   - /space/2026/01/04/supersyncronous-transfer-orbits.html
   - /space/2026/01/29/supersyncronous-transfer-orbits.html
-word_count: 1787
+word_count: 1791
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png">
