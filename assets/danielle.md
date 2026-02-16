@@ -64,7 +64,7 @@ With Danielle, a few things must be true for us to be together forever:
     But she's such a beautiful soul ... continued below
     Though many things she doesn't seem to do, she still has her bullshit job, and I'm not sure what vision she has after that. I believe my wife must have a vision for her future, which if can be mended with mine will become our family's future.
 
-She's such a beautiful soul. Hamlet, ROUS's, baking, caring for me (passion fruit chocolate!), her smile and the way she says "hi" when I come to her home, the way she loves her family and her family loves her, caring for her friends, her ability to work hard, how cute she is and how she enjoys when I'm cute with her, how she loves to cuddle and be held and passionately kissed.
+She's such a beautiful soul. Hamlet, ROUS's, baking, caring for me (passion fruit chocolate!), her smile and the way she says "hi" when I come to her home, the way she loves her family and her family loves her, caring for her friends, her ability to work hard, how cute she is and how she enjoys when I'm cute with her, how she loves to cuddle and be held and passionately kissed, The Phantom Tollbooth! (Will my kids ever get to read it in the same way? Ye of little faith)
 
 What a horrid thing I will have done when I leave her, to have shown her such love, questioned the 7th commandment, so passionately loved her, then left her. 
 
@@ -79,3 +79,7 @@ How she looked forward to our future together, never having quite understood wha
 Though my future will be even more beautiful, I am not sure of hers, but she has her family which gives me tremendous faith.
 
 I must meditate on this to internalize the lesson, so this never happens again. Pursue marriage, unapologetically. 
+
+I have to speak to her about this on Tuesday.
+
+After that, Wednesday if my Dad's birthday which I should be there for, Thursday she's having dinner with her sister (maybe earlier in the day is possible), Friday is also possible, then Saturday Shreya comes back.
