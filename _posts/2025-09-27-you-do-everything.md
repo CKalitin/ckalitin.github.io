@@ -24,7 +24,7 @@ Just now I realized that I never liked saying "you can do anything." I deeply fe
 
 Clearly you can't do any thing. I've found one thing I cannot do, so clearly that's a proof by counterexample that you cannot do any thing. Notice this is a slightly different statement than "you can do anything."
 
-I've managed to track down why my brain got "you can do everything" stuck in my thoughts. There's a [clip of Kanye with the Sunday Service Choir](https://www.youtube.com/watch?v=v4Z9f5ZKsDY&t=729s) that the [LLMs helped me find](https://chatgpt.com/c/68d8a7ea-c4a0-832f-8746-e879afc6ba5f). "now we absolutely know everything is possible. *Not anything, everything is possible.*"
+I've managed to track down why my brain got "you can do everything" stuck in my thoughts. There's a [clip of Kanye with the Sunday Service Choir](https://www.youtube.com/watch?v=v4Z9f5ZKsDY&t=729s) that the [LLMs helped me find](https://chatgpt.com/share/6993765b-cc10-8006-9796-448cb8fd13a7). "now we absolutely know everything is possible. *Not anything, everything is possible.*"
 
 I spend a lot of time working while listening to either Kanye, Ye, and Logic songs or classical music in the background, and this thought clearly slipped its way into my head. I've gone on a few dates recently with a girl who has a particularly [pure heart](https://youtu.be/i1nindf1meE?si=OWkJuLCkqPMV3s_o&t=178) - at least from my perspective! what a lucky young man I am, though always going all in when this happens - and have said "you can do everything" extremely often, as it seemed fundamental to who I was though I never fundamentally evaluated what that meant until today.
 
