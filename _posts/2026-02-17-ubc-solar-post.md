@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UBC Solar Blog Post TITLE HERE"
+title: "The PCB Design Cycle: Designing Solar's High Voltage Controller"
 categories: Projects
 tags:
     - Projects
@@ -23,3 +23,4 @@ Ideas:
 - Give mech side more understanding of the design cycle
 - What does the BMS actually do?
 - Designing the High Voltage Controller of the V4 Battery Pack
+- Explain the design cycle for potential new recruits, and pitfalls
