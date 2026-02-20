@@ -47,9 +47,9 @@ Notice this framework doesn't restrict a project to only having MVP features on 
 
 On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
 
-Due to the nature of PCBs, such schedule margin is also likely the only time when MMR features will be added. Once your board is working, it's unlikely that the best use of your time will be to revisit the same project and add a couple of extra features. Each PCB revision imposes a opportunity cost, so it's often more useful to move onto the next project. This is in contrast to a field like software (where the terms MVP and MMR originate), where adding an additional feature doesn't mean potentially spending weeks rerouting your PCB.
+Due to the nature of PCBs, such schedule margin is also likely the only time when MMR features will be added. Once your board is working, it's unlikely that the best use of your time will be to revisit the same project and add a couple of extra features. Each PCB revision imposes a opportunity cost, so it's often more useful to move onto the next project. This is in contrast to a field like software (where the terms MVP and MMR originate), where adding an additional feature can be done with a one-off PR and doesn't mean potentially spending weeks rerouting your PCB.
 
-## **Schematic Design: You Must Be The Expert**
+## **You Must Be The Expert**
 
 - Schematic design cycle
     - You must be the expert, when people ask questions they should run out of questions before you run out of answers
@@ -79,8 +79,9 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
     - Once individual systems work, test it all
     - Testing isn't done until you're integrated with the rest of the pack and the car, think again to what the original goal was
     
-## **Why Should You Know The History Of Your Project?**
+## **You Should Know The History Of Your Projects**
 
-
+> “Civilization is not inherited, it has to be learned and earned by each generation anew. If the transmission should be interrupted for one century, civilization would die and we should be savages again. If progress is real, it is not because we are born any better or wiser than infants were in the past, but because we are born to a richer heritage, born on a higher level of that pedestal, which the accumulation of knowledge raises as the ground and support of our being.”  
+> \- Will & Ariel Durant, The Lessons of History
 
 
