@@ -41,22 +41,13 @@ Part of connecting your work to the goals of the team is understanding what work
 
 Every member on the team must understand what an MVP looks like for their project. This is the minimum set of features that must be implemented for the car to drive at competition. Before other work is attempted, the designer should be working towards the MVP and ensuring that it is completed on time. Once it's guaranteed that your project will have the MVP features by the deadline, then other MMR features can be added.
 
-An easy test you can run for if a given feature is an MVP or MMR is to ask yourself if competition was in a month, would you develop the feature. A month is such a short timeline that you must only work on features that are strictly requried for the car to drive.
+An easy test you can run for if a given feature is an MVP or MMR is to ask yourself if competition was in a month, would you develop the feature. A month is such a short timeline that you must only work on features that are strictly required for the car to drive.
 
 Notice this framework doesn't restrict a project to only having MVP features on its first revision. The limiting factor is your timeline. So, if time permits, extra features can be added in the first revision.
 
-On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality, and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
+On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
 
-
-
-- Before going into design, know your goals (what does *the team* need) and gauge every decision off this
-    - Individual features may not be required for high-level goals for the year
-        - Explain core functionality of the HVC (contactors, reading from the BMS, current sensing, LV control & swapping)
-    - MMRs vs MVPs, know what's a must have a what isn't
-        - Shunt resistor, power path prioritizer
-        - Some things not strict requirements (regs) but we should absolutely have (precharge monitoring)
-    - Many MMRs will never be revisited, so if you have the extra time, add them in
-        - Once a project is complete, it's likely more useful for a designer to move onto another project than revisit the same one to make it marignally better (eg. distribution board and E-fuses)
+Due to the nature of PCBs, such schedule margin is also likely the only time when MMR features will be added. Once your board is working, it's unlikely that the best use of your time will be to revisit the same project and add a couple of extra features. Each PCB revision imposes a opportunity cost, so it's often more useful to move onto the next project. This is in contrast to a field like software (where the terms MVP and MMR originate), where adding an additional feature doesn't mean potentially spending weeks rerouting your PCB.
 
 ## **Schematic Design: You Must Be The Expert**
 
