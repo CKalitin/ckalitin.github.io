@@ -45,9 +45,18 @@ An easy test you can run for if a given feature is an MVP or MMR is to ask yours
 
 Notice this framework doesn't restrict a project to only having MVP features on its first revision. The limiting factor is your timeline. So, if time permits, extra features can be added in the first revision.
 
+[Image of schematic of hall voltage offset circuitry on ECU vs. shunt sensing circuitry on HVC]
+
 On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
 
 Due to the nature of PCBs, such schedule margin is also likely the only time when MMR features will be added. Once your board is working, it's unlikely that the best use of your time will be to revisit the same project and add a couple of extra features. Each PCB revision imposes a opportunity cost, so it's often more useful to move onto the next project. This is in contrast to a field like software (where the terms MVP and MMR originate), where adding an additional feature can be done with a one-off PR and doesn't mean potentially spending weeks rerouting your PCB.
+
+## **Define Your Interfaces**
+
+- First thing you do in your project
+- Once well defined, you can work inside your interfaces
+- If you don't do this, your interfaces are floating and changes other people make will affect your work, possibly delaying
+- On HVC, this meant connectors
 
 ## **You Must Be The Expert**
 
@@ -58,27 +67,6 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
     - The LLMs are good at suggesting ICs, but remember that you must be the expert
     - Most importantly: define all interfaces early so integration is not a pain
 
-## **Routing & Component Placement: Mechanical Constraints Drive Routing!**
-
-- Routing design cycle
-    - Mechanical constraints drive routing!
-        - Show the connectors, and how they connect in the pack
-    - Place blocks, then signals, then power, then everything else
-        - Bottom right, swap
-        - Top right (nice white line), current sensing and precharge monitoring
-        - bottom left, masterboard and microcontroller
-        - middle, MOSFETs
-    - Other little tips:
-        - constant DC voltages don't care about a million vias, but high speed and sensitive signals do
-
-## **Quick Note on Testing: Design For It Before You Order The PCB**
-
-- Testing
-    - Think about it before you order the PCB, design for it
-    - Test individual systems
-    - Once individual systems work, test it all
-    - Testing isn't done until you're integrated with the rest of the pack and the car, think again to what the original goal was
-    
 ## **You Should Know The History Of Your Projects**
 
 > “Civilization is not inherited, it has to be learned and earned by each generation anew. If the transmission should be interrupted for one century, civilization would die and we should be savages again. If progress is real, it is not because we are born any better or wiser than infants were in the past, but because we are born to a richer heritage, born on a higher level of that pedestal, which the accumulation of knowledge raises as the ground and support of our being.”  
