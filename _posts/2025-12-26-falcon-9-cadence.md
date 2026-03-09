@@ -85,7 +85,12 @@ This is merely assuming a marginal improvement of ~10% in turnaround times from 
 
 With this 17.4 launches per month terminal value, I manually fit an S-curve to the monthly Falcon 9 launch cadence data, resulting in the red curve above.
 
+
 The fact that an S-curve fits to the data so nicely (with some averaging) is a great testament to the work of the Falcon 9 team over the last few years, and the applicability of Wright's law.
+
+[Update Mar 9 2026]
+
+It's since been announced that LC-39A will be swapped entirely to Falcon Heavy and Starship, lowering F9 terminal launch cadence even further. Looking at LC-39A cadence, I predict ~2 fewer F9 launches month from 39A. Since all Dragon flights are moving to SLC-40, this reduces cadence a little further. [In this post](https://x.com/CKalitin/status/2031116339298062572?s=20), I predict terminal launch cadence of ~15 per month.
 
 ### **Predicting Starship Launches & Falcon 9 Cadence Collapse**
 
