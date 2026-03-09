@@ -45,6 +45,8 @@ An easy test you can run for if a given feature is an MVP or MMR is to ask yours
 
 Notice this framework doesn't restrict a project to only having MVP features on its first revision. The limiting factor is your timeline. So, if time permits, extra features can be added in the first revision.
 
+*Section header*
+
 [Image of schematic of hall voltage offset circuitry on ECU vs. shunt sensing circuitry on HVC]
 
 On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
@@ -57,6 +59,29 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
 - Once well defined, you can work inside your interfaces
 - If you don't do this, your interfaces are floating and changes other people make will affect your work, possibly delaying
 - On HVC, this meant connectors
+
+Observing other projects on UBC Solar, I've noticed that the most important thing for a project to go smoothly is to define the interfaces early. This is partly a project management step, along with technical considerations.
+
+[Find a Joe Justice clip explaining this]
+
+Your interfaces could be connectors, people, bolt locations, or any number of things. Once you have well-defined and unchanging interfaces, you can work inside your interfaces and not worry about making changes that impact other people or other people's changing impacting you. This allows you to work independently and at your own pace (which may be much faster than others).
+
+On the HVC, this involved defining connectors and their pinouts early. There are many other PCBs in the battery that the HVC interfaces with including the Junction Board, Masterboard, Contactor Boards, etc. Defining the connectors between all of these boards allows all designers to indepdently work without worrying about making changes.
+
+*Put a section header here, make it an easy blog post to read*
+*Like Mischa, > Case Study, DCDC sizing and Battery Pack Fans*
+
+If you leave an interface undefined and floating, you are inviting it to potentialy greatly delay your work in the future. One example of this was sizing the DCDC Converter for our next generation battery. The DCDC converts raw high voltage from our battery pack into 12 V that all of our PCBs and microcontrollers can use.
+
+Our Battery Mechanical team has been working to choose fans for the next battery pack and balancing air flow rate, cooling, and current consumption considerations. We didn't set an explicit max current the fans could use for over a month which meant I had great trouble deciding on which DCDCs would be suitable for us. If every week the fan current changes, then the DCDC selection must also change.
+
+In the end we decided on 2 A as the max fan current, which allowed me to finalize DCDC selection while the Battery Mechanical team could continue iterating on fan selection without worrying about my work.
+
+*> Case Study, Masterboard mounting holes*
+
+Mounted on top of the HVC is the Masterboard, which provides the HVC with temperature and voltage information from the battery cells. The Masterboard is mounted on standoffs that are screwed into the HVC. So, before routing could be done the Masterboard designer and I had to agree on the location and size of the mounting holes.
+
+The reason I picked out this example is because once we set this interface, changing it became extremely difficult as it would be rerouting the HVC which depending on the size of the change could take a significant amount of time. We ended up only increasing width by 2 mm, which only affects a couple of traces and was a fairly easy change.
 
 ## **You Must Be The Expert**
 
@@ -72,4 +97,7 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
 > “Civilization is not inherited, it has to be learned and earned by each generation anew. If the transmission should be interrupted for one century, civilization would die and we should be savages again. If progress is real, it is not because we are born any better or wiser than infants were in the past, but because we are born to a richer heritage, born on a higher level of that pedestal, which the accumulation of knowledge raises as the ground and support of our being.”  
 > \- Will & Ariel Durant, The Lessons of History
 
+On the shoulders of giants
+https://x.com/SpaceX/status/12608349564575745?s=20
 
+If you've read this entire blog post and are not on UBC Solar, consider applying next recruiting cycle! Your probability of getting on the BMS team (or any other team) has greatly increased simply by putting in the effort to read UBC Solar's blog!
