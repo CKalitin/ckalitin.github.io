@@ -13,25 +13,26 @@ word_count: 1111
     <meta property="og:image" content="{{site.url}}/assets/images/circuit-analysis-useful/header.jpg">
 </head>
 
-![Image](/assets/images/circuit-analysis-useful/header.jpg)  
+![Image](/assets/images/solar-project-insights/header_1.jpg)  
 
-Since September of last year I've been designing the High Voltage Controller (HVC) for UBC Solar's V4 battery pack. Throughout this process, severalinsights and design philosophies have emerged that I think are worth sharing. Many of these insights - particularly those in the first section - are high-level and applicable to projects in other domains, not just PCB design.
+Since September of last year I've been designing the High Voltage Controller (HVC) for UBC Solar's V4 battery pack. Throughout this process, several insights and design philosophies have emerged that I think are worth sharing. Many of these insights are high-level and applicable to projects in other domains, not just PCB design.
 
-Some of these points may sound obvious, but the hard part is not reading and remembering them, but actually having these lessons ingrained into your head. It's very easy to tell new engineers to not make mistakes like shorting batteries, but unless those lessons are beat into your head it may be very difficult to avoid them!
+Some of these points may sound obvious, but the hard part is not reading and remembering them. It's actually having these lessons ingrained into your head that takes a while. It's very easy to tell new engineers or design team members to not make mistakes like shorting batteries, but unless those lessons are beat into your head it may be very difficult to avoid them!
 
 ## **Connect Your Project To Team Goals**
 
-At the begining every Saturday Meeting, our team captain, Tima Komarov, goes over a slide that states the goals of the team. One of these is achieving Top 5 at the Formula Sun Grand Prix in the summer of 2027. This is a high level goal, but each UBC Solar member must know how their work contributes to it, and knowing the high level goal allows members to independently make design decisions for their own projects.
+At the begining every Saturday Meeting, our team captain, Tima Komarov, goes over a slide that states the goals of the team. One of these is achieving Top 5 at the Formula Sun Grand Prix in the summer of 2027. This is a high level goal, but each UBC Solar member must know how their work contributes to it. Knowing the high level goal allows members to independently make design decisions for their own projects.
 
 For the High Voltage Controller (HVC), it's fairly clear how it contributes to the overall goal. Without a board that controls our battery pack, we won't be able to drive the car. So, such a component is on the critical path to achieving our goal.
 
-In some cases, it might not be clear exactly how a project is contributing to the success of the team. In such cases, it's extremely important for the member to ask questions and figure out how to connect their day-to-day work to the long-term success of the team. Otherwise, it's very easy to fixate on low-level details and lose sight of if your work is actually useful.
+In some cases, it might not be clear exactly how a project is contributing to the success of the team. In such cases, it's extremely important for the member running the project to ask questions and figure out how to connect their day-to-day work to the long-term success of the team. Otherwise, it's very easy to fixate on low-level details and lose sight of if your work is actually useful.
 
-*Case Study, My First Project*
+### **Case Study: My First UBC Solar Project**
 
-[Image of test setup]
+![Image](/assets/images/solar-project-insights/test_setup.jpg){:height="300"}  
+*Automated test setup I developed for characterizing our previous generation battery pack's current sensor*
 
-An example of this is my first project on the team, characterizing our V3 battery pack's current sensor to minimize its error.
+An example of this is my first project on the team, characterizing our previous generation battery pack's current sensor to minimize its error.
 
 This project dragged on for months while I developed an automated testing setup (shown above) for characterizing the current sensor. This involved understanding the functionality of the current sensor and the board that reads it, writing firmware, and software to read from our instrumentation. All of this work went on while I had no clear requirement for how accurate the current sensor needed to be, and no clear timeline for when it should be completed.
 
@@ -47,8 +48,7 @@ An easy test you can run for if a given feature is an MVP or MMR is to ask yours
 
 Notice this framework doesn't restrict a project to only having MVP features on its first revision. The limiting factor is your timeline. So, if time permits, extra features can be added in the first revision.
 
-*Section header*
-*> Case Study: HVC Current Sensing*
+### **Case Study: HVC Current Sensing**
 
 [Image of schematic of hall voltage offset circuitry on ECU vs. shunt sensing circuitry on HVC]
 
@@ -58,11 +58,6 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
 
 ## **Define Your Interfaces**
 
-- First thing you do in your project
-- Once well defined, you can work inside your interfaces
-- If you don't do this, your interfaces are floating and changes other people make will affect your work, possibly delaying
-- On HVC, this meant connectors
-
 Observing other projects on UBC Solar, I've noticed that the most important thing for a project to go smoothly is to define the interfaces early. This is partly a project management step, along with technical considerations.
 
 Your interfaces could be connectors, people, bolt locations, or any number of things. Once you have well-defined and unchanging interfaces, you can work inside your interfaces and not worry about making changes that impact other people or other people's changing impacting you. This allows you to work independently and at your own pace (which may be much faster than others).
@@ -71,8 +66,7 @@ I learned this lesson from listening to Joe Justice, and he explains part of the
 
 On the HVC, this involved defining connectors and their pinouts early. There are many other PCBs in the battery that the HVC interfaces with including the Junction Board, Masterboard, Contactor Boards, etc. Defining the connectors between all of these boards allows all designers to indepdently work without worrying about making changes.
 
-*Put a section header here, make it an easy blog post to read*
-*Like Mischa, > Case Study, DCDC sizing and Battery Pack Fans*
+### **Case Study: DCDC Sizing and Battery Pack Fans**
 
 If you leave an interface undefined and floating, you are inviting it to potentialy greatly delay your work in the future. One example of this was sizing the DCDC Converter for our next generation battery. The DCDC converts raw high voltage from our battery pack into 12 V that all of our PCBs and microcontrollers can use.
 
@@ -80,11 +74,16 @@ Our Battery Mechanical team has been working to choose fans for the next battery
 
 In the end we decided on 2 A as the max fan current, which allowed me to finalize DCDC selection while the Battery Mechanical team could continue iterating on fan selection without worrying about my work.
 
-*> Case Study, Masterboard mounting holes*
+### **Case Study: Masterboard Mounting Holes**
 
-Mounted on top of the HVC is the Masterboard, which provides the HVC with temperature and voltage information from the battery cells. The Masterboard is mounted on standoffs that are screwed into the HVC. So, before routing could be done the Masterboard designer, Michael Lin, and I had to agree on the location and size of the mounting holes.
+![Image](/assets/images/solar-project-insights/altium.jpg){:height="300"}  
+*The Masterboard is mounted on top of the HVC on standoffs at the holes labelled "1" (except the very bottom left hole)*
 
-The reason I picked out this example is because once we set this interface, changing it became extremely difficult as it would be rerouting the HVC which depending on the size of the change could take a significant amount of time. We ended up only increasing width by 2 mm, which only affects a couple of traces and was a fairly easy change.
+Mounted on top of the High Voltage Controller PCB (HVC) is the Masterboard, which provides the HVC with temperature and voltage information from the battery cells. The Masterboard is mounted on standoffs that are screwed into the HVC. So, before routing could be done the Masterboard designer, Michael Lin, and I had to agree on the location and size of the mounting holes.
+
+I picked out this example because once we set this interface, we were locked into the general size of the Masterboard. Changing the size of the Masterboard by a considerable amount would mean rerouting sections of the HVC, which could take a significant amount of time.
+
+For example, as the image above illustrates, if Michael wanted an extra centimeter or two of width or height, it would have conflicted with existing connector placement on the HVC. In the end we only added 2 mm of width to the Masterboard, so we were able to avoid any major issues. Let this be a lesson in correctly defining your interfaces early. If you define them incorrectly you may experience great pain in the future.
 
 ## **You Must Be The Expert**
 
@@ -97,7 +96,7 @@ The reason you must understand all parts of your project is being you are the le
 
 Part of being the expert on a given project is that you must have a very clear mental model of the system you're working on. You should understand the functional blocks and interfaces of your system, how they interact with each other, and edge cases. The best way I've found to do this is have a big flow diagram in your mind (or, even better, documented somewhere so others can use it). This allows you to quickly understand how changes to one part of the system will affect other parts of the system.
 
-*Case Study, Leading Experts On Their Own Projects*
+### **Case Study: Leading Experts On Their Own Projects**
 
 We can consider this from a leadership perspective as well. If you are the lead of a subteam you should be optimizing for training up many members to be experts on their own individual projects, and how these projects fit into the overall system. This should also be the goal of recruiting, to identify people who could become experts on their own projects, and then to train them and give them all required information / context to be the expert on their projects.
 
@@ -105,7 +104,7 @@ As the lead of members who are the experts on their own projects, your role is g
 
 As a lead, your role is one of course correction, high-level management, and clearing roadblocks. Checkins with expert members should be focused on ensuring the project is still on the right track for the high-level goals of the subteam and integration with other members, not necessarily on low-level design decisions. Our Electrical Director, Aarjav Jain, does a great job of keeping his meetings with individual designers on this topic, and not necessarily using his time as Electrical Director for scrutinizing low-level design decisions like component selection.
 
-*Case Study, Copy Pasting Designs and Language Models*
+### **Case Study: Copy Pasting Designs and Language Models**
 
 Throughout design of the HVC I often consulted my favourite language model that month and the design of previous PCBs on the team. These are great resources for learning about how to design a PCB and for getting ideas for how to implement certain features. Language models are particularly good at suggesting ICs I could use for certain functions, and giving implementation details for how to use those ICs.
 
