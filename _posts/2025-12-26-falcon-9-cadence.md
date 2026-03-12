@@ -4,7 +4,6 @@ title: "Falcon 9 Launch Cadence Is Asymptotically Approaching A Limit"
 categories: Space
 tags:
     - Space Industry Analysis
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1462

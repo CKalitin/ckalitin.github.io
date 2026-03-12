@@ -4,7 +4,7 @@ title: "Insights From Designing The Battery's High Voltage Controller"
 categories: Projects
 tags:
     - Projects
-    - Drafts
+    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2516
@@ -62,7 +62,7 @@ Due to the nature of PCBs, such schedule margin is also likely the only time whe
 
 ## **Define Your Interfaces**
 
-![Image](/assets/images/solar-project-insights/board.jpg){:height="300"}  
+![Image](/assets/images/solar-project-insights/board.jpg){:height="400"}  
 *The HVC's connectors are its most important interfaces.*
 
 Observing other projects on UBC Solar, I've noticed that the most important thing for a project to go smoothly is to define the interfaces early. This is partly a project management step, along with technical considerations.
