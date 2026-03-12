@@ -7,7 +7,7 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-word_count: 1111
+word_count: 2485
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/circuit-analysis-useful/header.jpg">
@@ -29,7 +29,7 @@ In some cases, it might not be clear exactly how a project is contributing to th
 
 ### **Case Study: My First UBC Solar Project**
 
-![Image](/assets/images/solar-project-insights/test_setup.jpg){:height="300"}  
+![Image](/assets/images/solar-project-insights/test_setup.jpg){:height="400"}  
 *Automated test setup I developed for characterizing our previous generation battery pack's current sensor*
 
 An example of this is my first project on the team, characterizing our previous generation battery pack's current sensor to minimize its error.
@@ -74,9 +74,9 @@ Our Battery Mechanical team has been working to choose fans for the next battery
 
 In the end we decided on 2 A as the max fan current, which allowed me to finalize DCDC selection while the Battery Mechanical team could continue iterating on fan selection without worrying about my work.
 
-### **Case Study: Masterboard Mounting Holes**
+#### **Case Study: Masterboard Mounting Holes**
 
-![Image](/assets/images/solar-project-insights/altium.jpg){:height="300"}  
+![Image](/assets/images/solar-project-insights/altium.jpg){:height="400"}  
 *The Masterboard is mounted on top of the HVC on standoffs at the holes labelled "1" (except the very bottom left hole)*
 
 Mounted on top of the High Voltage Controller PCB (HVC) is the Masterboard, which provides the HVC with temperature and voltage information from the battery cells. The Masterboard is mounted on standoffs that are screwed into the HVC. So, before routing could be done the Masterboard designer, Michael Lin, and I had to agree on the location and size of the mounting holes.
