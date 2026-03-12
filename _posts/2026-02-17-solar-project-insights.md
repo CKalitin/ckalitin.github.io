@@ -44,7 +44,7 @@ Part of connecting your work to the goals of the team is understanding what work
 
 Every member on the team must understand what an MVP looks like for their project. This is the minimum set of features that must be implemented for the car to drive at competition. Before other work is attempted, the designer should be working towards the MVP and ensuring that it is completed on time. Once it's guaranteed that your project will have the MVP features by the deadline, then other MMR features can be added.
 
-An easy test you can run to determine if a given feature is an MVP or MMR is to ask yourself if competition was in a month, would you develop the feature. A month is such a short timeline that you must only work on features that are strictly required for the car to drive.
+An easy test you can run to determine if a given feature is an MVP or MMR is to ask yourself if competition were in a month, would you develop the feature? A month is such a short timeline that you must only work on features that are strictly required for the car to drive.
 
 Notice this framework doesn't restrict a project to only having MVP features on its first revision. The limiting factor is your timeline. So, if time permits, extra features can be added in the first revision.
 
@@ -77,7 +77,7 @@ On the HVC, this involved defining connectors and their pinouts early. There are
 
 If you leave an interface undefined and floating, you are inviting it to potentially greatly delay your work in the future. One example of this was sizing the DCDC Converter for our next generation battery. The DCDC converts raw high voltage from our battery pack into 12 V that all of our PCBs and microcontrollers can use.
 
-Our Battery Mechanical team has been working to choose fans for the next battery pack and balancing air flow rate, cooling, and current consumption considerations. We didn't set an explicit max current the fans could use for over a month which meant I had great difficulty deciding on which DCDCs would be suitable for us. If every week the fan current changes, then the DCDC selection must also change.
+Our Battery Mechanical team has been working to choose fans for the next battery pack and balance air flow rate, cooling, and current consumption considerations. We didn't set an explicit max current the fans could use for over a month, which meant I had great difficulty deciding on which DCDCs would be suitable for us. If every week the fan current changes, then the DCDC selection must also change.
 
 In the end, we decided on 2 A as the max fan current, which allowed me to finalize DCDC selection while the Battery Mechanical team could continue iterating on fan selection without worrying about my work.
 
@@ -90,7 +90,7 @@ Mounted on top of the High Voltage Controller PCB (HVC) is the Masterboard, whic
 
 I picked out this example because once we set this interface, we were locked into the general size of the Masterboard. Changing the size of the Masterboard by a considerable amount would mean rerouting sections of the HVC, which could take a significant amount of time.
 
-For example, as the image above illustrates, if Michael wanted an extra centimeter or two of width or height, it would have conflicted with existing connector placement on the HVC. In the end we only added 2 mm of width to the Masterboard, so we were able to avoid any major issues. Let this be a lesson in correctly defining your interfaces early. If you define them incorrectly you may experience great pain in the future.
+For example, as the image above illustrates, if Michael wanted an extra centimeter or two of width or height, it would have conflicted with existing connector placement on the HVC. In the end, we only added 2 mm of width to the Masterboard, so we were able to avoid any major issues. Let this be a lesson in correctly defining your interfaces early. If you define them incorrectly you may experience great pain in the future.
 
 ## **You Must Be The Expert**
 
@@ -113,7 +113,7 @@ As a lead, your role is one of course correction, high-level management, and cle
 
 #### **Case Study: Copy Pasting Designs and Language Models**
 
-Throughout design of the HVC I often consulted my favourite language models and the design of previous PCBs on the team. These are great resources for learning about how to design a PCB and for getting ideas for how to implement certain features. Language models are particularly good at suggesting ICs I could use for certain functions, and giving implementation details for how to use those ICs.
+Throughout the design of the HVC I often consulted my favourite language models and the design of previous PCBs on the team. These are great resources for learning about how to design a PCB and for getting ideas for how to implement certain features. Language models are particularly good at suggesting ICs I could use for certain functions, and giving implementation details for how to use those ICs.
 
 However, any time you're outsourcing your thinking to a previous Solar member (who may not be on the team anymore) or a language model, you must remember that in the end you are the one who will have to be in the bay at 2 am debugging your board. Or, worse, pulling an all-nighter the night before competition desperately trying to fix a critical issue with the board you designed, with no one else to ask for help. This desperate moment at 4 am is what you should be optimizing for and why you must be the expert on your project.
 
