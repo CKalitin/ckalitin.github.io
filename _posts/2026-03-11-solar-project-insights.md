@@ -7,7 +7,7 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-word_count: 2485
+word_count: 2516
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/circuit-analysis-useful/header.jpg">
