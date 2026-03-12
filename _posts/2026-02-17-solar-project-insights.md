@@ -53,7 +53,7 @@ Notice this framework doesn't restrict a project to only having MVP features on 
 ![Image](/assets/images/solar-project-insights/ECU_current_sense.jpg){:height="200"}  
 *Above is the current sensing circuitry on the previous battery pack's control board*
 
-![Image](/assets/images/solar-project-insights/test_setup.jpg){:height="400"}  
+![Image](/assets/images/solar-project-insights/HVC_current_sense.jpg){:height="400"}  
 *For illustrative purposes, above is the current sensing circuitry I implemented on the HVC. Far more complicated!*
 
 On the HVC, this meant implementing a shunt current sensor and a power path prioritizer in the first revision of the board. These features are not strict requirements to achieve functionality and add significant design and testing time. However, there were 8 months allocated to the HVC project, so there was enough time to implement these features in the first revision. 
