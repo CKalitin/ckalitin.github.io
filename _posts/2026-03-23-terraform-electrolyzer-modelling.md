@@ -55,7 +55,7 @@ An electrolyzer stack is the core part of the electrolyzer that contains the ele
 
 When I plot the data with the distinctions mentioned above, we notice that there are no functioning electrolyzer stacks or plants below Handmer's line (save one that I had to estimate the efficiency of using [this paper](https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2026.1667072/full)).
 
-Given Handmer's analysis was in 2024, it appears to be [perfectly calibrated prognostication](https://x.com/DMOPalmer/status/2031229258991857826?s=20).
+Given Handmer's analysis was done in 2024, it appears to be [perfectly calibrated prognostication](https://x.com/DMOPalmer/status/2031229258991857826?s=20).
 
 Furthermore, Klaas' optimistic data points for AEM electrolyzers are not suitable comparisons to compare against Handmer's 2024 analysis. The rest of this blog post will be focused on comparing the optimistic estimates of AEM electrolyzers to Terraform's strategy. If AEM electrolyzers really are ~$250/kW at ~50 kWh/kgH2, does this pose issues for Terraform's strategy long-term?
 
@@ -108,8 +108,8 @@ As I mentioned earlier, higher efficiency processes have much more of their cost
 
 By [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law), we want the primary cost driver to be what we have the most control over. If we have most control over capex but capex is only 10% of the cost, then even if we completely eliminate capex cost and the machine is free our hydrogen still costs 90% of what it did before.
 
-*“How do I have a short position on the future price of solar? The answer is you want to go and build machines that consume an enormous amount of solar. Those machines have to be relatively cheap, so they have good investment rate of return.”*
-*'-Casey Handmer, [Rational Optimist Podcast 20:10](https://podcasts.apple.com/ca/podcast/rational-optimist-podcast/id1771924007?i=1000719799910&r=1210)*
+*“How do I have a short position on the future price of solar? The answer is you want to go and build machines that consume an enormous amount of solar. Those machines have to be relatively cheap, so they have good investment rate of return.”*  
+*- Casey Handmer, [Rational Optimist Podcast 20:10](https://podcasts.apple.com/ca/podcast/rational-optimist-podcast/id1771924007?i=1000719799910&r=1210)*
 
 The strategy of Terraform Industries is to bet on the declining cost of solar PV modules to reduce the cost of their process over time without any direct involvement. This necessitates targeting a process that is more sensitive to electricity costs, which means targeting a process with lower efficiency and lower capex. Now the optimization is to get the capex low enough that the electricity cost dominates, instead of amortizing capex over a longer period of time, as you're incentivized to do with a capex-intensive process.
 
