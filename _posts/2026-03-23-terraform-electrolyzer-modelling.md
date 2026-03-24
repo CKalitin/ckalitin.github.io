@@ -100,7 +100,7 @@ Above he says that even though Terraform and the AEM electrolyzers he benchmarks
 
 Sure, a more efficient electrolyzer will produce more hydrogen with the same solar array compared to Terraform's process, but it would also be more expensive to build! We've already factored this into our analysis!
 
-## **OPEX vs CAPEX Breakdown**
+## **Opex vs Capex Breakdown**
 
 ![Image](/assets/images/terraform-electrolyzer-modelling/electrolyzer_cost_breakdown_2030.png)  
 
