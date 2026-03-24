@@ -15,6 +15,8 @@ word_count: 2334
 
 If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2036353399512506478?s=20).
 
+Here's the link to all the [code](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Terraformer-Economics), [my notes](https://docs.google.com/document/d/1tDWz1ySHcHYq-t8HoBXNIyI4U1g-nvfA8-StTX8SiJg/edit?tab=t.90il04kjrwsf), and [spreadsheet](https://docs.google.com/spreadsheets/d/1r1VjkEGa8Ftf5orS9y2FDFu3sXiLq2zs2cJpQokQMtU/edit?gid=1679586932#gid=1679586932).
+
 ![Image](/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png)  
 *One of the beautiful charts that came out of this modelling.*
 
@@ -53,7 +55,7 @@ Klaas makes the mistake of using aspirational forward-looking numbers for electr
 An electrolyzer stack is the core part of the electrolyzer that contains the electrochemical cells, and is a subset of the cost of an entire electrolyzer plant. As the pie chart above from the World Bank shows, it's very important to distinguish between these two costs as the Electrolyzer stack is only one component of cost.
 
 ![Image](/assets/images/terraform-electrolyzer-modelling/electrolyzer_cost_vs_eff.png)  
-*Sources [available here](https://docs.google.com/spreadsheets/d/1r1VjkEGa8Ftf5orS9y2FDFu3sXiLq2zs2cJpQokQMtU/edit?usp=sharing)*
+*Sources [available here](https://docs.google.com/spreadsheets/d/1r1VjkEGa8Ftf5orS9y2FDFu3sXiLq2zs2cJpQokQMtU/edit?gid=1679586932#gid=1679586932)*
 
 When I plot the data with the distinctions mentioned above, we notice that there are no functioning electrolyzer stacks or plants below Handmer's line (save one that I had to estimate the efficiency of using [this paper](https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2026.1667072/full)).
 
@@ -77,7 +79,7 @@ We see that currently the Terraform strategy is obviously the valid optimization
 
 We also see that higher efficiency processes are much more sensitive to the amortization period, as they have higher capital expenditures initially, whereas Terraform's strategy is to deliberately target lower capex with an efficient process, resulting in net lower costs. More on this later.
 
-Note that the 2030 Model is a downwards parabola because cost is linear with respect to capex (cost = capex + opex) and capex is linear with respect to efficiency. So, we get a quadratic relationship between cost and efficiency.
+Note that the 2030 model is a downwards parabola because cost is a function of efficiency multiplied by capex, and capex is a function of efficiency (the green dashed line a few charts ago). So, cost is quadratic with respect to efficiency. This is shown in this [cost_per_kg function](https://github.com/CKalitin/charts-and-data-analysis/blob/master/Terraformer-Economics/electrolyzer/electrolyzer_future_cost_est.py).
 
 ## **Visualizing Cost vs Efficiency and Capex Simultaneously**
 
