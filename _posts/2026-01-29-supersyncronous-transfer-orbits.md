@@ -4,7 +4,6 @@ title: "Modelling dV Savings Of Super Synchronous Transfer Orbits"
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 redirect_from:
