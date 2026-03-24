@@ -7,11 +7,13 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2324
+word_count: 2334
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png">
 </head>
+
+If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2036353399512506478?s=20).
 
 ![Image](/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png)  
 *One of the beautiful charts that came out of this modelling.*
