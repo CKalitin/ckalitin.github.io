@@ -36,7 +36,7 @@ We'll take a slight tangent now and describe why you get a distribution in the l
 
 Oil / Natural gas begins with organic matter that undergoes catagenesis, which is the process of breaking down organic matter into simpler liquid and gaseous hydrocarbons in the absense of oxygen. Organic matter (you) is just a bunch of hydrocarbons with functional groups attached (eg. -OH, -COOH, etc.) - to a first approximation. By stripping away the functional groups, you get long-chain hydrocarbons. 
 
-A long-chain hydrocarbon is just a string of C-C bonds surrounded by C-H bonds. C-C bonds are more stable than C-H bonds, and both are extremely stable under high-pressure and low-oxygen. As the temperature increases, the probability that a C-C bond breaks increases. Higher temperature changes the Gibbs free energy of the system and makes it more favourable for C-C bonds to break. To illustrate, oil is stable at 60-120 C (C5+ hydrocarbons), wet gas is stable at 120-1200 C (C2-C5 hydrocarbons), and methane is stable at ~200 C. Above 550 C, methane spontaneously decomposes into elemental carbon and hydrogen.
+A long-chain hydrocarbon is just a string of C-C bonds surrounded by C-H bonds. C-C bonds are more stable than C-H bonds, and both are extremely stable under high-pressure and low-oxygen. As the temperature increases, the probability that a C-C bond breaks increases. Higher temperature changes the Gibbs free energy of the system and makes it more favourable for C-C bonds to break. To illustrate, oil is stable at 60-120 C (C5+ hydrocarbons), wet gas is stable at 120-200 C (C2-C5 hydrocarbons), and above 550 C, methane spontaneously decomposes into elemental carbon and hydrogen.
 
 ### **Natural Gas Markets and Prices**
 
