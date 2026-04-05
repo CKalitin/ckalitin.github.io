@@ -13,6 +13,11 @@ word_count: 2334
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png">
 </head>
 
+This is part one in my three part series of blog posts on modelling the economics of Terraform Industries:
+1. **(You are here)** [Terraform Industries Electrolyzer Economics Modelling](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html)
+2. [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html)
+3. Solar cost blog post coming up
+
 If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2036353399512506478?s=20).
 
 Here's the link to all the [code](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Terraformer-Economics), [my notes](https://docs.google.com/document/d/1tDWz1ySHcHYq-t8HoBXNIyI4U1g-nvfA8-StTX8SiJg/edit?tab=t.90il04kjrwsf), and [spreadsheet](https://docs.google.com/spreadsheets/d/1r1VjkEGa8Ftf5orS9y2FDFu3sXiLq2zs2cJpQokQMtU/edit?gid=1679586932#gid=1679586932).

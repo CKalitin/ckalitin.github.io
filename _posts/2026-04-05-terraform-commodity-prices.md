@@ -15,8 +15,8 @@ word_count: 1979
 
 This is part two in my three part series of blog posts on modelling the economics of Terraform Industries:
 1. [Terraform Industries Electrolyzer Economics Modelling](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html)
-2. What Commodity Prices Are Required For Terraform Industries To Be Competitive?
-3. Solar blog post coming up
+2. **(You are here)** [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html)
+3. Solar cost blog post coming up
 
 If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2036353399512506478?s=20).
 
