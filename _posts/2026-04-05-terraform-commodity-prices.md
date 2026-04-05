@@ -60,10 +60,10 @@ Furthermore, natural gas is [sensitive to oil and NGL prices](https://www.enerdy
 
 ### **Terraform Industries Natural Gas Feedstock Costs**
 
-![Image](/assets/images/terraform-commodity-prices/terraformer-mk1.png){:height="400"}  
-
 > CO2 + 4H2 -> CH4 + 2H2O  
 > 2.74 kgCO2 + 0.50 kgH2 -> 1 kgCH4
+
+![Image](/assets/images/terraform-commodity-prices/terraformer-mk1.png){:height="400"}  
 
 With the context of the global natural gas market, we can model the cost of producing natural gas with Terraform Industries process. I described this [in my previous post](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html) so I won't go into too much detail, but Terraform takes atmospheric CO2 and H2O, electrolyzese the H2O into H2, and burns them into CH4. 
 
@@ -128,11 +128,11 @@ There is a reason Casey Handmer has said [methanol is Terraform's approach to li
 
 ### **Ethylene**
 
-![Image](/assets/images/terraform-commodity-prices/ethylene-pathways.jpg)    
-*This image shows various pathways to produce ethylene. Terraform takes the vertical path, while existing industry takes the FT or MTO pathways.*
-
 > 2CO2 + 6H2 -> C2H4 + 4H2O  
 > 0.43 kgCO2 + 3.14 kgH2 -> 1 kgC2H4
+
+![Image](/assets/images/terraform-commodity-prices/ethylene-pathways.jpg)    
+*This image shows various pathways to produce ethylene. Terraform takes the vertical path, while existing industry takes the FT or MTO pathways.*
 
 We've just found the sweet spot for Terraform Industries in methanol, but for extra credit we'll model ethylene as well.
 
