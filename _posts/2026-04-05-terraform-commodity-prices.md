@@ -40,8 +40,6 @@ A long-chain hydrocarbon is just a string of C-C bonds surrounded by C-H bonds. 
 
 ### **Natural Gas Markets and Prices**
 
-https://www.enerdynamics.com/Energy-Insider_Blog/Are-Natural-Gas-Prices-Below-3-Sustainable.aspx
-
 Because wet wells produce both oil and natural gas, the oil can effectively subsidize the natural gas production. This means that the breakeven price for natural gas from wet wells can be negative, as the revenue from oil offsets the costs of drilling and production. Once again, oil can effectively subidize the extraction of natural gas from some (mainly US-based) wet wells. This provides extreme downward pressure on the price of natural gas, and is one of the main reasons why natural gas prices are so low in the US.
 
 Natural gas spot prices and futures prices are available on Henry Hub (US), TTF (Netherlands), and JKM (Japan). The US and Japanese units are $/MMBtu while the European unit is $/MWh. To convert from $/MMBtu to $/MWh, we can use the conversion factor of 1 MMBtu = 0.293 MWh.
