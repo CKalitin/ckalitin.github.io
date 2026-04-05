@@ -4,7 +4,6 @@ title: "2nd Year Circuit Analysis Being Useful"
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1962
