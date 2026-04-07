@@ -4,7 +4,6 @@ title: "Insights From Designing The Battery's High Voltage Controller"
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2516

@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2398
+word_count: 2402
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png">
@@ -16,7 +16,7 @@ word_count: 2398
 This is part one in my three part series of blog posts on modelling the economics of Terraform Industries:
 1. [Terraform Industries Electrolyzer Economics Modelling](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html) *(You are here)*
 2. [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html)
-3. Solar cost blog post coming up
+3. [The Path To 1 ¢/kWh Solar Costs for Terraform Industries](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html)
 
 If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2036353399512506478?s=20).
 
@@ -130,12 +130,12 @@ The charts above - the final ones of this analysis - show the share of net cost 
 
 Notice that for high-efficiency high-capex processes we need to use 10 year amortization cycles or greater to minimize cost. This poses some issues with financing, and the design optimization becomes increasing capex even further so that your electrolyzer will last longer.
 
-In contrast, for low-efficiency low-capex processes we can use much shorter amortization cycles as the cost of electricity dominates. 5-10 years appears optimal, and Terraform is [targeting 5 years](https://terraformindustries.wordpress.com/2023/08/16/how-to-produce-green-hydrogen-for-1-kg/#:~:text=offering%20%3C5%20year%20ROI%20with). Furthermore, this cost automatically decreases over time! Once you build a plant you'll be locked into the cost of the solar modules (unless you use excess power from a renewable grid at low capacity factor, like Tony Seba's Superpower, more on this in a future blog post). However, as the cost of solar modules decreases, the cost of new Terraformers also decreases. This is to say it's a forward-looking strategy, not one that can do much for plant already built.
+In contrast, for low-efficiency low-capex processes we can use much shorter amortization cycles as the cost of electricity dominates. 5-10 years appears optimal, and Terraform is [targeting 5 years](https://terraformindustries.wordpress.com/2023/08/16/how-to-produce-green-hydrogen-for-1-kg/#:~:text=offering%20%3C5%20year%20ROI%20with). Furthermore, this cost automatically decreases over time! Once you build a plant you'll be locked into the cost of the solar modules (unless you use excess power from a renewable grid at low capacity factor, like Tony Seba's Superpower, more on this in [a future blog post](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html)). However, as the cost of solar modules decreases, the cost of new Terraformers also decreases. This is to say it's a forward-looking strategy, not one that can do much for plant already built.
 
 I was particularly excited when I came up with the charts above because it perfectly illustrated why Handmer's strategy of amortizing over 5 years is so important. With low capex it's extremely possible to do this! I was initially skeptical of this strategy after I read Klaas' criticism of it, but like [Heisenberg said](https://blog.drwile.com/wp-content/uploads/2015/12/heisenberg.jpg), I saw Handmer staring back at me in the end, on this ground he had already trod, independently coming to the same conclusion.
 
 ## **Final Notes**
 
-My assumption of $0.01/kWh is very optimistic, and something I'll explore in a future blog post. This cost assumes the Electrolyzer is powered directly from the solar array, without going through inverters or MPPTs (the electrolyzer is its own MPPT, more on this in the future). This way, you can eliminate all unneeded circuitry except contactors. [Klaas explores this in his post](https://klaasnotfound.com/2025/06/03/terraform-industries-business-case-doesnt-add-up/#i-the-cheap-solar--amortization-fallacy) and is skeptical of how low the price of such electricity can get, hence the need to do my own analysis!
+My assumption of $0.01/kWh is very optimistic, and something I'll explore in [a future blog post](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html). This cost assumes the Electrolyzer is powered directly from the solar array, without going through inverters or MPPTs (the electrolyzer is its own MPPT, more on this in the future). This way, you can eliminate all unneeded circuitry except contactors. [Klaas explores this in his post](https://klaasnotfound.com/2025/06/03/terraform-industries-business-case-doesnt-add-up/#i-the-cheap-solar--amortization-fallacy) and is skeptical of how low the price of such electricity can get, hence the need to do my own analysis!
 
 I am extremely happy to have the opportunity to work under Casey Handmer and at Terraform Industries, a company with such a grand vision for the future of humanity. That he did such an analysis years before everyone else (The Terraform Whitepaper was released in 2022) and built a company around it is a testament to not just his ability to accurately [predict the future](https://www.goodreads.com/quotes/328848-the-best-way-to-predict-your-future-is-to-create) - [Elon's definition of intelligence](https://x.com/elonmusk/status/2027836581038465028?s=20) - but also his ability to execute on that vision. He is a visionary in the true sense of the word, a man with a vision for the future that [he must build](https://podcasts.apple.com/ca/podcast/relentless/id1693907693?i=1000724071861&r=579).

@@ -7,16 +7,16 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1976
+word_count: 1988
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png">
+    <meta property="og:image" content="{{site.url}}/assets/images/terraform-commodity-prices/methanol_cost_vs_inputs_45V.png">
 </head>
 
 This is part two in my three part series of blog posts on modelling the economics of Terraform Industries:
 1. [Terraform Industries Electrolyzer Economics Modelling](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html)
 2. [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html) *(You are here)*
-3. Solar cost blog post coming up
+3. [The Path To 1 ¢/kWh Solar Costs for Terraform Industries](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html)
 
 If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2040901065701462103?s=20).
 
