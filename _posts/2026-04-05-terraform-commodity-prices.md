@@ -132,7 +132,7 @@ There is a reason Casey Handmer has said [methanol is Terraform's approach to li
 > 0.43 kgCO2 + 3.14 kgH2 -> 1 kgC2H4
 
 ![Image](/assets/images/terraform-commodity-prices/ethylene-pathways.jpg)    
-*This image shows various pathways to produce ethylene. Terraform takes the vertical path, while existing industry takes the FT or MTO pathways.*
+*This image shows various pathways to produce ethylene. Terraform follows the lowest path, starting with CO2 and H2, existing industry uses CH4 as a feedstock instead of CO2 + H2.*
 
 We've just found the sweet spot for Terraform Industries in methanol, but for extra credit we'll model ethylene as well.
 
