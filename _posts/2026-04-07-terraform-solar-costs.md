@@ -18,7 +18,7 @@ This is part two in my three part series of blog posts on modelling the economic
 2. [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html)
 3. [The Path To 1 ¢/kWh Solar Costs for Terraform Industries](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html) *(You are here)*
 
-If you have feedback or criticism, *please reply here.*
+If you have feedback or criticism, [please reply here](https://x.com/CKalitin/status/2041636266450809226?s=20).
 
 Links to [my notes](https://docs.google.com/document/d/1tDWz1ySHcHYq-t8HoBXNIyI4U1g-nvfA8-StTX8SiJg/edit?tab=t.5nshiqbim9sk) and the [GitHub for the charts](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Terraformer-Economics/solar).
 
