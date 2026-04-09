@@ -113,7 +113,7 @@ Terraform is baselining a 1 MW solar array. A 1 MW array at 20% efficiency requi
 
 Agricultural land in California costs ~5000 $/acre, so we can add 12 $/kW to our capex for land costs ([math in my notes](https://docs.google.com/document/d/1tDWz1ySHcHYq-t8HoBXNIyI4U1g-nvfA8-StTX8SiJg/edit?tab=t.5nshiqbim9sk)). Terraform could use far worse quality land as the only variables they care about are solar resource and initial access to the land for setup.
 
-The final points are that I used a 0% discount rate because Terraform can insource the array and not operate with the same financial model as a standard utility solar plant, and I applied a 10% inflation to the NREL paper's costs since it used 2022 USD.
+The final points are that I used a 0% discount rate because Terraform can insource the array and not operate with the same financial model as a standard utility solar plant, and I applied 10% inflation to the NREL paper's costs since it used 2022 USD.
 
 ![Image](/assets/images/terraform-solar-costs/solar_lcoe_terraform.png)  
 
@@ -130,6 +130,9 @@ To illustrate this case, I added a bar showing zero Opex cost at 5 $/MWh. This i
 As a final exercise, I included the costs of a standard utility solar array as described in the NREL paper.
 
 This case includes a discount rate of 5% over 25 years, because this is the standard way solar arrays are financed. Notice that the discount rate over 25 years has almost the same impact on net cost as the solar array itself! This illustrates why [long amortization cycles kill your economics](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html#:~:text=amortization%20period) and why Terraform is so focused on achieving [5-year amortization cycles](https://terraformindustries.wordpress.com/2023/08/16/how-to-produce-green-hydrogen-for-1-kg/#:~:text=offering%20%3C5%20year%20ROI%20with) for their electrolyzers.
+
+[Update Apr 8 2026]  
+I just read the [Scale Microgrids (& others) paper](https://www.offgridai.us/#:~:text=debt%2C%20depreciation) on powering data centers with solar, batteries, and gas turbines after [Casey Handmer recommended it](https://youtu.be/3cDHx2_QbPE?si=VywHULThulYn3IPo&t=1494). Interestingly, they find that with an increased proportion of energy coming from the solar array and batteries you get [much higher debt servicing costs](https://www.offgridai.us/images/image5.png). This reaches an extreme degree where for a 100% renewable data center 57% of the LCOE is just debt servicing. We stand to gain more by reducing debt servicing costs than array / battery cost in this model! Solve financing - an economics problem, likely far less solvable than falling module costs - and you could have a greater impact that making the arrays cheaper!
 
 ### **Super Power**
 
