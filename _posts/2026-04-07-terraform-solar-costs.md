@@ -95,7 +95,7 @@ Before we can model the net cost of the solar array over its entire lifetime, we
 
 We obviously don't need new inverters so we can delete that 13.9% of the cost. We include the price of land in the capex, so we can remove land lease costs. Cleaning costs are assumed to decline in cost 50% by magic (the same magic that gives us 20% lower module costs YoY). We aren't connected to the grid so presumably inspection costs are lower (I don't have a great model here, but being off on the cost decline of inspection costs doesn't make a big difference). Asset Management is again factored in at a higher level (modelling the Terraform itself, not its solar array). Insurance is assumed to decline 50% as well, Terraform could self-insure so costs may end up even lower.
 
-We get a net result (including 10% inflation since the paper was published) was 5.53 $/kW/year in 2026 USD.
+We get a net result (including 10% inflation since the paper was published) of 5.53 $/kW/year in 2026 USD.
 
 ### **Levelized Cost Of Energy (LCOE)**
 
