@@ -105,8 +105,8 @@ With the 45V tax credit, we can redo our analysis of Terraform's cost of natural
 
 The 45V tax credit expires 10 years after the start of production, so it can't be used indefinitely and it is a bad idea to be on the wrong side of capitalism long-term. However, this provides a clear go-to-market strategy for Terraform Industries.
 
-[Update Apr 12 2026]
-*"And the way we achieve that is we're targeting less than 100 dollars per tonne year as a capex price for our direct net capture system and we're currently targeting less than 100 dollars per kilowatt for our electrolyzer. Ultimately, we'll go much cheaper than that, but I don't want to say how much cheaper, because everyone will think we're crazy. But our current prototype is on the order of a hundred bucks a kilowatt."*
+[Update Apr 12 2026]  
+*"And the way we achieve that is we're targeting less than 100 dollars per tonne year as a capex price for our direct net capture system and we're currently targeting less than 100 dollars per kilowatt for our electrolyzer. Ultimately, we'll go much cheaper than that, but I don't want to say how much cheaper, because everyone will think we're crazy. But our current prototype is on the order of a hundred bucks a kilowatt."*  
 *\- Casey Handmer, [SPRIND Podcast](https://youtu.be/eOo3yN5XHAQ?si=2FR7eBAfPjyyoZDF&t=688), originally released Dec 2023*
 
 ### **Methanol**
