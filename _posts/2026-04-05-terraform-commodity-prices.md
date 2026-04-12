@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1988
+word_count: 2076
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-commodity-prices/methanol_cost_vs_inputs_45V.png">
@@ -118,7 +118,7 @@ A common theme in my analysis of Terraform Industries so far is that there are m
 
 Fundamentally, a Terraformer producing natural gas is in competition with extraction from reservoirs. However, methanol is not found in reservoirs and is produced from natural gas. Terraform can skip the natural gas step and synthesize methanol directly from CO2 and H2, meaning the production stack is entirely different and much shorter. This is source of their advantage.
 
-Unlike natural gas, methanol does not trade of highly liquid public exchanges. Instead, methanol is traded over the counter (OTC) and prices are exposed by Price Reporting Agencies. This makes it slightly harder to find the current or time-series price of methanol, but some sources like S&P Global (a PRA) exist. [S&P Global reports](https://www.spglobal.com/energy/en/news-research/latest-news/chemicals/032026-global-methanol-prices-soar-in-response-to-middle-east-war#:~:text=Southeast%20Asia%20methanol%20prices%20have%20jumped%2072%25,the%20highest%20level%20since%20March%2026%2C%202021%2C) that Southeast Asian methanol prices are ~400 $/MT in nominal geopolitical situations. Other geographies are similar.
+Unlike natural gas, methanol does not trade of highly liquid public exchanges. Instead, methanol is traded over the counter (OTC) and prices are exposed by Price Reporting Agencies. This makes it slightly harder to find the current or time-series price of methanol, but some sources like S&P Global (a PRA) exist. [S&P Global](https://www.spglobal.com/energy/en/news-research/latest-news/chemicals/032026-global-methanol-prices-soar-in-response-to-middle-east-war#:~:text=Southeast%20Asia%20methanol%20prices%20have%20jumped%2072%25,the%20highest%20level%20since%20March%2026%2C%202021%2C) reports that Southeast Asian methanol prices are ~400 $/MT in nominal geopolitical situations. Other geographies are similar.
 
 ![Image](/assets/images/terraform-commodity-prices/methanol_cost_vs_inputs.png)  
 
