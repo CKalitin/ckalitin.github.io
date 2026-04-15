@@ -13,6 +13,8 @@ word_count: 1
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-commodity-prices/methanol_cost_vs_inputs_45V.png">
 </head>
 
+backlink frok 02026 01 26 solar integration draft
+
 More lessons from observing the leadership of UBC Solar
 
 ### Notes
