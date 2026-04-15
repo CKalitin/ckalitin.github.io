@@ -13,7 +13,7 @@ word_count: 2624
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png">
 </head>
 
-This is part two in my three part series of blog posts on modelling the economics of Terraform Industries:
+This is part three in my three part series of blog posts on modelling the economics of Terraform Industries:
 1. [Terraform Industries Electrolyzer Economics Modelling](https://ckalitin.github.io/projects/2026/03/23/terraform-electrolyzer-modelling.html)
 2. [What Commodity Prices Are Required For Terraform Industries To Be Competitive?](https://ckalitin.github.io/projects/2026/04/05/terraform-commodity-prices.html)
 3. [The Path To 1 ¢/kWh Solar Costs for Terraform Industries](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html) *(You are here)*
