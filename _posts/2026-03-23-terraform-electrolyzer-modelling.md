@@ -4,7 +4,6 @@ title: "Terraform Industries Electrolyzer Economics Modelling"
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2402
