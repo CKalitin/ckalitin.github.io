@@ -7,7 +7,7 @@ tags:
     - Drafts
 author:
  - Christopher Kalitin
-word_count: 1
+word_count: 1588
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-commodity-prices/methanol_cost_vs_inputs_45V.png">
