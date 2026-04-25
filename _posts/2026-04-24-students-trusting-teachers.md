@@ -3,7 +3,7 @@ layout: post
 title: "The Best Students Stopped Trusting Their School Teachers"
 categories: Ideas
 tags:
-    - Projects
+    - Ideas
     - Latest Posts
 author:
  - Christopher Kalitin
@@ -13,7 +13,7 @@ word_count: 1432
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png">
 </head>
 
-*Written in the style of George Hotz*
+*Written in the style of [George Hotz](https://geohot.github.io/blog/jekyll/update/2026/04/24/positivity.html)*
 
 I'm currently reading Kelly Johnson's biography - the man who ran Skunk Works and designed the most advanced planes America, and hence the world, ever saw. As he grew up he jumped between many different things including being a football player, another thing, etc. but throughout his entire adolescence he always aspired to be an engineer. After an injury (explain more), he completely bought into university and seemed to completely trust his teachers and professors to shape him into the best engineer possible. He worked in the University of Michigan's air tunnel and ended up being hired at Lockheed due to his work there.
 
