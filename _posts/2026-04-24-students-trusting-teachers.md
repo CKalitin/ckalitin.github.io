@@ -38,7 +38,7 @@ My kids will never me in some public school where the teacher is optimizing for 
 Anything else is wishing a worse life on my children. If my parents pushed harder for me to learn more useful things from a young age I would have ended up a better man. They didn't and the only thing I can do now is to make sure my kids don't have the same experience. My sons will learn chess at 2, they'll learn assembly at the same age I was struggling with long division. What amazing things they'll do.
 
 *"The greatest blessing a man can receive in life is to have a great father*  
-*And whether or not he has such a father, the greatest gift he can give to his own children is to be one for them."*
+*And whether or not he has such a father, the greatest gift he can give to his own children is to be one for them."*  
 *\- Ancient Greek Philosopher [Athenian Stranger](https://x.com/athens_stranger/status/2047147794885120498) on X dot com the everything app*
 
 I'd like to make sure I really make this point. I'll attempt to describe it in a more complete way here.
