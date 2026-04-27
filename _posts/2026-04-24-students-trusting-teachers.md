@@ -23,7 +23,7 @@ When I was in grade 7, I began to realize that I didn't believe my teachers were
 
 I've realized that what we really meant back then was that we didn't trust our teachers to teach us the most useful things for our future. Furthermore, sitting in a classroom all day surrounded by students capable of far less than us was certainly not the right path. This led us to the conclusion that we should not be optimizing for school at all. If we would optimize for school, we would end up in a suboptimal place in the future and not be maximally useful.
 
-I'm not sure it was always this way. In the past students did seem to really trust their teachers - as Kelly Johnson seems to have done.
+I'm not sure it was [always this way](https://x.com/keithwalkiewicz/status/2048405501948420501?s=20). In the past students did seem to really trust their teachers - as Kelly Johnson seems to have done.
 
 Interestingly, later in life Kelly Johnson seems to not have been a fan of "textbook theories." As Ben Rich was developing the A-12 under Kelly Johnson, he suggested using black paint (high emmissivity) on the exterior of the plane to reduce equilibrium temperature by 35 degrees. Kelly was against adding 100 lb more paint to the plane and dismissed this as "textbook theory." I read this and obviously throwing out emmissivity and energy balances is quite a stupid thing to do, run the trade instead. The next day Kelly realized he was wrong and Ben got a quarter from Kelly.
 
