@@ -13,7 +13,7 @@ word_count: 1863
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png">
 </head>
 
-*"Ever since the huge bomber losses during the attack on England in 1940, my colleagues and I had been firmly convinced that defeat in the air on the western front could be prevented, if at all, only by the employment of guided missiles of very great range and effect. In the long run the Luftwaffe would not be able to afford the continued loss of valuable flying crews."*
+*"Ever since the huge bomber losses during the attack on England in 1940, my colleagues and I had been firmly convinced that defeat in the air on the western front could be prevented, if at all, only by the employment of guided missiles of very great range and effect. In the long run the Luftwaffe would not be able to afford the continued loss of valuable flying crews."*  
 \- Walter Dornberger, V2, page 71
 
 I have slowly been reading V2 by Walter Dornberger since September. Dornberger was the major general that led the development of the V2 rocket in Nazi Germany. As Groves was to Oppenheimer, Dornberger was the military general coordinating the V2 program while von Braun was technical director.
@@ -38,7 +38,7 @@ The Army Weapons Department began its own development program, as the individual
 
 Periodically, the individual inventors came into the department with their design ideas, and some of these men were recruited into the program. These include Arthur Rudolph, who invented a 650 lbf 60 second liquid motor, Albert Pullenberg, and others.
 
-![Image](/assets/images/v2-combat-effectiveness/a3.jpg){:height="300"}   
+![Image](/assets/images/v2-combat-effectiveness/a3.jpg){:height="400"}   
 
 Their work led into the A-1 rocket. It stood 1.5 meters tall, massed 330 lb and had a 85 lb spinning mass on its nose to maintain attitude, in the same style as [Explorer I](https://youtu.be/X_rp5slf3c4?si=O-iqRlXAEHTPmfdk).
 
@@ -46,7 +46,7 @@ The book contains very many fun anecdotes and stories from this early developmen
 
 ### **The V2 Was Meant To Replace Aerial Bombers**
 
-*"Ever since artillery existed military strategists have dreamed of an ideal projectile with a greater range than the shell. Even while the airplane was entering on its triumphant career, the strategists began to want some carrier of explosive that would be still cheaper to manufacture and simpler to service than, say, a bomber. The V-2 met this requirement."*
+*"Ever since artillery existed military strategists have dreamed of an ideal projectile with a greater range than the shell. Even while the airplane was entering on its triumphant career, the strategists began to want some carrier of explosive that would be still cheaper to manufacture and simpler to service than, say, a bomber. The V-2 met this requirement."*  
 \- Walter Dornberger, V2, page 19
 
 The military appeal of the V2 as a weapon was as a substitute for long-range artillery and aerial bombers. 
@@ -65,7 +65,7 @@ The wind tunnel at Peenemunde - the site at which V2 development took place - ev
 
 ### **The V2 Was An Unsuccessful Trade Between Bomber Amortization And V2 Unit Cost**
 
-*"The threadbare argument that our A-4 was too costly in comparison with the heavy bomber became more and more difficult to uphold in the light of experience over England. If, as accurate statistics showed, **a bomber was shot down after an average of five or six flights over England**, if it could carry only a total of six to eight tons of bombs during its active existence, and if the total loss of a bomber, including the cost of training the crew, were estimated at about **thirty times the price of an A-4** (38,000 marks), then it was obvious that the A-4 came off best."*
+*"The threadbare argument that our A-4 was too costly in comparison with the heavy bomber became more and more difficult to uphold in the light of experience over England. If, as accurate statistics showed, **a bomber was shot down after an average of five or six flights over England**, if it could carry only a total of six to eight tons of bombs during its active existence, and if the total loss of a bomber, including the cost of training the crew, were estimated at about **thirty times the price of an A-4** (38,000 marks), then it was obvious that the A-4 came off best."*  
 \- Walter Dornberger, V2, page 71
 
 Walter Dornberger lays out the math for V2 combat economics above, and he bases his arithmetic on the attrition rate of German bombers during the Battle of Britain.
@@ -110,7 +110,7 @@ Before I close out this blog post, I’d like to show the concepts from the A-9,
 
 First, the [A-9 / A-10](http://www.astronautix.com/a/a9a10.html) were meant to be a two-stage rocket capable of impacting the United States. The A-9 had far greater surface area fins than the A-4 and it would have spent the majority of it's time over the Atlantic gliding in the upper atmosphere. The A-10 would have used a cluster of 6 A-4 combustion chambers feeding into a single expansion nozzle, according to the Encyclopedia Astronautica.
 
-![Image](/assets/images/v2-combat-effectiveness/a12.jpg){:height="200"}
+![Image](/assets/images/v2-combat-effectiveness/a12.jpg){:height="250"}
 
 The Perliminary Design Group led by von Braun continued their concepts by stacking ever larger Aggregate rockets on top of each other to create an orbital launch vehicle. This spawned the A-11 booster, which the A-10 and A-9 would be launched atop. This concept would have had a payload of 500 kg and a gross mass of 500,000 kg. We can compare this to the Falcon 9, which has a liftoff mass of ~549,000 kg and a LEO payload of 22,800 kg while expendable.
 
