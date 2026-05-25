@@ -82,7 +82,7 @@ Already, in the second worst period for German bombers in World War Two (the Wes
 
 Next, we can get onto cost.
 
-The National Air and Space Museum [lists V2 unit cost](https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000#:~:text=The%20initial%20cost%20of%20producing%20an%20A%2D4%20rocket%20was%20100%2C000%20Reichmarks%20%28warhead%20and%20guidance%20equipment%20not%20included%29%3B%20the%20average%20cost%20was%20later%20reduced%20to%2075%2C110%20RM%2E) (without warhead and guidance systems) at 100,000 Reichmarks, later getting down to 75,000 RM. (Wikipedia claims 50,000 RM)[https://en.wikipedia.org/wiki/V-2_rocket#cite_note-Kennedy-1] from a book that [isn't easily available](https://www.armourbook.com/fly/flywwii/flygerman/157822-vengeance-weapon-2-the-v-2-guided-missile-smithsonian-institution-press.html) on the internet.
+The National Air and Space Museum [lists V2 unit cost](https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000#:~:text=The%20initial%20cost%20of%20producing%20an%20A%2D4%20rocket%20was%20100%2C000%20Reichmarks%20%28warhead%20and%20guidance%20equipment%20not%20included%29%3B%20the%20average%20cost%20was%20later%20reduced%20to%2075%2C110%20RM%2E) (without warhead and guidance systems) at 100,000 Reichmarks, later getting down to 75,000 RM. [Wikipedia claims 50,000 RM](https://en.wikipedia.org/wiki/V-2_rocket#cite_note-Kennedy-1) from a book that [isn't easily available](https://www.armourbook.com/fly/flywwii/flygerman/157822-vengeance-weapon-2-the-v-2-guided-missile-smithsonian-institution-press.html) on the internet.
 
 Even the most optimistic figure above is greater than Dornberger's 38,000 Reichmarks goal.
 
