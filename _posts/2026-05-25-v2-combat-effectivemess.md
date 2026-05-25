@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "V2 Rocket Combat Effectiveness - Reading Walter Dornberger's Book"
+title: "V2 Rocket Combat Effectiveness - Reading Walter Dornberger's Account"
 categories: Ideas
 tags:
     - Ideas
