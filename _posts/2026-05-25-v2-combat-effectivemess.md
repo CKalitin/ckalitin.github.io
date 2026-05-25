@@ -10,7 +10,7 @@ author:
 word_count: 1863
 ---
 <head>
-    <meta property="og:image" content="{{site.url}}/assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png">
+    <meta property="og:image" content="{{site.url}}/assets/images/v2-combat-effectiveness/a3.jpg">
 </head>
 
 *"Ever since the huge bomber losses during the attack on England in 1940, my colleagues and I had been firmly convinced that defeat in the air on the western front could be prevented, if at all, only by the employment of guided missiles of very great range and effect. In the long run the Luftwaffe would not be able to afford the continued loss of valuable flying crews."*  
@@ -104,13 +104,13 @@ Hence, the V2 was a great program to further humanity's technological ability in
 
 Before I close out this blog post, I’d like to show the concepts from the A-9,-10,-11, and -12 rockets which had Germany not lost the war, could have been part of the family of the first orbital rockets. This shows an interesting exercise in designing an orbital-class launch vehicle with very limited technology.
 
-![Image](/assets/images/v2-combat-effectiveness/a9.jpg){:height="200"}  
+![Image](/assets/images/v2-combat-effectiveness/a9.jpg){:height="250"}  
 
-![Image](/assets/images/v2-combat-effectiveness/a-family.jpg){:height="200"}
+![Image](/assets/images/v2-combat-effectiveness/a-family.jpg){:height="250"}
 
 First, the [A-9 / A-10](http://www.astronautix.com/a/a9a10.html) were meant to be a two-stage rocket capable of impacting the United States. The A-9 had far greater surface area fins than the A-4 and it would have spent the majority of it's time over the Atlantic gliding in the upper atmosphere. The A-10 would have used a cluster of 6 A-4 combustion chambers feeding into a single expansion nozzle, according to the Encyclopedia Astronautica.
 
-![Image](/assets/images/v2-combat-effectiveness/a12.jpg){:height="250"}
+![Image](/assets/images/v2-combat-effectiveness/a12.jpg){:height="350"}
 
 The Perliminary Design Group led by von Braun continued their concepts by stacking ever larger Aggregate rockets on top of each other to create an orbital launch vehicle. This spawned the A-11 booster, which the A-10 and A-9 would be launched atop. This concept would have had a payload of 500 kg and a gross mass of 500,000 kg. We can compare this to the Falcon 9, which has a liftoff mass of ~549,000 kg and a LEO payload of 22,800 kg while expendable.
 
