@@ -4,7 +4,6 @@ title: "What Commodity Prices Are Required For Terraform Industries To Be Compet
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2076
