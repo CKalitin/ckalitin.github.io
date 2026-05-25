@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1
+word_count: 1863
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png">
