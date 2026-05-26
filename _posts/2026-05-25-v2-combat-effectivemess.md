@@ -32,7 +32,7 @@ For feedback / criticism, please [reply here](https://x.com/CKalitin/status/2059
 
 Rocket development in pre-war Germany began due to the Treaty of Versailles restricting conventional military development. The German Army Weapons Department looked to experimental technology for potential R&D paths, while they were limited by Versailles.
 
-In 1929, General / Professor Becker ran the Army Weapons Department and suggested undertaking rocket propulsion research for military purposes. At the time, no series industry nor technical colleges were interested in high powered rocket propulsion, so the Army Weapons Department financed individual inventors and awaited their results.
+In 1929, General / Professor Becker ran the Army Weapons Department and suggested undertaking rocket propulsion research for military purposes. At the time, no serious industry nor technical colleges were interested in high powered rocket propulsion, so the Army Weapons Department financed individual inventors and awaited their results.
 
 To put this into proper perspective, the V2 was the rocket that spawned the Soviet and American rocket programs after the war and has direct lineage to the N1 and Saturn 5. It was the most advanced rocket, and maybe the most advanced aerospace vehicle, in the world during the Second World War. And all of this work began through a bet on eccentric rural inventors in Germany.
 
