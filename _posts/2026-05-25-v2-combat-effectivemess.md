@@ -16,15 +16,17 @@ word_count: 1863
 *"Ever since the huge bomber losses during the attack on England in 1940, my colleagues and I had been firmly convinced that defeat in the air on the western front could be prevented, if at all, only by the employment of guided missiles of very great range and effect. In the long run the Luftwaffe would not be able to afford the continued loss of valuable flying crews."*  
 \- Walter Dornberger, V2, page 71
 
-I have slowly been reading V2 by Walter Dornberger since September. Dornberger was the major general that led the development of the V2 rocket in Nazi Germany. As Groves was to Oppenheimer, Dornberger was the military general coordinating the V2 program while von Braun was technical director.
+I have slowly been reading V2 by Walter Dornberger over the last few months. Dornberger was the major general that led the development of the V2 rocket in Nazi Germany. As Groves was to Oppenheimer, Dornberger was the military general coordinating the V2 program while von Braun was technical director.
 
-The book is very much a first person perspective on German rocket development starting around 1930.It is sometimes too first person, as one of the chapters is Dornberger running around Peenemunde (The V2 developmental launch and production site) putting out fires during Allied bombing. Interspersed through first person accounts of Hitler viewing a rocket firing and accounts of test launches are great insights into German R&D and mismanagement of technical resources. I certainly have a blog post in me about how impossible it would have been for Germany to produce a Nuclear Weapon, but this will wait until I've read Speer's memoirs.
+The book is very much a first person perspective on German rocket development starting around 1930. It is sometimes too first person, as one of the chapters is Dornberger running around Peenemunde (The V2 developmental launch and production site) putting out fires during Allied bombing. Interspersed through first person accounts of Hitler viewing a rocket firing and accounts of test launches are great insights into German R&D and mismanagement of technical resources. I certainly have a blog post in me about how impossible it would have been for Germany to produce a Nuclear Weapon, but this will wait until I've read Speer's memoirs.
 
-Concurrently, I've watched several videos by WWII US Bombers. This channel is clearly run by a neurodivergent manic autist (literally me!) and produces extremely good videos on extremely niche WW2 topics. Some highlights are the recent series on [V2 combat effectiveness as compared to bomber aircraft](https://www.youtube.com/watch?v=EJB7qhLIPU8) and [German synthetic fuel production](https://www.youtube.com/watch?v=GZ6I3rYkUNU). These videos mainly source quantitative information from the United States Strategic Bombing Survey to illustrate points.
+Concurrently, I've watched several videos by [WWII US Bombers](https://www.youtube.com/@WWIIUSBombers). This channel is clearly run by a neurodivergent manic autist (literally me!) and produces extremely good videos on extremely niche WW2 topics. Some highlights are the recent series on [V2 combat effectiveness as compared to the B-24](https://www.youtube.com/watch?v=EJB7qhLIPU8) and [German synthetic fuel production](https://www.youtube.com/watch?v=GZ6I3rYkUNU). These videos mainly source quantitative information from the United States Strategic Bombing Survey to illustrate points, an excellent strategy drawing on the great intellectual output of our forefathers.
 
 Between the book and these videos, I have some commentary on the combat effectiveness of the V2 and German armaments production.
 
 My (far too thorough) notes on the book are [available here](https://docs.google.com/document/d/1JSm2CjYk1_A_PAEyOK1wGKuYOnT25WyBPUjwO-XWg3U/edit?usp=sharing).
+
+For feedback / criticism, please [reply here](https://x.com/CKalitin/status/2059051803476668691?s=20).
 
 ### **Fun Stories From The Early History of German Rocketry**
 
