@@ -71,6 +71,9 @@ Casey Handmer explains the issues with increasing the number of vehicles your ar
 [Update Jan 12 2025]  
 Another way to consider the paradigm shift I described is architecture complexity vs. launch cost (ie. do you make more vehicle configurations or just make a single vehicle that is oversized for most tasks that'll be cheaper through reuse).
 
-[Update Apr 7 2025]
+[Update Apr 7 2025]  
 Again, Casey Handmer hits the nail on the head with [this article](https://www.palladiummag.com/2025/02/14/why-starship-matters/):  
 "The superpower of Starship is replacing a menagerie of expensive limited bespoke vehicles for tentative, programmatically brittle human Mars exploration with a single, unified, powerful robust system."
+
+[Update Jun 9 2026]  
+Casey's my boss now
