@@ -4,7 +4,6 @@ title: "The Path To 1 ¢/kWh Solar Costs for Terraform Industries"
 categories: Projects
 tags:
     - Projects
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 2624

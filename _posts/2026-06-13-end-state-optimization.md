@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Optimize For The End State"
-categories: Space
-tag: Space Industry Analysis
+categories: Ideas
+tags:
+    - Ideas
+    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 948
