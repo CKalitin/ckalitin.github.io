@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 1863
+word_count: 1886
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/v2-combat-effectiveness/a3.jpg">

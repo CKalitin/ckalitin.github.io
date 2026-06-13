@@ -27,7 +27,7 @@ Date,Words,Published,Title,Path
 2024-12-27,2103,Y,Characterizing the ESP32's ADC,c:\_Dev\ckalitin.github.io\_posts\2024-12-27-esp32-adc-characterization.md
 2024-12-29,1224,Y,Using SCPI and PyVISA to Automatically Collect Data for ADC Characterization,c:\_Dev\ckalitin.github.io\_posts\2024-12-29-scpi-auto-characterization.md
 2025-01-09,1246,Y,Estimating Cost per Mbps of Communication Satellites Over Time,c:\_Dev\ckalitin.github.io\_posts\2025-01-09-com-sat-cost.md
-2025-01-12,1567,Y,A New Paradigm of Launch Vehicle Architecture Design Tradeoffs,c:\_Dev\ckalitin.github.io\_posts\2025-01-12-launch-architecture-tradeoffs.md
+2025-01-12,1575,Y,A New Paradigm of Launch Vehicle Architecture Design Tradeoffs,c:\_Dev\ckalitin.github.io\_posts\2025-01-12-launch-architecture-tradeoffs.md
 2025-01-15,379,Y,Fun Charts That Visualize The History of Communicatons Satellites,c:\_Dev\ckalitin.github.io\_posts\2025-01-15-fun-comsat-charts.md
 2025-03-26,1625,Y,What Is the RCC_CSR Register in STM32 Microcontrollers?,c:\_Dev\ckalitin.github.io\_posts\2025-03-26-stm32-rcc-register.md
 2025-04-26,1256,Y,Being a University Student has Extremely Low Leverage,c:\_Dev\ckalitin.github.io\_posts\2025-04-26-low-leverage-university.md
@@ -67,4 +67,5 @@ Date,Words,Published,Title,Path
 2026-04-05,2076,Y,What Commodity Prices Are Required For Terraform Industries To Be Competitive?,c:\_Dev\ckalitin.github.io\_posts\2026-04-05-terraform-commodity-prices.md
 2026-04-07,2624,Y,The Path To 1 ¢/kWh Solar Costs for Terraform Industries,c:\_Dev\ckalitin.github.io\_posts\2026-04-07-terraform-solar-costs.md
 2026-04-24,1432,Y,The Best Students Stopped Trusting Their School Teachers,c:\_Dev\ckalitin.github.io\_posts\2026-04-24-students-trusting-teachers.md
-2026-05-25,1863,Y,V2 Rocket Combat Effectiveness - Reading Walter Dornberger's Book,c:\_Dev\ckalitin.github.io\_posts\2026-05-25-v2-combat-effectivemess.md
+2026-05-25,1886,Y,V2 Rocket Combat Effectiveness - Reading Walter Dornberger's Account,c:\_Dev\ckalitin.github.io\_posts\2026-05-25-v2-combat-effectivemess.md
+2026-06-13,948,Y,Optimize For The End State,c:\_Dev\ckalitin.github.io\_posts\2026-06-13-end-state-optimization.md
