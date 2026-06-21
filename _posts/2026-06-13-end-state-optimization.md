@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 948
+word_count: 950
 ---
 Throughout the history of humanity, one of the best ways to succeed in a technical field has been to optimize for the end state.
 
@@ -17,7 +17,7 @@ The fundamental technologies and companies that we interact with every day have 
 
 **Terraform Industries**
 
-The summer I’m working at Terraform Industries came about because Casey Handmer wrote a book about [How To Industrialize Mars](https://docs.google.com/document/d/1pxQg51rGP6JtdD4Eix1xpVek1xX05eQVgc7Jbm6VtDw/edit?tab=t.0), and came to the conclusion that hydrocarbon synthesis is a requirement. Then, he realized you could apply the same process of taking CO2 out of the air and hydrogen out of the water then combining it into CH4 on Earth.
+This summer I’m working at Terraform Industries. Terraform Industries was founded because Casey Handmer wrote a book about [How To Industrialize Mars](https://docs.google.com/document/d/1pxQg51rGP6JtdD4Eix1xpVek1xX05eQVgc7Jbm6VtDw/edit?tab=t.0), and came to the conclusion that hydrocarbon synthesis is a requirement. Then, he realized you could apply the same process of taking CO2 out of the air and hydrogen out of the water then combining it into CH4 on Earth.
 
 After doing this analysis he found that because [solar costs are declining so steeply](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html), in the limit this will be the cheapest way to make natural gas in the history of humanity. After that, we will conquer the rest of the [Primary Energy Layer of Civilization](https://caseyhandmer.wordpress.com/2025/04/08/to-conquer-the-primary-energy-consumption-layer-of-our-entire-civilization/).
 

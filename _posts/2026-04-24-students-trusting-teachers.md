@@ -4,7 +4,6 @@ title: "The Best Students Stopped Trusting Their School Teachers"
 categories: Ideas
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1432
