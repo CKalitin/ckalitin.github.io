@@ -7,11 +7,13 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2720
+word_count: 2729
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/battery-hydro-grids/chief_joseph_model_cost.png">
 </head>
+
+If you have feedback / criticism, please [reply here](https://x.com/CKalitin/status/2068585609380196560?s=20).
 
 ![Image](/assets/images/battery-hydro-grids/chief_joseph_model_cost.png)  
 *A look at what's ahead in this analysis.*
