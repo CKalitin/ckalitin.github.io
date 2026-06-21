@@ -28,7 +28,7 @@ Recently I've been thinking about how we can extend this idea to hydro power pla
 
 This blog post is an exploration of that idea: the promise of colocating grid storage batteries with hydro power plants to decrease net system cost and [LCOE](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html#:~:text=Levelized,kWh).
 
-All modelling and raw data is available in this [Github repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/dam-battery-costs-analysis/grand_coulee_generation).
+All modelling and raw data is available in this [Github repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/dam-battery-costs-analysis/bonneville-power-authority-modelling).
 
 ### **Learning The Problem Space**
 
