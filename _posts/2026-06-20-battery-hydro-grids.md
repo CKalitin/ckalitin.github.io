@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2729
+word_count: 2778
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/battery-hydro-grids/chief_joseph_model_cost.png">
@@ -38,11 +38,11 @@ Before we can model a pure hydroelectric system vs a dam colocated with a batter
 
 For this analysis, we'll use data from the Bonneville Power Authority. The BPA provides power to the American Pacific Northwest and provides a great dataset for a hydro-dominated grid (~65% of electricity is sourced from dams). 
 
-Above is a scatterplot showing all federal dams on the BPA grid. These federal dams have easily accessible hourly power data, and account for ~70% of dams in the region.
+Above is a scatterplot showing all federal dams on the BPA grid with their power generation capacity and the amount of water that is stored in their reservoirs, measured in the energy (if that water was put through the turbines). These federal dams have easily accessible hourly power data, and account for ~70% of dams in the region.
 
 ![Image](/assets/images/battery-hydro-grids/bpa_dams_scatter_flow_vs_storage.png)  
 
-I defined the line between run-of-river and reservoir storage dams as dams that have greater than or less than 10 days of water storage, [an impoundment ratio of 0.1](https://claude.ai/share/ef0d8b97-88b4-47b4-951f-9b7a3ddc0349).
+I defined the line between run-of-river and reservoir storage dams as dams that have greater than or less than 10 days of water storage, [an impoundment ratio of 0.1](https://claude.ai/share/ef0d8b97-88b4-47b4-951f-9b7a3ddc0349). The chart above shows raw water flow and water storage capability of each dam, by which we derive the impoundment ratio.
 
 ### **Run-of-River vs Reservoir Storage Dams**
 
