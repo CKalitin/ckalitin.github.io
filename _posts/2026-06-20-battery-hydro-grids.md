@@ -204,7 +204,6 @@ In the end we found that for every MW of turbine adding ~0.5 MWh of batteries is
 
 Instead, to properly reap the rewards of battery energy storage you need to either have an extremely expensive dam or change the load profile the dam provides. This entails not just fitting to historic data, but finding a new model for a reservoir storage dam to operate under.
 
-
 ### **Update: Hydro + Battery Grid From The Ground Up**
 
 ![Image](/assets/images/battery-hydro-grids/bpa_hydro_battery_lcoe_utilization.png)  
