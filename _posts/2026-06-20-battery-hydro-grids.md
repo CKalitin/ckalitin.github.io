@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2778
+word_count: 3030
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/battery-hydro-grids/chief_joseph_model_cost.png">
@@ -28,7 +28,7 @@ Recently I've been thinking about how we can extend this idea to hydro power pla
 
 This blog post is an exploration of that idea: the promise of colocating grid storage batteries with hydro power plants to decrease net system cost and [LCOE](https://ckalitin.github.io/projects/2026/04/07/terraform-solar-costs.html#:~:text=Levelized,kWh).
 
-All modelling and raw data is available at this Github repo.
+All modelling and raw data is available in this [Github repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/dam-battery-costs-analysis/grand_coulee_generation).
 
 ### **Learning The Problem Space**
 
@@ -203,3 +203,30 @@ This parallels the [phenomenon in solar and battery systems](https://caseyhandme
 In the end we found that for every MW of turbine adding ~0.5 MWh of batteries is ideal for reaching the lowest possible cost. This however only decreases cost by ~1%, so you may as well not bother.
 
 Instead, to properly reap the rewards of battery energy storage you need to either have an extremely expensive dam or change the load profile the dam provides. This entails not just fitting to historic data, but finding a new model for a reservoir storage dam to operate under.
+
+
+### **Update: Hydro + Battery Grid From The Ground Up**
+
+![Image](/assets/images/battery-hydro-grids/bpa_hydro_battery_lcoe_utilization.png)  
+
+![Image](/assets/images/battery-hydro-grids/bpa_dispatch_month_01_jan.png)  
+
+[Original Post](https://x.com/CKalitin/status/2068595353721700862)
+
+I wasn't satisfied with my analysis so now I've taken the load on the BPA grid (American Pacific Northwest) and sized a hydro + battery system to it from that raw data (assuming no water flow constraint).
+
+Interestingly, the result was that the cheapest system at >99.99% utilization is one in which batteries only supply 40 hours of load over the entire year (2024 data).
+
+The optimal point has 10.1 GW of hydroelectric generation and 8.1 GWh of batteries.
+
+Batteries aren't even required for load smoothing on such a grid because the dam's handle it for the entire year.
+
+My instinct is that you'd trade off some turbine capacity for batteries to get cheaper, but because of the 99.99% requirement, you don't get to that point.
+
+Fundamentally, generation is productive and storage is only arbitrage. So, the optimization is always to increase generation.
+
+With unused generation, you can do something useful like building a new aluminum smelter. However, with unused batteries you just are left waiting until a particularly cold day in January when everyone turns on their heat.
+
+High utilization always favors overbuilding generation, not overbuilding battery storage. This is true for solar and for hydroelectric dams + batteries.
+
+This is a very fun result because it went completely contrary to my intuition, which told me that you could have less turbines if you built more batteries and get a new lower cost. Turns out high utilization AND lower cost both push you in the opposite direction!
