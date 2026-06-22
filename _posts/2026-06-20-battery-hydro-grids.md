@@ -220,7 +220,7 @@ The optimal point has 10.1 GW of hydroelectric generation and 8.1 GWh of batteri
 
 Batteries aren't even required for load smoothing on such a grid because the dam's handle it for the entire year.
 
-My instinct is that you'd trade off some turbine capacity for batteries to get cheaper, but because of the 99.99% requirement, you don't get to that point.
+My instinct was that you'd trade off some turbine capacity for batteries to get cheaper, but because of the 99.99% requirement, you don't get to that point.
 
 Fundamentally, generation is productive and storage is only arbitrage. So, the optimization is always to increase generation.
 
