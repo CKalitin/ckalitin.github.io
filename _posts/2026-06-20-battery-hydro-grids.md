@@ -180,6 +180,15 @@ Canada has done a horrible job here where the Civil Engineers seem to have compl
 
 Had Canada not proven its absolute inability to build hydroelectricity cheaply, we could have stayed with the ~$3M/MW number in this analysis. However, with this new information it's worth seeing the impact of ~$10M/MW turbines (note that I'm using "turbines" and "hydroelectric plant cost" interchangeably).
 
+[Update, the next day]  
+My blame of the lawyers, environmental and civil engineers was too quick - as my girlfriend from the family of lawyers, environmental and civil engineers pointed out. Increase in cost due to environmental reviews and mitigations and indigenous consultation [appears to be around 10%](https://claude.ai/share/c6d9323f-57b1-4fd8-9598-ca94a87c6e2c). These do however greatly increase the timeline for major construction projects, which imposes opportunity costs.
+
+Instead, the issue is a lack of competent civil engineers and absymbal technical leadership. This is a far more fundamental and frightening issue as [effective large scale technical management is on the critical path for civilization](https://x.com/cjhandmer/status/1990271457205813678). 
+
+https://x.com/CKalitin/status/2017503056892416358?s=20
+
+https://x.com/CKalitin/status/2020987362755432548?s=20
+
 ![Image](/assets/images/battery-hydro-grids/chief_joseph_model_lcoe_slf_10m_turbine.png)  
 
 If we use $10M/MW we notice that the relative advantage of batteries increases.
