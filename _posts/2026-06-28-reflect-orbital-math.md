@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 2991
+word_count: 3009
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/reflect-orbital-math/sso_transmission_proximity_min100MW_exclChi.png">
@@ -18,7 +18,7 @@ If you have feedback / criticism, please [reply here](https://x.com/CKalitin/sta
 All charts and source data are available in this [spreadsheet](https://docs.google.com/spreadsheets/d/19wsl4ZJp0i5ETl95NHZqOQkjcGUeqm0TIfWgUL0eyIQ/edit?gid=0#gid=0) and this [repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Reflect-Orbital).
 
 ![Image](/assets/images/reflect-orbital-math/sso_transmission_proximity_min100MW_exclChi.png)  
-*Claude Code makes every analysis possible.*
+*With Claude Code, no analysis is beyond our reach.*
 
 I have seen Reflect Orbital fall into the category of problem where people do zero math and come to the conclusion that they'll fail one too many times! This is in the same vein as the thought that data centers use terrible amounts of water ([they don't](https://x.com/andymasley/status/2056894455853068675)), where nobody does any math or has any real figures. Naturally, the solution when faced with such a problem is to do the math yourself and write a blog post on it.
 
@@ -157,7 +157,7 @@ Another variable that results in a linear change in satellite profitability is t
 
 Finally, as discussed before, Reflect is a bet on there being vastly more 5 GW class terrestrial solar arrays. Currently 3 such solar arrays exist in the world. In my earlier modelling I assumed every 100 MW class solar array was a potential customer, but such solar arrays are so small that they'd cover only ~2% of the illumination area of a satellite. It is a requirement for Reflect to succeed that there be 2-3 orders of magnitude more 5 GW class solar arrays in the world. This requirement I'm less skeptical of compared to the others, [as capitalism and Wright's law are on their side](https://caseyhandmer.wordpress.com/2024/05/22/the-solar-industrial-revolution-is-the-biggest-investment-opportunity-in-history/).
 
-It's possible Reflect's real bet is not on completely fungible undifferentiated photons delivered onto solar arrays, but higher revenue opportunities like lighting construction sites, as [Ben Nowack has said before](youtu.be/MjcuDBLW24k?si=NABkCUEr8URiq1K2&t=636). I'll leave this analysis to someone else as I'm not interested in becoming an expert in industrial lighting costs, but my instinct is that any increase in price you get is counteracted by dramatically lower utilization of the satellite. 
+It's possible Reflect's real bet is not on completely fungible undifferentiated photons delivered onto solar arrays, but higher revenue opportunities like lighting construction sites, as [Ben Nowack has said before](youtu.be/MjcuDBLW24k?si=NABkCUEr8URiq1K2&t=636) and suggested they could charge [$5,000 / hour](https://futurism.com/space/fcc-huge-mirror-satellite#:~:text=Nowack%20imagines%20charging%20about%20%245%2C000%20per%20hour%20for%20the%20light%20of%20a%20single%20mirror) (~100x more than selling to solar arrays). I'll leave this analysis to someone else as I'm not interested in becoming an expert in industrial lighting costs, but my instinct is that any increase in price you get is counteracted by dramatically lower utilization of the satellite. 
 
 ### **Conclusion**
 
