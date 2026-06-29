@@ -4,7 +4,6 @@ title: "V2 Rocket Combat Effectiveness - Reading Walter Dornberger's Account"
 categories: Ideas
 tags:
     - Ideas
-    - Latest Posts
 author:
  - Christopher Kalitin
 word_count: 1886
