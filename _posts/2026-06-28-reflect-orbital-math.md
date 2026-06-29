@@ -7,7 +7,7 @@ tags:
     - Latest Posts
 author:
  - Christopher Kalitin
-word_count: 3015
+word_count: 2991
 ---
 <head>
     <meta property="og:image" content="{{site.url}}/assets/images/reflect-orbital-math/sso_transmission_proximity_min100MW_exclChi.png">
@@ -19,14 +19,6 @@ All charts and source data are available in this [spreadsheet](https://docs.goog
 
 ![Image](/assets/images/reflect-orbital-math/sso_transmission_proximity_min100MW_exclChi.png)  
 *Claude Code makes every analysis possible.*
-
-Blog post structure:
-
-- Illumination area limitations
-- Selling to solar arrays
-- Transmission Effectiveness and Time-on-Target
-- Economic Cases
-- Will Starship price (not cost) get that low?
 
 I have seen Reflect Orbital fall into the category of problem where people do zero math and come to the conclusion that they'll fail one too many times! This is in the same vein as the thought that data centers use terrible amounts of water ([they don't](https://x.com/andymasley/status/2056894455853068675)), where nobody does any math or has any real figures. Naturally, the solution when faced with such a problem is to do the math yourself and write a blog post on it.
 
