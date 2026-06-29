@@ -15,7 +15,7 @@ word_count: 3009
 
 If you have feedback / criticism, please [reply here](https://x.com/CKalitin/status/2068585609380196560?s=20).
 
-All charts and source data are available in this [spreadsheet](https://docs.google.com/spreadsheets/d/19wsl4ZJp0i5ETl95NHZqOQkjcGUeqm0TIfWgUL0eyIQ/edit?gid=0#gid=0) and this [repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Reflect-Orbital).
+All charts and source data are available in this [spreadsheet](https://docs.google.com/spreadsheets/d/19wsl4ZJp0i5ETl95NHZqOQkjcGUeqm0TIfWgUL0eyIQ/edit?usp=sharing) and this [repo](https://github.com/CKalitin/charts-and-data-analysis/tree/master/Reflect-Orbital).
 
 ![Image](/assets/images/reflect-orbital-math/sso_transmission_proximity_min100MW_exclChi.png)  
 *With Claude Code, no analysis is beyond our reach.*
