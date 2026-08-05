@@ -2,7 +2,7 @@ Matthew 16:3
 And in the morning, It will be foul weather to day: for the sky is red and lowering. O ye hypocrites, ye can discern the face of the sky; but can ye not discern the signs of the times?
 
 Matthew 16:11
-How is it that ye do not understand that I spake it not to you concerning bread, that ye should beware of hte leaven of the Parissess and of the Sadducees?
+How is it that ye do not understand that I spake it not to you concerning bread, that ye should beware of the leaven of the Parissess and of the Sadducees?
 
 Matthew 16:12
 Then understood they how that he bade them not beware of the leaven of bread, but of the doctrin of the Pharisees and of the Sadducees.
