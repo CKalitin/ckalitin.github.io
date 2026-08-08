@@ -19,7 +19,7 @@
     font-family: var(--font-mono);
     font-size: var(--fs-mono-md);
     color: #555;
-    margin: -12px 0 24px;
+    margin-top: 6px;
   }
 
   .post-article {

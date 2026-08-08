@@ -21,8 +21,8 @@ const dateLabel = formatDateFull(date);
     <h1 class="post-title">{title}</h1>
     <div class="post-byline">
       {dateLabel}<span class="sep"> - </span>{wordCount} words
+      <div class="print-only post-print-source">Christopher Kalitin Blog ({Astro.site}posts/{slug}/)</div>
     </div>
-    <div class="print-only post-print-source">Christopher Kalitin Blog ({Astro.site}posts/{slug}/)</div>
     <div class="post-body">
       <slot />
     </div>
