@@ -146,7 +146,7 @@ UNTIL ORBIT:PERIAPSIS > 75000 {
 
 ### <b>Booster Aerodynamic Control Issues</b>
 
-![Image description](/assets/images/more-kos-boosters/front_Dzhanibekov 1_2.png)
+![Image description](/assets/images/more-kos-boosters/front_Dzhanibekov%201_2.png)
 
 When I was first testing the landing script, I only needed to test descent and not worry about ascent. This meant I only had to optimize for aerodynamics on descent. If you don't understand how to optimize a booster for descent I'm not gonna be able to explain it without being with you in person - If you'd like this please <a href="https://x.com/CKalitin">send me a dm</a>. The basic principles are that you want high drag and for your center of mass to be below your center of drag. However, on ascent you want the opposite. The Falcon 9 solves this with deployable grid fins, but we don't have this in KSP 1 (RIP KSP 2).
 

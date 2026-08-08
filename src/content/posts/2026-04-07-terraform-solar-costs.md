@@ -2,7 +2,7 @@
 title: The Path To 1 ¢/kWh Solar Costs for Terraform Industries
 date: '2026-04-07'
 tags:
-  - Techno-Economic Modelling
+  - Techno-Economics
 image: /assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png
 redirectFrom:
   - /projects/2026/04/07/terraform-solar-costs.html

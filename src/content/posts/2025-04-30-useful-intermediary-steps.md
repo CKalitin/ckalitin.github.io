@@ -2,7 +2,7 @@
 title: Useful Intermediary Steps Are Fundamental To Startups And Large Novel Projects
 date: '2025-04-30'
 tags:
-  - Ideas
+  - Techno-Economics
 image: /assets/images/useful-intermediary-steps/postscreenshot.png
 redirectFrom:
   - /technology/2025/04/30/useful-intermediary-steps.html

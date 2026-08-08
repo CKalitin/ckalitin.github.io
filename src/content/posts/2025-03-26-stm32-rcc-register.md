@@ -3,7 +3,7 @@ title: What Is the RCC_CSR Register in STM32 Microcontrollers?
 date: '2025-03-26'
 tags:
   - Projects
-image: /assets/images/stm32-rcc-register/block-diagram.jgp
+image: /assets/images/stm32-rcc-register/block-diagram.jpg
 redirectFrom:
   - /technical/2025/03/26/stm32-rcc-register.html
 ---

@@ -3,7 +3,7 @@ title: All Mistakes On UBC Solar Were Due To People
 date: '2025-06-16'
 tags:
   - Ideas
-image: /assets/images/ubc-solar-mistakes/team-photo.jpg
+image: /assets/images/ubc-solar-mistakes/Solar-team.jpg
 redirectFrom:
   - /ubc-solar/2025/06/16/ubc-solar-mistakes.html
 ---

@@ -2,7 +2,7 @@
 title: Optimize For Exceptionally Competent Small Teams
 date: '2025-10-13'
 tags:
-  - Ideas
+  - Techno-Economics
 image: /assets/images/managing-technical-teams/meme.png
 redirectFrom:
   - /ideas/2025/10/13/managing-technical-teams.html

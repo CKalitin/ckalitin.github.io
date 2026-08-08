@@ -13,7 +13,7 @@ redirectFrom:
 
 <a href="/assets/Christopher_Kalitin_Portfolio.pdf">Download Portfolio</a> (Especially if on mobile)
 
-<a href="/assets/Christopher Kalitin Resume.pdf">Download Resume</a>
+<a href="/assets/Christopher%20Kalitin%20Resume.pdf">Download Resume</a>
 
 Also take a look at the rest of my blog for all my other projects!
 
@@ -23,4 +23,4 @@ Also take a look at the rest of my blog for all my other projects!
 
 ## <b>Resume</b>
 
-<object data="/assets/Christopher Kalitin Resume.pdf" width="800" height="1000" type='application/pdf'></object>
+<object data="/assets/Christopher%20Kalitin%20Resume.pdf" width="800" height="1000" type='application/pdf'></object>

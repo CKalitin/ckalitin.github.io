@@ -3,7 +3,7 @@ title: Applying the Law of Accelerating Returns
 date: '2023-09-22'
 tags:
   - Vibes
-image: /assets/images/image1.png
+image: /assets/images/2023-09-22/image1.png
 redirectFrom:
   - /technology/2023/09/22/applying-accelerating-returns.html
 ---

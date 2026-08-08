@@ -2,7 +2,7 @@
 title: Jevons Paradox is Just a Subset of the Principle Behind Learning Rate
 date: '2025-05-03'
 tags:
-  - Techno-Economic Modelling
+  - Techno-Economics
 image: /assets/images/jevons-learning-rate/notebook.jpg
 redirectFrom:
   - /technology/2025/05/03/jevons-learning-rate.html

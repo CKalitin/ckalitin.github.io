@@ -2,7 +2,7 @@
 title: Battery Storage For Hydro Dominated Grids
 date: '2026-06-20'
 tags:
-  - Techno-Economic Modelling
+  - Techno-Economics
 image: /assets/images/battery-hydro-grids/chief_joseph_model_cost.png
 redirectFrom:
   - /projects/2026/06/20/battery-hydro-grids.html

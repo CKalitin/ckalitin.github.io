@@ -3,7 +3,7 @@ title: Estimating Cost per Mbps of Communication Satellites Over Time
 date: '2025-01-09'
 tags:
   - Space Industry Analysis
-image: /assets/images/com-sat-cost/Cost per Mbps vs. Satellite Program & Year Of First Launch.png
+image: /assets/images/com-sat-cost/Cost%20per%20Mbps%20vs.%20Satellite%20Program%20&%20Year%20Of%20First%20Launch.png
 redirectFrom:
   - /space/2025/01/09/com-sat-cost.html
 ---
@@ -19,17 +19,17 @@ Read the <a href="https://ckalitin.github.io/space/2025/01/15/fun-comsat-charts.
 
 ### <b>Using Jonathan Mcdowell's Dataset</b>
 
-![Image](/assets/images/com-sat-cost/Sat Count by Program.png)  
+![Image](/assets/images/com-sat-cost/Sat%20Count%20by%20Program.png)  
 <i>This shows share of total communications satellites launched in all of history by satellite program.</i>
 
 The first step was to filter Jonathan Mcdowell's dataset to include only communication satellites. I've <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=61915314#gid=61915314">worked with his dataset</a> for over a year and already did this a while ago. This resulted in a list of 8,691 communications satellites successfully launched between 1960 and 2023 (inclusive), the first of these being Transit 1B on April 13, 1960. This data isn't directly pertinent to the result I'd like to get, but the journey is important and there are insights to be gained from this, these insights are the purpose of this section.
 
-![Image](/assets/images/com-sat-cost/Communications Satellites Launched Per Year.png)  
+![Image](/assets/images/com-sat-cost/Communications%20Satellites%20Launched%20Per%20Year.png)  
 <i>That massive wall post 2020 is Starlink.</i>
 
 <a href="https://x.com/CKalitin/status/1860565042732601523/photo/1">As is a common theme</a> in trying to analyze the satellite industry, SpaceX's massive market share makes it very difficult to extract any insights from the raw charts, and if you want to learn anything other than "yea SpaceX is still winning" you have to exclude them from the dataset. 
 
-![Image](/assets/images/com-sat-cost/Communications Satellites Launched Per Year (Ex. Starlink).png)  
+![Image](/assets/images/com-sat-cost/Communications%20Satellites%20Launched%20Per%20Year%20(Ex.%20Starlink).png)  
 <i>Without Starlink, you can get a feel for the history of communications satellites.</i>
 
 Above you can see communications satellites launched per year excluding Starlink and there are a lot of interesting stories behind all the bumps and increases.
@@ -44,7 +44,7 @@ With the data on every communications satellite ever successfully launched, I na
 
 Here I'll note that this is not the approach Ark Invest took, they used a set of GEO & Starlink satellites with good data on them and fit a trendline to the price per Mbps. For my next attempt this is probably what I'll do, start with satellites that have good price data instead of satellites with many launches.
 
-![Image](/assets/images/com-sat-cost/Bandwidth (Mbps) of Satellite Programs & Year Of First Launch.png)  
+![Image](/assets/images/com-sat-cost/Bandwidth%20(Mbps)%20of%20Satellite%20Programs%20&%20Year%20Of%20First%20Launch.png)  
 <i>You can see that bandwidth per satellite has been increasing exponentially over time.</i>
 
 Above you can see the bandwidth of single satellites from various programs over time. There are four primary categories here, early communications satellites (Molniya), early LEO satellite phone constellations (Iridium, Globalstar), GEO satellites (O3b, Intelsat (IntIS on the chart), SES Galaxy), and LEO internet constellations (OneWeb, Starlink).
@@ -55,7 +55,7 @@ The GEO satellites also had high total throughput compared to the early LEO cons
 
 ### <b>Results</b>
 
-![Image](/assets/images/com-sat-cost/Cost per Mbps vs. Satellite Program & Year Of First Launch.png)  
+![Image](/assets/images/com-sat-cost/Cost%20per%20Mbps%20vs.%20Satellite%20Program%20&%20Year%20Of%20First%20Launch.png)  
 <i>We see an exponential decline in cost per Mbps over time on this logarithmic chart.</i>
 
 In the previous section, I described the 4 major categories of satellites that I included in the dataset. Because these satellites have different purposes, we see ~3-4 orders of magnitude difference in the 1983-2017 set of satellites. This is because the GEO satellites can deliver far more bandwidth to customers than the LEO satellites like Iridium, so the cost per Mbps differs a lot. This is similar to the issues you encounter when using \$/kg as a metric in launch vehicles, Electron is several times higher than F9 but still has customers because its customers have different needs.

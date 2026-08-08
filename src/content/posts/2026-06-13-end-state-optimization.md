@@ -2,7 +2,7 @@
 title: Optimize For The End State
 date: '2026-06-13'
 tags:
-  - Ideas
+  - Techno-Economics
 redirectFrom:
   - /ideas/2026/06/13/end-state-optimization.html
 ---

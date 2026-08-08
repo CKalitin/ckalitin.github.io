@@ -3,7 +3,7 @@ title: Planet Labs Charts That Describe Their History
 date: '2025-06-08'
 tags:
   - Space Industry Analysis
-image: \assets\space-industry-charts\planet_labs_payloads_vs_year_by_program.png
+image: /assets/space-industry-charts/planet_labs/planet_labs_payloads_vs_year_by_program.png
 redirectFrom:
   - /space/2025/06/08/planet-labs-charts.html
 ---
