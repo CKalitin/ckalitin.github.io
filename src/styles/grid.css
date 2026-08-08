@@ -61,6 +61,8 @@
 .chrono-list {
   display: flex;
   flex-direction: column;
+  max-width: var(--article-max);
+  margin: 0 auto;
 }
 
 .chrono-row {
