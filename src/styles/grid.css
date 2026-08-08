@@ -97,6 +97,14 @@
   .chrono-row {
     flex-wrap: wrap;
   }
+  .chrono-row .date,
+  .chrono-row .title {
+    /* Force each onto its own line -- without an explicit basis, a
+       short title's natural width fits next to the date and stays on
+       the same line instead of wrapping, while long titles wrap
+       inconsistently. */
+    flex-basis: 100%;
+  }
   .chrono-row .tag {
     order: 3;
     flex-basis: 100%;
