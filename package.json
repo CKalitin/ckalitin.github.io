@@ -13,12 +13,11 @@
   },
   "dependencies": {
     "astro": "^5.1.0",
-    "@astrojs/rss": "^4.0.9",
-    "remark-math": "^6.0.0",
-    "rehype-katex": "^7.0.1",
-    "katex": "^0.16.11",
     "gray-matter": "^4.0.3",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "katex": "^0.16.11",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "playwright": "^1.49.0"

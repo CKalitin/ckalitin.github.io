@@ -19,7 +19,6 @@ const { title, description = 'Christopher Kalitin Blog', showHeader = true, imag
     <title>{title}</title>
     <meta name="description" content={description} />
     {image && <meta property="og:image" content={image} />}
-    <link rel="alternate" type="application/rss+xml" title="Christopher Kalitin Blog" href="/rss.xml" />
   </head>
   <body>
     {showHeader && <Header />}
