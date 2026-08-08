@@ -2,7 +2,7 @@
 title: S-Curves Allow You to Predict the Future
 date: '2024-11-19'
 tags:
-  - Ideas
+  - Techno-Economic Modelling
 image: /assets/images/s-curve-examples/s-curve.png
 redirectFrom:
   - /technology/2024/11/19/s-curve-examples.html

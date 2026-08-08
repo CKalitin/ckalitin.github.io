@@ -2,7 +2,7 @@
 title: Terraform Industries Electrolyzer Economics Modelling
 date: '2026-03-23'
 tags:
-  - Techno Economic Modelling
+  - Techno-Economic Modelling
 image: /assets/images/terraform-electrolyzer-modelling/electrolyzer_3d_graph_with_lines.png
 redirectFrom:
   - /projects/2026/03/23/terraform-electrolyzer-modelling.html

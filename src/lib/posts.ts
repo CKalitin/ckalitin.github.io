@@ -1,10 +1,11 @@
 import type { CollectionEntry } from 'astro:content';
 
 export const TAG_ORDER = [
-  'Techno Economic Modelling',
+  'Techno-Economic Modelling',
   'Space Industry Analysis',
   'Projects',
   'Ideas',
+  'Vibes',
   'Drafts',
 ];
 

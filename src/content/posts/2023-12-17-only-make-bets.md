@@ -2,7 +2,7 @@
 title: Only Make Bets You Can Win
 date: '2023-12-17'
 tags:
-  - Ideas
+  - Vibes
 redirectFrom:
   - /miscellaneous/2023/12/17/only-make-bets.html
 ---

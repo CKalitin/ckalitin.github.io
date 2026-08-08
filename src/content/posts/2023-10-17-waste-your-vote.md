@@ -2,7 +2,7 @@
 title: Waste Your Vote! Do What's Funniest!
 date: '2023-10-17'
 tags:
-  - Ideas
+  - Vibes
 image: /assets/images/covers/waste-your-vote.png
 redirectFrom:
   - /government/2023/10/17/waste-your-vote.html

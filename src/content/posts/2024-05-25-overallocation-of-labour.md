@@ -2,7 +2,7 @@
 title: On the Overallocation of Labour to Finance and Law
 date: '2024-05-25'
 tags:
-  - Ideas
+  - Vibes
 redirectFrom:
   - /technology/2024/05/25/overallocation-of-labour.html
 ---

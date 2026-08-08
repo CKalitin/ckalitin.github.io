@@ -2,7 +2,7 @@
 title: The Best Students Stopped Trusting Their School Teachers
 date: '2026-04-24'
 tags:
-  - Ideas
+  - Vibes
 image: /assets/images/terraform-solar-costs/solar_subcomponent_breakdown.png
 redirectFrom:
   - /ideas/2026/04/24/students-trusting-teachers.html

@@ -2,7 +2,7 @@
 title: Patriotism is a Requirement
 date: '2024-01-01'
 tags:
-  - Ideas
+  - Vibes
 redirectFrom:
   - /government/2024/01/01/patriotism-is-required.html
 ---

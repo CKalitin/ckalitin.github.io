@@ -2,7 +2,7 @@
 title: What Commodity Prices Are Required For Terraform Industries To Be Competitive?
 date: '2026-04-05'
 tags:
-  - Techno Economic Modelling
+  - Techno-Economic Modelling
 image: /assets/images/terraform-commodity-prices/methanol_cost_vs_inputs_45V.png
 redirectFrom:
   - /projects/2026/04/05/terraform-commodity-prices.html

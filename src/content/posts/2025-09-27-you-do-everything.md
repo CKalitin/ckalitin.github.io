@@ -2,7 +2,7 @@
 title: You Can Do Everything
 date: '2025-09-27'
 tags:
-  - Ideas
+  - Vibes
 image: /assets/images/you-do-everything/Screenshot 2025-09-27 210513.png
 redirectFrom:
   - /ideas/2025/09/27/you-do-everything.html

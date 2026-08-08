@@ -2,7 +2,7 @@
 title: Art Is Dead?
 date: '2023-10-21'
 tags:
-  - Ideas
+  - Vibes
 image: /assets/images/covers/art-is-dead.jpg
 redirectFrom:
   - /miscellaneous/2023/10/21/art-is-dead.html

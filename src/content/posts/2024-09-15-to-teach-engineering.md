@@ -2,7 +2,7 @@
 title: How to Teach Engineering
 date: '2024-09-15'
 tags:
-  - Ideas
+  - Vibes
 image: /assets/images/to-teach-engineering/Rocket.jpg
 redirectFrom:
   - /dumbshit/2024/09/15/to-teach-engineering.html
