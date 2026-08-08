@@ -1,0 +1,108 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { groupByTag, postUrl, formatDateLines } from '../lib/posts';
+
+const allPosts = await getCollection('posts');
+const groups = groupByTag(allPosts);
+
+const gridData = groups.map(({ tag, posts }) => ({
+  tag,
+  slug: tag.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''),
+  posts: posts.map((post) => {
+    const { top, year } = formatDateLines(post.data.date);
+    return { url: postUrl(post.id), title: post.data.title, dateTop: top, dateYear: year };
+  }),
+}));
+---
+<BaseLayout title="Christopher Kalitin Blog">
+  <main>
+    <div id="home-grid-root">
+      {groups.map(({ tag, slug, posts }) => (
+        <div class="home-grid" style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(var(--col-min-width), 1fr))` }}>
+          <h2 id={slug}>{tag}</h2>
+          {posts.map((post) => {
+            const { top, year } = formatDateLines(post.data.date);
+            return (
+              <a href={postUrl(post.id)} class="post-row">
+                <span class="date">{top + '\n' + year}</span>
+                <span class="title">{post.data.title}</span>
+              </a>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+
+    <div class="all-posts-link">
+      <a href="/chronological/">all posts, chronologically</a>
+    </div>
+  </main>
+
+  <script type="application/json" id="home-grid-data" set:html={JSON.stringify(gridData)}></script>
+  <script>
+    const dataEl = document.getElementById('home-grid-data');
+    const container = document.getElementById('home-grid-root');
+    if (dataEl && container) {
+      const DATA = JSON.parse(dataEl.textContent || '[]');
+
+      function pickCols() {
+        // Thresholds account for the 280px column min-width (var(--col-min-width))
+        // plus gaps/padding, so columns never get so narrow that titles/dates
+        // get cramped -- wider tiers than a plain 1fr grid would need.
+        const w = window.innerWidth;
+        if (w >= 1900) return 6;
+        if (w >= 1300) return 4;
+        if (w >= 980) return 3;
+        if (w >= 680) return 2;
+        return 1;
+      }
+
+      function buildGroup(chunk) {
+        const grid = document.createElement('div');
+        grid.className = 'home-grid';
+        grid.style.gridTemplateColumns = 'repeat(' + chunk.length + ', minmax(var(--col-min-width), 1fr))';
+        chunk.forEach(function (cat, colIdx) {
+          const h2 = document.createElement('h2');
+          h2.id = cat.slug;
+          h2.style.gridColumn = String(colIdx + 1);
+          h2.style.gridRow = '1';
+          h2.textContent = cat.tag;
+          grid.appendChild(h2);
+          cat.posts.forEach(function (post, rowIdx) {
+            const a = document.createElement('a');
+            a.href = post.url;
+            a.className = 'post-row';
+            a.style.gridColumn = String(colIdx + 1);
+            a.style.gridRow = String(rowIdx + 2);
+            const dateSpan = document.createElement('span');
+            dateSpan.className = 'date';
+            dateSpan.textContent = post.dateTop + '\n' + post.dateYear;
+            const titleSpan = document.createElement('span');
+            titleSpan.className = 'title';
+            titleSpan.textContent = post.title;
+            a.appendChild(dateSpan);
+            a.appendChild(titleSpan);
+            grid.appendChild(a);
+          });
+        });
+        return grid;
+      }
+
+      function render() {
+        const cols = pickCols();
+        container.innerHTML = '';
+        for (let i = 0; i < DATA.length; i += cols) {
+          container.appendChild(buildGroup(DATA.slice(i, i + cols)));
+        }
+      }
+
+      render();
+      let resizeTimer;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(render, 100);
+      });
+    }
+  </script>
+</BaseLayout>

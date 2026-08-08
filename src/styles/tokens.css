@@ -1,0 +1,50 @@
+/*
+ * Site-wide formatting config. Change a value here to change it everywhere
+ * -- this file is the "theme" for the whole blog. No other CSS file
+ * should hardcode a color, font, or font-size; they all read from these
+ * custom properties.
+ */
+:root {
+  /* Colors */
+  --bg: oklch(0.99 0.003 90);
+  --text: oklch(0.16 0.004 90);
+  --muted: oklch(0.45 0.01 90);
+  --muted-2: oklch(0.55 0.01 90);
+  --muted-3: oklch(0.7 0.005 90);
+  --hairline: oklch(0.9 0.004 90);
+  --hairline-2: oklch(0.85 0.005 90);
+  --border-strong: oklch(0.16 0.004 90);
+  --accent: oklch(0.5 0.14 250);
+  --accent-hover: oklch(0.4 0.14 250);
+  --selection: oklch(0.85 0.08 250);
+  --code-bg: oklch(0.95 0.003 90);
+
+  /* Type -- system UI font first (Segoe UI / San Francisco depending on OS,
+     the same family the old Jekyll site used), Helvetica/Arial as a
+     last-resort fallback only. */
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'Menlo', Consolas, ui-monospace, SFMono-Regular, 'Segoe UI Mono', monospace;
+
+  /* Type scale */
+  --fs-header-title: 18px;
+  --fs-nav: 11px;
+  --fs-post-title: 26px;
+  --fs-h2: 17px;
+  --fs-h3: 15px;
+  --fs-body: 14px;
+  --fs-byline: 12px;
+  --fs-list: 12px;
+  --fs-list-sm: 11px;
+  --fs-mono-sm: 10px;
+  --fs-mono-md: 11px;
+  --fs-blockquote: 13px;
+  --fs-code: 11px;
+  --fs-caption: 10px;
+  --fs-footer: 10px;
+
+  /* Column-count breakpoints for the home grid live in index.astro's
+     pickCols() -- this is just the per-column floor they're built around. */
+  --col-min-width: 280px;
+
+  --article-max: 720px;
+}

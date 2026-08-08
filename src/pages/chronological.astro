@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { postUrl, primaryTag, sortByDateDesc, formatDateFull } from '../lib/posts';
+
+const allPosts = (await getCollection('posts')).sort(sortByDateDesc);
+---
+<BaseLayout title="All Posts — Christopher Kalitin Blog">
+  <main>
+    <div class="chrono-list">
+      {allPosts.map((post) => (
+        <a href={postUrl(post.id)} class="chrono-row">
+          <span class="date">{formatDateFull(post.data.date)}</span>
+          <span class="title">{post.data.title}</span>
+          <span class="tag">{primaryTag(post.data.tags)}</span>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

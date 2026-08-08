@@ -1,0 +1,71 @@
+@media print {
+  .site-header,
+  .post-home-link,
+  .pdf-download,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .post-print-source {
+    font-family: var(--font-mono);
+    font-size: var(--fs-mono-md);
+    color: #555;
+    margin: -12px 0 24px;
+  }
+
+  .post-article {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* Expand the horizontal scroller into a full stack -- every image
+     visible on the page, nothing clipped by overflow. */
+  .post-body .gallery {
+    display: block !important;
+    overflow: visible !important;
+  }
+
+  .post-body .gallery .fig {
+    flex: none;
+    max-width: 100%;
+    margin: 0 0 16px;
+    page-break-inside: avoid;
+  }
+
+  .post-body .gallery .fig img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .post-body .fig-large,
+  .post-body .fig-medium,
+  .post-body .fig-small {
+    max-width: 100%;
+  }
+
+  /* Spell out link destinations since printed pages can't be clicked. */
+  .post-body a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    color: #555;
+    word-break: break-all;
+  }
+
+  .post-body a[href^='#']::after {
+    content: '';
+  }
+
+  .post-body pre,
+  .post-body .fig {
+    page-break-inside: avoid;
+  }
+}

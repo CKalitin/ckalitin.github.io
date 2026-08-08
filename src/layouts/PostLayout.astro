@@ -1,0 +1,31 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { countWords } from '../lib/wordcount';
+import { getSlug, formatDateFull } from '../lib/posts';
+
+interface Props {
+  title: string;
+  date: Date;
+  body: string;
+  image?: string;
+  id: string;
+}
+const { title, date, body, image, id } = Astro.props;
+const wordCount = countWords(body ?? '');
+const slug = getSlug(id);
+const dateLabel = formatDateFull(date);
+---
+<BaseLayout title={`${title} — Christopher Kalitin Blog`} showHeader={false} description={title} image={image}>
+  <article class="post-article">
+    <a href="/" class="post-home-link">Christopher Kalitin Blog</a>
+    <h1 class="post-title">{title}</h1>
+    <div class="post-byline">
+      {dateLabel}<span class="sep"> - </span>{wordCount} words
+    </div>
+    <div class="print-only post-print-source">Christopher Kalitin Blog ({Astro.site}posts/{slug}/)</div>
+    <div class="post-body">
+      <slot />
+    </div>
+    <a class="pdf-download no-print" href={`/pdfs/${slug}.pdf`}>Download PDF</a>
+  </article>
+</BaseLayout>

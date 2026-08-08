@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import 'katex/dist/katex.min.css';
+import Header from '../components/Header.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  showHeader?: boolean;
+  image?: string;
+}
+const { title, description = 'Christopher Kalitin Blog', showHeader = true, image } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {image && <meta property="og:image" content={image} />}
+    <link rel="alternate" type="application/rss+xml" title="Christopher Kalitin Blog" href="/rss.xml" />
+  </head>
+  <body>
+    {showHeader && <Header />}
+    <slot />
+  </body>
+</html>
