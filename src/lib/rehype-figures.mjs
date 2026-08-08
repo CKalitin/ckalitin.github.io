@@ -1,5 +1,6 @@
-// Groups images into a horizontal-scroll gallery and applies the
-// |small / |medium / |large sizing keyword from alt text.
+// Groups images into a horizontal-scroll gallery and applies a sizing
+// suffix from alt text: an explicit percentage (|40%) of the article's
+// reading column width, or one of the small/medium/large shorthands.
 //
 // CommonMark puts consecutive "![img](path)" lines with no blank line
 // between them into ONE paragraph (separated by <br>), and an image's
@@ -12,7 +13,15 @@
 // image-only paragraphs (blank line between images) are merged too, as a
 // secondary case.
 
-const SIZE_RE = /\|\s*(small|medium|large)\s*$/i;
+const SIZE_RE = /\|\s*(small|medium|large|\d{1,3}%?)\s*$/i;
+const SIZE_PRESETS = { small: 33, medium: 60, large: 85 };
+
+function resolvePercent(raw) {
+  const lower = raw.toLowerCase();
+  if (lower in SIZE_PRESETS) return SIZE_PRESETS[lower];
+  const num = parseInt(raw, 10);
+  return Number.isNaN(num) ? 100 : Math.min(100, Math.max(1, num));
+}
 
 function isWhitespaceText(node) {
   return node.type === 'text' && /^\s*$/.test(node.value);
@@ -24,10 +33,10 @@ function isBreak(node) {
 
 function buildFigure(img, captionEm) {
   let alt = img.properties.alt || '';
-  let size = 'full';
+  let pct = 100;
   const m = alt.match(SIZE_RE);
   if (m) {
-    size = m[1].toLowerCase();
+    pct = resolvePercent(m[1]);
     alt = alt.slice(0, m.index).trim();
   }
   img.properties.alt = alt;
@@ -47,7 +56,7 @@ function buildFigure(img, captionEm) {
   return {
     type: 'element',
     tagName: 'figure',
-    properties: { className: ['fig', `fig-${size}`] },
+    properties: { className: ['fig'], style: `--fig-pct: ${pct}%` },
     children,
   };
 }

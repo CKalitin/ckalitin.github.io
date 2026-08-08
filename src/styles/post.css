@@ -126,9 +126,12 @@
   padding: 4px 0;
 }
 
-/* Figures / image sizing */
+/* Figures / image sizing -- width is a percentage of this reading column,
+   set per-image via the --fig-pct custom property (see rehype-figures.mjs),
+   e.g. ![caption|40%](...). Defaults to 100% (full width) when unset. */
 .post-body .fig {
-  margin: 24px 0;
+  max-width: var(--fig-pct, 100%);
+  margin: 24px auto;
 }
 
 .post-body .fig img {
@@ -141,28 +144,6 @@
   font-size: var(--fs-caption);
   color: var(--muted-2);
   margin-top: 6px;
-}
-
-.post-body .fig-full {
-  width: 100%;
-}
-
-.post-body .fig-large {
-  max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post-body .fig-medium {
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post-body .fig-small {
-  max-width: 33%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Horizontal-scroll gallery for consecutive images */
@@ -186,9 +167,7 @@
 }
 
 @media (max-width: 640px) {
-  .post-body .fig-large,
-  .post-body .fig-medium,
-  .post-body .fig-small {
+  .post-body .fig {
     max-width: 100%;
   }
 }

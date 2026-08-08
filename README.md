@@ -55,13 +55,11 @@ Note: a literal `$` used for money (e.g. `$500`) is fine and won't be mistaken f
 ```
 Renders full-width. Caption is optional (drop the second line if you don't want one).
 
-**Sizing** — add a size keyword to the alt text with a `|`:
+**Sizing** — add a percentage to the alt text with a `|`:
 ```markdown
-![a caption|small](/assets/images/your-slug/photo.png)
-![a caption|medium](/assets/images/your-slug/photo.png)
-![a caption|large](/assets/images/your-slug/photo.png)
+![a caption|40%](/assets/images/your-slug/photo.png)
 ```
-Sizes are relative to the article's reading column (not the full screen): small ≈ 33%, medium ≈ 60%, large ≈ 85%. No keyword = full width (the default, same as every migrated post). On phones, every size collapses back to full column width automatically — nothing ever renders illegibly tiny.
+The percentage is of the article's reading column width, not the full screen — `|40%` means 40% of the text column, so it's never a tiny image on a wide monitor and never a huge one either. Any number 1–100 works. No suffix = full width (the default, same as every migrated post). `small` / `medium` / `large` also still work as shorthand for 33% / 60% / 85%, if you don't want to think about a number. On phones, every size collapses back to full column width automatically — nothing ever renders illegibly tiny. In printed PDFs, images are always full width regardless of the on-screen size, for legibility on paper.
 
 **Horizontal scroller / gallery** — fully automatic, no special syntax. Just put multiple images one after another with no other text between them:
 ```markdown

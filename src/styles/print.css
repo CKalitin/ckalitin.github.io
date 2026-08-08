@@ -46,9 +46,9 @@
     object-fit: contain;
   }
 
-  .post-body .fig-large,
-  .post-body .fig-medium,
-  .post-body .fig-small {
+  /* Full width on paper regardless of the on-screen |percentage --
+     a small image on screen would be illegibly tiny printed. */
+  .post-body .fig {
     max-width: 100%;
   }
 
