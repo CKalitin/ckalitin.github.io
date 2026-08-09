@@ -79,6 +79,12 @@
   margin: 0 auto;
 }
 
+/* Plain markdown pages (Appearances, etc.) via PageLayout.astro */
+.page-content {
+  max-width: var(--article-max);
+  margin: 0 auto;
+}
+
 .chrono-row {
   display: flex;
   align-items: baseline;

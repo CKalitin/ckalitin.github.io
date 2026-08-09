@@ -46,7 +46,7 @@
 
   /* Column-count breakpoints for the home grid live in index.astro's
      pickCols() -- this is just the per-column floor they're built around. */
-  --col-min-width: 280px;
+  --col-min-width: 336px;
 
   --article-max: 720px;
 }

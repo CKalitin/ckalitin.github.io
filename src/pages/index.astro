@@ -49,18 +49,18 @@ const gridData = groups.map(({ tag, posts }) => ({
       const DATA = JSON.parse(dataEl.textContent || '[]');
 
       function pickCols() {
-        // Measures the actual grid container width (capped at 70% of the
-        // page via .home-content), not window.innerWidth -- since the
-        // container is narrower than the viewport, column-count decisions
-        // have to be based on the space that's actually available to it.
-        // Thresholds account for the 280px column min-width
-        // (var(--col-min-width)) plus gaps, so columns never get so
-        // narrow that titles/dates get cramped.
-        const w = container.getBoundingClientRect().width || window.innerWidth * 0.7;
-        if (w >= 1900) return 6;
-        if (w >= 1300) return 4;
-        if (w >= 980) return 3;
-        if (w >= 680) return 2;
+        // Measures the actual grid container width (capped via
+        // .home-content), not window.innerWidth -- since the container is
+        // narrower than the viewport, column-count decisions have to be
+        // based on the space that's actually available to it. Thresholds
+        // account for the 336px column min-width (var(--col-min-width))
+        // plus gaps, so columns never get so narrow that titles/dates get
+        // cramped.
+        const w = container.getBoundingClientRect().width || window.innerWidth * 0.6;
+        if (w >= 2200) return 6;
+        if (w >= 1450) return 4;
+        if (w >= 1100) return 3;
+        if (w >= 720) return 2;
         return 1;
       }
 
