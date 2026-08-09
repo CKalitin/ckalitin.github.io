@@ -33,9 +33,11 @@
   --fs-h3: 15px;
   --fs-body: 14px;
   --fs-byline: 12px;
-  --fs-list: 12px;
+  --fs-list: 14px;
   --fs-list-sm: 11px;
   --fs-mono-sm: 10px;
+  --fs-grid-header: 17px;
+  --fs-grid-date: 12px;
   --fs-mono-md: 11px;
   --fs-blockquote: 13px;
   --fs-code: 11px;
