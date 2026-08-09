@@ -6,7 +6,7 @@
  */
 :root {
   /* Colors */
-  --bg: oklch(0.99 0.003 90);
+  --bg: #fff;
   --text: oklch(0.16 0.004 90);
   --muted: oklch(0.45 0.01 90);
   --muted-2: oklch(0.55 0.01 90);
