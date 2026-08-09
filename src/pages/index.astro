@@ -64,10 +64,15 @@ const gridData = groups.map(({ tag, posts }) => ({
         return 1;
       }
 
-      function buildGroup(chunk) {
+      function buildGroup(chunk, cols) {
         const grid = document.createElement('div');
         grid.className = 'home-grid';
-        grid.style.gridTemplateColumns = 'repeat(' + chunk.length + ', minmax(var(--col-min-width), 1fr))';
+        // Always lay out `cols` column tracks (the full row width), not
+        // just chunk.length -- otherwise a trailing row with fewer
+        // categories redistributes the leftover space into wider columns
+        // instead of leaving it blank, so column widths visibly shift
+        // between rows.
+        grid.style.gridTemplateColumns = 'repeat(' + cols + ', minmax(var(--col-min-width), 1fr))';
         chunk.forEach(function (cat, colIdx) {
           const h2 = document.createElement('h2');
           h2.id = cat.slug;
@@ -99,7 +104,7 @@ const gridData = groups.map(({ tag, posts }) => ({
         const cols = pickCols();
         container.innerHTML = '';
         for (let i = 0; i < DATA.length; i += cols) {
-          container.appendChild(buildGroup(DATA.slice(i, i + cols)));
+          container.appendChild(buildGroup(DATA.slice(i, i + cols), cols));
         }
       }
 

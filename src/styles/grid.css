@@ -1,10 +1,10 @@
 .home-content {
-  max-width: 70%;
+  max-width: 55%;
   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
-  /* 70% of a phone/tablet screen fights the grid's own 280px column
+  /* 55% of a phone/tablet screen fights the grid's own 280px column
      minimum -- release the cap once the page itself is already narrow
      enough that the distinction stops mattering. */
   .home-content {
