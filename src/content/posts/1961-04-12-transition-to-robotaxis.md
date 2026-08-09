@@ -36,8 +36,8 @@ These transitions can be seen to be as likely as the sun rising tomorrow. Many s
 
 Currently, the EV revolution is occuring at fervent pace. This is mainly due to economic reasons and is occuring both in personally owned vehicles and commercial/heavy vehicles.
 
-![Image description](/assets/images/2024-01-04/EV-S-Curve-Historic.png)
-![Image description](/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png)
+![Image description|h350](/assets/images/2024-01-04/EV-S-Curve-Historic.png)
+![Image description|h350](/assets/images/2024-01-04/EV-S-Curve-Extrapolated.png)
 
 It appears growth in EV adoption has peaked in 2014 and has been sporadically declining since. This is to be expected and is visible in many other <a href="https://docs.google.com/spreadsheets/d/1jXpCkFLl7Gyy0wmI-rIuWAXR_NwLOPIjxLCfmX2XnO0/edit?usp=sharing">S-Curves</a>. As any technology matures and the market becomes saturated, growth slowes. The decline in growth is not an indictment of the technology, but rather a sign of its maturity. The decline in growth serves to help identify when the technology will reach its peak market share, which in almost all cases is >99%. 
 
@@ -56,11 +56,11 @@ When taking into account all the declining costs of the underlying components, w
 
 The primary consideration when purchasing a vehicle is cost. When EVs are cheaper than all alternatives, what will happen to the alternatives?
 
-![Image description](/assets/images/2024-01-04/ev-battery-cost.jpg)
+![Image description|h400](/assets/images/2024-01-04/ev-battery-cost.jpg)
 
 <a href="https://www.bloomberg.com/features/2016-ev-oil-crisis/">Source of image.</a>
 
-![Image description](/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large)
+![Image description|h350](/assets/images/2024-01-04/Tony-Seba-EV-Costs.jpg_large)
 
 #### <b>Further Improvements over ICE</b>
 
@@ -84,7 +84,7 @@ The added range and speed of refilling of a Hydrogen vehicle is not enough to of
 
 Hybrids will not be able to compete with EVs in the long term due to the static costs of the ICE powertrain, the lower maintenance cost of EVs, and decline in purchase price of EVs. Hybrids and EVs may be equal in carbon footprint, but vehicles are not purchases because of how many turtles are saved, vehcile are purchased mainly based on price.
 
-![Image description](/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp)
+![Image description|h450](/assets/images/2024-01-04/ICE-EV-Hydrogen-Energy-Efficiency.webp)
 
 #### <b>Heavy Vehicles</b>
 
@@ -154,7 +154,7 @@ The TAM of self driving software can be expressed on an exponential graph. A lin
 
 The ability to linearly decrease cost while exponentailly increasing customers allows for a higher overall profit while each subscription costs less. Creating software to drive a car is mainly an R&D project and if you are selling it directly to customers there you can take advantage of profitable device sales. The effect of this is that as total number of customers increases, R&D cost is amortized over more customers which leads to a lower cost per customer. This is the process through which the cost of self driving car software will come down in the future.
 
-![Image description](/assets/images/2024-01-04/Arkinvest-Robotaxi-TAM.png)
+![Image description|h450](/assets/images/2024-01-04/Arkinvest-Robotaxi-TAM.png)
 
 #### <b>How Self Driving Will Be Achieved </b>
 

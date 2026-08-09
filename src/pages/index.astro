@@ -17,25 +17,27 @@ const gridData = groups.map(({ tag, posts }) => ({
 ---
 <BaseLayout title="Christopher Kalitin Blog">
   <main>
-    <div id="home-grid-root">
-      {groups.map(({ tag, slug, posts }) => (
-        <div class="home-grid" style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(var(--col-min-width), 1fr))` }}>
-          <h2 id={slug}>{tag}</h2>
-          {posts.map((post) => {
-            const { top, year } = formatDateLines(post.data.date);
-            return (
-              <a href={postUrl(post.id)} class="post-row">
-                <span class="date">{top + '\n' + year}</span>
-                <span class="title">{post.data.title}</span>
-              </a>
-            );
-          })}
-        </div>
-      ))}
-    </div>
+    <div class="home-content">
+      <div id="home-grid-root">
+        {groups.map(({ tag, slug, posts }) => (
+          <div class="home-grid" style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(var(--col-min-width), 1fr))` }}>
+            <h2 id={slug}>{tag}</h2>
+            {posts.map((post) => {
+              const { top, year } = formatDateLines(post.data.date);
+              return (
+                <a href={postUrl(post.id)} class="post-row">
+                  <span class="date">{top + '\n' + year}</span>
+                  <span class="title">{post.data.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        ))}
+      </div>
 
-    <div class="all-posts-link">
-      <a href="/chronological/">all posts, chronologically</a>
+      <div class="all-posts-link">
+        <a href="/chronological/">all posts, chronologically</a>
+      </div>
     </div>
   </main>
 
@@ -47,10 +49,14 @@ const gridData = groups.map(({ tag, posts }) => ({
       const DATA = JSON.parse(dataEl.textContent || '[]');
 
       function pickCols() {
-        // Thresholds account for the 280px column min-width (var(--col-min-width))
-        // plus gaps/padding, so columns never get so narrow that titles/dates
-        // get cramped -- wider tiers than a plain 1fr grid would need.
-        const w = window.innerWidth;
+        // Measures the actual grid container width (capped at 70% of the
+        // page via .home-content), not window.innerWidth -- since the
+        // container is narrower than the viewport, column-count decisions
+        // have to be based on the space that's actually available to it.
+        // Thresholds account for the 280px column min-width
+        // (var(--col-min-width)) plus gaps, so columns never get so
+        // narrow that titles/dates get cramped.
+        const w = container.getBoundingClientRect().width || window.innerWidth * 0.7;
         if (w >= 1900) return 6;
         if (w >= 1300) return 4;
         if (w >= 980) return 3;

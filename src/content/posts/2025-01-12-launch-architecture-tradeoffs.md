@@ -8,7 +8,7 @@ redirectFrom:
   - /space/2025/01/12/launch-architecture-tradeoffs.html
 ---
 
-![Image](/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg)  
+![Image|h600](/assets/images/launch-architecture-tradeoffs/VulcanRaptor.jpg)  
 <i>This image I got from <a href="https://x.com/StormSilvawalk1/status/1878617797531742227">@StormSilvawalk1</a>'s reply illustrates the two paradigms well. One of these vehicles (Vulcan, left) has 10 separable vehicle parts (SRBs, stages, fairing etc.) vs. just 2 for a vehicle like Starship or Neutron.</i>
 
 We are currently living through a paradigm shift in launch vehicle architecture design. We are seeing old space companies like ULA or Ariane Space that are used to building highly customizable vehicles try to adapt to a new paradigm of reuse and high flight rates. Every day we continue to see these legacy perspectives bump up against new ideas that are optimized for different requirements. These companies once had extremely successful business models, but now they are struggling to adapt to the new paradigm of launch vehicle design, sometimes resulting in laughable concepts.
@@ -33,13 +33,13 @@ With the partially reusable Falcon 9, there are still some areas where SpaceX do
 
 Looking into the future, SpaceX is fully bought into reuse and the result is they are developing a single vehicle that they can throw at every problem. With Starship they're again going all in on a single vehicle and <a href="https://x.com/culpable_mink/status/1780049986203349125">throwing it at every problem</a>.
 
-![Image](/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg)
-![Image](/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg)  
+![Image|h300](/assets/images/launch-architecture-tradeoffs/StarshipMeme1.jpg)
+![Image|h300](/assets/images/launch-architecture-tradeoffs/StarshipMeme2.jpg)  
 <i>Everyone on X already understands all my points intrinsically through memes. A meme is worth a million words, and it spreads as a mind virus.</i>
 
 ### <b>Not Having Full Buy-in To The New Paradigm Explains All The Foolishness We're Seeing</b>
 
-![Image](/assets/images/launch-architecture-tradeoffs/ArianeNEXT.jpg)  
+![Image|h400](/assets/images/launch-architecture-tradeoffs/ArianeNEXT.jpg)  
 <i>The Ariane NEXT concept illustrates why Ariane Space is not adapting to the new paradigm well.</i>
 
 There is this <a href="https://x.com/tesla4k/status/1676077165983723520">hilarious, infamous clip of an Ariane Space exec</a> saying SpaceX's plans are a dream and if they ever come true that Ariane Space will be quick to follow. This is a phenomenon of believing the current paradigm of launch vehicle design will continue long into the future and a belief that Ariane Space would be fast enough to keep up with any paradigm shifts. Both of these points turned out to be false, hence why this clip is hilarious.

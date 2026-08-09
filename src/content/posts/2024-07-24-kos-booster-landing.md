@@ -71,7 +71,7 @@ Anyone who has attempted to land a booster in KSP knows that to adjust your land
 
 ### <b>Failing to Clamp Angle Relative to Retrograde</b>
 
-![Image description](/assets/images/kos-booster-landing/IMG_3894.jpg)
+![Image description|h400](/assets/images/kos-booster-landing/IMG_3894.jpg)
 
 In kOS (Kerbal Operating System, the scripting mod/language), you control the direction of the craft by inputting a heading which consists of a bearing and pitch value. This is easy to conceptualize for beginners as it's similar to the Nav Ball in KSP. However, what I didn't realize fast enough is that you don't want to do any operations on the heading. There's a reason why you use heading as a pilot and not when learning trig.
 

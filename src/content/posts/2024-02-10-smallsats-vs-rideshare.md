@@ -10,7 +10,7 @@ redirectFrom:
 
 In the last 6 years, Rocket Lab's Electron dedicated small satellite launches and SpaceX's Transporter rideshare missions have become regular occurrences. This has posed a problem many have struggled to answer by my standards: Why would any satellites be launched on a small rocket when rideshare missions are cheaper?
 
-![Image description](/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png)
+![Image description|w600](/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png)
 
 <a href="/assets/images/2024-02-10/Small-Sat-Launches-Spreadsheet.png">Expanded Source Data Image</a>
 
@@ -20,7 +20,7 @@ To access the source data from the spreadsheet: copy the spreadsheet and in Cell
 More, better, and more accurate charts here: <a href="https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link">https://drive.google.com/drive/folders/1IAbB-Ydgv3udhIhvfdKp_dWnxUshMqmc?usp=drive_link</a>
 
 ### <b>Rideshareable Satellites</b>
-![Image description](/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png)
+![Image description|w600](/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Rideshare.png)
 
 In the past 6 years (2018-2023 inclusive), 55 dedicated small sat launches have occurred excluding Chinese rockets. By my criteria, 11 of these missions could have been completed by launching on a commercial rideshare mission. However, five of these appear to prefer a dedicated launch and the remaining six are more well-suited for a rideshare mission on a medium launch vehicle.
 
@@ -44,7 +44,7 @@ The remaining five missions are all tech demonstration satellites and all requir
 The reason for launching on a dedicated small rocket instead of a rideshare mission is likely schedule requirements. Rideshare missions only launch a couple of times per year and are scheduled by the launch provider. Small sat operators have much more control over launch date and orbital parameters when flying on a dedicated launch vehicle. This is often cited as the primary reason for companies choosing a dedicated launch over a rideshare mission. However, these five commercial schedule-constrained missions account for only 9% of the small sat launches in the last 6 years.
 
 ### <b>Kick Stageable Satellites</b>
-![Image description](/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png)
+![Image description|w600](/assets/images/2024-02-10/Small-Sat-Missions-Addressable-By-Launch-Types.png)
 
 Only five of the previous 55 small sat launches are suitable for launching on a rideshare mission and using a kick stage. A Kick Stage is a small stage on top of the rocket that can change the orbit of the payload so it is delivered to the specific orbit that is required.
 
@@ -64,7 +64,7 @@ Kick stages are very useful for achieving a target orbital altitude. In the past
 Only ~10% of small sat launches can be addressed by a kick stage. For all the news around them, this appears to be a fairly low number, but this is only small kick stages like Impulse's Mira. The larger market (especially economically) for kick stages may be as a GEO delivery mechanism.
 
 ### <b>Dedicated Launch Required Satellites</b>
-![Image description](/assets/images/2024-02-10/Small-Sat-Types.png)
+![Image description|w600](/assets/images/2024-02-10/Small-Sat-Types.png)
 
 Sixteen small sat launches of the last 55 are in a category that is not addressable by rideshare or kick stages. These are satellites that require a unique <a href="https://en.wikipedia.org/wiki/Orbital_plane">orbital plane</a> to take their place in a constellation. To properly cover the world with a satellite constellation the satellites must be placed into precise orbital planes so that there are no locations on the surface that lack coverage. For example, Starlink Shell 1 consists of 72 orbital planes with 22 satellites in each. Satellites cannot be moved between orbital planes due to a similar reason as inclination changes, it requires an immense amount of fuel.
 
@@ -91,7 +91,7 @@ Rocket Lab is currently targetting 22 launches in 2024 and the majority of these
 All 16 of the launches that required a unique plane in the last 6 years were launched by Electron. Furthermore, 22 of the 24 currently planned Electron launches are for constellation satellites that require unique orbital planes. These are launches that can only be done with a small satellite launch vehicle and will be the primary business of small launch providers for the coming years.
 
 ### <b>Government and Military Satellites</b>
-![Image description](/assets/images/2024-02-10/Small-Sat-Operator-Types.png)
+![Image description|w600](/assets/images/2024-02-10/Small-Sat-Operator-Types.png)
 
 The Government and Military are not rational consumers. In the commercial world, everything makes sense because economics drives it all, this is not true of the government.
 

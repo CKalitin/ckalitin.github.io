@@ -8,7 +8,7 @@ redirectFrom:
   - /space/2024/08/12/extrapolating-demand-firefly.html
 ---
 
-![Image description](/assets/images/extrapolating-demand-firefly/cover.jpg)
+![Image description|w1000](/assets/images/extrapolating-demand-firefly/cover.jpg)
 
 Peter Beck responded to this blog post [here](https://x.com/Peter_J_Beck/status/1823128548581994792).
 
@@ -30,8 +30,8 @@ As Alpha's and Electron's early launches proved, the first few launches of any v
 
 ### <b>Most Constellations Are Optimized for Electron</b>
 
-![Image description](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png)
-![Image description](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-200kg.png)
+![Image description|w600](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png)
+![Image description|w600](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-200kg.png)
 
 The over-representation of rideshare missions is not the only source of uncertainty. The biggest upcoming market for rockets of all classes is constellations (70% of Rocket Labs 2024 launches so far). Small sat constellations are an even younger market than small sats themselves, so assumptions will have to be made in extrapolating the size of the market. The biggest assumption is what the distribution of satellite mass and total satellite count will be in upcoming constellations.
 

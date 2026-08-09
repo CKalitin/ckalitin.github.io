@@ -44,7 +44,7 @@ See Appendix 1 for more explanation of modelling blunt body vehicles.
 
 <b>Getting Data From Papers</b>
 
-![Image](/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg)  
+![Image|w600](/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg)  
 <i>([Expanded Image](/assets/images/martian-atmosphere-model/sheets-cd-paper-example.jpg)) This shows translation of pixel locations on a screenshot of a chart from a paper into useful values.</i>
 
 Before I could begin implementing the model, I needed to find quantitative data on the Martian atmosphere in a format I could use. Unfortunately, most papers do not give you .csv's of their data, and instead give you charts. So I resorted to pixel counting in Krita and writing Python scripts to extract data from the charts.
@@ -66,7 +66,7 @@ I wrote (with the help of the LLMs) several Python scripts to automate data extr
 
 <b>Atmospheric Pressure Data</b>
 
-![Image](/assets/images/martian-atmosphere-model/Pressure-comparison.jpg)  
+![Image|w450](/assets/images/martian-atmosphere-model/Pressure-comparison.jpg)  
 <i>([Expanded Image](/assets/images/martian-atmosphere-model/Pressure-comparison.jpg)) NASA Website approximation of Martian atmospheric pressure (red) compared to NASA MarsGRAM (blue).</i>
 
 In the name of simplicity, my first approach was to approximate Mars' atmospheric pressure with this function from a [NASA website](https://www.grc.nasa.gov/www/k-12/airplane/atmosmrm.html):  
@@ -82,7 +82,7 @@ I later found a [few](https://ntrs.nasa.gov/api/citations/20210015330/downloads/
 
 <b>Atmospheric Temperature Data</b>
 
-![Image](/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg)  
+![Image|w450](/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg)  
 <i>([Expanded Image](/assets/images/martian-atmosphere-model/Atmospheric-Temperature.jpg)) Mars Altitude vs. Temperature from [this paper](https://www.researchgate.net/publication/234396071_The_Martian_upper_atmosphere).</i>
 
 I [found](https://www.researchgate.net/publication/234396071_The_Martian_upper_atmosphere) two [papers](https://www.sciopen.com/article/10.1007/s42064-021-0115-z) that show Martian atmospheric temperature vs. altitude. Both agree with each other on the rough shape of the curve and the values.
@@ -91,15 +91,15 @@ Interestingly, Mars' atmosphere is coldest around 80-120 km above the surface, t
 
 <b>Atmospheric Density Data</b> 
 
-![Image](/assets/images/martian-atmosphere-model/Atmospheric-Density-vs-Altitude.png)  
+![Image|w450](/assets/images/martian-atmosphere-model/Atmospheric-Density-vs-Altitude.png)  
 <i>Comparing two sources for Mars' Atmospheric Pressure. The blue line ended up giving more accurate results.</i>
 
 Initially, I used a formula and parameters from the [NASA Mars Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html) to calculate atmospheric density:  
-![Image](/assets/images/martian-atmosphere-model/Initial-Density-Formula.jpg) 
+![Image|h70](/assets/images/martian-atmosphere-model/Initial-Density-Formula.jpg) 
 
 During testing against historic Mars lander data, I found that the density values were too high. Instead, I found another formula to approximate density from this [NASA Website](https://www.grc.nasa.gov/www/k-12/airplane/atmosmrm.html).
 
-![Image](/assets/images/martian-atmosphere-model/Density-Formula.jpg)  
+![Image|h120](/assets/images/martian-atmosphere-model/Density-Formula.jpg)  
 
 This results in far lower atmospheric density values than the previous formula (see the graph above). At this point, I hadn't yet found any papers that had density vs. altitude data to compare to, though I later [found](https://ntrs.nasa.gov/api/citations/20210015330/downloads/NASA-TM-20210015330.pdf) a [few](https://www.sciopen.com/article/10.1007/s42064-021-0115-z).
 
@@ -120,9 +120,9 @@ We're at the low end of the Viking range with a maximum density of ~0.015 kg/m3 
 
 <b>Drag Coefficient and Lift-to-Drag Ratio</b>
 
-![Image](/assets/images/martian-atmosphere-model/Drag-Coefficient.png)  
+![Image|w450](/assets/images/martian-atmosphere-model/Drag-Coefficient.png)  
 
-![Image](/assets/images/martian-atmosphere-model/LD-Ratio.jpg)  
+![Image|w450](/assets/images/martian-atmosphere-model/LD-Ratio.jpg)  
 
 As mentioned earlier, I used the paper [Aerodynamics for the Mars Phoenix Entry Capsule](https://arc.aiaa.org/doi/10.2514/1.46219) to find the drag coefficient vs. velocity and lift-to-drag ratio vs. angle of attack for the Phoenix lander.
 
@@ -258,13 +258,13 @@ NASA's Technical Reports Server (NTRS) also gives me a 504 error every time I tr
 
 ### <b>Appendix 3: Cool paper with a detachable heat shield Mars lander design</b>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield.jpg)  
+![Image|w500](/assets/images/martian-atmosphere-model/Detachable-Heatshield.jpg)  
 <i>([Expanded Image](Detachable-Heatshield.jpg))</i>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Vel.jpg)  
+![Image|w500](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Vel.jpg)  
 <i>([Expanded Image](Detachable-Heatshield-Alt-vs-Vel.jpg))</i>
 
-![Image](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Dist.jpg)  
+![Image|w500](/assets/images/martian-atmosphere-model/Detachable-Heatshield-Alt-vs-Dist.jpg)  
 <i>([Expanded Image](Detachable-Heatshield-Alt-vs-Dist.jpg))</i>
 
 While I was looking for historic Mars entry data, I found a [cool paper](https://engineering.purdue.edu/RDSL/ippw10-paper-saikia---june.pdf) that describes a Mars lander design with a detachable heat shield that contained several cool charts and insights that are applicable to Kerbal Space Program.

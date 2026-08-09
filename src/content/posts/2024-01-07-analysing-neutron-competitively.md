@@ -8,7 +8,7 @@ redirectFrom:
   - /technology/2024/01/07/analysing-neutron-competitively.html
 ---
 
-![Image description](/assets/images/2024-01-07/neutron-deploy.jpg)
+![Image description|w600](/assets/images/2024-01-07/neutron-deploy.jpg)
 
 Neutron is Rocket Lab's next-generation medium-lift rocket. In many ways, it looks and functions like Falcon 9 version 2 as it is designed from the ground up for reusability. This is most obvious with the booster. The fairings are built into the structure of the booster, the landing legs are built into strakes, and the Archimedes engine is designed to operate below maximum performance to optimize for reusability.
 
@@ -22,7 +22,7 @@ More, better, and more accurate charts here: <a href="https://drive.google.com/d
 
 ### <b>Legacy Commerical Communication Satellite Market</b>
 
-![Image description](/assets/images/2024-01-07/Launches-Total-Type-Mass.png)  
+![Image description|w600](/assets/images/2024-01-07/Launches-Total-Type-Mass.png)  
 <a href="/assets/images/2024-01-07/Western-Commercial-Launches-By-Orbit-By-Mass.png">Updated Chart (Important! Click Me!)</a>
 
 The legacy commercial communication satellite market is dominated by GEO satellites. Between 2018 and 2023, 48 commercial satellites were successfully launched. 39 of these satellites were launched to GTO/GEO while only 9 were launched to LEO/MEO/SSO.
@@ -37,7 +37,7 @@ Neutron will not take market share here and I don't believe Rocket Lab should pu
 
 ### <b>Constellations - The Next Paradigm</b>
 
-![Image description](/assets/images/2024-01-07/Launches-Type-Pie.png)
+![Image description|w500](/assets/images/2024-01-07/Launches-Type-Pie.png)
 
 Constellations are the next paradigm in the commercial communication satellite market and what Rocket Lab claims Neutron is optimized for. 
 
@@ -49,7 +49,7 @@ Small Sat constellations are a minority of the market. Small sats can be launche
 
 ### <b>Neutron's Competitive Position in Constellations</b>
 
-![Image description](/assets/images/2024-01-07/Constellation-Rockets.png)
+![Image description|w700](/assets/images/2024-01-07/Constellation-Rockets.png)
 
 <a href="/assets/images/2024-01-07/Constellation-Rockets.png">Click here for expanded version of chart</a> <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?usp=sharing">or source</a>
 

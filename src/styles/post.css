@@ -126,24 +126,52 @@
   padding: 4px 0;
 }
 
-/* Figures / image sizing -- width is a percentage of this reading column,
-   set per-image via the --fig-pct custom property (see rehype-figures.mjs),
-   e.g. ![caption|40%](...). Defaults to 100% (full width) when unset. */
+/* Figures / image sizing. Default (no .fig-* modifier): natural pixel
+   size, scaled down (never up) to fit the column -- a small screenshot
+   stays small, nothing is force-stretched or upscaled past its own
+   resolution. width:auto + height:auto on both the cap-based modifiers
+   below is what keeps every mode non-distorting: the browser always
+   derives both dimensions from the image's real aspect ratio and picks
+   whichever cap is more restrictive, rather than two independent fixed
+   dimensions fighting each other. */
 .post-body .fig {
-  max-width: var(--fig-pct, 100%);
   margin: 24px auto;
+  max-width: 100%;
 }
 
 .post-body .fig img {
-  width: 100%;
-  height: auto;
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .post-body .fig figcaption {
   font-size: var(--fs-caption);
   color: var(--muted-2);
   margin-top: 6px;
+}
+
+/* |40%, |small, |medium, |large -- explicit width relative to the column,
+   forced to exactly that size (upscales if needed, unlike the default). */
+.post-body .fig-width {
+  max-width: var(--fig-pct, 100%);
+}
+.post-body .fig-width img {
+  width: 100%;
+  max-width: none;
+}
+
+/* |h350 / |w600 -- absolute pixel cap recovered from the old Jekyll
+   kramdown sizing, or set directly. Only one axis is ever fixed; the
+   other stays auto so it can never distort. */
+.post-body .fig-height img {
+  max-height: var(--fig-max-height);
+  width: auto;
+}
+.post-body .fig-width-px img {
+  max-width: min(var(--fig-max-width-px), 100%);
+  width: auto;
 }
 
 /* Horizontal-scroll gallery for consecutive images */
@@ -167,7 +195,11 @@
 }
 
 @media (max-width: 640px) {
-  .post-body .fig {
+  /* Only the explicit relative-width mode needs a mobile override --
+     a small percentage of a phone-width column would be illegibly tiny.
+     Natural sizing and absolute px caps already scale down correctly via
+     max-width: 100% at any viewport, so they're left alone. */
+  .post-body .fig-width {
     max-width: 100%;
   }
 }

@@ -8,7 +8,7 @@ redirectFrom:
   - /space/2024/07/04/small-sat-constellations.html
 ---
 
-![Image description](/assets/images/small-sat-constellations/Chart.jpg)
+![Image description|w1000](/assets/images/small-sat-constellations/Chart.jpg)
 
 <a href="/assets/images/small-sat-constellations/Chart.jpg">Expanded Chart</a> - <a href="https://docs.google.com/spreadsheets/d/1VOgRbnAsQZdGIPoemRj5ApSLk_jxGanNliWEPnBB3p4/edit?gid=1994210661#gid=1994210661">Spreadsheet</a>
 
@@ -36,7 +36,7 @@ One of the great benefits of rideshare missions (even to Electron) has been the 
 
 ### <b>The Market for 1-Ton Class Launch Vehicles</b>
 
-![Image description](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png)
+![Image description|w600](/assets/images/small-constellation-charts/Satellite-Count-Vs-Adjusted-Cost-100kg.png)
 
 Just like Falcon 9, Electron owns the small sat market because there are no capable competitors. Over the next few years, we'll see Firefly ramp up its Alpha launches and ABL's RS1 come online (hopefully). From a product perspective, these 1-ton class rockets have the potential to take market share in the small-sat constellation launch market. <a href="https://x.com/BellikOzan/status/1779936284125052986">Ozan Bellik pointed this out</a> when I mentioned my blog post <a href="https://ckalitin.github.io/technology/2024/02/16/firefly-vs-rocketlab.html">Comparing Demand for Firefly's Alpha vs. Electron</a>. My conclusion wasn't completely incorrect, but inaccurate enough to warrant this section.
 

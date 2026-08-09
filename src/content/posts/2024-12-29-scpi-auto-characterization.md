@@ -28,7 +28,7 @@ Context: This was part of a UBC Solar project to characterize the current sensor
 Github Project Link containing SCPI Python scripts & STM32 Project: <a href="https://github.com/CKalitin/STM32-F031K6T6/tree/master/ADC-Auto-Characterization">here</a>  
 Raw Data and Chart: <a href="https://docs.google.com/spreadsheets/d/11ldLaja0gl42fVCuYOzdmnMgkbBmONTC740BgDr8rv0/edit?usp=sharing">here</a>
 
-![My final testing setup](/assets/images/scpi-auto-characterization/Testing-Setup.png)  
+![My final testing setup|h400](/assets/images/scpi-auto-characterization/Testing-Setup.png)  
 <i>My final testing setup</i>
 
 This morning Saman suggested I find a way to use our Digital Multimeter (DMM) and other tools to automatically collect data for ADC characterization. In my previous Monday update I described how we can feed the output of the DAC into the ADC pin to automatically characterize an ADC over a range of voltage values. This plan falls through because I found that the DAC can’t be trusted to output a specific voltage value and needs to be characterized itself. The solution is to use external trustworthy equipment to complete the automatic characterization.
@@ -45,28 +45,28 @@ Note: the AFG doesn’t have a settings for a constant voltage, so I made it a p
 
 A step is done once per second, so a full test took ~4-5 minutes. This long step length is used so that the Nucleo, AFG, and DMM will be roughly synchronized without any communication between them. To illustrate, It’s easier to click start on both in a 1 second window than a 0.01 second window.
 
-![STM32 CubeIDE](/assets/images/scpi-auto-characterization/STM32-CubeIDE.png)  
+![STM32 CubeIDE|h150](/assets/images/scpi-auto-characterization/STM32-CubeIDE.png)  
 Side note: When Krish and I were testing the ECU a few weeks ago we lost the ability to upload code to the STM32 chip, we struggled for 1.5 weeks and Mischa solved our problem in 5 minutes by showing us the Debug Serial Wire toggle in STM32 Cube IDE. This came in handy when I was testing with the Nucleo today, without it my test would’ve been stopped in its tracks. Thx Mischa.
 
-![ADC-Voltage-Reading-Vs-DMM-Voltage.png](/assets/images/scpi-auto-characterization/ADC-Voltage-Reading-Vs-DMM-Voltage.png)  
+![ADC-Voltage-Reading-Vs-DMM-Voltage.png|h450](/assets/images/scpi-auto-characterization/ADC-Voltage-Reading-Vs-DMM-Voltage.png)  
 <i>This is the graph that can be used to characterize the Nucleo’s ADC</i>
 
 As you can see in the graph above, there is a strange zig zag pattern in the graph of the ADC Voltage Reading. This isn’t exactly noise because it is very regular. There’s probably a fundamental reason for this that I am not aware of, but in future testing averaging can be used to get a smoother result. Also, I didn’t remember to measure the voltage reference for the Nucleo’s ADC so I assumed it was 3.3V.
 
-![ADC-Voltage-Reading-Vs-DMM-Voltage.png](/assets/images/scpi-auto-characterization/ADC-Voltage-Reading-DMM-Voltage-Vs-Time.png)  
+![ADC-Voltage-Reading-Vs-DMM-Voltage.png|h350](/assets/images/scpi-auto-characterization/ADC-Voltage-Reading-DMM-Voltage-Vs-Time.png)  
 <i>This graph shows observations versus time, not observation vs. observation like the previous graph. You can see recording over the 4 minute test.</i>
 
 The graph above shows that the rate of voltage increase after 3V is lower than that below 3 volts. My script increases voltage by 0.02V every second, so the voltage I am commanding the AFG to output does not match the voltage it is outputting.
 
-![ADC-Voltage-Reading-Vs-DMM-Voltage.png](/assets/images/scpi-auto-characterization/DMM-Voltage-Vs-AFG-Input-Voltage.png)  
+![ADC-Voltage-Reading-Vs-DMM-Voltage.png|h450](/assets/images/scpi-auto-characterization/DMM-Voltage-Vs-AFG-Input-Voltage.png)  
 </i>Above ~3V, the AFG stops outputting the voltage it is commanded to.</i> 
 
 When plotting the AFG output voltage versus the expected AFG output voltage, we see what we expected to, after ~3V the AFG stops outputting the voltage is is commanded to. With some manual testing I found that when I set the AFG to 5V manually it does in fact output ~5V (~5.12V really, the AFG isn’t perfectly precise). So, there must be an issue with programming the AFG or with my code that causes the discrepancy between expected and real results.
 
-![ADC-Voltage-Reading-Vs-DMM-Voltage.png](/assets/images/scpi-auto-characterization/Voltage-Observation-Time-vs-Time-Since-Start.png)  
+![ADC-Voltage-Reading-Vs-DMM-Voltage.png|h350](/assets/images/scpi-auto-characterization/Voltage-Observation-Time-vs-Time-Since-Start.png)  
 <i>Notice that at above 1.23V the observations take ~10x longer than below 0.81V.</i>
 
-![ADC-Voltage-Reading-Vs-DMM-Voltage.png](/assets/images/scpi-auto-characterization/Voltages-Delta-Time-Vs-Observation-Index.png)  
+![ADC-Voltage-Reading-Vs-DMM-Voltage.png|h350](/assets/images/scpi-auto-characterization/Voltages-Delta-Time-Vs-Observation-Index.png)  
 <i>When we plot against observation index instead of the time stamp of the observation, we see the increase rate of observations after ~1.2V.</i>
 
 During initial testing I noticed that the DMM outputted values far faster lower voltages than at higher voltages. Because I assumed a constant time delta between observations, this discrepancy showed up as a bend in the graph of voltage vs. observation index which you can see in the second chart above (Voltages & Delta Time vs. Time Stamps).
@@ -81,10 +81,10 @@ At Saman's request, here are ADC Voltage Reading & DMM Voltage vs. Time graphs b
 
 The average takes the sum of the previous 4 values and the current value and divides by 5. The Gaussian uses a 0.06, 0.24, 0.4, 0.24, 0.06 filter centered on the current value.
 
-![BROKEN IMAGE](/assets/images/scpi-auto-characterization/Update-Raw.png)
+![BROKEN IMAGE|h350](/assets/images/scpi-auto-characterization/Update-Raw.png)
 
-![BROKEN IMAGE](/assets/images/scpi-auto-characterization/Update-Avg.png)
+![BROKEN IMAGE|h350](/assets/images/scpi-auto-characterization/Update-Avg.png)
 
-![BROKEN IMAGE](/assets/images/scpi-auto-characterization/Update-Gau.png)
+![BROKEN IMAGE|h350](/assets/images/scpi-auto-characterization/Update-Gau.png)
 
-![BROKEN IMAGE](/assets/images/scpi-auto-characterization/Update-All.png)
+![BROKEN IMAGE|h350](/assets/images/scpi-auto-characterization/Update-All.png)

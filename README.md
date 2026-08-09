@@ -53,13 +53,20 @@ Note: a literal `$` used for money (e.g. `$500`) is fine and won't be mistaken f
 ```markdown
 ![a caption](/assets/images/your-slug/photo.png)
 ```
-Renders full-width. Caption is optional (drop the second line if you don't want one).
+Renders at the image's own natural pixel size, scaled down (never up) if it's wider than the reading column. A small screenshot stays small and sharp; a big chart never overflows. Caption is optional (drop the second line if you don't want one).
 
-**Sizing** — add a percentage to the alt text with a `|`:
+**Relative sizing** — force an image to a specific fraction of the column width, with a `|` in the alt text:
 ```markdown
 ![a caption|40%](/assets/images/your-slug/photo.png)
 ```
-The percentage is of the article's reading column width, not the full screen — `|40%` means 40% of the text column, so it's never a tiny image on a wide monitor and never a huge one either. Any number 1–100 works. No suffix = full width (the default, same as every migrated post). `small` / `medium` / `large` also still work as shorthand for 33% / 60% / 85%, if you don't want to think about a number. On phones, every size collapses back to full column width automatically — nothing ever renders illegibly tiny. In printed PDFs, images are always full width regardless of the on-screen size, for legibility on paper.
+`|40%` means 40% of the text column (not the full screen), and — unlike the default — this *will* upscale a small image to hit that size. Any number 1–100 works. `small` / `medium` / `large` are shorthand for 33% / 60% / 85%. On phones this collapses back to full column width. In printed PDFs this is also forced to full width, since a percentage of the screen doesn't translate to a sensible print size.
+
+**Absolute pixel sizing** — cap height or width in real pixels, e.g. to match a size you had in mind:
+```markdown
+![a caption|h350](/assets/images/your-slug/photo.png)
+![a caption|w600](/assets/images/your-slug/photo.png)
+```
+`|h350` caps the image at 350px tall (width follows automatically to keep the aspect ratio); `|w600` caps it at 600px wide the same way. Only one dimension is ever fixed — the other is always automatic — so it can't ever come out squashed or stretched, and it still shrinks further on a narrow phone screen if needed. This is what post migration used to carry forward exact sizes from the old Jekyll site's kramdown `{: height="..." }` attributes.
 
 **Horizontal scroller / gallery** — fully automatic, no special syntax. Just put multiple images one after another with no other text between them:
 ```markdown

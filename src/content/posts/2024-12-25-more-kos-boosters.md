@@ -26,7 +26,7 @@ This blog post is a continuation of my previous post on <a href="https://ckaliti
 
 ### <b>kOS is still a shitty language</b>
 
-![Image description](/assets/images/more-kos-boosters/Boosters.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Boosters.jpg)
 
 In my <a href="https://ckalitin.github.io/space/2024/07/24/kos-booster-landing.html">previous blog post</a> I went on and on about why kOS is a shitty language. This remains true. The <a href="https://youtu.be/938Scrn0M1Q?si=VwdV15knMaBeL-n4">unique</a> nature of this language makes it not very applicable to other projects. This has made me hesitant about continuing any projects with kOS as they aren't very technically informative. However, rockets landing is magical. Since the previous blog post I found out there is a <a href="https://krpc.github.io/krpc/">KSP mod for controlling rockets with Python</a>. Rewriting the code with kRPC again falls into the category of a project that isn't very technologically insightful. Let's see if the lord gives me enough strength to work on firmware instead of KSP for the foreseeable future.
 
@@ -34,7 +34,7 @@ This is all to say that this isn't a technologically insightful or impressive pr
 
 ### <b>Beauty is the Purpose</b>
 
-![Image description](/assets/images/more-kos-boosters/Dzhanibekov-Ascent.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Dzhanibekov-Ascent.jpg)
 
 On real launch vehicles, getting the payload into orbit is the most important objective of every launch, recovery of hardware is secondary. However, unlike a real satellite, the output of my scripts is not economically productive. The output of my scripts is purely watching boosters autonomously land and marvelling at the sight. This is important context for understanding the parameters for state changes during launch (mass instead of velocity).
 
@@ -42,7 +42,7 @@ The Dzhanibekov (most impressive Cosmonaut to ever live who went on crazy Salyut
 
 ### <b>How Ascent Works</b>
 
-![Image description](/assets/images/more-kos-boosters/front_Dzhanibekov_1.png)
+![Image description|h400](/assets/images/more-kos-boosters/front_Dzhanibekov_1.png)
 
 <a href="https://youtu.be/aFqjoCbZ4ik?si=se2Zpx_lU5-n7Nrf&t=1326">Ascent is very simple. </a>
 
@@ -92,7 +92,7 @@ I tried to make each script detect staging events on their own, but this failed.
 
 ### <b>Batshit Crazy Boostback Burn Startup</b>
 
-![Image description](/assets/images/more-kos-boosters/Boostback.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Boostback.jpg)
 
 The atmosphere of Kerbin is not balanced as well at God balanced Earth's atmosphere. When we stage the boosters, we are still only 28km above the surface of Kerbin. This means aerodynamic affects play a major role in the control of the boosters. Unlike <a href="https://youtu.be/eiOzvaEBD0Q?si=kmkaxR_zkjiCH7D6&t=164">Falcon 9's comparatively calm</a> reorientation for boostback where it is above the atmosphere, our boosters are still in the atmosphere and have to fight against it. We can't rely purely on RCS to reorient the boosters and atmospheric forces are too strong. So, we fire the engines once we are within 90 degree of the boostback burn direction vector. This leads to a batshit crazy looking separation and boostback startup as all the boosters are point in different directions and getting wildly flung around by the atmosphere. Watch the video at the top <a href="https://youtu.be/TlE2G-zM3PI?si=vkA91f0ccABY5PED&t=111">at the 1:51 mark</a> to see what I mean.
 
@@ -100,7 +100,7 @@ Also, in testing I had the force of the decouple between the center core and the
 
 ### <b>"Realistic" Upper Stage Burn</b>
 
-![Image description](/assets/images/more-kos-boosters/Upper.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Upper.jpg)
 
 Once the center core propels the stack to an apogee of 77 km (exterimentally found to be the optimal value to have enough fuel to land), the second stage separates and continues onto orbit. 
 
@@ -146,7 +146,7 @@ UNTIL ORBIT:PERIAPSIS > 75000 {
 
 ### <b>Booster Aerodynamic Control Issues</b>
 
-![Image description](/assets/images/more-kos-boosters/front_Dzhanibekov%201_2.png)
+![Image description|h400](/assets/images/more-kos-boosters/front_Dzhanibekov%201_2.png)
 
 When I was first testing the landing script, I only needed to test descent and not worry about ascent. This meant I only had to optimize for aerodynamics on descent. If you don't understand how to optimize a booster for descent I'm not gonna be able to explain it without being with you in person - If you'd like this please <a href="https://x.com/CKalitin">send me a dm</a>. The basic principles are that you want high drag and for your center of mass to be below your center of drag. However, on ascent you want the opposite. The Falcon 9 solves this with deployable grid fins, but we don't have this in KSP 1 (RIP KSP 2).
 
@@ -154,7 +154,7 @@ Because your rocket burns fuel as it ascends, the center of mass shifts. We can 
 
 The solution (as SpaceX learned on Falcon 9!) is deployable control surfaces. Instead of having static fins, I added joints from the Breaking Ground DLC to the fins so they could be stowed on ascent and deployed for descent. This solves to COL problem as we can artificially shift it when we descent by deploying fins at the top of the rocket.
 
-![Image description](/assets/images/more-kos-boosters/F9-Grasshopper.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/F9-Grasshopper.jpg)
 
 Another issue was the drag on descent. When I was testing descent in the previous blog post, I created Falcon 9 Grass Hopper looking landing legs. These had a big base for supporting the legs that provided a tremendous amount of drag on descent. The completed rocket did not have this base and hence had far lower drag when on final descent. This is the difference between a terminal velocity of ~200m/s and ~500m/s. As you might imagine, this is an extreme difference in the fuel required to land. The solution is simple, air breaks. They look slightly ugly and are slightly unrealistic, but they work.
 
@@ -162,7 +162,7 @@ Another possible solution to this problem is to aggressively pitch the booster s
 
 ### <b>Binary Search & Lack of Landing Pads</b>
 
-![Image description](/assets/images/more-kos-boosters/Boosters-Landing.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Boosters-Landing.jpg)
 
 The Kerbal Konstructs mod (I think it's this one) I'm using to add the extra landing pads at the Kerbal Space Centre only adds three landing pads, presumably chosen for the required amount for a Falcon Heavy RTLS mission. I have 5 boosters so why don't we just they to get them to land at the same landing site in a pattern? Very beautiful, except I was slightly off when setting the coordinates for the landing position and they where perfectly aligned. Oh well.
 
@@ -213,7 +213,7 @@ function GetLatLngAtAltitude {
 
 ### <b>A Slightly More Unified Solution to Landing</b>
 
-![Image description](/assets/images/more-kos-boosters/Quad-Landing.jpg)
+![Image description|h400](/assets/images/more-kos-boosters/Quad-Landing.jpg)
 
 In my <a href="https://ckalitin.github.io/space/2024/07/24/kos-booster-landing.html">previous blog post</a> on kOS scripts, I wrote this:  
 <i>"I imagine the solution is to track the estimated net displacement in landing position during the Suicide Burn. With the estimated time to touchdown, current pitch, and current horizontal velocity you could approximate the net displacement. Add this to the target landing location and it should be a much more accurate landing."</i>

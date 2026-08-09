@@ -8,7 +8,7 @@ redirectFrom:
   - /space/2024/04/09/spacex-bandwagon-mission.html
 ---
 
-![Image description](/assets/images/covers/spacex-bandwagon-mission.jpg)
+![Image description|h500](/assets/images/covers/spacex-bandwagon-mission.jpg)
 
 SpaceX's Bandwagon-1 rideshare mission launched yesterday and I was busy speedrunning a unit of Chemistry 11 in 8 hours to write this blog post before the launch. Regardless, this is the first of SpaceX's rideshare missions to low inclination orbits. The Bandwagon-1 mission will expand the range of payloads that can be launched on a Falcon 9 rideshare mission and will continue the trend of making dedicated small satellite launch a smaller niche of the market. However, hile dedicated small satellite launch will lose market share, the overall market will increase and provide more satellites that must be launched.
 
@@ -53,7 +53,7 @@ The advantage of Bandwagon missions over Transporter can be seen when comparing 
 
 There are a couple sources for Electron's 2024 manifest. Many of these are outdated as the manifest has changed since they were published. The most up-to-date source I've found is <a href="https://x.com/scotto2050/status/1774467309987569689">Scott O's list</a>, even better than <a href="https://nextspaceflight.com/launches/rockets/upcoming/10/">Next Space Flight's</a>.
 
-![Image description](/assets/images/spacex-bandwagon-mission/Scott-O-Manifest.jpeg)
+![Image description|h500](/assets/images/spacex-bandwagon-mission/Scott-O-Manifest.jpeg)
 
 In the previous secitons I laid out the advantages of Transporter / Bandwagon missions. Both are lower cost and Bandwagon gives a more ideal orbit for many payloads because of the <a href="https://x.com/SpaceX/status/1777111200624791583">higher revisit rates</a>. Now these advantages can be used as a framework for analysing which types of payloads on Electrons manifest may be at risk. Not the payloads themselves, but the general types of payloads.
 

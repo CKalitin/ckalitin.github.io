@@ -9,7 +9,7 @@ redirectFrom:
   - /technology/1990/06/25/stoke-cost-model.html
 ---
 
-![Image description](/assets/images/stoke-nova-perfect/hop.jpg)
+![Image description|w600](/assets/images/stoke-nova-perfect/hop.jpg)
 
 Tim 30% hardware cost post:
 https://x.com/Tim_X94/status/1802451587073225187

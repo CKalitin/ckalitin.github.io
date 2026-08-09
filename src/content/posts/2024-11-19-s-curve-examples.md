@@ -12,7 +12,7 @@ I've decided I'm going to be an <a href="https://x.com/Andercot/status/185504654
 
 ### <b>Historic Proof for S Curves</b>
 
-![Image description](/assets/images/s-curve-examples/s-curve.png)
+![Image description|w420](/assets/images/s-curve-examples/s-curve.png)
 
 An S curve is a function that describes the shape of the market share vs. time graphs of almost all technologies. These S-curves are characterized by an extremely slow start, where they are arbitrarily close to zero; an exponential growth phase; then followed by a levelling off where they asymptotically approach 100% market share.
 
@@ -20,14 +20,14 @@ These S curves give you the ability to predict the future with a high level of c
 
 At the beginning of this year I began work on my longest blog post yet, <a href="https://ckalitin.github.io/technology/1961/04/12/transition-to-robotaxis.html">The Transition to EV Robotaxis</a>. In that post I extrapolated historic data on EV adoption by fitting an S curve to the data. I found that 50% of cars sold in 2027 will be EVs and 90% in 2030. To ensure fitting an S curve was an appropriate method to make such predictions, I aggregated the market share data of several technologies over the past century to confirm whether they followed the same growth pattern. All of these charts are shown below.
 
-![Image description](/assets/images/s-curve-examples/Chart-AMRadio.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-TV.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-ColorTV.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-Internet.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-MobileInternet.jpg)
-![Image description](/assets/images/s-curve-examples/Chart-EVMarketShare.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-AMRadio.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-TV.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-ColorTV.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-USHouseholdColourTV.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-DisealLocomotives.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-Internet.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-MobileInternet.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-EVMarketShare.jpg)
 
 <a href="https://docs.google.com/spreadsheets/d/1jXpCkFLl7Gyy0wmI-rIuWAXR_NwLOPIjxLCfmX2XnO0/edit?usp=sharing">Source of the charts</a>
 
@@ -53,9 +53,9 @@ An even more remarkable fact about Moore's Law is that it <a href="https://youtu
 
 ### <b>The Life Cycle of a Technology</b>
 
-![Image description](/assets/images/s-curve-examples/Kurzweil-Notes-Screenshot.jpg)  
+![Image description|w700](/assets/images/s-curve-examples/Kurzweil-Notes-Screenshot.jpg)  
 
-![Image description](/assets/images/s-curve-examples/Kurzweil-Screenshot.jpg)  
+![Image description|w650](/assets/images/s-curve-examples/Kurzweil-Screenshot.jpg)  
 
 <a href="https://archive.org/details/kurzweil-ray-the-singularity-is-near/page/n105/mode/1up">The Singularity Is Near, Chapter 2, page 105 on Internet Archive</a>
 
@@ -70,7 +70,7 @@ A technology goes through five majors stages that can be described by its S-curv
 
 <b>1. Early R&D</b>  
 
-![Image description](/assets/images/s-curve-examples/ssd.jpg)  
+![Image description|w400](/assets/images/s-curve-examples/ssd.jpg)  
 
 The early growth of a technology is characterized by exponential improvements that do not make much of an impact for its total market share. The technology may be exponentially improving, but it is still not good enough for anyone to use it at scale. For example, Solid State Memory (SSDs) were conceived of in 1978 and were first released as a product in 1991. However, it took until the late 2000s for costs to drop low enough that they were considered a reasonable alternative to hard drives.
 
@@ -79,7 +79,7 @@ After this initial R&D phase, there is a smooth transition to a phase in which t
 
 <b>3. Obvious exponential growth</b>  
 
-![Image description](/assets/images/s-curve-examples/Chart-EV-Prediction.jpg)
+![Image description|w420](/assets/images/s-curve-examples/Chart-EV-Prediction.jpg)
 
 Another gradual and smooth transition occurs from the second phase into the third, exponential growth. The technology has declined in cost and improved in capability enough that it is now the best option for a large portion of the market and it begins to take significant marketshare. We are living through this today with EVs. Pure electric vehicles currently have around 25% market share worldwide and the current growth rate is around 50%. Extrapolating this out a few years, we find that EVs will be the most common vehicle type on the road.
 

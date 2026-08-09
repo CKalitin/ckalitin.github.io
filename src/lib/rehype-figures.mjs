@@ -1,6 +1,19 @@
-// Groups images into a horizontal-scroll gallery and applies a sizing
-// suffix from alt text: an explicit percentage (|40%) of the article's
-// reading column width, or one of the small/medium/large shorthands.
+// Groups images into a horizontal-scroll gallery and applies an optional
+// sizing suffix from alt text:
+//   |40%, |small, |medium, |large  -- relative to the article column width,
+//                                     forces the image to exactly that size
+//   |h350                          -- absolute max-height in px (width auto)
+//   |w600                          -- absolute max-width in px (height auto)
+// With no suffix, an image renders at its own natural pixel size, scaled
+// down (never up) if that would exceed the column width -- so a small
+// screenshot stays small and a giant chart never overflows.
+//
+// The h/w forms exist to carry forward exact sizes from the old Jekyll
+// site's kramdown `{: height="350" }` / `{: width="600" }` attributes,
+// recovered post-by-post from git history during migration -- they're not
+// really meant for new authoring (percent or no-suffix cover that better),
+// but they're kept as real supported syntax rather than a one-off migration
+// hack.
 //
 // CommonMark puts consecutive "![img](path)" lines with no blank line
 // between them into ONE paragraph (separated by <br>), and an image's
@@ -13,7 +26,8 @@
 // image-only paragraphs (blank line between images) are merged too, as a
 // secondary case.
 
-const SIZE_RE = /\|\s*(small|medium|large|\d{1,3}%?)\s*$/i;
+const PERCENT_RE = /\|\s*(small|medium|large|\d{1,3}%?)\s*$/i;
+const PIXEL_RE = /\|\s*([hw])(\d{2,4})\s*$/i;
 const SIZE_PRESETS = { small: 33, medium: 60, large: 85 };
 
 function resolvePercent(raw) {
@@ -33,12 +47,24 @@ function isBreak(node) {
 
 function buildFigure(img, captionEm) {
   let alt = img.properties.alt || '';
-  let pct = 100;
-  const m = alt.match(SIZE_RE);
-  if (m) {
-    pct = resolvePercent(m[1]);
-    alt = alt.slice(0, m.index).trim();
+  let className = ['fig'];
+  let style = '';
+
+  const pxMatch = alt.match(PIXEL_RE);
+  const pctMatch = !pxMatch && alt.match(PERCENT_RE);
+  if (pxMatch) {
+    const axis = pxMatch[1].toLowerCase();
+    const px = parseInt(pxMatch[2], 10);
+    alt = alt.slice(0, pxMatch.index).trim();
+    className = ['fig', axis === 'h' ? 'fig-height' : 'fig-width-px'];
+    style = axis === 'h' ? `--fig-max-height: ${px}px` : `--fig-max-width-px: ${px}px`;
+  } else if (pctMatch) {
+    const pct = resolvePercent(pctMatch[1]);
+    alt = alt.slice(0, pctMatch.index).trim();
+    className = ['fig', 'fig-width'];
+    style = `--fig-pct: ${pct}%`;
   }
+
   img.properties.alt = alt;
   img.properties.loading = 'lazy';
   img.properties.decoding = 'async';
@@ -56,7 +82,7 @@ function buildFigure(img, captionEm) {
   return {
     type: 'element',
     tagName: 'figure',
-    properties: { className: ['fig'], style: `--fig-pct: ${pct}%` },
+    properties: { className, style },
     children,
   };
 }

@@ -8,7 +8,7 @@ redirectFrom:
   - /dumbshit/2024/09/15/to-teach-engineering.html
 ---
 
-![Image description](/assets/images/to-teach-engineering/Rocket.jpg)
+![Image description|w500](/assets/images/to-teach-engineering/Rocket.jpg)
 
 I've started university. I have a lot of ideas on university that'll probably evolve over my time here, might as well write them down in the early weeks to be able to look back on this in the coming years.
 
@@ -54,7 +54,7 @@ Like I said above, if your process of planning how to build a chair is really th
 
 ### <b>Life is a Skill Issue</b>
 
-![Image description](/assets/images/to-teach-engineering/beast.png)
+![Image description|w750](/assets/images/to-teach-engineering/beast.png)
 
 <a href="https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view">Mr Beast's memo/book to new employees got leaked</a>. Everyone has to read this.
 

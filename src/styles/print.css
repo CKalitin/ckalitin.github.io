@@ -46,9 +46,13 @@
     object-fit: contain;
   }
 
-  /* Full width on paper regardless of the on-screen |percentage --
-     a small image on screen would be illegibly tiny printed. */
-  .post-body .fig {
+  /* Only the explicit relative-width mode gets forced full-width on paper
+     -- a percentage of the screen column doesn't translate to a sensible
+     print size otherwise. Natural-size and absolute-px-cap images (a
+     deliberately small reference table, a low-res screenshot) should stay
+     exactly as small on paper as they are on screen, not get blown up
+     and printed blurry. */
+  .post-body .fig-width {
     max-width: 100%;
   }
 

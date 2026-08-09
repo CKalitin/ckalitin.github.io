@@ -8,7 +8,7 @@ redirectFrom:
   - /technology/2024/02/16/firefly-vs-rocketlab.html
 ---
 
-![Image description](/assets/images/firefly-vs-rocketlab/alpha-launch-1.jpg)
+![Image description|w600](/assets/images/firefly-vs-rocketlab/alpha-launch-1.jpg)
 
 Firefly's Alpha and Rocket Lab's Electron are both in a similar mass class of launch vehicles capable of catering to the small satellite launch market, but because of the differences in capability and price they are not in direct competition for most payloads.
 

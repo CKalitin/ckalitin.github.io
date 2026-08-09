@@ -8,7 +8,7 @@ redirectFrom:
   - /government/2023/10/17/waste-your-vote.html
 ---
 
-![Image description](/assets/images/covers/waste-your-vote.png)
+![Image description|w600](/assets/images/covers/waste-your-vote.png)
 
 [Update 2025 May 3]  
 During the 2025 Canadian federal election [my riding went conservative](https://en.wikipedia.org/wiki/New_Westminster%E2%80%94Burnaby%E2%80%94Maillardville). I was wrong, this blog post is an example of a teenager not fully writing the proofs for his statements. My old riding no longer exists as they were redrawn, so this is not a one to one comparison, but I was still wrong. Also, the conclusion of this blog post is horribly nihilistic.
