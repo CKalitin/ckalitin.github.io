@@ -104,7 +104,15 @@ function extractFigures(node) {
       i += 1;
       while (i < children.length && (isWhitespaceText(children[i]) || isBreak(children[i]))) i += 1;
       let caption = null;
-      if (i < children.length && children[i].type === 'element' && children[i].tagName === 'em') {
+      if (
+        i < children.length &&
+        children[i].type === 'element' &&
+        (children[i].tagName === 'em' || children[i].tagName === 'i')
+      ) {
+        // <em> comes from markdown *italics*; <i> from raw HTML captions
+        // (several posts hand-wrote <i><a href=...>...</a></i> captions
+        // with embedded links, e.g. an "Expanded Image" link) -- both are
+        // real captions, not just markdown-emitted ones.
         caption = children[i];
         i += 1;
         while (i < children.length && (isWhitespaceText(children[i]) || isBreak(children[i]))) i += 1;

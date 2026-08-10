@@ -94,7 +94,7 @@ The full BOM is [available here](https://docs.google.com/spreadsheets/d/1S_8XwXV
 [I asked former UBC Solar Electrical Lead Mischa Johal](/assets/images/analog-bms-project/mischa-on-direct-connections.jpg) about if we have / should use direct connections on our module sheet PCBs (they hold and provide current paths for our cells) to decrease the resistance of our pack. Apparently some characterization testing was done on this (with little documentation) and it was found that temperatures didn't significantly increase and resistance didn't significantly decrease.
 
 ![Image](/assets/images/analog-bms-project/i-love-my-moots.jpg)  
-<i><a href="/assets/images/analog-bms-project/i-love-my-moots.jpg" target="_blank" rel="noopener">Expanded Image</a></i>. I love my moots.
+<i><a href="/assets/images/analog-bms-project/i-love-my-moots.jpg" target="_blank" rel="noopener">Expanded Image</a>. I love my moots.</i>
 
 [One of my moots](https://x.com/sgull_dev/status/1958066751775596706) gave the amazing suggestion of removing all reference designators and replacing it with fun squiggles. The only logical response to this is to [get all my moots to send me their best pepes and memes](https://x.com/CKalitin/status/1958071000773587136) to put on the PCB, along with my [favourite 4chan greentext](https://www.reddit.com/r/4chan/comments/qnh8m5/best_thing_ive_ever_read_in_4chan/).
 

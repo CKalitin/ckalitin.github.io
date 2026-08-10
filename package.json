@@ -16,6 +16,7 @@
     "gray-matter": "^4.0.3",
     "katex": "^0.16.11",
     "rehype-katex": "^7.0.1",
+    "rehype-raw": "^7.0.0",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
