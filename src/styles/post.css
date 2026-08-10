@@ -148,6 +148,7 @@
 
 .post-body .fig figcaption {
   font-size: var(--fs-caption);
+  font-style: italic;
   color: var(--muted-2);
   margin-top: 6px;
 }
