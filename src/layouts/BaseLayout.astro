@@ -10,6 +10,8 @@ interface Props {
   image?: string;
 }
 const { title, description = 'Christopher Kalitin Blog', showHeader = true, image } = Astro.props;
+const absoluteImage = image ? new URL(image, Astro.site).toString() : undefined;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
 ---
 <!doctype html>
 <html lang="en">
@@ -18,7 +20,16 @@ const { title, description = 'Christopher Kalitin Blog', showHeader = true, imag
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    {image && <meta property="og:image" content={image} />}
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    {absoluteImage && <meta property="og:image" content={absoluteImage} />}
+    <meta name="twitter:card" content={absoluteImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {absoluteImage && <meta name="twitter:image" content={absoluteImage} />}
   </head>
   <body>
     {showHeader && <Header />}
