@@ -78,6 +78,19 @@ Two or more images in a row (with or without captions, with or without a blank l
 
 Where images live: `public/assets/images/<slug>/...` — reference them in markdown as `/assets/images/<slug>/filename.png` (root-relative).
 
+## Legacy URL redirects (do not delete these folders)
+
+`public/` has a long tail of top-level folders that don't fit the `assets/` pattern — `analogbms/`, `dumbshit/`, `energy/`, `engineering/`, `government/`, `idea/`, `ideas/`, `investing/`, `miscellaneous/`, `portfolio/`, `solar/`, `space/`, `technical/`, `technology/`, `ubc-solar/`. These look like clutter but aren't: they're the old Jekyll site's category-based permalink structure (e.g. `/energy/2025/08/01/energy-substrate-conversions.html`), preserved as static redirect stubs so old inbound links (search results, bookmarks, social shares) still resolve instead of 404ing. Each stub is a tiny HTML file that meta-refreshes and JS-redirects to the post's current `/posts/<slug>/` URL — same pattern used for the `public/projects/...` stubs that cover the pre-Astro `/projects/...` URLs.
+
+Every post that needed one records its old URL(s) in frontmatter:
+```yaml
+redirectFrom:
+  - /energy/2025/08/01/energy-substrate-conversions.html
+```
+`redirectFrom` is declared in `src/content/config.ts`, but nothing in the current build reads it — the stub files were generated once by `scripts/migrate-posts.mjs` during the Jekyll → Astro migration and now just sit in `public/` as plain static files. Adding a `redirectFrom` entry to a post today does **not** regenerate anything by itself; if a post's URL ever needs to move again, hand-write a new stub (copy an existing one and swap the two paths) or extend the migration script.
+
+**Do not delete these folders during cleanup** — they have no other purpose than serving old links, so they look unused by everything in `src/`, but removing them breaks real external links into the site.
+
 ## Appearances page
 
 Podcasts, interviews, etc. shown at `/appearances/` are just rows in `src/data/appearances.yaml`:
@@ -120,7 +133,7 @@ src/layouts/                page/post shells
 src/components/            header
 src/styles/tokens.css      colors, fonts, type scale, breakpoints -- the site's whole "theme" in one file
 src/lib/                   shared logic (word count, tag/URL helpers, the gallery + math rehype plugins)
-public/                    static files served as-is (images, PDFs, .nojekyll)
+public/                    static files served as-is (images, PDFs, .nojekyll, legacy Jekyll URL redirect stubs -- see "Legacy URL redirects" above)
 scripts/migrate-posts.mjs  one-time Jekyll->Astro migration script (kept for reference, not part of normal authoring)
 scripts/export-pdf.mjs     the PDF generation script
 ```
