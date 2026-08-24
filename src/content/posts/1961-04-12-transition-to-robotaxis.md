@@ -8,6 +8,8 @@ redirectFrom:
   - /technology/1961/04/12/transition-to-robotaxis.html
 ---
 
+**Drafted Dec 2023.**
+
 1. S-curves (show them, and why they're the future) "S-curves are destiny"
 2. Personal arguments do not matter, economics does
 3. Implications (less car ownership, new auotmotive market decreases, majority of income from software, first mover advantage?, bankruptcies, adjacent technologies, other transport methods that can't compete, clean future)
@@ -16,8 +18,6 @@ redirectFrom:
 
 1. EV revolution (S-curves, declining costs, Cross over point, Graphs, companies, etc.)
 2. Autonomous revolution (Predicting pace of AI, adoption in new vehicles (OEMs), retrofitting, potential first mover advantage, etc.)
-
-
 
 The automotive market is currently undergoing a transition from privately-owned internal combustion engine (ICE) vehicles to autonomous EV robotaxis. 
 
