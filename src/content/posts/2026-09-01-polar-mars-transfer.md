@@ -116,6 +116,6 @@ Furthermore, any plane that contains v_inf (ejection velocity vector) reaches th
 
 ### **Conclusion**
 
-Overall this blog post has been heavy on shape rotation and I'm not sure anyone will understand my points if they haven't spent a critical number of hours in Kerbal Space Program and thinking about orbital mechanics.
+In the end, we'll end up seeing all (rounds to 100%) of Starships flying into three orbital planes. Sun-Syncronous Orbit, the plane with an ideal RAAN for a Mars transfer, and the plane of the Moon's orbit. What a magnificent future we've just peered into.
 
-Nonetheless, this was a fun exercise and a satisfying way to prove to myself I've taught myself orbital mechanics.
+Overall this blog post has been heavy on shape rotation and I'm not sure anyone will understand my points if they haven't spent a critical number of hours in Kerbal Space Program and thinking about orbital mechanics. Nonetheless, this was a fun exercise and a satisfying way to prove to myself I've taught myself orbital mechanics.
