@@ -17,7 +17,7 @@ However, [achieving a trans Mars injection (TMI) is possible from a polar orbit]
 
 A range of orbits are achievable from Louisiana, with Starship overflying Mexico or the water between Mexico and Cuba or Cuba and Florida. As such, there are many ways to get to Mars from Louisiana, this blog post will explore the one most interesting from an orbital dynamics perspective.
 
-### **Traditional Mars Transfer Orbits**
+## **Traditional Mars Transfer Orbits**
 
 ![Image](/assets/images/polar-mars-transfer/earth_mars_transfer_trajectory.png)  
 *An Earth to Mars transfer trajectory with a 193 day time of flight, viewed in the plane of the ecliptic.*
@@ -29,7 +29,7 @@ A range of orbits are achievable from Louisiana, with Starship overflying Mexico
 
 An Earth-to-Mars Hohmann transfer is illustrated in the diagram above, which also happens to be the Starlink logo. Gateway to Mars.
 
-### **Polar Mars Transfer Orbits**
+## **Polar Mars Transfer Orbits**
 
 ![Image|80%](/assets/images/polar-mars-transfer/ecliptic_family_best_burn_3d.png)  
 *A polar parking orbit whose plane contains the Earth's heliocentric velocity vector, with the injection burn marked.*
@@ -44,7 +44,7 @@ To do so, we can use a polar orbit of the type shown above where the plane of th
 
 However, if the plane of our orbit does not contain the Earth's heliocentric velocity vector, we will have to expend more fuel to compensate for this. Because our trans Mars injection burn is not pointing in the same direction as the Earth's heliocentric velocity vector, we have to compensate by changing our velocity by the difference between the two vectors.
 
-### **Non-Hohmann Transfer Complications**
+## **Non-Hohmann Transfer Complications**
 
 How naive I was as I wrote the words you read above in the airport on my way to [see West](https://x.com/CKalitin/status/2093526059463451025?s=20).
 
@@ -65,7 +65,7 @@ As such, our transfer orbit is not a simple ellipse between two circular paths (
 
 One additional complication is that Mars' heliocentric inclination is 1.85 degrees offset from the Earth's so we once again don't burn parallel to the Earth's heliocentric velocity vector, but offset in the vertical direction. The diagram above shows this, where v_infinity (velocity when we're arbitrarily far away from the Earth's gravitational field) is not parallel to the Earth's velocity vector. The diagram above is a cross-section taken from the perspective of the sun.
 
-### **Polar Orbits Aren't Polar Relative To The Solar System**
+## **Polar Orbits Aren't Polar Relative To The Solar System**
 
 ![Image|w504](/assets/images/polar-mars-transfer/two_polar_plane_families.png)  
 *The two 'polar' plane families, each at its own minimum-dV RAAN.*
@@ -78,7 +78,7 @@ At this point the blog post is certainly devolving into far too much shape rotat
 
 The chart at the top of this section illustrates the difference between the two.
 
-### **Solving Transfer dV vs RAAN**
+## **Solving Transfer dV vs RAAN**
 
 ![Image|60%](/assets/images/polar-mars-transfer/orbital_elements_diagram.png)  
 *The six orbital elements.*
@@ -114,7 +114,7 @@ The interesting result is that we see a wall emerge below 22.85 degrees. The rea
 
 Furthermore, any plane that contains v_inf (ejection velocity vector) reaches the same minimum dV cost of 3.766 km/s. This is because the geometry of the transfer burn is invariant under rotation about the v_inf axis. In simpler terms, if the plane of your orbit contains your desired ejection vector, the inclination of your orbit is not a determining variable.
 
-### **Conclusion**
+## **Conclusion**
 
 In the end, we'll end up seeing all (rounds to 100%) of Starships flying into three orbital planes. Sun-Syncronous Orbit, the plane with an ideal RAAN for a Mars transfer, and the plane of the Moon's orbit. What a magnificent future we've just peered into.
 
