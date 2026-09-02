@@ -17,6 +17,8 @@ However, [achieving a trans Mars injection (TMI) is possible from a polar orbit]
 
 A range of orbits are achievable from Louisiana, with Starship overflying Mexico or the water between Mexico and Cuba or Cuba and Florida. As such, there are many ways to get to Mars from Louisiana, this blog post will explore the one most interesting from an orbital dynamics perspective.
 
+For more discussion, [reply here](https://x.com/CKalitin/status/2094992909271707875?s=20).
+
 ## **Traditional Mars Transfer Orbits**
 
 ![Image](/assets/images/polar-mars-transfer/earth_mars_transfer_trajectory.png)  
