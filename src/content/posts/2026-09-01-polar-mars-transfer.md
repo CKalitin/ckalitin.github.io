@@ -1,5 +1,5 @@
 ---
-title: Polar Orbit Mars Transfer Trajectories
+title: Mars Transfer Trajectories from Polar Earth Orbits
 date: '2026-09-01'
 tags:
   - Orbit / Aerospace Modelling
