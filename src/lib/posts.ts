@@ -4,6 +4,7 @@ export const TAG_ORDER = [
   'Techno-Economics',
   'Space Industry Analysis',
   'Projects',
+  'Orbit / Aerospace Modelling',
   'Ideas',
   'Vibes',
   'Drafts',

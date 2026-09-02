@@ -2,7 +2,7 @@
 title: What's An Optimal Lunar Atmospheric Pressure For Reentry Vehicles?
 date: '2025-08-11'
 tags:
-  - Projects
+  - Orbit / Aerospace Modelling
 image: /assets/images/optimal-lunar-atmosphere/impact_velocity_vs_atm_t0.1_linear.png
 redirectFrom:
   - /space/2025/08/11/optimal-lunar-atmosphere.html

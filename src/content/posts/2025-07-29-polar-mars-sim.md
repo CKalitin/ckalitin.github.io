@@ -2,7 +2,7 @@
 title: Rewriting My Mars Entry Simulation Using Polar Coordinates
 date: '2025-07-29'
 tags:
-  - Projects
+  - Orbit / Aerospace Modelling
 image: /assets/images/polar-mars-sim/Perseverance_Polar_xy.png
 redirectFrom:
   - /space/2025/07/29/polar-mars-sim.html

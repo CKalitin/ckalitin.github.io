@@ -2,7 +2,7 @@
 title: Modelling Mars’ Atmosphere for Simulating Blunt Body Entry Vehicles
 date: '2025-05-13'
 tags:
-  - Projects
+  - Orbit / Aerospace Modelling
 image: /assets/images/martian-atmosphere-model/Perseverance.png
 redirectFrom:
   - /space/2025/05/13/martian-atmosphere-model.html

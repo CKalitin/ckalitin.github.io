@@ -2,7 +2,7 @@
 title: Modelling dV Savings Of Super Synchronous Transfer Orbits
 date: '2026-01-29'
 tags:
-  - Projects
+  - Orbit / Aerospace Modelling
 image: /assets/images/falcon-9-cadence/f9_starlink_launches_vs_month_with_sigmoid.png
 redirectFrom:
   - /projects/2026/01/29/supersyncronous-transfer-orbits.html

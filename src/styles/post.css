@@ -184,15 +184,24 @@
   margin: 24px 0 32px;
 }
 
+/* Items are sized by a shared height and take their natural width from
+   the image's aspect ratio, so a row of mixed shapes still lines up and
+   no image gets cropped. Sizing by height is also what makes the scroller
+   actually scroll: the old `flex: 0 0 320px` meant two items came to
+   656px inside a 672px column, so every 2-image gallery fit exactly and
+   rendered as a pair of 200px-tall thumbnails that never moved. Two
+   square images are now 776px, wider than the column. */
 .post-body .gallery .fig {
-  flex: 0 0 320px;
+  flex: 0 0 auto;
   max-width: none;
   margin: 0;
 }
 
 .post-body .gallery .fig img {
-  height: 200px;
-  object-fit: cover;
+  height: var(--gallery-height, 380px);
+  width: auto;
+  max-width: none;
+  object-fit: contain;
 }
 
 @media (max-width: 640px) {
@@ -202,6 +211,12 @@
      max-width: 100% at any viewport, so they're left alone. */
   .post-body .fig-width {
     max-width: 100%;
+  }
+
+  /* A 380px-tall strip eats most of a phone screen; shrink it so the
+     gallery still reads as one scrollable row of images. */
+  .post-body .gallery {
+    --gallery-height: 240px;
   }
 }
 
