@@ -66,6 +66,12 @@
     transform: none;
   }
 
+  .post-body .gallery-wide {
+    width: 100%;
+    margin-left: auto;
+    transform: none;
+  }
+
   /* Spell out link destinations since printed pages can't be clicked. */
   .post-body a[href]::after {
     content: ' (' attr(href) ')';

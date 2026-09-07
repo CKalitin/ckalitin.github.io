@@ -231,16 +231,24 @@
   object-fit: contain;
 }
 
-/* A gallery scrolls horizontally and sizes its items by height, so the
-   column-breakout treatment has nothing to break out of -- left as-is,
-   translateX(-50%) just slides each figure on top of its neighbour.
-   Percent still applies here, but through --fig-scale on the height
-   above, so one authored |140% reads the same in a gallery as in the
-   column. */
+/* An item must never carry the breakout itself: inside a flex strip,
+   translateX(-50%) just slides each figure on top of its neighbour. */
 .post-body .gallery .fig-wide {
   width: auto;
   margin-left: 0;
   transform: none;
+}
+
+/* Over 100% in a gallery moves the breakout up to the STRIP. Widening an
+   item inside a column-width scroller only crops it against the same
+   edge -- widening the scroller is what actually shows more. Items grow
+   too, via --fig-scale inherited from here into the height calc above,
+   so a 140% two-image strip shows one full image at a time instead of
+   two-thirds of one. Same viewport cap as .fig-wide. */
+.post-body .gallery-wide {
+  width: min(var(--fig-pct), calc(100vw - 48px));
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 @media (max-width: 640px) {
@@ -266,6 +274,14 @@
      gallery still reads as one scrollable row of images. */
   .post-body .gallery {
     --gallery-height: 240px;
+  }
+
+  /* Same reasoning as .fig-wide above -- a phone column has no room to
+     break out into, so the strip stays put and only the items scale. */
+  .post-body .gallery-wide {
+    width: auto;
+    margin-left: 0;
+    transform: none;
   }
 }
 

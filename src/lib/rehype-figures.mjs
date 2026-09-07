@@ -61,6 +61,7 @@ function buildFigure(img, captionEm) {
   let alt = img.properties.alt || '';
   let className = ['fig'];
   let style = '';
+  let pctUsed = 0;
 
   const pxMatch = alt.match(PIXEL_RE);
   const pctMatch = !pxMatch && alt.match(PERCENT_RE);
@@ -72,6 +73,7 @@ function buildFigure(img, captionEm) {
     style = axis === 'h' ? `--fig-max-height: ${px}px` : `--fig-max-width-px: ${px}px`;
   } else if (pctMatch) {
     const pct = resolvePercent(pctMatch[1]);
+    pctUsed = pct;
     alt = alt.slice(0, pctMatch.index).trim();
     className = pct > 100 ? ['fig', 'fig-width', 'fig-wide'] : ['fig', 'fig-width'];
     // --fig-pct drives width in the normal column flow; --fig-scale is the
@@ -100,6 +102,11 @@ function buildFigure(img, captionEm) {
     type: 'element',
     tagName: 'figure',
     properties: { className, style },
+    // `data` is unist scratch space -- it never reaches the HTML. The
+    // gallery builder needs each figure's percentage to size the strip
+    // itself, and re-parsing it back out of the style string would be
+    // silly.
+    data: pctUsed ? { figPct: pctUsed } : undefined,
     children,
   };
 }
@@ -160,10 +167,21 @@ function processChildren(children) {
         i += 1;
       }
       if (collected.length >= 2) {
+        // A percentage inside a gallery has to size the STRIP, not the
+        // item: the strip is a fixed-width scroller, so growing an item
+        // inside it just crops the item at the same column edge. The
+        // largest percentage in the run wins, and the strip breaks out of
+        // the column by that much (with the items scaled to match), which
+        // is what actually makes the images bigger on screen.
+        const pct = Math.max(0, ...collected.map((f) => (f.data && f.data.figPct) || 0));
+        const wide = pct > 100;
         out.push({
           type: 'element',
           tagName: 'div',
-          properties: { className: ['gallery'] },
+          properties: {
+            className: wide ? ['gallery', 'gallery-wide'] : ['gallery'],
+            style: pct ? `--fig-pct: ${pct}%; --fig-scale: ${pct / 100}` : undefined,
+          },
           children: collected,
         });
       } else {

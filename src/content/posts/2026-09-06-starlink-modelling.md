@@ -197,9 +197,9 @@ The shape of the TAM vs satellite count curve is an S-curve because new markets 
 
 Previous satellite constellations like Iridium saturated available demand at their current size and cost before they could ride the cost curve down to unlock the next market. This inherently limited constellation size and drove a breakdown of growth.
 
-![Image](/assets/images/starlink-modelling/revenue_vs_unconnected_tam_overlay_log.png)
+![Image|120%](/assets/images/starlink-modelling/revenue_vs_unconnected_tam_overlay_log.png)
 *Log scale.*
-![Image](/assets/images/starlink-modelling/revenue_vs_unconnected_tam_overlay_linear.png)
+![Image|120%](/assets/images/starlink-modelling/revenue_vs_unconnected_tam_overlay_linear.png)
 *Linear scale.*
 
 As a litmus test of how accurate my model is, above is a backfit to SpaceX's historic Starlink revenue vs the number of satellites. On both the log and linear chart, SpaceX's growth follows surprisingly closely to my model! Great success!
@@ -274,9 +274,9 @@ Surprisingly, the decrease in cost from v2 Mini to V3 is primarily from the cost
 
 SpaceX's competitive advantage isn't just having the cheapest access to launch in the world (by a factor of 10x!), but also in having satellites that get 10-100x more output per kg than competitors who are still stuck behind Starlink v1.0 levels of performance.
 
-![Image](/assets/images/starlink-modelling/avg_price_per_gbps_vs_satellites_connected.png)
+![Image|120%](/assets/images/starlink-modelling/avg_price_per_gbps_vs_satellites_connected.png)
 *Log scale.*
-![Image](/assets/images/starlink-modelling/avg_price_per_gbps_vs_satellites_connected_linear.png)
+![Image|120%](/assets/images/starlink-modelling/avg_price_per_gbps_vs_satellites_connected_linear.png)
 *Linear scale.*
 
 Now that we have a cost model, we need a price model that gives us the price that the marginal Starlink user will pay as we increase the size of the constellation. To this end, we plot the average \$/Gb/year users pay vs number of deployed satellites. This arrangement gives us a [market](https://terraformindustries.wordpress.com/2026/06/16/the-enormous-size-of-the-oil-and-gas-market-drives-adoption-of-synthetic-fuel-production/#:~:text=market%20ladder) [ladder](https://ckalitin.github.io/posts/transition-to-robotaxis/#:~:text=in%20the-,future,How).
