@@ -28,9 +28,10 @@
   /* Type scale */
   --fs-header-title: 18px;
   --fs-nav: 11px;
-  --fs-post-title: 26px;
-  --fs-h2: 17px;
-  --fs-h3: 15px;
+  --fs-post-title: 30px;
+  --fs-h1: 26px;
+  --fs-h2: 22px;
+  --fs-h3: 18px;
   --fs-body: 14px;
   --fs-byline: 12px;
   --fs-list: 14px;
@@ -39,10 +40,10 @@
   --fs-grid-header: 17px;
   --fs-grid-date: 12px;
   --fs-mono-md: 11px;
-  --fs-blockquote: 13px;
-  --fs-code: 11px;
+  --fs-blockquote: 14px;
+  --fs-code: 12px;
   --fs-caption: 13px;
-  --fs-footer: 10px;
+  --fs-footer: 12px;
 
   /* Column-count breakpoints for the home grid live in index.astro's
      pickCols() -- this is just the per-column floor they're built around. */

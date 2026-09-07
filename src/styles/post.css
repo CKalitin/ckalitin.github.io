@@ -51,6 +51,17 @@
   margin: 0 0 20px;
 }
 
+/* `#` in a post is a section heading, not the page title -- .post-title
+   above is the real h1. Without this rule it fell through to the UA's
+   2em/28px, which outranked the 26px title; sized and spaced here to sit
+   between the title and h2 instead. */
+.post-body h1 {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  margin: 42px 0 16px;
+  letter-spacing: -0.01em;
+}
+
 .post-body h2 {
   font-size: var(--fs-h2);
   font-weight: 700;
@@ -98,7 +109,7 @@
   overflow-x: auto;
 }
 
-.post-body :not(pre) > code {
+.post-body :not(pre)>code {
   background: var(--code-bg);
   border: 1px solid var(--hairline-2);
   padding: 1px 5px;
@@ -158,9 +169,24 @@
 .post-body .fig-width {
   max-width: var(--fig-pct, 100%);
 }
+
 .post-body .fig-width img {
   width: 100%;
   max-width: none;
+}
+
+/* Over 100% (|150%, |200%) -- the image is deliberately wider than the
+   article column, for charts that are illegible squeezed into 672px.
+   margin-left:50% puts the figure's left edge at the column's centre and
+   the translate pulls it back by half its own width, so it stays centred
+   on the text no matter how wide it is. The viewport cap is what keeps
+   the *page* from scrolling sideways: 100vw counts the scrollbar, so the
+   gutter is subtracted to leave the image clear of both edges. */
+.post-body .fig-wide {
+  width: min(var(--fig-pct), calc(100vw - 48px));
+  max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 /* |h350 / |w600 -- absolute pixel cap recovered from the old Jekyll
@@ -170,6 +196,7 @@
   max-height: var(--fig-max-height);
   width: auto;
 }
+
 .post-body .fig-width-px img {
   max-width: min(var(--fig-max-width-px), 100%);
   width: auto;
@@ -198,19 +225,41 @@
 }
 
 .post-body .gallery .fig img {
-  height: var(--gallery-height, 380px);
+  height: calc(var(--gallery-height, 380px) * var(--fig-scale, 1));
   width: auto;
   max-width: none;
   object-fit: contain;
 }
 
+/* A gallery scrolls horizontally and sizes its items by height, so the
+   column-breakout treatment has nothing to break out of -- left as-is,
+   translateX(-50%) just slides each figure on top of its neighbour.
+   Percent still applies here, but through --fig-scale on the height
+   above, so one authored |140% reads the same in a gallery as in the
+   column. */
+.post-body .gallery .fig-wide {
+  width: auto;
+  margin-left: 0;
+  transform: none;
+}
+
 @media (max-width: 640px) {
+
   /* Only the explicit relative-width mode needs a mobile override --
      a small percentage of a phone-width column would be illegibly tiny.
      Natural sizing and absolute px caps already scale down correctly via
      max-width: 100% at any viewport, so they're left alone. */
   .post-body .fig-width {
     max-width: 100%;
+  }
+
+  /* A phone column is already narrower than any chart wants to be, so a
+     breakout has nothing to break out of -- drop back to plain
+     full-width rather than a 200% image the reader has to pan around. */
+  .post-body .fig-wide {
+    width: 100%;
+    margin-left: auto;
+    transform: none;
   }
 
   /* A 380px-tall strip eats most of a phone screen; shrink it so the
