@@ -17,7 +17,7 @@ The long-term future of the Starlink constellation is a topic that I've seen a d
 
 ![Image|80%](/assets/images/starlink-modelling/handmer_tweet.png)
 
-This blog post covers ideas that have been percolating in my mind for over a year. A couple of weeks ago, I was finally spurred on to modelling and writing it up after I saw a post by Pierre Lionnet, one of the few members of the rapidly growing field of space economics. In essence, his conjecture is that the marginal value of each additional Starlink satellite decreases fast enough to limit how large of a constellation SpaceX can economically build.
+This blog post covers ideas that have been percolating in my mind for over a year. A couple of weeks ago, I was finally spurred on to modelling and writing it up after I [saw a post by Pierre Lionnet](https://x.com/LionnetPierre/status/2086412494814286193), one of the few members of the rapidly growing field of space economics. In essence, his conjecture is that the marginal value of each additional Starlink satellite decreases fast enough to limit how large of a constellation SpaceX can economically build.
 
 Additionally, I've [debated](https://x.com/CJHandmer/status/1932668092511088954?s=20) my now former and currently future boss, Casey Handmer, on Starlink a couple of times, and it's time to think through the problems to completion, point out what he got wrong, and which points require more nuance.
 
