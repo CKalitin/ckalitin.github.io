@@ -258,7 +258,7 @@ Behind the global conquest I described in the previous section, is the assumptio
 
 Previously, many have dismissed this as possible due to servable population density limitations of satellite constellations, which I previously addressed. A corollary of this problem, is whether servable population density can be *economically* addressed. Each additional satellite increases the servable population density, but also decreases satellite utilization because already saturated geographies become supersaturated (eg. satellite utilization over rural areas goes from 50% to 25%).
 
-![Image](/assets/images/starlink-modelling/starlink-satellites-table.png)
+![Image|140%](/assets/images/starlink-modelling/starlink-satellites-table.png)
 *Cost and capacity assumptions for each Starlink generation.*
 
 ![Image](/assets/images/starlink-modelling/cost_per_gbps_by_generation.png)
