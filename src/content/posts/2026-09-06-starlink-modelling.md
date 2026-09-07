@@ -7,6 +7,8 @@ tags:
 image: /assets/images/starlink-modelling/coverage_bands_world_map.png
 ---
 
+For discussion of this blog post, or you've noticed I'm obvious wrong somewhere, [discuss here](https://x.com/CKalitin/status/2096782083121422632?s=20)!
+
 ![Image|140%](/assets/images/starlink-modelling/utilization_map_vs_satellites.gif)  
 *You're in for a beautiful analysis.*
 
