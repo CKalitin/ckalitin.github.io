@@ -36,10 +36,36 @@ const MIME = {
 };
 
 function getSlugs() {
-  return fs
+  const all = fs
     .readdirSync(POSTS_DIR)
     .filter((f) => f.endsWith('.md'))
     .map((f) => f.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, ''));
+  // `npm run pdf -- some-slug other-slug` regenerates just those, so a
+  // single post can be re-checked without rewriting all 70-odd PDFs.
+  const wanted = process.argv.slice(2);
+  return wanted.length ? all.filter((s) => wanted.includes(s)) : all;
+}
+
+// networkidle is not enough on its own: figure images carry
+// loading="lazy", so the ones below the initial viewport are never even
+// requested -- the network goes idle with them unloaded and they print
+// as blank gaps under their captions. Force them all eager and wait for
+// each to actually finish before handing the page to page.pdf().
+async function loadAllImages(page) {
+  await page.evaluate(async () => {
+    const imgs = [...document.querySelectorAll('img')];
+    for (const img of imgs) img.loading = 'eager';
+    await Promise.all(
+      imgs.map((img) =>
+        img.complete && img.naturalWidth > 0
+          ? null
+          : new Promise((resolve) => {
+              img.addEventListener('load', resolve, { once: true });
+              img.addEventListener('error', resolve, { once: true });
+            })
+      )
+    );
+  });
 }
 
 function startStaticServer() {
@@ -94,6 +120,7 @@ async function main() {
     try {
       const response = await page.goto(url, { waitUntil: 'networkidle' });
       if (!response || !response.ok()) throw new Error(`HTTP ${response ? response.status() : 'no response'}`);
+      await loadAllImages(page);
       const pdfPath = path.join(PUBLIC_PDF_DIR, `${slug}.pdf`);
       await page.pdf({
         path: pdfPath,
