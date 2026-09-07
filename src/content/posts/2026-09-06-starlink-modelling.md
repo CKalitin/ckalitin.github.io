@@ -227,9 +227,9 @@ This is an extremely powerful position to be in. The legacy prerequisite to comp
 
 Instead of a billion dollar investment with no promise of success, Starlink becomes profitable on unserved users and then ambiently begins poaching users where each user pays them for the right to be a user! Expansion is driven by each user paying hundreds of dollars for a user terminal! Alternatively you can subsidize the low capex cost of the terminal and amortize it over the subscription period to entice ever more customers!
 
-![Image](/assets/images/starlink-modelling/tam_full_vs_satellites_by_region.png)
+![Image|140%](/assets/images/starlink-modelling/tam_full_vs_satellites_by_region.png)
 *Full TAM by region.*
-![Image](/assets/images/starlink-modelling/tam_full_vs_satellites_by_segment.png)
+![Image|140%](/assets/images/starlink-modelling/tam_full_vs_satellites_by_segment.png)
 *Full TAM split into previously unconnected users and users poached from terrestrial ISPs.*
 
 Now, we can quantify the beautiful picture I elucidated above. Starlink can saturate current global household internet demand at ~100,000 Starlink V3 satellites and make ~\$50B/month = \$600B/year. This is 5x higher than the TAM for serving purely previously unconnected users.
