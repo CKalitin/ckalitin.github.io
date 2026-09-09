@@ -229,6 +229,8 @@ This is an extremely powerful position to be in. The legacy prerequisite to comp
 
 Instead of a billion dollar investment with no promise of success, Starlink becomes profitable on unserved users and then ambiently begins poaching users where each user pays them for the right to be a user! Expansion is driven by each user paying hundreds of dollars for a user terminal! Alternatively you can subsidize the low capex cost of the terminal and amortize it over the subscription period to entice ever more customers!
 
+[Tim Farrar pointed out](https://x.com/TMFAssociates/status/2097488414631235855?s=20) that my treatment of Starlink terminal costs and other minor costs wasn't rigorous enough, [so here is an update](https://x.com/CKalitin/status/2097493754932343005?s=20). The conclusion doesn't change enough to warrant an explanation here, everything above remains directionally correct.
+
 ![Image|140%](/assets/images/starlink-modelling/tam_full_vs_satellites_by_region.png)
 *Full TAM by region.*
 ![Image|140%](/assets/images/starlink-modelling/tam_full_vs_satellites_by_segment.png)
