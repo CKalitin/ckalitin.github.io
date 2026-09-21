@@ -43,8 +43,9 @@ However, when I was tasked with characterizing the low voltage system current se
 
 Furthermore, it was a mistake that could have so easily been spotted! "Hey Chris are you probing right next to those other pins? What are they? Are you sure you won't short anything?" Anyone could (and should!) have asked this walking by, but no one did. Whenever anyone is working on a 134 V battery pack, you should be asking them questions about what they are doing and why for both your learning and to keep them focused and reevaluating the path they're taking.
 
-![Image|w906](/assets/images/ubc-solar-mistakes/slaveboard-1.jpg)  
-![Image|w300](/assets/images/ubc-solar-mistakes/slaveboard-2.jpg)  
+![Image](/assets/images/ubc-solar-mistakes/slaveboard-1.jpg)  
+
+![Image](/assets/images/ubc-solar-mistakes/slaveboard-2.jpg)  
 <i>You'd think this would be enough warning to stave off anyone who doesn't know what they're doing!</i>
 
 We use the LTC6813 chip in our battery to sense the temperature and voltage of the battery modules. This same chip is used by Tesla and is complex enough that not a soul in the design team bay fundamentally understands how it works and is completely confident using it. 

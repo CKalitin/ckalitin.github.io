@@ -8,7 +8,7 @@ redirectFrom:
   - /ideas/2025/10/13/managing-technical-teams.html
 ---
 
-![Image](/assets/images/managing-technical-teams/meme.png)  
+![Image|30%](/assets/images/managing-technical-teams/meme.png)  
 
 Several years ago I saw the meme above and realized I came to the exact opposite conclusion as most people discussing it. [I've done my share of complaining about education](https://ckalitin.github.io/idea/2025/04/26/low-leverage-university.html), but the most useful insights from this meme is not to feel sympathy for the child.
 
