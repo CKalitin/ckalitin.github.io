@@ -80,15 +80,7 @@ Where images live: `public/assets/images/<slug>/...` — reference them in markd
 
 ## Appearances page
 
-Podcasts, interviews, etc. shown at `/appearances/` are just rows in `src/data/appearances.yaml`:
-
-```yaml
-- date: 2026-01-15
-  link: https://example.com/episode
-  text: Guest on Example Podcast, episode 42 — talked about reflector economics.
-```
-
-Add an entry, no code changes needed.
+Podcasts, interviews, etc. shown at `/appearances/` are just plain markdown in `src/pages/appearances.md` — edit it the same way as any other page, no structured fields required.
 
 ## PDF export
 
@@ -114,7 +106,6 @@ npm run preview   # serves the built dist/ at localhost:4321
 
 ```
 src/content/posts/*.md     the actual blog posts (this is what you edit)
-src/data/appearances.yaml  the Appearances page data
 src/pages/                 site routes (home, chronological, appearances, post template, 404)
 src/layouts/                page/post shells
 src/components/            header
