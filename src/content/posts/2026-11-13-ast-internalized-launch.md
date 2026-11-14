@@ -144,4 +144,4 @@ For AST to be successful they have to capture a critical number of customers at 
 
 The defining characteristic of the American launch market is that gross profit margins are extremely high and launch demand is far greater than supply. This leads to a large incentive for vertical integration of launch vehicles and satellites, which has played out with SpaceX; Rocket Lab and NordSpace are in the process of implementing; and Cowboy Space, Starpath, and AST have noticed.
 
-This makes AST's decision to internalize launch capability entirely logical. However, it does not guarantee success in building a successful launch vehicle on time or budget, which has time and again
+This makes AST's decision to internalize launch capability entirely logical. However, it does not guarantee success in building a successful launch vehicle on time or budget, which has time and again proven to be something the majority of organizations fail at.
