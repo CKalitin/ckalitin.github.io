@@ -26,6 +26,8 @@ Astro-based static blog. This README is the authoring guide — everything you n
 
 3. Write the body as normal markdown below the frontmatter.
 
+   **Section headings:** the default for major section titles is a bold H1 — `# **Section Title**` (as in `2026-09-06-starlink-modelling.md`). Obsidian drafts often use `###`; convert those to `# **...**` when copying a post in. Use smaller levels (`##`, `###`) only for genuine sub-sections, and plain `**Bold line**` for minor labels within a section.
+
 Word count, byline date formatting, and the post's URL are all computed automatically at build time — nothing else to fill in.
 
 ## Real-time preview while writing
