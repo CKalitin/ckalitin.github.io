@@ -95,7 +95,7 @@ Because China's satellite internet constellations Qianfan and Guowang are state-
 
 The CEO of Starpath went on [Ti Morse's excellent podcast Relentless](https://www.youtube.com/watch?v=QEACSjIYPrg&t=217s) recently and spelled out the logic behind why so many satellite companies are looking toward in-sourcing launch. This podcast formed the basis for the insights in this blog post.
 
-The fundamental trade-off that occurs at every western launch company is between launch prices and launch costs. SpaceX achieved ~$15M marginal launch costs with the Falcon 9 while they charge ~$70M. That difference in cost is what every launch company is aiming for, and if achieved it gives them a big cost advantage for internal space applications like satellite internet or AI compute satellites.
+The fundamental trade-off that occurs at every western launch company is between launch prices and launch costs. SpaceX achieved ~\$15M marginal launch costs with the Falcon 9 while they charge ~$70M. That difference in cost is what every launch company is aiming for, and if achieved it gives them a big cost advantage for internal space applications like satellite internet or AI compute satellites.
 
 The extremely high launch gross margins lead to a world in which every launch company is incentivized to become a satellite constellation company and not launch external customer payloads. Notice the contrast between this market and how I described China's launch market in the previous section.
 
