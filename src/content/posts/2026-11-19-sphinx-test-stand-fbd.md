@@ -344,7 +344,7 @@ To get the distribution of ground reaction forces this model used an array of hi
 
 In the previous simulations we found that the limiting safety factor was Z-axis moment on each joint. A potential solution to this problem is using triangle brackets that have anti-rotation keys. These slot into the 8020 channel and allow us to resist moment with normal force on the inside of the channel instead of purely friction.
 
-For reference, we previously had a maximum <!-- TODO: finish this sentence (unfinished in the original doc) -->
+For reference, we previously had a maximum moment of 4.2 Nm and now we’re up to 36 Nm.
 
 ![Image|120%](/assets/images/sphinx-test-stand-fbd/anti-rotation-lowest-safety-factors.png)
 *3D model lowest safety factors with anti-rotation key brackets.*
